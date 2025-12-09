@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protocol Decision Tree - Scorch Protocol</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Mermaid.js for diagram rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+    </script>
+</head>
+
+<body>
+
+    <nav>
+        <h2>The Scorch Protocol</h2>
+        <ul>
+            <li><a href="index.html">Overview & Principles</a></li>
+            <li><a href="decision-tree.html" class="active">Decision Logic Tree</a></li>
+            <li><a href="preparation.html">Phase 1: Preparation</a></li>
+            <li><a href="dry-fasting.html">Phase 2: The Dry Fast</a></li>
+            <li><a href="refeeding.html">Phase 3: The Refeed</a></li>
+            <li><a href="t3-therapy.html">Phase 4: T3 Therapy</a></li>
+            <li><a href="symptom-management.html">Symptom Management</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Protocol Decision Logic Tree</h1>
+        <p>This page visualizes the "If Then" logic of the protocol. It is rendered dynamically from text, making it
+            easy to tweak as you learn more.
+            <br><strong>How to edit:</strong> Open this file in your code editor and change the text inside the `div
+            class="mermaid"`.
+        </p>
+
+        <div class="guiding-questions">
+            <h3>Example: Lipid Profile Decisions</h3>
+            <p>This chart helps decide on supplements based on cholesterol levels during the protocol.</p>
+        </div>
+
+        <!-- MERMAID DIAGRAM START -->
+        <div class="mermaid">
+            graph TD
+            Start[Start: Analyzing Blood Work] --> Thyroid{Evaluate Thyroid Panel}
+
+            Thyroid -->|High TSH + Low T4/T3| Primary[Primary Hypothyroidism Detected<br />Consider Standard T4/T3
+            Meds<br />STOP HERE]
+            Thyroid -->|Normal TSH + Low T3/High rT3| Chronic[Euthyroid / Chronic Fatigue Profile]
+
+            Chronic --> Markers{Check Key Markers:<br />Cholesterol, eGFR, Insulin Resistance}
+
+            Markers -->|Low Cholesterol| Preg[Protocol: T3 Therapy + Pregnenolone]
+            Markers -->|High Cholesterol OR<br />Low eGFR OR<br />Insulin Resistance| Strong[Strong Rec: T3 Therapy
+            Only]
+            Markers -->|None Elevated| Mild[Milder T3 Therapy<br />Monitor/Optional]
+
+            Preg --> Liver{Check Liver Enzymes<br />ALT/AST}
+            Strong --> Liver
+            Mild --> Liver
+
+            Liver -->|High ALT/AST| Tudca[Add TUDCA + NAC]
+            Liver -->|Normal| Standard[Continue Standard Protocol]
+
+            style Strong fill:#ffcccc,stroke:#f00,stroke-width:2px
+            style Preg fill:#ccffcc,stroke:#0f0,stroke-width:2px
+            style Tudca fill:#e1f5fe,stroke:#03a9f4,stroke-width:2px
+            style Primary fill:#e9ecef,stroke:#6c757d,stroke-width:2px,stroke-dasharray: 5 5
+        </div>
+        </div>
+        <!-- MERMAID DIAGRAM END -->
+
+        <div class="guidance-box">
+            <h3>Need Personalized Guidance?</h3>
+            <p>Protocol adjustments can be nuanced. If you need 1-on-1 support, consider booking a session with
+                <strong>Yannick Wolfe</strong>.
+            </p>
+            <p><strong>What you get:</strong> A personal therapist, researcher, and coach all in one.</p>
+            <p><em>Guarantee: Full refunds offered for anyone that does not heal with 1-on-1 guidance. Personalized
+                    medication shipping available if you are unable to source your own.</em></p>
+            <a href="https://dryfastingclub.com" target="_blank" class="guidance-btn">Visit DryFastingClub.com</a>
+        </div>
+
+        <div class="findings-section">
+            <h3>Logic Notes</h3>
+            <p><em>Use this area to note down new logic rules you want to add to the diagram later.</em></p>
+            <textarea placeholder="e.g., If Ferritin is low -> Add Iron bisglycinate..."></textarea>
+        </div>
+    </main>
+
+</body>
+
+</html>
