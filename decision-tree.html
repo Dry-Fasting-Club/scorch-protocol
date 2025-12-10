@@ -30,48 +30,51 @@
 
     <main>
         <h1>Protocol Decision Logic Tree</h1>
-        <p>This page visualizes the "If Then" logic of the protocol. It is rendered dynamically from text, making it
-            easy to tweak as you learn more.
-            <br><strong>How to edit:</strong> Open this file in your code editor and change the text inside the `div
-            class="mermaid"`.
-        </p>
 
-        High LDL<br />• Cold Extremities<br />• Low Energy Availability"]
-        Assess -->|Path B: High-Carb| PathB["Path B: High-Carb Background<br />• Lean or Skinny-Fat<br />• Wired/Hot
-        and High FGF21<br />• Difficulty Gaining Mass"]
+        <!-- DIET HISTORY FLOWCHART -->
+        <h2>Part 1: Diet History & Carb Approach</h2>
+        <p>Determine your starting point based on previous diet history (Carnivore vs. High Carb).</p>
+        <div class="mermaid">
+            graph TD
+            Start["Start: Chronic Symptoms + Extreme Diet History"] --> Assess{"Assess Current Diet Background"}
 
-        PathA --> Bloodwork["Full Bloodwork + Symptom Check"]
-        PathB --> Bloodwork
+            Assess -->|Path A: Carnivore / Low-Carb| PathA["Path A: Carnivore/Low-Carb Background<br />• Belly fat and
+            High LDL<br />• Cold Extremities<br />• Low Energy Availability"]
+            Assess -->|Path B: High-Carb| PathB["Path B: High-Carb Background<br />• Lean or Skinny-Fat<br />• Wired/Hot
+            and High FGF21<br />• Difficulty Gaining Mass"]
 
-        Bloodwork --> Urgent{"Any Urgent Issues?<br />Gallstones, Tumors, Organ Dysfunction"}
-        Urgent -->|Yes| Medical["Address Medically First<br />STOP HERE"]
-        Urgent -->|No| Proceed["Proceed on Your Path"]
+            PathA --> Bloodwork["Full Bloodwork + Symptom Check"]
+            PathB --> Bloodwork
 
-        Proceed -->|Path A| Phase1A["Phase 1A: Gradual Carb Reintroduction<br />• Avoid Spikes<br />• Honey in milk,
-        OJ with meals<br />• Bridge with frequent small meals"]
-        Proceed -->|Path B| Phase1B["Phase 1B: Reduce Carb Load & Stabilize<br />• Lower total carbs
-        temporarily<br />• Balance Protein/Carbs/Fats<br />• Cut stimulants/juice-only patterns"]
+            Bloodwork --> Urgent{"Any Urgent Issues?<br />Gallstones, Tumors, Organ Dysfunction"}
+            Urgent -->|Yes| Medical["Address Medically First<br />STOP HERE"]
+            Urgent -->|No| Proceed["Proceed on Your Path"]
 
-        Phase1A --> Phase2A["Phase 2A: Build Metabolic Capacity<br />• Increase carb volume<br />• Magnesium +
-        Salt/Sugar Balance<br />• Gentle movement only"]
-        Phase1B --> Phase2B["Phase 2B: Support Liver & Insulin Sensitivity<br />• Pro-metabolic foods (Fruit, Dairy,
-        Roots)<br />• Liver support nutrients"]
+            Proceed -->|Path A| Phase1A["Phase 1A: Gradual Carb Reintroduction<br />• Avoid Spikes<br />• Honey in milk,
+            OJ with meals<br />• Bridge with frequent small meals"]
+            Proceed -->|Path B| Phase1B["Phase 1B: Reduce Carb Load & Stabilize<br />• Lower total carbs
+            temporarily<br />• Balance Protein/Carbs/Fats<br />• Cut stimulants/juice-only patterns"]
 
-        Phase2A --> Converge["Phase 3: Liver Therapy & Bioenergetics<br />• Restore energy production<br />• Target
-        98.6F / 80-85 bpm"]
-        Phase2B --> Converge
+            Phase1A --> Phase2A["Phase 2A: Build Metabolic Capacity<br />• Increase carb volume<br />• Magnesium +
+            Salt/Sugar Balance<br />• Gentle movement only"]
+            Phase1B --> Phase2B["Phase 2B: Support Liver & Insulin Sensitivity<br />• Pro-metabolic foods (Fruit, Dairy,
+            Roots)<br />• Liver support nutrients"]
 
-        Converge --> T3["Phase 4: Introduce T3 Therapy<br />• If Low Temps + Poor Conversion<br />• Start low/slow"]
+            Phase2A --> Converge["Phase 3: Liver Therapy & Bioenergetics<br />• Restore energy production<br />• Target
+            98.6F / 80-85 bpm"]
+            Phase2B --> Converge
 
-        T3 --> Scorch["Phase 5: Scorch Protocol (Dry Fasting)<br />• When metabolism stable<br />• Build: 36h -> 72h
-        -> 5-day<br />• Goal: Stem Cell Activation"]
+            Converge --> T3["Phase 4: Introduce T3 Therapy<br />• If Low Temps + Poor Conversion<br />• Start low/slow"]
 
-        Scorch --> Maintain["Ongoing: Cycle & Maintain"]
+            T3 --> Scorch["Phase 5: Scorch Protocol (Dry Fasting)<br />• When metabolism stable<br />• Build: 36h -> 72h
+            -> 5-day<br />• Goal: Stem Cell Activation"]
 
-        style PathA fill:#e2e3e5,stroke:#383d41,stroke-width:2px
-        style PathB fill:#e2e3e5,stroke:#383d41,stroke-width:2px
-        style Urgent fill:#ffcccc,stroke:#f00,stroke-width:2px
-        style Scorch fill:#d4edda,stroke:#28a745,stroke-width:2px
+            Scorch --> Maintain["Ongoing: Cycle & Maintain"]
+
+            style PathA fill:#e2e3e5,stroke:#383d41,stroke-width:2px
+            style PathB fill:#e2e3e5,stroke:#383d41,stroke-width:2px
+            style Urgent fill:#ffcccc,stroke:#f00,stroke-width:2px
+            style Scorch fill:#d4edda,stroke:#28a745,stroke-width:2px
         </div>
 
         <hr style="margin: 3rem 0; border: 0; border-top: 1px solid #eee;">
