@@ -36,107 +36,47 @@
             class="mermaid"`.
         </p>
 
-        <div class="guiding-questions">
-            <h3>Example: Lipid Profile Decisions</h3>
-            <p>This chart helps decide on supplements based on cholesterol levels during the protocol.</p>
-        </div>
+        High LDL<br />• Cold Extremities<br />• Low Energy Availability"]
+        Assess -->|Path B: High-Carb| PathB["Path B: High-Carb Background<br />• Lean or Skinny-Fat<br />• Wired/Hot
+        and High FGF21<br />• Difficulty Gaining Mass"]
 
-        <!-- DIAGNOSTIC FLOWCHART -->
-        <h2>Part 1: Diagnosis & Eligibility Flow</h2>
-        <p>Use this chart first to determine if you are ready for the Scorch Protocol.</p>
-        <div class="mermaid">
-            graph TD
-            Start["Start: Presenting with CFS Symptoms<br />Fatigue, Brain Fog, Insomnia, Unrefreshing Sleep"] -->
-            Step1{"Step 1: Blood Tests & Imaging<br />Urgent/Structural Issues?"}
+        PathA --> Bloodwork["Full Bloodwork + Symptom Check"]
+        PathB --> Bloodwork
 
-            Step1 -->|Yes| Urgent["Address Immediately<br />Tumors, Gallstones, Severe Organ Dysfunction<br />Anemia,
-            Active Infection<br />STOP HERE"]
-            Step1 -->|No| Step2{"Step 2: Check Fungal Overgrowth<br />Symptoms: White tongue, Sugar cravings, Bloating,
-            Rashes<br />History: Antibiotics<br />Tests: Candida antibodies, Organic acids"}
+        Bloodwork --> Urgent{"Any Urgent Issues?<br />Gallstones, Tumors, Organ Dysfunction"}
+        Urgent -->|Yes| Medical["Address Medically First<br />STOP HERE"]
+        Urgent -->|No| Proceed["Proceed on Your Path"]
 
-            Step2 -->|Yes| Fungal["Fungal Strategy<br />• Monolaurin (ramp up)<br />• Fluconazole (short course)<br />•
-            Pro-metabolic Diet<br />Resolve then Reassess"]
-            Step2 -->|No| Step3{"Step 3: Check Parasitic Signs<br />Symptoms: Alternating GI issues, Night itching,
-            Travel<br />Tests: Eosinophilia, Stool Ova & Parasites"}
+        Proceed -->|Path A| Phase1A["Phase 1A: Gradual Carb Reintroduction<br />• Avoid Spikes<br />• Honey in milk,
+        OJ with meals<br />• Bridge with frequent small meals"]
+        Proceed -->|Path B| Phase1B["Phase 1B: Reduce Carb Load & Stabilize<br />• Lower total carbs
+        temporarily<br />• Balance Protein/Carbs/Fats<br />• Cut stimulants/juice-only patterns"]
 
-            Step3 -->|Yes| Parasite["Anti-Parasitic Strategy<br />• Broad-spectrum meds<br />• Support
-            Detox/Energy<br />Resolve then Reassess"]
-            Step3 -->|No| Step4{"Step 4: Check Insulin Resistance / Fatty Liver<br />Symptoms: Post-meal crash,
-            Abdominal weight, Adrenaline surges<br />Tests: High Insulin/Glucose, A1c, Triglycerides"}
+        Phase1A --> Phase2A["Phase 2A: Build Metabolic Capacity<br />• Increase carb volume<br />• Magnesium +
+        Salt/Sugar Balance<br />• Gentle movement only"]
+        Phase1B --> Phase2B["Phase 2B: Support Liver & Insulin Sensitivity<br />• Pro-metabolic foods (Fruit, Dairy,
+        Roots)<br />• Liver support nutrients"]
 
-            Step4 -->|Yes| IR["Bioenergetics IR Therapy (Ray Peat-Inspired)<br />• Diet: Fruit/OJ/Dairy/Coconut Oil with
-            Protein<br />• Supports: Magnesium, Vit D, Balanced Salt<br />• Avoid: PUFAs, Fasting initially<br />•
-            Extras: Light exposure, Progest-E"]
+        Phase2A --> Converge["Phase 3: Liver Therapy & Bioenergetics<br />• Restore energy production<br />• Target
+        98.6F / 80-85 bpm"]
+        Phase2B --> Converge
 
-            IR --> Reassess{"Improved?"}
-            Reassess -->|Yes| Scorch
+        Converge --> T3["Phase 4: Introduce T3 Therapy<br />• If Low Temps + Poor Conversion<br />• Start low/slow"]
 
-            Step4 -->|No| Step5["Step 5: Classic Low-Metabolism CFS Profile<br />• Normal Labs but persistent
-            symptoms<br />• Low Waking Temps &lt; 97.7F<br />• Cold Extremities and PEM<br />• Poor Carb Tolerance
-            (Adrenaline/Insomnia)"]
+        T3 --> Scorch["Phase 5: Scorch Protocol (Dry Fasting)<br />• When metabolism stable<br />• Build: 36h -> 72h
+        -> 5-day<br />• Goal: Stem Cell Activation"]
 
-            Step5 --> Scorch["Strong Candidate: Scorch Protocol (Dry Fasting Reset)<br />• Prep: Shift to Pro-metabolic
-            fuels<br />• Buildup: 36h -> 72h -> 5-day dry fasts<br />• Goal: Deep Acidosis Scorch (Autophagy/Stem
-            Cells)<br />• Refeed: Juices, Milk, Fruit"]
+        Scorch --> Maintain["Ongoing: Cycle & Maintain"]
 
-            style Urgent fill:#ffcccc,stroke:#f00,stroke-width:2px
-            style Fungal fill:#fff3cd,stroke:#ffc107,stroke-width:2px
-            style Parasite fill:#fff3cd,stroke:#ffc107,stroke-width:2px
-            style IR fill:#fff3cd,stroke:#ffc107,stroke-width:2px
-            style Step5 fill:#d4edda,stroke:#28a745,stroke-width:2px
+        style PathA fill:#e2e3e5,stroke:#383d41,stroke-width:2px
+        style PathB fill:#e2e3e5,stroke:#383d41,stroke-width:2px
+        style Urgent fill:#ffcccc,stroke:#f00,stroke-width:2px
+        style Scorch fill:#d4edda,stroke:#28a745,stroke-width:2px
         </div>
 
         <hr style="margin: 3rem 0; border: 0; border-top: 1px solid #eee;">
 
-        <!-- DIET HISTORY FLOWCHART -->
-        <h2>Part 2: Diet History & Carb Approach</h2>
-        <p>Determine your starting point based on previous diet history (Carnivore vs. High Carb).</p>
-        <div class="mermaid">
-            graph TD
-            Start["Start: Chronic Symptoms + Extreme Diet History"] --> Assess{"Assess Current Diet Background"}
-
-            Assess -->|Path A: Carnivore / Low-Carb| PathA["Path A: Carnivore/Low-Carb Background<br />• Belly fat and
-            High LDL<br />• Cold Extremities<br />• Low Energy Availability"]
-            Assess -->|Path B: High-Carb| PathB["Path B: High-Carb Background<br />• Lean or Skinny-Fat<br />• Wired/Hot
-            and High FGF21<br />• Difficulty Gaining Mass"]
-
-            PathA --> Bloodwork["Full Bloodwork + Symptom Check"]
-            PathB --> Bloodwork
-
-            Bloodwork --> Urgent{"Any Urgent Issues?<br />Gallstones, Tumors, Organ Dysfunction"}
-            Urgent -->|Yes| Medical["Address Medically First<br />STOP HERE"]
-            Urgent -->|No| Proceed["Proceed on Your Path"]
-
-            Proceed -->|Path A| Phase1A["Phase 1A: Gradual Carb Reintroduction<br />• Avoid Spikes<br />• Honey in milk,
-            OJ with meals<br />• Bridge with frequent small meals"]
-            Proceed -->|Path B| Phase1B["Phase 1B: Reduce Carb Load & Stabilize<br />• Lower total carbs
-            temporarily<br />• Balance Protein/Carbs/Fats<br />• Cut stimulants/juice-only patterns"]
-
-            Phase1A --> Phase2A["Phase 2A: Build Metabolic Capacity<br />• Increase carb volume<br />• Magnesium +
-            Salt/Sugar Balance<br />• Gentle movement only"]
-            Phase1B --> Phase2B["Phase 2B: Support Liver & Insulin Sensitivity<br />• Pro-metabolic foods (Fruit, Dairy,
-            Roots)<br />• Liver support nutrients"]
-
-            Phase2A --> Converge["Phase 3: Liver Therapy & Bioenergetics<br />• Restore energy production<br />• Target
-            98.6F / 80-85 bpm"]
-            Phase2B --> Converge
-
-            Converge --> T3["Phase 4: Introduce T3 Therapy<br />• If Low Temps + Poor Conversion<br />• Start low/slow"]
-
-            T3 --> Scorch["Phase 5: Scorch Protocol (Dry Fasting)<br />• When metabolism stable<br />• Build: 36h -> 72h
-            -> 5-day<br />• Goal: Stem Cell Activation"]
-
-            Scorch --> Maintain["Ongoing: Cycle & Maintain"]
-
-            style PathA fill:#e2e3e5,stroke:#383d41,stroke-width:2px
-            style PathB fill:#e2e3e5,stroke:#383d41,stroke-width:2px
-            style Urgent fill:#ffcccc,stroke:#f00,stroke-width:2px
-            style Scorch fill:#d4edda,stroke:#28a745,stroke-width:2px
-        </div>
-
-        <hr style="margin: 3rem 0; border: 0; border-top: 1px solid #eee;">
-
-        <h2>Part 3: Protocol Specifics Flow</h2>
+        <h2>Part 2: Protocol Specifics Flow</h2>
         <p>Once you are eligible, use this chart to tailor the protocol to your blood work.</p>
         <!-- MERMAID DIAGRAM START -->
         <div class="mermaid">
