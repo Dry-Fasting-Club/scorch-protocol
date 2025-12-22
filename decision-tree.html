@@ -37,8 +37,18 @@
     <main>
         <h1>Protocol Decision Logic Tree</h1>
 
+        <div
+            style="background-color: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 5px; margin-bottom: 30px;">
+            <strong style="display: block; margin-bottom: 10px; color: #2c3e50;">Table of Contents</strong>
+            <ul style="margin: 0; padding-left: 20px;">
+                <li><a href="#part1">Part 1: Diet History & Carb Approach</a></li>
+                <li><a href="#part2">Part 2: Protocol Specifics Flow</a></li>
+                <li><a href="#part3">Part 3: Long COVID, IR & Ivermectin</a></li>
+            </ul>
+        </div>
+
         <!-- DIET HISTORY FLOWCHART -->
-        <h2>Part 1: Diet History & Carb Approach</h2>
+        <h2 id="part1">Part 1: Diet History & Carb Approach</h2>
         <p>Determine your starting point based on previous diet history (Carnivore vs. High Carb).</p>
         <div class="mermaid">
             graph TD
@@ -85,16 +95,17 @@
 
         <hr style="margin: 3rem 0; border: 0; border-top: 1px solid #eee;">
 
-        <h2>Part 2: Protocol Specifics Flow</h2>
-        <p>Once you are eligible, use this chart to tailor the protocol to your blood work.</p>
+        <h2 id="part2">Part 2: T3 Thyroid Assessment</h2>
+        <p>How to evaluate T3 thyroid status.</p>
         <!-- MERMAID DIAGRAM START -->
         <div class="mermaid">
             graph TD
             Start[Start: Analyzing Blood Work] --> Thyroid{Evaluate Thyroid Panel}
 
             Thyroid -->|High TSH + Low T4/T3| Primary[Primary Hypothyroidism Detected<br />Consider Standard T4/T3
-            Meds<br />STOP HERE]
-            Thyroid -->|Normal TSH + Low T3/High rT3| Chronic[Euthyroid / Chronic Fatigue Profile]
+            Meds<br />Re-assess in 3 months]
+            Thyroid -->|Normal TSH + Fatigue and Low temps| Chronic[Euthyroid + Chronic Fatigue Profile]
+            Thyroid -->|Low TSH Under 1| Hyper[Hyperthyroidism Detected - Need to Address with Fasting]
 
             Chronic --> Markers{Check Key Markers:<br />Cholesterol, eGFR, Insulin Resistance}
 
@@ -117,6 +128,56 @@
         </div>
         </div>
         <!-- MERMAID DIAGRAM END -->
+
+        <hr style="margin: 3rem 0; border: 0; border-top: 1px solid #eee;">
+
+        <h2 id="part3">Part 3: Long COVID, Insulin Resistance (IR) & Ivermectin</h2>
+
+        <p><strong>Model for Long covid therapeutics like Ivermectin, Ketotifen, etc.</strong></p>
+        <p>There are a few supplements around calming the immune system and reducing inflammation that can be used to
+            treat long covid symptoms. One of the more powerful and consistent helpers is Ivermectin</p>
+
+        <div class="mermaid">
+            graph TD
+            Start["Start: Patient w/ Long COVID Symptoms<br />(Brain Fog, Fatigue, Suspected IR)"] --> Assess{"Assess
+            Baseline:<br />Check IR Markers (HOMA-IR >3)<br />& Liver Function"}
+
+            Assess -->|IR Confirmed| Trial["Initiate Ivermectin Trial<br />(e.g., 12mg/day for 4-6
+            weeks)<br />Rationale: Reset FXR, Reduce IR"]
+            Assess -->|IR NOT Confirmed| Mock["Rule out other drivers (e.g. Neuro-inflammation).<br />Still consider
+            trial (Low Dose)"]
+
+            Mock --> Trial
+
+            Trial --> Result?{"Result after 4-6 weeks"}
+
+            Result? -->|Improved| Sust{"Monitor Sustainability<br />(3 months)"}
+            Result? -->|No Improvement| Pivot["Pivot Strategy<br />Reassess non-FXR drivers"]
+
+            Pivot --> Alternate["Root Cause First<br />(Fasting / Autophagy)"]
+
+            Sust -->|Stable| Taper["Taper to PRN<br />(Path 1: Reset / Epigenetic Shift)"]
+            Sust -->|Relapse| Maint["Switch to Maintenance Pulse<br />(e.g., 12mg 3-5 days biweekly)"]
+
+            Maint --> Root["Address Root Cause:<br />Fasting / Autophagy Protocols<br />(Clear Viral Reservoirs)"]
+
+            style Trial fill:#d4edda,stroke:#28a745,stroke-width:2px
+            style Remission fill:#c3e6cb,stroke:#28a745,stroke-width:4px
+            style Pivot fill:#f8d7da,stroke:#dc3545,stroke-width:2px
+            style Root fill:#fff3cd,stroke:#ffc107,stroke-width:2px
+        </div>
+
+        <div class="guiding-questions" style="margin-top: 2rem;">
+            <h3>Key Takeaways</h3>
+            <ul>
+                <li><strong>The Bridge:</strong> Ivermectin acts as a metabolic bridge, offering quick wins via liver/IR
+                    optimization.</li>
+                <li><strong>Durability:</strong> Long-term success often hinges on eradicating viral reservoirs through
+                    autophagy (fasting).</li>
+                <li><strong>Maintenance:</strong> In cohorts, pulsing maintains 70–80% of gains long-term while avoiding
+                    tolerance.</li>
+            </ul>
+        </div>
 
         <div class="guidance-box">
             <h3>Need Personalized Guidance?</h3>
