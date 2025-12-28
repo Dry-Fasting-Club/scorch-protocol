@@ -196,3 +196,58 @@ tr:hover {
 .guidance-btn:hover {
     background-color: #117a65;
 }
+
+/* Core Pillars Grid */
+.core-pillars {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.pillar-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    border-left: 8px solid var(--accent-color);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.pillar-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.pillar-item h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.pillar-item:nth-child(2) {
+    border-left-color: #3498db;
+}
+
+.pillar-item:nth-child(3) {
+    border-left-color: #f1c40f;
+}
+
+.pillar-item p {
+    margin-bottom: 0;
+    color: #444;
+}
+
+.pillar-item strong {
+    color: var(--primary-color);
+}
+
+/* Warning/Insight Box Enhancement */
+.warning-box {
+    border-radius: 8px;
+    font-style: italic;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
