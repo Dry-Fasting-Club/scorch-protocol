@@ -41,11 +41,39 @@
             style="background-color: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 5px; margin-bottom: 30px;">
             <strong style="display: block; margin-bottom: 10px; color: #2c3e50;">Table of Contents</strong>
             <ul style="margin: 0; padding-left: 20px;">
+                <li><a href="#part0">Part 0: Protocol Category Selection</a></li>
                 <li><a href="#part1">Part 1: Diet History & Carb Approach</a></li>
                 <li><a href="#part2">Part 2: Protocol Specifics Flow</a></li>
                 <li><a href="#part3">Part 3: Long COVID, IR & Ivermectin</a></li>
             </ul>
         </div>
+
+        <!-- PROTOCOL CATEGORY SELECTION -->
+        <h2 id="part0">Part 0: Protocol Category Selection</h2>
+        <p>Determine which Scorch Protocol category is path-appropriate for your current health status.</p>
+        <div class="mermaid">
+            graph TD
+            Start["Start: Protocol Selection"] --> Q1{"I have recently been feeling ill for the past few
+            months<br />and/or I am still fairly functional,<br />aka I can still work out"}
+
+            Q1 -->|Yes| Beginner["You fall under the Beginner Scorch Protocol<br />Focus: Phase 1, 2, 3"]
+            Q1 -->|No| Q2{"I have been sick for over 6 months<br />and it is affecting my daily life
+            significantly<br />but I can still manage it with tons of supplements or medication.<br />I get PEM after
+            exercise."}
+
+            Q2 -->|Yes| Intermediate["You fall under the intermediate Scorch Protocol<br />Focus: Phase 1, 2, 3, 4"]
+            Q2 -->|No| Q3{"I have been sick for well over a year,<br />I have tried tons of therapies and only kept
+            getting worse.<br />I am not functional."}
+
+            Q3 -->|Yes| Advanced["Focus on the Advanced Scorch Protocol<br />Focus: Phase 1, 2, 3, 4, 5"]
+            Q3 -->|No| Consult["Further Assessment Needed<br />Consult with the community or coach"]
+
+            style Beginner fill:#d4edda,stroke:#28a745,stroke-width:2px
+            style Intermediate fill:#fff3cd,stroke:#ffc107,stroke-width:2px
+            style Advanced fill:#f8d7da,stroke:#dc3545,stroke-width:2px
+        </div>
+
+        <hr style="margin: 3rem 0; border: 0; border-top: 1px solid #eee;">
 
         <!-- DIET HISTORY FLOWCHART -->
         <h2 id="part1">Part 1: Diet History & Carb Approach</h2>

@@ -1,0 +1,57 @@
+{
+  "id": "patient-005-jordan-minkin",
+  "name": "Jordan Minkin",
+  "age": 67,
+  "gender": "Male",
+  "dateAdded": "2025-12-22",
+  "weight": "160",
+  "height": "5'10\"",
+  "dietPreProgram": "Carnivore",
+  "initialNotes": "Expectations: Reduce: fatigue, chemical sensitivity, inflammation (homocysteine), high cholesterol, arteriosclerosis, tinnitus, neuropathy, micro clots, long covid, asthma and allergies.\n\nMedications: Desiccated Thyroid, Tamsulosin, LDN, Viagra",
+  "preDryfastingCycles": [
+    {
+      "date": "2025-12-22",
+      "symptoms": [
+        "Fatigue: 3/10",
+        "Headaches: 10/10",
+        "Irritability: 3/10",
+        "Fluid retention: 10/10",
+        "Anxiety: 4/10",
+        "Shortness of Breath: 6/10",
+        "Depression: 4/10",
+        "Brain Fog: 3/10",
+        "Lightheaded | POTS: 7/10",
+        "Constipation: 4/10",
+        "Ringing in the ears: 2/10",
+        "Insomnia: 10/10",
+        "Allergies: 4/10",
+        "Elevated cholesterol: 3/10",
+        "Extreme Tiredness | PEM: 5/10",
+        "Sweating abnormalities: 4/10",
+        "Heat and/or cold intolerance: 10/10",
+        "Frequent yeast infections (candida symptoms): 5/10",
+        "Cold hands and feet turn blue: 5/10",
+        "Excessively tired after eating: 6/10",
+        "Heart Palpitations - Healthy ECG/MRI: 10/10"
+      ],
+      "notes": "Pre-treatment baseline assessment"
+    }
+  ],
+  "dryFastingCycles": [],
+  "t3Cycles": [],
+  "refeedingCycles": [],
+  "meetings": [
+    {
+      "date": "2025-12-22",
+      "summary": "Initial consultation. Deep dive into 30-year history of chemical exposure, Long Covid, and metabolic state ('Torpor'). Confirmed low BMR hypothesis via low pulse/temp.",
+      "nextSteps": [
+        "Read Scorch Protocol (Focus on decision tree & T3 therapy)",
+        "Acquire T3 (Resolve crypto exchange issues/use mail forwarder)",
+        "Order Supplements: TUDCA, Vitamin B1 (Thiamine), Vitamin K, Aspirin",
+        "Send remaining blood test pages",
+        "Next Call: Dec 29th"
+      ],
+      "notes": "History: 30 years sick (chemical exposures + Long Covid). 'Vaccine injury' discussion. \n\nMetabolic Status: 'Torpor' confirmed. Pulse ~49-55 bpm, Temp ~96F. Fingers get stuck/joint pain (gout/RA like).\n\nDietary Paradox: Feels '1000x better' on carbs (energy returns) but lipids/cholesterol worsen. Ketovore/Carnivore causes fatigue return.\n\nPlan: Prioritize raising BMR (Basal Metabolic Rate) over fasting for now. T3 + TUDCA + B1 key."
+    }
+  ]
+}

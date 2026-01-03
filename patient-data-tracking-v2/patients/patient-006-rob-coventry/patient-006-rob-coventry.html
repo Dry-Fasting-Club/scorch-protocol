@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rob Coventry - Patient Data</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: #667eea;
+            text-decoration: none;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+
+        .info-item {
+            font-size: 14px;
+        }
+
+        .info-label {
+            font-weight: 600;
+            color: #666;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .section-title {
+            font-size: 22px;
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .section.empty .section-title {
+            color: #999;
+        }
+
+        .entry {
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .entry-date {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .symptoms-list {
+            list-style: none;
+            padding-left: 0;
+            margin: 10px 0;
+        }
+
+        .symptoms-list li {
+            padding: 5px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .symptoms-list li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .notes {
+            margin-top: 10px;
+            padding: 10px;
+            background: #fff8e1;
+            border-left: 3px solid #ffc107;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+
+        .empty-message {
+            color: #999;
+            font-style: italic;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="../../index.html" class="back-link">← Back to Patient List</a>
+            <h1>Rob Coventry</h1>
+            <div class="info-grid">
+                <div class="info-item"><span class="info-label">Age:</span> 42</div>
+                <div class="info-item"><span class="info-label">Gender:</span> Male</div>
+                <div class="info-item"><span class="info-label">Weight:</span> 190</div>
+                <div class="info-item"><span class="info-label">Height:</span> 75</div>
+                <div class="info-item"><span class="info-label">Date Added:</span> 2025-12-23</div>
+            </div>
+        </div>
+
+        <!-- Pre-Dry Fasting Section -->
+        <div class="section">
+            <div class="section-title">Pre-Dry Fasting</div>
+            <div class="entry">
+                <div class="entry-date">Date: 2025-12-23</div>
+                <div><strong>Symptoms:</strong></div>
+                <ul class="symptoms-list">
+                    <li>Fatigue: 3/10</li>
+                    <li>Headaches: 1/10</li>
+                    <li>Irritability: 3/10</li>
+                    <li>Fluid retention: 8/10</li>
+                    <li>Anxiety: 7/10</li>
+                    <li>Shortness of Breath: 10/10</li>
+                    <li>Depression: 7/10</li>
+                    <li>Brain Fog: 1/10</li>
+                    <li>Lightheaded | POTS: 8/10</li>
+                    <li>Constipation: 10/10</li>
+                    <li>Ringing in the ears: 1/10</li>
+                    <li>Insomnia: 2/10</li>
+                    <li>Allergies: 10/10</li>
+                    <li>Elevated cholesterol: 4/10</li>
+                    <li>Extreme Tiredness | PEM: 6/10</li>
+                    <li>Sweating abnormalities: 10/10</li>
+                    <li>Heat and/or cold intolerance: 8/10</li>
+                    <li>Frequent yeast infections (candida symptoms): 10/10</li>
+                    <li>Cold hands and feet turn blue: 9/10</li>
+                    <li>Excessively tired after eating: 8/10</li>
+                    <li>Heart Palpitations - Healthy ECG/MRI: /10</li>
+                </ul>
+                <div class="notes"><strong>Notes:</strong> Pre-treatment baseline assessment</div>
+            </div>
+        </div>
+
+        <!-- After Dry Fasting Section -->
+        <div class="section">
+            <div class="section-title">After Dry Fasting</div>
+            <div class="entry">
+                <div class="entry-date">Date: 2026-01-02 (Post 5.5 Day Fast)</div>
+                <div><strong>Symptoms:</strong></div>
+                <ul class="symptoms-list">
+                    <li>Ulcer/Stomach Pain: 7/10 (Triggered termination)</li>
+                    <li>Brain Fog: Improved (better decision making)</li>
+                    <li>Tinnitus: Flared post-fast</li>
+                    <li>Concussion Pressure: Still present (dizziness when bending)</li>
+                    <li>Cold Extremities: Noted (metabolic transition)</li>
+                </ul>
+                <div class="notes"><strong>Notes:</strong> Fast originally planned for 9 days but stopped at 5.5 due to
+                    sharp gut/stomach pain. Brain clarity improved during the fast, but physical symptoms spiked
+                    post-break. Currently refeeding on Kempner-style rice/fruit diet.</div>
+            </div>
+        </div>
+
+        <!-- After T3 Cycle Section -->
+        <div class="section empty">
+            <div class="section-title">After T3 Cycle</div>
+            <div class="empty-message">No entries yet.</div>
+        </div>
+
+        <!-- Meeting Notes Section -->
+        <div class="section">
+            <div class="section-title">Consultation Notes</div>
+            <div class="entry">
+                <div class="entry-date">Date: 2026-01-02</div>
+                <div style="margin-bottom: 10px;"><strong>Summary:</strong> Review of 5.5 day fast termination and
+                    transition to metabolic rebuilding phase via SRT-3 therapy.</div>
+
+                <div style="margin-bottom: 15px;">
+                    <strong>Key Notes:</strong>
+                    <ul class="symptoms-list">
+                        <li><strong>Fast Termination:</strong> Stopped at 5.5 days due to acute gut/stomach pain
+                            (suspected ulcer). Brain fog improved significantly during the fast.</li>
+                        <li><strong>Next Steps:</strong> 6-month moratorium on fasting. Focus shifting to T3 therapy for
+                            BMR rebuilding.</li>
+                        <li><strong>Refeeding:</strong> Transitioning to Kempner-style rice/fruit diet. Cold extremities
+                            noted as a normal metabolic shift.</li>
+                        <li><strong>Adrenaline/Cortisol:</strong> Discussed the high-stress signals of long fasts and
+                            the need for carbs to signal safety to the body.</li>
+                    </ul>
+                </div>
+
+                <div class="notes" style="background: #e3f2fd; border-left-color: #2196f3;">
+                    <strong>Next Steps:</strong>
+                    <ul style="margin: 8px 0 0 20px; padding-left: 0;">
+                        <li>NO MORE FASTING for 6 months</li>
+                        <li>Procure T3 medication (2 bottles 10mcg, 2 bottles 25mcg)</li>
+                        <li>Strictly managed caffeine reduction</li>
+                        <li>Maintain Kempner-style refeed to optimize BMR</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="entry-date">Date: 2025-12-26</div>
+                <div style="margin-bottom: 10px;"><strong>Summary:</strong> Check-in on Day 4 of fast (planning 9 days).
+                    Discussion on T3 procurement, recent car accident impact, and symptom review.</div>
+
+                <div style="margin-bottom: 15px;">
+                    <strong>Key Notes:</strong>
+                    <ul class="symptoms-list">
+                        <li><strong>Fast Status:</strong> Day 4. Symptoms: Lightheadedness, white/tingly extremities,
+                            internal buzzing (whiplash related?).</li>
+                        <li><strong>Medical History Notes:</strong> Lymph nodes removed (right side). Stomach ulcer
+                            history.</li>
+                        <li><strong>Plan:</strong> Continue fast to 9 days. Procure T3 for upcoming cycle.</li>
+                    </ul>
+                </div>
+
+                <div class="notes" style="background: #e3f2fd; border-left-color: #2196f3;">
+                    <strong>Next Steps:</strong>
+                    <ul style="margin: 8px 0 0 20px; padding-left: 0;">
+                        <li>Continue current dry fast (Goal: 9 days)</li>
+                        <li>Purchase T3 medication (2 bottles 10mcg, 2 bottles 25mcg)</li>
+                        <li>Monitor 'ulcer' pain vs liver pain during refeed</li>
+                        <li>Next Meeting: Discuss BMR goal and Minnesota Starvation Experiment</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Insights & Patterns Section -->
+        <div class="section">
+            <div class="section-title">Insights & Patterns</div>
+            <div class="entry">
+                <div style="margin-bottom: 15px;">
+                    <strong>Recurring Themes:</strong>
+                    <ul class="symptoms-list">
+                        <li><strong>Metabolic Rate Decline via Over-Fasting:</strong> Patient has a high baseline of
+                            fasting experience, but metabolic rates have likely plateaued/declined, necessitating a
+                            transition to rebuilding.</li>
+                        <li><strong>Caffeine Dependence:</strong> Identifying caffeine as a 'crutch' that masks
+                            metabolic dysfunction. Termination of high-dose caffeine (4-6 cups) is essential for true
+                            BMR assessment.</li>
+                        <li><strong>"Wall" During Refeeding:</strong> Patient is entering the phase where increased
+                            calories can trigger symptoms (brain fog/inflammation) due to insulin resistance, requiring
+                            T3 'ceiling lifting'.</li>
+                        <li><strong>Fasting Adaptation:</strong> Patient's ability to 'break through' on Day 6 suggests
+                            over-adaptation to high cortisol/adrenaline fasting states, masking the need for deeper
+                            cellular rest.</li>
+                    </ul>
+                </div>
+                <div class="notes">
+                    <strong>Observation:</strong> 6-month moratorium on fasting is strictly required to allow for SRT-3
+                    metabolic restoration and to prevent potential further autonomic burnout. T3 therapy is now the
+                    primary priority over further dry fasting.
+                </div>
+            </div>
+        </div>
+
+        <!-- After Refeeding Section -->
+        <div class="section empty">
+            <div class="section-title">After Refeeding</div>
+            <div class="empty-message">No entries yet.</div>
+        </div>
+    </div>
+</body>
+
+</html>
