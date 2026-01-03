@@ -94,19 +94,14 @@
             Urgent -->|Yes| Medical["Address Medically First<br />STOP HERE"]
             Urgent -->|No| Proceed["Proceed on Your Path"]
 
-            Proceed -->|Path A| Phase1A["Phase 1A: Gradual Carb Reintroduction<br />• Avoid Spikes<br />• Honey in milk,
-            OJ with meals<br />• Bridge with frequent small meals"]
-            Proceed -->|Path B| Phase1B["Phase 1B: Reduce Carb Load & Stabilize<br />• Lower total carbs
-            temporarily<br />• Balance Protein/Carbs/Fats<br />• Cut stimulants/juice-only patterns"]
+            Proceed -->|Path A| Phase1A["Phase 1A: Gradual Carb Reintroduction<br />The goal here is to carefully
+            reintroduce carbs<br />and bridge the metabolic gap with the scorch protocol"]
+            Proceed -->|Path B| Phase1B["Phase 1B: Figure out weight loss issue:<br />• Is it high metabolism?<br />• Is
+            it insulin resistance (diabetes)?<br />• Is it high FGF21?<br />• Try and fix to put on weight."]
 
-            Phase1A --> Phase2A["Phase 2A: Build Metabolic Capacity<br />• Increase carb volume<br />• Magnesium +
-            Salt/Sugar Balance<br />• Gentle movement only"]
-            Phase1B --> Phase2B["Phase 2B: Support Liver & Insulin Sensitivity<br />• Pro-metabolic foods (Fruit, Dairy,
-            Roots)<br />• Liver support nutrients"]
-
-            Phase2A --> Converge["Phase 3: Liver Therapy & Bioenergetics<br />• Restore energy production<br />• Target
+            Phase1A --> Converge["Phase 3: Liver Therapy & Bioenergetics<br />• Restore energy production<br />• Target
             98.6F / 80-85 bpm"]
-            Phase2B --> Converge
+            Phase1B --> Converge
 
             Converge --> T3["Phase 4: Introduce T3 Therapy<br />• If Low Temps + Poor Conversion<br />• Start low/slow"]
 
