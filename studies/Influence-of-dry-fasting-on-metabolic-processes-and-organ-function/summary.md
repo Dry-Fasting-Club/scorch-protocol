@@ -179,7 +179,7 @@ This study provided a comprehensive biochemical analysis of blood serum from pat
 **Chloride (Cl-):**
 - Paralleled sodium changes
 
-**Interpretation:** Despite no intake, blood levels of Potassium, Sodium, and Calcium stayed perfectly balanced, as the body aggressively conserved these minerals by shutting down renal excretion.
+**Interpretation:** Despite no intake, blood levels of Potassium, Sodium, and Calcium stayed perfectly balanced, as the body aggressively conserved these minerals by shutting down renal excretion. (Note, that 5 day dry fast studies by Ioannis (Dry-Fasting-Physiology-Responses-to-Hypovolemia) found that potassium excretion in urine was much higher than sodium idicating that sodium retention was occuring due to aldosterone activation via high cortisol which also leads to drastic potassium excretion. Please note that until day 3, the values trended closely together as indicated by this study (78% Na vs 68% K) but by day 4 the divergence grew rapidly.)
 
 **Urinary Electrolyte Excretion:**
 - **Sodium excretion:** Reduced 78%
