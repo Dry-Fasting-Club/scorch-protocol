@@ -1,7 +1,6 @@
 patient-data-tracking-v2/
 youtube-scripts/
 # scorch-protocol-research/
-# studies/ (Temporarily commented out for library expansion)
 # studies/
 .DS_Store
 *.log
