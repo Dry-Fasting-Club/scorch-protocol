@@ -129,6 +129,7 @@ This study utilized sophisticated somatometric measurements to track exactly whi
 - Protein loss: 4.2 g × 6.25 = 26.25 g protein/day
 - Over 3 days: ~195 g protein total
 - **As percentage of LBM:** 195g / 55,300g = 0.35% (negligible)
+- **The calculation uses the factor of 6.25 because it is the universally accepted, historical conversion factor for estimating crude protein content from the measured nitrogen content, based on the assumption that all proteins contain approximately 16% nitrogen by mass.**
 
 **3-Methylhistidine (Muscle-Specific Breakdown Marker):**
 - Baseline: 240 ± 45 μmol/24h

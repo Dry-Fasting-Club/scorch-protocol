@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sailik Kundu - Patient Data</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: #667eea;
+            text-decoration: none;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+
+        .info-item {
+            font-size: 14px;
+        }
+
+        .info-label {
+            font-weight: 600;
+            color: #666;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .section-title {
+            font-size: 22px;
+            font-weight: 700;
+            color: #667eea;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .section.empty .section-title {
+            color: #999;
+        }
+
+        .entry {
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        .entry-date {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .symptoms-list {
+            list-style: none;
+            padding-left: 0;
+            margin: 10px 0;
+        }
+
+        .symptoms-list li {
+            padding: 5px 0;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .symptoms-list li:before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .notes {
+            margin-top: 10px;
+            padding: 10px;
+            background: #fff8e1;
+            border-left: 3px solid #ffc107;
+            border-radius: 3px;
+            font-size: 14px;
+        }
+
+        .empty-message {
+            color: #999;
+            font-style: italic;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="../../index.html" class="back-link">← Back to Patient List</a>
+            <h1>Sailik Kundu</h1>
+            <div class="info-grid">
+                <div class="info-item"><span class="info-label">Age:</span> 25</div>
+                <div class="info-item"><span class="info-label">Gender:</span> Male</div>
+                <div class="info-item"><span class="info-label">Weight:</span> 139 lbs</div>
+                <div class="info-item"><span class="info-label">Height:</span> 5'9"</div>
+                <div class="info-item"><span class="info-label">Date Added:</span> 2025-12-03</div>
+            </div>
+        </div>
+
+        <!-- Pre-Dry Fasting Section -->
+        <div class="section">
+            <div class="section-title">Pre-Dry Fasting</div>
+            <div class="entry">
+                <div class="entry-date">Date: 2025-12-03</div>
+                <div><strong>Symptoms:</strong></div>
+                <ul class="symptoms-list">
+                    <li>Fatigue: 4/10</li>
+                    <li>Headaches: 10/10</li>
+                    <li>Irritability: 1/10</li>
+                    <li>Fluid retention: 10/10</li>
+                    <li>Anxiety: 5/10</li>
+                    <li>Shortness of Breath: 2/10</li>
+                    <li>Depression: 9/10</li>
+                    <li>Brain Fog: 1/10</li>
+                    <li>Lightheaded | POTS: 10/10</li>
+                    <li>Constipation: 8/10</li>
+                    <li>Ringing in the ears: 10/10</li>
+                    <li>Insomnia: 9/10</li>
+                    <li>Allergies: 5/10</li>
+                    <li>Elevated cholesterol: 10/10</li>
+                    <li>Extreme Tiredness | PEM: 4/10</li>
+                    <li>Sweating abnormalities: 10/10</li>
+                    <li>Heat and/or cold intolerance: 6/10</li>
+                    <li>Frequent yeast infections (candida symptoms): 10/10</li>
+                    <li>Cold hands and feet turn blue: 3/10</li>
+                    <li>Excessively tired after eating: 4/10</li>
+                    <li>Heart Palpitations - Healthy ECG/MRI: 10/10</li>
+                </ul>
+                <div class="notes"><strong>Notes:</strong> Pre-treatment baseline assessment</div>
+            </div>
+        </div>
+
+        <!-- After Dry Fasting Section -->
+        <div class="section empty">
+            <div class="section-title">After Dry Fasting</div>
+            <div class="empty-message">No entries yet.</div>
+        </div>
+
+        <!-- After T3 Cycle Section -->
+        <div class="section empty">
+            <div class="section-title">After T3 Cycle</div>
+            <div class="empty-message">No entries yet.</div>
+        </div>
+
+        <!-- Meeting Notes Section -->
+        <div class="section">
+            <div class="section-title">Consultation Notes</div>
+            <div class="entry">
+                <div class="entry-date">Date: 2026-01-09</div>
+                <div style="margin-bottom: 10px;"><strong>Summary:</strong> Check-in on Day 3 of 120h dry fast. T3
+                    staircase
+                    logic (ramp-down) and viral reactivation protocol planning.</div>
+
+                <div style="margin-bottom: 15px;">
+                    <strong>Key Notes:</strong>
+                    <ul class="symptoms-list">
+                        <li><strong>Fast Status:</strong> Day 3 of 5. Feeling clearer headed and less anxious. Utilizing
+                            Buteyko breathwork (CO2 tolerance) and somatic meditation to manage heart rate and thirst.
+                        </li>
+                        <li><strong>T3 Methodology:</strong> Clarified the "Staircase" ramp-down. To maintain 98.6
+                            morning temperatures, ramp-down should be 2x-3x longer than ramp-up (3 days at each step).
+                        </li>
+                        <li><strong>Viral Risk:</strong> Disclosed childhood history of pneumonia and typhoid. High
+                            suspicion of viral reactivation (HSV/EBV) as a driver of illness. Initiating post-fast Day 2
+                            antiviral protocol (Olive Leaf, Elderberry, Lysine).</li>
+                        <li><strong>Medication Hack:</strong> Advised to break T3 pills in half/quarters to improve
+                            dissolution and ensure full absorption.</li>
+                        <li><strong>Lab Review:</strong> TSH suppression is normal for Scorch Protocol. EGFR (>120) and
+                            liver panels are excellent. High B12 likely from supplement accumulation.</li>
+                    </ul>
+                </div>
+
+                <div class="notes" style="background: #e3f2fd; border-left-color: #2196f3;">
+                    <strong>Next Steps:</strong>
+                    <ul style="margin: 8px 0 0 20px; padding-left: 0;">
+                        <li>Complete current 5-day dry fast</li>
+                        <li>Order Olive Leaf, Elderberry, and L-Lysine for post-fast Day 2</li>
+                        <li>Start T3 on Jan 13 (Day 2 refeed) - 15mcg (7.5mcg BID)</li>
+                        <li>Perform T3 ramp-down at 3 days per step (3x pace)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="entry-date">Date: 2026-01-02</div>
+                <div style="margin-bottom: 10px;"><strong>Summary:</strong> Review of ivermectin trial, T3 withdrawal
+                    effects, and Ketotifen (MCAS) strategy. Planning for upcoming 120h dry fast and T3 Scorch Protocol.
+                </div>
+
+                <div style="margin-bottom: 15px;">
+                    <strong>Key Notes:</strong>
+                    <ul class="symptoms-list">
+                        <li><strong>Ivermectin:</strong> 5 days in. Day 1 showed temporary (2h) 90% brain fog reduction,
+                            but effect has not returned. Reacting well (no allergies).</li>
+                        <li><strong>Medications:</strong> Stopped T3 recently; noticed worsened cold hands/feet.
+                            Ketotifen trial starting (MCAS strategy).</li>
+                        <li><strong>Scorch Protocol:</strong> Deep dive into SRT-3 Scorch Protocol. Advised to print the
+                            ramp-up schedule (day 1-10 template).</li>
+                        <li><strong>Fast Status:</strong> 5-day (120h) Dry Fast scheduled starting <strong>January
+                                7th</strong>.</li>
+                    </ul>
+                </div>
+
+                <div class="notes" style="background: #e3f2fd; border-left-color: #2196f3;">
+                    <strong>Next Steps:</strong>
+                    <ul style="margin: 8px 0 0 20px; padding-left: 0;">
+                        <li>Start Ketotifen trial (0.25mg -> 0.5mg -> 1mg) to monitor sensitivity</li>
+                        <li>Read the entire Scorch Protocol (Phase 1-4) during the upcoming fast</li>
+                        <li>Print the T3 ramp-up schedule</li>
+                        <li>Start 120h Dry Fast on January 7th</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="entry-date">Date: 2025-12-26</div>
+                <div style="margin-bottom: 10px;"><strong>Summary:</strong> Check-in on Day 2 of 72h dry fast, review of
+                    symptoms and T3 usage, planning for next 5-day fast.</div>
+
+                <div style="margin-bottom: 15px;">
+                    <strong>Key Notes:</strong>
+                    <ul class="symptoms-list">
+                        <li><strong>Fast Status:</strong> Day 2 of 72h. Symptoms: fatigue, coffee withdrawal headaches,
+                            transient RUQ pain.</li>
+                        <li><strong>Medications:</strong> T3 (20mcg/day). High HR noted. Advised to split doses in
+                            future.</li>
+                        <li><strong>Next Cycle:</strong> 5-day Dry Fast scheduled to start <strong>January 7th</strong>.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="notes" style="background: #e3f2fd; border-left-color: #2196f3;">
+                    <strong>Next Steps:</strong>
+                    <ul style="margin: 8px 0 0 20px; padding-left: 0;">
+                        <li>Complete current 72h dry fast</li>
+                        <li>Perform leisure walks & massage for organ pain</li>
+                        <li>Refeed (~6 days) then break until Jan 7 start</li>
+                        <li>Blood Tests next Friday: CBC, Liver, Kidney, Thyroid</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="entry-date">Date: 2025-12-19</div>
+                <div style="margin-bottom: 10px;"><strong>Summary:</strong> Initial discussion on severe brain fog,
+                    histamine intolerance hypothesis, and planning Christmas dry fast.</div>
+
+                <div style="margin-bottom: 15px;">
+                    <strong>Key Notes:</strong>
+                    <ul class="symptoms-list">
+                        <li><strong>Symptoms:</strong> Debilitating brain fog (histamine reaction?), low HR/temp.</li>
+                        <li><strong>Medications:</strong> T3 (25mcg test dose). Discussed Ketotifen/Cyproheptadine.</li>
+                        <li><strong>Diet:</strong> Low calorie intake (~1800). Goal: rebuild BMR to 3000+.</li>
+                    </ul>
+                </div>
+
+                <div class="notes" style="background: #e3f2fd; border-left-color: #2196f3;">
+                    <strong>Next Steps:</strong>
+                    <ul style="margin: 8px 0 0 20px; padding-left: 0;">
+                        <li>Consult doctor re: Antihistamines</li>
+                        <li>Start 3-day Dry Fast on Dec 25</li>
+                        <li>Read Refeed Protocol</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="entry">
+                <div class="entry-date">Date: 2025-12-12</div>
+                <div style="margin-bottom: 10px;"><strong>Summary:</strong> Post-36h dry fast check-in. Discussed
+                    fainting episode, high A1C (6.7), and plan to delay next fast to ramp up T3.</div>
+
+                <div style="margin-bottom: 15px;">
+                    <strong>Key Notes:</strong>
+                    <ul class="symptoms-list">
+                        <li><strong>Status:</strong> Recovering from 36h fast. Fainted yesterday (dehydration/aspirin?).
+                        </li>
+                        <li><strong>Labs:</strong> A1C 6.7 (High) - linked to metabolic stress/starvation calories.</li>
+                        <li><strong>Plan:</strong> Delay next fast. Focus on T3 ramp-up & IR strategy (Aspirin,
+                            Inositol, ALA).</li>
+                    </ul>
+                </div>
+
+                <div class="notes" style="background: #e3f2fd; border-left-color: #2196f3;">
+                    <strong>Next Steps:</strong>
+                    <ul style="margin: 8px 0 0 20px; padding-left: 0;">
+                        <li>Order Blood Supplement (Iron/Immune)</li>
+                        <li>Start T3 on arrival (Dec 16)</li>
+                        <li>Daily Medication (Throat/Thyroid Chakra)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- After Refeeding Section -->
+        <div class="section empty">
+            <div class="section-title">After Refeeding</div>
+            <div class="empty-message">No entries yet.</div>
+        </div>
+
+        <!-- Laboratory Data Section -->
+        <div class="section">
+            <div class="section-title">Laboratory Data</div>
+            <div class="entry">
+                <div class="entry-date">Date: 2026-01-02</div>
+                <div style="margin-bottom: 10px;">
+                    <strong>Key Findings:</strong>
+                    <ul class="symptoms-list">
+                        <li><strong>Thyroid:</strong> TSH LO (0.16) - Expected if on Scorch Protocol/T3.</li>
+                        <li><strong>Metabolic:</strong> Glucose 3.9 (High sensitivity), A1C 5.5% (Improving from 6.7%).
+                        </li>
+                        <li><strong>Kidneys/Liver:</strong> eGFR >120, ALT 10. Perfect resilience.</li>
+                        <li><strong>Urinalysis:</strong> pH 5.0 (Acidic). Monitor minerals.</li>
+                    </ul>
+                </div>
+                <div class="notes" style="background: #f1f8e9; border-left-color: #4caf50;">
+                    <strong>Report:</strong> <a href="labs/2026-01-02-lab-results.md" target="_blank">Full 2026-01-02
+                        Lab Results & Insights</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Insights & Patterns Section -->
+        <div class="section">
+            <div class="section-title">Insights & Patterns</div>
+            <div class="entry">
+                <div style="margin-bottom: 15px;">
+                    <strong>Recurring Themes:</strong>
+                    <ul class="symptoms-list">
+                        <li><strong>Long-Term Deterioration (Decade-Scale):</strong> Patient has experienced a slow 1%
+                            monthly decline since 2016. High baseline academic performance (Waterloo Math/Science)
+                            provides a clear benchmark for cognitive loss.</li>
+                        <li><strong>Transient Response to Ivermectin:</strong> Trial showed significant (90%) but very
+                            short-lived (2h) brain fog reduction on Day 1. Suggests a biological lever is being touched
+                            but not held, possibly viral or inflammatory.</li>
+                        <li><strong>Metabolic Slowdown via Caloric Restriction:</strong> History of low-calorie dieting
+                            (1300-1800 cal) likely contributed to current "survival torpor" and high A1C (stress
+                            response) despite low intake. Goal is to rebuild BMR to 3000+ cal.</li>
+                        <li><strong>Sensitivity to Interventions:</strong> Patient exhibits high sensitivity (fainting
+                            from Aspirin, grogginess from Ketotifen trial). Requires cautious titration (0.25mg start
+                            for Ketotifen).</li>
+                        <li><strong>"Rushing" Tendency:</strong> Patient frequently eager to advance fasting schedules.
+                            Coach consistently advises slowing down to allow for proper re-feeding and T3 ramp-up.</li>
+                        <li><strong>Viral Reactivation Profile:</strong> Childhood history of pneumonia and typhoid,
+                            combined with potential cold sores, suggests an underlying immune dysfunction that likely
+                            reactivated during Long Covid. Post-fast antiviral shielding is critical.</li>
+                        <li><strong>T3 "Staircase" Logic:</strong> Implementation of a slow (3x) ramp-down is essential
+                            for the patient to avoid metabolic "rebound" and to lock in the 98.6 morning temperature set
+                            point.</li>
+                    </ul>
+                </div>
+                <div class="notes"><strong>Observation:</strong> Histamine intolerance is a major suspected blocker for
+                    brain fog resolution (Dec 19). Addressing this with antihistamines may unlock faster recovery.</div>
+            </div>
+        </div>
+        <div class="empty-message" style="display: none;">No entries yet.</div>
+    </div>
+</body>
+
+</html>

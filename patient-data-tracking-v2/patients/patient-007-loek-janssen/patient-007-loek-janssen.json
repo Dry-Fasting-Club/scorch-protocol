@@ -1,0 +1,92 @@
+{
+    "id": "patient-007-loek-janssen",
+    "name": "Loek Janssen",
+    "age": null,
+    "gender": "Male",
+    "dateAdded": "2025-01-27",
+    "weight": "",
+    "height": "",
+    "dietPreProgram": "Carnivore (considering)",
+    "initialNotes": "History of mold exposure (black mold) and suspected SIRS. Dealing with volatile neurological symptoms (shaky vision, twitching) and potential Long Covid/viral triggers. Genetically susceptible to biotoxin illness (suspected HLA-DB/DQ gene issues).",
+    "preDryfastingCycles": [],
+    "dryFastingCycles": [],
+    "t3Cycles": [],
+    "refeedingCycles": [],
+    "meetings": [
+        {
+            "date": "2025-01-27",
+            "summary": "Focus on mold detoxification strategy, peptide therapy optimization, and the 'Camping Plan' for environmental control.",
+            "nextSteps": [
+                "Commence 2-month camping protocol to achieve zero mold exposure",
+                "Restart Peptide Therapy: Thymosin Alpha 1, Thymalin, LL-37, and BPC-157",
+                "Switch Peptides to Intramuscular (IM) injection (thigh) for 100x potency increase (vs SQ)",
+                "Daily Symptom Tracking: Brief Apple Notes/Journaling to identify patterns",
+                "Physical Tracking: 3x daily thermometer readings (Morning, Afternoon, Bed) + Heart Rate",
+                "Maintain current Thyroid (Ancestral) and Licorice support",
+                "Reassess biotoxin levels and symptom progress in 2 months before considering dry fasting"
+            ],
+            "notes": "Symptoms: Shaky vision (primary marker), full-body twitching, racing heart/insomnia hit at 5 AM. Symptoms fluctuate with building exposure.\n\nEnvironmental Control: Moving to a retreat center south of Lisbon for 'glamping' in a new tent with new clothes to reset the bio-load. Total mold avoidance is the goal.\n\nPeptides: Advised to switch from Subcutaneous (SQ) to Intramuscular (IM) for Thymosin/Thymalin. Recommended adding Thymalin (IM) for broader T-cell differentiation. LL-37 for mold-specific immune support.\n\nDiet/Metabolism: Considering carnivore, but warned about potential thyroid/adrenal strain if T3/Cortisol levels are already low. Advised to track basal temps closely.\n\nPath forward: Clean up the biotoxin report first, then transition to Scorch Protocol (Dry Fasting/SRT-3) once liver-intensive drugs (Itraconazole) are finished."
+        },
+        {
+            "date": "2025-02-10",
+            "summary": "Severe food poisoning setback and deeper insights into gut dysbiosis (Staph aureus) and chemical sensitivity.",
+            "notes": "Food Poisoning: Contracted severe food poisoning from raw tuna tartare (incubation ~7 hours). Caused absolute depletion; rehydrating with electrolytes/minerals.\n\nGut Health: Stool tests confirmed a Staph aureus infection; low stomach acid (alkaline emesis noted). Evidence of malabsorption (low cholesterol below normal range despite meat/fat intake).\n\nSensitivity/MCAS: Highly sensitive to indoor chemicals/scents after camping. Suspected MCAS; 10mg Zyrtec (antihistamine) provides significant relief of neurological 'inner acathisia' and foot symptoms.\n\nDental: Plans for titanium implant removal and wisdom tooth extractions based on holistic dental assessment suggesting metal sensitivity and bacterial accumulation.",
+            "nextSteps": [
+                "Recovery from food poisoning with minerals and light carbs (fruit/coconut yogurt)",
+                "Bridge metabolic gap with coconut oil (MCTs) to minimize transition headaches",
+                "Continue MARCoNS nasal spray (EDTA/Silver/Xylitol) + potential Netty pot rinses",
+                "Maintain camping protocol (total mold avoidance)",
+                "Incorporate coffee enemas (1x/week), lymphatic drainage, and infrared light therapy",
+                "Consider topical Pregnenolone/Progesterone to support hormones/hedgehog pathway"
+            ]
+        },
+        {
+            "date": "2025-02-24",
+            "summary": "Breakthrough dental surgery (NICO clearing) and reconnection with the vagus nerve.",
+            "notes": "NICO Discovery: Dentist identified Neuralgia Inducing Cavitational Osteonecrosis in the jaw (empty tooth cavity). Pathological eroding of bone likely suppressed the vagus nerve for 10 years, causing chronic 'adrenaline' state and 'loss of chill'.\n\nCancer Link: Link established between NICO and age-25 testicular cancer; ALP bone markers were high at diagnosis and never normalized post-tumor removal, indicating chronic jaw infection.\n\nSurgery Results: Successful clearing of NICO + removal of infected left wisdom tooth/cyst (cyst found touching bone). Immediate improvement in sleep quality and a 'spiritual' reconnection with the vagus nerve noted post-op.\n\nGut/Detox: Coffee enemas reveal slow motility (expelled quickly; lumpy stool in sigmoid). Staph aureus management discussed using Efflux Pump Inhibitors (EPI) like olive leaf/biocidin.",
+            "nextSteps": [
+                "FMT (Fecal Microbiota Transplant) scheduled for March 10th",
+                "Continue Daily Hyperbaric Oxygen Therapy (HBOT) to accelerate nerve/bone healing",
+                "Maintain coffee enemas (2-3x/week) to improve digestive motility",
+                "Consider natural 'Kill Phase' for Staph aureus before FMT using herbal EPIs",
+                "Methylene Blue consideration (stacked with HBOT)",
+                "Vagus nerve exercises to support newly 'reconnected' nervous system"
+            ]
+        },
+        {
+            "date": "2025-03-17",
+            "summary": "Positive cancer test (QCR) breakthrough and initiation of T3 metabolic strategy.",
+            "notes": "Cancer Diagnosis: QCR ENCODE trace test returned positive for epithelial cancer markers. Seeking autologous cellular therapy (Clavic QR - NK/Dendritic cells) in London. QCR test is highly sensitive, possibly picking up circulating tumor cells (CTCs) from his 10-year-old diagnosis or new nesting.\n\nMetabolism/Thyroid: Temperature tracking (spreadsheets) shows low waking temps (36.2) that drop after breakfast. This confirms Euthyroid Sick Syndrome (ESS) / subclinical hypothyroidism where the body runs on adrenaline/cortisol. Feeding drops adrenaline, revealing the true low metabolic state.\n\nStrategy: Initiating T3 therapy (Wilson's Protocol) to 'kickstart' the mitochondria and sensors, bypassing conversion issues. Targeting microbiome and malabsorption (visible food in stool) as foundational for immune function.\n\nProtocol Debates: Discussed Joe Tippins (Fenbendazole) for cancer, anti-fungal upgrades to Isavuconazole (less toxic, broader spectrum), and critiqued complex mineral-heavy protocols (Born Free) vs. foundational bioenergetic recovery.",
+            "nextSteps": [
+                "Undergo full-body imaging (MRI/CT) with oncology team in London",
+                "Begin T3 protocol trial (starting ~5mcg-7.5mcg) while tracking temps",
+                "Proceed with Autologous Cellular Therapy (Clavic QR) to boost NK cells",
+                "Research triple therapy: Ivermectin + Fenbendazole + Isavuconazole",
+                "Delay FMT until malignancy status in colon is clarified",
+                "Maintain high potassium/diverse diet to support metabolic restart"
+            ]
+        },
+        {
+            "date": "2025-03-31",
+            "summary": "T3 supply crisis resolution and metabolic verification (NO/ONOO- cycle theory).",
+            "notes": "Supply Crisis: T3 (Thybon) is entirely out of stock in Portugal and Spain. Exploring sourcing from London (special order) or India. \n\nMetabolic Status: Temp tracking confirmed low baseline (36.1-36.3 C oral). Discussion on the NO/ONOO- cycle (peroxynitrite) as a mechanism for chronic oxidative stress in CFS. \n\nDiagnostics: Scheduling colonoscopy and endoscopy to rule out celiac and colorectal malignancy before proceeding with FMT.",
+            "nextSteps": [
+                "Secure T3 supply via international pharmacy or London special order",
+                "Rule out colorectal malignancy (Colonoscopy/Endoscopy)",
+                "Continue Clavic QR (NK cell modulation)",
+                "Research peroxynitrite scavengers (Melatonin, High-dose Vitamin C)"
+            ]
+        },
+        {
+            "date": "2025-04-07",
+            "summary": "EBV reactivation insights, antiviral strategy, and liver function optimization.",
+            "notes": "Viral Hijack: EBV IgG memory markers (>300 UI/ml) signal potential chronic reactivation. Initiating Valacyclovir (1g 3x/daily) as part of a 6-month protocol. \n\nLiver/Bile: Noted yellow bile sludge/pebbles in stool during T3 resumption; interpreted as 'liver waking up' and increasing bile output. Transitioning from Carnivore to Bioenergetic diet (Ray Peat style) to lower liver strain and improve nutrient absorption.\n\nGenetics: Confirmed MTHFR homozygous mutation; starting methylated B12/Folate support. \n\nImmune Support: Introduced 'Recovery Factors' (pig serum/blood extract) to support CFS recovery; stacking with Ancestral Spleen/Liver.",
+            "nextSteps": [
+                "Commence Valacyclovir protocol for EBV management",
+                "Monitor liver response to antiviral/T3 combination (High-dose TUDCA)",
+                "Implement homozygous MTHFR support (Methyl-B12/Folate)",
+                "Optimize Bioenergetic diet (high carb, low fat/coffee) for metabolic restart"
+            ]
+        }
+    ]
+}

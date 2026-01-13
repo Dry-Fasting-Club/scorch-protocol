@@ -45,12 +45,12 @@ To understand the metabolic transition, we must look at the daily hormonal suppr
 | **Day 3** | 2.4 ± 0.4 pg/mL            | **-25%** | 2.8 ± 0.4 pg/mL            | -12%     | Early Conservation |
 | **Day 5** | -                          | -        | 2.7 ± 0.4 pg/mL            | -15%     | Maximum Braking (Wet) |
 
-#### TSH and T4 (Thyroid Control Control)
-| Study Day | TSH (Group A - Dry) | TSH (Group B - Wet) | T4 (Group B - Wet) | Note |
-|-----------|--------------------|---------------------|-------------------|------|
-| **Day 0** | 2.4 ± 0.8 mIU/L    | 2.4 ± 0.8 mIU/L     | 1.2 ± 0.3 ng/dL   | Baseline |
-| **Day 3** | 1.8 ± 0.6 mIU/L (-25%) | 2.2 ± 0.7 mIU/L (-8%) | 1.1 ± 0.3 ng/dL (-8%) | Delayed CNS suppression |
-| **Day 5** | -                  | 0.7 ± 0.1 mIU/L (-74%*) | 6.8 ± 0.1 μg/dL*  | *Athens data for comparison |
+#### TSH and T4 (Thyroid Control)
+| Study Day | TSH (Khoroshilov) | TSH (Athens) | T4 (Athens) | Note |
+|-----------|-------------------|--------------|-------------|------|
+| **Day 0** | 2.4 ± 0.8 mIU/L   | 2.7 ± 0.2 mIU/L | 8.4 ± 0.3 μg/dL | Baseline |
+| **Day 3** | 1.8 ± 0.6 mIU/L (-25%) | -           | -           | Rapid CNS-led suppression |
+| **Day 5** | -                 | 0.7 ± 0.1 mIU/L (-74%) | 6.8 ± 0.1 μg/dL (-19%) | Aggressive adaptation |
 
 > [!IMPORTANT]
 > **The Day 3 Correlation:** Both studies confirm that the most significant metabolic shift happens by **Day 3**. In Khoroshilov's study, active T3 (the primary driver of BMR) has already dropped by 25%, matching the 14-15% reduction in measured energy expenditure. But we're ignoring TSH, it drops significantly more from -25% at 3 days, to -74% at 5 days. This shows that the HPT axis is the primary driver of metabolic conservation, while the HPA axis is secondary. This also shows that the longer fasts can lead to deeper slowdown that is not easily reversed after the fast. Since carbohydrates are the primary driver of thyroid hormone production, refeeding after such a fast in a ketogenic state can lead to permanent damage to the thyroid system, including hypothyroidism and tissue-level hormone resistance.

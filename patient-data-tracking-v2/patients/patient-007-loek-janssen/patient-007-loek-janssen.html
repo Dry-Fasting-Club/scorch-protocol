@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loek Janssen - Patient Data</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            border-bottom: 2px solid #2ecc71;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .back-link {
+            display: inline-block;
+            color: #2ecc71;
+            text-decoration: none;
+            margin-bottom: 15px;
+            font-weight: 600;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+            margin-bottom: 30px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 5px;
+        }
+
+        .info-item {
+            font-size: 14px;
+        }
+
+        .info-label {
+            font-weight: 600;
+            color: #666;
+        }
+
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #2ecc71;
+        }
+
+        .section-title {
+            font-size: 22px;
+            font-weight: 700;
+            color: #2ecc71;
+            margin-bottom: 15px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #e0e0e0;
+        }
+
+        .entry {
+            background: white;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 15px;
+            border: 1px solid #eee;
+        }
+
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            border-bottom: 1px dashed #eee;
+            padding-bottom: 5px;
+        }
+
+        .entry-date {
+            font-weight: 700;
+            color: #333;
+        }
+
+        .summary-box {
+            background: #e8f8f5;
+            padding: 10px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            font-style: italic;
+        }
+
+        .next-steps {
+            background: #fff;
+            padding: 10px;
+            border: 1px solid #d1f2eb;
+            border-radius: 4px;
+        }
+
+        .next-steps h4 {
+            color: #16a085;
+            margin-bottom: 5px;
+        }
+
+        .next-steps ul {
+            padding-left: 20px;
+        }
+
+        .notes-content {
+            margin-top: 15px;
+            white-space: pre-wrap;
+            font-size: 14px;
+            color: #444;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <a href="../../dashboard.html" class="back-link">← Back to Dashboard</a>
+
+        <div class="header">
+            <h1>Loek Janssen</h1>
+            <p>1-Year Recovery Plan (Mold & Biotoxin Strategy)</p>
+        </div>
+
+        <div class="info-grid">
+            <div class="info-item"><span class="info-label">ID:</span> patient-007-loek-janssen</div>
+            <div class="info-item"><span class="info-label">Gender:</span> Male</div>
+            <div class="info-item"><span class="info-label">Added:</span> 2025-01-27</div>
+            <div class="info-item"><span class="info-label">Diet:</span> Carnivore (Considering)</div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Initial Assessment</h2>
+            <div class="entry">
+                <p>History of black mold exposure and suspected SIRS (Systemic Inflammatory Response Syndrome). Volatile
+                    neurological symptoms including shaky vision and twitching. High risk for post-viral reactivation.
+                    Genetically susceptible to biotoxins (suspected HLA susceptibility).</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Consultation Notes</h2>
+
+            <!-- Meeting Jan 27, 2025 -->
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-date">January 27, 2025</span>
+                    <span class="info-label">Mold Protocol & Peptides</span>
+                </div>
+                <div class="summary-box">
+                    Focus on environmental control (The Camping Plan), peptide optimization (IM delivery), and
+                    identifying metabolic patterns via symptom tracking.
+                </div>
+                <div class="next-steps">
+                    <h4>Next Steps:</h4>
+                    <ul>
+                        <li>Commence 2-month camping protocol to achieve zero mold exposure.</li>
+                        <li>Switch Peptides to Intramuscular (IM) injection for maximum potency.</li>
+                        <li>Add Thymalin (IM) to the current Thymosin Alpha 1 regimen.</li>
+                        <li>Track basal temperatures 3x daily and heart rate.</li>
+                        <li>Maintain brief digital journaling of symptoms to find metabolic patterns.</li>
+                        <li>Reassess biotoxin levels in 2 months before moving to Scorch Protocol.</li>
+                    </ul>
+                </div>
+                <div class="notes-content">
+                    Condition: Shaky vision is the primary sign of toxic flares. Experienced severe heart racing and
+                    insomnia (5 AM) recently. Twitching is widespread during high-exposure periods.
+
+                    Environmental: Moving to a south Portugal retreat for "glamping" in a new tent. Ensuring everything
+                    is new to avoid bringing mold spores from original location.
+
+                    Peptides: Discussed the 100x potency advantage of IM vs SQ injections for thymus peptides. Advised
+                    transition to IM in the thigh. LL-37 and BPC-157 discussed for gut/immune support.
+
+                    Scientific Context: Discussed the "zombie" state of SIRS and the genetic inability to tag/remove
+                    toxins. Emphasized liver health before dry fasting.
+                </div>
+            </div>
+            <!-- Meeting Feb 10, 2025 -->
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-date">February 10, 2025</span>
+                    <span class="info-label">Food Poisoning & MCAS</span>
+                </div>
+                <div class="summary-box">
+                    Severe food poisoning setback (tuna tartare); insights into gut dysbiosis (Staph aureus),
+                    malabsorption (low cholesterol), and suspected MCAS.
+                </div>
+                <div class="next-steps">
+                    <h4>Next Steps:</h4>
+                    <ul>
+                        <li>Recovery from food poisoning using minerals and light carbs (fruit/coconut yogurt).</li>
+                        <li>Bridge metabolic gap with coconut oil (MCTs) to minimize headaches.</li>
+                        <li>Maintain MARCoNS nasal spray protocol (EDTA/Silver/Xylitol).</li>
+                        <li>Incorporate coffee enemas (1x/week), lymphatic drainage, and light resistance training.</li>
+                        <li>Consider topical Pregnenolone/Progesterone for hormonal and vascular (hedgehog pathway)
+                            support.</li>
+                    </ul>
+                </div>
+                <div class="notes-content">
+                    Setback: Contracted severe food poisoning from raw tuna tartare, causing total physical depletion.
+                    Rehydrated with electrolytes.
+
+                    Gut Status: Confirmed Staph aureus infection in the gut. Noted alkaline emesis (puke), indicating
+                    low stomach acid. Cholesterol is consistently below normal range despite meat consumption, pointing
+                    to severe malabsorption/inflammation.
+
+                    MCAS/Sensitivity: Reported high sensitivity to indoor chemicals/scents after camping. 10mg Zyrtec
+                    (antihistamine) provides significant neurological calm, supporting the MCAS hypothesis.
+
+                    Dental Plans: Biological dentist confirmed metal sensitivity (titanium) and bacterial accumulation
+                    near wisdom teeth. Canceled surgery temporarily to regain strength from food poisoning.
+                </div>
+            </div>
+
+            <!-- Meeting Feb 24, 2025 -->
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-date">February 24, 2025</span>
+                    <span class="info-label">NICO Discovery & Vagus Nerve</span>
+                </div>
+                <div class="summary-box">
+                    Breakthrough discovery of NICO (Neuralgia Inducing Cavitational Osteonecrosis) as the 10-year root
+                    cause of vagus nerve suppression and metabolic stress.
+                </div>
+                <div class="next-steps">
+                    <h4>Next Steps:</h4>
+                    <ul>
+                        <li>FMT (Fecal Microbiota Transplant) scheduled for March 10th to reset biome.</li>
+                        <li>Continue daily Hyperbaric Oxygen Therapy (HBOT) for nerve/bone healing.</li>
+                        <li>Maintain coffee enemas (2-3x/week) to address lumpy stool and slow motility.</li>
+                        <li>Consider natural 'Kill Phase' for Staph aureus before FMT using herbal EPIs.</li>
+                        <li>Begin Vagus Nerve exercises to support newly reconnected nervous system.</li>
+                    </ul>
+                </div>
+                <div class="notes-content">
+                    NICO Breakthrough: Dentist identified a cavitation (NICO) where a wisdom tooth never grew in. This
+                    chronic infection has likely suppressed the vagus nerve for 10 years, explaining his inability to
+                    relax and his "loss of chill" since university.
+
+                    Cancer Connection: ALP bone markers remained high after testicular cancer (age 25), indicating that
+                    the jaw bone was being eroded/rebuilt by infection even then.
+
+                    Surgery Results: Had NICO cleared and infected left wisdom tooth/cyst removed 11 days ago. Reported
+                    his "best sleep ever" and a "spiritual" reconnection with his vagus nerve post-surgery.
+
+                    Gut/Detox: Sigmoid colon remains sluggish (lumpy stool). Discussed Efflux Pump Inhibitors (EPIs)
+                    like olive leaf and Biocidin to clear Staph aureus before the upcoming FMT.
+                </div>
+            </div>
+            <!-- Meeting Mar 17, 2025 -->
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-date">March 17, 2025</span>
+                    <span class="info-label">Cancer Diagnosis & T3 Strategy</span>
+                </div>
+                <div class="summary-box">
+                    Positive cancer test (QCR ENCODE trace); breakthrough in metabolic understanding via temperature
+                    tracking (Hypothyroidism/ESS confirmed).
+                </div>
+                <div class="next-steps">
+                    <h4>Next Steps:</h4>
+                    <ul>
+                        <li>Undergo full-body imaging (MRI/CT) with London oncology team.</li>
+                        <li>Proceed with Autologous Cellular Therapy (Clavic QR) for immune enrichment (NK cells).</li>
+                        <li>Initiate T3 protocol trial (starting ~5mcg-7.5mcg) to bypass thyroid conversion resistance.
+                        </li>
+                        <li>Research triple anti-pathogen therapy: Ivermectin + Fenbendazole + Isavuconazole.</li>
+                        <li>Continue strict temperature tracking (waking vs. post-meal) to calibrate T3 dosing.</li>
+                    </ul>
+                </div>
+                <div class="notes-content">
+                    Cancer Discovery: QCR ENCODE trace test returned positive for epithelial cancer markers. Seeking
+                    advanced treatment in London involving natural killer (NK) cell enrichment. Test suggests high
+                    sensitivity, potentially picking up early-stage nesting or persistent tumor cells from his past
+                    diagnosis.
+
+                    Metabolic Breakthrough: Detailed temperature tracking revealed waking temps around 36.2°C which
+                    *drop* after eating. This is a trademark sign of running on adrenaline/cortisol. Eating suppresses
+                    the stress hormones, revealing the true underlying hypothyroid state (Euthyroid Sick Syndrome/ESS).
+
+                    Nutrient Absorption: Reported seeing visible food in stool, confirming that malabsorption is a major
+                    bottleneck to immune recovery.
+
+                    Protocol Updates: Replaced Itraconazole suggestion with Isavuconazole (less toxic, broader
+                    spectrum). Discussed Joe Tippins protocol for cancer and warned against overly complex
+                    mineral/vitamin protocols (Born Free) that distract from metabolic correction.
+                </div>
+            </div>
+
+            <!-- Meeting Mar 31, 2025 -->
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-date">March 31, 2025</span>
+                    <span class="info-label">T3 Crisis & NO/ONOO- Theory</span>
+                </div>
+                <div class="summary-box">
+                    T3 supply crisis resolution; metabolic verification (low core temp); and introduction of the
+                    NO/ONOO- cycle theory.
+                </div>
+                <div class="next-steps">
+                    <h4>Next Steps:</h4>
+                    <ul>
+                        <li>Secure T3 supply via international sourcing (India/London).</li>
+                        <li>Proceed with Colonoscopy/Endoscopy to rule out colorectal malignancy.</li>
+                        <li>Follow Clavic QR (NK cell) schedule.</li>
+                        <li>Research peroxynitrite scavengers (Melatonin, High-dose Vitamin C).</li>
+                    </ul>
+                </div>
+                <div class="notes-content">
+                    T3 Crisis: Thybon is unavailable in Portugal/Spain. Sourcing from India/London is now critical to
+                    maintain metabolic momentum.
+
+                    Temperature: Tracking confirmed low metabolic state (36.1-36.3°C oral), proving that "energy" was
+                    adrenaline-based.
+
+                    NO/ONOO- Cycle: Discussed the peroxynitrite cycle as the mechanical explanation for chronic fatigue
+                    and oxidative stress. Scavenging these radicals is a priority.
+
+                    Diagnostics: Rule out colon issues/malignancy before proceeding with a potential FMT.
+                </div>
+            </div>
+
+            <!-- Meeting Apr 7, 2025 -->
+            <div class="entry">
+                <div class="entry-header">
+                    <span class="entry-date">April 7, 2025</span>
+                    <span class="info-label">EBV Reactivation & Methylation</span>
+                </div>
+                <div class="summary-box">
+                    EBV reactivation insights (>300 UI/ml memory markers); initiation of Valacyclovir; and
+                    implementation of homozygous MTHFR support.
+                </div>
+                <div class="next-steps">
+                    <h4>Next Steps:</h4>
+                    <ul>
+                        <li>Commence Valacyclovir protocol (1g 3x/daily) for EBV load management.</li>
+                        <li>Implement homozygous MTHFR support (Methylated B12/Folate).</li>
+                        <li>Monitor liver response during T3 resumption (High-dose TUDCA).</li>
+                        <li>Shift to Bioenergetic (low fat/coffee) diet to support liver waking.</li>
+                        <li>Acquire "Recovery Factors" (pig serum) for immune support.</li>
+                    </ul>
+                </div>
+                <div class="notes-content">
+                    Viral Hijack: EBV IgG titters confirm a memory load that signals reactivation in CFS patients.
+                    Valacyclovir initiated to drop the viral burden.
+
+                    Bile/Liver: Resuming T3 caused yellow bile sludge/pebbles, signaling the liver is waking up and
+                    dumping stagnant toxins. TUDCA is essential here.
+
+                    Methylation: Homozygous MTHFR identified; B12/Folate usability is likely a bottleneck.
+
+                    Diet: Moving away from Carnivore toward Ray Peat style bioenergetics (fruits, carbs, saturated fats)
+                    to lower cortisol and support thyroid.
+
+                    Immune: Introducted "Recovery Factors" (pig blood serum) as a potential "light switch" for chronic
+                    fatigue.
+                </div>
+            </div>
+        </div>
+
+        <div class="section" style="border-left-color: #f39c12;">
+            <h2 class="section-title" style="color: #f39c12;">Insights & Patterns</h2>
+            <div class="entry">
+                <p><strong>The Metabolism-Cancer Loop:</strong> Subclinical hypothyroidism (ESS) and adrenaline reliance
+                    are likely creating a cellular environment conducive to cancer persistence. Low cellular energy
+                    prevents the immune system from identifying and tagging circulating tumor cells.</p>
+                <p><strong>Adrenaline Masking:</strong> The drop in temperature after meals proves that his "energy" is
+                    actually stress-based (adrenaline/cortisol). This explains the "loss of chill" over the last 10
+                    years; his body has been in a perpetual survival state masking a metabolic crash.</p>
+                <p><strong>The Multi-Layered Strategy:</strong>
+                    1. <strong>Metabolism:</strong> T3 therapy to kickstart the engine.
+                    2. <strong>Microbiome:</strong> Resolve malabsorption and fungal load (Isavuconazole).
+                    3. <strong>Immune:</strong> Autologous cellular therapy and NICO/Teeth removal to lower total
+                    inflammatory burden.
+                <p><strong>NICO Link (Feb Update):</strong> The jaw cavitation was the mechanical suppressor for the
+                    vagus nerve, likely initiating this entire 10-year downward spiral.</p>
+                <p><strong>Viral Hijacking (Apr Update):</strong> High EBV IgG titters (>300 UI/ml) suggest that a
+                    persistent viral load is "hijacking" the immune system, preventing full metabolic recovery.
+                    Antiviral therapy (Valacyclovir) is now a core pillar.</p>
+                <p><strong>The Methylation Bottleneck:</strong> Homozygous MTHFR mutations indicate a genetic inability
+                    to process standard B-vitamins, likely contributing to high homocysteine and cellular energy stasis.
+                    Methylated support is required.</p>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -51,7 +51,7 @@ Nikolayev emphasized that **"Anyone can fast, but only a wise man can recover co
 | **Day 1** | 24 Hours | Diluted fresh fruit/vegetable juices (50/50 with water) | Small sips (50-100ml) every 2 hours |
 | **Day 2-3**| 48 Hours | Undiluted juices, thin vegetable broths, or oat/rice water | Absolutely NO salt or fats |
 | **Day 4-6**| 72 Hours | Small amounts of grated fruit/vegetables, curdled milk (kefir/yogurt) | Chew thoroughly until food is liquid |
-| **Day 7+** | Ongoing | Boiled vegetables, nuts, whole grains | Reintroduce salt very gradually |
+| **Day 7+** | Ongoing | Boiled vegetables, whole grains | Reintroduce salt very gradually |
 
 ### Critical Warnings
 1. **The Danger of Salt:** Reintroducing salt too early causes massive fluid retention (edema) and can lead to hypertensive spikes or kidney stress.
