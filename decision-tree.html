@@ -44,6 +44,7 @@
             <strong style="display: block; margin-bottom: 10px; color: #2c3e50;">Table of Contents</strong>
             <ul style="margin: 0; padding-left: 20px;">
                 <li><a href="#part0">Part 0: Protocol Category Selection</a></li>
+                <li><a href="#stopsignals">Critical Thresholds: Stop Signals</a></li>
                 <li><a href="#part1">Part 1: Diet History & Carb Approach</a></li>
                 <li><a href="#part2">Part 2: Protocol Specifics Flow</a></li>
                 <li><a href="#part3">Part 3: Long COVID, IR & Ivermectin</a></li>
@@ -73,6 +74,80 @@
             style Beginner fill:#d4edda,stroke:#28a745,stroke-width:2px
             style Intermediate fill:#fff3cd,stroke:#ffc107,stroke-width:2px
             style Advanced fill:#f8d7da,stroke:#dc3545,stroke-width:2px
+        </div>
+
+        <hr style="margin: 3rem 0; border: 0; border-top: 1px solid #eee;">
+
+        <!-- CRITICAL STOP SIGNALS -->
+        <h2 id="stopsignals" style="color: #dc3545;">Critical Thresholds ("Stop Signals")</h2>
+        <p>Strict criteria for potentially dangerous complications requiring fast termination.</p>
+
+        <div class="mermaid">
+            graph TD
+            Start["Monitor Vital Signs & Status"] --> Hemo{"1. Hemodynamic Signals<br />(BP / HR / Orthostasis)"}
+
+            Hemo -->|Abnormal| STOP["STOP FAST<br />IMMEDIATELY"]
+
+            Hemo -->|Normal| Fluid{"2. Fluid & Renal Status<br />(Weight / Urine)"}
+            Fluid -->|Abnormal| STOP
+
+            Fluid -->|Normal| Thermo{"3. Thermoregulation<br />(Sustained Fever)"}
+            Thermo -->|Abnormal| STOP
+
+            Thermo -->|Normal| Neuro{"4. Neurological Status<br />(Confusion / Delirium)"}
+            Neuro -->|Abnormal| STOP
+
+            Neuro -->|Normal| Cont["Continue Fast &amp;<br />Monitor Regularly"]
+
+            %% Threshold Tooltips or Labels
+            Hemo --- H_Note["BP: &lt;80 or &gt;180<br />HR: &gt;120 or &lt;40<br />Syncope"]
+            Fluid --- F_Note["Weight Loss: &gt;5-7% / 24h<br />Urine: 0ml / 24h"]
+            Thermo --- T_Note["Fever: &gt;38.0°C (100.4°F)"]
+            Neuro --- N_Note["Confusion / Delirium<br />Inability to obey commands"]
+
+            style STOP fill:#f8d7da,stroke:#dc3545,stroke-width:4px,color:#721c24
+            style Cont fill:#d4edda,stroke:#28a745,stroke-width:2px
+            style H_Note fill:#fff,stroke:#ddd,stroke-dasharray: 5 5
+            style F_Note fill:#fff,stroke:#ddd,stroke-dasharray: 5 5
+            style T_Note fill:#fff,stroke:#ddd,stroke-dasharray: 5 5
+            style N_Note fill:#fff,stroke:#ddd,stroke-dasharray: 5 5
+        </div>
+
+        <div
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px;">
+            <div style="background-color: #fff5f5; border-left: 5px solid #ff4d4d; padding: 15px; border-radius: 4px;">
+                <h4 style="margin-top: 0; color: #c53030;">1. Hemodynamic Instability</h4>
+                <ul style="margin-bottom: 0; padding-left: 20px;">
+                    <li><strong>Systolic BP:</strong> &lt; 80 or &gt; 180 mmHg</li>
+                    <li><strong>Heart Rate:</strong> &gt; 120 or &lt; 40 bpm</li>
+                    <li><strong>Orthostasis:</strong> Syncope or &gt;30 mmHg systolic drop</li>
+                </ul>
+            </div>
+            <div style="background-color: #f0fff4; border-left: 5px solid #48bb78; padding: 15px; border-radius: 4px;">
+                <h4 style="margin-top: 0; color: #2f855a;">2. Fluid & Renal Status</h4>
+                <ul style="margin-bottom: 0; padding-left: 20px;">
+                    <li><strong>Weight Loss:</strong> &gt; 5-7% in 24 hours</li>
+                    <li><strong>Urine:</strong> 0 ml for &gt; 24h</li>
+                    <li style="font-size: 0.85em; list-style-type: none;"><em>Note: 200-300ml is normal low output.</em>
+                    </li>
+                </ul>
+            </div>
+            <div style="background-color: #fffaf0; border-left: 5px solid #ed8936; padding: 15px; border-radius: 4px;">
+                <h4 style="margin-top: 0; color: #c05621;">3. Thermoregulation</h4>
+                <ul style="margin-bottom: 0; padding-left: 20px;">
+                    <li><strong>Sustained Fever:</strong> &gt; 38.0°C (100.4°F)</li>
+                    <li style="font-size: 0.85em; list-style-type: none;"><em>Note: 37.5°C is normal "acidotic
+                            fire."</em></li>
+                </ul>
+            </div>
+            <div style="background-color: #ebf8ff; border-left: 5px solid #4299e1; padding: 15px; border-radius: 4px;">
+                <h4 style="margin-top: 0; color: #2b6cb0;">4. Neurological</h4>
+                <ul style="margin-bottom: 0; padding-left: 20px;">
+                    <li>Severe confusion</li>
+                    <li>Delirium</li>
+                    <li>Inability to obey commands</li>
+                </ul>
+            </div>
         </div>
 
         <hr style="margin: 3rem 0; border: 0; border-top: 1px solid #eee;">
