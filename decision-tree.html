@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protocol Decision Tree - Scorch Protocol</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Include Mermaid.js for diagram rendering -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({ startOnLoad: true, theme: 'neutral' });
+    </script>
+</head>
+
+<body>
+
+    <nav>
+        <h2>The Scorch Protocol</h2>
+        <ul>
+            <li><a href="index.html">Overview & Principles</a></li>
+            <li><a href="decision-tree.html" class="active">Decision Logic Tree</a></li>
+            <li><a href="preparation.html">Phase 1: Preparation</a></li>
+            <li><a href="dry-fasting.html">Phase 2: The Dry Fast</a></li>
+            <li><a href="refeeding.html">Phase 3: The Refeed</a></li>
+            <li><a href="t3-therapy.html">Phase 4: T3 Therapy</a></li>
+            <li><a href="hgh-therapy.html">Phase 5: hGH Therapy</a></li>
+            <li><a href="symptom-management.html">Symptom Management</a></li>
+            <li><a href="weight-loss.html">Weight Loss Protocol</a></li>
+            <li><a href="genetic-polymorphisms.html">Genetic Polymorphisms</a></li>
+            <li><a href="tips-and-tricks.html">Tips and Tricks</a></li>
+            <li><a href="Success-Rate-Data.html">Success Rate Data</a></li>
+            <li><a href="Refeed-for-BMR.html">9-Month BMR Reconstruction</a></li>
+            <li><a href="list-of-pharmacies.html">List of Pharmacies</a></li>
+            <li><a href="FAQ/index.html">Go to FAQ Section</a></li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Protocol Decision Logic Tree</h1>
+
+        <div
+            style="background-color: #f8f9fa; border: 1px solid #ddd; padding: 15px; border-radius: 5px; margin-bottom: 30px;">
+            <strong style="display: block; margin-bottom: 10px; color: #2c3e50;">Table of Contents</strong>
+            <ul style="margin: 0; padding-left: 20px;">
+                <li><a href="#part0">Part 0: Protocol Category Selection</a></li>
+                <li><a href="#stopsignals">Critical Thresholds: Stop Signals</a></li>
+                <li><a href="#part1">Part 1: Diet History & Carb Approach</a></li>
+                <li><a href="#part2">Part 2: Protocol Specifics Flow</a></li>
+                <li><a href="#part3">Part 3: Long COVID, IR & Ivermectin</a></li>
+            </ul>
+        </div>
+
+        <!-- PROTOCOL CATEGORY SELECTION -->
+        <h2 id="part0">Part 0: Protocol Category Selection</h2>
+        <p>Determine which Scorch Protocol category is path-appropriate for your current health status.</p>
+        <div class="mermaid">
+            graph TD
+            Start["Start: Protocol Selection"] --> Q1{"I have recently been feeling ill for the past few
+            months<br />and/or I am still fairly functional,<br />aka I can still work out"}
+
+            Q1 -->|Yes| Beginner["You fall under the Beginner Scorch Protocol<br />Focus: Phase 1, 2, 3"]
+            Q1 -->|No| Q2{"I have been sick for over 6 months<br />and it is affecting my daily life
+            significantly<br />but I can still manage it with tons of supplements or medication.<br />I get PEM after
+            exercise."}
+
+            Q2 -->|Yes| Intermediate["You fall under the intermediate Scorch Protocol<br />Focus: Phase 1, 2, 3, 4"]
+            Q2 -->|No| Q3{"I have been sick for well over a year,<br />I have tried tons of therapies and only kept
+            getting worse.<br />I am not functional."}
+
+            Q3 -->|Yes| Advanced["Focus on the Advanced Scorch Protocol<br />Focus: Phase 1, 2, 3, 4, 5"]
+            Q3 -->|No| Consult["Further Assessment Needed<br />Consult with the community or coach"]
+
+            style Beginner fill:#d4edda,stroke:#28a745,stroke-width:2px
+            style Intermediate fill:#fff3cd,stroke:#ffc107,stroke-width:2px
+            style Advanced fill:#f8d7da,stroke:#dc3545,stroke-width:2px
+        </div>
+
+        <hr style="margin: 3rem 0; border: 0; border-top: 1px solid #eee;">
+
+        <!-- CRITICAL STOP SIGNALS -->
+        <h2 id="stopsignals" style="color: #dc3545;">Critical Thresholds ("Stop Signals")</h2>
+        <p>Strict criteria for potentially dangerous complications requiring fast termination.</p>
+
+        <div class="mermaid">
+            graph TD
+            Start["Monitor Vital Signs & Status"] --> Hemo{"1. Hemodynamic Signals<br />(BP / HR / Orthostasis)"}
+
+            Hemo -->|Abnormal| STOP["STOP FAST<br />IMMEDIATELY"]
+
+            Hemo -->|Normal| Fluid{"2. Fluid & Renal Status<br />(Weight / Urine)"}
+            Fluid -->|Abnormal| STOP
+
+            Fluid -->|Normal| Thermo{"3. Thermoregulation<br />(Sustained Fever)"}
+            Thermo -->|Abnormal| STOP
+
+            Thermo -->|Normal| Neuro{"4. Neurological Status<br />(Confusion / Delirium)"}
+            Neuro -->|Abnormal| STOP
+
+            Neuro -->|Normal| Cont["Continue Fast &amp;<br />Monitor Regularly"]
+
+            %% Threshold Tooltips or Labels
+            Hemo --- H_Note["BP: &lt;80 or &gt;180<br />HR: &gt;120 or &lt;40<br />Syncope"]
+            Fluid --- F_Note["Weight Loss: &gt;5-7% / 24h<br />Urine: 0ml / 24h"]
+            Thermo --- T_Note["Fever: &gt;38.0°C (100.4°F)"]
+            Neuro --- N_Note["Confusion / Delirium<br />Inability to obey commands"]
+
+            style STOP fill:#f8d7da,stroke:#dc3545,stroke-width:4px,color:#721c24
+            style Cont fill:#d4edda,stroke:#28a745,stroke-width:2px
+            style H_Note fill:#fff,stroke:#ddd,stroke-dasharray: 5 5
+            style F_Note fill:#fff,stroke:#ddd,stroke-dasharray: 5 5
+            style T_Note fill:#fff,stroke:#ddd,stroke-dasharray: 5 5
+            style N_Note fill:#fff,stroke:#ddd,stroke-dasharray: 5 5
+        </div>
+
+        <div
+            style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px;">
+            <div style="background-color: #fff5f5; border-left: 5px solid #ff4d4d; padding: 15px; border-radius: 4px;">
+                <h4 style="margin-top: 0; color: #c53030;">1. Hemodynamic Instability</h4>
+                <ul style="margin-bottom: 0; padding-left: 20px;">
+                    <li><strong>Systolic BP:</strong> &lt; 80 or &gt; 180 mmHg</li>
+                    <li><strong>Heart Rate:</strong> &gt; 120 or &lt; 40 bpm</li>
+                    <li><strong>Orthostasis:</strong> Syncope or &gt;30 mmHg systolic drop</li>
+                </ul>
+            </div>
+            <div style="background-color: #f0fff4; border-left: 5px solid #48bb78; padding: 15px; border-radius: 4px;">
+                <h4 style="margin-top: 0; color: #2f855a;">2. Fluid & Renal Status</h4>
+                <ul style="margin-bottom: 0; padding-left: 20px;">
+                    <li><strong>Weight Loss:</strong> &gt; 5-7% in 24 hours</li>
+                    <li><strong>Urine:</strong> 0 ml for &gt; 24h</li>
+                    <li style="font-size: 0.85em; list-style-type: none;"><em>Note: 200-300ml is normal low output.</em>
+                    </li>
+                </ul>
+            </div>
+            <div style="background-color: #fffaf0; border-left: 5px solid #ed8936; padding: 15px; border-radius: 4px;">
+                <h4 style="margin-top: 0; color: #c05621;">3. Thermoregulation</h4>
+                <ul style="margin-bottom: 0; padding-left: 20px;">
+                    <li><strong>Sustained Fever:</strong> &gt; 38.0°C (100.4°F)</li>
+                    <li style="font-size: 0.85em; list-style-type: none;"><em>Note: 37.5°C is normal "acidotic
+                            fire."</em></li>
+                </ul>
+            </div>
+            <div style="background-color: #ebf8ff; border-left: 5px solid #4299e1; padding: 15px; border-radius: 4px;">
+                <h4 style="margin-top: 0; color: #2b6cb0;">4. Neurological</h4>
+                <ul style="margin-bottom: 0; padding-left: 20px;">
+                    <li>Severe confusion</li>
+                    <li>Delirium</li>
+                    <li>Inability to obey commands</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr style="margin: 3rem 0; border: 0; border-top: 1px solid #eee;">
+
+        <!-- DIET HISTORY FLOWCHART -->
+        <h2 id="part1">Part 1: Diet History & Carb Approach</h2>
+        <p>Determine your starting point based on previous diet history (Carnivore vs. High Carb).</p>
+        <div class="mermaid">
+            graph TD
+            Start["Start: Chronic Symptoms + Extreme Diet History"] --> Assess{"Assess Current Diet Background"}
+
+            Assess -->|Path A: Carnivore / Low-Carb| PathA["Path A: Carnivore/Low-Carb Background<br />• Belly fat and
+            High LDL<br />• Cold Extremities<br />• Low Energy Availability"]
+            Assess -->|Path B: High-Carb| PathB["Path B: High-Carb Background<br />• Lean or Skinny-Fat<br />• Wired/Hot
+            and High FGF21<br />• Difficulty Gaining Mass"]
+
+            PathA --> Bloodwork["Full Bloodwork + Symptom Check"]
+            PathB --> Bloodwork
+
+            Bloodwork --> Urgent{"Any Urgent Issues?<br />Gallstones, Tumors, Organ Dysfunction"}
+            Urgent -->|Yes| Medical["Address Medically First<br />STOP HERE"]
+            Urgent -->|No| Proceed["Proceed on Your Path"]
+
+            Proceed -->|Path A| Phase1A["Phase 1A: Gradual Carb Reintroduction<br />The goal here is to carefully
+            reintroduce carbs<br />and bridge the metabolic gap with the scorch protocol"]
+            Proceed -->|Path B| Phase1B["Phase 1B: Figure out weight loss issue:<br />• Is it high metabolism?<br />• Is
+            it insulin resistance (diabetes)?<br />• Is it high FGF21?<br />• Try and fix to put on weight."]
+
+            Phase1A --> Converge["Phase 3: Liver Therapy & Bioenergetics<br />• Restore energy production<br />• Target
+            98.6F / 80-85 bpm"]
+            Phase1B --> Converge
+
+            Converge --> T3["Phase 4: Introduce T3 Therapy<br />• If Low Temps + Poor Conversion<br />• Start low/slow"]
+
+            T3 --> Scorch["Phase 5: Scorch Protocol (Dry Fasting)<br />• When metabolism stable<br />• Build: 36h -> 72h
+            -> 5-day<br />• Goal: Stem Cell Activation"]
+
+            Scorch --> Maintain["Ongoing: Cycle & Maintain"]
+
+            style PathA fill:#e2e3e5,stroke:#383d41,stroke-width:2px
+            style PathB fill:#e2e3e5,stroke:#383d41,stroke-width:2px
+            style Urgent fill:#ffcccc,stroke:#f00,stroke-width:2px
+            style Scorch fill:#d4edda,stroke:#28a745,stroke-width:2px
+        </div>
+
+        <hr style="margin: 3rem 0; border: 0; border-top: 1px solid #eee;">
+
+        <h2 id="part2">Part 2: T3 Thyroid Assessment</h2>
+        <p>How to evaluate T3 thyroid status.</p>
+        <!-- MERMAID DIAGRAM START -->
+        <div class="mermaid">
+            graph TD
+            Start[Start: Analyzing Blood Work] --> Thyroid{Evaluate Thyroid Panel}
+
+            Thyroid -->|High TSH + Low T4/T3| Primary[Primary Hypothyroidism Detected<br />Consider Standard T4/T3
+            Meds<br />Re-assess in 3 months]
+            Thyroid -->|Normal TSH + Fatigue and Low temps| Chronic[Euthyroid + Chronic Fatigue Profile]
+            Thyroid -->|Low TSH Under 1| Hyper[Hyperthyroidism Detected - Need to Address with Fasting]
+
+            Chronic --> Markers{Check Key Markers:<br />Cholesterol, eGFR, Insulin Resistance}
+
+            Markers -->|Low Cholesterol| Preg[Protocol: T3 Therapy + Pregnenolone]
+            Markers -->|High Cholesterol OR<br />Low eGFR OR<br />Insulin Resistance| Strong[Strong Rec: T3 Therapy
+            Only]
+            Markers -->|None Elevated| Mild[Milder T3 Therapy<br />Monitor/Optional]
+
+            Preg --> Liver{Check Liver Enzymes<br />ALT/AST}
+            Strong --> Liver
+            Mild --> Liver
+
+            Liver -->|High ALT/AST| Tudca[Add TUDCA + NAC]
+            Liver -->|Normal| Standard[Continue Standard Protocol]
+
+            style Strong fill:#ffcccc,stroke:#f00,stroke-width:2px
+            style Preg fill:#ccffcc,stroke:#0f0,stroke-width:2px
+            style Tudca fill:#e1f5fe,stroke:#03a9f4,stroke-width:2px
+            style Primary fill:#e9ecef,stroke:#6c757d,stroke-width:2px,stroke-dasharray: 5 5
+        </div>
+        </div>
+        <!-- MERMAID DIAGRAM END -->
+
+        <hr style="margin: 3rem 0; border: 0; border-top: 1px solid #eee;">
+
+        <h2 id="part3">Part 3: Long COVID, Insulin Resistance (IR) & Ivermectin</h2>
+
+        <p><strong>Model for Long covid therapeutics like Ivermectin, Ketotifen, etc.</strong></p>
+        <p>There are a few supplements around calming the immune system and reducing inflammation that can be used to
+            treat long covid symptoms. One of the more powerful and consistent helpers is Ivermectin</p>
+
+        <div class="mermaid">
+            graph TD
+            Start["Start: Patient w/ Long COVID Symptoms<br />(Brain Fog, Fatigue, Suspected IR)"] --> Assess{"Assess
+            Baseline:<br />Check IR Markers (HOMA-IR >3)<br />& Liver Function"}
+
+            Assess -->|IR Confirmed| Trial["Initiate Ivermectin Trial<br />(e.g., 12mg/day for 4-6
+            weeks)<br />Rationale: Reset FXR, Reduce IR"]
+            Assess -->|IR NOT Confirmed| Mock["Rule out other drivers (e.g. Neuro-inflammation).<br />Still consider
+            trial (Low Dose)"]
+
+            Mock --> Trial
+
+            Trial --> Result?{"Result after 4-6 weeks"}
+
+            Result? -->|Improved| Sust{"Monitor Sustainability<br />(3 months)"}
+            Result? -->|No Improvement| Pivot["Pivot Strategy<br />Reassess non-FXR drivers"]
+
+            Pivot --> Alternate["Root Cause First<br />(Fasting / Autophagy)"]
+
+            Sust -->|Stable| Taper["Taper to PRN<br />(Path 1: Reset / Epigenetic Shift)"]
+            Sust -->|Relapse| Maint["Switch to Maintenance Pulse<br />(e.g., 12mg 3-5 days biweekly)"]
+
+            Maint --> Root["Address Root Cause:<br />Fasting / Autophagy Protocols<br />(Clear Viral Reservoirs)"]
+
+            style Trial fill:#d4edda,stroke:#28a745,stroke-width:2px
+            style Remission fill:#c3e6cb,stroke:#28a745,stroke-width:4px
+            style Pivot fill:#f8d7da,stroke:#dc3545,stroke-width:2px
+            style Root fill:#fff3cd,stroke:#ffc107,stroke-width:2px
+        </div>
+
+        <div class="guiding-questions" style="margin-top: 2rem;">
+            <h3>Key Takeaways</h3>
+            <ul>
+                <li><strong>The Bridge:</strong> Ivermectin acts as a metabolic bridge, offering quick wins via liver/IR
+                    optimization.</li>
+                <li><strong>Durability:</strong> Long-term success often hinges on eradicating viral reservoirs through
+                    autophagy (fasting).</li>
+                <li><strong>Maintenance:</strong> In cohorts, pulsing maintains 70–80% of gains long-term while avoiding
+                    tolerance.</li>
+            </ul>
+        </div>
+
+
+        <div class="guidance-box">
+            <h3>Need Personalized Guidance?</h3>
+            <p><strong>What you get:</strong> Access to years of highly synthesized data, a personal researcher, coach,
+                and someone who had severe ME/CFS, Long Covid all in one. You will also get personal help with acquiring
+                medication.</p>
+            <a href="https://dryfastingclub.com" target="_blank" class="guidance-btn">Visit DryFastingClub.com</a>
+        </div>
+
+        <div class="findings-section">
+            <h3>Logic Notes</h3>
+            <p><em>Use this area to note down new logic rules you want to add to the diagram later.</em></p>
+            <textarea placeholder="e.g., If Ferritin is low -> Add Iron bisglycinate..."></textarea>
+        </div>
+    </main>
+
+</body>
+
+</html>

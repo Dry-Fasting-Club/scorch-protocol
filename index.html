@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Scorch Protocol - Implementation Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <nav>
+        <h2>The Scorch Protocol</h2>
+        <ul>
+            <li><a href="index.html" class="active">Overview & Principles</a></li>
+            <li><a href="decision-tree.html">Decision Logic Tree</a></li>
+            <li><a href="preparation.html">Phase 1: Preparation</a></li>
+            <li><a href="dry-fasting.html">Phase 2: The Dry Fast</a></li>
+            <li><a href="refeeding.html">Phase 3: The Refeed</a></li>
+            <li><a href="t3-therapy.html">Phase 4: T3 Therapy</a></li>
+            <li><a href="hgh-therapy.html">Phase 5: hGH Therapy</a></li>
+            <li><a href="symptom-management.html">Symptom Management</a></li>
+            <li><a href="weight-loss.html">Weight Loss Protocol</a></li>
+            <li><a href="genetic-polymorphisms.html">Genetic Polymorphisms</a></li>
+            <li><a href="tips-and-tricks.html">Tips and Tricks</a></li>
+            <li><a href="Success-Rate-Data.html">Success Rate Data</a></li>
+            <li><a href="Refeed-for-BMR.html">9-Month BMR Reconstruction</a></li>
+            <li><a href="list-of-pharmacies.html">List of Pharmacies</a></li>
+            <li><a href="FAQ/index.html">Go to FAQ Section</a></li>
+
+        </ul>
+    </nav>
+
+    <main>
+        <h1>The Scorch Protocol: An Overview</h1>
+        <p>This is a guide for <strong>The Scorch Protocol</strong>, created by Yannick Wolfe (founder of the Dry
+            Fasting Club). The protocol is designed to help heal chronic illnesses, especially Long Covid and autoimmune
+            diseases. It uses a strong combination of dry fasting, specific diets, and metabolic therapies to help the
+            body recover.</p>
+
+        <div class="guiding-questions">
+            <h3>Is this Protocol Right for You?</h3>
+            <div class="question-item">
+                <span class="question-label">Are you dealing with Chronic Illness (Long Covid, Fatigue,
+                    Autoimmune)?</span>
+                If <strong>YES</strong> <span class="action-arrow">&rarr;</span> This protocol focuses on deep repair,
+                fixing glucose oxidation,
+                and resetting your immune system.
+            </div>
+            <div class="question-item">
+                <span class="question-label">Are you only looking to lose weight quickly?</span>
+                If <strong>YES</strong> <span class="action-arrow">&rarr;</span> This is a very intense protocol and
+                might be more than you need, even though it does help with weight loss. Use it with caution.
+            </div>
+            <div class="question-item">
+                <span class="question-label">Do you have European ancestors?</span>
+                If <strong>YES</strong> <span class="action-arrow">&rarr;</span> You have a <strong>45-60%
+                    chance</strong> of having a specific gene variant (DIO2) that makes this protocol very important for
+                your health.
+            </div>
+            <div class="question-item">
+                <span class="question-label">Is your morning body temperature below 37°C (98.6°F)?</span>
+                If <strong>YES</strong> <span class="action-arrow">&rarr;</span> You likely need <strong>T3
+                    Therapy</strong> to fix your metabolism before or during the protocol.
+            </div>
+            <div class="question-item">
+                <span class="question-label">Do you struggle with heavy fatigue, brain fog, or feeling sick after
+                    exercise?</span>
+                If <strong>YES</strong> <span class="action-arrow">&rarr;</span> This protocol is meant to give you back
+                <strong>youthful energy</strong> by fixing how your body creates energy.
+            </div>
+            <div class="question-item">
+                <span class="question-label">Are you taking medications that are hard on the liver (like Benzos or
+                    Tylenol)?</span>
+                If <strong>YES</strong> <span class="action-arrow">&rarr;</span> <strong>DO NOT FAST.</strong> Dry
+                fasting while taking these medications can be dangerous for your liver.
+            </div>
+            <div class="question-item">
+                <span class="question-label">Do you have EBV or HSV (Cold sore virus)?</span>
+                If <strong>YES</strong> <span class="action-arrow">&rarr;</span> It is <strong>critical</strong> to
+                follow a viral reactivation protocol during refeeding to prevent flare-ups.
+            </div>
+        </div>
+
+        <h2>The Three Main Pillars</h2>
+        <div class="core-pillars">
+            <div class="pillar-item">
+                <h3><span style="opacity: 0.3;">01.</span> Dry Fasting: Deep Cleaning</h3>
+                <p>This is the most powerful way to reverse illness. Chronic sickness often hides deep in your body and
+                    types up your nervous system. The Scorch Protocol uses dry fasting to trigger a "deep clean"
+                    (autophagy). It forces the body to burn away old, sick cells and make room for new ones.
+                    <strong>This is the engine of the entire protocol. Some people may require deeper fasting than 5 days, especially with Lyme disease.</strong>
+                </p>
+            </div>
+
+            <div class="pillar-item">
+                <h3><span style="opacity: 0.3;">02.</span> T3 Therapy: The Metabolism Bridge</h3>
+                <p>Chronic illness often puts your body into a state of "hibernation." T3 therapy acts as a bridge. By
+                    raising your thyroid hormone levels, we force your body to wake up and start burning sugar for
+                    energy. This speeds up healing that would normally take years.</p>
+            </div>
+
+            <div class="pillar-item">
+                <h3><span style="opacity: 0.3;">03.</span> hGH Therapy: The Rebuilding Signal</h3>
+                <p>While dry fasting clears out the junk, hGH (growth hormone) tells the body to rebuild. In this
+                    protocol, hGH is used to help regrow the <strong>Thymus Gland</strong>, which is like the "school"
+                    for your immune system. It works with T3 to keep your muscles strong and help you bounce back
+                    faster.</p>
+            </div>
+        </div>
+
+        <div class="guiding-questions" style="background-color: #f4f6f7; border-left-color: #34495e; margin: 2rem 0;">
+            <h3>The Double Advantage: Metabolism & Cleaning</h3>
+            <p>Healing chronic illness requires two things: <strong>Fixing Metabolism</strong> and <strong>Clearing Out
+                    Junk</strong> (like viral fragments).</p>
+            <div class="question-item">
+                <span class="question-label">The Cleaning Limit:</span>
+                While dry fasting is the best tool for cleaning your body, it only works as well as your metabolism
+                allow. If your metabolism is "shut down," your body doesn't have the energy to make the fast fully
+                productive.
+            </div>
+            <div class="question-item">
+                <span class="question-label">The Scorch Advantage:</span>
+                By using <strong>T3 and hGH therapies</strong>, we put your body into an "artificially healthy" state.
+                This gives your body a surge of energy that makes dry fasting <strong>10 times more effective</strong>.
+                It allows the body to reach hidden pockets of disease that it would normally miss.
+            </div>
+            <div style="text-align: center; margin: 2rem 0;">
+                <a href="https://youtu.be/U-JPZo8DxPM" target="_blank">
+                    <img src="assets/scorch-video-thumb.png" alt="Scorch Protocol Quick Overview Video"
+                        style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1); cursor: pointer;">
+                </a>
+                <p style="margin-top: 0.5rem; color: #666; font-style: italic;">Scorch Protocol Quick Overview: Burn
+                    Disease,
+                    Rebuild Your Life!</p>
+            </div>
+
+            <h2>Extra Helping Tools</h2>
+            <p>Depending on your blood work and symptoms, we may use other tools:</p>
+            <ul>
+                <li><strong>Fixing Insulin Resistance:</strong> Using supplements to help your body use sugar correctly.
+                    This gives your brain and nerves the energy they need to stay calm and repair.</li>
+                <li><strong>Immune Boosters (Peptides):</strong> Tools like <strong>Thymalin</strong> help the body
+                    fight off hidden germs or viruses.</li>
+                <li><strong>Organ Support:</strong> Supplements to help your Liver and Kidneys. This keeps your body's
+                    "filter" clean and avoids problems during fasting.</li>
+                <li><strong>Fighting Germs and Viruses:</strong> Using medications like <strong>Fluconazole</strong> for
+                    fungus or <strong>Ivermectin</strong> to help support the liver and fight parasites.</li>
+                <li><strong>Nicotine:</strong> Used in specific ways to help your <strong>thyroid (T3) work
+                        better</strong> and protect your brain.</li>
+            </ul>
+
+            <h2>What Does This Protocol Cure?</h2>
+
+            <div class="guiding-questions" style="background-color: #e8f8f5; border-left-color: #2ecc71;">
+                <h3>Targeted Conditions</h3>
+                <p>This protocol is very effective at reaching hidden germs and viruses, including:</p>
+                <ul>
+                    <li><strong>Herpes (HSV 1 & 2)</strong></li>
+                    <li><strong>Epstein-Barr (EBV)</strong></li>
+                    <li><strong>Lyme Disease:</strong>
+                        <ul>
+                            <li><strong>Breaking Biofilms:</strong> The pressure of a dry fast breaks down the "shields"
+                                germs hide behind.</li>
+                            <li><strong>Brain Protection:</strong> Cleans up germs hiding deep in the brain.</li>
+                            <li><strong>Starving Germs:</strong> Makes it impossible for pathogens like Babesia to
+                                survive.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Long Covid & Chronic Fatigue:</strong>
+                        <ul>
+                            <li><strong>Clearing Spike Proteins:</strong> Helps the body break down leftover proteins
+                                from viruses.</li>
+                            <li><strong>Fixing Blood Flow:</strong> Dissolves tiny blood clots that cause <strong>Cold
+                                    Hands and Feet</strong>.</li>
+                            <li><strong>Resetting the Immune System:</strong> Cleans out sick cells and helps the immune
+                                system work correctly again.</li>
+                            <li><strong>A Mitochondrial Reboot:</strong> Fixes your body's "batteries" so you don't feel
+                                sick after activity.</li>
+                            <li><strong>Fixing Dizziness:</strong> Helps balance your heart rate and nerves to address
+                                issues like <strong>POTS</strong>.</li>
+                        </ul>
+                    </li>
+                    <li><strong>Thyroid & Metabolism Failure:</strong>
+                        <ul>
+                            <li><strong>Rebuilding Your Metabolism:</strong> Fixes a <strong>Low Body
+                                    Temperature</strong> and <strong>Stubborn Weight Gain</strong>.</li>
+                            <li><strong>Reducing Cell Stress:</strong> Clears <strong>Brain Fog</strong>, <strong>Heavy
+                                    Fatigue</strong>, and <strong>Hair Loss</strong>.</li>
+                            <li><strong>Resetting Hormones:</strong> Helps your body's communication system work again.
+                            </li>
+                        </ul>
+                    </li>
+                    <li><strong>Autoimmune Disorders:</strong> Helps with Arthritis, MS, and other conditions where the
+                        body attacks itself.</li>
+                    <li><strong>Nerve & Bone Issues:</strong> Helps the body rebuild things like spine discs using stem
+                        cells.</li>
+                    <li><strong>Cysts & Growths:</strong> Helps shrink non-cancerous growths like fibroids.</li>
+                    <li><strong>Lung & Skin Issues:</strong> Helps with Asthma, Bronchitis, and Eczema.</li>
+                    <li><strong>Liver Issues:</strong> Helps fix Fatty Liver and other liver problems.</li>
+                </ul>
+
+                <h3>The Result: A Brand New Immune System</h3>
+                <p>The goal is not just "killing" germ, but <strong>replacing</strong> your immune system with a new
+                    one.</p>
+                <div class="question-item">
+                    <span class="question-label">Why it works:</span>
+                    Dry fasting triggers deep cleaning and releases "starter cells" (stem cells). Then we use T3 to help
+                    rebuild your metabolism. For very sick patients, hGH therapy is used to help rebuild tissues that
+                    have broken down over time.
+                </div>
+                <p><strong>The Final Goal:</strong> Your immune system becomes so strong that it keeps hidden viruses
+                    (like Herpes) quiet forever. Your new immune system works like a security team that stops any
+                    flare-up immediately, effectively curing the sickness.</p>
+            </div>
+
+            <section id="why-it-takes-long"
+                style="margin-top: 3rem; background-color: #fffaf0; padding: 1.5rem; border-radius: 8px; border-left: 5px solid #f39c12;">
+                <h2>Why Does This Protocol Take So Long?</h2>
+                <p>One of the most common questions is why the Scorch Protocol takes so much time. It is important to
+                    know that the body has a set schedule for healing that we cannot rush. <strong>The sooner you start,
+                        the sooner your recovery clock begins to tick.</strong></p>
+
+                <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1rem;">
+                    <div>
+                        <h4>1. Repairing Your Tissues</h4>
+                        <p>Even if your blood levels look normal, your cells might still be "starved" for energy. It
+                            takes time to clear out hormones that block your metabolism and rebuild your body's energy
+                            stores. Repairing this deep damage happens slowly over months.</p>
+                    </div>
+                    <div>
+                        <h4>2. Rebuilding Your "Batteries"</h4>
+                        <p>Your cells' energy centers (mitochondria) need to be replaced. Old ones are cleared out and
+                            new ones are grown. This is a slow process that often takes <strong>6 to 12 months</strong>
+                            of consistent effort.</p>
+                    </div>
+                    <div>
+                        <h4>3. Brain Healing</h4>
+                        <p>Brain scans show that it takes time for the brain to recover after a virus. You might start
+                            seeing some improvement in 1-2 months, but full recovery of your focus and mood often takes
+                            <strong>9 to 12 months</strong>.
+                        </p>
+                    </div>
+                    <div>
+                        <h4>4. Whole Body Recovery</h4>
+                        <p>Things like long-term inflammation and nerve issues need to be fixed one by one. Your body
+                            has to heal in a specific order to get your organs and nervous system working correctly
+                            again.</p>
+                    </div>
+                </div>
+
+                <p style="margin-top: 1rem; font-weight: bold; color: #d35400;">The "wait and see" approach is the enemy
+                    of
+                    recovery. Because these biological repairs take months to manifest, delaying the start of the Scorch
+                    Protocol simply pushes your eventual recovery date further into the future.</p>
+            </section>
+
+            <div class="guidance-box"
+                style="background-color: #f8f9fa; border-left: 4px solid #6c757d; margin: 2rem 0;">
+                <p style="font-size: 1.05rem; line-height: 1.8; margin-bottom: 1rem;">
+                    I have been exactly where you are. I suffered through severe Long Covid and autoimmune issues
+                    twice, feeling trapped with no way out. Then I discovered dry fasting and spent years
+                    experimenting to unlock its full power. I gamed the system that tried to keep this knowledge
+                    hidden, and now I give it back to you freely through the Dry Fasting Club.
+                </p>
+
+                <p style="font-size: 1.05rem; line-height: 1.8; margin-bottom: 1rem;">
+                    That is why I share the core of my Scorch Protocol openly, with detailed guides anyone can
+                    access. It combines strategic dry fasting to trigger intense
+                    autophagy, burn away damaged cells and DNA, and rebuild with fresh stem cells. It also combines T3
+                    therapy and hGH therapy.
+                    You deserve this truth. You deserve to reclaim your body, sharpen your mind, and experience real
+                    regeneration.
+                </p>
+
+                <p style="font-size: 1.05rem; line-height: 1.8; margin-bottom: 1rem;">
+                    We all deserve better than scripted suffering. Come join our community, explore the resources,
+                    and take the first step toward getting your life back. I am here because I believe in you,
+                    and together we can glimpse real freedom.
+                </p>
+
+                <p
+                    style="font-size: 1.05rem; line-height: 1.8; margin-top: 1.5rem; font-style: italic; color: #495057;">
+                    With care and hope,<br>
+                    <strong>Yannick Wolfe</strong>
+                </p>
+            </div>
+
+            <h2>How to use this system</h2>
+            <p>Each section (see sidebar) contains specific steps and <strong>Guiding Questions</strong>. Use these
+                questions to determine your readiness for each phase. This system is designed to be a living document;
+                For detailed refeeds for various levels (beginner, intermediate, advanced), see the <strong>Scorch
+                    Protocol
+                    Miro Board</strong> which is provided to paid subscribers on the <a
+                    href="https://dryfastingclub.com" target="_blank">dryfastingclub.com</a> website.</p>
+
+            <div class="guidance-box">
+                <h3>Need Personalized Guidance?</h3>
+                <p><strong>What you get:</strong> Access to years of highly synthesized data, a personal researcher,
+                    coach, and someone who had severe ME/CFS, Long Covid all in one. You will also get personal help
+                    with acquiring medication.</p>
+                <a href="https://dryfastingclub.com" target="_blank" class="guidance-btn">Visit DryFastingClub.com</a>
+            </div>
+
+            <div class="findings-section">
+                <h3>General Protocol Findings & Notes</h3>
+                <p><em>Use this area to log general observations, new research from the Dry Fasting Club, or changes to
+                        the
+                        overall strategy.</em></p>
+                <textarea placeholder="Log your general notes here..."></textarea>
+            </div>
+    </main>
+
+</body>
+
+</html>
