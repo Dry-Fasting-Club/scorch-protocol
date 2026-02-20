@@ -1,0 +1,7 @@
+youtube-scripts/
+patient-data-tracking-v2/
+studies/
+.gemini/
+node_modules/
+.DS_Store
+*.log
