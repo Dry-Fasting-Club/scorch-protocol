@@ -213,7 +213,7 @@ strong {
 }
 
 em {
-    color: var(--text-secondary);
+    color: var(--text-color);
 }
 
 ul, ol {
@@ -412,17 +412,17 @@ tr:hover {
     padding: 1.75rem;
     border-radius: 10px;
     text-align: center;
-    border: 1px solid rgba(20, 184, 166, 0.25);
+    border: 1px solid rgba(232, 93, 4, 0.3);
 }
 
 .guidance-box h3 {
-    color: #14b8a6;
+    color: var(--accent-color);
     margin-top: 0;
 }
 
 .guidance-btn {
     display: inline-block;
-    background-color: #14b8a6;
+    background-color: var(--accent-color);
     color: #fff;
     padding: 10px 22px;
     text-decoration: none;
@@ -434,7 +434,7 @@ tr:hover {
 }
 
 .guidance-btn:hover {
-    background-color: #0d9488;
+    background-color: #c94d00;
     color: #fff;
     transform: translateY(-1px);
 }
@@ -582,7 +582,7 @@ tr:hover {
 }
 
 .hub-card h3 { margin-top: 0; color: var(--heading-color); }
-.hub-card p  { margin-bottom: 0; font-size: 0.9rem; color: var(--text-secondary); }
+.hub-card p  { margin-bottom: 0; font-size: 0.9rem; color: var(--text-color); }
 
 /* ============================================================
    PAGE-SPECIFIC: RANDOM THOUGHTS
@@ -1427,7 +1427,7 @@ tr:hover {
     padding: 0.6rem 1.15rem;
     border: 1px solid var(--border-strong);
     border-radius: 6px;
-    color: var(--text-secondary);
+    color: var(--text-color);
     font-weight: 600;
     font-size: 0.875rem;
     text-decoration: none;
