@@ -62,16 +62,8 @@ for (const filename of MIGRATIONS) {
 
   console.log(`Running: ${filename} ...`);
   try {
-    // postgres.js doesn't support multi-statement strings directly,
-    // so we split on semicolons and run each statement individually.
-    const statements = content
-      .split(";")
-      .map((s) => s.trim())
-      .filter((s) => s.length > 0 && !s.startsWith("--"));
-
-    for (const stmt of statements) {
-      await sql.unsafe(stmt + ";");
-    }
+    // sql.unsafe() executes the full file as-is, supporting multi-statement SQL.
+    await sql.unsafe(content);
     console.log(`  ✓ ${filename} complete`);
   } catch (err) {
     console.error(`  ✗ Failed on ${filename}:`, err.message);
