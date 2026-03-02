@@ -131,7 +131,10 @@ export default function VideoPlayer({ src, title, poster }: Props) {
           onLoadedMetadata={handleLoadedMetadata}
           onEnded={() => setPlaying(false)}
           onClick={togglePlay}
+          onContextMenu={(e) => e.preventDefault()}
           playsInline
+          controlsList="nodownload"
+          disablePictureInPicture
         />
 
         <div className="video-player-controls">
