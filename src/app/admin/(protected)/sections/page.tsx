@@ -39,6 +39,23 @@ export default function AdminSectionsPage() {
     setSaving(null);
   }
 
+  async function handleRemove(section: Section) {
+    if (!confirm(`Remove content from "${section.title}"? This also unpublishes the section.`)) return;
+    setSaving(section.slug);
+    await fetch("/api/admin/sections", {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        slug: section.slug,
+        paid_content_key: null,
+        paid_content_type: null,
+        published: false,
+      }),
+    });
+    await loadSections();
+    setSaving(null);
+  }
+
   async function handleUpload(section: Section, file: File) {
     setUploading(section.slug);
     try {
@@ -115,8 +132,26 @@ export default function AdminSectionsPage() {
               </td>
               <td>
                 {s.paid_content_type ? (
-                  <span style={{ color: "#27ae60" }}>
-                    ✓ {s.paid_content_type.toUpperCase()}
+                  <span style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                    <span style={{ color: "#27ae60" }}>✓ {s.paid_content_type.toUpperCase()}</span>
+                    <button
+                      onClick={() => handleRemove(s)}
+                      disabled={saving === s.slug}
+                      title="Remove content"
+                      style={{
+                        padding: "2px 7px",
+                        borderRadius: "4px",
+                        border: "none",
+                        cursor: "pointer",
+                        background: "#c0392b",
+                        color: "white",
+                        fontWeight: 700,
+                        fontSize: "0.8rem",
+                        lineHeight: 1,
+                      }}
+                    >
+                      ✕
+                    </button>
                   </span>
                 ) : (
                   <span style={{ color: "#999" }}>—</span>
