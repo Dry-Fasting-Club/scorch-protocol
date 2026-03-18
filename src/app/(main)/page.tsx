@@ -22,7 +22,7 @@ export default function HomePage() {
         <p className="hero-sub">
           The Scorch Protocol combines dry fasting, T3 therapy, and hGH to
           reset your immune system at the root — not just manage symptoms. Built
-          by someone who recovered from severe ME/CFS and Long Covid twice.
+          by someone who recovered from severe ME/CFS and Long Covid.
         </p>
         <div className="hero-cta-group">
           <Link href="/success-rate-data" className="hero-btn hero-btn-primary">
@@ -404,7 +404,7 @@ export default function HomePage() {
       >
         <p style={{ fontSize: "1.05rem", lineHeight: 1.8, marginBottom: "1rem" }}>
           I have been exactly where you are. I suffered through severe Long
-          Covid and autoimmune issues twice, feeling trapped with no way out.
+          Covid and autoimmune issues, feeling trapped with no way out.
           Then I discovered dry fasting and spent years experimenting to unlock
           its full power. I gamed the system that tried to keep this knowledge
           hidden, and now I give it back to you freely through the Dry Fasting
