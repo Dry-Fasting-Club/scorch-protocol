@@ -44,6 +44,8 @@ export default async function PurchaseSuccessPage({ searchParams }: Props) {
     LIMIT 1
   `;
 
+  const isBundle = sectionSlug === "bundle";
+
   if (rows.length) {
     const { access_token } = rows[0];
     const cookieStore = await cookies();
@@ -54,6 +56,38 @@ export default async function PurchaseSuccessPage({ searchParams }: Props) {
       maxAge: 60 * 60 * 24 * 365,
       path: "/",
     });
+  }
+
+  if (isBundle) {
+    return (
+      <div className="purchase-success">
+        <div className="purchase-success-icon">✓</div>
+        <h1>Full Protocol Unlocked</h1>
+
+        <div className="purchase-success-box">
+          <h3>You now have lifetime access to all 21 sections.</h3>
+          <p className="purchase-success-title">Full Protocol Bundle — Every Deep Dive</p>
+          <p>
+            Every video and deep-dive document across the entire Scorch Protocol
+            is now unlocked in this browser. No subscription, no logins — stored
+            for one year on this device.
+          </p>
+        </div>
+
+        <div className="purchase-success-actions">
+          <Link href="/overview" className="access-btn">
+            Start with Overview →
+          </Link>
+          <Link href="/" className="purchase-back-link">
+            ← Back to home
+          </Link>
+        </div>
+
+        <p className="purchase-success-note">
+          Using a different device? Contact us and we can restore your access manually.
+        </p>
+      </div>
+    );
   }
 
   const sectionRows = await sql`

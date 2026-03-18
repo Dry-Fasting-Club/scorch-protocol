@@ -53,7 +53,12 @@ export async function validateAccessToken(
 
 /** Check if the current request has valid access for a section */
 export async function hasAccess(sectionSlug: string): Promise<boolean> {
+  // Check section-specific access first
   const token = await getAccessToken(sectionSlug);
-  if (!token) return false;
-  return validateAccessToken(sectionSlug, token);
+  if (token && await validateAccessToken(sectionSlug, token)) return true;
+
+  // Check bundle (full-protocol) access
+  const bundleToken = await getAccessToken("bundle");
+  if (!bundleToken) return false;
+  return validateAccessToken("bundle", bundleToken);
 }

@@ -162,7 +162,7 @@ export default function GeneticPolymorphismsPage() {
             </tr>
           </thead>
           <tbody>
-            <tr style={{ backgroundColor: "#fef5e7" }}>
+            <tr style={{ backgroundColor: "rgba(245,158,11,0.08)" }}>
               <td>
                 <strong>Finnish</strong>
               </td>
@@ -172,7 +172,7 @@ export default function GeneticPolymorphismsPage() {
               <td>47.1%</td>
               <td>13.9%</td>
             </tr>
-            <tr style={{ backgroundColor: "#fef5e7" }}>
+            <tr style={{ backgroundColor: "rgba(245,158,11,0.08)" }}>
               <td>
                 <strong>Northern European</strong>
               </td>
@@ -182,7 +182,7 @@ export default function GeneticPolymorphismsPage() {
               <td>46.3%</td>
               <td>10.4%</td>
             </tr>
-            <tr style={{ backgroundColor: "#fef5e7" }}>
+            <tr style={{ backgroundColor: "rgba(245,158,11,0.08)" }}>
               <td>
                 <strong>Ashkenazi Jewish</strong>
               </td>

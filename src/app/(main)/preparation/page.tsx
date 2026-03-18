@@ -145,10 +145,7 @@ export default function PreparationPage() {
       <div className="core-pillars">
         <div
           className="pillar-item"
-          style={{
-            borderLeftColor: "#27ae60",
-            backgroundColor: "#f9fff9",
-          }}
+          style={{ borderLeftColor: "#27ae60" }}
         >
           <h3>Option A: Ketogenic Pre-Fast Diet (Recommended for Sick Patients)</h3>
           <p>
@@ -162,10 +159,7 @@ export default function PreparationPage() {
         </div>
         <div
           className="pillar-item"
-          style={{
-            borderLeftColor: "#3498db",
-            backgroundColor: "#f9fbff",
-          }}
+          style={{ borderLeftColor: "#3498db" }}
         >
           <h3>Option B: Standard Pre-Fast Approach (For Healthier Individuals)</h3>
           <p>

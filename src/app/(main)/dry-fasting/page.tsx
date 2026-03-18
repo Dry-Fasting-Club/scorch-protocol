@@ -16,17 +16,17 @@ export default function DryFastingPage() {
 
       <div
         style={{
-          backgroundColor: "#f8d7da",
-          border: "1px solid #f5c6cb",
+          backgroundColor: "rgba(220,53,69,0.12)",
+          border: "1px solid rgba(220,53,69,0.35)",
           borderRadius: "8px",
           padding: "1.5rem",
           marginBottom: "2rem",
         }}
       >
-        <h3 style={{ color: "#721c24", marginTop: 0 }}>
+        <h3 style={{ color: "#ff6b6b", marginTop: 0 }}>
           Read This First (Safety Warning)
         </h3>
-        <p style={{ color: "#721c24", marginBottom: 0 }}>
+        <p style={{ marginBottom: 0 }}>
           Dry fasting (no food or water) is an advanced tool with serious risks.
           It can lead to severe dehydration, mineral imbalances, and organ
           strain. This is not for everyone.{" "}

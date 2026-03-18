@@ -16,7 +16,7 @@ export default function MermaidDiagram({ chart }: Props) {
     el.innerHTML = chart;
 
     import("mermaid").then((m) => {
-      m.default.initialize({ startOnLoad: false, theme: "neutral" });
+      m.default.initialize({ startOnLoad: false, theme: "dark" });
       m.default.run({ nodes: [el] });
     });
   }, [chart]);

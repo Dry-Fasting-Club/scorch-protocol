@@ -323,7 +323,7 @@ export default function HomePage() {
         id="why-it-takes-long"
         style={{
           marginTop: "3rem",
-          backgroundColor: "#fffaf0",
+          backgroundColor: "rgba(243,156,18,0.09)",
           padding: "1.5rem",
           borderRadius: "8px",
           borderLeft: "5px solid #f39c12",
@@ -386,7 +386,7 @@ export default function HomePage() {
           style={{
             marginTop: "1rem",
             fontWeight: "bold",
-            color: "#d35400",
+            color: "#f6ad55",
           }}
         >
           The &ldquo;wait and see&rdquo; approach is the enemy of recovery.
@@ -399,8 +399,6 @@ export default function HomePage() {
       <div
         className="guidance-box"
         style={{
-          backgroundColor: "#f8f9fa",
-          borderLeft: "4px solid #6c757d",
           margin: "2rem 0",
         }}
       >
@@ -432,7 +430,7 @@ export default function HomePage() {
             lineHeight: 1.8,
             marginTop: "1.5rem",
             fontStyle: "italic",
-            color: "#495057",
+            color: "var(--text-secondary)",
           }}
         >
           With care and hope,

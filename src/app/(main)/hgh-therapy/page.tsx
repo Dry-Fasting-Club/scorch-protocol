@@ -16,10 +16,10 @@ export default function HghTherapyPage() {
 
       <div
         style={{
-          backgroundColor: "#fff3cd",
-          color: "#856404",
+          backgroundColor: "rgba(245,158,11,0.12)",
+          color: "#fde68a",
           padding: "15px",
-          border: "1px solid #ffeeba",
+          border: "1px solid rgba(245,158,11,0.4)",
           borderRadius: "4px",
           marginBottom: "20px",
           textAlign: "center",
@@ -90,14 +90,14 @@ export default function HghTherapyPage() {
 
         <div
           style={{
-            backgroundColor: "#f0f4f8",
+            backgroundColor: "rgba(41,128,185,0.12)",
             borderLeft: "5px solid #2980b9",
             padding: "1.5rem",
             borderRadius: "8px",
             margin: "2rem 0",
           }}
         >
-          <h4 style={{ marginTop: 0, color: "#2c3e50" }}>
+          <h4 style={{ marginTop: 0, color: "#63b3ed" }}>
             A New Way to Look at Chronic Illness
           </h4>
           <p>

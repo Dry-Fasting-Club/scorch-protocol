@@ -14,6 +14,7 @@ import Link from "next/link";
 import sql from "@/lib/db";
 import { hasAccess } from "@/lib/tokens";
 import UnlockButton from "./UnlockButton";
+import BundleButton from "./BundleButton";
 
 interface ContentItem {
   type: "video" | "pdf";
@@ -171,6 +172,14 @@ export default async function PaidContentBlock({ sectionSlug, sectionTitle }: Pr
       <div className="paid-content-cta">
         <p>One-time unlock · Stored on your device · No subscription</p>
         <UnlockButton sectionSlug={sectionSlug} priceDollars={priceDollars} />
+      </div>
+
+      <div className="bundle-upsell">
+        <p className="bundle-upsell-label">Or unlock the entire protocol at once</p>
+        <BundleButton />
+        <p className="bundle-upsell-note">
+          All 21 sections · One payment of $99 · Save $510 vs. individual
+        </p>
       </div>
     </div>
   );

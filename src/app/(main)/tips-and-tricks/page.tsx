@@ -182,11 +182,11 @@ export default function TipsAndTricksPage() {
 
         <div
           style={{
-            backgroundColor: "#fdf2f2",
+            backgroundColor: "rgba(220,53,69,0.12)",
             borderLeft: "5px solid #e74c3c",
             padding: "1rem",
             margin: "1rem 0",
-            color: "#c0392b",
+            color: "#ff6b6b",
           }}
         >
           <strong>Critical Risk: Electrolyte Imbalance &amp; Hypertension</strong>
@@ -362,11 +362,11 @@ export default function TipsAndTricksPage() {
 
         <div
           style={{
-            backgroundColor: "#fff9db",
+            backgroundColor: "rgba(252,196,25,0.10)",
             borderLeft: "5px solid #fcc419",
             padding: "1rem",
             margin: "1rem 0",
-            color: "#856404",
+            color: "#fde68a",
           }}
         >
           <strong>Safety &amp; Mitigation Hacks</strong>

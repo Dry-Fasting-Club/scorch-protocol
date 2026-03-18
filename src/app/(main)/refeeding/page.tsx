@@ -94,9 +94,12 @@ export default function RefeedingPage() {
             <td><strong>Week 2+</strong></td>
             <td>
               Gradually return to a normal, whole-foods diet. Start increasing
-              calories deliberately. For metabolism recovery, target 3,000–4,000+
-              calories per day (see the{" "}
+              calories deliberately. Return to your regular calorie baseline
+              first, then increase by 100 calories per week. For metabolism
+              recovery, eventually target 3,000–4,000+ calories per day (see
+              the{" "}
               <a href="/refeed-for-bmr">9-Month BMR Reconstruction</a> page).
+              You are building up slowly.
             </td>
           </tr>
         </tbody>

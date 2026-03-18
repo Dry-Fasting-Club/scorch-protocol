@@ -334,6 +334,29 @@ export default function T3TherapyPage() {
         </li>
       </ul>
 
+      <div style={{ margin: "2rem 0", textAlign: "center" }}>
+        <Image
+          src="/assets/images/Your-Natural-Body-Temperature_Graph_Cropped_Simplified.jpg"
+          alt="Ideal body temperature curve throughout the day for a healthy person"
+          width={900}
+          height={500}
+          style={{
+            maxWidth: "100%",
+            height: "auto",
+            borderRadius: "8px",
+            boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
+          }}
+        />
+        <p style={{ fontSize: "0.9rem", color: "#666", marginTop: "0.5rem" }}>
+          <em>
+            Figure 2: The ideal body temperature curve of a healthy person —
+            rising through the day and peaking in the late afternoon. If your
+            T3 therapy works, your temperature pattern should begin to match
+            this curve.
+          </em>
+        </p>
+      </div>
+
       <GuidanceBox />
       <PaidContentBlock sectionSlug="t3-therapy" sectionTitle="Phase 4: T3 Therapy" />
       <CommentSection sectionSlug="t3-therapy" />

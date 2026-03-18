@@ -197,8 +197,8 @@ export default function SuccessRateDataPage() {
       </div>
 
       <div
-        className="guiding-questions"
-        style={{ backgroundColor: "#d4edda", borderLeftColor: "#28a745", margin: "3rem 0" }}
+        className="guiding-questions box-green"
+        style={{ margin: "3rem 0" }}
       >
         <h3>Summary: The Transformation</h3>
         <div className="question-item">

@@ -46,6 +46,7 @@ const MIGRATIONS = [
   "001_schema.sql",
   "001_comments_threading_and_blog.sql",
   "002_sections_paid_meta.sql",
+  "003_bundle_section.sql",
 ];
 
 console.log("\n=== Scorch Protocol — Database Migrations ===\n");

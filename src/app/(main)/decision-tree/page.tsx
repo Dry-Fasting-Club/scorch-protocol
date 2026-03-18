@@ -143,15 +143,15 @@ export default function DecisionTreePage() {
 
       <div
         style={{
-          backgroundColor: "#f8f9fa",
-          border: "1px solid #ddd",
+          backgroundColor: "rgba(255,255,255,0.05)",
+          border: "1px solid rgba(255,255,255,0.12)",
           padding: "15px",
           borderRadius: "5px",
           marginBottom: "30px",
         }}
       >
         <strong
-          style={{ display: "block", marginBottom: "10px", color: "#2c3e50" }}
+          style={{ display: "block", marginBottom: "10px", color: "var(--text-color)" }}
         >
           Table of Contents
         </strong>
@@ -183,7 +183,7 @@ export default function DecisionTreePage() {
       </p>
       <MermaidCharts charts={[chart0]} />
 
-      <hr style={{ margin: "3rem 0", border: 0, borderTop: "1px solid #eee" }} />
+      <hr style={{ margin: "3rem 0", border: 0, borderTop: "1px solid rgba(255,255,255,0.1)" }} />
 
       <h2 id="stopsignals" style={{ color: "#dc3545" }}>
         Critical Thresholds (&ldquo;Stop Signals&rdquo;)
@@ -204,13 +204,13 @@ export default function DecisionTreePage() {
       >
         <div
           style={{
-            backgroundColor: "#fff5f5",
+            backgroundColor: "rgba(220,53,69,0.12)",
             borderLeft: "5px solid #ff4d4d",
             padding: "15px",
             borderRadius: "4px",
           }}
         >
-          <h4 style={{ marginTop: 0, color: "#c53030" }}>
+          <h4 style={{ marginTop: 0, color: "#ff6b6b" }}>
             1. Hemodynamic Instability
           </h4>
           <ul style={{ marginBottom: 0, paddingLeft: "20px" }}>
@@ -227,13 +227,13 @@ export default function DecisionTreePage() {
         </div>
         <div
           style={{
-            backgroundColor: "#f0fff4",
+            backgroundColor: "rgba(40,167,69,0.12)",
             borderLeft: "5px solid #48bb78",
             padding: "15px",
             borderRadius: "4px",
           }}
         >
-          <h4 style={{ marginTop: 0, color: "#2f855a" }}>
+          <h4 style={{ marginTop: 0, color: "#68d391" }}>
             2. Fluid &amp; Renal Status
           </h4>
           <ul style={{ marginBottom: 0, paddingLeft: "20px" }}>
@@ -250,13 +250,13 @@ export default function DecisionTreePage() {
         </div>
         <div
           style={{
-            backgroundColor: "#fffaf0",
+            backgroundColor: "rgba(237,137,54,0.12)",
             borderLeft: "5px solid #ed8936",
             padding: "15px",
             borderRadius: "4px",
           }}
         >
-          <h4 style={{ marginTop: 0, color: "#c05621" }}>
+          <h4 style={{ marginTop: 0, color: "#f6ad55" }}>
             3. Thermoregulation
           </h4>
           <ul style={{ marginBottom: 0, paddingLeft: "20px" }}>
@@ -270,13 +270,13 @@ export default function DecisionTreePage() {
         </div>
         <div
           style={{
-            backgroundColor: "#ebf8ff",
+            backgroundColor: "rgba(66,153,225,0.12)",
             borderLeft: "5px solid #4299e1",
             padding: "15px",
             borderRadius: "4px",
           }}
         >
-          <h4 style={{ marginTop: 0, color: "#2b6cb0" }}>4. Neurological</h4>
+          <h4 style={{ marginTop: 0, color: "#63b3ed" }}>4. Neurological</h4>
           <ul style={{ marginBottom: 0, paddingLeft: "20px" }}>
             <li>Severe confusion</li>
             <li>Delirium</li>
@@ -285,7 +285,7 @@ export default function DecisionTreePage() {
         </div>
       </div>
 
-      <hr style={{ margin: "3rem 0", border: 0, borderTop: "1px solid #eee" }} />
+      <hr style={{ margin: "3rem 0", border: 0, borderTop: "1px solid rgba(255,255,255,0.1)" }} />
 
       <h2 id="part1">Part 1: Diet History &amp; Carb Approach</h2>
       <p>
@@ -294,13 +294,13 @@ export default function DecisionTreePage() {
       </p>
       <MermaidCharts charts={[chart1]} />
 
-      <hr style={{ margin: "3rem 0", border: 0, borderTop: "1px solid #eee" }} />
+      <hr style={{ margin: "3rem 0", border: 0, borderTop: "1px solid rgba(255,255,255,0.1)" }} />
 
       <h2 id="part2">Part 2: T3 Thyroid Assessment</h2>
       <p>How to evaluate T3 thyroid status.</p>
       <MermaidCharts charts={[chart2]} />
 
-      <hr style={{ margin: "3rem 0", border: 0, borderTop: "1px solid #eee" }} />
+      <hr style={{ margin: "3rem 0", border: 0, borderTop: "1px solid rgba(255,255,255,0.1)" }} />
 
       <h2 id="part3">
         Part 3: Long COVID, Insulin Resistance (IR) &amp; Ivermectin
