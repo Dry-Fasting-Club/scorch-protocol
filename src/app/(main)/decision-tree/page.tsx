@@ -25,9 +25,9 @@ const chart0 = `graph TD
   Q3 -->|Yes| Advanced["Focus on the Advanced Scorch Protocol<br />Focus: Phase 1, 2, 3, 4, 5"]
   Q3 -->|No| Consult["Further Assessment Needed<br />Consult with the community or coach"]
 
-  style Beginner fill:#d4edda,stroke:#28a745,stroke-width:2px
-  style Intermediate fill:#fff3cd,stroke:#ffc107,stroke-width:2px
-  style Advanced fill:#f8d7da,stroke:#dc3545,stroke-width:2px`;
+  style Beginner fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
+  style Intermediate fill:#713f12,stroke:#eab308,stroke-width:2px,color:#fde047
+  style Advanced fill:#7f1d1d,stroke:#ef4444,stroke-width:2px,color:#fca5a5`;
 
 const chartStop = `graph TD
   Start["Monitor Vital Signs & Status"] --> Hemo{"1. Hemodynamic Signals<br />(BP / HR / Orthostasis)"}
@@ -50,12 +50,12 @@ const chartStop = `graph TD
   Thermo --- T_Note["Fever: >38.0°C (100.4°F)"]
   Neuro --- N_Note["Confusion / Delirium<br />Inability to obey commands"]
 
-  style STOP fill:#f8d7da,stroke:#dc3545,stroke-width:4px,color:#721c24
-  style Cont fill:#d4edda,stroke:#28a745,stroke-width:2px
-  style H_Note fill:#fff,stroke:#ddd,stroke-dasharray: 5 5
-  style F_Note fill:#fff,stroke:#ddd,stroke-dasharray: 5 5
-  style T_Note fill:#fff,stroke:#ddd,stroke-dasharray: 5 5
-  style N_Note fill:#fff,stroke:#ddd,stroke-dasharray: 5 5`;
+  style STOP fill:#7f1d1d,stroke:#ef4444,stroke-width:4px,color:#fca5a5
+  style Cont fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
+  style H_Note fill:#0f172a,stroke:#334155,stroke-dasharray: 5 5,color:#94a3b8
+  style F_Note fill:#0f172a,stroke:#334155,stroke-dasharray: 5 5,color:#94a3b8
+  style T_Note fill:#0f172a,stroke:#334155,stroke-dasharray: 5 5,color:#94a3b8
+  style N_Note fill:#0f172a,stroke:#334155,stroke-dasharray: 5 5,color:#94a3b8`;
 
 const chart1 = `graph TD
   Start["Start: Chronic Symptoms + Extreme Diet History"] --> Assess{"Assess Current Diet Background"}
@@ -82,10 +82,10 @@ const chart1 = `graph TD
 
   Scorch --> Maintain["Ongoing: Cycle & Maintain"]
 
-  style PathA fill:#e2e3e5,stroke:#383d41,stroke-width:2px
-  style PathB fill:#e2e3e5,stroke:#383d41,stroke-width:2px
-  style Urgent fill:#ffcccc,stroke:#f00,stroke-width:2px
-  style Scorch fill:#d4edda,stroke:#28a745,stroke-width:2px`;
+  style PathA fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
+  style PathB fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
+  style Urgent fill:#7f1d1d,stroke:#ef4444,stroke-width:2px,color:#fca5a5
+  style Scorch fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac`;
 
 const chart2 = `graph TD
   Start[Start: Analyzing Blood Work] --> Thyroid{Evaluate Thyroid Panel}
@@ -107,10 +107,10 @@ const chart2 = `graph TD
   Liver -->|High ALT/AST| Tudca[Add TUDCA + NAC]
   Liver -->|Normal| Standard[Continue Standard Protocol]
 
-  style Strong fill:#ffcccc,stroke:#f00,stroke-width:2px
-  style Preg fill:#ccffcc,stroke:#0f0,stroke-width:2px
-  style Tudca fill:#e1f5fe,stroke:#03a9f4,stroke-width:2px
-  style Primary fill:#e9ecef,stroke:#6c757d,stroke-width:2px,stroke-dasharray: 5 5`;
+  style Strong fill:#7f1d1d,stroke:#ef4444,stroke-width:2px,color:#fca5a5
+  style Preg fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
+  style Tudca fill:#1e3a5f,stroke:#3b82f6,stroke-width:2px,color:#93c5fd
+  style Primary fill:#1e293b,stroke:#64748b,stroke-width:2px,stroke-dasharray: 5 5,color:#cbd5e1`;
 
 const chart3 = `graph TD
   Start["Start: Patient w/ Long COVID Symptoms<br />(Brain Fog, Fatigue, Suspected IR)"] --> Assess{"Assess Baseline:<br />Check IR Markers (HOMA-IR >3)<br />& Liver Function"}
@@ -132,9 +132,9 @@ const chart3 = `graph TD
 
   Maint --> Root["Address Root Cause:<br />Fasting / Autophagy Protocols<br />(Clear Viral Reservoirs)"]
 
-  style Trial fill:#d4edda,stroke:#28a745,stroke-width:2px
-  style Pivot fill:#f8d7da,stroke:#dc3545,stroke-width:2px
-  style Root fill:#fff3cd,stroke:#ffc107,stroke-width:2px`;
+  style Trial fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
+  style Pivot fill:#7f1d1d,stroke:#ef4444,stroke-width:2px,color:#fca5a5
+  style Root fill:#713f12,stroke:#eab308,stroke-width:2px,color:#fde047`;
 
 export default function DecisionTreePage() {
   return (
