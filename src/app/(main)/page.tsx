@@ -181,27 +181,35 @@ export default function HomePage() {
           hidden pockets of disease that it would normally miss.
         </div>
 
-        <div style={{ textAlign: "center", margin: "2rem 0" }}>
-          <a
-            href="https://youtu.be/U-JPZo8DxPM"
-            target="_blank"
-            rel="noopener noreferrer"
+        <div style={{ margin: "2rem 0" }}>
+          <div
+            style={{
+              position: "relative",
+              paddingBottom: "56.25%",
+              height: 0,
+              overflow: "hidden",
+              borderRadius: "10px",
+              boxShadow: "0 8px 32px rgba(0,0,0,0.6)",
+              border: "1px solid rgba(232,93,4,0.4)",
+            }}
           >
-            <Image
-              src="/assets/scorch-video-thumb.png"
-              alt="Scorch Protocol Quick Overview Video"
-              width={700}
-              height={394}
+            <iframe
+              src="https://www.youtube.com/embed/8n01dL62V7o"
+              title="The Scorch Protocol — Full Overview"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
               style={{
-                maxWidth: "100%",
-                borderRadius: "8px",
-                boxShadow: "0 4px 15px rgba(0,0,0,0.1)",
-                cursor: "pointer",
+                position: "absolute",
+                top: 0,
+                left: 0,
+                width: "100%",
+                height: "100%",
+                border: 0,
               }}
             />
-          </a>
-          <p style={{ marginTop: "0.5rem", color: "#999", fontStyle: "italic" }}>
-            Scorch Protocol Quick Overview: Burn Disease, Rebuild Your Life!
+          </div>
+          <p style={{ marginTop: "0.75rem", color: "#888", fontStyle: "italic", textAlign: "center", fontSize: "0.9rem" }}>
+            The Scorch Protocol explained — what it is, why it works, and how to start.
           </p>
         </div>
       </div>
