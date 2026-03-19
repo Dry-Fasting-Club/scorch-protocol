@@ -206,6 +206,52 @@ export default function HomePage() {
         </div>
       </div>
 
+      {/* ── ENERGY ABUNDANCE PRINCIPLE ── */}
+      <div className="guiding-questions box-orange">
+        <h3>The Other Half of Healing: Energy Abundance</h3>
+        <p>
+          You are already here because you believe in fasting. You believe in
+          autophagy. You believe the body has an innate, incredible ability to
+          heal itself when you strip everything away and let it clean house.
+          That belief is correct — and it is one half of the equation.
+        </p>
+        <p>
+          <strong>Here is what most people in the fasting world miss:</strong>{" "}
+          the body has an equally powerful, equally innate ability to heal
+          itself when you flood it with energy. Not empty calories — real
+          energy abundance, delivered with the right hormonal signal. Given
+          enough fuel and enough time, the body will repair damage that fasting
+          alone cannot reach.
+        </p>
+        <div className="question-item">
+          <span className="question-label">Scarcity Mode vs. Abundance Mode:</span>
+          Fasting triggers <strong>scarcity mode</strong> — autophagy, cellular
+          cleanup, pathogen clearance, stem cell mobilization. This is
+          irreplaceable. But once that window closes, the body needs to switch
+          into <strong>abundance mode</strong> to actually build the new tissue,
+          restore the nervous system, and lock in what the fast started. Without
+          deliberately entering abundance mode, many people clean the slate and
+          then write the same broken story back onto it.
+        </div>
+        <div className="question-item">
+          <span className="question-label">This Is What T3, hGH, and Calories Are For:</span>
+          T3 therapy restores the metabolic signal that tells every cell it is
+          safe to burn energy again. hGH gives the command to rebuild — muscle,
+          nerves, immune tissue. And calories are the raw material that makes it
+          possible. All three together create a hormonal and energetic
+          environment where the body can finally complete repairs it has been
+          deferring for years.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Expand Your Model:</span>
+          Think of it this way: a construction crew cannot rebuild a city by
+          only demolishing old buildings. The demolition phase (fasting) is
+          essential — but so is the rebuild phase (energy abundance). The Scorch
+          Protocol is one of the only protocols that takes both seriously, in
+          the right order, with the right tools.
+        </div>
+      </div>
+
       {/* ── CONDITIONS ── */}
       <div className="guiding-questions box-teal2">
         <h3>Conditions That Respond to The Scorch Protocol</h3>
