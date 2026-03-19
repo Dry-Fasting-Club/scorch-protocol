@@ -190,25 +190,79 @@ export default function HghTherapyPage() {
         <h3>Where to Get hGH</h3>
         <p>
           It is very important to get high-quality hGH, as many products sold
-          online are fake or low-quality.
+          online are fake or low-quality. There are a few realistic paths:
         </p>
-        <p>
-          One trusted source for Human Growth Hormone is{" "}
-          <strong>
-            <a
-              href="https://chronic-illness.ca"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              chronic-illness.ca
-            </a>
-          </strong>
-          . They have high-quality products and can ship worldwide.
-        </p>
+        <ul>
+          <li>
+            <strong>Prescription:</strong> hGH can be prescribed by a doctor in
+            many countries for documented deficiency. This is the cleanest
+            route if you can get it.
+          </li>
+          <li>
+            <strong>UGL Labs:</strong> Underground labs (UGLs) are the more
+            accessible and affordable option for most people. Nearly every
+            country has some way to access UGL-sourced hGH if you do the right
+            digging in your local community. Quality varies — research your
+            source carefully.
+          </li>
+          <li>
+            <strong>Can&rsquo;t access either?</strong> Consider{" "}
+            <strong>Tesamorelin</strong>, a GH secretagogue peptide. Rather
+            than replacing hGH directly, it signals your pituitary to maximize
+            its own production. Output is limited (typically below 2 IU) but
+            it is legal, far easier to source, and still meaningfully effective
+            for supporting the recovery phase.
+          </li>
+        </ul>
         <p>
           <em>
-            If you have trouble getting your medication, Yannick can help you
-            find a way to get what you need.
+            If you have trouble finding what you need, Yannick can help point
+            you in the right direction.
+          </em>
+        </p>
+      </div>
+
+      <div className="guiding-questions box-purple">
+        <h3>Synergistic Peptides During Recovery</h3>
+        <p>
+          For certain people, the protocol has missing keys that no amount of
+          fasting or hormones will unlock on their own. These three peptides
+          address immune, gut, and energy axes that are commonly broken in
+          chronic illness:
+        </p>
+        <div className="question-item">
+          <span className="question-label">Thymalin (Thymic Peptide):</span>
+          A peptide derived from the thymus gland that directly stimulates
+          immune system regeneration. Particularly valuable for people whose
+          immune dysregulation is the core driver of their illness — it
+          essentially &ldquo;reboots&rdquo; thymic output, which declines with
+          age and chronic stress. Pairs powerfully with hGH&rsquo;s
+          tissue-rebuilding signal.
+        </div>
+        <div className="question-item">
+          <span className="question-label">BPC-157 (Body Protection Compound):</span>
+          One of the most researched healing peptides available. Accelerates
+          repair of the gut lining, tendons, nerves, and vascular tissue.
+          For people with a damaged gut (leaky gut, SIBO, chronic
+          inflammation), BPC-157 can be a critical bridge that allows
+          nutrients to actually absorb during the rebuild phase. Also shows
+          strong synergy with stem cell activity post-fast (see Refeeding
+          page).
+        </div>
+        <div className="question-item">
+          <span className="question-label">Retatrutide (GLP-1/GIP/Glucagon Triple Agonist):</span>
+          A newer triple-agonist peptide that activates glucagon signaling
+          alongside GLP-1 and GIP. For people stuck in low-energy states with
+          poor glucose utilization, the glucagon component can raise baseline
+          energy availability in a way that nothing else does. Consider this
+          for cases where fatigue persists despite normalized temperatures and
+          adequate caloric intake.
+        </div>
+        <p>
+          <em>
+            Not everyone needs all three. Think of them as targeted keys for
+            specific locks — immune, gut, and metabolic energy. Identify your
+            weakest axis and start there.
           </em>
         </p>
       </div>

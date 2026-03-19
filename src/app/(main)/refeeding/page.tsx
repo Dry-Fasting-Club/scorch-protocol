@@ -152,6 +152,45 @@ export default function RefeedingPage() {
         </div>
       </div>
 
+      <h2>BPC-157: Doubling Your Stem Cell Regeneration</h2>
+      <div className="guiding-questions box-purple">
+        <h3>The Most Overlooked Upgrade to the Refeed</h3>
+        <p>
+          You&rsquo;ve already done something incredible by dry fasting — your
+          body has mobilized stem cells and cleared cellular debris. BPC-157
+          (Body Protection Compound) is a peptide that can dramatically amplify
+          what happens next.
+        </p>
+        <div className="question-item">
+          <span className="question-label">Stem Cell Synergy:</span>
+          Stem cell clinics around the world have observed that pairing
+          BPC-157 with stem cell therapy produces significantly better
+          distribution and acceptance of new cells. The same principle applies
+          here: the stem cells your fast has mobilized integrate more
+          effectively into damaged tissues when BPC-157 is present during the
+          refeed window.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Gut Repair:</span>
+          BPC-157 is particularly effective at healing the gut lining — exactly
+          the tissue that takes the most stress during a dry fast and needs to
+          come back online cleanly during the refeed.
+        </div>
+        <div className="question-item">
+          <span className="question-label">When to Take It:</span>
+          Begin BPC-157 from Day 2–3 of the refeed, once coconut water
+          rehydration has started and the gut is beginning to wake up. Continue
+          for 4–8 weeks through the refeed and rebuild phase.
+        </div>
+        <p>
+          <em>
+            You&rsquo;re already doing something powerful. BPC-157 is a small
+            addition that can double its effect for a fraction of the cost of
+            any other intervention.
+          </em>
+        </p>
+      </div>
+
       <h2>Viral Reactivation Protocol</h2>
       <div className="guiding-questions box-red">
         <h3>Critical for EBV and HSV Carriers</h3>
@@ -177,6 +216,20 @@ export default function RefeedingPage() {
           If you have access to Acyclovir or Valacyclovir, taking a short course
           during the refeed window is strongly recommended if you are an HSV/EBV
           carrier.
+        </div>
+        <div className="question-item">
+          <span className="question-label">The L-Lysine → Antiviral Transition:</span>
+          For people who have identified reactivated latent viruses as part of
+          their illness, there is a specific window worth knowing about. Once
+          the kidneys are fully rehydrated (typically Day 3–5 of the refeed),
+          transition from L-Lysine supplementation into a short course of
+          Acyclovir or Valacyclovir. L-Lysine is a useful bridge before the
+          kidneys are ready to handle antivirals, but once they are, the
+          direct antiviral is significantly more effective at suppressing viral
+          replication during the immune activation window the fast has opened.
+          This transition is a missing link for a specific subset of chronically
+          ill people — particularly those with EBV, HHV-6, or HSV reactivation
+          as a core driver.
         </div>
       </div>
 
