@@ -94,6 +94,54 @@ export default function T3TherapyPage() {
         </a>
       </p>
 
+      <div
+        style={{
+          margin: "2rem 0",
+          borderRadius: "10px",
+          overflow: "hidden",
+          boxShadow: "0 6px 24px rgba(0,0,0,0.4)",
+          border: "1px solid rgba(232,93,4,0.3)",
+        }}
+      >
+        <div
+          style={{
+            position: "relative",
+            paddingBottom: "56.25%",
+            height: 0,
+            overflow: "hidden",
+          }}
+        >
+          <iframe
+            src="https://www.youtube.com/embed/uxFI17SLQ90"
+            title="Wilson's T3 Therapy & Dry Fasting for Chronic Illness"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+            style={{
+              position: "absolute",
+              top: 0,
+              left: 0,
+              width: "100%",
+              height: "100%",
+              border: 0,
+            }}
+          />
+        </div>
+        <p
+          style={{
+            margin: 0,
+            padding: "0.75rem 1rem",
+            backgroundColor: "rgba(232,93,4,0.08)",
+            fontSize: "0.9rem",
+            color: "#aaa",
+            fontStyle: "italic",
+          }}
+        >
+          Wilson&rsquo;s T3 Therapy &amp; Dry Fasting for Chronic Illness —
+          a detailed breakdown of why this combination works when nothing else
+          has.
+        </p>
+      </div>
+
       <div className="guiding-questions box-purple">
         <h3>The Best Way: Slow-Release T3 (SR-T3)</h3>
         <p>
