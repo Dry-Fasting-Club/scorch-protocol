@@ -105,6 +105,56 @@ export default function RefeedingPage() {
         </tbody>
       </table>
 
+      <h2>How Many Calories to Eat During Recovery</h2>
+      <div className="guiding-questions box-blue">
+        <h3>The Calorie Ramp: Day 8 Onward</h3>
+        <p>
+          Once you exit the first 7 days of the refeed, the goal is not to
+          stay light — it is to deliberately rebuild. Here is the framework:
+        </p>
+        <div className="question-item">
+          <span className="question-label">Day 8: Return to Your Pre-Fast Baseline</span>
+          Resume eating roughly the same number of calories you were eating
+          before the fast. For most people this is around{" "}
+          <strong>1,800–2,000 calories per day</strong>. Do not jump above this
+          yet — your digestive system needs a few days to handle regular food
+          volumes again.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Week 2 Onward: Add 100 Calories Per Week</span>
+          Once you are stable at your baseline, increase your daily calories by
+          approximately <strong>100 per week</strong>, consistently:
+          <ul style={{ marginTop: "0.5rem" }}>
+            <li>Week 2: ~2,100 cal/day</li>
+            <li>Week 3: ~2,200 cal/day</li>
+            <li>Week 4: ~2,300 cal/day</li>
+            <li>
+              Continue until you reach at least{" "}
+              <strong>3,000 calories per day</strong>
+            </li>
+          </ul>
+        </div>
+        <div className="question-item">
+          <span className="question-label">Expect Some Weight Gain — Do Not Panic</span>
+          Almost every starvation recovery study documents significant weight
+          gain during the rebuilding phase. This is normal, expected, and
+          necessary. Your body has been in survival mode and will prioritize
+          restoring reserves. If you follow the full Scorch Protocol — T3
+          therapy, hGH, BPC-157, proper sleep — you will minimize fat gain and
+          direct more of those calories into muscle and tissue repair. But do
+          not fear the scale. Resisting this phase slows healing significantly.
+        </div>
+        <div className="question-item">
+          <span className="question-label">The Goal Is 3,000+ Cal/Day</span>
+          Many people with chronic illness have been eating too little for
+          years, which is part of what got them here. The metabolic reset only
+          completes when the body feels safe in abundance. 3,000 is the floor
+          for most — some will need to go higher. See the{" "}
+          <a href="/refeed-for-bmr">9-Month BMR Reconstruction</a> page for
+          the full long-term calorie strategy.
+        </div>
+      </div>
+
       <h2>Why Coconut Water First?</h2>
       <div className="guiding-questions box-green">
         <h3>The Science of Coconut Water</h3>
