@@ -267,6 +267,57 @@ export default function HghTherapyPage() {
         </p>
       </div>
 
+      <div className="guiding-questions box-dark">
+        <h3>Why hGH Works for Chronic Illness: The Research Case</h3>
+        <p>
+          If you have been sick for years, you are not just dealing with a
+          pathogen or an immune glitch — your body has physically degraded.
+          Muscle wasted. Immune tissue atrophied. The thymus, which produces
+          your T-cells, has shrunk. No amount of fasting or antivirals rebuilds
+          that. hGH does.
+        </p>
+        <div className="question-item">
+          <span className="question-label">Thymus Regeneration &amp; Immune Rebuilding:</span>
+          Clinical research, including the TRIIM trial, has demonstrated that
+          hGH can physically regenerate the thymus gland — replacing fat tissue
+          with functional immune tissue and increasing the production of
+          &ldquo;naive&rdquo; T-cells (the immune cells your body uses to
+          recognize new threats). These are the same cells that chronic illness
+          depletes. Some studies show epigenetic aging reversal still detectable
+          six months after stopping treatment, and increased T-cell output
+          lasting up to a year post-discontinuation.
+        </div>
+        <div className="question-item">
+          <span className="question-label">hGH vs. Tesamorelin:</span>
+          Tesamorelin is a milder alternative that stimulates your pituitary to
+          release its own GH in a pulsatile, natural pattern — making it safer
+          and easier to source, but limited (typically below 2 IU output) and
+          more targeted toward visceral fat. hGH provides broader systemic
+          effects: stronger muscle and tissue rebuilding, more pronounced thymic
+          regeneration, and a direct anabolic signal to every cell in your body.
+          For serious chronic illness recovery, hGH is the more powerful tool.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Safety &amp; Immunogenicity:</span>
+          Modern recombinant hGH is bioidentical to what your pituitary
+          produces. As a result, the immune system rarely recognizes it as
+          foreign — antibody formation rates in adults are approximately 2–3%,
+          far lower than many common medications. Tesamorelin, by comparison,
+          triggers antibody formation in up to 50% of users (though usually
+          without clinical impact). For most people, well-sourced recombinant
+          hGH is remarkably well tolerated.
+        </div>
+        <div className="question-item">
+          <span className="question-label">The Bottom Line:</span>
+          You are already doing the hardest part by dry fasting and
+          committing to this protocol. hGH is not a shortcut — it is the
+          targeted rebuilding signal that tells your body to use everything the
+          fast liberated. Stem cells mobilized. Immune system primed. The only
+          thing left is giving your body the hormonal instruction to rebuild.
+          That is what hGH provides.
+        </div>
+      </div>
+
       <GuidanceBox />
       <PaidContentBlock sectionSlug="hgh-therapy" sectionTitle="Phase 5: hGH Therapy" />
       <CommentSection sectionSlug="hgh-therapy" />
