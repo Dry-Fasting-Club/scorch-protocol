@@ -295,7 +295,7 @@ export default function RefeedingPage() {
           energy, but calibrated so fat accumulation stays manageable.
           This balance is what allows the T3 therapy phase to work at its
           best: a well-fueled body on T3 rebuilds tissue; an underfueled
-          body on T3 just burns faster. Peptides like Retatrutide and
+          body on T3 just burns faster. Peptides like Retatrutide, Carnitine, and
           BPC-157 can further optimize the energy-to-composition ratio for
           people who need additional help here.
         </div>
