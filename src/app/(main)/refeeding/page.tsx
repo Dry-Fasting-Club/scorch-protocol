@@ -316,6 +316,33 @@ export default function RefeedingPage() {
       <div className="guiding-questions box-red">
         <h3>Critical for EBV and HSV Carriers</h3>
         <p>
+          Every time your body swings between major energetic states — dry
+          fasting to refeeding, or the peak of one T3 cycle to the trough
+          before the next — you create what can be thought of as{" "}
+          <strong>energetic peaks and troughs</strong>. The troughs are the
+          dangerous windows: low-energy states where your immune system is
+          momentarily off-balance and cellular resources are in flux.
+        </p>
+        <p>
+          Viruses — particularly latent herpesviruses like EBV, HSV-1,
+          HSV-2, HHV-6, and CMV — are exquisitely sensitive to these
+          metabolic shifts. They have evolved to sense exactly these kinds
+          of changes in the body&rsquo;s energy landscape, and they use
+          those troughs as a signal to reactivate from dormancy in the nerve
+          cells where they hide. This is not a rare edge case — it is a
+          predictable, biological event that happens to a significant subset
+          of chronically ill patients every time they go through a major
+          protocol transition.
+        </p>
+        <p>
+          <strong>Stopping this reactivation is critical.</strong> This is
+          why a few days of water fasting (not dry fasting) is recommended
+          as a bridge before fully breaking the fast — it allows you to
+          slowly titrate antivirals upward while the body is still in a
+          lower-demand state, before the immune activation of refeeding
+          opens the window for viral replication.
+        </p>
+        <p>
           If you have a history of Herpes (HSV 1 or 2), Epstein-Barr (EBV), or
           any chronic viral illness, the immune activation during the refeed can
           trigger a viral reactivation. This is normal, but it must be managed.
