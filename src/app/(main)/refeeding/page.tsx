@@ -231,6 +231,62 @@ export default function RefeedingPage() {
         </div>
       </div>
 
+      <h2>How to Track Your Calories</h2>
+      <div className="guiding-questions box-green">
+        <h3>Use a Calorie Counting App — With the Image Scan Feature</h3>
+        <p>
+          Hitting your calorie targets is not guesswork. The most practical
+          tool available right now is a dedicated calorie tracking app with
+          image-based food scanning. Both <strong>MyFitnessPal</strong> and{" "}
+          <strong>Cronometer</strong> offer this — pay for the subscription
+          and use the photo upload feature so you can point your phone at a
+          meal and get an automatic breakdown. It removes the friction of
+          logging and makes hitting 2,000–3,000+ calories per day achievable
+          without obsessing over every ingredient.
+        </p>
+        <div className="question-item">
+          <span className="question-label">Minimum Carbohydrates: 100g Per Day</span>
+          During the refeed and recovery phase, your carbohydrate floor is{" "}
+          <strong>100 grams per day</strong> — double the 50g keto limit.
+          This is not optional. Carbohydrates are the primary signal that
+          tells your thyroid to convert T4 into active T3, which powers your
+          metabolism and muscle preservation. Going too low on carbs during
+          recovery is one of the most common mistakes — it pushes the body
+          back toward a catabolic, low-energy state exactly when you are
+          trying to climb out of one.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Gaining Weight Too Fast? Lower Carbs.</span>
+          If the scale is moving up faster than you are comfortable with,
+          reduce your carbohydrate intake first — not your total calories.
+          Shift some of those calories toward protein and fat instead.
+          Protein is your best ally here: it is thermogenic, highly
+          satiating, and preferentially used for muscle repair rather than
+          fat storage. Keep carbs at or above 100g but redistribute the
+          rest of your calorie budget.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Losing Weight Too Fast? Increase Carbs.</span>
+          If you are losing weight during the ramp-up phase, you are
+          under-fueling. Add carbohydrates first — rice, fruit, potatoes,
+          oats. Your body is still in a deficit state and needs the
+          carbohydrate signal to come out of it. Insufficient calories
+          during this phase can cause muscle catabolism, especially once
+          you start T3 therapy, which raises metabolic demand significantly.
+        </div>
+        <div className="question-item">
+          <span className="question-label">The Core Goal: Energy Abundance Without Excess Fat Gain</span>
+          The aim is to keep your body in a clear state of energy abundance
+          — enough fuel that it never needs to cannibalize muscle for
+          energy, but calibrated so fat accumulation stays manageable.
+          This balance is what allows the T3 therapy phase to work at its
+          best: a well-fueled body on T3 rebuilds tissue; an underfueled
+          body on T3 just burns faster. Peptides like Retatrutide and
+          BPC-157 can further optimize the energy-to-composition ratio for
+          people who need additional help here.
+        </div>
+      </div>
+
       <h2>Why Coconut Water First?</h2>
       <div className="guiding-questions box-green">
         <h3>The Science of Coconut Water</h3>
