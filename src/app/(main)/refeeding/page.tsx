@@ -285,8 +285,9 @@ export default function RefeedingPage() {
           and erratic energy are all signs that your carb tolerance is lower
           than average. In this case, keep carbs closer to the 100g minimum
           rather than the higher end, and prioritize improving insulin
-          sensitivity first — through resistance training, berberine, or
-          metformin if appropriate — before ramping carbs higher.
+          sensitivity first — through resistance training, T3 therapy with
+          adequate caloric energy, MOTS-c, or aspirin — before ramping carbs
+          higher.
         </div>
         <div className="question-item">
           <span className="question-label">The Core Goal: Energy Abundance Without Excess Fat Gain</span>
