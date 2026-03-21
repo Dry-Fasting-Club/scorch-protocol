@@ -275,6 +275,20 @@ export default function RefeedingPage() {
           you start T3 therapy, which raises metabolic demand significantly.
         </div>
         <div className="question-item">
+          <span className="question-label">Insulin Resistance: A Reason to Limit Carbs Further</span>
+          If you have a known history of insulin resistance — or symptoms like
+          fatigue after high-carb meals, neuropathy, blood sugar spikes, or
+          difficulty losing fat — be cautious about pushing carbohydrates
+          aggressively. Forcing high carbohydrate intake against significant
+          insulin resistance does not produce energy; it produces diabetic-type
+          symptoms. Peripheral neuropathy, numbness, brain fog after eating,
+          and erratic energy are all signs that your carb tolerance is lower
+          than average. In this case, keep carbs closer to the 100g minimum
+          rather than the higher end, and prioritize improving insulin
+          sensitivity first — through resistance training, berberine, or
+          metformin if appropriate — before ramping carbs higher.
+        </div>
+        <div className="question-item">
           <span className="question-label">The Core Goal: Energy Abundance Without Excess Fat Gain</span>
           The aim is to keep your body in a clear state of energy abundance
           — enough fuel that it never needs to cannibalize muscle for

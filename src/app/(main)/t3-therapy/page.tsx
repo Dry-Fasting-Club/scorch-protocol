@@ -405,6 +405,69 @@ export default function T3TherapyPage() {
         </p>
       </div>
 
+      <div className="guiding-questions box-orange">
+        <h3>Fueling T3 Therapy: Why Calories Matter Here</h3>
+        <p>
+          T3 dramatically increases your metabolic rate — that is the point.
+          But a faster metabolism with insufficient fuel will cannibalize
+          muscle. You must not be in a caloric deficit during this phase.
+        </p>
+        <div className="question-item">
+          <span className="question-label">Match Your Caloric Demand:</span>
+          As T3 doses climb, your body burns more energy. If you are not
+          eating enough to cover that demand, the body will turn to muscle
+          tissue for fuel — the opposite of what you are trying to achieve.
+          Keep calories at or above your target (see the Refeeding page)
+          and prioritize protein to give your body something to build with,
+          not just burn.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Move Your Muscles — Tell Your Brain to Keep Them:</span>
+          Physical movement during T3 therapy sends a preservation signal.
+          Your body will not aggressively break down muscle tissue it is
+          actively using. You do not need to train hard — even walking,
+          light resistance work, or bodyweight movements daily is enough
+          to keep the muscle-sparing signal active. Lying still while on T3
+          with insufficient calories is the worst combination.
+        </div>
+        <div className="question-item">
+          <span className="question-label">When You Cannot Hit High Calories Yet:</span>
+          Some people — especially early in the refeed — cannot physically
+          eat enough to match T3&rsquo;s demand. Their gut is not ready,
+          appetite is suppressed, or digestion is too compromised. In this
+          case, there are specific strategies that can help:
+          <ul style={{ marginTop: "0.5rem" }}>
+            <li>
+              <strong>hGH</strong> — directly shifts the body toward
+              anabolism and preferential fat use, reducing the rate at which
+              muscle is burned for fuel even when calories are temporarily low.
+            </li>
+            <li>
+              <strong>Retatrutide</strong> — a GLP-1/GIP/glucagon triple
+              agonist that improves glucose utilization and raises baseline
+              energy availability. The glucagon component is particularly
+              useful for people stuck in low-energy states.
+            </li>
+          </ul>
+        </div>
+        <div
+          style={{
+            marginTop: "1rem",
+            padding: "0.75rem 1rem",
+            backgroundColor: "rgba(232,93,4,0.08)",
+            borderLeft: "3px solid var(--scorch)",
+            borderRadius: "4px",
+            fontSize: "0.92rem",
+          }}
+        >
+          <strong>Important:</strong> If you do not understand how hGH or
+          Retatrutide work and why they are recommended in this context, do
+          not use them. These are not general supplements — they are
+          targeted tools with specific mechanisms. Read the hGH Therapy page
+          and understand the protocol before considering them.
+        </div>
+      </div>
+
       <GuidanceBox />
       <PaidContentBlock sectionSlug="t3-therapy" sectionTitle="Phase 4: T3 Therapy" />
       <CommentSection sectionSlug="t3-therapy" />
