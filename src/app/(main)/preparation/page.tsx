@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import CommentSection from "@/components/CommentSection";
@@ -195,6 +196,81 @@ export default function PreparationPage() {
           <span className="question-label">Prepare Your Environment:</span>
           Stock up on coconut water and soft foods for the refeed. Prepare a
           cool, comfortable space to rest. Remove temptations.
+        </div>
+      </div>
+
+      <h2>Step 5: Colon Cleanse — 2 Days Before the Fast</h2>
+      <div className="guiding-questions box-indigo">
+        <h3>Magnesium Citrate Cleanse — Starting 2 Days Before the Fast</h3>
+        <p>
+          One of the most underrated preparation steps is clearing out the
+          colon before you begin. A full colon during a dry fast means your
+          body is dealing with rotting material in a sealed environment — that
+          is extra toxin load during a time when you want nothing pulling your
+          immune system in the wrong direction. A clean colon means a cleaner,
+          more productive fast.
+        </p>
+
+        <div style={{ margin: "1.5rem 0", textAlign: "center" }}>
+          <Image
+            src="/assets/images/magnesium%20citrate%20laxative.png"
+            alt="Magnesium citrate laxative bottle — available at CVS"
+            width={300}
+            height={400}
+            style={{
+              maxWidth: "280px",
+              height: "auto",
+              borderRadius: "8px",
+              boxShadow: "0 4px 16px rgba(0,0,0,0.4)",
+              border: "1px solid rgba(255,255,255,0.08)",
+            }}
+          />
+          <p style={{ fontSize: "0.85rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic" }}>
+            Standard magnesium citrate laxative — available at CVS and most pharmacies
+          </p>
+        </div>
+
+        <div className="question-item">
+          <span className="question-label">What to Use:</span>
+          A standard magnesium citrate laxative, the kind sold at CVS for
+          colonoscopy prep — one bottle of the liquid is the typical dose.
+          Magnesium citrate pills also work but you will need a significant
+          number of them (follow the label for equivalent dosing). Either way,
+          take every dose with a large amount of water.
+        </div>
+        <div className="question-item">
+          <span className="question-label">How to Do It:</span>
+          Follow the same protocol used for colonoscopy preparation. Take your
+          magnesium citrate dose with a full glass of water, then keep drinking
+          water throughout. The goal is to fully flush the colon — this
+          typically takes several hours. Do not fight the process; let your
+          body clear everything out.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Timing — 2 Days Before the Fast:</span>
+          Start the cleanse <strong>2 days before you begin the fast</strong>.
+          This gives you the following day to rehydrate and replenish
+          electrolytes before entering the dry fast. Magnesium citrate is
+          aggressively dehydrating — do not go straight from the cleanse
+          into a dry fast without this recovery window.
+        </div>
+        <div className="question-item">
+          <span className="question-label">The 2-Day Window — Rehydrate and Replenish:</span>
+          After taking the laxative, spend the next 1–2 days drinking water,
+          fresh juices, and electrolytes. <strong>No fiber, fat, or
+          protein</strong> during this period — stick to water, juice (no
+          pulp), broths, and electrolyte drinks only. You want your colon
+          to remain empty and your body to be well-hydrated going into the
+          fast. Think of it as a juice fast bridging you into the dry fast.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Why It Matters:</span>
+          A clean, empty colon going into the fast means less endotoxin
+          recirculation, less digestive distraction for your immune system,
+          and a higher-quality autophagic state throughout. You are already
+          committing to something powerful — this preparation step costs
+          almost nothing and meaningfully improves what your fast can
+          accomplish.
         </div>
       </div>
 
