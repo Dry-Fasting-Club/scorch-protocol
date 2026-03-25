@@ -379,6 +379,41 @@ export default function RefeedingPage() {
           ill people — particularly those with EBV, HHV-6, or HSV reactivation
           as a core driver.
         </div>
+        <div className="question-item">
+          <span className="question-label">HSV Outbreaks Are More Dangerous in Chronic Illness:</span>
+          In a healthy person, CD8+ T cells rapidly contain each HSV
+          reactivation within 12–24 hours — limiting damage to a small cluster
+          of epithelial cells. In chronic illness, this immune surveillance is
+          disrupted. Stress hormones (cortisol) reduce both the number and
+          function of these guard cells, allowing higher viral loads during
+          outbreaks. In the most severely immunocompromised patients, the virus
+          can potentially move into new nerve territories rather than staying
+          locked to its original ganglion. Monthly HSV outbreaks in a
+          chronically ill patient are not just a nuisance — they are a signal
+          that immune containment is failing and suppressive antiviral therapy
+          is warranted, not optional.
+        </div>
+        <div className="question-item">
+          <span className="question-label">The T3 Cycle Off-Ramp Is Another High-Risk Window:</span>
+          Viral reactivation risk does not end with the refeed. When you step
+          off a T3 cycle — as exogenous T3 doses taper and the thyroid takes
+          time to restabilize its own output — your metabolic rate temporarily
+          dips. This creates the same energetic trough that triggers
+          reactivation during the fast-to-refeed transition. Continue antiviral
+          coverage during any T3 wind-down until your waking body temperature
+          has returned to your pre-T3 baseline for at least 5–7 consecutive
+          days.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Have Valacyclovir (Valtrex) On Hand Before You Start:</span>
+          If you have a history of HSV-1 or HSV-2 outbreaks, obtain a
+          prescription for valacyclovir before beginning this protocol — do
+          not wait until an outbreak has already started. If you are having
+          outbreaks monthly, talk to your doctor about starting suppressive
+          dosing (typically 500mg–1g/day) immediately; this reduces outbreak
+          frequency by 70–80% and significantly lowers the risk of viral
+          expansion during protocol transitions.
+        </div>
       </div>
 
       <GuidanceBox />
