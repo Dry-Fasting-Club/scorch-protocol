@@ -79,6 +79,68 @@ export default function T3TherapyPage() {
         </div>
       </div>
 
+      <h2>Getting an Accurate Temperature Reading</h2>
+      <div className="guiding-questions box-deepgreen">
+        <h3>Use a Basal Body Thermometer — Not a Standard One</h3>
+        <p>
+          Your waking temperature is one of the most important data points in
+          this entire protocol. A cheap drugstore thermometer that reads to
+          one decimal place is not good enough. You need a thermometer
+          precise enough to detect meaningful shifts — the kind used for
+          tracking fertility windows.
+        </p>
+
+        <div style={{ margin: "1.5rem 0", textAlign: "center" }}>
+          <Image
+            src="/assets/images/basal%20body%20temperature%20thermometer.png"
+            alt="Digital basal body temperature thermometer for precise tracking"
+            width={500}
+            height={300}
+            style={{
+              maxWidth: "420px",
+              height: "auto",
+              borderRadius: "8px",
+              boxShadow: "0 4px 16px rgba(0,0,0,0.4)",
+              border: "1px solid rgba(255,255,255,0.08)",
+            }}
+          />
+          <p style={{ fontSize: "0.85rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic" }}>
+            A digital basal body thermometer — reads to two decimal places and
+            holds the result for easy reading
+          </p>
+        </div>
+
+        <div className="question-item">
+          <span className="question-label">What to Use:</span>
+          A <strong>digital basal body thermometer</strong> — the kind sold
+          for fertility tracking (ovulation monitoring). These read to two
+          decimal places (e.g., 36.48°C rather than 36.5°C), which gives
+          you the precision needed to track real trends over days and weeks.
+          They are inexpensive and widely available online or at pharmacies.
+        </div>
+        <div className="question-item">
+          <span className="question-label">How to Take It Correctly:</span>
+          Place the thermometer under the tongue and hold it there for at
+          least <strong>60 seconds</strong> before the reading locks. Most
+          standard thermometers beep too early — a basal thermometer is
+          designed to wait for a true stable reading. Take it{" "}
+          <strong>before getting out of bed</strong>, before drinking
+          anything, and at roughly the same time each morning. Movement,
+          eating, and even sitting up will raise your temperature and give
+          you a false reading.
+        </div>
+        <div className="question-item">
+          <span className="question-label">What You Are Looking For:</span>
+          Log your temperature every morning. You are tracking a trend, not
+          a single number. As T3 therapy works, you should see your waking
+          temperature gradually climb toward{" "}
+          <strong>36.5–37.0°C (97.7–98.6°F)</strong> and stabilize there.
+          Erratic readings, persistent sub-36°C temperatures, or a
+          temperature that rises but then drops again are all meaningful
+          signals worth noting.
+        </div>
+      </div>
+
       <h2>Introduction to T3 Therapy</h2>
       <p>
         <strong>Overview:</strong> This therapy uses T3 (thyroid hormone) to
