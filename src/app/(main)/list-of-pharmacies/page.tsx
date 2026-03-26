@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import CommentSection from "@/components/CommentSection";
 
 export const metadata: Metadata = {
   title: "List of Pharmacies — The Scorch Protocol",
@@ -375,7 +374,6 @@ export default function ListOfPharmaciesPage() {
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="list-of-pharmacies" sectionTitle="List of Pharmacies" />
-      <CommentSection sectionSlug="list-of-pharmacies" />
     </>
   );
 }

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import CommentSection from "@/components/CommentSection";
 
 export const metadata: Metadata = {
   title: "Phase 5: hGH Therapy — The Scorch Protocol",
@@ -320,7 +319,6 @@ export default function HghTherapyPage() {
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="hgh-therapy" sectionTitle="Phase 5: hGH Therapy" />
-      <CommentSection sectionSlug="hgh-therapy" />
     </>
   );
 }

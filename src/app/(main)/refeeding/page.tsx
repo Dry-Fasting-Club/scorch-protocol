@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import CommentSection from "@/components/CommentSection";
 
 export const metadata: Metadata = {
   title: "Phase 3: The Refeed — The Scorch Protocol",
@@ -418,7 +417,6 @@ export default function RefeedingPage() {
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="refeeding" sectionTitle="Phase 3: The Refeed" />
-      <CommentSection sectionSlug="refeeding" />
     </>
   );
 }

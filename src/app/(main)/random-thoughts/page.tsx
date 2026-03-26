@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import CommentSection from "@/components/CommentSection";
 
 export const metadata: Metadata = {
   title: "Random Thoughts — The Scorch Protocol",
@@ -451,7 +450,6 @@ export default function RandomThoughtsPage() {
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="random-thoughts" sectionTitle="Random Thoughts" />
-      <CommentSection sectionSlug="random-thoughts" />
     </>
   );
 }

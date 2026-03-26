@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import CommentSection from "@/components/CommentSection";
 
 export const metadata: Metadata = {
   title: "Autophagy & Dry Fasting — The Scorch Protocol FAQ",
@@ -307,7 +306,6 @@ export default function AutophagyPage() {
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="faq/autophagy" sectionTitle="Autophagy & Dry Fasting" />
-      <CommentSection sectionSlug="faq/autophagy" />
     </>
   );
 }

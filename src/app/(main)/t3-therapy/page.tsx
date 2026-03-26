@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import CommentSection from "@/components/CommentSection";
 import Image from "next/image";
 
 export const metadata: Metadata = {
@@ -532,7 +531,6 @@ export default function T3TherapyPage() {
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="t3-therapy" sectionTitle="Phase 4: T3 Therapy" />
-      <CommentSection sectionSlug="t3-therapy" />
     </>
   );
 }

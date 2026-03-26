@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import CommentSection from "@/components/CommentSection";
 import Image from "next/image";
 
 export const metadata: Metadata = {
@@ -758,7 +757,6 @@ export default function TipsAndTricksPage() {
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="tips-and-tricks" sectionTitle="Tips and Tricks" />
-      <CommentSection sectionSlug="tips-and-tricks" />
     </>
   );
 }

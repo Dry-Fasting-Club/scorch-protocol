@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import CommentSection from "@/components/CommentSection";
 import MermaidCharts from "@/components/MermaidCharts";
 
 export const metadata: Metadata = {
@@ -338,7 +337,6 @@ export default function DecisionTreePage() {
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="decision-tree" sectionTitle="Decision Logic Tree" />
-      <CommentSection sectionSlug="decision-tree" />
     </>
   );
 }

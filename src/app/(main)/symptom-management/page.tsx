@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import CommentSection from "@/components/CommentSection";
 
 export const metadata: Metadata = {
   title: "Symptom Management — The Scorch Protocol",
@@ -315,7 +314,6 @@ export default function SymptomManagementPage() {
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="symptom-management" sectionTitle="Symptom Management" />
-      <CommentSection sectionSlug="symptom-management" />
     </>
   );
 }

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import CommentSection from "@/components/CommentSection";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -578,7 +577,6 @@ export default function HomePage() {
         sectionSlug="overview"
         sectionTitle="Overview & Principles"
       />
-      <CommentSection sectionSlug="overview" />
     </>
   );
 }

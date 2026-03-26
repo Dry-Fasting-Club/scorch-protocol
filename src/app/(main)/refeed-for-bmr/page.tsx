@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import CommentSection from "@/components/CommentSection";
 
 export const metadata: Metadata = {
   title: "9-Month BMR Reconstruction — The Scorch Protocol",
@@ -355,7 +354,6 @@ export default function RefeedForBmrPage() {
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="refeed-for-bmr" sectionTitle="9-Month BMR Reconstruction" />
-      <CommentSection sectionSlug="refeed-for-bmr" />
     </>
   );
 }

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import CommentSection from "@/components/CommentSection";
 
 export const metadata: Metadata = {
   title: "Weight Loss Protocol — The Scorch Protocol",
@@ -158,7 +157,6 @@ export default function WeightLossPage() {
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="weight-loss" sectionTitle="Weight Loss Protocol" />
-      <CommentSection sectionSlug="weight-loss" />
     </>
   );
 }

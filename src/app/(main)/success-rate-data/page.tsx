@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import CommentSection from "@/components/CommentSection";
 import Image from "next/image";
 
 export const metadata: Metadata = {
@@ -338,7 +337,6 @@ export default function SuccessRateDataPage() {
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="success-rate-data" sectionTitle="Success Rate Data" />
-      <CommentSection sectionSlug="success-rate-data" />
     </>
   );
 }

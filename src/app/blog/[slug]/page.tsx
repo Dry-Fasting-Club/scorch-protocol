@@ -11,7 +11,6 @@ import Link from "next/link";
 import BlogPostRenderer from "@/components/BlogPostRenderer";
 import TableOfContents from "@/components/TableOfContents";
 import SocialShare from "@/components/SocialShare";
-import CommentSection from "@/components/CommentSection";
 import BlogCard from "@/components/BlogCard";
 import ViewTracker from "./ViewTracker";
 import { getPostBySlug, getRelatedPosts } from "@/lib/blog";
@@ -188,7 +187,6 @@ export default async function BlogPostPage({ params }: Props) {
         )}
 
         {/* Comments */}
-        <CommentSection sectionSlug={`blog-${post.slug}`} />
       </article>
     </>
   );

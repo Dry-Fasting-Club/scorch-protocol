@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import CommentSection from "@/components/CommentSection";
 
 export const metadata: Metadata = {
   title: "General Questions — The Scorch Protocol FAQ",
@@ -161,7 +160,6 @@ export default function GeneralQuestionsPage() {
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="faq/general-questions" sectionTitle="General Questions" />
-      <CommentSection sectionSlug="faq/general-questions" />
     </>
   );
 }

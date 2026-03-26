@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import CommentSection from "@/components/CommentSection";
 
 export const metadata: Metadata = {
   title: "Genetic Polymorphisms — The Scorch Protocol",
@@ -295,7 +294,6 @@ export default function GeneticPolymorphismsPage() {
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="genetic-polymorphisms" sectionTitle="Genetic Polymorphisms" />
-      <CommentSection sectionSlug="genetic-polymorphisms" />
     </>
   );
 }

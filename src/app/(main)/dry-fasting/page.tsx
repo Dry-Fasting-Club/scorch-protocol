@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import CommentSection from "@/components/CommentSection";
 
 export const metadata: Metadata = {
   title: "Phase 2: The Dry Fast — The Scorch Protocol",
@@ -229,7 +228,6 @@ export default function DryFastingPage() {
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="dry-fasting" sectionTitle="Phase 2: The Dry Fast" />
-      <CommentSection sectionSlug="dry-fasting" />
     </>
   );
 }

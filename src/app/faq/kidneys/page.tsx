@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import CommentSection from "@/components/CommentSection";
 
 export const metadata: Metadata = {
   title: "Kidney Health & Dry Fasting — The Scorch Protocol FAQ",
@@ -354,7 +353,6 @@ export default function KidneysPage() {
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="faq/kidneys" sectionTitle="Kidney Health" />
-      <CommentSection sectionSlug="faq/kidneys" />
     </>
   );
 }

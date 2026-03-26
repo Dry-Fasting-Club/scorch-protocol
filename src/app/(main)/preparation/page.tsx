@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import CommentSection from "@/components/CommentSection";
 
 export const metadata: Metadata = {
   title: "Phase 1: Preparation — The Scorch Protocol",
@@ -276,7 +275,6 @@ export default function PreparationPage() {
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="preparation" sectionTitle="Phase 1: Preparation" />
-      <CommentSection sectionSlug="preparation" />
     </>
   );
 }

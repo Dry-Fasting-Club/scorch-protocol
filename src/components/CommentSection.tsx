@@ -66,22 +66,7 @@ async function getApprovedComments(sectionSlug: string): Promise<ThreadedComment
   }
 }
 
-export default async function CommentSection({ sectionSlug }: Props) {
-  const comments = await getApprovedComments(sectionSlug);
-
-  return (
-    <section className="comment-section">
-      <h2>Community Notes</h2>
-
-      {comments.length === 0 ? (
-        <p style={{ color: "var(--text-muted)", fontStyle: "italic", fontSize: "0.9rem" }}>
-          No comments yet — be the first to share your experience.
-        </p>
-      ) : (
-        <CommentThread comments={comments} sectionSlug={sectionSlug} />
-      )}
-
-      <CommentForm sectionSlug={sectionSlug} />
-    </section>
-  );
+export default async function CommentSection({ sectionSlug: _sectionSlug }: Props) {
+  // Comments hidden until sufficient volume — re-enable by restoring the original return value
+  return null;
 }
