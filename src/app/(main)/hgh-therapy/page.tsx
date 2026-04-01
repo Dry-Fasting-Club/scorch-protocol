@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
+import FaithBlock from "@/components/FaithBlock";
 
 export const metadata: Metadata = {
   title: "Phase 5: hGH Therapy — The Scorch Protocol",
@@ -316,6 +317,28 @@ export default function HghTherapyPage() {
           That is what hGH provides.
         </div>
       </div>
+
+      <FaithBlock
+        title="New Creation — The Old Has Gone, the New Is Here"
+        imageSrc="/assets/images/faith/faith-hgh.jpg"
+        imageAlt="New growth emerging from dark soil — resurrection and rebuilding"
+      >
+        <p>
+          <strong>2 Corinthians 5:17 — &ldquo;Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!&rdquo;</strong>
+        </p>
+        <p>
+          Death and resurrection is not a metaphor invented by the church. It is the template woven into biological reality. Autophagy — the cellular process triggered by the dry fast — is literally your body destroying its own damaged components so that new, healthy ones can take their place. The old has to go for the new to come. This is not loss. This is renovation.
+        </p>
+        <p>
+          hGH therapy is the final instruction in the rebuilding sequence: a hormonal signal telling your body not just to maintain, but to regenerate. In chronic illness, growth hormone secretion is often suppressed — the pituitary is quiet, the body has stopped investing in its own future. hGH says: <em>rebuild. There is a future worth building toward.</em>
+        </p>
+        <p>
+          Yannick thinks of this phase as the commissioning — after the desert, after the fast, after the long road, here is the moment where you are sent back into the world with a new body and a new mandate. Not the same person who got sick. Not the same person who survived. Something new.
+        </p>
+        <p>
+          Paul wrote those words from prison. He had been beaten, shipwrecked, abandoned. He was not describing an easy transformation. He was describing a real one. <strong>The old you — the one imprisoned by illness — has gone. What comes next is new. Receive it.</strong>
+        </p>
+      </FaithBlock>
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="hgh-therapy" sectionTitle="Phase 5: hGH Therapy" />

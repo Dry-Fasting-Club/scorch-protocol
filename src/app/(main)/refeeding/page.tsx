@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
+import FaithBlock from "@/components/FaithBlock";
 
 export const metadata: Metadata = {
   title: "Phase 3: The Refeed — The Scorch Protocol",
@@ -445,6 +446,28 @@ export default function RefeedingPage() {
           days.
         </div>
       </div>
+
+      <FaithBlock
+        title="The Feast After the Fast — Coming Home to Abundance"
+        imageSrc="/assets/images/faith/faith-refeeding.jpg"
+        imageAlt="A table set for a feast — abundance and restoration"
+      >
+        <p>
+          <strong>Luke 15:24 — &ldquo;For this son of mine was dead and is alive again; he was lost and is found. So they began to celebrate.&rdquo;</strong>
+        </p>
+        <p>
+          The prodigal son did not return to judgment. He returned to a feast. The father did not require him to prove he had changed, or to earn his place at the table through weeks of penance. The father ran toward him. The robe, the ring, the fatted calf — these were not rewards. They were recognition. <em>You were made for life, not for illness. You were made for the table, not the wilderness floor.</em>
+        </p>
+        <p>
+          The refeeding phase is not the end of discipline — it requires more careful attention than the fast itself. But spiritually, it is the celebration. Your body is coming back online. New cells are proliferating. The stem cells awakened by the fast are now building something new in you. Every bowl of watermelon juice on day one is an act of resurrection.
+        </p>
+        <p>
+          Yannick has sat with people at this threshold — post-fast, raw with emotion, sometimes weeping without knowing why. The body remembers things the mind has tried to forget. As you refeed, be gentle with yourself in the way the father was gentle with his son. You do not have to explain where you have been. You just have to come home.
+        </p>
+        <p>
+          <strong>The celebration is already prepared. Walk toward it.</strong>
+        </p>
+      </FaithBlock>
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="refeeding" sectionTitle="Phase 3: The Refeed" />

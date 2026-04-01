@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
+import FaithBlock from "@/components/FaithBlock";
 import Image from "next/image";
 
 export const metadata: Metadata = {
@@ -335,6 +336,28 @@ export default function SuccessRateDataPage() {
         ...creates a powerful healing cascade that addresses the root causes of
         chronic illness, not just the symptoms.
       </p>
+
+      <FaithBlock
+        title="97% Is a Miracle — Real Healing as Living Testimony"
+        imageSrc="/assets/images/faith/faith-success-data.jpg"
+        imageAlt="People standing together in testimony — community and witness"
+      >
+        <p>
+          <strong>Psalm 107:20 — &ldquo;He sent out his word and healed them; he rescued them from the grave.&rdquo;</strong>
+        </p>
+        <p>
+          Yannick does not present the 97% success rate as a marketing number. He presents it as testimony — the kind the Psalms are full of. People who were desperate. People who had tried everything. People who had been dismissed by conventional medicine, told their illness was psychosomatic, told to manage rather than heal. And then — the healing came.
+        </p>
+        <p>
+          The word &ldquo;testimony&rdquo; comes from the Latin for &ldquo;witness.&rdquo; A witness does not theorize. A witness reports what they saw. These 141 participants saw something. They experienced something that medicine does not yet have the framework to fully explain — a healing cascade that goes beyond what biology alone accounts for.
+        </p>
+        <p>
+          Yannick&rsquo;s own recovery was one of those data points. He was one of the sick people first. He knows what it is to be in the lower half of that pre-protocol chart — a 2 or 3 on the fatigue scale, barely functional, watching life happen behind glass. He also knows what it is to come back. <em>Evil propagates when good men look away</em> — and one of the evils done to chronically ill people is the systematic dismissal of their suffering. This data is, among other things, a refusal to be silent.
+        </p>
+        <p>
+          <strong>He sent out his word and healed them.</strong> You are reading that word right now. Let it do its work.
+        </p>
+      </FaithBlock>
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="success-rate-data" sectionTitle="Success Rate Data" />

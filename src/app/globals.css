@@ -2792,3 +2792,89 @@ tr:hover {
     color: var(--text-muted);
     margin: 0;
 }
+
+/* ── Faith Block ───────────────────────────────────────────────────────────── */
+.faith-block {
+    background: linear-gradient(135deg, #2a1f00 0%, #1a1400 60%, #0f0d04 100%);
+    border: 1px solid #b8860b;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: 3rem 0;
+    box-shadow: 0 0 24px rgba(184,134,11,0.15), inset 0 0 40px rgba(0,0,0,0.3);
+}
+
+.faith-block-header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid rgba(184,134,11,0.35);
+}
+
+.faith-cross {
+    font-size: 1.6rem;
+    color: #d4a017;
+    line-height: 1;
+    flex-shrink: 0;
+}
+
+.faith-block-title {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #f0c040;
+    margin: 0;
+    letter-spacing: 0.02em;
+}
+
+.faith-block-body {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    gap: 1.75rem;
+    align-items: start;
+}
+
+@media (max-width: 700px) {
+    .faith-block-body {
+        grid-template-columns: 1fr;
+    }
+}
+
+.faith-block-image-wrap {
+    border-radius: 6px;
+    overflow: hidden;
+    border: 1px solid rgba(184,134,11,0.3);
+    flex-shrink: 0;
+}
+
+.faith-block-text {
+    color: #d4b870;
+    line-height: 1.75;
+    font-size: 0.97rem;
+}
+
+.faith-block-text p {
+    margin: 0 0 1rem 0;
+    color: #d4b870;
+}
+
+.faith-block-text p:last-child {
+    margin-bottom: 0;
+}
+
+.faith-block-text strong {
+    color: #f0c040;
+}
+
+.faith-block-text em {
+    color: #c9a84c;
+    font-style: italic;
+}
+
+.faith-block-text blockquote {
+    border-left: 3px solid #b8860b;
+    margin: 1rem 0;
+    padding: 0.5rem 0 0.5rem 1.25rem;
+    color: #c9a84c;
+    font-style: italic;
+}

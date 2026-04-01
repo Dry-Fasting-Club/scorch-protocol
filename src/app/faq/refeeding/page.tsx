@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
+import FaithBlock from "@/components/FaithBlock";
 
 export const metadata: Metadata = {
   title: "Refeeding Strategy — The Scorch Protocol FAQ",
@@ -256,6 +257,28 @@ export default function RefeedingFaqPage() {
         </div>
 
       </div>
+
+      <FaithBlock
+        title="A Time to Heal — Trusting God&rsquo;s Timing in Recovery"
+        imageSrc="/assets/images/faith/faith-faq-refeeding.jpg"
+        imageAlt="Still water at dawn — patience, peace, and trust"
+      >
+        <p>
+          <strong>Ecclesiastes 3:1-3 — &ldquo;There is a time for everything, and a season for every activity under the heavens... a time to be born and a time to die, a time to plant and a time to uproot... a time to kill and a time to heal.&rdquo;</strong>
+        </p>
+        <p>
+          Ecclesiastes does not tell us when our time to heal will arrive. It only tells us that it will. There is a season for it. And in the meantime, the Preacher&rsquo;s instruction is not to strive harder or push faster — it is to recognize the season you are in and honor it.
+        </p>
+        <p>
+          The refeeding phase is the hardest emotionally for many people, not because it is medically the most dangerous — though it demands respect — but because it requires patience in a culture that has no patience left. You have just done one of the hardest things a human body can do. You have survived a 10-day fast. You have taken T3 through a metabolic storm. And now you are eating watermelon juice and waiting.
+        </p>
+        <p>
+          There is deep spiritual practice in this. Every question on this page — about what to eat, how much, when — is ultimately a question about trust. Can you trust the process? Can you trust your body&rsquo;s wisdom when it is healing something it has never had space to heal before? Can you sit still long enough for the miracle to complete itself?
+        </p>
+        <p>
+          Yannick has walked this with hundreds of people. The ones who healed most fully were not the ones who rushed. They were the ones who finally, after years of fighting their own body, learned to cooperate with it. <strong>This is your season to heal. Honor it.</strong>
+        </p>
+      </FaithBlock>
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="faq/refeeding" sectionTitle="Refeeding Strategy" />

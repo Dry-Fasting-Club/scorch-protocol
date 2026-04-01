@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
+import FaithBlock from "@/components/FaithBlock";
 
 export const metadata: Metadata = {
   title: "General Questions — The Scorch Protocol FAQ",
@@ -165,6 +166,28 @@ export default function GeneralQuestionsPage() {
           symptoms may indicate extra fasts being necessary.
         </p>
       </div>
+
+      <FaithBlock
+        title="Your Body Is a Temple — The Theology Behind Why This Works"
+        imageSrc="/assets/images/faith/faith-faq-general.jpg"
+        imageAlt="Cathedral light streaming through high windows — the body as sacred space"
+      >
+        <p>
+          <strong>1 Corinthians 6:19-20 — &ldquo;Do you not know that your bodies are temples of the Holy Spirit, who is in you, whom you have received from God? You are not your own; you were bought at a price. Therefore honor God with your bodies.&rdquo;</strong>
+        </p>
+        <p>
+          This verse is often quoted in contexts of diet and exercise, applied narrowly as a rule against excess. But Paul is saying something much larger. He is saying: the body is not just a vehicle. It is sacred. It is the dwelling place of the living God. To neglect it, to let it languish in chronic illness without fighting for its restoration, is not humility — it is the opposite of what Paul commands.
+        </p>
+        <p>
+          Every question on this FAQ page is, at its root, a question about whether healing is possible. Whether the protocol is safe, whether T3 works, whether the fast is worth the risk — underneath all of these is the deeper question: <em>does my body deserve to be healed?</em> Some people with chronic illness have been sick so long they have stopped believing they do.
+        </p>
+        <p>
+          Paul answers that question with a price tag. You were bought at a price. Meaning: you have infinite value. Not because of what you produce or what you accomplish while healthy, but because of who you are. A temple is not valuable because of what gets done inside it. It is valuable because of who lives there.
+        </p>
+        <p>
+          Honor God with your body. Fight for it. This protocol is that fight made practical. <strong>The questions on this page have answers. The healing is real. Your temple is worth restoring.</strong>
+        </p>
+      </FaithBlock>
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="faq/general-questions" sectionTitle="General Questions" />

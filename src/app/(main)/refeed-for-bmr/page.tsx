@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
+import FaithBlock from "@/components/FaithBlock";
 
 export const metadata: Metadata = {
   title: "9-Month BMR Reconstruction — The Scorch Protocol",
@@ -351,6 +352,28 @@ export default function RefeedForBmrPage() {
           </li>
         </ul>
       </div>
+
+      <FaithBlock
+        title="Forty Years Was Not Failure — The Wilderness Road"
+        imageSrc="/assets/images/faith/faith-refeed-bmr.jpg"
+        imageAlt="A long road stretching through open landscape — the long journey of healing"
+      >
+        <p>
+          <strong>Deuteronomy 8:2 — &ldquo;Remember how the Lord your God led you all the way in the wilderness these forty years, to humble and test you in order to know what was in your heart.&rdquo;</strong>
+        </p>
+        <p>
+          Forty years in the wilderness. By any conventional measure, that looks like failure. It looks like delay, punishment, wandering. But Deuteronomy reframes it entirely: God led them there. Every step of those forty years was intentional. The wilderness was not the absence of God&rsquo;s plan — it was the execution of it.
+        </p>
+        <p>
+          Nine months of metabolic reconstruction is your wilderness road. You will not feel healed by the end of week one. Your metabolism, suppressed sometimes for years or decades, does not snap back in a week. This is not failure. This is biology — and it mirrors something true about every deep transformation: the foundation must be rebuilt before the structure can stand.
+        </p>
+        <p>
+          The Minnesota Starvation Experiment showed that men who were severely calorically restricted for six months took <em>nine months or more</em> to fully recover their metabolic rate — even eating freely. If this is true for healthy young men in controlled conditions, how much more patience does someone with chronic illness need to extend to themselves?
+        </p>
+        <p>
+          <em>Evil propagates when good men look away</em> — and one of the subtler evils our culture exports is the lie that healing should be fast, that a body which doesn&rsquo;t snap back in 30 days has failed. You have not failed. <strong>You are on the road. God has led you this far. He will complete what He began.</strong>
+        </p>
+      </FaithBlock>
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="refeed-for-bmr" sectionTitle="9-Month BMR Reconstruction" />
