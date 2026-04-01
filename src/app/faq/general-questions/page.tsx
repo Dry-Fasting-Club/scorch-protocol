@@ -25,7 +25,7 @@ const faqJsonLd = {
       name: "How long does The Scorch Protocol take?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Full recovery typically takes 6–12 months of consistent effort. The dry fast phase is 5 days, followed by refeeding and metabolic therapy phases that continue for months.",
+        text: "Full recovery typically takes 6–12 months of consistent effort. The fasting block is 10 days total — 5 days dry followed by 5 days water — then refeeding and metabolic therapy phases that continue for months.",
       },
     },
     {
@@ -135,7 +135,15 @@ export default function GeneralQuestionsPage() {
           In a <strong>true</strong> dry fast, you do not drink any water or
           eat any food. This forces your body to create &ldquo;internal
           water&rdquo; by burning fat. This process is much more powerful for
-          healing than a water fast.
+          healing than a water fast alone.
+        </p>
+        <p>
+          In the Scorch Protocol, the dry fast is followed immediately by a
+          5-day water fast — making a 10-day fasting block in total. The water
+          fast is not a step backward; it is a supercharged phase that only
+          works this powerfully because the dry fast has already restructured
+          your body from the inside. The order is always dry first, then water
+          — reversing this is dangerous and ineffective.
         </p>
 
         <h3>9. What should I do if my heart races?</h3>

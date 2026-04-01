@@ -313,7 +313,7 @@ export default function RefeedingPage() {
 
       <h2>Viral Reactivation Protocol</h2>
       <div className="guiding-questions box-red">
-        <h3>Critical for EBV and HSV Carriers</h3>
+        <h3>Critical for Herpesvirus Carriers</h3>
         <p>
           Every time your body swings between major energetic states — dry
           fasting to refeeding, or the peak of one T3 cycle to the trough
@@ -323,60 +323,101 @@ export default function RefeedingPage() {
           momentarily off-balance and cellular resources are in flux.
         </p>
         <p>
-          Viruses — particularly latent herpesviruses like EBV, HSV-1,
-          HSV-2, HHV-6, and CMV — are exquisitely sensitive to these
-          metabolic shifts. They have evolved to sense exactly these kinds
-          of changes in the body&rsquo;s energy landscape, and they use
-          those troughs as a signal to reactivate from dormancy in the nerve
-          cells where they hide. This is not a rare edge case — it is a
-          predictable, biological event that happens to a significant subset
-          of chronically ill patients every time they go through a major
-          protocol transition.
+          There are <strong>nine known human herpesviruses</strong>, and all of
+          them are exquisitely sensitive to these metabolic shifts. They have
+          evolved to sense exactly these kinds of changes in the body&rsquo;s
+          energy landscape, and they use those troughs as a signal to reactivate
+          from dormancy in the nerve cells where they hide:
+        </p>
+        <ul>
+          <li>
+            <strong>HSV-1</strong> (Herpes Simplex Virus 1) — cold sores, oral
+            herpes, sometimes genital
+          </li>
+          <li>
+            <strong>HSV-2</strong> (Herpes Simplex Virus 2) — genital herpes,
+            recurring outbreaks
+          </li>
+          <li>
+            <strong>VZV</strong> (Varicella-Zoster Virus) — chickenpox on first
+            infection, shingles on reactivation
+          </li>
+          <li>
+            <strong>EBV</strong> (Epstein-Barr Virus) — mononucleosis, chronic
+            fatigue, implicated strongly in Long Covid and ME/CFS
+          </li>
+          <li>
+            <strong>CMV</strong> (Cytomegalovirus) — often asymptomatic but
+            reactivates under immune stress, contributes to fatigue
+          </li>
+          <li>
+            <strong>HHV-6A</strong> — neurological effects, chronic fatigue,
+            encephalitis in severe cases
+          </li>
+          <li>
+            <strong>HHV-6B</strong> — roseola in children; in adults, linked to
+            brain fog and immune dysfunction
+          </li>
+          <li>
+            <strong>HHV-7</strong> (Roseolovirus) — reactivates alongside HHV-6,
+            less studied but present in most chronically ill patients
+          </li>
+          <li>
+            <strong>HHV-8</strong> (Kaposi&rsquo;s sarcoma-associated
+            herpesvirus) — primarily a concern in immunocompromised individuals
+          </li>
+        </ul>
+        <p>
+          This is not a rare edge case — viral reactivation is a predictable,
+          biological event that happens to a significant subset of chronically
+          ill patients every time they go through a major protocol transition.
         </p>
         <p>
-          <strong>Stopping this reactivation is critical.</strong> This is
-          why a few days of water fasting (not dry fasting) is recommended
-          as a bridge before fully breaking the fast — it allows you to
-          slowly titrate antivirals upward while the body is still in a
-          lower-demand state, before the immune activation of refeeding
-          opens the window for viral replication.
+          <strong>Do You Have a Persistent Reactivated Herpesvirus?</strong>{" "}
+          Look up the symptom profiles of each of the nine viruses above. If the
+          symptoms match patterns you have experienced throughout your illness
+          — not a single episode, but a recurring pattern over months or years
+          — that virus is likely playing a role in your condition. You do not
+          need a confirmed lab diagnosis to take precautions; the symptom
+          pattern is enough reason to act.
         </p>
         <p>
-          If you have a history of Herpes (HSV 1 or 2), Epstein-Barr (EBV), or
-          any chronic viral illness, the immune activation during the refeed can
-          trigger a viral reactivation. This is normal, but it must be managed.
+          <strong>Stopping reactivation is critical.</strong> The Scorch
+          Protocol addresses this directly through the structure of the fasting
+          block: the 5-day water fast that follows the dry fast serves as the
+          bridge, allowing T3 to be initiated before the fast ends and
+          antivirals to begin at the very first meal.
         </p>
         <div className="question-item">
-          <span className="question-label">Lysine:</span>
-          Start taking L-Lysine (2–4g/day) beginning 1–2 days before breaking
-          the fast. Lysine directly blocks viral replication by competing with
-          arginine.
+          <span className="question-label">L-Lysine + Monolaurin — Start on Refeeding Day 1:</span>
+          Because T3 therapy is already running by the time you break the fast
+          (you started T3 on day 3 of the water fast, so you are on T3 day 3
+          when you have your first calories), your kidneys are supported and
+          your metabolism is already primed. This means you can start{" "}
+          <strong>L-Lysine (2–4g/day)</strong> and{" "}
+          <strong>monolaurin</strong> immediately on refeeding day 1 — you do
+          not need to wait for kidney rehydration. Lysine directly blocks viral
+          replication by competing with arginine. Monolaurin disrupts the lipid
+          envelope of herpesviruses, making it a strong complement to lysine.
         </div>
         <div className="question-item">
           <span className="question-label">Avoid Arginine-Rich Foods:</span>
           During the refeed, temporarily avoid nuts, seeds, chocolate, and
-          peanut butter — these are high in arginine, which feeds the herpes
-          virus.
+          peanut butter — these are high in arginine, which fuels herpesvirus
+          replication.
         </div>
         <div className="question-item">
-          <span className="question-label">Antivirals (If Available):</span>
-          If you have access to Acyclovir or Valacyclovir, taking a short course
-          during the refeed window is strongly recommended if you are an HSV/EBV
-          carrier.
-        </div>
-        <div className="question-item">
-          <span className="question-label">The L-Lysine → Antiviral Transition:</span>
-          For people who have identified reactivated latent viruses as part of
-          their illness, there is a specific window worth knowing about. Once
-          the kidneys are fully rehydrated (typically Day 3–5 of the refeed),
-          transition from L-Lysine supplementation into a short course of
-          Acyclovir or Valacyclovir. L-Lysine is a useful bridge before the
-          kidneys are ready to handle antivirals, but once they are, the
-          direct antiviral is significantly more effective at suppressing viral
-          replication during the immune activation window the fast has opened.
-          This transition is a missing link for a specific subset of chronically
-          ill people — particularly those with EBV, HHV-6, or HSV reactivation
-          as a core driver.
+          <span className="question-label">Acyclovir — Have It On Hand:</span>
+          If your symptom history matches any of the nine herpesviruses listed
+          above, obtain <strong>acyclovir</strong> (or valacyclovir) before
+          beginning the protocol — do not wait until symptoms appear. It covers
+          HSV-1, HSV-2, VZV, and has partial activity against EBV and CMV.
+          Having it available and starting it at the first sign of reactivation
+          is far more effective than scrambling for a prescription mid-refeed.
+          If you are experiencing monthly outbreaks, discuss suppressive dosing
+          (typically 500mg–1g/day valacyclovir) with your doctor before you
+          start — this reduces outbreak frequency by 70–80% and significantly
+          lowers the risk of viral expansion during protocol transitions.
         </div>
         <div className="question-item">
           <span className="question-label">HSV Outbreaks Are More Dangerous in Chronic Illness:</span>
@@ -402,16 +443,6 @@ export default function RefeedingPage() {
           coverage during any T3 wind-down until your waking body temperature
           has returned to your pre-T3 baseline for at least 5–7 consecutive
           days.
-        </div>
-        <div className="question-item">
-          <span className="question-label">Have Valacyclovir (Valtrex) On Hand Before You Start:</span>
-          If you have a history of HSV-1 or HSV-2 outbreaks, obtain a
-          prescription for valacyclovir before beginning this protocol — do
-          not wait until an outbreak has already started. If you are having
-          outbreaks monthly, talk to your doctor about starting suppressive
-          dosing (typically 500mg–1g/day) immediately; this reduces outbreak
-          frequency by 70–80% and significantly lowers the risk of viral
-          expansion during protocol transitions.
         </div>
       </div>
 

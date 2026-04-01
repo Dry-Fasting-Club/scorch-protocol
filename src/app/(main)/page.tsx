@@ -321,7 +321,7 @@ export default function HomePage() {
             </span>
           </div>
           <div className="outcome-item">
-            <span className="outcome-phase">After Dry Fast</span>
+            <span className="outcome-phase">After Dry + Water Fast</span>
             <span className="outcome-stat">35%</span>
             <span className="outcome-desc">
               reached level 8–10 (near-normal function)

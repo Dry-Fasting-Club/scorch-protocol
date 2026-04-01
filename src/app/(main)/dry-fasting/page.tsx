@@ -114,7 +114,9 @@ export default function DryFastingPage() {
             </td>
             <td>
               Only after finishing 72 hours successfully, move to{" "}
-              <strong>5 days</strong>.
+              <strong>5 days dry</strong>, followed immediately by{" "}
+              <strong>5 days water</strong> — 10 days total. This is the full
+              Scorch Protocol fasting block.
             </td>
           </tr>
         </tbody>
@@ -183,17 +185,134 @@ export default function DryFastingPage() {
         </ul>
       </div>
 
-      <h2>Phase 4: Breaking the Fast</h2>
+      <h2>Phase 3B: The Water Fast (Days 6–10)</h2>
+      <p>
+        After completing the 5-day dry fast, you do <strong>not</strong> break
+        the fast with food. You transition directly into a 5-day water fast.
+        This is not a cool-down period — it is its own distinct and powerful
+        therapeutic phase.
+      </p>
+
+      <div
+        style={{
+          backgroundColor: "rgba(220,53,69,0.12)",
+          border: "1px solid rgba(220,53,69,0.35)",
+          borderRadius: "8px",
+          padding: "1.5rem",
+          marginBottom: "2rem",
+        }}
+      >
+        <h3 style={{ color: "#ff6b6b", marginTop: 0 }}>
+          Order Is Locked — Never Reverse This
+        </h3>
+        <p style={{ marginBottom: 0 }}>
+          The sequence is always <strong>dry fast first, water fast second.</strong>{" "}
+          Going the other way — water fasting before a dry fast — is dangerous
+          and defeats the purpose. The dry fast creates the internal conditions
+          that make the water fast supercharged. Do not attempt this in reverse.
+        </p>
+      </div>
+
+      <h3>Why the Water Fast After a Dry Fast Is Different</h3>
+      <p>
+        A water fast done after a 5-day dry fast is not the same as a
+        standalone water fast. The dry fast has already completed the deep
+        cellular cleanup — the old damaged cells are gone, toxins have been
+        burned, and your body is primed at a cellular level it cannot reach
+        through water fasting alone. The water fast that follows is supercharged
+        by this state: you are washing through a body that has already been
+        restructured from the inside.
+      </p>
+
+      <h3>What Is Allowed During the Water Fast Phase</h3>
+      <ul>
+        <li>
+          <strong>Water</strong> — drink freely. Your body is now able to absorb
+          it properly.
+        </li>
+        <li>
+          <strong>T3 therapy</strong> — started on day 3 of the water fast (see
+          below).
+        </li>
+        <li>
+          <strong>L-Carnitine (optional)</strong> — if energy is a significant
+          issue, small amounts of L-carnitine can help. This is not necessary
+          for everyone.
+        </li>
+        <li>
+          <strong>Nothing else</strong> — no food, no juice, no broth, no
+          electrolyte supplements.
+        </li>
+      </ul>
+
+      <h3>Starting T3 Therapy During the Water Fast</h3>
+      <p>
+        T3 therapy begins on <strong>day 3 of the water fast</strong> — not at
+        the end of the fast, and not at the start of the refeed. The timing is
+        deliberate: by starting T3 on day 3, you are on{" "}
+        <strong>day 3 of T3 therapy</strong> when you have your first calories.
+        This matters because T3 needs to already be running when refeeding
+        begins — it shifts your metabolism into a state that allows the
+        antiviral protocol (L-lysine + monolaurin) to start immediately on
+        refeeding day 1, rather than waiting.
+      </p>
+      <p>
+        Follow the standard T3 ramp: start at <strong>15 mcg on day 3</strong>{" "}
+        of the water fast, adding 15 mcg each day per the T3 therapy protocol.
+        So:
+      </p>
+      <table>
+        <tbody>
+          <tr>
+            <td style={{ width: "30%" }}>
+              <strong>Water Fast Day 1–2</strong>
+            </td>
+            <td>Water only. No T3 yet.</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Water Fast Day 3</strong>
+              <br />
+              <em>(T3 Day 1)</em>
+            </td>
+            <td>15 mcg T3</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Water Fast Day 4</strong>
+              <br />
+              <em>(T3 Day 2)</em>
+            </td>
+            <td>30 mcg T3</td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Water Fast Day 5</strong>
+              <br />
+              <em>(T3 Day 3)</em>
+            </td>
+            <td>
+              45 mcg T3 — end of the water fast. You are now on T3 day 3 when
+              you break the fast with your first calories.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Phase 4: Breaking the Fast (Refeeding)</h2>
       <p>
         <strong>Very Important:</strong> Eating too much too fast can be
-        dangerous. Your &ldquo;refeed&rdquo; should last 2 to 3 times longer
-        than the fast itself.
+        dangerous. Your refeed should last roughly as long as the fasting block
+        — for a 10-day fast (5 dry + 5 water), give your body at least 10 days
+        before returning to normal eating. By this point, your T3 therapy is
+        already running at day 4 — this is intentional and allows your
+        antiviral protocol to begin immediately.
       </p>
       <ul>
         <li>
           <strong>The First Hour:</strong>{" "}
-          <strong>Drink Coconut Water only.</strong> Do not drink plain water
-          yet. Take tiny sips (half a cup over a whole hour). This tells your
+          <strong>Drink Coconut Water only.</strong> Do not start with plain
+          water. Take tiny sips (half a cup over a whole hour). This tells your
           new cells to start growing correctly.
         </li>
         <li>
@@ -203,7 +322,8 @@ export default function DryFastingPage() {
         <li>
           <strong>Day 1 After the Fast:</strong> Stick to coconut water. In the
           late afternoon, you can have a small bowl of soft, mushy rice if you
-          feel stable.
+          feel stable. Start your antiviral protocol (L-lysine + monolaurin)
+          today — T3 is already active and your kidneys can handle it.
         </li>
         <li>
           <strong>Day 2 to 7:</strong> Follow the rice and fruit schedule. (See
@@ -221,8 +341,14 @@ export default function DryFastingPage() {
           down.
         </li>
         <li>
-          <strong>5 Days:</strong> Maximum repair, new stem cells are released,
-          and you feel much better.
+          <strong>5 Days Dry:</strong> Maximum repair, new stem cells are
+          released. The body is primed for the water phase.
+        </li>
+        <li>
+          <strong>5 Days Dry + 5 Days Water (10 Days Total):</strong> The full
+          protocol fasting block. Deep cellular restructuring followed by a
+          supercharged water fast with T3 already running. This is the
+          definitive version.
         </li>
       </ul>
 

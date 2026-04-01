@@ -318,6 +318,41 @@ export default function T3TherapyPage() {
         </p>
       </div>
 
+      <h2>When to Start T3: The Fasting Block Integration</h2>
+      <div className="guiding-questions box-deepgreen">
+        <h3>Start T3 on Day 3 of the Water Fast — Not After</h3>
+        <p>
+          In the Scorch Protocol, T3 therapy does not begin at the refeed. It
+          begins on <strong>day 3 of the water fast</strong> that follows the
+          5-day dry fast. This timing is intentional.
+        </p>
+        <p>
+          By starting T3 on day 3 of the water fast, you are on{" "}
+          <strong>T3 day 3 when you have your first calories</strong>. This
+          matters because T3 needs to already be running when refeeding begins
+          — it supports your metabolism, keeps your kidneys in a stronger state,
+          and crucially, it means your antiviral protocol (L-lysine +
+          monolaurin) can start immediately on refeeding day 1. You do not need
+          to wait for kidney rehydration before beginning antivirals.
+        </p>
+        <div className="question-item">
+          <span className="question-label">The Ramp During the Fast:</span>
+          Follow the standard 15 mcg/day climb. Water fast day 3 = 15 mcg
+          (T3 day 1). Water fast day 4 = 30 mcg (T3 day 2). Water fast day 5
+          = 45 mcg (T3 day 3). You then continue climbing into the refeed from
+          there, with T3 day 4 being your first day of eating.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Also a High-Risk Window for Viral Reactivation:</span>
+          When T3 cycles end and doses taper down, your metabolic rate
+          temporarily dips. This creates the same energetic trough that
+          triggers herpesvirus reactivation during the fast-to-refeed
+          transition. Continue antiviral coverage during T3 wind-down until
+          your waking temperature has stabilized at your baseline for 5–7
+          consecutive days.
+        </div>
+      </div>
+
       <h2>The 30-Day T3 Cycle</h2>
       <p>
         This plan is designed to wake up your body&rsquo;s metabolism. It

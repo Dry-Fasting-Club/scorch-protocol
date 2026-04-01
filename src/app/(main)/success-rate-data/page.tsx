@@ -103,8 +103,8 @@ export default function SuccessRateDataPage() {
         </p>
       </div>
 
-      <h3>After 5-Day Dry Fast (117 Participants)</h3>
-      <p>The transformation after the dry fast is remarkable:</p>
+      <h3>After Dry Fast + Water Fast — 10 Days Total (117 Participants)</h3>
+      <p>The transformation after the full fasting block is remarkable:</p>
       <ul>
         <li>
           <strong>Fatigue:</strong> 31.6% reached level 10 (normal), with many
@@ -135,7 +135,7 @@ export default function SuccessRateDataPage() {
       <div style={{ margin: "2rem 0", textAlign: "center" }}>
         <Image
           src="/assets/images/symptoms-after-dryfast.png"
-          alt="Fatigue, Brain Fog, and Insomnia levels after 5-day dry fast - 117 participants"
+          alt="Fatigue, Brain Fog, and Insomnia levels after 10-day fast (5 dry + 5 water) - 117 participants"
           width={900}
           height={600}
           style={{
@@ -147,7 +147,7 @@ export default function SuccessRateDataPage() {
           }}
         />
         <p style={{ fontSize: "0.9rem", color: "#666", marginTop: "0.5rem" }}>
-          <em>After 5-day dry fast: 117 participants</em>
+          <em>After 10-day fast (5 dry + 5 water): 117 participants</em>
         </p>
       </div>
 
@@ -207,7 +207,7 @@ export default function SuccessRateDataPage() {
           Fog, and Insomnia.
         </div>
         <div className="question-item">
-          <span className="question-label">After Dry Fast</span>
+          <span className="question-label">After Dry + Water Fast (10 Days)</span>
           A dramatic shift occurred: 30-35% of participants reached level 10
           (normal/healthy) for each symptom, with many others achieving levels
           8-9.
@@ -319,8 +319,9 @@ export default function SuccessRateDataPage() {
           anti-fungals)
         </li>
         <li>
-          <strong>5-Day Dry Fast</strong> (intense autophagy and stem cell
-          activation)
+          <strong>10-Day Fasting Block (5 Dry + 5 Water)</strong> — intense
+          autophagy and stem cell activation during the dry phase, followed by
+          a supercharged water fast with T3 already running
         </li>
         <li>
           <strong>Proper Refeeding</strong> (stem cell proliferation and tissue

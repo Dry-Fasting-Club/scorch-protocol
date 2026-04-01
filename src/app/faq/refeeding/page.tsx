@@ -33,7 +33,7 @@ const faqJsonLd = {
       name: "How long does the refeeding phase take?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The initial refeeding phase after a 5-day dry fast typically takes 5–10 days to return to normal eating. Full metabolic recovery and microbiome rebuilding can take 1–3 months. The Scorch Protocol includes a detailed BMR reconstruction plan for the full recovery period.",
+        text: "The initial refeeding phase after a 10-day fasting block (5 days dry + 5 days water) typically takes 10–14 days to return to normal eating. Full metabolic recovery and microbiome rebuilding can take 1–3 months. The Scorch Protocol includes a detailed BMR reconstruction plan for the full recovery period.",
       },
     },
   ],
@@ -224,10 +224,16 @@ export default function RefeedingFaqPage() {
               sensitive. Strong supplements can irritate it.
             </p>
             <p>
-              <strong>Exception:</strong> If you suffer from HSV and/or EBV
-              outbreaks, you can gradually increase intake of herbs and
-              monolaurin. This advice can also work for Lyme herbal protocols,
-              but must be very gently reintroduced.
+              <strong>Exception — antivirals on day 1:</strong> If you carry
+              any of the nine herpesviruses (HSV-1, HSV-2, VZV, EBV, CMV,
+              HHV-6A, HHV-6B, HHV-7, or HHV-8), start{" "}
+              <strong>L-lysine and monolaurin</strong> on refeeding day 1. In
+              the Scorch Protocol, T3 therapy has already been running since
+              day 3 of the water fast, so your kidneys are supported and you do
+              not need to wait before starting these. Monolaurin and L-lysine
+              together disrupt viral envelopes and block arginine-dependent
+              replication. This also applies to Lyme herbal protocols, but those
+              must be reintroduced very gently.
             </p>
           </div>
         </div>
@@ -239,11 +245,12 @@ export default function RefeedingFaqPage() {
               The Khoroshilov standard is:{" "}
               <strong>Refeed length = Fast length.</strong>
               <br />
-              If you fasted 5 days, be strict for 5 days. After that, you are
-              biologically &ldquo;safe,&rdquo; but for maximum tissue
+              In the Scorch Protocol, the full fasting block is 10 days (5 dry
+              + 5 water) — so be strict for at least 10 days. After that, you
+              are biologically &ldquo;safe,&rdquo; but for maximum tissue
               remodeling, the Scorch Protocol recommends extending the &ldquo;High
-              Carb/Low Fat&rdquo; phase for 2-4 weeks to maximize stem cell
-              differentiation and maximize thyroid restoration.
+              Carb/Low Fat&rdquo; phase for 2–4 weeks to maximize stem cell
+              differentiation and thyroid restoration.
             </p>
           </div>
         </div>
