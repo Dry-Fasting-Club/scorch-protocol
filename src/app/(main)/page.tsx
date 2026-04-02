@@ -560,7 +560,7 @@ export default function HomePage() {
 
       <FaithBlock
         title="Healing the Whole Person: Body, Mind, and Spirit"
-        imageSrc="/assets/images/faith/faith-home.jpg"
+        imageSrc="/assets/images/faith/faith-home.png"
         imageAlt="Light breaking through storm clouds, hope and healing"
       >
         <p>
