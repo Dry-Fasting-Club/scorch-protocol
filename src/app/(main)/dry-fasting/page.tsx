@@ -354,18 +354,18 @@ export default function DryFastingPage() {
       </ul>
 
       <FaithBlock
-        title="The Fast God Has Chosen: Fire, Purification, and Purpose"
+        title="Jesus on Fasting: What is Done in Secret, God Rewards"
         imageSrc="/assets/images/faith/faith-dry-fasting.jpg"
         imageAlt="Fire and light, purification through the fast"
       >
         <p>
-          <strong>Isaiah 58:6-8: &ldquo;Is not this the kind of fasting I have chosen: to loose the chains of injustice... Then your light will break forth like the dawn, and your healing will quickly appear.&rdquo;</strong>
+          <strong>Matthew 6:17-18: &ldquo;But when you fast, put oil on your head and wash your face, so that it will not be obvious to others that you are fasting, but only to your Father, who is unseen; and your Father, who sees what is done in secret, will reward you.&rdquo;</strong>
         </p>
         <p>
-          Isaiah did not describe fasting as deprivation. He described it as liberation. The dry fast is the scorch: the fire that burns what cannot be healed any other way. In its silence, old grief surfaces and old fears dissolve. I found that the fast was also a confrontation with truth: the named, specific kind. The Epstein files document what powerful men did to children with impunity. The suffering in Gaza is real. <em>Evil propagates when good men look away.</em> The fast is a recommitment to looking directly at what is true, in your body, your spirit, and the world.
+          Jesus did not debate whether fasting was valid. He assumed you would do it, and told you how. The dry fast is one of the most private things a person can do: no food, no water, no performance. Just you and God and the silence. In that silence, old grief surfaces and old fears dissolve. I found that the fast was also a confrontation with truth: the named, specific kind. The Epstein files document what powerful men did to children with impunity. The suffering in Gaza is real. <em>Evil propagates when good men look away.</em> The fast is a recommitment to looking directly at what is true, in your body, your spirit, and the world.
         </p>
         <p>
-          <strong>Your healing will quickly appear.</strong> Trust the fire.
+          <strong>Your Father sees what is done in secret. He will reward you.</strong>
         </p>
       </FaithBlock>
 

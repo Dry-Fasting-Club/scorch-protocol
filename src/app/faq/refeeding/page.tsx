@@ -259,15 +259,15 @@ export default function RefeedingFaqPage() {
       </div>
 
       <FaithBlock
-        title="A Time to Heal: Trusting God&rsquo;s Timing in Recovery"
+        title="At the Proper Time We Will Reap if We Do Not Give Up"
         imageSrc="/assets/images/faith/faith-faq-refeeding.jpg"
         imageAlt="Still water at dawn, patience, peace, and trust"
       >
         <p>
-          <strong>Ecclesiastes 3:1-3: &ldquo;There is a time for everything... a time to kill and a time to heal.&rdquo;</strong>
+          <strong>Galatians 6:9: &ldquo;Let us not become weary in doing good, for at the proper time we will reap a harvest if we do not give up.&rdquo;</strong>
         </p>
         <p>
-          Ecclesiastes does not tell us when our season to heal will arrive. It only tells us that it will. I have walked hundreds of people through this phase. The ones who healed most fully were not the ones who rushed. They were the ones who finally, after years of fighting their own body, learned to cooperate with it. Every question on this page is ultimately a question about trust. <strong>This is your season to heal. Honor it.</strong>
+          The refeeding phase demands patience in a culture that has none. I have worked directly with dozens of people through this phase, and seen many more report their outcomes through surveys. The ones who healed most fully were not the ones who rushed. They were the ones who finally, after years of fighting their own body, learned to cooperate with it. Every question on this page is ultimately a question about trust. <strong>At the proper time you will reap. Do not give up.</strong>
         </p>
       </FaithBlock>
 

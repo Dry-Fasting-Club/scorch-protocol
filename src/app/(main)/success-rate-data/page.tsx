@@ -338,15 +338,15 @@ export default function SuccessRateDataPage() {
       </p>
 
       <FaithBlock
-        title="97% Is a Miracle: Real Healing as Living Testimony"
+        title="The Prayer of Faith Will Make the Sick Person Well"
         imageSrc="/assets/images/faith/faith-success-data.jpg"
         imageAlt="People standing together in testimony, community and witness"
       >
         <p>
-          <strong>Psalm 107:20: &ldquo;He sent out his word and healed them; he rescued them from the grave.&rdquo;</strong>
+          <strong>James 5:15: &ldquo;And the prayer offered in faith will make the sick person well; the Lord will raise them up.&rdquo;</strong>
         </p>
         <p>
-          I do not present the 97% as a marketing number. I present it as testimony. I was one of the sick people first. I know what it is to sit at a 2 or 3 on the fatigue scale, barely functional, watching life happen behind glass. I also know what it is to come back. These 141 participants saw something medicine does not yet have the framework to fully explain. <em>Evil propagates when good men look away,</em> and one of the evils done to chronically ill people is the systematic dismissal of their suffering. This data is a refusal to be silent. <strong>He sent out his word and healed them.</strong> You are reading it now.
+          I do not present the 97% as a marketing number. I present it as testimony. I was one of the sick people first. I know what it is to sit at a 2 or 3 on the fatigue scale, barely functional, watching life happen behind glass. I also know what it is to come back. These 141 participants saw something medicine does not yet have the framework to fully explain. <em>Evil propagates when good men look away,</em> and one of the evils done to chronically ill people is the systematic dismissal of their suffering. This data is a refusal to be silent. <strong>The Lord will raise them up.</strong> That promise is for you too.
         </p>
       </FaithBlock>
 

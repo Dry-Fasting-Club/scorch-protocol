@@ -354,15 +354,15 @@ export default function RefeedForBmrPage() {
       </div>
 
       <FaithBlock
-        title="Forty Years Was Not Failure: The Wilderness Road"
+        title="Let Perseverance Finish Its Work"
         imageSrc="/assets/images/faith/faith-refeed-bmr.jpg"
         imageAlt="A long road stretching through open landscape, the long journey of healing"
       >
         <p>
-          <strong>Deuteronomy 8:2: &ldquo;Remember how the Lord your God led you all the way in the wilderness these forty years, to humble and test you in order to know what was in your heart.&rdquo;</strong>
+          <strong>James 1:3-4: &ldquo;Because you know that the testing of your faith produces perseverance. Let perseverance finish its work so that you may be mature and complete, not lacking anything.&rdquo;</strong>
         </p>
         <p>
-          Forty years looked like failure. It was the execution of a plan. Nine months of metabolic reconstruction is your wilderness road. Your metabolism, suppressed for years or decades, does not snap back in a week. That is not failure. The Minnesota Starvation Experiment showed that healthy young men needed nine months or more to fully recover their metabolic rate after severe restriction. Extend yourself at least that much patience. <em>Evil propagates when good men look away,</em> and one of the subtler evils our culture exports is the lie that a body which doesn&rsquo;t snap back in 30 days has failed. <strong>You are on the road. God has led you this far. He will complete what He began.</strong>
+          Nine months of metabolic reconstruction is not a detour. It is the work finishing. Your metabolism, suppressed for years or decades, does not snap back in a week. That is not failure. The Minnesota Starvation Experiment showed that healthy young men needed nine months or more to fully recover their metabolic rate after severe restriction. Extend yourself at least that much patience. One of the subtler evils our culture exports is the lie that a body which doesn&rsquo;t snap back in 30 days has failed. <strong>Let perseverance finish its work. You will not lack anything.</strong>
         </p>
       </FaithBlock>
 
