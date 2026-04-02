@@ -283,13 +283,7 @@ export default function PreparationPage() {
           <strong>Luke 4:1-2: &ldquo;Jesus, full of the Holy Spirit, left the Jordan and was led by the Spirit into the wilderness, where for forty days he was tempted.&rdquo;</strong>
         </p>
         <p>
-          Jesus did not enter the wilderness unprepared. He came out of the water of baptism, full of the Holy Spirit, and He went deliberately, not fleeing, not forced, but led. The wilderness was not punishment. It was preparation for the most important work of His life.
-        </p>
-        <p>
-          You are about to do something most people will never attempt. Your body needs preparation: the blood tests, the nutrients, the dietary shift. But so does your spirit. Before you fast, consider the inner inventory: What fears are you bringing in with you? What resentments are still feeding the fire of your inflammation? Chronic illness lives at the intersection of the physical and the spiritual. Scientists now measure what the saints already knew: unresolved bitterness, chronic fear, and the stress of suppressing your own truth all manifest in the body as dysfunction.
-        </p>
-        <p>
-          Spend time in the preparation phase not only cleaning your colon and building your electrolytes, but cleaning the ledger of your heart. Forgive someone you have been holding. Not for them, but for the freedom of your own cells. <strong>The body heals faster when the spirit is at peace.</strong>
+          Jesus did not enter the wilderness unprepared, and He did not go reluctantly. He went full of the Spirit, deliberately, led. As you prepare your body with blood tests, nutrients, and dietary changes, prepare your spirit too. What fears are you bringing in? What resentments are still fueling your inflammation? Unresolved bitterness and chronic fear manifest in the body as dysfunction. Forgive someone you have been holding onto. Not for them, but for the freedom of your own cells. <strong>The body heals faster when the spirit is at peace.</strong>
         </p>
         <p>
           <em>You were led here. Trust that.</em>

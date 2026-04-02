@@ -327,16 +327,7 @@ export default function HghTherapyPage() {
           <strong>2 Corinthians 5:17: &ldquo;Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!&rdquo;</strong>
         </p>
         <p>
-          Death and resurrection is not a metaphor invented by the church. It is the template woven into biological reality. Autophagy (the cellular process triggered by the dry fast) is literally your body destroying its own damaged components so that new, healthy ones can take their place. The old has to go for the new to come. This is not loss. This is renovation.
-        </p>
-        <p>
-          hGH therapy is the final instruction in the rebuilding sequence: a hormonal signal telling your body not just to maintain, but to regenerate. In chronic illness, growth hormone secretion is often suppressed; the pituitary is quiet, the body has stopped investing in its own future. hGH says: <em>rebuild. There is a future worth building toward.</em>
-        </p>
-        <p>
-          Yannick thinks of this phase as the commissioning: after the desert, after the fast, after the long road, here is the moment where you are sent back into the world with a new body and a new mandate. Not the same person who got sick. Not the same person who survived. Something new.
-        </p>
-        <p>
-          Paul wrote those words from prison. He had been beaten, shipwrecked, abandoned. He was not describing an easy transformation. He was describing a real one. <strong>The old you (the one imprisoned by illness) has gone. What comes next is new. Receive it.</strong>
+          Death and resurrection is not a metaphor. It is the template woven into biological reality. Autophagy destroys damaged cells so new ones can take their place. hGH is the final hormonal instruction: rebuild. I think of this phase as the commissioning. After the desert, after the fast, after the long road, you are sent back into the world not as the person who got sick, not as the person who merely survived, but as something new. Paul wrote those words from prison, describing not an easy transformation but a real one. <strong>The old has gone. Receive what is here.</strong>
         </p>
       </FaithBlock>
 

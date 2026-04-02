@@ -571,19 +571,10 @@ export default function T3TherapyPage() {
         imageAlt="Sunrise over a valley, awakening and new life"
       >
         <p>
-          <strong>Ezekiel 37:4-5: &ldquo;Prophesy to these bones and say to them, &lsquo;Dry bones, hear the word of the Lord! I will make breath enter you, and you will come to life.&rsquo;&rdquo;</strong>
+          <strong>Ezekiel 37:4-5: &ldquo;Dry bones, hear the word of the Lord! I will make breath enter you, and you will come to life.&rdquo;</strong>
         </p>
         <p>
-          Ezekiel stood in a valley of dry bones, not the recently dead, but the long dead. Bones bleached white by a sun that had forgotten them. God asked him a strange question: <em>&ldquo;Can these bones live?&rdquo;</em> The prophet answered honestly: <em>&ldquo;Sovereign Lord, you alone know.&rdquo;</em> And then God said: speak to them anyway.
-        </p>
-        <p>
-          This is what T3 therapy does to a body locked in metabolic hibernation. The thyroid is not broken, it has gone quiet. The receptors have stopped listening. The cells have conserved energy for so long that they have forgotten what it feels like to thrive. T3 is the word spoken into that silence. It is the breath entering the valley. <strong>The dry bones do not move on their own. Something has to call them back.</strong>
-        </p>
-        <p>
-          Yannick describes the morning his metabolism came back online after a prolonged crash as one of the most spiritual experiences of his life. Not dramatic. Not loud. Just warmth, where there had been cold. Energy, where there had been nothing. The body recognizing itself again.
-        </p>
-        <p>
-          If you have been sick for years, you may have stopped believing this is possible. You may have heard the question, <em>can these bones live?</em>, and answered with despair. That is where this protocol meets you. Not with judgment, but with instruction. <strong>Prophesy to your own bones. Speak life into the valley. The breath will come.</strong>
+          The thyroid is not broken. It has gone quiet. T3 is the word spoken into that silence. The morning my metabolism came back online after years of crashing was one of the most spiritual experiences of my life. Not dramatic. Just warmth, where there had been cold. Energy, where there had been nothing. The body recognizing itself again. If you have been sick long enough to stop believing this is possible, that is exactly where this protocol meets you. <strong>Speak life into the valley. The breath will come.</strong>
         </p>
       </FaithBlock>
 

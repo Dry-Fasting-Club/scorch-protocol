@@ -362,13 +362,7 @@ export default function DryFastingPage() {
           <strong>Isaiah 58:6-8: &ldquo;Is not this the kind of fasting I have chosen: to loose the chains of injustice... Then your light will break forth like the dawn, and your healing will quickly appear.&rdquo;</strong>
         </p>
         <p>
-          Isaiah did not describe fasting as deprivation. He described it as liberation. The fast God designed was not about suffering, it was about breaking chains. The chains of chronic illness, of systemic inflammation, of viral persistence, of a body locked in a war it could not win. The dry fast is the scorch: the fire that burns what cannot be healed any other way.
-        </p>
-        <p>
-          There is something deeply spiritual about choosing to be still, to be empty, to surrender control over the one thing most of us use to manage every emotion: food. In the silence of a dry fast, many people encounter themselves for the first time in years. Old grief surfaces. Old fears crystallize and then dissolve. This is not incidental. This is part of what heals you.
-        </p>
-        <p>
-          Yannick found that the fast was also a confrontation with evil: not abstract evil, but the specific, named kind. The kind that appears in files made public by court order, documenting what powerful men did to children with impunity. The kind that rains from the sky on people who simply lived in the wrong place during the wrong war. <em>Evil propagates when good men look away.</em> The fast is, among other things, a recommitment to looking directly at what is true: in your body, in your spirit, and in the world.
+          Isaiah did not describe fasting as deprivation. He described it as liberation. The dry fast is the scorch: the fire that burns what cannot be healed any other way. In its silence, old grief surfaces and old fears dissolve. I found that the fast was also a confrontation with truth: the named, specific kind. The Epstein files document what powerful men did to children with impunity. The suffering in Gaza is real. <em>Evil propagates when good men look away.</em> The fast is a recommitment to looking directly at what is true, in your body, your spirit, and the world.
         </p>
         <p>
           <strong>Your healing will quickly appear.</strong> Trust the fire.

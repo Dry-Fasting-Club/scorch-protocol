@@ -567,16 +567,10 @@ export default function HomePage() {
           <strong>Matthew 11:28: &ldquo;Come to me, all who are weary and burdened, and I will give you rest.&rdquo;</strong>
         </p>
         <p>
-          Yannick&rsquo;s journey with chronic illness did not begin in a lab. It began in a crisis of spirit: years of chronic stress, unresolved wounds, and the quiet corrosion that comes from living in a world that has lost its moral center. He believes, and the research increasingly confirms, that <strong>chronic illness is often a symptom of a life disconnected from God</strong> (not a punishment, but a signal). The body keeps the score of every fear you refused to name, every grief you buried, every time you stayed silent when evil walked past you in plain sight.
+          My journey with chronic illness did not begin in a lab. It began in a crisis of spirit: years of unresolved stress, buried grief, and the corrosion that comes from staying silent when evil walks past. The patients I see heal fastest are not always the mildest cases. They are the ones who do the inner work too, who choose forgiveness and release chronic resentment. <strong>Chronic illness is often a symptom of a life disconnected from God.</strong> The Epstein files are court-documented proof that institutional evil against children is real. In Gaza, the innocent suffer under war. <em>Evil propagates when good men look away.</em> Part of healing is reclaiming your voice.
         </p>
         <p>
-          This protocol addresses the physical mechanisms of healing. But Yannick will tell you plainly: the patients who heal fastest are not always the ones with the mildest cases. They are the ones who also do the inner work, who choose forgiveness, who release chronic resentment, who come before God unburdened by the weight they were never meant to carry alone.
-        </p>
-        <p>
-          We live in a time when evil is no longer theoretical. The Epstein files are public record, a documented network of institutional child trafficking that reached the highest levels of power. In Gaza, the innocent suffer under the weight of war. These are not abstractions. Edmund Burke put it plainly: <em>&ldquo;The only thing necessary for the triumph of evil is for good men to do nothing.&rdquo;</em> Chronic illness has a way of making people small: exhausted, isolated, afraid to speak. Part of healing is reclaiming your voice.
-        </p>
-        <p>
-          The armor of God (Ephesians 6:10-18) is not metaphor. It is instruction for a world exactly like this one. You were not made to carry this illness or this darkness alone. Come to Him weary. Leave restored.
+          The armor of God is not metaphor. It is instruction. Come to Him weary. <strong>Leave restored.</strong>
         </p>
       </FaithBlock>
 

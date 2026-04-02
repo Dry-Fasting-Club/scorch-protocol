@@ -762,22 +762,13 @@ export default function TipsAndTricksPage() {
         imageAlt="A warrior standing in armor against the light, Ephesians 6"
       >
         <p>
-          <strong>Ephesians 6:10-12: &ldquo;Finally, be strong in the Lord and in his mighty power. Put on the full armor of God, so that you can take your stand against the devil&rsquo;s schemes. For our struggle is not against flesh and blood, but against the rulers, against the authorities, against the powers of this dark world.&rdquo;</strong>
+          <strong>Ephesians 6:10-12: &ldquo;Put on the full armor of God, so that you can take your stand against the devil&rsquo;s schemes. For our struggle is not against flesh and blood, but against the rulers, against the authorities, against the powers of this dark world.&rdquo;</strong>
         </p>
         <p>
-          Paul was not speaking abstractly. He was writing from a Roman prison, to people who lived under an empire that crucified inconvenient people and trafficked in human beings as property. He told them to stand. Not to flee, not to compromise, not to stay quiet for the sake of social comfort: to stand.
+          The Epstein files are court-documented proof that a network of powerful people organized the trafficking and abuse of children, protected for decades by the very institutions meant to stop them. <strong>We will not be silent about it. We do not worship those who harm children.</strong> In Gaza, the innocent suffer under war. These are not the same evil, but the same call: do not look away. <em>&ldquo;The only thing necessary for the triumph of evil is for good men to do nothing.&rdquo;</em> Chronic illness has a way of making people small, too tired to speak. Part of what this protocol reclaims is your voice.
         </p>
         <p>
-          We live in a world where the evidence of institutional evil is now public record. The Epstein files are not a conspiracy theory; they are court-documented proof that a network of powerful people organized the trafficking and abuse of children, and were protected for decades by the very institutions meant to stop them. We will not be silent about this. <strong>We do not worship those who harm children. We do not care which political tribe you use to try to silence us.</strong> Evil is evil. Name it.
-        </p>
-        <p>
-          In Gaza, the innocent suffer under the weight of war. Children in rubble. Families erased. This is a separate horror, but it is the same call: do not look away. Christians are not called to be neutral when the innocent suffer. We are called to pray, to act, and to refuse the lie that silence is safety.
-        </p>
-        <p>
-          Edmund Burke understood it: <em>&ldquo;The only thing necessary for the triumph of evil is for good men to do nothing.&rdquo;</em> Chronic illness has a way of making people small, too tired to speak, too sick to stand. Part of what this protocol reclaims is your voice. Your body. Your right to name what is wrong in the world and stand against it.
-        </p>
-        <p>
-          The armor of God: truth, righteousness, the gospel of peace, faith, salvation, the word of God. You were made to wear this. <strong>Stand firm. And having done everything, stand.</strong>
+          <strong>Stand firm. And having done everything, stand.</strong>
         </p>
       </FaithBlock>
 
