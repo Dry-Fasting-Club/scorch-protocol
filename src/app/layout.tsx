@@ -19,9 +19,9 @@ export const metadata: Metadata = {
     siteName: "The Scorch Protocol",
     images: [
       {
-        url: "/assets/scorch-og.png",
-        width: 1200,
-        height: 630,
+        url: "/assets/images/faith/faith-preparation.png",
+        width: 800,
+        height: 520,
         alt: "The Scorch Protocol | Dry Fasting, T3 Therapy & hGH for Chronic Illness Recovery",
       },
     ],
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "The Scorch Protocol",
     description: DESCRIPTION,
-    images: ["/assets/scorch-og.png"],
+    images: ["/assets/images/faith/faith-preparation.png"],
   },
   robots: {
     index: true,
