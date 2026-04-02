@@ -567,7 +567,7 @@ export default function T3TherapyPage() {
 
       <FaithBlock
         title="Life to Your Mortal Body: The Spirit That Raises the Dead"
-        imageSrc="/assets/images/faith/faith-t3-therapy.jpg"
+        imageSrc="/assets/images/faith/faith-t3-therapy.png"
         imageAlt="Sunrise over a valley, awakening and new life"
       >
         <p>
