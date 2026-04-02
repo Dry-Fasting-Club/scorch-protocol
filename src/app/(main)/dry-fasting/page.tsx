@@ -355,7 +355,7 @@ export default function DryFastingPage() {
 
       <FaithBlock
         title="Jesus on Fasting: What is Done in Secret, God Rewards"
-        imageSrc="/assets/images/faith/faith-dry-fasting.jpg"
+        imageSrc="/assets/images/faith/faith-dry-fasting.png"
         imageAlt="Fire and light, purification through the fast"
       >
         <p>
