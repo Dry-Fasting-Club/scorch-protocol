@@ -272,6 +272,23 @@ export default function PreparationPage() {
           almost nothing and meaningfully improves what your fast can
           accomplish.
         </div>
+        <div className="question-item">
+          <span className="question-label">Liver Support: TUDCA Over Liver Flushing</span>
+          I prefer several weeks of TUDCA supplementation over liver flushing
+          protocols. TUDCA supports bile flow and liver cell integrity, and the
+          extended window allows long-persisting medications and their active
+          metabolites to begin clearing before the fast begins. This matters
+          because drugs processed via the liver&rsquo;s CYP450 enzyme system
+          are often fat-soluble and accumulate in fatty tissues — and as you
+          burn fat during the fast, those residues re-enter the bloodstream.
+          Long-acting benzodiazepines (Diazepam, Librium), SSRIs like Prozac
+          (whose norfluoxetine metabolite takes up to 5 weeks to wash out),
+          antipsychotics like Vraylar (active metabolites persist 1&ndash;3 weeks),
+          and cardiovascular drugs like Amiodarone (half-life up to 78 days)
+          all fall into this category. Starting TUDCA weeks in advance, not
+          days, gives your liver a meaningful head start before the added
+          metabolic demands of fasting arrive.
+        </div>
       </div>
 
       <FaithBlock
