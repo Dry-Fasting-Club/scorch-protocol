@@ -567,7 +567,7 @@ export default function HomePage() {
           <strong>Matthew 11:28: &ldquo;Come to me, all who are weary and burdened, and I will give you rest.&rdquo;</strong>
         </p>
         <p>
-          My journey with chronic illness was a struggle that began many years earlier. You know if your life was stressful and if it broke you down over time until the main stressor took you down. The patients I see heal fastest are not always the mildest cases. They are the ones who do the inner work too, who choose forgiveness and release chronic resentment. <strong>You are needed in this world, your strength and your will.</strong> The Epstein files are court-documented proof that institutional evil against children is real. <em>Evil propagates when good men look away.</em> Part of healing is reclaiming your voice. Mercy and compassion is key, but it starts with you. Forgive yourself for your past and promise to be reborn.
+          My journey with chronic illness was a struggle that began many years earlier. You know if your life was stressful and if it broke you down over time until the main stressor took you down. The patients I see heal fastest are the ones who do the inner work too, who choose forgiveness and release chronic resentment. <strong>You are needed in this world, your strength and your will.</strong> The Epstein files are court-documented proof that institutional evil against children is real. <em>Evil propagates when good men look away.</em> Part of healing is reclaiming your voice. Mercy and compassion is key, but it starts with you. Forgive yourself for your past and promise to be reborn.
         </p>
         <p>
           The armor of God is not metaphor. It is instruction. Come to Him weary. <strong>Leave restored.</strong>
