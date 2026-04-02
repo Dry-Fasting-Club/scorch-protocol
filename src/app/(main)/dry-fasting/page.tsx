@@ -4,9 +4,9 @@ import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
 
 export const metadata: Metadata = {
-  title: "Phase 2: The Dry Fast — The Scorch Protocol",
+  title: "Phase 2: The Dry Fast | The Scorch Protocol",
   description:
-    "Phase 2: A step-by-step guide to dry fasting safely — day-by-day breakdown, red flags, weight milestones, and refeeding timing.",
+    "Phase 2: A step-by-step guide to dry fasting safely: day-by-day breakdown, red flags, weight milestones, and refeeding timing.",
 };
 
 export default function DryFastingPage() {
@@ -116,7 +116,7 @@ export default function DryFastingPage() {
             <td>
               Only after finishing 72 hours successfully, move to{" "}
               <strong>5 days dry</strong>, followed immediately by{" "}
-              <strong>5 days water</strong> — 10 days total. This is the full
+              <strong>5 days water</strong> (10 days total). This is the full
               Scorch Protocol fasting block.
             </td>
           </tr>
@@ -162,7 +162,7 @@ export default function DryFastingPage() {
       <ul>
         <li>
           <strong>Environment:</strong> Stay in a cool room with fresh air.
-          Rest as much as possible — only do very light walking.
+          Rest as much as possible, only do very light walking.
         </li>
         <li>
           <strong>Daily Habits:</strong> Try gentle belly massage, dry skin
@@ -190,7 +190,7 @@ export default function DryFastingPage() {
       <p>
         After completing the 5-day dry fast, you do <strong>not</strong> break
         the fast with food. You transition directly into a 5-day water fast.
-        This is not a cool-down period — it is its own distinct and powerful
+        This is not a cool-down period: it is its own distinct and powerful
         therapeutic phase.
       </p>
 
@@ -204,11 +204,11 @@ export default function DryFastingPage() {
         }}
       >
         <h3 style={{ color: "#ff6b6b", marginTop: 0 }}>
-          Order Is Locked — Never Reverse This
+          Order Is Locked: Never Reverse This
         </h3>
         <p style={{ marginBottom: 0 }}>
           The sequence is always <strong>dry fast first, water fast second.</strong>{" "}
-          Going the other way — water fasting before a dry fast — is dangerous
+          Going the other way (water fasting before a dry fast) is dangerous
           and defeats the purpose. The dry fast creates the internal conditions
           that make the water fast supercharged. Do not attempt this in reverse.
         </p>
@@ -218,7 +218,7 @@ export default function DryFastingPage() {
       <p>
         A water fast done after a 5-day dry fast is not the same as a
         standalone water fast. The dry fast has already completed the deep
-        cellular cleanup — the old damaged cells are gone, toxins have been
+        cellular cleanup: the old damaged cells are gone, toxins have been
         burned, and your body is primed at a cellular level it cannot reach
         through water fasting alone. The water fast that follows is supercharged
         by this state: you are washing through a body that has already been
@@ -228,32 +228,32 @@ export default function DryFastingPage() {
       <h3>What Is Allowed During the Water Fast Phase</h3>
       <ul>
         <li>
-          <strong>Water</strong> — drink freely. Your body is now able to absorb
+          <strong>Water:</strong> drink freely. Your body is now able to absorb
           it properly.
         </li>
         <li>
-          <strong>T3 therapy</strong> — started on day 3 of the water fast (see
+          <strong>T3 therapy,</strong> started on day 3 of the water fast (see
           below).
         </li>
         <li>
-          <strong>L-Carnitine (optional)</strong> — if energy is a significant
+          <strong>L-Carnitine (optional):</strong> if energy is a significant
           issue, small amounts of L-carnitine can help. This is not necessary
           for everyone.
         </li>
         <li>
-          <strong>Nothing else</strong> — no food, no juice, no broth, no
+          <strong>Nothing else:</strong> no food, no juice, no broth, no
           electrolyte supplements.
         </li>
       </ul>
 
       <h3>Starting T3 Therapy During the Water Fast</h3>
       <p>
-        T3 therapy begins on <strong>day 3 of the water fast</strong> — not at
+        T3 therapy begins on <strong>day 3 of the water fast</strong>, not at
         the end of the fast, and not at the start of the refeed. The timing is
         deliberate: by starting T3 on day 3, you are on{" "}
         <strong>day 3 of T3 therapy</strong> when you have your first calories.
         This matters because T3 needs to already be running when refeeding
-        begins — it shifts your metabolism into a state that allows the
+        begins, shifting your metabolism into a state that allows the
         antiviral protocol (L-lysine + monolaurin) to start immediately on
         refeeding day 1, rather than waiting.
       </p>
@@ -293,7 +293,7 @@ export default function DryFastingPage() {
               <em>(T3 Day 3)</em>
             </td>
             <td>
-              45 mcg T3 — end of the water fast. You are now on T3 day 3 when
+              45 mcg T3 (end of the water fast). You are now on T3 day 3 when
               you break the fast with your first calories.
             </td>
           </tr>
@@ -303,10 +303,10 @@ export default function DryFastingPage() {
       <h2>Phase 4: Breaking the Fast (Refeeding)</h2>
       <p>
         <strong>Very Important:</strong> Eating too much too fast can be
-        dangerous. Your refeed should last roughly as long as the fasting block
-        — for a 10-day fast (5 dry + 5 water), give your body at least 10 days
+        dangerous. Your refeed should last roughly as long as the fasting block.
+        For a 10-day fast (5 dry + 5 water), give your body at least 10 days
         before returning to normal eating. By this point, your T3 therapy is
-        already running at day 4 — this is intentional and allows your
+        already running at day 4, which is intentional and allows your
         antiviral protocol to begin immediately.
       </p>
       <ul>
@@ -324,7 +324,7 @@ export default function DryFastingPage() {
           <strong>Day 1 After the Fast:</strong> Stick to coconut water. In the
           late afternoon, you can have a small bowl of soft, mushy rice if you
           feel stable. Start your antiviral protocol (L-lysine + monolaurin)
-          today — T3 is already active and your kidneys can handle it.
+          today. T3 is already active and your kidneys can handle it.
         </li>
         <li>
           <strong>Day 2 to 7:</strong> Follow the rice and fruit schedule. (See
@@ -354,21 +354,21 @@ export default function DryFastingPage() {
       </ul>
 
       <FaithBlock
-        title="The Fast God Has Chosen — Fire, Purification, and Purpose"
+        title="The Fast God Has Chosen: Fire, Purification, and Purpose"
         imageSrc="/assets/images/faith/faith-dry-fasting.jpg"
-        imageAlt="Fire and light — purification through the fast"
+        imageAlt="Fire and light, purification through the fast"
       >
         <p>
-          <strong>Isaiah 58:6-8 — &ldquo;Is not this the kind of fasting I have chosen: to loose the chains of injustice... Then your light will break forth like the dawn, and your healing will quickly appear.&rdquo;</strong>
+          <strong>Isaiah 58:6-8: &ldquo;Is not this the kind of fasting I have chosen: to loose the chains of injustice... Then your light will break forth like the dawn, and your healing will quickly appear.&rdquo;</strong>
         </p>
         <p>
-          Isaiah did not describe fasting as deprivation. He described it as liberation. The fast God designed was not about suffering — it was about breaking chains. The chains of chronic illness, of systemic inflammation, of viral persistence, of a body locked in a war it could not win. The dry fast is the scorch — the fire that burns what cannot be healed any other way.
+          Isaiah did not describe fasting as deprivation. He described it as liberation. The fast God designed was not about suffering, it was about breaking chains. The chains of chronic illness, of systemic inflammation, of viral persistence, of a body locked in a war it could not win. The dry fast is the scorch: the fire that burns what cannot be healed any other way.
         </p>
         <p>
-          There is something deeply spiritual about choosing to be still, to be empty, to surrender control over the one thing most of us use to manage every emotion — food. In the silence of a dry fast, many people encounter themselves for the first time in years. Old grief surfaces. Old fears crystallize and then dissolve. This is not incidental. This is part of what heals you.
+          There is something deeply spiritual about choosing to be still, to be empty, to surrender control over the one thing most of us use to manage every emotion: food. In the silence of a dry fast, many people encounter themselves for the first time in years. Old grief surfaces. Old fears crystallize and then dissolve. This is not incidental. This is part of what heals you.
         </p>
         <p>
-          Yannick found that the fast was also a confrontation with evil — not abstract evil, but the specific, named kind. The kind that appears in files made public by court order, documenting what powerful men did to children with impunity. The kind that rains from the sky on people who simply lived in the wrong place during the wrong war. <em>Evil propagates when good men look away.</em> The fast is, among other things, a recommitment to looking directly at what is true — in your body, in your spirit, and in the world.
+          Yannick found that the fast was also a confrontation with evil: not abstract evil, but the specific, named kind. The kind that appears in files made public by court order, documenting what powerful men did to children with impunity. The kind that rains from the sky on people who simply lived in the wrong place during the wrong war. <em>Evil propagates when good men look away.</em> The fast is, among other things, a recommitment to looking directly at what is true: in your body, in your spirit, and in the world.
         </p>
         <p>
           <strong>Your healing will quickly appear.</strong> Trust the fire.

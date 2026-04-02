@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const rows = await sql`SELECT title FROM sections WHERE slug = ${slug} LIMIT 1`;
   const title = rows[0]?.title ?? "Deep Dive";
   return {
-    title: `${title} — Deep Dive`,
+    title: `${title}: Deep Dive`,
     robots: { index: false, follow: false }, // Never index paid content pages
   };
 }
@@ -126,7 +126,7 @@ export default async function ContentPage({ params }: Props) {
           ← Back to {section.title}
         </Link>
         <h1 className="content-viewer-title">{section.title}</h1>
-        <p className="content-viewer-subtitle">Deep Dive — Unlocked Content</p>
+        <p className="content-viewer-subtitle">Deep Dive: Unlocked Content</p>
       </div>
 
       {resolved.length === 0 ? (

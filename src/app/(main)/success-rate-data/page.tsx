@@ -5,9 +5,9 @@ import FaithBlock from "@/components/FaithBlock";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Success Rate Data — The Scorch Protocol",
+  title: "Success Rate Data | The Scorch Protocol",
   description:
-    "Real outcome data from 141 protocol participants — 97% success rate after completing dry fasting and T3 therapy phases.",
+    "Real outcome data from 141 protocol participants: 97% success rate after completing dry fasting and T3 therapy phases.",
 };
 
 export default function SuccessRateDataPage() {
@@ -104,7 +104,7 @@ export default function SuccessRateDataPage() {
         </p>
       </div>
 
-      <h3>After Dry Fast + Water Fast — 10 Days Total (117 Participants)</h3>
+      <h3>After Dry Fast + Water Fast: 10 Days Total (117 Participants)</h3>
       <p>The transformation after the full fasting block is remarkable:</p>
       <ul>
         <li>
@@ -124,7 +124,7 @@ export default function SuccessRateDataPage() {
           <strong>level 10 (normal/healthy)</strong>
         </li>
         <li>
-          Those who reached 10 did not need T3 Therapy&mdash;the preparation,
+          Those who reached 10 did not need T3 Therapy: the preparation,
           dry fast, and refeeding were sufficient
         </li>
         <li>
@@ -160,12 +160,12 @@ export default function SuccessRateDataPage() {
           8 and 12.5% at levels 7 and 9
         </li>
         <li>
-          <strong>Brain Fog:</strong> 53.1% reached level 10&mdash;over half
-          achieved normal cognitive function
+          <strong>Brain Fog:</strong> 53.1% reached level 10 (over half
+          achieved normal cognitive function)
         </li>
         <li>
-          <strong>Insomnia:</strong> 56.3% reached level 10&mdash;more than
-          half achieved normal sleep
+          <strong>Insomnia:</strong> 56.3% reached level 10 (more than
+          half achieved normal sleep)
         </li>
         <li>
           <strong>97% of participants</strong> experienced significant
@@ -320,7 +320,7 @@ export default function SuccessRateDataPage() {
           anti-fungals)
         </li>
         <li>
-          <strong>10-Day Fasting Block (5 Dry + 5 Water)</strong> — intense
+          <strong>10-Day Fasting Block (5 Dry + 5 Water):</strong> intense
           autophagy and stem cell activation during the dry phase, followed by
           a supercharged water fast with T3 already running
         </li>
@@ -338,21 +338,21 @@ export default function SuccessRateDataPage() {
       </p>
 
       <FaithBlock
-        title="97% Is a Miracle — Real Healing as Living Testimony"
+        title="97% Is a Miracle: Real Healing as Living Testimony"
         imageSrc="/assets/images/faith/faith-success-data.jpg"
-        imageAlt="People standing together in testimony — community and witness"
+        imageAlt="People standing together in testimony, community and witness"
       >
         <p>
-          <strong>Psalm 107:20 — &ldquo;He sent out his word and healed them; he rescued them from the grave.&rdquo;</strong>
+          <strong>Psalm 107:20: &ldquo;He sent out his word and healed them; he rescued them from the grave.&rdquo;</strong>
         </p>
         <p>
-          Yannick does not present the 97% success rate as a marketing number. He presents it as testimony — the kind the Psalms are full of. People who were desperate. People who had tried everything. People who had been dismissed by conventional medicine, told their illness was psychosomatic, told to manage rather than heal. And then — the healing came.
+          Yannick does not present the 97% success rate as a marketing number. He presents it as testimony, the kind the Psalms are full of. People who were desperate. People who had tried everything. People who had been dismissed by conventional medicine, told their illness was psychosomatic, told to manage rather than heal. And then the healing came.
         </p>
         <p>
-          The word &ldquo;testimony&rdquo; comes from the Latin for &ldquo;witness.&rdquo; A witness does not theorize. A witness reports what they saw. These 141 participants saw something. They experienced something that medicine does not yet have the framework to fully explain — a healing cascade that goes beyond what biology alone accounts for.
+          The word &ldquo;testimony&rdquo; comes from the Latin for &ldquo;witness.&rdquo; A witness does not theorize. A witness reports what they saw. These 141 participants saw something. They experienced something that medicine does not yet have the framework to fully explain: a healing cascade that goes beyond what biology alone accounts for.
         </p>
         <p>
-          Yannick&rsquo;s own recovery was one of those data points. He was one of the sick people first. He knows what it is to be in the lower half of that pre-protocol chart — a 2 or 3 on the fatigue scale, barely functional, watching life happen behind glass. He also knows what it is to come back. <em>Evil propagates when good men look away</em> — and one of the evils done to chronically ill people is the systematic dismissal of their suffering. This data is, among other things, a refusal to be silent.
+          Yannick&rsquo;s own recovery was one of those data points. He was one of the sick people first. He knows what it is to be in the lower half of that pre-protocol chart (a 2 or 3 on the fatigue scale, barely functional, watching life happen behind glass). He also knows what it is to come back. <em>Evil propagates when good men look away,</em> and one of the evils done to chronically ill people is the systematic dismissal of their suffering. This data is, among other things, a refusal to be silent.
         </p>
         <p>
           <strong>He sent out his word and healed them.</strong> You are reading that word right now. Let it do its work.

@@ -4,9 +4,9 @@ import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
 
 export const metadata: Metadata = {
-  title: "Phase 3: The Refeed — The Scorch Protocol",
+  title: "Phase 3: The Refeed | The Scorch Protocol",
   description:
-    "Phase 3: The Scorch Protocol refeeding plan — what to eat, when, and how to avoid refeeding syndrome after a dry fast.",
+    "Phase 3: The Scorch Protocol refeeding plan: what to eat, when, and how to avoid refeeding syndrome after a dry fast.",
 };
 
 export default function RefeedingPage() {
@@ -15,7 +15,7 @@ export default function RefeedingPage() {
       <h1>Phase 3: The Refeed</h1>
       <p>
         The refeed is just as important as the fast itself. How you eat after
-        the fast determines how much healing you keep — and whether you trigger
+        the fast determines how much healing you keep, and whether you trigger
         the stem cell activation that makes this protocol so powerful. Do not
         rush this phase.
       </p>
@@ -110,14 +110,14 @@ export default function RefeedingPage() {
         <h3>The Calorie Ramp: Day 8 Onward</h3>
         <p>
           Once you exit the first 7 days of the refeed, the goal is not to
-          stay light — it is to deliberately rebuild. Here is the framework:
+          stay light: the goal is to deliberately rebuild. Here is the framework:
         </p>
         <div className="question-item">
           <span className="question-label">Day 8: Return to Your Pre-Fast Baseline</span>
           Resume eating roughly the same number of calories you were eating
           before the fast. For most people this is around{" "}
           <strong>1,800–2,000 calories per day</strong>. Do not jump above this
-          yet — your digestive system needs a few days to handle regular food
+          yet. Your digestive system needs a few days to handle regular food
           volumes again.
         </div>
         <div className="question-item">
@@ -135,12 +135,12 @@ export default function RefeedingPage() {
           </ul>
         </div>
         <div className="question-item">
-          <span className="question-label">Expect Some Weight Gain — Do Not Panic</span>
+          <span className="question-label">Expect Some Weight Gain: Do Not Panic</span>
           Almost every starvation recovery study documents significant weight
           gain during the rebuilding phase. This is normal, expected, and
           necessary. Your body has been in survival mode and will prioritize
-          restoring reserves. If you follow the full Scorch Protocol — T3
-          therapy, hGH, BPC-157, proper sleep — you will minimize fat gain and
+          restoring reserves. If you follow the full Scorch Protocol (T3
+          therapy, hGH, BPC-157, proper sleep), you will minimize fat gain and
           direct more of those calories into muscle and tissue repair. But do
           not fear the scale. Resisting this phase slows healing significantly.
         </div>
@@ -149,7 +149,7 @@ export default function RefeedingPage() {
           Many people with chronic illness have been eating too little for
           years, which is part of what got them here. The metabolic reset only
           completes when the body feels safe in abundance. 3,000 is the floor
-          for most — some will need to go higher. See the{" "}
+          for most, and some will need to go higher. See the{" "}
           <a href="/refeed-for-bmr">9-Month BMR Reconstruction</a> page for
           the full long-term calorie strategy.
         </div>
@@ -157,12 +157,12 @@ export default function RefeedingPage() {
 
       <h2>How to Track Your Calories</h2>
       <div className="guiding-questions box-green">
-        <h3>Use a Calorie Counting App — With the Image Scan Feature</h3>
+        <h3>Use a Calorie Counting App (With the Image Scan Feature)</h3>
         <p>
           Hitting your calorie targets is not guesswork. The most practical
           tool available right now is a dedicated calorie tracking app with
           image-based food scanning. Both <strong>MyFitnessPal</strong> and{" "}
-          <strong>Cronometer</strong> offer this — pay for the subscription
+          <strong>Cronometer</strong> offer this. Pay for the subscription
           and use the photo upload feature so you can point your phone at a
           meal and get an automatic breakdown. It removes the friction of
           logging and makes hitting 2,000–3,000+ calories per day achievable
@@ -171,18 +171,18 @@ export default function RefeedingPage() {
         <div className="question-item">
           <span className="question-label">Minimum Carbohydrates: 100g Per Day</span>
           During the refeed and recovery phase, your carbohydrate floor is{" "}
-          <strong>100 grams per day</strong> — double the 50g keto limit.
+          <strong>100 grams per day</strong>, double the 50g keto limit.
           This is not optional. Carbohydrates are the primary signal that
           tells your thyroid to convert T4 into active T3, which powers your
           metabolism and muscle preservation. Going too low on carbs during
-          recovery is one of the most common mistakes — it pushes the body
+          recovery is one of the most common mistakes, as it pushes the body
           back toward a catabolic, low-energy state exactly when you are
           trying to climb out of one.
         </div>
         <div className="question-item">
           <span className="question-label">Gaining Weight Too Fast? Lower Carbs.</span>
           If the scale is moving up faster than you are comfortable with,
-          reduce your carbohydrate intake first — not your total calories.
+          reduce your carbohydrate intake first, not your total calories.
           Shift some of those calories toward protein and fat instead.
           Protein is your best ally here: it is thermogenic, highly
           satiating, and preferentially used for muscle repair rather than
@@ -192,7 +192,7 @@ export default function RefeedingPage() {
         <div className="question-item">
           <span className="question-label">Losing Weight Too Fast? Increase Carbs.</span>
           If you are losing weight during the ramp-up phase, you are
-          under-fueling. Add carbohydrates first — rice, fruit, potatoes,
+          under-fueling. Add carbohydrates first: rice, fruit, potatoes,
           oats. Your body is still in a deficit state and needs the
           carbohydrate signal to come out of it. Insufficient calories
           during this phase can cause muscle catabolism, especially once
@@ -200,23 +200,23 @@ export default function RefeedingPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Insulin Resistance: A Reason to Limit Carbs Further</span>
-          If you have a known history of insulin resistance — or symptoms like
+          If you have a known history of insulin resistance (or symptoms like
           fatigue after high-carb meals, neuropathy, blood sugar spikes, or
-          difficulty losing fat — be cautious about pushing carbohydrates
+          difficulty losing fat), be cautious about pushing carbohydrates
           aggressively. Forcing high carbohydrate intake against significant
           insulin resistance does not produce energy; it produces diabetic-type
           symptoms. Peripheral neuropathy, numbness, brain fog after eating,
           and erratic energy are all signs that your carb tolerance is lower
           than average. In this case, keep carbs closer to the 100g minimum
           rather than the higher end, and prioritize improving insulin
-          sensitivity first — through resistance training, T3 therapy with
-          adequate caloric energy, MOTS-c, or aspirin — before ramping carbs
+          sensitivity first (through resistance training, T3 therapy with
+          adequate caloric energy, MOTS-c, or aspirin) before ramping carbs
           higher.
         </div>
         <div className="question-item">
           <span className="question-label">The Core Goal: Energy Abundance Without Excess Fat Gain</span>
           The aim is to keep your body in a clear state of energy abundance
-          — enough fuel that it never needs to cannibalize muscle for
+          with enough fuel that it never needs to cannibalize muscle for
           energy, but calibrated so fat accumulation stays manageable.
           This balance is what allows the T3 therapy phase to work at its
           best: a well-fueled body on T3 rebuilds tissue; an underfueled
@@ -277,7 +277,7 @@ export default function RefeedingPage() {
       <div className="guiding-questions box-purple">
         <h3>The Most Overlooked Upgrade to the Refeed</h3>
         <p>
-          You&rsquo;ve already done something incredible by dry fasting — your
+          You&rsquo;ve already done something incredible by dry fasting, and your
           body has mobilized stem cells and cleared cellular debris. BPC-157
           (Body Protection Compound) is a peptide that can dramatically amplify
           what happens next.
@@ -293,7 +293,7 @@ export default function RefeedingPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Gut Repair:</span>
-          BPC-157 is particularly effective at healing the gut lining — exactly
+          BPC-157 is particularly effective at healing the gut lining, exactly
           the tissue that takes the most stress during a dry fast and needs to
           come back online cleanly during the refeed.
         </div>
@@ -316,9 +316,9 @@ export default function RefeedingPage() {
       <div className="guiding-questions box-red">
         <h3>Critical for Herpesvirus Carriers</h3>
         <p>
-          Every time your body swings between major energetic states — dry
+          Every time your body swings between major energetic states (dry
           fasting to refeeding, or the peak of one T3 cycle to the trough
-          before the next — you create what can be thought of as{" "}
+          before the next), you create what can be thought of as{" "}
           <strong>energetic peaks and troughs</strong>. The troughs are the
           dangerous windows: low-energy states where your immune system is
           momentarily off-balance and cellular resources are in flux.
@@ -332,44 +332,44 @@ export default function RefeedingPage() {
         </p>
         <ul>
           <li>
-            <strong>HSV-1</strong> (Herpes Simplex Virus 1) — cold sores, oral
+            <strong>HSV-1</strong> (Herpes Simplex Virus 1): cold sores, oral
             herpes, sometimes genital
           </li>
           <li>
-            <strong>HSV-2</strong> (Herpes Simplex Virus 2) — genital herpes,
+            <strong>HSV-2</strong> (Herpes Simplex Virus 2): genital herpes,
             recurring outbreaks
           </li>
           <li>
-            <strong>VZV</strong> (Varicella-Zoster Virus) — chickenpox on first
+            <strong>VZV</strong> (Varicella-Zoster Virus): chickenpox on first
             infection, shingles on reactivation
           </li>
           <li>
-            <strong>EBV</strong> (Epstein-Barr Virus) — mononucleosis, chronic
+            <strong>EBV</strong> (Epstein-Barr Virus): mononucleosis, chronic
             fatigue, implicated strongly in Long Covid and ME/CFS
           </li>
           <li>
-            <strong>CMV</strong> (Cytomegalovirus) — often asymptomatic but
+            <strong>CMV</strong> (Cytomegalovirus): often asymptomatic but
             reactivates under immune stress, contributes to fatigue
           </li>
           <li>
-            <strong>HHV-6A</strong> — neurological effects, chronic fatigue,
+            <strong>HHV-6A:</strong> neurological effects, chronic fatigue,
             encephalitis in severe cases
           </li>
           <li>
-            <strong>HHV-6B</strong> — roseola in children; in adults, linked to
+            <strong>HHV-6B:</strong> roseola in children; in adults, linked to
             brain fog and immune dysfunction
           </li>
           <li>
-            <strong>HHV-7</strong> (Roseolovirus) — reactivates alongside HHV-6,
+            <strong>HHV-7</strong> (Roseolovirus): reactivates alongside HHV-6,
             less studied but present in most chronically ill patients
           </li>
           <li>
             <strong>HHV-8</strong> (Kaposi&rsquo;s sarcoma-associated
-            herpesvirus) — primarily a concern in immunocompromised individuals
+            herpesvirus): primarily a concern in immunocompromised individuals
           </li>
         </ul>
         <p>
-          This is not a rare edge case — viral reactivation is a predictable,
+          This is not a rare edge case. Viral reactivation is a predictable,
           biological event that happens to a significant subset of chronically
           ill patients every time they go through a major protocol transition.
         </p>
@@ -377,8 +377,8 @@ export default function RefeedingPage() {
           <strong>Do You Have a Persistent Reactivated Herpesvirus?</strong>{" "}
           Look up the symptom profiles of each of the nine viruses above. If the
           symptoms match patterns you have experienced throughout your illness
-          — not a single episode, but a recurring pattern over months or years
-          — that virus is likely playing a role in your condition. You do not
+          (not a single episode, but a recurring pattern over months or years),
+          that virus is likely playing a role in your condition. You do not
           need a confirmed lab diagnosis to take precautions; the symptom
           pattern is enough reason to act.
         </p>
@@ -390,13 +390,13 @@ export default function RefeedingPage() {
           antivirals to begin at the very first meal.
         </p>
         <div className="question-item">
-          <span className="question-label">L-Lysine + Monolaurin — Start on Refeeding Day 1:</span>
+          <span className="question-label">L-Lysine + Monolaurin: Start on Refeeding Day 1</span>
           Because T3 therapy is already running by the time you break the fast
           (you started T3 on day 3 of the water fast, so you are on T3 day 3
           when you have your first calories), your kidneys are supported and
           your metabolism is already primed. This means you can start{" "}
           <strong>L-Lysine (2–4g/day)</strong> and{" "}
-          <strong>monolaurin</strong> immediately on refeeding day 1 — you do
+          <strong>monolaurin</strong> immediately on refeeding day 1. You do
           not need to wait for kidney rehydration. Lysine directly blocks viral
           replication by competing with arginine. Monolaurin disrupts the lipid
           envelope of herpesviruses, making it a strong complement to lysine.
@@ -404,41 +404,41 @@ export default function RefeedingPage() {
         <div className="question-item">
           <span className="question-label">Avoid Arginine-Rich Foods:</span>
           During the refeed, temporarily avoid nuts, seeds, chocolate, and
-          peanut butter — these are high in arginine, which fuels herpesvirus
+          peanut butter, as these are high in arginine, which fuels herpesvirus
           replication.
         </div>
         <div className="question-item">
-          <span className="question-label">Acyclovir — Have It On Hand:</span>
+          <span className="question-label">Acyclovir: Have It On Hand</span>
           If your symptom history matches any of the nine herpesviruses listed
           above, obtain <strong>acyclovir</strong> (or valacyclovir) before
-          beginning the protocol — do not wait until symptoms appear. It covers
+          beginning the protocol. Do not wait until symptoms appear. It covers
           HSV-1, HSV-2, VZV, and has partial activity against EBV and CMV.
           Having it available and starting it at the first sign of reactivation
           is far more effective than scrambling for a prescription mid-refeed.
           If you are experiencing monthly outbreaks, discuss suppressive dosing
           (typically 500mg–1g/day valacyclovir) with your doctor before you
-          start — this reduces outbreak frequency by 70–80% and significantly
+          start, which reduces outbreak frequency by 70–80% and significantly
           lowers the risk of viral expansion during protocol transitions.
         </div>
         <div className="question-item">
           <span className="question-label">HSV Outbreaks Are More Dangerous in Chronic Illness:</span>
           In a healthy person, CD8+ T cells rapidly contain each HSV
-          reactivation within 12–24 hours — limiting damage to a small cluster
+          reactivation within 12–24 hours, limiting damage to a small cluster
           of epithelial cells. In chronic illness, this immune surveillance is
           disrupted. Stress hormones (cortisol) reduce both the number and
           function of these guard cells, allowing higher viral loads during
           outbreaks. In the most severely immunocompromised patients, the virus
           can potentially move into new nerve territories rather than staying
           locked to its original ganglion. Monthly HSV outbreaks in a
-          chronically ill patient are not just a nuisance — they are a signal
+          chronically ill patient are not just a nuisance. They are a signal
           that immune containment is failing and suppressive antiviral therapy
           is warranted, not optional.
         </div>
         <div className="question-item">
           <span className="question-label">The T3 Cycle Off-Ramp Is Another High-Risk Window:</span>
           Viral reactivation risk does not end with the refeed. When you step
-          off a T3 cycle — as exogenous T3 doses taper and the thyroid takes
-          time to restabilize its own output — your metabolic rate temporarily
+          off a T3 cycle (as exogenous T3 doses taper and the thyroid takes
+          time to restabilize its own output), your metabolic rate temporarily
           dips. This creates the same energetic trough that triggers
           reactivation during the fast-to-refeed transition. Continue antiviral
           coverage during any T3 wind-down until your waking body temperature
@@ -448,21 +448,21 @@ export default function RefeedingPage() {
       </div>
 
       <FaithBlock
-        title="The Feast After the Fast — Coming Home to Abundance"
+        title="The Feast After the Fast: Coming Home to Abundance"
         imageSrc="/assets/images/faith/faith-refeeding.jpg"
-        imageAlt="A table set for a feast — abundance and restoration"
+        imageAlt="A table set for a feast, abundance and restoration"
       >
         <p>
-          <strong>Luke 15:24 — &ldquo;For this son of mine was dead and is alive again; he was lost and is found. So they began to celebrate.&rdquo;</strong>
+          <strong>Luke 15:24: &ldquo;For this son of mine was dead and is alive again; he was lost and is found. So they began to celebrate.&rdquo;</strong>
         </p>
         <p>
-          The prodigal son did not return to judgment. He returned to a feast. The father did not require him to prove he had changed, or to earn his place at the table through weeks of penance. The father ran toward him. The robe, the ring, the fatted calf — these were not rewards. They were recognition. <em>You were made for life, not for illness. You were made for the table, not the wilderness floor.</em>
+          The prodigal son did not return to judgment. He returned to a feast. The father did not require him to prove he had changed, or to earn his place at the table through weeks of penance. The father ran toward him. The robe, the ring, the fatted calf: these were not rewards. They were recognition. <em>You were made for life, not for illness. You were made for the table, not the wilderness floor.</em>
         </p>
         <p>
-          The refeeding phase is not the end of discipline — it requires more careful attention than the fast itself. But spiritually, it is the celebration. Your body is coming back online. New cells are proliferating. The stem cells awakened by the fast are now building something new in you. Every bowl of watermelon juice on day one is an act of resurrection.
+          The refeeding phase is not the end of discipline. It requires more careful attention than the fast itself. But spiritually, it is the celebration. Your body is coming back online. New cells are proliferating. The stem cells awakened by the fast are now building something new in you. Every bowl of watermelon juice on day one is an act of resurrection.
         </p>
         <p>
-          Yannick has sat with people at this threshold — post-fast, raw with emotion, sometimes weeping without knowing why. The body remembers things the mind has tried to forget. As you refeed, be gentle with yourself in the way the father was gentle with his son. You do not have to explain where you have been. You just have to come home.
+          Yannick has sat with people at this threshold, post-fast, raw with emotion, sometimes weeping without knowing why. The body remembers things the mind has tried to forget. As you refeed, be gentle with yourself in the way the father was gentle with his son. You do not have to explain where you have been. You just have to come home.
         </p>
         <p>
           <strong>The celebration is already prepared. Walk toward it.</strong>

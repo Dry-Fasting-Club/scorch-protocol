@@ -4,7 +4,7 @@ import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
 
 export const metadata: Metadata = {
-  title: "Phase 5: hGH Therapy — The Scorch Protocol",
+  title: "Phase 5: hGH Therapy | The Scorch Protocol",
   description:
     "Phase 5: hGH therapy signals tissue rebuilding after The Scorch, restoring muscle, nerve, and immune system function.",
 };
@@ -111,7 +111,7 @@ export default function HghTherapyPage() {
             <strong>How long does it take?</strong> Studies show that people
             with low growth hormone often need{" "}
             <strong>9 months of treatment</strong> to feel better. Be
-            patient&mdash;it takes time to rebuild your body&rsquo;s energy and
+            patient, it takes time to rebuild your body&rsquo;s energy and
             reverse your symptoms.
           </p>
         </div>
@@ -202,7 +202,7 @@ export default function HghTherapyPage() {
             <strong>UGL Labs:</strong> Underground labs (UGLs) are the more
             accessible and affordable option for most people. Nearly every
             country has some way to access UGL-sourced hGH if you do the right
-            digging in your local community. Quality varies — research your
+            digging in your local community. Quality varies, so research your
             source carefully.
           </li>
           <li>
@@ -234,7 +234,7 @@ export default function HghTherapyPage() {
           <span className="question-label">Thymalin (Thymic Peptide):</span>
           A peptide derived from the thymus gland that directly stimulates
           immune system regeneration. Particularly valuable for people whose
-          immune dysregulation is the core driver of their illness — it
+          immune dysregulation is the core driver of their illness; it
           essentially &ldquo;reboots&rdquo; thymic output, which declines with
           age and chronic stress. Pairs powerfully with hGH&rsquo;s
           tissue-rebuilding signal.
@@ -261,7 +261,7 @@ export default function HghTherapyPage() {
         <p>
           <em>
             Not everyone needs all three. Think of them as targeted keys for
-            specific locks — immune, gut, and metabolic energy. Identify your
+            specific locks (immune, gut, and metabolic energy). Identify your
             weakest axis and start there.
           </em>
         </p>
@@ -271,7 +271,7 @@ export default function HghTherapyPage() {
         <h3>Why hGH Works for Chronic Illness: The Research Case</h3>
         <p>
           If you have been sick for years, you are not just dealing with a
-          pathogen or an immune glitch — your body has physically degraded.
+          pathogen or an immune glitch: your body has physically degraded.
           Muscle wasted. Immune tissue atrophied. The thymus, which produces
           your T-cells, has shrunk. No amount of fasting or antivirals rebuilds
           that. hGH does.
@@ -279,7 +279,7 @@ export default function HghTherapyPage() {
         <div className="question-item">
           <span className="question-label">Thymus Regeneration &amp; Immune Rebuilding:</span>
           Clinical research, including the TRIIM trial, has demonstrated that
-          hGH can physically regenerate the thymus gland — replacing fat tissue
+          hGH can physically regenerate the thymus gland, replacing fat tissue
           with functional immune tissue and increasing the production of
           &ldquo;naive&rdquo; T-cells (the immune cells your body uses to
           recognize new threats). These are the same cells that chronic illness
@@ -290,7 +290,7 @@ export default function HghTherapyPage() {
         <div className="question-item">
           <span className="question-label">hGH vs. Tesamorelin:</span>
           Tesamorelin is a milder alternative that stimulates your pituitary to
-          release its own GH in a pulsatile, natural pattern — making it safer
+          release its own GH in a pulsatile, natural pattern, making it safer
           and easier to source, but limited (typically below 2 IU output) and
           more targeted toward visceral fat. hGH provides broader systemic
           effects: stronger muscle and tissue rebuilding, more pronounced thymic
@@ -301,7 +301,7 @@ export default function HghTherapyPage() {
           <span className="question-label">Safety &amp; Immunogenicity:</span>
           Modern recombinant hGH is bioidentical to what your pituitary
           produces. As a result, the immune system rarely recognizes it as
-          foreign — antibody formation rates in adults are approximately 2–3%,
+          foreign, with antibody formation rates in adults of approximately 2–3%,
           far lower than many common medications. Tesamorelin, by comparison,
           triggers antibody formation in up to 50% of users (though usually
           without clinical impact). For most people, well-sourced recombinant
@@ -310,7 +310,7 @@ export default function HghTherapyPage() {
         <div className="question-item">
           <span className="question-label">The Bottom Line:</span>
           You are already doing the hardest part by dry fasting and
-          committing to this protocol. hGH is not a shortcut — it is the
+          committing to this protocol. hGH is not a shortcut; it is the
           targeted rebuilding signal that tells your body to use everything the
           fast liberated. Stem cells mobilized. Immune system primed. The only
           thing left is giving your body the hormonal instruction to rebuild.
@@ -319,24 +319,24 @@ export default function HghTherapyPage() {
       </div>
 
       <FaithBlock
-        title="New Creation — The Old Has Gone, the New Is Here"
+        title="New Creation: The Old Has Gone, the New Is Here"
         imageSrc="/assets/images/faith/faith-hgh.jpg"
-        imageAlt="New growth emerging from dark soil — resurrection and rebuilding"
+        imageAlt="New growth emerging from dark soil, resurrection and rebuilding"
       >
         <p>
-          <strong>2 Corinthians 5:17 — &ldquo;Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!&rdquo;</strong>
+          <strong>2 Corinthians 5:17: &ldquo;Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!&rdquo;</strong>
         </p>
         <p>
-          Death and resurrection is not a metaphor invented by the church. It is the template woven into biological reality. Autophagy — the cellular process triggered by the dry fast — is literally your body destroying its own damaged components so that new, healthy ones can take their place. The old has to go for the new to come. This is not loss. This is renovation.
+          Death and resurrection is not a metaphor invented by the church. It is the template woven into biological reality. Autophagy (the cellular process triggered by the dry fast) is literally your body destroying its own damaged components so that new, healthy ones can take their place. The old has to go for the new to come. This is not loss. This is renovation.
         </p>
         <p>
-          hGH therapy is the final instruction in the rebuilding sequence: a hormonal signal telling your body not just to maintain, but to regenerate. In chronic illness, growth hormone secretion is often suppressed — the pituitary is quiet, the body has stopped investing in its own future. hGH says: <em>rebuild. There is a future worth building toward.</em>
+          hGH therapy is the final instruction in the rebuilding sequence: a hormonal signal telling your body not just to maintain, but to regenerate. In chronic illness, growth hormone secretion is often suppressed; the pituitary is quiet, the body has stopped investing in its own future. hGH says: <em>rebuild. There is a future worth building toward.</em>
         </p>
         <p>
-          Yannick thinks of this phase as the commissioning — after the desert, after the fast, after the long road, here is the moment where you are sent back into the world with a new body and a new mandate. Not the same person who got sick. Not the same person who survived. Something new.
+          Yannick thinks of this phase as the commissioning: after the desert, after the fast, after the long road, here is the moment where you are sent back into the world with a new body and a new mandate. Not the same person who got sick. Not the same person who survived. Something new.
         </p>
         <p>
-          Paul wrote those words from prison. He had been beaten, shipwrecked, abandoned. He was not describing an easy transformation. He was describing a real one. <strong>The old you — the one imprisoned by illness — has gone. What comes next is new. Receive it.</strong>
+          Paul wrote those words from prison. He had been beaten, shipwrecked, abandoned. He was not describing an easy transformation. He was describing a real one. <strong>The old you (the one imprisoned by illness) has gone. What comes next is new. Receive it.</strong>
         </p>
       </FaithBlock>
 

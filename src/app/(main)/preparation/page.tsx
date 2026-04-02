@@ -5,7 +5,7 @@ import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
 
 export const metadata: Metadata = {
-  title: "Phase 1: Preparation — The Scorch Protocol",
+  title: "Phase 1: Preparation | The Scorch Protocol",
   description:
     "Phase 1: Baseline blood tests, supplement stacks, and readiness checks required before beginning The Scorch Protocol.",
 };
@@ -66,7 +66,7 @@ export default function PreparationPage() {
             <td><strong>Thyroid Panel</strong></td>
             <td>
               TSH, Free T3, Free T4. A low T3 or high TSH means your metabolism
-              is suppressed — a key target of the protocol.
+              is suppressed, a key target of the protocol.
             </td>
           </tr>
           <tr>
@@ -110,7 +110,7 @@ export default function PreparationPage() {
       <h2>Step 2: Fix Critical Deficiencies</h2>
       <p>
         Based on your test results, address these common deficiencies. Do not
-        start the fast with known, severe deficiencies — your body will not
+        start the fast with known, severe deficiencies, as your body will not
         respond well.
       </p>
       <div className="guiding-questions box-yellow">
@@ -199,14 +199,14 @@ export default function PreparationPage() {
         </div>
       </div>
 
-      <h2>Step 5: Colon Cleanse — 2 Days Before the Fast</h2>
+      <h2>Step 5: Colon Cleanse (2 Days Before the Fast)</h2>
       <div className="guiding-questions box-indigo">
-        <h3>Magnesium Citrate Cleanse — Starting 2 Days Before the Fast</h3>
+        <h3>Magnesium Citrate Cleanse: Starting 2 Days Before the Fast</h3>
         <p>
           One of the most underrated preparation steps is clearing out the
           colon before you begin. A full colon during a dry fast means your
-          body is dealing with rotting material in a sealed environment — that
-          is extra toxin load during a time when you want nothing pulling your
+          body is dealing with rotting material in a sealed environment, which is
+          extra toxin load during a time when you want nothing pulling your
           immune system in the wrong direction. A clean colon means a cleaner,
           more productive fast.
         </p>
@@ -214,7 +214,7 @@ export default function PreparationPage() {
         <div style={{ margin: "1.5rem 0", textAlign: "center" }}>
           <Image
             src="/assets/images/magnesium%20citrate%20laxative.png"
-            alt="Magnesium citrate laxative bottle — available at CVS"
+            alt="Magnesium citrate laxative bottle, available at CVS"
             width={300}
             height={400}
             style={{
@@ -226,14 +226,14 @@ export default function PreparationPage() {
             }}
           />
           <p style={{ fontSize: "0.85rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic" }}>
-            Standard magnesium citrate laxative — available at CVS and most pharmacies
+            Standard magnesium citrate laxative, available at CVS and most pharmacies
           </p>
         </div>
 
         <div className="question-item">
           <span className="question-label">What to Use:</span>
           A standard magnesium citrate laxative, the kind sold at CVS for
-          colonoscopy prep — one bottle of the liquid is the typical dose.
+          colonoscopy prep. One bottle of the liquid is the typical dose.
           Magnesium citrate pills also work but you will need a significant
           number of them (follow the label for equivalent dosing). Either way,
           take every dose with a large amount of water.
@@ -242,23 +242,23 @@ export default function PreparationPage() {
           <span className="question-label">How to Do It:</span>
           Follow the same protocol used for colonoscopy preparation. Take your
           magnesium citrate dose with a full glass of water, then keep drinking
-          water throughout. The goal is to fully flush the colon — this
+          water throughout. The goal is to fully flush the colon, which
           typically takes several hours. Do not fight the process; let your
           body clear everything out.
         </div>
         <div className="question-item">
-          <span className="question-label">Timing — 2 Days Before the Fast:</span>
+          <span className="question-label">Timing: 2 Days Before the Fast</span>
           Start the cleanse <strong>2 days before you begin the fast</strong>.
           This gives you the following day to rehydrate and replenish
           electrolytes before entering the dry fast. Magnesium citrate is
-          aggressively dehydrating — do not go straight from the cleanse
+          aggressively dehydrating, so do not go straight from the cleanse
           into a dry fast without this recovery window.
         </div>
         <div className="question-item">
-          <span className="question-label">The 2-Day Window — Rehydrate and Replenish:</span>
+          <span className="question-label">The 2-Day Window: Rehydrate and Replenish</span>
           After taking the laxative, spend the next 1–2 days drinking water,
           fresh juices, and electrolytes. <strong>No fiber, fat, or
-          protein</strong> during this period — stick to water, juice (no
+          protein</strong> during this period. Stick to water, juice (no
           pulp), broths, and electrolyte drinks only. You want your colon
           to remain empty and your body to be well-hydrated going into the
           fast. Think of it as a juice fast bridging you into the dry fast.
@@ -268,28 +268,28 @@ export default function PreparationPage() {
           A clean, empty colon going into the fast means less endotoxin
           recirculation, less digestive distraction for your immune system,
           and a higher-quality autophagic state throughout. You are already
-          committing to something powerful — this preparation step costs
+          committing to something powerful. This preparation step costs
           almost nothing and meaningfully improves what your fast can
           accomplish.
         </div>
       </div>
 
       <FaithBlock
-        title="Into the Wilderness — Preparing Spirit Alongside Body"
+        title="Into the Wilderness: Preparing Spirit Alongside Body"
         imageSrc="/assets/images/faith/faith-preparation.jpg"
         imageAlt="A solitary figure in prayer at the edge of a wilderness"
       >
         <p>
-          <strong>Luke 4:1-2 — &ldquo;Jesus, full of the Holy Spirit, left the Jordan and was led by the Spirit into the wilderness, where for forty days he was tempted.&rdquo;</strong>
+          <strong>Luke 4:1-2: &ldquo;Jesus, full of the Holy Spirit, left the Jordan and was led by the Spirit into the wilderness, where for forty days he was tempted.&rdquo;</strong>
         </p>
         <p>
-          Jesus did not enter the wilderness unprepared. He came out of the water of baptism, full of the Holy Spirit, and He went deliberately — not fleeing, not forced, but led. The wilderness was not punishment. It was preparation for the most important work of His life.
+          Jesus did not enter the wilderness unprepared. He came out of the water of baptism, full of the Holy Spirit, and He went deliberately, not fleeing, not forced, but led. The wilderness was not punishment. It was preparation for the most important work of His life.
         </p>
         <p>
-          You are about to do something most people will never attempt. Your body needs preparation — the blood tests, the nutrients, the dietary shift. But so does your spirit. Before you fast, consider the inner inventory: What fears are you bringing in with you? What resentments are still feeding the fire of your inflammation? Chronic illness lives at the intersection of the physical and the spiritual. Scientists now measure what the saints already knew — unresolved bitterness, chronic fear, and the stress of suppressing your own truth all manifest in the body as dysfunction.
+          You are about to do something most people will never attempt. Your body needs preparation: the blood tests, the nutrients, the dietary shift. But so does your spirit. Before you fast, consider the inner inventory: What fears are you bringing in with you? What resentments are still feeding the fire of your inflammation? Chronic illness lives at the intersection of the physical and the spiritual. Scientists now measure what the saints already knew: unresolved bitterness, chronic fear, and the stress of suppressing your own truth all manifest in the body as dysfunction.
         </p>
         <p>
-          Spend time in the preparation phase not only cleaning your colon and building your electrolytes, but cleaning the ledger of your heart. Forgive someone you have been holding. Not for them — for the freedom of your own cells. <strong>The body heals faster when the spirit is at peace.</strong>
+          Spend time in the preparation phase not only cleaning your colon and building your electrolytes, but cleaning the ledger of your heart. Forgive someone you have been holding. Not for them, but for the freedom of your own cells. <strong>The body heals faster when the spirit is at peace.</strong>
         </p>
         <p>
           <em>You were led here. Trust that.</em>

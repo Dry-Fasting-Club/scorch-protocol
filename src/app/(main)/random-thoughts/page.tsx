@@ -3,7 +3,7 @@ import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 
 export const metadata: Metadata = {
-  title: "Random Thoughts — The Scorch Protocol",
+  title: "Random Thoughts | The Scorch Protocol",
   description:
     "Yannick Wolfe’s ongoing research notes, protocol updates, and observations from the Dry Fasting Club community.",
 };
@@ -113,8 +113,8 @@ export default function RandomThoughtsPage() {
           </p>
           <p>
             It triggered a memory of a specific, extremely stressful period in my
-            childhood — a time when I gained a significant amount of weight and
-            suddenly started getting many new moles on my body. Since that exact
+            childhood (a time when I gained a significant amount of weight and
+            suddenly started getting many new moles on my body). Since that exact
             window, I&rsquo;ve been unable to handle hot tubs, saunas, or even
             hot showers.
           </p>
@@ -152,8 +152,8 @@ export default function RandomThoughtsPage() {
             label. It doesn&rsquo;t explain the real cause.
           </p>
           <p>
-            These symptoms — cold hands, hating heat, weight gain, and skin
-            changes — are all connected. They show that your metabolism is
+            These symptoms (cold hands, hating heat, weight gain, and skin
+            changes) are all connected. They show that your metabolism is
             struggling, you have insulin resistance, and your thyroid isn&rsquo;t
             working at the cellular level (
             <strong>functional hypothyroidism</strong>). This is very common in
@@ -169,7 +169,7 @@ export default function RandomThoughtsPage() {
             handle temperature. If you can suddenly enjoy a hot shower, or if
             your hands stay warm in the wind, it&rsquo;s a sign that your cells
             are finally making energy again. You aren&rsquo;t just &ldquo;getting
-            used to it&rdquo; — your body is actually waking up.
+            used to it&rdquo;: your body is actually waking up.
           </p>
         </div>
       </section>

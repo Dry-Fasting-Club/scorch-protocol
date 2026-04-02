@@ -3,9 +3,9 @@ import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 
 export const metadata: Metadata = {
-  title: "Liver Health & Dry Fasting — The Scorch Protocol FAQ",
+  title: "Liver Health & Dry Fasting | The Scorch Protocol FAQ",
   description:
-    "Liver health during The Scorch Protocol — how autophagy benefits liver function and what to do if liver enzymes spike.",
+    "Liver health during The Scorch Protocol: how autophagy benefits liver function and what to do if liver enzymes spike.",
 };
 
 const faqJsonLd = {
@@ -25,7 +25,7 @@ const faqJsonLd = {
       name: "What causes the right side ache during dry fasting?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "A right side ache during or after dry fasting often indicates biliary sludge clearance — the liver and gallbladder expelling concentrated bile. This is generally a sign of deep detoxification, not liver damage, and typically resolves during refeeding.",
+        text: "A right side ache during or after dry fasting often indicates biliary sludge clearance: the liver and gallbladder expelling concentrated bile. This is generally a sign of deep detoxification, not liver damage, and typically resolves during refeeding.",
       },
     },
     {

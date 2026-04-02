@@ -3,7 +3,7 @@ import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 
 export const metadata: Metadata = {
-  title: "List of Pharmacies — The Scorch Protocol",
+  title: "List of Pharmacies | The Scorch Protocol",
   description:
     "Trusted pharmacies for sourcing T3 (liothyronine), hGH, and peptides used in The Scorch Protocol, organized by country.",
 };

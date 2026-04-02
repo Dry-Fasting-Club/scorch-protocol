@@ -3,12 +3,12 @@ import "./globals.css";
 
 const SITE_URL = "https://scorchprotocol.com";
 const DESCRIPTION =
-  "A data-driven protocol for metabolic recovery using dry fasting, T3 therapy, and hGH — designed for ME/CFS and Long Covid patients. 97% success rate across 141 participants.";
+  "A data-driven protocol for metabolic recovery using dry fasting, T3 therapy, and hGH, designed for ME/CFS and Long Covid patients. 97% success rate across 141 participants.";
 
 export const metadata: Metadata = {
   title: {
     default: "The Scorch Protocol",
-    template: "%s — The Scorch Protocol",
+    template: "%s | The Scorch Protocol",
   },
   description: DESCRIPTION,
   metadataBase: new URL(SITE_URL),
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
         url: "/assets/scorch-og.png",
         width: 1200,
         height: 630,
-        alt: "The Scorch Protocol — Dry Fasting, T3 Therapy & hGH for Chronic Illness Recovery",
+        alt: "The Scorch Protocol | Dry Fasting, T3 Therapy & hGH for Chronic Illness Recovery",
       },
     ],
     type: "website",

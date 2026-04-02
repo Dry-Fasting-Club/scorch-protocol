@@ -4,7 +4,7 @@ import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
 
 export const metadata: Metadata = {
-  title: "General Questions — The Scorch Protocol FAQ",
+  title: "General Questions | The Scorch Protocol FAQ",
   description:
     "General FAQ: What is The Scorch Protocol, who is it for, how long does it take, and is it safe?",
 };
@@ -26,7 +26,7 @@ const faqJsonLd = {
       name: "How long does The Scorch Protocol take?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Full recovery typically takes 6–12 months of consistent effort. The fasting block is 10 days total — 5 days dry followed by 5 days water — then refeeding and metabolic therapy phases that continue for months.",
+        text: "Full recovery typically takes 6–12 months of consistent effort. The fasting block is 10 days total: 5 days dry followed by 5 days water, then refeeding and metabolic therapy phases that continue for months.",
       },
     },
     {
@@ -42,7 +42,7 @@ const faqJsonLd = {
       name: "Who is The Scorch Protocol designed for?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The protocol is designed primarily for people with chronic illness — especially Long Covid, ME/CFS, Lyme disease, and autoimmune conditions. People with European ancestry (45–60% carry the DIO2 gene variant) and those with low morning body temperature may especially benefit.",
+        text: "The protocol is designed primarily for people with chronic illness, especially Long Covid, ME/CFS, Lyme disease, and autoimmune conditions. People with European ancestry (45–60% carry the DIO2 gene variant) and those with low morning body temperature may especially benefit.",
       },
     },
   ],
@@ -140,11 +140,11 @@ export default function GeneralQuestionsPage() {
         </p>
         <p>
           In the Scorch Protocol, the dry fast is followed immediately by a
-          5-day water fast — making a 10-day fasting block in total. The water
+          5-day water fast, making a 10-day fasting block in total. The water
           fast is not a step backward; it is a supercharged phase that only
           works this powerfully because the dry fast has already restructured
-          your body from the inside. The order is always dry first, then water
-          — reversing this is dangerous and ineffective.
+          your body from the inside. The order is always dry first, then water.
+          Reversing this is dangerous and ineffective.
         </p>
 
         <h3>9. What should I do if my heart races?</h3>
@@ -160,26 +160,26 @@ export default function GeneralQuestionsPage() {
         <h3>10. How long does the whole protocol take?</h3>
         <p>
           The fast may only last a few days, but the full
-          recovery&mdash;including refeeding, metabolic reconstruction, and
-          hormone therapy, can take <strong>6 to 12 months</strong>. Healing
+          recovery (including refeeding, metabolic reconstruction, and
+          hormone therapy) can take <strong>6 to 12 months</strong>. Healing
           deep, chronic issues is a marathon, not a sprint. Sometimes your
           symptoms may indicate extra fasts being necessary.
         </p>
       </div>
 
       <FaithBlock
-        title="Your Body Is a Temple — The Theology Behind Why This Works"
+        title="Your Body Is a Temple: The Theology Behind Why This Works"
         imageSrc="/assets/images/faith/faith-faq-general.jpg"
-        imageAlt="Cathedral light streaming through high windows — the body as sacred space"
+        imageAlt="Cathedral light streaming through high windows, the body as sacred space"
       >
         <p>
-          <strong>1 Corinthians 6:19-20 — &ldquo;Do you not know that your bodies are temples of the Holy Spirit, who is in you, whom you have received from God? You are not your own; you were bought at a price. Therefore honor God with your bodies.&rdquo;</strong>
+          <strong>1 Corinthians 6:19-20: &ldquo;Do you not know that your bodies are temples of the Holy Spirit, who is in you, whom you have received from God? You are not your own; you were bought at a price. Therefore honor God with your bodies.&rdquo;</strong>
         </p>
         <p>
-          This verse is often quoted in contexts of diet and exercise, applied narrowly as a rule against excess. But Paul is saying something much larger. He is saying: the body is not just a vehicle. It is sacred. It is the dwelling place of the living God. To neglect it, to let it languish in chronic illness without fighting for its restoration, is not humility — it is the opposite of what Paul commands.
+          This verse is often quoted in contexts of diet and exercise, applied narrowly as a rule against excess. But Paul is saying something much larger. He is saying: the body is not just a vehicle. It is sacred. It is the dwelling place of the living God. To neglect it, to let it languish in chronic illness without fighting for its restoration, is not humility, but the opposite of what Paul commands.
         </p>
         <p>
-          Every question on this FAQ page is, at its root, a question about whether healing is possible. Whether the protocol is safe, whether T3 works, whether the fast is worth the risk — underneath all of these is the deeper question: <em>does my body deserve to be healed?</em> Some people with chronic illness have been sick so long they have stopped believing they do.
+          Every question on this FAQ page is, at its root, a question about whether healing is possible. Whether the protocol is safe, whether T3 works, whether the fast is worth the risk. Underneath all of these is the deeper question: <em>does my body deserve to be healed?</em> Some people with chronic illness have been sick so long they have stopped believing they do.
         </p>
         <p>
           Paul answers that question with a price tag. You were bought at a price. Meaning: you have infinite value. Not because of what you produce or what you accomplish while healthy, but because of who you are. A temple is not valuable because of what gets done inside it. It is valuable because of who lives there.

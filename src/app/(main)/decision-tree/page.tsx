@@ -4,7 +4,7 @@ import PaidContentBlock from "@/components/PaidContentBlock";
 import MermaidCharts from "@/components/MermaidCharts";
 
 export const metadata: Metadata = {
-  title: "Decision Logic Tree — The Scorch Protocol",
+  title: "Decision Logic Tree | The Scorch Protocol",
   description:
     "Use this decision logic tree to determine which phase of The Scorch Protocol applies to your current health status and symptoms.",
 };

@@ -7,7 +7,7 @@ import { accessCookieName } from "@/lib/tokens";
 import stripe from "@/lib/stripe";
 
 export const metadata: Metadata = {
-  title: "Purchase Successful — The Scorch Protocol",
+  title: "Purchase Successful | The Scorch Protocol",
   robots: { index: false, follow: false },
 };
 
@@ -66,10 +66,10 @@ export default async function PurchaseSuccessPage({ searchParams }: Props) {
 
         <div className="purchase-success-box">
           <h3>You now have lifetime access to all 21 sections.</h3>
-          <p className="purchase-success-title">Full Protocol Bundle — Every Deep Dive</p>
+          <p className="purchase-success-title">Full Protocol Bundle: Every Deep Dive</p>
           <p>
             Every video and deep-dive document across the entire Scorch Protocol
-            is now unlocked in this browser. No subscription, no logins — stored
+            is now unlocked in this browser. No subscription, no logins, stored
             for one year on this device.
           </p>
         </div>
@@ -102,7 +102,7 @@ export default async function PurchaseSuccessPage({ searchParams }: Props) {
 
       <div className="purchase-success-box">
         <h3>You now have lifetime access to:</h3>
-        <p className="purchase-success-title">{sectionTitle} — Deep Dive</p>
+        <p className="purchase-success-title">{sectionTitle}: Deep Dive</p>
         <p>
           Your access is saved in this browser for one year. You will never need
           to log in or pay again on this device.

@@ -3,9 +3,9 @@ import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 
 export const metadata: Metadata = {
-  title: "Kidney Health & Dry Fasting — The Scorch Protocol FAQ",
+  title: "Kidney Health & Dry Fasting | The Scorch Protocol FAQ",
   description:
-    "Kidney safety during dry fasting — what the research shows, how the body protects kidneys, and red flags to watch for.",
+    "Kidney safety during dry fasting: what the research shows, how the body protects kidneys, and red flags to watch for.",
 };
 
 const faqJsonLd = {
@@ -25,7 +25,7 @@ const faqJsonLd = {
       name: "What does dark urine mean during dry fasting?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Dark urine during dry fasting is normal and indicates concentrated urine — a sign the kidneys are working efficiently. It is not a sign of kidney damage. Seek medical attention if you experience severe flank pain or blood in the urine.",
+        text: "Dark urine during dry fasting is normal and indicates concentrated urine, a sign the kidneys are working efficiently. It is not a sign of kidney damage. Seek medical attention if you experience severe flank pain or blood in the urine.",
       },
     },
     {
@@ -59,7 +59,7 @@ export default function KidneysPage() {
         <div className="question-item">
           <h3>
             1. &ldquo;I checked my urine and it looks like it&rsquo;s filtering
-            &lsquo;stuff&rsquo;&mdash;sediment/cloudiness. First time in years!
+            &lsquo;stuff&rsquo; (sediment/cloudiness). First time in years!
             Does dry fasting help with kidney filtering or not?&rdquo;
           </h3>
           <div className="answer-text">

@@ -5,7 +5,7 @@ import FaithBlock from "@/components/FaithBlock";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Phase 4: T3 Therapy — The Scorch Protocol",
+  title: "Phase 4: T3 Therapy | The Scorch Protocol",
   description:
     "Phase 4: How T3 thyroid therapy reboots suppressed metabolism, bypasses the DIO2 gene mutation, and amplifies dry fasting results.",
 };
@@ -81,12 +81,12 @@ export default function T3TherapyPage() {
 
       <h2>Getting an Accurate Temperature Reading</h2>
       <div className="guiding-questions box-deepgreen">
-        <h3>Use a Basal Body Thermometer — Not a Standard One</h3>
+        <h3>Use a Basal Body Thermometer, Not a Standard One</h3>
         <p>
           Your waking temperature is one of the most important data points in
           this entire protocol. A cheap drugstore thermometer that reads to
           one decimal place is not good enough. You need a thermometer
-          precise enough to detect meaningful shifts — the kind used for
+          precise enough to detect meaningful shifts, the kind used for
           tracking fertility windows.
         </p>
 
@@ -105,14 +105,14 @@ export default function T3TherapyPage() {
             }}
           />
           <p style={{ fontSize: "0.85rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic" }}>
-            A digital basal body thermometer — reads to two decimal places and
+            A digital basal body thermometer that reads to two decimal places and
             holds the result for easy reading
           </p>
         </div>
 
         <div className="question-item">
           <span className="question-label">What to Use:</span>
-          A <strong>digital basal body thermometer</strong> — the kind sold
+          A <strong>digital basal body thermometer</strong>, the kind sold
           for fertility tracking (ovulation monitoring). These read to two
           decimal places (e.g., 36.48°C rather than 36.5°C), which gives
           you the precision needed to track real trends over days and weeks.
@@ -122,7 +122,7 @@ export default function T3TherapyPage() {
           <span className="question-label">How to Take It Correctly:</span>
           Place the thermometer under the tongue and hold it there for at
           least <strong>60 seconds</strong> before the reading locks. Most
-          standard thermometers beep too early — a basal thermometer is
+          standard thermometers beep too early. A basal thermometer is
           designed to wait for a true stable reading. Take it{" "}
           <strong>before getting out of bed</strong>, before drinking
           anything, and at roughly the same time each morning. Movement,
@@ -198,7 +198,7 @@ export default function T3TherapyPage() {
             fontStyle: "italic",
           }}
         >
-          Wilson&rsquo;s T3 Therapy &amp; Dry Fasting for Chronic Illness —
+          Wilson&rsquo;s T3 Therapy &amp; Dry Fasting for Chronic Illness:
           a detailed breakdown of why this combination works when nothing else
           has.
         </p>
@@ -265,7 +265,7 @@ export default function T3TherapyPage() {
           keys are floating around in the hallway (your blood), but they
           can&rsquo;t get into the rooms (your cells) to turn on the power. When
           a doctor draws your blood, they see plenty of keys and say,
-          &ldquo;You&rsquo;re fine!&rdquo;&mdash;even though your body is
+          &ldquo;You&rsquo;re fine!&rdquo; Even though your body is
           actually starving for energy.
         </p>
         <p>
@@ -305,7 +305,7 @@ export default function T3TherapyPage() {
           shock to finally force those jammed locks open and wake your body up.
           This convinces the cells that T3 can enter again and radically
           increases insulin sensitivity. Depending on the case, this may require
-          a mix of T4 and high T3, or just T3&mdash;but the concept of a short,
+          a mix of T4 and high T3, or just T3, but the concept of a short,
           powerful energy burst remains the same. Do not forget to understand
           the critical co-factors required for T3 therapy to be safe and
           effective.
@@ -321,7 +321,7 @@ export default function T3TherapyPage() {
 
       <h2>When to Start T3: The Fasting Block Integration</h2>
       <div className="guiding-questions box-deepgreen">
-        <h3>Start T3 on Day 3 of the Water Fast — Not After</h3>
+        <h3>Start T3 on Day 3 of the Water Fast, Not After</h3>
         <p>
           In the Scorch Protocol, T3 therapy does not begin at the refeed. It
           begins on <strong>day 3 of the water fast</strong> that follows the
@@ -331,7 +331,7 @@ export default function T3TherapyPage() {
           By starting T3 on day 3 of the water fast, you are on{" "}
           <strong>T3 day 3 when you have your first calories</strong>. This
           matters because T3 needs to already be running when refeeding begins
-          — it supports your metabolism, keeps your kidneys in a stronger state,
+          It supports your metabolism, keeps your kidneys in a stronger state,
           and crucially, it means your antiviral protocol (L-lysine +
           monolaurin) can start immediately on refeeding day 1. You do not need
           to wait for kidney rehydration before beginning antivirals.
@@ -382,7 +382,7 @@ export default function T3TherapyPage() {
               <em>Example:</em> Day 1 = 15mcg, Day 2 = 30mcg, Day 3 = 45mcg...
               <br />
               <strong>Note:</strong> Split your total dose into two
-              parts&mdash;one in the morning and one in the evening.
+              parts: one in the morning and one in the evening.
             </td>
           </tr>
           <tr>
@@ -494,7 +494,7 @@ export default function T3TherapyPage() {
         />
         <p style={{ fontSize: "0.9rem", color: "#666", marginTop: "0.5rem" }}>
           <em>
-            Figure 2: The ideal body temperature curve of a healthy person —
+            Figure 2: The ideal body temperature curve of a healthy person,
             rising through the day and peaking in the late afternoon. If your
             T3 therapy works, your temperature pattern should begin to match
             this curve.
@@ -505,7 +505,7 @@ export default function T3TherapyPage() {
       <div className="guiding-questions box-orange">
         <h3>Fueling T3 Therapy: Why Calories Matter Here</h3>
         <p>
-          T3 dramatically increases your metabolic rate — that is the point.
+          T3 dramatically increases your metabolic rate. That is the point.
           But a faster metabolism with insufficient fuel will cannibalize
           muscle. You must not be in a caloric deficit during this phase.
         </p>
@@ -513,34 +513,34 @@ export default function T3TherapyPage() {
           <span className="question-label">Match Your Caloric Demand:</span>
           As T3 doses climb, your body burns more energy. If you are not
           eating enough to cover that demand, the body will turn to muscle
-          tissue for fuel — the opposite of what you are trying to achieve.
+          tissue for fuel, the opposite of what you are trying to achieve.
           Keep calories at or above your target (see the Refeeding page)
           and prioritize protein to give your body something to build with,
           not just burn.
         </div>
         <div className="question-item">
-          <span className="question-label">Move Your Muscles — Tell Your Brain to Keep Them:</span>
+          <span className="question-label">Move Your Muscles: Tell Your Brain to Keep Them</span>
           Physical movement during T3 therapy sends a preservation signal.
           Your body will not aggressively break down muscle tissue it is
-          actively using. You do not need to train hard — even walking,
+          actively using. You do not need to train hard. Even walking,
           light resistance work, or bodyweight movements daily is enough
           to keep the muscle-sparing signal active. Lying still while on T3
           with insufficient calories is the worst combination.
         </div>
         <div className="question-item">
           <span className="question-label">When You Cannot Hit High Calories Yet:</span>
-          Some people — especially early in the refeed — cannot physically
+          Some people, especially early in the refeed, cannot physically
           eat enough to match T3&rsquo;s demand. Their gut is not ready,
           appetite is suppressed, or digestion is too compromised. In this
           case, there are specific strategies that can help:
           <ul style={{ marginTop: "0.5rem" }}>
             <li>
-              <strong>hGH</strong> — directly shifts the body toward
+              <strong>hGH:</strong> directly shifts the body toward
               anabolism and preferential fat use, reducing the rate at which
               muscle is burned for fuel even when calories are temporarily low.
             </li>
             <li>
-              <strong>Retatrutide</strong> — a GLP-1/GIP/glucagon triple
+              <strong>Retatrutide:</strong> a GLP-1/GIP/glucagon triple
               agonist that improves glucose utilization and raises baseline
               energy availability. The glucagon component is particularly
               useful for people stuck in low-energy states.
@@ -559,31 +559,31 @@ export default function T3TherapyPage() {
         >
           <strong>Important:</strong> If you do not understand how hGH or
           Retatrutide work and why they are recommended in this context, do
-          not use them. These are not general supplements — they are
+          not use them. These are not general supplements. They are
           targeted tools with specific mechanisms. Read the hGH Therapy page
           and understand the protocol before considering them.
         </div>
       </div>
 
       <FaithBlock
-        title="The Valley of Dry Bones — When the Spark Finally Returns"
+        title="The Valley of Dry Bones: When the Spark Finally Returns"
         imageSrc="/assets/images/faith/faith-t3-therapy.jpg"
-        imageAlt="Sunrise over a valley — awakening and new life"
+        imageAlt="Sunrise over a valley, awakening and new life"
       >
         <p>
-          <strong>Ezekiel 37:4-5 — &ldquo;Prophesy to these bones and say to them, &lsquo;Dry bones, hear the word of the Lord! I will make breath enter you, and you will come to life.&rsquo;&rdquo;</strong>
+          <strong>Ezekiel 37:4-5: &ldquo;Prophesy to these bones and say to them, &lsquo;Dry bones, hear the word of the Lord! I will make breath enter you, and you will come to life.&rsquo;&rdquo;</strong>
         </p>
         <p>
-          Ezekiel stood in a valley of dry bones — not the recently dead, but the long dead. Bones bleached white by a sun that had forgotten them. God asked him a strange question: <em>&ldquo;Can these bones live?&rdquo;</em> The prophet answered honestly: <em>&ldquo;Sovereign Lord, you alone know.&rdquo;</em> And then God said: speak to them anyway.
+          Ezekiel stood in a valley of dry bones, not the recently dead, but the long dead. Bones bleached white by a sun that had forgotten them. God asked him a strange question: <em>&ldquo;Can these bones live?&rdquo;</em> The prophet answered honestly: <em>&ldquo;Sovereign Lord, you alone know.&rdquo;</em> And then God said: speak to them anyway.
         </p>
         <p>
-          This is what T3 therapy does to a body locked in metabolic hibernation. The thyroid is not broken — it has gone quiet. The receptors have stopped listening. The cells have conserved energy for so long that they have forgotten what it feels like to thrive. T3 is the word spoken into that silence. It is the breath entering the valley. <strong>The dry bones do not move on their own — something has to call them back.</strong>
+          This is what T3 therapy does to a body locked in metabolic hibernation. The thyroid is not broken, it has gone quiet. The receptors have stopped listening. The cells have conserved energy for so long that they have forgotten what it feels like to thrive. T3 is the word spoken into that silence. It is the breath entering the valley. <strong>The dry bones do not move on their own. Something has to call them back.</strong>
         </p>
         <p>
-          Yannick describes the morning his metabolism came back online after a prolonged crash as one of the most spiritual experiences of his life. Not dramatic. Not loud. Just — warmth, where there had been cold. Energy, where there had been nothing. The body recognizing itself again.
+          Yannick describes the morning his metabolism came back online after a prolonged crash as one of the most spiritual experiences of his life. Not dramatic. Not loud. Just warmth, where there had been cold. Energy, where there had been nothing. The body recognizing itself again.
         </p>
         <p>
-          If you have been sick for years, you may have stopped believing this is possible. You may have heard the question — <em>can these bones live?</em> — and answered with despair. That is where this protocol meets you. Not with judgment, but with instruction. <strong>Prophesy to your own bones. Speak life into the valley. The breath will come.</strong>
+          If you have been sick for years, you may have stopped believing this is possible. You may have heard the question, <em>can these bones live?</em>, and answered with despair. That is where this protocol meets you. Not with judgment, but with instruction. <strong>Prophesy to your own bones. Speak life into the valley. The breath will come.</strong>
         </p>
       </FaithBlock>
 

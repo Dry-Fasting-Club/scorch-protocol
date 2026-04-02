@@ -6,7 +6,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "The Scorch Protocol — Reverse Long Covid, ME/CFS & Chronic Illness",
+  title: "The Scorch Protocol | Reverse Long Covid, ME/CFS & Chronic Illness",
   description:
     "The Scorch Protocol combines dry fasting, T3 therapy, and hGH to reverse Long Covid, ME/CFS, and autoimmune disease. 97% success rate across 141 participants.",
 };
@@ -21,7 +21,7 @@ export default function HomePage() {
         </h1>
         <p className="hero-sub">
           The Scorch Protocol combines dry fasting, T3 therapy, and hGH to
-          reset your immune system at the root — not just manage symptoms. Built
+          reset your immune system at the root, not just manage symptoms. Built
           by someone who recovered from severe ME/CFS and Long Covid.
         </p>
         <div className="hero-cta-group">
@@ -59,32 +59,32 @@ export default function HomePage() {
         <h3>You May Be a Candidate If You Have:</h3>
         <ul className="candidate-list">
           <li>
-            <strong>Chronic illness</strong> — Long Covid, ME/CFS, Lyme disease,
+            <strong>Chronic illness</strong> (Long Covid, ME/CFS, Lyme disease,
             or autoimmune conditions that haven&rsquo;t responded to conventional
-            treatment
+            treatment)
           </li>
           <li>
-            <strong>Suppressed metabolism</strong> — low morning body
+            <strong>Suppressed metabolism</strong>: low morning body
             temperature (below 37°C / 98.6°F), stubborn weight gain, or
             constant cold hands and feet
           </li>
           <li>
-            <strong>Persistent fatigue or brain fog</strong> — feeling sick
+            <strong>Persistent fatigue or brain fog</strong>: feeling sick
             after exercise, cognitive impairment, or PEM (post-exertional
             malaise)
           </li>
           <li>
-            <strong>European ancestry</strong> — 45–60% chance of carrying the
+            <strong>European ancestry</strong>: 45–60% chance of carrying the
             DIO2 gene variant that blocks T3 conversion and makes this protocol
             especially important
           </li>
           <li>
-            <strong>Active viral load</strong> — EBV, HSV, spike protein
+            <strong>Active viral load</strong>: EBV, HSV, spike protein
             persistence, or Lyme co-infections that conventional antivirals
             have not cleared
           </li>
           <li>
-            <strong>Thyroid or hormonal dysfunction</strong> — even if labs
+            <strong>Thyroid or hormonal dysfunction</strong>: even if labs
             look &ldquo;normal,&rdquo; your cells may not be using thyroid
             hormones correctly
           </li>
@@ -132,7 +132,7 @@ export default function HomePage() {
           </p>
           <p className="pillar-outcome">
             <em>
-              Reverses metabolic suppression from years of illness — often
+              Reverses metabolic suppression from years of illness, often
               within weeks.
             </em>
           </p>
@@ -195,7 +195,7 @@ export default function HomePage() {
           >
             <iframe
               src="https://www.youtube.com/embed/8n01dL62V7o"
-              title="The Scorch Protocol — Full Overview"
+              title="The Scorch Protocol | Full Overview"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
               style={{
@@ -209,7 +209,7 @@ export default function HomePage() {
             />
           </div>
           <p style={{ marginTop: "0.75rem", color: "#888", fontStyle: "italic", textAlign: "center", fontSize: "0.9rem" }}>
-            The Scorch Protocol explained — what it is, why it works, and how to start.
+            The Scorch Protocol explained: what it is, why it works, and how to start.
           </p>
         </div>
       </div>
@@ -221,19 +221,19 @@ export default function HomePage() {
           You are already here because you believe in fasting. You believe in
           autophagy. You believe the body has an innate, incredible ability to
           heal itself when you strip everything away and let it clean house.
-          That belief is correct — and it is one half of the equation.
+          That belief is correct, and it is one half of the equation.
         </p>
         <p>
           <strong>Here is what most people in the fasting world miss:</strong>{" "}
           the body has an equally powerful, equally innate ability to heal
-          itself when you flood it with energy. Not empty calories — real
+          itself when you flood it with energy. Not empty calories, but real
           energy abundance, delivered with the right hormonal signal. Given
           enough fuel and enough time, the body will repair damage that fasting
           alone cannot reach.
         </p>
         <div className="question-item">
           <span className="question-label">Scarcity Mode vs. Abundance Mode:</span>
-          Fasting triggers <strong>scarcity mode</strong> — autophagy, cellular
+          Fasting triggers <strong>scarcity mode</strong>: autophagy, cellular
           cleanup, pathogen clearance, stem cell mobilization. This is
           irreplaceable. But once that window closes, the body needs to switch
           into <strong>abundance mode</strong> to actually build the new tissue,
@@ -244,7 +244,7 @@ export default function HomePage() {
         <div className="question-item">
           <span className="question-label">This Is What T3, hGH, and Calories Are For:</span>
           T3 therapy restores the metabolic signal that tells every cell it is
-          safe to burn energy again. hGH gives the command to rebuild — muscle,
+          safe to burn energy again. hGH gives the command to rebuild: muscle,
           nerves, immune tissue. And calories are the raw material that makes it
           possible. All three together create a hormonal and energetic
           environment where the body can finally complete repairs it has been
@@ -254,7 +254,7 @@ export default function HomePage() {
           <span className="question-label">Expand Your Model:</span>
           Think of it this way: a construction crew cannot rebuild a city by
           only demolishing old buildings. The demolition phase (fasting) is
-          essential — but so is the rebuild phase (energy abundance). The Scorch
+          essential, but so is the rebuild phase (energy abundance). The Scorch
           Protocol is one of the only protocols that takes both seriously, in
           the right order, with the right tools.
         </div>
@@ -269,43 +269,43 @@ export default function HomePage() {
         </p>
         <ul>
           <li>
-            <strong>Long Covid &amp; Chronic Fatigue (ME/CFS)</strong> — spike
+            <strong>Long Covid &amp; Chronic Fatigue (ME/CFS)</strong>: spike
             protein clearance, mitochondrial reboot, POTS resolution
           </li>
           <li>
-            <strong>Lyme Disease</strong> — biofilm disruption, intracellular
+            <strong>Lyme Disease</strong>: biofilm disruption, intracellular
             pathogen elimination, brain detox
           </li>
           <li>
-            <strong>Herpes (HSV 1 &amp; 2) &amp; Epstein-Barr (EBV)</strong> —
+            <strong>Herpes (HSV 1 &amp; 2) &amp; Epstein-Barr (EBV)</strong>:
             viral suppression through deep immune reset
           </li>
           <li>
-            <strong>Autoimmune Disorders</strong> — Arthritis, MS, and
+            <strong>Autoimmune Disorders</strong>: Arthritis, MS, and
             conditions where the body attacks itself
           </li>
           <li>
-            <strong>Thyroid &amp; Metabolism Failure</strong> — low body
+            <strong>Thyroid &amp; Metabolism Failure</strong>: low body
             temperature, stubborn weight gain, brain fog, hair loss
           </li>
           <li>
-            <strong>Nerve &amp; Bone Issues</strong> — spine disc regeneration
+            <strong>Nerve &amp; Bone Issues</strong>: spine disc regeneration
             using released stem cells
           </li>
           <li>
-            <strong>Cysts &amp; Growths</strong> — shrinkage of non-cancerous
+            <strong>Cysts &amp; Growths</strong>: shrinkage of non-cancerous
             growths like fibroids
           </li>
           <li>
-            <strong>Lung &amp; Skin Issues</strong> — Asthma, Bronchitis, Eczema
+            <strong>Lung &amp; Skin Issues</strong>: Asthma, Bronchitis, Eczema
           </li>
           <li>
-            <strong>Liver Issues</strong> — Fatty Liver and other liver problems
+            <strong>Liver Issues</strong>: Fatty Liver and other liver problems
           </li>
         </ul>
         <p>
           <strong>The Final Goal:</strong> Your immune system becomes so strong
-          that it keeps hidden viruses quiet forever — not just suppressed, but
+          that it keeps hidden viruses quiet forever, not just suppressed, but
           replaced with a new immune system built from fresh stem cells.
         </p>
       </div>
@@ -468,7 +468,7 @@ export default function HomePage() {
           That is why I share the core of my Scorch Protocol openly, with
           detailed guides anyone can access. It combines strategic dry fasting
           to trigger intense autophagy, burn away damaged cells and DNA, and
-          rebuild with fresh stem cells — together with T3 therapy and hGH
+          rebuild with fresh stem cells, together with T3 therapy and hGH
           therapy. You deserve this truth. You deserve to reclaim your body,
           sharpen your mind, and experience real regeneration.
         </p>
@@ -499,8 +499,8 @@ export default function HomePage() {
         <div className="faq-inline-item">
           <p className="faq-inline-q">Is dry fasting dangerous?</p>
           <p className="faq-inline-a">
-            When done with proper preparation — baseline blood tests, supplement
-            loading, and monitoring — serious complications are rare. The
+            When done with proper preparation (baseline blood tests, supplement
+            loading, and monitoring), serious complications are rare. The
             protocol includes explicit stop signals and daily safety checks.
             Read the <Link href="/preparation">Preparation guide</Link> before
             starting.
@@ -533,7 +533,7 @@ export default function HomePage() {
             Most participants notice energy improvements within 2–4 weeks of
             completing Phase 2 (the dry fast). Significant symptom reduction
             typically follows the T3 therapy phase. Full recovery takes 6–12
-            months — but you will feel the clock moving in the right direction
+            months, but you will feel the clock moving in the right direction
             far sooner.
           </p>
         </div>
@@ -559,21 +559,21 @@ export default function HomePage() {
       </p>
 
       <FaithBlock
-        title="Healing the Whole Person — Body, Mind, and Spirit"
+        title="Healing the Whole Person: Body, Mind, and Spirit"
         imageSrc="/assets/images/faith/faith-home.jpg"
-        imageAlt="Light breaking through storm clouds — hope and healing"
+        imageAlt="Light breaking through storm clouds, hope and healing"
       >
         <p>
-          <strong>Matthew 11:28 — &ldquo;Come to me, all who are weary and burdened, and I will give you rest.&rdquo;</strong>
+          <strong>Matthew 11:28: &ldquo;Come to me, all who are weary and burdened, and I will give you rest.&rdquo;</strong>
         </p>
         <p>
-          Yannick&rsquo;s journey with chronic illness did not begin in a lab. It began in a crisis of spirit — years of chronic stress, unresolved wounds, and the quiet corrosion that comes from living in a world that has lost its moral center. He believes, and the research increasingly confirms, that <strong>chronic illness is often a symptom of a life disconnected from God</strong> — not a punishment, but a signal. The body keeps the score of every fear you refused to name, every grief you buried, every time you stayed silent when evil walked past you in plain sight.
+          Yannick&rsquo;s journey with chronic illness did not begin in a lab. It began in a crisis of spirit: years of chronic stress, unresolved wounds, and the quiet corrosion that comes from living in a world that has lost its moral center. He believes, and the research increasingly confirms, that <strong>chronic illness is often a symptom of a life disconnected from God</strong> (not a punishment, but a signal). The body keeps the score of every fear you refused to name, every grief you buried, every time you stayed silent when evil walked past you in plain sight.
         </p>
         <p>
-          This protocol addresses the physical mechanisms of healing. But Yannick will tell you plainly: the patients who heal fastest are not always the ones with the mildest cases. They are the ones who also do the inner work — who choose forgiveness, who release chronic resentment, who come before God unburdened by the weight they were never meant to carry alone.
+          This protocol addresses the physical mechanisms of healing. But Yannick will tell you plainly: the patients who heal fastest are not always the ones with the mildest cases. They are the ones who also do the inner work, who choose forgiveness, who release chronic resentment, who come before God unburdened by the weight they were never meant to carry alone.
         </p>
         <p>
-          We live in a time when evil is no longer theoretical. The Epstein files are public record — a documented network of institutional child trafficking that reached the highest levels of power. In Gaza, the innocent suffer under the weight of war. These are not abstractions. Edmund Burke put it plainly: <em>&ldquo;The only thing necessary for the triumph of evil is for good men to do nothing.&rdquo;</em> Chronic illness has a way of making people small — exhausted, isolated, afraid to speak. Part of healing is reclaiming your voice.
+          We live in a time when evil is no longer theoretical. The Epstein files are public record, a documented network of institutional child trafficking that reached the highest levels of power. In Gaza, the innocent suffer under the weight of war. These are not abstractions. Edmund Burke put it plainly: <em>&ldquo;The only thing necessary for the triumph of evil is for good men to do nothing.&rdquo;</em> Chronic illness has a way of making people small: exhausted, isolated, afraid to speak. Part of healing is reclaiming your voice.
         </p>
         <p>
           The armor of God (Ephesians 6:10-18) is not metaphor. It is instruction for a world exactly like this one. You were not made to carry this illness or this darkness alone. Come to Him weary. Leave restored.

@@ -3,9 +3,9 @@ import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 
 export const metadata: Metadata = {
-  title: "FAQ Hub — The Scorch Protocol",
+  title: "FAQ Hub | The Scorch Protocol",
   description:
-    "Frequently asked questions about The Scorch Protocol — autophagy, kidney safety, liver health, refeeding, and general protocol questions.",
+    "Frequently asked questions about The Scorch Protocol: autophagy, kidney safety, liver health, refeeding, and general protocol questions.",
 };
 
 export default function FaqHubPage() {

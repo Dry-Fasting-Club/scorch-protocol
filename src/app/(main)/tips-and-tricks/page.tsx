@@ -5,9 +5,9 @@ import FaithBlock from "@/components/FaithBlock";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Tips and Tricks — The Scorch Protocol",
+  title: "Tips and Tricks | The Scorch Protocol",
   description:
-    "Practical tips from experienced Scorch Protocol practitioners — supplements, timing, sourcing, and what to expect week by week.",
+    "Practical tips from experienced Scorch Protocol practitioners: supplements, timing, sourcing, and what to expect week by week.",
 };
 
 export default function TipsAndTricksPage() {
@@ -29,7 +29,7 @@ export default function TipsAndTricksPage() {
           <li>
             <strong>Hydrate Properly:</strong> In the 24-48 hours before your
             fast, drink plenty of water with electrolytes. Avoid overhydration
-            immediately before starting&mdash;this can cause discomfort.
+            immediately before starting, as this can cause discomfort.
           </li>
           <li>
             <strong>Eat Light:</strong> Consume easily digestible foods (fruits,
@@ -155,7 +155,7 @@ export default function TipsAndTricksPage() {
           </li>
           <li>
             <strong>Emotional Releases:</strong> Fasting can trigger emotional
-            releases&mdash;crying, anger, or deep sadness. This is part of the
+            releases (crying, anger, or deep sadness). This is part of the
             healing process. Allow it to happen.
           </li>
           <li>
@@ -374,7 +374,7 @@ export default function TipsAndTricksPage() {
             <li>
               <strong>Tinnitus Alert:</strong> High-dose salicylate can cause
               transient tinnitus (ringing in the ears). If this occurs, it
-              signals your current threshold&mdash;reduce the dose slightly and
+              signals your current threshold: reduce the dose slightly and
               titrate even more slowly. Tolerance thresholds shift as your
               metabolic health improves.
             </li>
@@ -442,10 +442,10 @@ export default function TipsAndTricksPage() {
         <h4>Ketosis &amp; Dry Fasting as Training</h4>
         <p>
           If you have fears regarding psychedelics and their potential effects
-          on the psyche&mdash;such as{" "}
+          on the psyche (such as{" "}
           <strong>
             Depersonalization-Derealization Disorder (DPDR)
-          </strong>&mdash;understand that{" "}
+          </strong>), understand that{" "}
           <strong>ketosis is training for the psychedelic state</strong>. Ketosis
           raises serotonin levels, something that psychedelics like psilocybin
           do as well (mimicry). You should never mix any psychedelics with drugs
@@ -757,27 +757,27 @@ export default function TipsAndTricksPage() {
       </div>
 
       <FaithBlock
-        title="Put On the Full Armor of God — We Do Not Apologize for Naming Evil"
+        title="Put On the Full Armor of God: We Do Not Apologize for Naming Evil"
         imageSrc="/assets/images/faith/faith-tips-tricks.jpg"
-        imageAlt="A warrior standing in armor against the light — Ephesians 6"
+        imageAlt="A warrior standing in armor against the light, Ephesians 6"
       >
         <p>
-          <strong>Ephesians 6:10-12 — &ldquo;Finally, be strong in the Lord and in his mighty power. Put on the full armor of God, so that you can take your stand against the devil&rsquo;s schemes. For our struggle is not against flesh and blood, but against the rulers, against the authorities, against the powers of this dark world.&rdquo;</strong>
+          <strong>Ephesians 6:10-12: &ldquo;Finally, be strong in the Lord and in his mighty power. Put on the full armor of God, so that you can take your stand against the devil&rsquo;s schemes. For our struggle is not against flesh and blood, but against the rulers, against the authorities, against the powers of this dark world.&rdquo;</strong>
         </p>
         <p>
-          Paul was not speaking abstractly. He was writing from a Roman prison, to people who lived under an empire that crucified inconvenient people and trafficked in human beings as property. He told them to stand. Not to flee, not to compromise, not to stay quiet for the sake of social comfort — to stand.
+          Paul was not speaking abstractly. He was writing from a Roman prison, to people who lived under an empire that crucified inconvenient people and trafficked in human beings as property. He told them to stand. Not to flee, not to compromise, not to stay quiet for the sake of social comfort: to stand.
         </p>
         <p>
-          We live in a world where the evidence of institutional evil is now public record. The Epstein files are not a conspiracy theory — they are court-documented proof that a network of powerful people organized the trafficking and abuse of children, and were protected for decades by the very institutions meant to stop them. We will not be silent about this. <strong>We do not worship those who harm children. We do not care which political tribe you use to try to silence us.</strong> Evil is evil. Name it.
+          We live in a world where the evidence of institutional evil is now public record. The Epstein files are not a conspiracy theory; they are court-documented proof that a network of powerful people organized the trafficking and abuse of children, and were protected for decades by the very institutions meant to stop them. We will not be silent about this. <strong>We do not worship those who harm children. We do not care which political tribe you use to try to silence us.</strong> Evil is evil. Name it.
         </p>
         <p>
           In Gaza, the innocent suffer under the weight of war. Children in rubble. Families erased. This is a separate horror, but it is the same call: do not look away. Christians are not called to be neutral when the innocent suffer. We are called to pray, to act, and to refuse the lie that silence is safety.
         </p>
         <p>
-          Edmund Burke understood it: <em>&ldquo;The only thing necessary for the triumph of evil is for good men to do nothing.&rdquo;</em> Chronic illness has a way of making people small — too tired to speak, too sick to stand. Part of what this protocol reclaims is your voice. Your body. Your right to name what is wrong in the world and stand against it.
+          Edmund Burke understood it: <em>&ldquo;The only thing necessary for the triumph of evil is for good men to do nothing.&rdquo;</em> Chronic illness has a way of making people small, too tired to speak, too sick to stand. Part of what this protocol reclaims is your voice. Your body. Your right to name what is wrong in the world and stand against it.
         </p>
         <p>
-          The armor of God: truth, righteousness, the gospel of peace, faith, salvation, the word of God. You were made to wear this. <strong>Stand firm. And having done everything — stand.</strong>
+          The armor of God: truth, righteousness, the gospel of peace, faith, salvation, the word of God. You were made to wear this. <strong>Stand firm. And having done everything, stand.</strong>
         </p>
       </FaithBlock>
 

@@ -3,9 +3,9 @@ import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 
 export const metadata: Metadata = {
-  title: "Genetic Polymorphisms — The Scorch Protocol",
+  title: "Genetic Polymorphisms | The Scorch Protocol",
   description:
-    "How DIO2, MTHFR, and other genetic variants affect your response to The Scorch Protocol — and how to tailor treatment accordingly.",
+    "How DIO2, MTHFR, and other genetic variants affect your response to The Scorch Protocol, and how to tailor treatment accordingly.",
 };
 
 export default function GeneticPolymorphismsPage() {

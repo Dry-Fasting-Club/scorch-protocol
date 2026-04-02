@@ -3,7 +3,7 @@ import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 
 export const metadata: Metadata = {
-  title: "Autophagy & Dry Fasting — The Scorch Protocol FAQ",
+  title: "Autophagy & Dry Fasting | The Scorch Protocol FAQ",
   description:
     "How dry fasting triggers autophagy, clears damaged cells, and why it is more powerful than water fasting for immune repair.",
 };
@@ -17,7 +17,7 @@ const faqJsonLd = {
       name: "How does dry fasting trigger autophagy?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Dry fasting activates autophagy through hyperosmotic stress — cellular dehydration forces cells to break down damaged proteins and organelles for recycling. This pathway is faster and more aggressive than the nutrient-deprivation autophagy activated by water fasting.",
+        text: "Dry fasting activates autophagy through hyperosmotic stress: cellular dehydration forces cells to break down damaged proteins and organelles for recycling. This pathway is faster and more aggressive than the nutrient-deprivation autophagy activated by water fasting.",
       },
     },
     {
@@ -123,9 +123,9 @@ export default function AutophagyPage() {
             <p>
               No. Dry fasting is remarkably{" "}
               <strong>Protein-Sparing</strong>. Analysis of nitrogen
-              excretion&mdash;the waste product of protein
-              breakdown&mdash;shows that the body reaches its maximum
-              conservation level faster than any other method.
+              excretion (the waste product of protein breakdown) shows that the
+              body reaches its maximum conservation level faster than any other
+              method.
             </p>
             <p>
               By Day 3, the body has essentially shut down the burning of amino
@@ -215,8 +215,8 @@ export default function AutophagyPage() {
           <div className="faq-data-box faq-data-purple">
             <strong>🧪 The Research Data:</strong>
             <br />
-            Serum Albumin&mdash;the protein that maintains blood
-            pressure&mdash;remains stable or slightly rises by{" "}
+            Serum Albumin (the protein that maintains blood pressure) remains
+            stable or slightly rises by{" "}
             <span className="stat-highlight">+5%</span>. This confirms the
             liver is producing enough protein to pull fluid out of tissues and
             into the blood for cleaning.

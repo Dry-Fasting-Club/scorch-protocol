@@ -3,7 +3,7 @@ import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 
 export const metadata: Metadata = {
-  title: "Weight Loss Protocol — The Scorch Protocol",
+  title: "Weight Loss Protocol | The Scorch Protocol",
   description:
     "How The Scorch Protocol resets insulin resistance and achieves sustainable fat loss through metabolic repair, not calorie restriction.",
 };
@@ -22,7 +22,7 @@ export default function WeightLossPage() {
           The Scorch Protocol is{" "}
           <strong>not designed primarily for weight loss</strong>. It is a
           metabolic reset tool for chronic illness. However, weight loss is an
-          inevitable side effect&mdash;and it can be{" "}
+          inevitable side effect, and it can be{" "}
           <strong>dangerously effective</strong>.
         </p>
       </div>

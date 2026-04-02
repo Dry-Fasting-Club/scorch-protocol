@@ -11,7 +11,7 @@ import { getFeaturedPost, getPublishedPosts, getCategories } from "@/lib/blog";
 import { CATEGORY_LABEL } from "@/lib/blogCategories";
 
 export const metadata: Metadata = {
-  title: "Blog — Chronic Illness Research & Recovery",
+  title: "Blog | Chronic Illness Research & Recovery",
   description:
     "Evidence-based articles on Long Covid, ME/CFS, dry fasting, T3 therapy, and the science of full recovery from chronic illness.",
 };

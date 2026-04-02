@@ -3,9 +3,9 @@ import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 
 export const metadata: Metadata = {
-  title: "Symptom Management — The Scorch Protocol",
+  title: "Symptom Management | The Scorch Protocol",
   description:
-    "A symptom-by-symptom guide to managing side effects during The Scorch Protocol — Herxheimer reactions, electrolytes, and more.",
+    "A symptom-by-symptom guide to managing side effects during The Scorch Protocol: Herxheimer reactions, electrolytes, and more.",
 };
 
 export default function SymptomManagementPage() {
@@ -250,7 +250,7 @@ export default function SymptomManagementPage() {
 
       <h2>7. Cell Power (Electricity)</h2>
       <p>
-        <strong>The Cause:</strong> Healthy cells are like batteries&mdash;they
+        <strong>The Cause:</strong> Healthy cells are like batteries: they
         need a strong electrical charge to work. When you are sick, your cells
         lose their charge. This means they can&rsquo;t clean themselves out or
         heal properly.
