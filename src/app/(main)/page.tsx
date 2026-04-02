@@ -572,6 +572,9 @@ export default function HomePage() {
         <p>
           The armor of God is not metaphor. It is instruction. Come to Him weary. <strong>Leave restored.</strong>
         </p>
+        <p>
+          <em>Romans 1:16: &ldquo;For I am not ashamed of the gospel, because it is the power of God that brings salvation to everyone who believes: first to the Jew, then to the Gentile.&rdquo;</em> Yeshua is for you too.
+        </p>
       </FaithBlock>
 
       {/* ── CTA SECTION ── */}
