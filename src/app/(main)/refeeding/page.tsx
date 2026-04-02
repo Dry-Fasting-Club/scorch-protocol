@@ -449,7 +449,7 @@ export default function RefeedingPage() {
 
       <FaithBlock
         title="The Feast After the Fast: Coming Home to Abundance"
-        imageSrc="/assets/images/faith/faith-refeeding.jpg"
+        imageSrc="/assets/images/faith/faith-refeeding.png"
         imageAlt="A table set for a feast, abundance and restoration"
       >
         <p>
