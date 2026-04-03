@@ -5,6 +5,7 @@ interface FaithBlockProps {
   title: string;
   imageSrc: string;
   imageAlt: string;
+  videoSrc?: string;
   children: ReactNode;
 }
 
@@ -12,6 +13,7 @@ export default function FaithBlock({
   title,
   imageSrc,
   imageAlt,
+  videoSrc,
   children,
 }: FaithBlockProps) {
   return (
@@ -29,6 +31,23 @@ export default function FaithBlock({
             height={260}
             style={{ width: "100%", height: "auto", borderRadius: "6px" }}
           />
+          {videoSrc && (
+            <div className="faith-block-video-wrap">
+              <iframe
+                src={videoSrc}
+                title="Faith video"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                style={{
+                  width: "100%",
+                  aspectRatio: "16/9",
+                  borderRadius: "6px",
+                  border: "none",
+                  marginTop: "0.75rem",
+                }}
+              />
+            </div>
+          )}
         </div>
         <div className="faith-block-text">{children}</div>
       </div>

@@ -562,6 +562,7 @@ export default function HomePage() {
         title="Healing the Whole Person: Body, Mind, and Spirit"
         imageSrc="/assets/images/faith/faith-home.png"
         imageAlt="Light breaking through storm clouds, hope and healing"
+        videoSrc="https://www.youtube.com/embed/V9GGh_sFLYw"
       >
         <p>
           <strong>Matthew 11:28: &ldquo;Come to me, all who are weary and burdened, and I will give you rest.&rdquo;</strong>
@@ -571,9 +572,6 @@ export default function HomePage() {
         </p>
         <p>
           The armor of God is not metaphor. It is instruction. Come to Him weary. <strong>Leave restored.</strong>
-        </p>
-        <p>
-          <em>Romans 1:16: &ldquo;For I am not ashamed of the gospel, because it is the power of God that brings salvation to everyone who believes: first to the Jew, then to the Gentile.&rdquo;</em> Yeshua is for you too.
         </p>
       </FaithBlock>
 
