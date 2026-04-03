@@ -2842,7 +2842,6 @@ tr:hover {
 
 .faith-block-image-wrap {
     border-radius: 6px;
-    overflow: hidden;
     border: 1px solid rgba(184,134,11,0.3);
     flex-shrink: 0;
 }

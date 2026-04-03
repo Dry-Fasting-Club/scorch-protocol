@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
@@ -333,10 +332,6 @@ export default function SymptomManagementPage() {
           You are not here by accident. Managing your symptoms well is the practical work. But the inner work -- choosing truth, releasing bitterness, standing upright in who God made you to be -- that is what I see separate the people who fully recover from those who plateau. Do both.
         </p>
       </FaithBlock>
-      <Script
-        src="https://platform.twitter.com/widgets.js"
-        strategy="lazyOnload"
-      />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="symptom-management" sectionTitle="Symptom Management" />
     </>

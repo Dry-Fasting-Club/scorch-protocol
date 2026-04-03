@@ -35,15 +35,21 @@ export default function FaithBlock({
               style={{ width: "100%", height: "auto", borderRadius: "6px" }}
             />
           )}
-          {tweetUrl && (
-            <blockquote
-              className="twitter-tweet"
-              data-theme="dark"
-              style={{ margin: "0" }}
-            >
-              <a href={tweetUrl}>Loading tweet...</a>
-            </blockquote>
-          )}
+          {tweetUrl && (() => {
+            const tweetId = tweetUrl.split("/").pop()?.split("?")[0] ?? "";
+            return (
+              <iframe
+                src={`https://platform.twitter.com/embed/Tweet.html?id=${tweetId}&theme=dark&dnt=true`}
+                width="100%"
+                height="340"
+                scrolling="no"
+                frameBorder="0"
+                allowTransparency
+                style={{ borderRadius: "12px", border: "none", display: "block" }}
+                title="Embedded tweet"
+              />
+            );
+          })()}
           {videoSrc && (
             <div className="faith-block-video-wrap">
               <iframe
