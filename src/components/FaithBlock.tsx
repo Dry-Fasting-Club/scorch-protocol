@@ -26,18 +26,7 @@ export default function FaithBlock({
       </div>
       <div className="faith-block-body">
         <div className="faith-block-image-wrap">
-          {imageSrc && imageAlt && tweetUrl && (
-            <a href={tweetUrl} target="_blank" rel="noopener noreferrer" style={{ display: "block" }}>
-              <Image
-                src={imageSrc}
-                alt={imageAlt}
-                width={400}
-                height={260}
-                style={{ width: "100%", height: "auto", borderRadius: "6px", display: "block" }}
-              />
-            </a>
-          )}
-          {imageSrc && imageAlt && !tweetUrl && (
+          {imageSrc && imageAlt && (
             <Image
               src={imageSrc}
               alt={imageAlt}
@@ -46,7 +35,7 @@ export default function FaithBlock({
               style={{ width: "100%", height: "auto", borderRadius: "6px" }}
             />
           )}
-          {tweetUrl && !imageSrc && (() => {
+          {tweetUrl && (() => {
             const tweetId = tweetUrl.split("/").pop()?.split("?")[0] ?? "";
             return (
               <iframe
