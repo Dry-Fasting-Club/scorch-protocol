@@ -27,25 +27,32 @@ export default function PreparationPage() {
           <span className="question-label">Blood Tests Done:</span>
           Have you tested your Thyroid (TSH, Free T3, Free T4), Complete Blood
           Count (CBC), Metabolic Panel, Vitamin D, B12, Iron, Ferritin, and
-          Cortisol? This tells you what you are working with.
+          Cortisol? This tells you what you are working with. (It is not
+          required for all these tests, in fact with most people we go off of
+          symptoms only &mdash; not everyone has access to tests).
         </div>
         <div className="question-item">
           <span className="question-label">Body Temperature:</span>
           Is your waking body temperature (taken before getting out of bed)
-          below 37°C (98.6°F)? If yes, you almost certainly need T3 therapy as
-          part of your preparation.
+          below 36.5&deg;C (98&deg;F)? If yes, you almost certainly need T3
+          therapy as part of your preparation. (Please see body temp chart
+          under T3 therapy section)
         </div>
         <div className="question-item">
           <span className="question-label">Liver Health:</span>
           Are your liver enzymes (AST, ALT) within a normal range? A stressed
           liver makes fasting more dangerous. If they are high, prioritize liver
-          support first.
+          support first. (Sometimes powerful extended fasting is enough to fix a
+          fatty, dysfunctional liver, but if you have liver issues it is good to
+          do some liver therapies and binding)
         </div>
         <div className="question-item">
           <span className="question-label">Medications:</span>
           Are you on any medications, especially ones that are hard on the
           kidneys or liver? Some medications make fasting dangerous or
-          impossible. Consult your doctor.
+          impossible. Use A.I. to scan your medication list and ask which ones
+          are the worst for liver health, which ones have a long half-life, and
+          which ones have the worst withdrawal.
         </div>
       </div>
 
