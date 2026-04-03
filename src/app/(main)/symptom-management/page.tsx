@@ -315,6 +315,8 @@ export default function SymptomManagementPage() {
 
       <FaithBlock
         title="Warriors of Truth"
+        imageSrc="/assets/images/faith/faith-symptom-management.png"
+        imageAlt="Nick says that Iran is fighting for humanity, Israel is after you"
         tweetUrl="https://x.com/whitesocksclips/status/2038856462072754376"
       >
         <p>
