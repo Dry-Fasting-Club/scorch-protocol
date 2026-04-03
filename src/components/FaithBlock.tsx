@@ -43,7 +43,7 @@ export default function FaithBlock({
                   aspectRatio: "16/9",
                   borderRadius: "6px",
                   border: "none",
-                  marginTop: "0.75rem",
+                  marginTop: "1.5rem",
                 }}
               />
             </div>
