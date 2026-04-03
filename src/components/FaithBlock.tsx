@@ -3,9 +3,10 @@ import type { ReactNode } from "react";
 
 interface FaithBlockProps {
   title: string;
-  imageSrc: string;
-  imageAlt: string;
+  imageSrc?: string;
+  imageAlt?: string;
   videoSrc?: string;
+  tweetUrl?: string;
   children: ReactNode;
 }
 
@@ -14,6 +15,7 @@ export default function FaithBlock({
   imageSrc,
   imageAlt,
   videoSrc,
+  tweetUrl,
   children,
 }: FaithBlockProps) {
   return (
@@ -24,13 +26,24 @@ export default function FaithBlock({
       </div>
       <div className="faith-block-body">
         <div className="faith-block-image-wrap">
-          <Image
-            src={imageSrc}
-            alt={imageAlt}
-            width={400}
-            height={260}
-            style={{ width: "100%", height: "auto", borderRadius: "6px" }}
-          />
+          {imageSrc && imageAlt && (
+            <Image
+              src={imageSrc}
+              alt={imageAlt}
+              width={400}
+              height={260}
+              style={{ width: "100%", height: "auto", borderRadius: "6px" }}
+            />
+          )}
+          {tweetUrl && (
+            <blockquote
+              className="twitter-tweet"
+              data-theme="dark"
+              style={{ margin: "0" }}
+            >
+              <a href={tweetUrl}>Loading tweet...</a>
+            </blockquote>
+          )}
           {videoSrc && (
             <div className="faith-block-video-wrap">
               <iframe
