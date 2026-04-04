@@ -328,9 +328,6 @@ export default function SymptomManagementPage() {
         <p>
           The armor of God in Ephesians 6 is not poetry. It is a combat manual. A warrior of truth does not look away from evil because it is uncomfortable. He names it. He prays about it. He stands firm. That courage -- to stop appeasing, stop shrinking, stop pretending -- is part of the healing.
         </p>
-        <p>
-          You are not here by accident. Managing your symptoms well is the practical work. But the inner work -- choosing truth, releasing bitterness, standing upright in who God made you to be -- that is what I see separate the people who fully recover from those who plateau. Do both.
-        </p>
       </FaithBlock>
       <GuidanceBox />
       <PaidContentBlock sectionSlug="symptom-management" sectionTitle="Symptom Management" />
