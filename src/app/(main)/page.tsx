@@ -449,49 +449,6 @@ export default function HomePage() {
         </p>
       </section>
 
-      {/* ── FOUNDER STORY ── */}
-      <div
-        className="guidance-box"
-        style={{
-          margin: "2rem 0",
-        }}
-      >
-        <p style={{ fontSize: "1.05rem", lineHeight: 1.8, marginBottom: "1rem" }}>
-          I have been exactly where you are. I suffered through severe Long
-          Covid and autoimmune issues, feeling trapped with no way out.
-          Then I discovered dry fasting and spent years experimenting to unlock
-          its full power. I gamed the system that tried to keep this knowledge
-          hidden, and now I give it back to you freely through the Dry Fasting
-          Club.
-        </p>
-        <p style={{ fontSize: "1.05rem", lineHeight: 1.8, marginBottom: "1rem" }}>
-          That is why I share the core of my Scorch Protocol openly, with
-          detailed guides anyone can access. It combines strategic dry fasting
-          to trigger intense autophagy, burn away damaged cells and DNA, and
-          rebuild with fresh stem cells, together with T3 therapy and hGH
-          therapy. You deserve this truth. You deserve to reclaim your body,
-          sharpen your mind, and experience real regeneration.
-        </p>
-        <p style={{ fontSize: "1.05rem", lineHeight: 1.8, marginBottom: "1rem" }}>
-          We all deserve better than scripted suffering. Come join our
-          community, explore the resources, and take the first step toward
-          getting your life back. I am here because I believe in you, and
-          together we can glimpse real freedom.
-        </p>
-        <p
-          style={{
-            fontSize: "1.05rem",
-            lineHeight: 1.8,
-            marginTop: "1.5rem",
-            fontStyle: "italic",
-            color: "var(--text-secondary)",
-          }}
-        >
-          With care and hope,
-          <br />
-          <strong>Yannick Wolfe</strong>
-        </p>
-      </div>
 
       {/* ── INLINE OBJECTION FAQ ── */}
       <div className="faq-inline">
