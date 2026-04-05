@@ -14,39 +14,17 @@ export default function DryFastingPage() {
     <>
       <h1>Phase 2: The Dry Fast (The Scorch)</h1>
 
-      <div
-        style={{
-          backgroundColor: "rgba(220,53,69,0.12)",
-          border: "1px solid rgba(220,53,69,0.35)",
-          borderRadius: "8px",
-          padding: "1.5rem",
-          marginBottom: "2rem",
-        }}
-      >
-        <h3 style={{ color: "#ff6b6b", marginTop: 0 }}>
-          Read This First (Safety Warning)
-        </h3>
-        <p style={{ marginBottom: 0 }}>
-          Dry fasting (no food or water) is an advanced tool with serious risks.
-          It can lead to severe dehydration, mineral imbalances, and organ
-          strain. This is not for everyone.{" "}
-          <strong>Talk to a doctor before trying this</strong>, especially if
-          you have heart or kidney problems, are underweight, pregnant, or on
-          medications. For fasts longer than 2 days, you must have medical help
-          or regular check-ins. This guide is for teaching purposes only.
-        </p>
-      </div>
-
       <h2>Phase 1: Getting Ready</h2>
       <p>Preparing correctly avoids a &ldquo;detox crash&rdquo; and makes the fast easier.</p>
 
       <div className="guiding-questions">
         <h3>Pre-Fast Checklist</h3>
         <div className="question-item">
-          <span className="question-label">Who Should NOT Fast:</span>
-          Do <strong>NOT</strong> start if you: Are pregnant, have Kidney or
-          Heart disease, are underweight (BMI under 18), have a sudden
-          infection, or are on water pills (diuretics).
+          <span className="question-label">Hard Stops:</span>
+          Do <strong>NOT</strong> start if you are pregnant, have active kidney
+          or heart disease, are underweight (BMI under 18), have a current
+          acute infection, or are on diuretics. These are absolute
+          contraindications, not suggestions.
         </div>
         <div className="question-item">
           <span className="question-label">Support Team:</span>

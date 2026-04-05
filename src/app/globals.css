@@ -503,6 +503,21 @@ tr:hover {
 }
 
 /* ============================================================
+   MEDICAL DISCLAIMER (footer of every protocol page)
+   ============================================================ */
+
+.medical-disclaimer {
+    margin-top: 3rem;
+    padding: 0.875rem 1.25rem;
+    background-color: var(--surface-2);
+    border-left: 3px solid #475569;
+    border-radius: 0 6px 6px 0;
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+/* ============================================================
    PAGE-SPECIFIC: LIST OF PHARMACIES
    ============================================================ */
 

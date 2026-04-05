@@ -21,6 +21,7 @@ const navItems: NavItem[] = [
   { type: "link",  href: "/weight-loss",          label: "Weight Loss Protocol" },
   { type: "link",  href: "/genetic-polymorphisms",label: "Genetic Polymorphisms" },
   { type: "link",  href: "/tips-and-tricks",      label: "Tips and Tricks" },
+  { type: "link",  href: "/mindfulness",           label: "Mindfulness & Neurology" },
   { type: "group", label: "Data & Reference" },
   { type: "link",  href: "/success-rate-data",    label: "Success Rate Data" },
   { type: "link",  href: "/refeed-for-bmr",       label: "9-Month BMR Reconstruction" },

@@ -38,9 +38,9 @@ export default function T3TherapyPage() {
           <strong>below 72 beats per minute</strong>? This also suggests a slow
           metabolism.
           <br />
-          <em>Warning:</em> If your heart rate is{" "}
-          <strong>above 90 beats per minute</strong>, you must talk to a doctor
-          before starting this.
+          <strong>Note:</strong> If your resting heart rate is{" "}
+          <strong>above 90 bpm</strong>, resolve that first — elevated resting
+          HR is a contraindication for starting T3 therapy.
         </div>
 
         <h4>Other Common Symptoms</h4>
@@ -73,10 +73,6 @@ export default function T3TherapyPage() {
           <em>Track your temp and pulse for one week to be sure.</em>
         </p>
 
-        <div className="guiding-questions box-yellow" style={{ marginTop: "15px" }}>
-          <strong>Important:</strong> Always talk to a doctor before starting
-          hormone therapy.
-        </div>
       </div>
 
       <h2>Getting an Accurate Temperature Reading</h2>

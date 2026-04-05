@@ -1,5 +1,6 @@
 import MainNav from "@/components/MainNav";
 import ProgressBar from "@/components/ProgressBar";
+import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 
 // Pages under this layout use cookies + DB - never pre-render statically
 export const dynamic = "force-dynamic";
@@ -13,7 +14,10 @@ export default function MainLayout({
     <>
       <ProgressBar />
       <MainNav />
-      <main>{children}</main>
+      <main>
+        {children}
+        <MedicalDisclaimer />
+      </main>
     </>
   );
 }

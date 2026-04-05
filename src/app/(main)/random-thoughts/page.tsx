@@ -49,7 +49,7 @@ export default function RandomThoughtsPage() {
           </ul>
         </div>
 
-        <div className="guiding-questions box-orange" style={{ backgroundColor: "#fffaf0", borderLeftColor: "#f39c12" }}>
+        <div className="guiding-questions box-orange">
           <h3>2. Chronic Illness Makes It Harder</h3>
           <p>
             Many chronic illnesses start with a low BMR and a weak immune
@@ -104,7 +104,7 @@ export default function RandomThoughtsPage() {
 
       <section id="thermal-threshold">
         <h2>The Thermal Threshold: Using Heat to Measure Your Metabolism</h2>
-        <div className="guiding-questions box-yellow" style={{ backgroundColor: "#fff8e1", borderLeftColor: "#ffc107" }}>
+        <div className="guiding-questions box-yellow">
           <h3>Insight: Showering in extreme heat</h3>
           <p>
             I was standing in the shower today and realized something profound: I
