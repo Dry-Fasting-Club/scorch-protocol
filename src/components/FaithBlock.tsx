@@ -5,7 +5,10 @@ interface FaithBlockProps {
   title: string;
   imageSrc?: string;
   imageAlt?: string;
+  secondImageSrc?: string;
+  secondImageAlt?: string;
   videoSrc?: string;
+  videoCaption?: string;
   tweetUrl?: string;
   children: ReactNode;
 }
@@ -14,7 +17,10 @@ export default function FaithBlock({
   title,
   imageSrc,
   imageAlt,
+  secondImageSrc,
+  secondImageAlt,
   videoSrc,
+  videoCaption,
   tweetUrl,
   children,
 }: FaithBlockProps) {
@@ -33,6 +39,21 @@ export default function FaithBlock({
               width={400}
               height={260}
               style={{ width: "100%", height: "auto", borderRadius: "6px" }}
+            />
+          )}
+          {secondImageSrc && secondImageAlt && (
+            <Image
+              src={secondImageSrc}
+              alt={secondImageAlt}
+              width={400}
+              height={260}
+              style={{
+                width: "100%",
+                height: "auto",
+                borderRadius: "6px",
+                marginTop: "2.5rem",
+                paddingTop: "0.5rem",
+              }}
             />
           )}
           {tweetUrl && (() => {
@@ -62,10 +83,15 @@ export default function FaithBlock({
                   aspectRatio: "16/9",
                   borderRadius: "6px",
                   border: "none",
-                  marginTop: "1.5rem",
+                  marginTop: "2.5rem",
                 }}
               />
             </div>
+          )}
+          {videoCaption && (
+            <p style={{ marginTop: "1rem", fontSize: "0.85rem", opacity: 0.75, fontStyle: "italic", lineHeight: 1.5 }}>
+              {videoCaption}
+            </p>
           )}
         </div>
         <div className="faith-block-text">{children}</div>

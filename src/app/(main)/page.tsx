@@ -89,7 +89,7 @@ export default function HomePage() {
             hormones correctly
           </li>
         </ul>
-        <p style={{ marginTop: "1rem", fontSize: "0.95rem", color: "#555" }}>
+        <p style={{ marginTop: "1rem", fontSize: "0.95rem", color: "var(--text-secondary)" }}>
           Not sure? Use the{" "}
           <Link href="/decision-tree">Decision Logic Tree &rarr;</Link> to find
           your starting point.
@@ -499,20 +499,17 @@ export default function HomePage() {
       {/* ── HOW TO USE ── */}
       <h2>How to Use This System</h2>
       <p>
-        Each section (see sidebar) contains specific steps and{" "}
-        <strong>Guiding Questions</strong>. Use these questions to determine
-        your readiness for each phase. For detailed refeeds for various levels
-        (beginner, intermediate, advanced), see the{" "}
-        <strong>Scorch Protocol Miro Board</strong> which is provided to paid
-        subscribers on the{" "}
-        <a
-          href="https://dryfastingclub.com"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          dryfastingclub.com
-        </a>{" "}
-        website.
+        The sidebar is your navigation spine — each entry is a phase or topic
+        with its own page of steps, safety checkpoints, and{" "}
+        <strong>Guiding Questions</strong> to assess your readiness before
+        moving forward. If you are unsure where to begin, start with the{" "}
+        <Link href="/decision-tree">Decision Logic Tree</Link> to find your
+        level (beginner, intermediate, or advanced) based on your current
+        symptoms and history. Then move to{" "}
+        <Link href="/preparation">Phase 1: Preparation</Link> and work through
+        each phase in order. Do not skip the preparation phase — the baseline
+        blood tests and supplement loading it requires directly affect how safe
+        and effective the fasting phases will be.
       </p>
 
       <FaithBlock
@@ -520,6 +517,7 @@ export default function HomePage() {
         imageSrc="/assets/images/faith/faith-home.png"
         imageAlt="Light breaking through storm clouds, hope and healing"
         videoSrc="https://www.youtube.com/embed/V9GGh_sFLYw"
+        videoCaption="The world elites want us divided, they amplify hate and propagandized both Jews and Non-Jews against each other. To really flip their propaganda on its head uniting together would be the ultimate counter punch."
       >
         <p>
           <strong>Matthew 11:28: &ldquo;Come to me, all who are weary and burdened, and I will give you rest.&rdquo;</strong>

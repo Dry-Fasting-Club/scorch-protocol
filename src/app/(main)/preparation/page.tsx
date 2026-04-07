@@ -302,6 +302,7 @@ export default function PreparationPage() {
         title="Into the Wilderness: Preparing Spirit Alongside Body"
         imageSrc="/assets/images/faith/faith-preparation.png"
         imageAlt="A solitary figure in prayer at the edge of a wilderness"
+        videoSrc="https://www.youtube.com/embed/UqXIA3Mymp4"
       >
         <p>
           <strong>Luke 4:1-2: &ldquo;Jesus, full of the Holy Spirit, left the Jordan and was led by the Spirit into the wilderness, where for forty days he was tempted.&rdquo;</strong>
