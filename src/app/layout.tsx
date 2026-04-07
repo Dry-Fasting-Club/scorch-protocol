@@ -20,8 +20,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/assets/images/faith/faith-preparation.png",
-        width: 800,
-        height: 520,
+        width: 1280,
+        height: 832,
         alt: "The Scorch Protocol | Dry Fasting, T3 Therapy & hGH for Chronic Illness Recovery",
       },
     ],

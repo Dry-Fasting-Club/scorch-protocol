@@ -335,6 +335,8 @@ export default function DryFastingPage() {
         title="Jesus on Fasting: What is Done in Secret, God Rewards"
         imageSrc="/assets/images/faith/faith-dry-fasting.png"
         imageAlt="Fire and light, purification through the fast"
+        secondImageSrc="/assets/images/faith/WhatsApp%20Image%202026-04-06%20at%207.02.10%20AM.jpeg"
+        secondImageAlt="Faith and fasting"
       >
         <p>
           <strong>Matthew 6:17-18: &ldquo;But when you fast, put oil on your head and wash your face, so that it will not be obvious to others that you are fasting, but only to your Father, who is unseen; and your Father, who sees what is done in secret, will reward you.&rdquo;</strong>
