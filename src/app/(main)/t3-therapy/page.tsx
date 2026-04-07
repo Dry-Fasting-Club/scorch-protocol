@@ -565,6 +565,7 @@ export default function T3TherapyPage() {
         title="Life to Your Mortal Body: The Spirit That Raises the Dead"
         imageSrc="/assets/images/faith/faith-t3-therapy.png"
         imageAlt="Sunrise over a valley, awakening and new life"
+        instagramSrc="https://www.instagram.com/reel/DUI8Cv9DdEa/embed/"
       >
         <p>
           <strong>Romans 8:11: &ldquo;And if the Spirit of him who raised Jesus from the dead is living in you, he who raised Christ from the dead will also give life to your mortal bodies through his Spirit, who lives in you.&rdquo;</strong>

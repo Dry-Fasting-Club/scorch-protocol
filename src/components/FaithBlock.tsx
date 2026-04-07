@@ -9,6 +9,7 @@ interface FaithBlockProps {
   secondImageAlt?: string;
   videoSrc?: string;
   videoCaption?: string;
+  instagramSrc?: string;
   tweetUrl?: string;
   children: ReactNode;
 }
@@ -21,6 +22,7 @@ export default function FaithBlock({
   secondImageAlt,
   videoSrc,
   videoCaption,
+  instagramSrc,
   tweetUrl,
   children,
 }: FaithBlockProps) {
@@ -84,6 +86,25 @@ export default function FaithBlock({
                   borderRadius: "6px",
                   border: "none",
                   marginTop: "2.5rem",
+                }}
+              />
+            </div>
+          )}
+          {instagramSrc && (
+            <div style={{ marginTop: "2.5rem" }}>
+              <iframe
+                src={instagramSrc}
+                title="Instagram reel"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                allowFullScreen
+                scrolling="no"
+                style={{
+                  width: "100%",
+                  minHeight: "560px",
+                  borderRadius: "12px",
+                  border: "none",
+                  display: "block",
+                  background: "#000",
                 }}
               />
             </div>
