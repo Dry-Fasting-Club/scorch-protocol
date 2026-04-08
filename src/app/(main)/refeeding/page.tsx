@@ -421,6 +421,38 @@ export default function RefeedingPage() {
           lowers the risk of viral expansion during protocol transitions.
         </div>
         <div className="question-item">
+          <span className="question-label">Ivermectin: The Last Line of Defense</span>
+          Monolaurin and L-lysine handle the majority of mild reactivations.
+          When they are not enough, acyclovir or valacyclovir is the next step
+          and covers most people. But roughly half of those who need antivirals
+          still cannot fully suppress outbreaks at standard doses. For that
+          group, ivermectin is the addition that can stop viral reactivation in
+          its tracks. Research has demonstrated that ivermectin inhibits nuclear
+          transport of viral proteins by blocking the importin &alpha;/&beta;
+          pathway that herpesviruses depend on to replicate inside host cell
+          nuclei &mdash; a mechanism entirely distinct from acyclovir&rsquo;s
+          DNA polymerase inhibition, which is why the two stack rather than
+          overlap.{" "}
+          <a
+            href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7143239/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            [1]
+          </a>{" "}
+          <a
+            href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10603647"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            [2]
+          </a>{" "}
+          A serious Scorch Protocol follower should have it on hand before
+          starting. If outbreaks are persisting despite acyclovir, adding
+          ivermectin is the escalation that tends to finally close the door on
+          viral reactivation during protocol transitions.
+        </div>
+        <div className="question-item">
           <span className="question-label">HSV Outbreaks Are More Dangerous in Chronic Illness:</span>
           In a healthy person, CD8+ T cells rapidly contain each HSV
           reactivation within 12–24 hours, limiting damage to a small cluster
