@@ -483,6 +483,7 @@ export default function RefeedingPage() {
         title="The Feast After the Fast: Coming Home to Abundance"
         imageSrc="/assets/images/faith/faith-refeeding.png"
         imageAlt="A table set for a feast, abundance and restoration"
+        videoSrc="https://www.youtube.com/embed/pHJSNYGQYcU"
       >
         <p>
           <strong>Luke 15:24: &ldquo;For this son of mine was dead and is alive again; he was lost and is found. So they began to celebrate.&rdquo;</strong>
