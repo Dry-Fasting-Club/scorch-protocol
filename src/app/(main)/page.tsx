@@ -21,7 +21,9 @@ export default function HomePage() {
         </h1>
         <p className="hero-sub">
           The Scorch Protocol combines dry fasting, T3 therapy, and hGH to
-          reset your immune system at the root, not just manage symptoms. Built
+          reset your immune system at the root, not just manage symptoms.
+          Sometimes the orders change and sometimes fasting may not even be
+          advisable. There is no one identical chronic illness sufferer. Built
           by someone who recovered from severe ME/CFS and Long Covid.
         </p>
         <div className="hero-cta-group">
