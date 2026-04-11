@@ -227,14 +227,17 @@ export default function T3TherapyPage() {
           One trusted source for Slow-Release T3 is{" "}
           <strong>
             <a
-              href="https://chronic-illness.ca"
+              href="https://chronic-illness.st"
               target="_blank"
               rel="noopener noreferrer"
             >
-              chronic-illness.ca
+              chronic-illness.st
             </a>
           </strong>
-          . They specialize in this medication and can ship to many places.
+          . They specialize in this medication and can ship to many places.{" "}
+          <em style={{ fontSize: "0.9em", opacity: 0.75 }}>
+            (Previously chronic-illness.ca — the site has recently migrated.)
+          </em>
         </p>
         <p>
           <em>

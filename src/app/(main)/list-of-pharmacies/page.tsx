@@ -360,14 +360,17 @@ export default function ListOfPharmaciesPage() {
             successfully, by many people with chronic illnesses. For access to
             slow release T3, I recommend getting it from{" "}
             <a
-              href="https://chronic-illness.ca"
+              href="https://chronic-illness.st"
               target="_blank"
               rel="noopener noreferrer"
             >
-              chronic-illness.ca
+              chronic-illness.st
             </a>{" "}
             and if there are any shipping issues, emailing them or using their
-            form directly.
+            form directly.{" "}
+            <span style={{ fontSize: "0.9em", opacity: 0.75 }}>
+              (Previously chronic-illness.ca — the site has recently migrated.)
+            </span>
           </em>
         </p>
       </div>

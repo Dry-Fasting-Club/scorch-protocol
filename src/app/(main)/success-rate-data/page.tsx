@@ -298,13 +298,16 @@ export default function SuccessRateDataPage() {
           Some participants dropped out due to difficulty obtaining T3,
           especially slow-release T3. This is why{" "}
           <a
-            href="https://chronic-illness.ca"
+            href="https://chronic-illness.st"
             target="_blank"
             rel="noopener noreferrer"
           >
-            chronic-illness.ca
+            chronic-illness.st
           </a>{" "}
-          was created to help patients access necessary medications.
+          was created to help patients access necessary medications.{" "}
+          <em style={{ fontSize: "0.9em", opacity: 0.75 }}>
+            (Previously chronic-illness.ca — the site has recently migrated.)
+          </em>
         </div>
       </div>
 
