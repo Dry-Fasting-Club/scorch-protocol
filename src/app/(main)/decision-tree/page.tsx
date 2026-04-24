@@ -28,6 +28,19 @@ const chart0 = `graph TD
   style Intermediate fill:#713f12,stroke:#eab308,stroke-width:2px,color:#fde047
   style Advanced fill:#7f1d1d,stroke:#ef4444,stroke-width:2px,color:#fca5a5`;
 
+const chartTemp = `graph TD
+  Start["Measure Baseline Temperature<br />(Morning, on waking + 30 min post-breakfast)"] --> Check{"Resting Body Temperature"}
+
+  Check -->|"&ge;98.6&deg;F / 37.0&deg;C"| Safe["Safe to Fast First<br />Standard protocol applies"]
+  Check -->|"97.8–98.5&deg;F / 36.6–36.9&deg;C"| Monitor["Can Fast — Monitor Closely<br />Consider T3 support"]
+  Check -->|"&lt;97.8&deg;F / &lt;36.6&deg;C"| T3First["T3 Therapy Should Precede<br />Dry Fasting"]
+  Check -->|"95–96&deg;F / 35.0–35.6&deg;C"| Severe["Severe Metabolic Suppression<br />T3 + High Calories MANDATORY<br />before any fasting attempt"]
+
+  style Safe fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
+  style Monitor fill:#713f12,stroke:#eab308,stroke-width:2px,color:#fde047
+  style T3First fill:#7c2d12,stroke:#f97316,stroke-width:2px,color:#fdba74
+  style Severe fill:#7f1d1d,stroke:#ef4444,stroke-width:4px,color:#fca5a5`;
+
 const chartStop = `graph TD
   Start["Monitor Vital Signs & Status"] --> Hemo{"1. Hemodynamic Signals<br />(BP / HR / Orthostasis)"}
 
@@ -159,6 +172,11 @@ export default function DecisionTreePage() {
             <a href="#part0">Part 0: Protocol Category Selection</a>
           </li>
           <li>
+            <a href="#baselinetemp">
+              Baseline Temperature: Can You Fast at All?
+            </a>
+          </li>
+          <li>
             <a href="#stopsignals">
               Critical Thresholds: Stop Signals
             </a>
@@ -181,6 +199,98 @@ export default function DecisionTreePage() {
         current health status.
       </p>
       <MermaidCharts charts={[chart0]} />
+
+      <hr style={{ margin: "3rem 0", border: 0, borderTop: "1px solid rgba(255,255,255,0.1)" }} />
+
+      <h2 id="baselinetemp">Baseline Temperature: Can You Fast at All?</h2>
+      <p>
+        Your starting temperature determines whether dry fasting is safe to
+        attempt at all. Long Covid and ME/CFS patients commonly run cold
+        (96–97&deg;F) because viral persistence has already suppressed the
+        thyroid axis. Fasting on top of that suppression can push you too deep.
+        Measure your morning resting temperature (on waking) <em>and</em> 30
+        minutes post-breakfast before planning any fast.
+      </p>
+      <MermaidCharts charts={[chartTemp]} />
+
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
+          gap: "20px",
+          marginTop: "30px",
+        }}
+      >
+        <div
+          style={{
+            backgroundColor: "rgba(40,167,69,0.12)",
+            borderLeft: "5px solid #48bb78",
+            padding: "15px",
+            borderRadius: "4px",
+          }}
+        >
+          <h4 style={{ marginTop: 0, color: "#68d391" }}>
+            &ge;98.6&deg;F (37.0&deg;C)
+          </h4>
+          <p style={{ marginBottom: 0 }}>
+            <strong>Safe to fast first.</strong> Standard protocol applies.
+            Your thyroid axis is intact enough to handle the controlled
+            downregulation of a dry fast.
+          </p>
+        </div>
+        <div
+          style={{
+            backgroundColor: "rgba(234,179,8,0.12)",
+            borderLeft: "5px solid #eab308",
+            padding: "15px",
+            borderRadius: "4px",
+          }}
+        >
+          <h4 style={{ marginTop: 0, color: "#fde047" }}>
+            97.8–98.5&deg;F (36.6–36.9&deg;C)
+          </h4>
+          <p style={{ marginBottom: 0 }}>
+            <strong>Can fast, but monitor closely.</strong> Consider T3
+            support during the building phase. Track temperature daily during
+            the fast.
+          </p>
+        </div>
+        <div
+          style={{
+            backgroundColor: "rgba(249,115,22,0.12)",
+            borderLeft: "5px solid #f97316",
+            padding: "15px",
+            borderRadius: "4px",
+          }}
+        >
+          <h4 style={{ marginTop: 0, color: "#fdba74" }}>
+            &lt;97.8&deg;F (&lt;36.6&deg;C)
+          </h4>
+          <p style={{ marginBottom: 0 }}>
+            <strong>T3 therapy should precede dry fasting.</strong> Restore
+            metabolic rate first. Wait until morning temperature consistently
+            sits at or above 98.6&deg;F before attempting your first fast.
+          </p>
+        </div>
+        <div
+          style={{
+            backgroundColor: "rgba(220,53,69,0.12)",
+            borderLeft: "5px solid #ff4d4d",
+            padding: "15px",
+            borderRadius: "4px",
+          }}
+        >
+          <h4 style={{ marginTop: 0, color: "#ff6b6b" }}>
+            95–96&deg;F (35.0–35.6&deg;C)
+          </h4>
+          <p style={{ marginBottom: 0 }}>
+            <strong>Severe metabolic suppression.</strong> T3 + high calories
+            mandatory before any fasting attempt. A cortisol-inversion pattern
+            (temperature <em>drops</em> after eating) means cortisol is the
+            only thing holding metabolism up — a major red flag.
+          </p>
+        </div>
+      </div>
 
       <hr style={{ margin: "3rem 0", border: 0, borderTop: "1px solid rgba(255,255,255,0.1)" }} />
 
