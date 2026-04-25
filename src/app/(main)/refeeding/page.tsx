@@ -316,6 +316,17 @@ export default function RefeedingPage() {
       <div className="guiding-questions box-red">
         <h3>Critical for Herpesvirus Carriers</h3>
         <p>
+          <strong>
+            For the full deep dive on why this matters more than almost any
+            other piece of the protocol, read the dedicated{" "}
+            <a href="/viral-reactivation">Viral Reactivation</a> page.
+          </strong>{" "}
+          The summary below covers the practical refeed actions; the
+          dedicated page covers the mechanism, the studies, and why the
+          refeed window is the most dangerous moment in chronic illness
+          recovery.
+        </p>
+        <p>
           Every time your body swings between major energetic states (dry
           fasting to refeeding, or the peak of one T3 cycle to the trough
           before the next), you create what can be thought of as{" "}

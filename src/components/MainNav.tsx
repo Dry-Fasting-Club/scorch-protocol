@@ -14,6 +14,7 @@ const navItems: NavItem[] = [
   { type: "link",  href: "/preparation",          label: "Preparation",             phase: "01" },
   { type: "link",  href: "/dry-fasting",          label: "The Dry Fast",            phase: "02" },
   { type: "link",  href: "/refeeding",            label: "The Refeed",              phase: "03" },
+  { type: "link",  href: "/viral-reactivation",  label: "Viral Reactivation" },
   { type: "link",  href: "/t3-therapy",           label: "T3 Therapy",              phase: "04" },
   { type: "link",  href: "/hgh-therapy",          label: "hGH Therapy",             phase: "05" },
   { type: "group", label: "Supplements & Tools" },
