@@ -25,6 +25,7 @@ const navItems: NavItem[] = [
   { type: "link",  href: "/mindfulness",           label: "Mindfulness & Neurology" },
   { type: "group", label: "Data & Reference" },
   { type: "link",  href: "/success-rate-data",    label: "Success Rate Data" },
+  { type: "link",  href: "/long-covid-basics",    label: "Dealing with Long Covid Basics" },
   { type: "link",  href: "/refeed-for-bmr",       label: "9-Month BMR Reconstruction" },
   { type: "link",  href: "/list-of-pharmacies",   label: "List of Pharmacies" },
   { type: "link",  href: "/random-thoughts",      label: "Random Thoughts" },
