@@ -13,10 +13,44 @@ export default function ListOfPharmaciesPage() {
     <>
       <h1>Popular and Reliable Prescription-Free Pharmacies</h1>
 
+      <div className="guiding-questions box-purple">
+        <h3>Recommended Source for Slow-Release T3 (SR-T3)</h3>
+        <p>
+          <strong>
+            <a
+              href="https://chronic-illness.st"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              chronic-illness.st
+            </a>
+          </strong>{" "}
+          is the recommended pharmacy for{" "}
+          <strong>slow-release T3 (SR-T3)</strong>, the exact form of T3 used
+          throughout The Scorch Protocol. The general no-prescription pharmacies
+          listed in the table below carry standard liothyronine, but reliable
+          slow-release formulations are very difficult to source elsewhere.
+          chronic-illness.st specialises in this medication, ships
+          internationally, and was set up specifically to help chronically ill
+          patients access what conventional channels will not provide.
+        </p>
+        <p>
+          If you hit a shipping issue or your country is not in their default
+          dropdown, email them or use the contact form on the site directly.
+          They are responsive and accustomed to working with chronic illness
+          patients on edge cases.{" "}
+          <em style={{ fontSize: "0.9em", opacity: 0.75 }}>
+            (Previously chronic-illness.ca, the site has recently migrated.)
+          </em>
+        </p>
+      </div>
+
+      <h2>General No-Prescription Pharmacies</h2>
       <p>
         The table below lists some popular and reliable long-established
-        &ldquo;no prescription&rdquo; pharmacies. This pharmacies list was last
-        updated in 2025.
+        &ldquo;no prescription&rdquo; pharmacies useful for sourcing standard
+        liothyronine, hGH, peptides, and the rest of the protocol stack. This
+        list was last updated in 2025.
       </p>
 
       <table className="pharma-table">
@@ -357,20 +391,17 @@ export default function ListOfPharmaciesPage() {
         <p>
           <em>
             These pharmacies have been used on numerous occasions over the years
-            successfully, by many people with chronic illnesses. For access to
-            slow release T3, I recommend getting it from{" "}
+            successfully, by many people with chronic illnesses. For
+            slow-release T3 specifically, see the recommended source at the top
+            of this page (
             <a
               href="https://chronic-illness.st"
               target="_blank"
               rel="noopener noreferrer"
             >
               chronic-illness.st
-            </a>{" "}
-            and if there are any shipping issues, emailing them or using their
-            form directly.{" "}
-            <span style={{ fontSize: "0.9em", opacity: 0.75 }}>
-              (Previously chronic-illness.ca — the site has recently migrated.)
-            </span>
+            </a>
+            ).
           </em>
         </p>
       </div>
