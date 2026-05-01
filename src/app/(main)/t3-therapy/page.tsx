@@ -456,6 +456,26 @@ export default function T3TherapyPage() {
         </div>
       </div>
 
+      <div className="guiding-questions box-red">
+        <h3>Drug Interactions to Review Before Starting</h3>
+        <p>
+          Thyroid can thin blood, especially at higher doses. Patients on
+          warfarin sodium (Coumadin&reg;) or other anticoagulants may develop
+          an increase in prothrombin time requiring a lowering of their
+          anticoagulant therapy while taking thyroid medication. Drug-drug
+          interactions may occur with other anticoagulants, oral hypoglycemic
+          agents (increased requirements), insulin (increased requirements),
+          estrogens and oral contraceptives (increased thyroid requirement),
+          tricyclic antidepressants (enhanced effects), cardiac glycosides
+          (potential toxicity and reduced dose) and cholestyramine (decreased
+          T3 and T4 absorption). Several drugs, including cimetidine,
+          ranitidine, glucocorticoids, amiodarone and beta-receptor
+          antagonists, have been reported to increase the hepatic metabolism
+          of T4 into reverse T3 by inhibiting 5&rsquo;-desiodinase, the
+          hepatic microsomal enzyme catalyzing the conversion of T4 into T3.
+        </p>
+      </div>
+
       <h2>Keeping Your Progress</h2>
       <ul>
         <li>
