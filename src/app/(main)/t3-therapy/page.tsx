@@ -501,6 +501,30 @@ export default function T3TherapyPage() {
         </p>
       </div>
 
+      <div style={{ margin: "2rem 0", textAlign: "center" }}>
+        <Image
+          src="/assets/images/Thermoregulation%20five%20cycles%20of%20slow%20release%20T3%20in%2051%20year%20old%20woman.png"
+          alt="Thermoregulation across five cycles of slow-release T3 therapy in a 51-year-old woman, showing waking temperature climbing from a sub-36°C baseline toward the healthy 36.5–37.0°C range"
+          width={900}
+          height={500}
+          style={{
+            maxWidth: "100%",
+            height: "auto",
+            borderRadius: "8px",
+            boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
+          }}
+        />
+        <p style={{ fontSize: "0.9rem", color: "#666", marginTop: "0.5rem" }}>
+          <em>
+            Figure 3: Real-world thermoregulation data across five cycles of
+            slow-release T3 in a 51-year-old woman. Each cycle progressively
+            lifts the waking temperature baseline toward the healthy
+            36.5–37.0°C range shown in Figure 2 — the pattern most
+            participants follow when the protocol is working.
+          </em>
+        </p>
+      </div>
+
       <div className="guiding-questions box-orange">
         <h3>Fueling T3 Therapy: Why Calories Matter Here</h3>
         <p>
