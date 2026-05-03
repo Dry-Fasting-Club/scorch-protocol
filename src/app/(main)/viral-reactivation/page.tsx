@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 
@@ -381,6 +382,52 @@ export default function ViralReactivationPage() {
           </tr>
         </tbody>
       </table>
+
+      <div
+        style={{
+          margin: "2rem auto",
+          maxWidth: "600px",
+          padding: "1rem",
+          borderRadius: "10px",
+          boxShadow: "0 6px 24px rgba(0,0,0,0.4)",
+          border: "1px solid rgba(232,93,4,0.3)",
+          backgroundColor: "rgba(0,0,0,0.2)",
+        }}
+      >
+        <p
+          style={{
+            margin: "0 0 0.75rem 0",
+            fontSize: "0.9rem",
+            color: "#aaa",
+            fontStyle: "italic",
+            textAlign: "center",
+          }}
+        >
+          Our deeper breakdown of ivermectin&rsquo;s antiviral mechanism, from{" "}
+          <a
+            href="https://x.com/DryFastingClub"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            @DryFastingClub
+          </a>{" "}
+          on X:
+        </p>
+        <blockquote
+          className="twitter-tweet"
+          data-theme="dark"
+          data-dnt="true"
+          style={{ margin: 0 }}
+        >
+          <a href="https://x.com/DryFastingClub/status/2050751775494254711">
+            Loading post from @DryFastingClub on X&hellip;
+          </a>
+        </blockquote>
+        <Script
+          src="https://platform.twitter.com/widgets.js"
+          strategy="lazyOnload"
+        />
+      </div>
 
       <h2>Stop Signals: How to Know Reactivation Is Happening</h2>
       <p>
