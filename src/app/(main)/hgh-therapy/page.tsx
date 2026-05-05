@@ -322,6 +322,7 @@ export default function HghTherapyPage() {
         title="New Creation: The Old Has Gone, the New Is Here"
         imageSrc="/assets/images/faith/faith-hgh.png"
         imageAlt="New growth emerging from dark soil, resurrection and rebuilding"
+        videoSrc="https://www.youtube.com/embed/Wsp0o8LalfY"
       >
         <p>
           <strong>2 Corinthians 5:17: &ldquo;Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!&rdquo;</strong>
