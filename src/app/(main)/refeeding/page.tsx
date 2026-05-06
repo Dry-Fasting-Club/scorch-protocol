@@ -233,8 +233,9 @@ export default function RefeedingPage() {
           <span className="question-label">Electrolyte Balance:</span>
           Coconut water has a nearly perfect ratio of electrolytes (especially
           potassium) that matches what your dehydrated cells need to safely
-          rehydrate. Plain water after a dry fast can cause dangerous
-          over-hydration in cells that are ready to absorb.
+          rehydrate. If you&rsquo;re drinking water, you should be using
+          high quality spring water, but in general if you are introducing
+          calories, real coconut water is superior.
         </div>
         <div className="question-item">
           <span className="question-label">Stem Cell Signal:</span>
