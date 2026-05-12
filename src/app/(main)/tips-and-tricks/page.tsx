@@ -309,9 +309,47 @@ export default function TipsAndTricksPage() {
           In the Scorch Protocol, Aspirin (acetylsalicylic acid) is used not
           just as an anti-inflammatory, but as a primary tool for driving the
           body from a &ldquo;stuck&rdquo; stress-state into a high-energy
-          bioenergetic state. High-dose protocols can reach up to{" "}
-          <strong>3g/day</strong>, but this requires precise, gradual titration
-          and specific metabolic support.
+          bioenergetic state. The Scorch recommendation tops out around{" "}
+          <strong>1g/day</strong> for most people. Some advanced
+          practitioners swear by pushing to <strong>3g/day</strong>, but
+          that is the upper community bound rather than the protocol
+          baseline, and it requires precise, gradual titration and specific
+          metabolic support.
+        </p>
+        <p>
+          Aspirin earns this kind of work because it is one of the very few
+          direct-acting molecules in the entire pharmacopoeia that hits
+          three switches at once: it blunts inflammation (the COX pathway),
+          it lowers peripheral cortisol conversion (via 11&beta;-HSD1,
+          detailed below), and it improves insulin sensitivity. Most
+          interventions move one of those levers in isolation. Aspirin moves
+          all three, which is why a 100-year-old generic drug ends up at
+          the center of a modern metabolic recovery protocol.
+        </p>
+        <p>
+          The price of admission is gut and blood-loss management. High-dose
+          aspirin can erode the gastric lining (ulcer risk) and drive slow
+          microbleeding that quietly depletes iron over months. Both are
+          manageable, but the mitigation has to be layered:{" "}
+          <strong>always take aspirin with substantial meals</strong>, not
+          on an empty stomach. Lean on the gut-lining stem cell regeneration
+          that follows every dry fast cycle. Support the rebuild phase
+          with pharmaceutical hGH. Add <strong>BPC-157</strong> for direct
+          gut wall repair. Pull periodic bloodwork on ferritin and iron
+          stores so a slow drift gets caught before it becomes a deficiency.
+          The tools to keep your gut bulletproof are already inside this
+          protocol; aspirin just makes using them non-negotiable.
+        </p>
+        <p>
+          One final caveat worth taking seriously: aspirin thins blood
+          systemically, and at the higher end of the dose range that
+          effect is significant. It is <strong>not appropriate for
+          everyone</strong>. If you are on anticoagulant medication
+          (warfarin, DOACs, etc.), have a known bleeding disorder, are
+          scheduled for surgery or a dental procedure, or are pregnant
+          or trying to conceive, the calculus changes. Talk to a clinician
+          who knows your full picture before starting, and stop several
+          days before any procedure that could bleed.
         </p>
 
         <h4>
