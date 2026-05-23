@@ -281,11 +281,15 @@ export default function ViralReactivationPage() {
 
       <h2>The Pharmacological Stack for the Refeed Vulnerability Window</h2>
       <p>
-        Once organs are rehydrated through the water fast, you build the
-        antiviral wall before food returns. This stack is not optional for
+        Once organs are rehydrated through the water fast, you build two
+        parallel walls before food returns. The first is antiviral pressure
+        (ivermectin as the primary pharmaceutical, with valacyclovir held
+        in reserve for prodromal tingling). The second is active immune
+        rebuilding via thymic peptides (Thymalin early in the refeed,
+        Thymus Alpha-1 later or pre-fast). This stack is not optional for
         anyone with Long Covid, ME/CFS, recurring herpesvirus history, or
-        unexplained chronic illness. Each component blocks a different stage
-        of the viral reactivation cascade.
+        unexplained chronic illness. Each component blocks or rebuilds a
+        different stage of the cascade.
       </p>
 
       <table>
@@ -310,7 +314,7 @@ export default function ViralReactivationPage() {
           </tr>
           <tr>
             <td><strong>L-Lysine</strong></td>
-            <td>Refeed Day 1, 2–4 g/day</td>
+            <td>Refeed Day 1</td>
             <td>
               Competes with arginine for the amino acid transporter herpes
               viruses depend on. Griffith et al. (1987, <em>Dermatologica</em>)
@@ -331,27 +335,13 @@ export default function ViralReactivationPage() {
             </td>
           </tr>
           <tr>
-            <td><strong>Acyclovir or Valacyclovir</strong></td>
+            <td><strong>Ivermectin (primary antiviral)</strong></td>
             <td>
-              Refeed Day 1 (have prescription on hand <em>before</em>{" "}
-              starting)
+              Refeed Day 1, continued through the vulnerability window
             </td>
-            <td>
-              Inhibits viral DNA polymerase. Covers HSV-1, HSV-2, VZV
-              completely; partial coverage of EBV and CMV. Suppressive dosing
-              (500mg–1g/day valacyclovir) reduces outbreak frequency 70–80%
-              and is appropriate during high-risk transitions for anyone with
-              monthly outbreak history.
-            </td>
-          </tr>
-          <tr>
-            <td><strong>Ivermectin</strong></td>
-            <td>If acyclovir alone insufficient</td>
             <td>
               Blocks importin α/β nuclear transport, which herpesviruses
-              depend on to replicate inside the host cell nucleus. Mechanism
-              is independent from acyclovir, so the two stack rather than
-              overlap (
+              depend on to replicate inside the host cell nucleus (
               <a
                 href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7143239/"
                 target="_blank"
@@ -366,7 +356,60 @@ export default function ViralReactivationPage() {
               >
                 [2]
               </a>
-              ). Reserve for cases where outbreaks persist despite acyclovir.
+              ). Ivermectin is now the primary antiviral in the protocol
+              because it is overall better on the gut microbiome during the
+              refeed and pulls double duty as an antiparasitic. The combination
+              of ivermectin and dry fasting clears most parasitic load
+              alongside the viral suppression.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Acyclovir or Valacyclovir (prodrome rescue)</strong>
+            </td>
+            <td>
+              On hand <em>before</em> the fast; deploy at first tingling
+            </td>
+            <td>
+              Inhibits viral DNA polymerase. Covers HSV-1, HSV-2, VZV
+              completely; partial coverage of EBV and CMV. Reserved for
+              prodromal rescue — the tingling, itching, or burning at a
+              previous outbreak site that signals an oncoming HSV
+              reactivation. A single loading dose at the prodrome can
+              abort the outbreak before lesions form. Not used as a daily
+              prophylactic in the current protocol; ivermectin holds that
+              role.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Thymalin (immune rebuild — early)</strong>
+            </td>
+            <td>Early refeed</td>
+            <td>
+              Thymic peptide used clinically in Russia and Eastern Europe as
+              an immunomodulator. Strengthens the thymus, body peptides, and
+              overall immune system after the fasting demolition. Pairs with
+              BPC-157 in the broader rebuild phase (see the{" "}
+              <a href="/t3-therapy">T3 Therapy</a> page).
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Thymus Alpha-1 (Tα1) (immune rebuild — late or pre-fast)</strong>
+            </td>
+            <td>
+              Late refeed (regeneration phase), or alternatively pre-fast
+            </td>
+            <td>
+              FDA / EMA-approved thymic peptide used for hepatitis B/C,
+              immunodeficient cancer patients, and some septic conditions.
+              Distinct from Thymalin in that it both <em>strengthens</em>{" "}
+              and <em>balances</em> the immune system, making it useful
+              for patients whose immune dysregulation runs both directions
+              (e.g., MCAS + immunodeficiency in Long Covid). Can also be
+              used proactively before a fast to optimise the starting
+              immune state.
             </td>
           </tr>
           <tr>
@@ -382,6 +425,15 @@ export default function ViralReactivationPage() {
           </tr>
         </tbody>
       </table>
+      <p style={{ fontSize: "0.9rem", opacity: 0.75, fontStyle: "italic", marginTop: "1rem" }}>
+        Doses for each agent are intentionally not published here. They are
+        highly patient-specific (dependent on weight, prior viral load,
+        baseline immune status, comorbidities, and current symptom pattern).
+        Generalised public dosing would contradict the &ldquo;Fasting
+        Detective&rdquo; clinical-individualisation approach that the
+        protocol is built around. Dose-level work is reserved for direct
+        clinical assessment.
+      </p>
 
       <div
         style={{
