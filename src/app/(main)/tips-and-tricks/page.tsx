@@ -21,7 +21,37 @@ export default function TipsAndTricksPage() {
         your fasting experience and maximize healing benefits.
       </p>
 
-      <h2>Expert Tips from Dry Fasting Club</h2>
+      <nav
+        aria-label="On this page"
+        style={{
+          margin: "1.5rem 0 2rem",
+          padding: "1rem 1.25rem",
+          borderLeft: "3px solid rgba(232,93,4,0.5)",
+          backgroundColor: "rgba(255,255,255,0.02)",
+          borderRadius: "4px",
+        }}
+      >
+        <strong style={{ display: "block", marginBottom: "0.5rem", fontSize: "0.95rem" }}>
+          Jump to a Section
+        </strong>
+        <ul style={{ margin: 0, paddingLeft: "1.25rem", fontSize: "0.92rem", lineHeight: 1.8 }}>
+          <li><a href="#phase-tips">Phase Tips: Before, During, and Breaking the Fast</a></li>
+          <li><a href="#general-wisdom">General Wisdom and Mindset</a></li>
+          <li><a href="#co-factors">Co-Factor Management: Hormones, Electrolytes, and Aspirin</a></li>
+          <li><a href="#advanced">Advanced and Optional Protocols</a></li>
+          <li><a href="#video-resources">Video Resources</a></li>
+          <li><a href="#meditation">Meditation for Stem Cell Activation</a></li>
+        </ul>
+      </nav>
+
+      <h2 id="phase-tips">Phase Tips: Before, During, and Breaking the Fast</h2>
+      <p>
+        Practical wisdom for each phase of the fasting block. Most of the
+        common rookie mistakes happen because people skip the preparation
+        and refeed advice and focus only on the fast itself. The fast is
+        the easy part. The bookends are what determine whether the work
+        sticks.
+      </p>
 
       <div className="guiding-questions box-deepgreen">
         <h3>Before the Fast</h3>
@@ -137,6 +167,13 @@ export default function TipsAndTricksPage() {
         </ul>
       </div>
 
+      <h2 id="general-wisdom">General Wisdom and Mindset</h2>
+      <p>
+        The lessons that do not fit neatly into a single phase. These
+        apply across the entire protocol, from your first 36-hour fast
+        through your tenth 5-day cycle.
+      </p>
+
       <div className="guiding-questions box-purple">
         <h3>General Wisdom</h3>
         <ul>
@@ -170,6 +207,16 @@ export default function TipsAndTricksPage() {
           </li>
         </ul>
       </div>
+
+      <h2 id="co-factors">Co-Factor Management: Hormones, Electrolytes, and Aspirin</h2>
+      <p>
+        Three deep dives into the specific co-factors that determine
+        whether the metabolic side of the protocol works smoothly or
+        crashes the patient. Cortisol management on T3, the salt and
+        potassium balance, and the aspirin protocol all sit in this
+        layer. They are not optional knowledge if you are running the
+        full Scorch Protocol.
+      </p>
 
       <div className="guiding-questions box-pink">
         <h3>Managing Cortisol on High-Dose T3 Monotherapy</h3>
@@ -460,6 +507,14 @@ export default function TipsAndTricksPage() {
         </ul>
       </div>
 
+      <h2 id="advanced">Advanced and Optional Protocols</h2>
+      <p>
+        Topics outside the core Scorch Protocol that experienced
+        practitioners explore once the foundation is in place. Not
+        beginner content. Do not approach these without a solid base of
+        completed dry fasts and metabolic recovery first.
+      </p>
+
       <div className="guiding-questions box-blue">
         <h3>Advanced Topic: Psilocybin &amp; Brain Rejuvenation</h3>
         <p>
@@ -508,7 +563,7 @@ export default function TipsAndTricksPage() {
         </ul>
       </div>
 
-      <h2>Video Resources</h2>
+      <h2 id="video-resources">Video Resources</h2>
 
       <div className="guiding-questions box-orange">
         <h3>Interesting Content to Watch During Your Fast</h3>
@@ -639,7 +694,7 @@ export default function TipsAndTricksPage() {
         </div>
       </div>
 
-      <h2>Meditation for Stem Cell Activation</h2>
+      <h2 id="meditation">Meditation for Stem Cell Activation</h2>
 
       <p>
         During and after your fast, meditation can help direct stem cells to
