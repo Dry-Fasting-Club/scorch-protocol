@@ -185,10 +185,10 @@ export default function DecisionTreePage() {
             <a href="#part1">Part 1: Diet History &amp; Carb Approach</a>
           </li>
           <li>
-            <a href="#part2">Part 2: Protocol Specifics Flow</a>
+            <a href="#part2">Part 2: T3 Thyroid Assessment</a>
           </li>
           <li>
-            <a href="#part3">Part 3: Long COVID, IR &amp; Ivermectin</a>
+            <a href="#part3">Part 3: Long COVID, Insulin Resistance (IR) &amp; Ivermectin</a>
           </li>
         </ul>
       </div>

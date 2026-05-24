@@ -17,6 +17,28 @@ export default function RandomThoughtsPage() {
         eventually be moved into the main protocol or research files.
       </p>
 
+      <nav
+        aria-label="On this page"
+        style={{
+          margin: "1.5rem 0 2rem",
+          padding: "1rem 1.25rem",
+          borderLeft: "3px solid rgba(232,93,4,0.5)",
+          backgroundColor: "rgba(255,255,255,0.02)",
+          borderRadius: "4px",
+        }}
+      >
+        <strong style={{ display: "block", marginBottom: "0.5rem", fontSize: "0.95rem" }}>
+          Jump to a Section
+        </strong>
+        <ul style={{ margin: 0, paddingLeft: "1.25rem", fontSize: "0.92rem", lineHeight: 1.8 }}>
+          <li><a href="#metabolic-persistence">Metabolic Persistence: BMR, Temperature, and the &ldquo;Starvation Debt&rdquo;</a></li>
+          <li><a href="#thermal-threshold">The Thermal Threshold: Using Heat to Measure Your Metabolism</a></li>
+          <li><a href="#energy-gap-theory">The &ldquo;Energy Gap&rdquo;: Why COVID-19 Crashed Your Metabolism</a></li>
+          <li><a href="#energy-balance-t3">Energy Balance, T3 Therapy, and the &ldquo;Stone&rdquo; Paradox</a></li>
+          <li><a href="#genetic-polymorphisms">Genetic Polymorphisms: The Self-Selection Trap</a></li>
+        </ul>
+      </nav>
+
       <section id="metabolic-persistence">
         <h2>Metabolic Persistence: BMR, Temperature, and the &ldquo;Starvation Debt&rdquo;</h2>
         <p>

@@ -42,6 +42,34 @@ export default function HghTherapyPage() {
         works for you.
       </p>
 
+      <nav
+        aria-label="On this page"
+        style={{
+          margin: "1.5rem 0 2rem",
+          padding: "1rem 1.25rem",
+          borderLeft: "3px solid rgba(232,93,4,0.5)",
+          backgroundColor: "rgba(255,255,255,0.02)",
+          borderRadius: "4px",
+        }}
+      >
+        <strong style={{ display: "block", marginBottom: "0.5rem", fontSize: "0.95rem" }}>
+          Jump to a Section
+        </strong>
+        <ul style={{ margin: 0, paddingLeft: "1.25rem", fontSize: "0.92rem", lineHeight: 1.8 }}>
+          <li><a href="#mechanism">How hGH Works in the Body</a></li>
+          <li><a href="#practical">Practical: Sourcing and the Synergistic Stack</a></li>
+          <li><a href="#research">The Research Case for hGH in Chronic Illness</a></li>
+        </ul>
+      </nav>
+
+      <h2 id="mechanism">How hGH Works in the Body</h2>
+      <p>
+        Three angles on the same molecule: how hGH triggers the rebuild
+        signal, how it directs fat burning, and how it shifts body
+        composition toward muscle rather than fat. Read all three before
+        starting hGH so the protocol logic makes sense.
+      </p>
+
       <div className="guiding-questions">
         <h3>How hGH Helps You Heal</h3>
         <p>
@@ -186,6 +214,13 @@ export default function HghTherapyPage() {
         </div>
       </div>
 
+      <h2 id="practical">Practical: Sourcing and the Synergistic Stack</h2>
+      <p>
+        Once you understand what hGH does, the next questions are where
+        to get it safely and what other peptides amplify its effect
+        during recovery. This section covers both.
+      </p>
+
       <div className="guiding-questions box-blue">
         <h3>Where to Get hGH</h3>
         <p>
@@ -266,6 +301,14 @@ export default function HghTherapyPage() {
           </em>
         </p>
       </div>
+
+      <h2 id="research">The Research Case for hGH in Chronic Illness</h2>
+      <p>
+        The published mechanism for why this matters specifically for
+        chronic illness recovery: thymic regeneration, immune
+        restoration, mitochondrial biogenesis, and tissue repair under
+        conditions of long-term suppression.
+      </p>
 
       <div className="guiding-questions box-dark">
         <h3>Why hGH Works for Chronic Illness: The Research Case</h3>
