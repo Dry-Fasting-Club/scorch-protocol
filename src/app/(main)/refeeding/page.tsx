@@ -313,182 +313,75 @@ export default function RefeedingPage() {
         </p>
       </div>
 
-      <h2>Viral Reactivation Protocol</h2>
+      <h2>Viral Reactivation During the Refeed (Quick Reference)</h2>
+      <p>
+        The refeed is the most dangerous moment in chronic illness recovery,
+        and it is not because of food itself. It is the energetic trough
+        between the fasted state (when your immune system is biologically
+        hostile to viral replication) and the fully refed state (when your
+        immune system has rebuilt). For the few days inside that gap, latent
+        herpesviruses (HSV-1, HSV-2, EBV, HHV-6, and the rest of the nine
+        human herpesviruses) get an open window to reactivate. This is the
+        single most important reason the refeed must be planned, not
+        improvised.
+      </p>
+
       <div className="guiding-questions box-red">
-        <h3>Critical for Herpesvirus Carriers</h3>
+        <h3>Read the Full Deep Dive Before You Refeed</h3>
         <p>
+          The mechanism, the studies, the full list of nine human
+          herpesviruses with symptom profiles, the pharmacological stack
+          with all dosing logic, the HSV-containment biology, and the
+          safety protocol all live on the dedicated{" "}
           <strong>
-            For the full deep dive on why this matters more than almost any
-            other piece of the protocol, read the dedicated{" "}
-            <a href="/viral-reactivation">Viral Reactivation</a> page.
+            <a href="/viral-reactivation">Viral Reactivation</a>
           </strong>{" "}
-          The summary below covers the practical refeed actions; the
-          dedicated page covers the mechanism, the studies, and why the
-          refeed window is the most dangerous moment in chronic illness
-          recovery.
+          page. If you have any history of cold sores, mono, shingles,
+          or unexplained chronic fatigue, do not begin the refeed without
+          reading it first. The summary below covers only the practical
+          refeed actions.
         </p>
+      </div>
+
+      <div className="guiding-questions box-orange">
+        <h3>The Refeed-Day Action Checklist</h3>
         <p>
-          Every time your body swings between major energetic states (dry
-          fasting to refeeding, or the peak of one T3 cycle to the trough
-          before the next), you create what can be thought of as{" "}
-          <strong>energetic peaks and troughs</strong>. The troughs are the
-          dangerous windows: low-energy states where your immune system is
-          momentarily off-balance and cellular resources are in flux.
+          Three things to have in place by the time you take your first
+          calories. All three are explained in full mechanistic detail on
+          the Viral Reactivation page; this is the action shortlist.
         </p>
+        <div className="question-item">
+          <span className="question-label">L-Lysine + Monolaurin from Refeed Day 1</span>
+          Lysine competes with arginine for the amino acid transporter
+          herpesviruses depend on. Monolaurin disrupts the lipid envelope
+          of every human herpesvirus. Start both with the first meal.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Avoid Arginine-Rich Foods for the First Two Weeks</span>
+          Nuts, seeds, chocolate, peanut butter, gelatin. These spike free
+          arginine and undo the work lysine is doing.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Have Ivermectin (Primary) and Valacyclovir (Prodrome Rescue) On Hand BEFORE Breaking the Fast</span>
+          The protocol now uses ivermectin as the primary antiviral
+          (better gut microbiome compatibility during refeed and double
+          duty as antiparasitic). Valacyclovir is reserved for prodromal
+          tingling, the early signal of an oncoming HSV outbreak. Both
+          need to be in your possession before the fast ends, not after.
+        </div>
+      </div>
+
+      <div className="guiding-questions box-red">
+        <h3>The T3 Cycle Off-Ramp Is Another High-Risk Window</h3>
         <p>
-          There are <strong>nine known human herpesviruses</strong>, and all of
-          them are exquisitely sensitive to these metabolic shifts. They have
-          evolved to sense exactly these kinds of changes in the body&rsquo;s
-          energy landscape, and they use those troughs as a signal to reactivate
-          from dormancy in the nerve cells where they hide:
+          Viral reactivation risk does not end with the refeed. When you
+          step off a T3 cycle, your metabolic rate temporarily dips as
+          the thyroid takes time to restart its own output. This creates
+          the same energetic trough that triggers reactivation during the
+          fast-to-refeed transition. Continue antiviral coverage during
+          any T3 wind-down until your waking body temperature has returned
+          to your pre-T3 baseline for at least 5&ndash;7 consecutive days.
         </p>
-        <ul>
-          <li>
-            <strong>HSV-1</strong> (Herpes Simplex Virus 1): cold sores, oral
-            herpes, sometimes genital
-          </li>
-          <li>
-            <strong>HSV-2</strong> (Herpes Simplex Virus 2): genital herpes,
-            recurring outbreaks
-          </li>
-          <li>
-            <strong>VZV</strong> (Varicella-Zoster Virus): chickenpox on first
-            infection, shingles on reactivation
-          </li>
-          <li>
-            <strong>EBV</strong> (Epstein-Barr Virus): mononucleosis, chronic
-            fatigue, implicated strongly in Long Covid and ME/CFS
-          </li>
-          <li>
-            <strong>CMV</strong> (Cytomegalovirus): often asymptomatic but
-            reactivates under immune stress, contributes to fatigue
-          </li>
-          <li>
-            <strong>HHV-6A:</strong> neurological effects, chronic fatigue,
-            encephalitis in severe cases
-          </li>
-          <li>
-            <strong>HHV-6B:</strong> roseola in children; in adults, linked to
-            brain fog and immune dysfunction
-          </li>
-          <li>
-            <strong>HHV-7</strong> (Roseolovirus): reactivates alongside HHV-6,
-            less studied but present in most chronically ill patients
-          </li>
-          <li>
-            <strong>HHV-8</strong> (Kaposi&rsquo;s sarcoma-associated
-            herpesvirus): primarily a concern in immunocompromised individuals
-          </li>
-        </ul>
-        <p>
-          This is not a rare edge case. Viral reactivation is a predictable,
-          biological event that happens to a significant subset of chronically
-          ill patients every time they go through a major protocol transition.
-        </p>
-        <p>
-          <strong>Do You Have a Persistent Reactivated Herpesvirus?</strong>{" "}
-          Look up the symptom profiles of each of the nine viruses above. If the
-          symptoms match patterns you have experienced throughout your illness
-          (not a single episode, but a recurring pattern over months or years),
-          that virus is likely playing a role in your condition. You do not
-          need a confirmed lab diagnosis to take precautions; the symptom
-          pattern is enough reason to act.
-        </p>
-        <p>
-          <strong>Stopping reactivation is critical.</strong> The Scorch
-          Protocol addresses this directly through the structure of the fasting
-          block: the 5-day water fast that follows the dry fast serves as the
-          bridge, allowing T3 to be initiated before the fast ends and
-          antivirals to begin at the very first meal.
-        </p>
-        <div className="question-item">
-          <span className="question-label">L-Lysine + Monolaurin: Start on Refeeding Day 1</span>
-          Because T3 therapy is already running by the time you break the fast
-          (you started T3 on day 3 of the water fast, so you are on T3 day 3
-          when you have your first calories), your kidneys are supported and
-          your metabolism is already primed. This means you can start{" "}
-          <strong>L-Lysine (2–4g/day)</strong> and{" "}
-          <strong>monolaurin</strong> immediately on refeeding day 1. You do
-          not need to wait for kidney rehydration. Lysine directly blocks viral
-          replication by competing with arginine. Monolaurin disrupts the lipid
-          envelope of herpesviruses, making it a strong complement to lysine.
-        </div>
-        <div className="question-item">
-          <span className="question-label">Avoid Arginine-Rich Foods:</span>
-          During the refeed, temporarily avoid nuts, seeds, chocolate, and
-          peanut butter, as these are high in arginine, which fuels herpesvirus
-          replication.
-        </div>
-        <div className="question-item">
-          <span className="question-label">Acyclovir: Have It On Hand</span>
-          If your symptom history matches any of the nine herpesviruses listed
-          above, obtain <strong>acyclovir</strong> (or valacyclovir) before
-          beginning the protocol. Do not wait until symptoms appear. It covers
-          HSV-1, HSV-2, VZV, and has partial activity against EBV and CMV.
-          Having it available and starting it at the first sign of reactivation
-          is far more effective than scrambling for a prescription mid-refeed.
-          If you are experiencing monthly outbreaks, discuss suppressive dosing
-          (typically 500mg–1g/day valacyclovir) with your doctor before you
-          start, which reduces outbreak frequency by 70–80% and significantly
-          lowers the risk of viral expansion during protocol transitions.
-        </div>
-        <div className="question-item">
-          <span className="question-label">Ivermectin: The Last Line of Defense</span>
-          Monolaurin and L-lysine handle the majority of mild reactivations.
-          When they are not enough, acyclovir or valacyclovir is the next step
-          and covers most people. But roughly half of those who need antivirals
-          still cannot fully suppress outbreaks at standard doses. For that
-          group, ivermectin is the addition that can stop viral reactivation in
-          its tracks. Research has demonstrated that ivermectin inhibits nuclear
-          transport of viral proteins by blocking the importin &alpha;/&beta;
-          pathway that herpesviruses depend on to replicate inside host cell
-          nuclei &mdash; a mechanism entirely distinct from acyclovir&rsquo;s
-          DNA polymerase inhibition, which is why the two stack rather than
-          overlap.{" "}
-          <a
-            href="https://pmc.ncbi.nlm.nih.gov/articles/PMC7143239/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            [1]
-          </a>{" "}
-          <a
-            href="https://pmc.ncbi.nlm.nih.gov/articles/PMC10603647"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            [2]
-          </a>{" "}
-          A serious Scorch Protocol follower should have it on hand before
-          starting. If outbreaks are persisting despite acyclovir, adding
-          ivermectin is the escalation that tends to finally close the door on
-          viral reactivation during protocol transitions.
-        </div>
-        <div className="question-item">
-          <span className="question-label">HSV Outbreaks Are More Dangerous in Chronic Illness:</span>
-          In a healthy person, CD8+ T cells rapidly contain each HSV
-          reactivation within 12–24 hours, limiting damage to a small cluster
-          of epithelial cells. In chronic illness, this immune surveillance is
-          disrupted. Stress hormones (cortisol) reduce both the number and
-          function of these guard cells, allowing higher viral loads during
-          outbreaks. In the most severely immunocompromised patients, the virus
-          can potentially move into new nerve territories rather than staying
-          locked to its original ganglion. Monthly HSV outbreaks in a
-          chronically ill patient are not just a nuisance. They are a signal
-          that immune containment is failing and suppressive antiviral therapy
-          is warranted, not optional.
-        </div>
-        <div className="question-item">
-          <span className="question-label">The T3 Cycle Off-Ramp Is Another High-Risk Window:</span>
-          Viral reactivation risk does not end with the refeed. When you step
-          off a T3 cycle (as exogenous T3 doses taper and the thyroid takes
-          time to restabilize its own output), your metabolic rate temporarily
-          dips. This creates the same energetic trough that triggers
-          reactivation during the fast-to-refeed transition. Continue antiviral
-          coverage during any T3 wind-down until your waking body temperature
-          has returned to your pre-T3 baseline for at least 5–7 consecutive
-          days.
-        </div>
       </div>
 
       <h2>Rebuilding the Gut Microbiome (and the Virome You Didn&rsquo;t Know You Had)</h2>
