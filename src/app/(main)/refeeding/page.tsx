@@ -529,6 +529,18 @@ export default function RefeedingPage() {
           (herbal or antibiotic) alongside Scorch. Do not stop one to
           start the other.
         </p>
+        <p>
+          For repairing the biome damage antibiotics cause, live
+          fermented cultures during early refeed work better than
+          capsule probiotics. At Filonov&rsquo;s dry fasting retreats,
+          participants are given a sour cream cultured probiotic drink
+          at the start of refeed. When a retreat occasionally runs out
+          or forgets to prepare it, I&rsquo;ve heard from participants
+          who simply bought a few jugs of kefir from a local store and
+          used that as a substitute, with similar reported results. The
+          principle is the same either way: live cultures, in volume,
+          delivered when the gut is most receptive.
+        </p>
       </div>
 
       <div className="guiding-questions box-orange">
