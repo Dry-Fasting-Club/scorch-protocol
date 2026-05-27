@@ -21,7 +21,8 @@ export default function TipsAndTricksPage() {
         your fasting experience and maximize healing benefits.
       </p>
 
-      <nav
+      <div
+        role="navigation"
         aria-label="On this page"
         style={{
           margin: "1.5rem 0 2rem",
@@ -42,7 +43,7 @@ export default function TipsAndTricksPage() {
           <li><a href="#video-resources">Video Resources</a></li>
           <li><a href="#meditation">Meditation for Stem Cell Activation</a></li>
         </ul>
-      </nav>
+      </div>
 
       <h2 id="phase-tips">Phase Tips: Before, During, and Breaking the Fast</h2>
       <p>

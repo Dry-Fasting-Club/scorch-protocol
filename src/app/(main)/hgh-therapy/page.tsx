@@ -42,7 +42,8 @@ export default function HghTherapyPage() {
         works for you.
       </p>
 
-      <nav
+      <div
+        role="navigation"
         aria-label="On this page"
         style={{
           margin: "1.5rem 0 2rem",
@@ -60,7 +61,7 @@ export default function HghTherapyPage() {
           <li><a href="#practical">Practical: Sourcing and the Synergistic Stack</a></li>
           <li><a href="#research">The Research Case for hGH in Chronic Illness</a></li>
         </ul>
-      </nav>
+      </div>
 
       <h2 id="mechanism">How hGH Works in the Body</h2>
       <p>

@@ -17,7 +17,8 @@ export default function RandomThoughtsPage() {
         eventually be moved into the main protocol or research files.
       </p>
 
-      <nav
+      <div
+        role="navigation"
         aria-label="On this page"
         style={{
           margin: "1.5rem 0 2rem",
@@ -38,7 +39,7 @@ export default function RandomThoughtsPage() {
           <li><a href="#genetic-polymorphisms">Genetic Polymorphisms: The Self-Selection Trap</a></li>
           <li><a href="#diminishing-returns">Diminishing Returns: When More Fasting Stops Helping (and the Acidification Magic)</a></li>
         </ul>
-      </nav>
+      </div>
 
       <section id="metabolic-persistence">
         <h2>Metabolic Persistence: BMR, Temperature, and the &ldquo;Starvation Debt&rdquo;</h2>
