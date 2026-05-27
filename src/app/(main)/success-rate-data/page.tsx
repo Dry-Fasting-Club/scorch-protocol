@@ -3,12 +3,29 @@ import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
 import Image from "next/image";
+import MermaidCharts from "@/components/MermaidCharts";
 
 export const metadata: Metadata = {
   title: "Success Rate Data | The Scorch Protocol",
   description:
     "Real outcome data from 141 protocol participants: 97% success rate after completing dry fasting and T3 therapy phases.",
 };
+
+const patientFunnel = `graph TD
+  Start["141 chronically ill patients<br/>enrolled in tracked protocol"] --> Phase2["117 completed Phase 2<br/>(10-day dry+water fast + refeed)"]
+
+  Phase2 --> NoT3["~31% reached level 10 on fatigue<br/>WITHOUT needing T3<br/>(prep + dry fast + refeed sufficient)"]
+  Phase2 --> T3Group["32 progressed to full T3 therapy phase<br/>(most motivated, much sicker patients)"]
+
+  T3Group --> Recovered["30 of 32 fully recovered<br/>= 97% success rate<br/><br/>• 53% reached 10/10 brain fog<br/>• 56% reached 10/10 insomnia<br/>• 41% reached 10/10 fatigue"]
+  T3Group --> Incomplete["2 of 32 still in protocol<br/>or did not complete"]
+
+  style Start fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
+  style Phase2 fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
+  style NoT3 fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
+  style T3Group fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
+  style Recovered fill:#14532d,stroke:#22c55e,stroke-width:4px,color:#86efac
+  style Incomplete fill:#1e293b,stroke:#64748b,stroke-width:1px,color:#94a3b8`;
 
 export default function SuccessRateDataPage() {
   return (
@@ -28,6 +45,13 @@ export default function SuccessRateDataPage() {
         . All data is anonymized and aggregated from the participants, all of
         whom worked 1-on-1 with Yannick Wolfe.
       </p>
+
+      <div style={{ margin: "1.5rem 0" }}>
+        <MermaidCharts charts={[patientFunnel]} />
+        <p style={{ fontSize: "0.9rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic", textAlign: "center" }}>
+          The participant funnel. The 97% number specifically describes the 32 patients who completed the full protocol including T3 therapy. A meaningful subset (~31%) reached full recovery WITHOUT ever needing T3 &mdash; the fast + refeed alone was enough.
+        </p>
+      </div>
 
       <div className="guiding-questions box-deepgreen">
         <h3>Key Findings</h3>

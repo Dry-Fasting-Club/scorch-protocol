@@ -158,6 +158,78 @@ export default function RefeedForBmrPage() {
         mechanisms before luxury functions.
       </p>
 
+      <div style={{ margin: "2rem 0", textAlign: "center" }}>
+        <svg
+          viewBox="0 0 800 400"
+          style={{ width: "100%", maxWidth: "800px", height: "auto" }}
+          role="img"
+          aria-label="Chart showing basal metabolic rate climbing from 60% baseline at month 0 to 100% restored by month 9, with phase markers for survival, repair, and full restoration"
+        >
+          <text x="400" y="28" textAnchor="middle" fill="#e85d04" fontSize="20" fontWeight="bold" fontFamily="sans-serif">
+            9-Month BMR Reconstruction
+          </text>
+          <text x="400" y="48" textAnchor="middle" fill="#888" fontSize="13" fontFamily="sans-serif">
+            Metabolic recovery follows a predictable S-curve, not a switch
+          </text>
+
+          <line x1="60" y1="70" x2="60" y2="340" stroke="rgba(255,255,255,0.2)" strokeWidth="1.5" />
+          <text x="50" y="74" textAnchor="end" fill="#888" fontSize="11" fontFamily="sans-serif">100%</text>
+          <text x="50" y="142" textAnchor="end" fill="#888" fontSize="11" fontFamily="sans-serif">90%</text>
+          <text x="50" y="210" textAnchor="end" fill="#888" fontSize="11" fontFamily="sans-serif">80%</text>
+          <text x="50" y="278" textAnchor="end" fill="#888" fontSize="11" fontFamily="sans-serif">70%</text>
+          <text x="50" y="340" textAnchor="end" fill="#888" fontSize="11" fontFamily="sans-serif">60%</text>
+          <text x="20" y="205" textAnchor="middle" fill="#888" fontSize="12" fontFamily="sans-serif" transform="rotate(-90 20 205)">
+            BMR (% of normal)
+          </text>
+
+          <line x1="60" y1="340" x2="740" y2="340" stroke="rgba(255,255,255,0.2)" strokeWidth="1.5" />
+          <text x="60" y="360" textAnchor="middle" fill="#888" fontSize="11" fontFamily="sans-serif">0</text>
+          <text x="135" y="360" textAnchor="middle" fill="#888" fontSize="11" fontFamily="sans-serif">1</text>
+          <text x="211" y="360" textAnchor="middle" fill="#888" fontSize="11" fontFamily="sans-serif">2</text>
+          <text x="286" y="360" textAnchor="middle" fill="#888" fontSize="11" fontFamily="sans-serif">3</text>
+          <text x="362" y="360" textAnchor="middle" fill="#888" fontSize="11" fontFamily="sans-serif">4</text>
+          <text x="438" y="360" textAnchor="middle" fill="#888" fontSize="11" fontFamily="sans-serif">5</text>
+          <text x="513" y="360" textAnchor="middle" fill="#888" fontSize="11" fontFamily="sans-serif">6</text>
+          <text x="589" y="360" textAnchor="middle" fill="#888" fontSize="11" fontFamily="sans-serif">7</text>
+          <text x="664" y="360" textAnchor="middle" fill="#888" fontSize="11" fontFamily="sans-serif">8</text>
+          <text x="740" y="360" textAnchor="middle" fill="#888" fontSize="11" fontFamily="sans-serif">9</text>
+          <text x="400" y="385" textAnchor="middle" fill="#aaa" fontSize="12" fontFamily="sans-serif" fontWeight="bold">Months of Recovery</text>
+
+          <rect x="60" y="70" width="226" height="270" fill="rgba(239,68,68,0.06)" />
+          <rect x="286" y="70" width="227" height="270" fill="rgba(251,191,36,0.06)" />
+          <rect x="513" y="70" width="227" height="270" fill="rgba(34,197,94,0.06)" />
+
+          <text x="173" y="88" textAnchor="middle" fill="#fca5a5" fontSize="11" fontWeight="bold" fontFamily="sans-serif">SURVIVAL PHASE</text>
+          <text x="173" y="103" textAnchor="middle" fill="#fca5a5" fontSize="10" fontFamily="sans-serif">Stabilize, no fasting</text>
+          <text x="400" y="88" textAnchor="middle" fill="#fbbf24" fontSize="11" fontWeight="bold" fontFamily="sans-serif">REPAIR PHASE</text>
+          <text x="400" y="103" textAnchor="middle" fill="#fbbf24" fontSize="10" fontFamily="sans-serif">T3 cycles if needed</text>
+          <text x="626" y="88" textAnchor="middle" fill="#86efac" fontSize="11" fontWeight="bold" fontFamily="sans-serif">RESTORATION PHASE</text>
+          <text x="626" y="103" textAnchor="middle" fill="#86efac" fontSize="10" fontFamily="sans-serif">hGH support, full rebuild</text>
+
+          <polyline
+            points="60,340 135,330 211,310 286,275 362,225 438,180 513,140 589,108 664,85 740,72"
+            fill="none"
+            stroke="#e85d04"
+            strokeWidth="3.5"
+            strokeLinejoin="round"
+            strokeLinecap="round"
+          />
+
+          <circle cx="60" cy="340" r="4" fill="#e85d04" />
+          <circle cx="286" cy="275" r="4" fill="#e85d04" />
+          <circle cx="513" cy="140" r="4" fill="#e85d04" />
+          <circle cx="740" cy="72" r="5" fill="#e85d04" />
+
+          <text x="60" y="320" textAnchor="start" fill="#fca5a5" fontSize="10" fontFamily="sans-serif">60%</text>
+          <text x="286" y="265" textAnchor="middle" fill="#fbbf24" fontSize="10" fontFamily="sans-serif">~73%</text>
+          <text x="513" y="130" textAnchor="middle" fill="#86efac" fontSize="10" fontFamily="sans-serif">~92%</text>
+          <text x="740" y="62" textAnchor="end" fill="#86efac" fontSize="11" fontWeight="bold" fontFamily="sans-serif">100% restored</text>
+        </svg>
+        <p style={{ fontSize: "0.85rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic", maxWidth: "700px", marginLeft: "auto", marginRight: "auto" }}>
+          A typical 9-month BMR reconstruction. The Scorch Protocol can compress the Survival Phase from 3 months to roughly 1 month when applied correctly &mdash; the rest of the curve still requires its own biological time.
+        </p>
+      </div>
+
       <h3>Phase I: The Survival Phase (Months 1–3)</h3>
       <p>This phase is cut down to 1 month if you use the Scorch Protocol correctly.</p>
       <div className="guiding-questions box-blue">

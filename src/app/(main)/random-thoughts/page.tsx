@@ -474,6 +474,92 @@ export default function RandomThoughtsPage() {
       <section id="diminishing-returns">
         <h2>The Diminishing Returns Curve: When More Fasting Stops Helping (and the Acidification Magic)</h2>
 
+        <div style={{ margin: "2rem 0", textAlign: "center" }}>
+          <svg
+            viewBox="0 0 800 500"
+            style={{ width: "100%", maxWidth: "800px", height: "auto" }}
+            role="img"
+            aria-label="Chart showing stem cell regeneration peaks around day 3 to 5 of a dry fast then declines past day 5, while autophagy activity continues climbing past day 7 to 9 with a second acidotic crisis"
+          >
+            <text x="400" y="28" textAnchor="middle" fill="#e85d04" fontSize="20" fontWeight="bold" fontFamily="sans-serif">
+              The Diminishing Returns Curve
+            </text>
+            <text x="400" y="48" textAnchor="middle" fill="#888" fontSize="13" fontFamily="sans-serif">
+              Extra days past Day 5 are autophagy burn, not stem cell regeneration
+            </text>
+
+            <g transform="translate(245, 65)">
+              <line x1="0" y1="0" x2="22" y2="0" stroke="#e85d04" strokeWidth="3" strokeLinecap="round" />
+              <text x="28" y="4" fill="#e85d04" fontSize="12" fontWeight="bold" fontFamily="sans-serif">Stem Cell Regeneration</text>
+              <line x1="180" y1="0" x2="202" y2="0" stroke="#3b82f6" strokeWidth="3" strokeLinecap="round" />
+              <text x="208" y="4" fill="#3b82f6" fontSize="12" fontWeight="bold" fontFamily="sans-serif">Autophagy Activity</text>
+            </g>
+
+            <line x1="60" y1="90" x2="60" y2="430" stroke="rgba(255,255,255,0.2)" strokeWidth="1.5" />
+            <text x="50" y="95" textAnchor="end" fill="#888" fontSize="11" fontFamily="sans-serif">100%</text>
+            <text x="50" y="180" textAnchor="end" fill="#888" fontSize="11" fontFamily="sans-serif">75%</text>
+            <text x="50" y="265" textAnchor="end" fill="#888" fontSize="11" fontFamily="sans-serif">50%</text>
+            <text x="50" y="350" textAnchor="end" fill="#888" fontSize="11" fontFamily="sans-serif">25%</text>
+            <text x="50" y="430" textAnchor="end" fill="#888" fontSize="11" fontFamily="sans-serif">0%</text>
+            <text x="20" y="260" textAnchor="middle" fill="#888" fontSize="12" fontFamily="sans-serif" transform="rotate(-90 20 260)">
+              Activity (relative)
+            </text>
+
+            <line x1="60" y1="430" x2="740" y2="430" stroke="rgba(255,255,255,0.2)" strokeWidth="1.5" />
+            <text x="60" y="450" textAnchor="middle" fill="#888" fontSize="11" fontFamily="sans-serif">0</text>
+            <text x="128" y="450" textAnchor="middle" fill="#888" fontSize="11" fontFamily="sans-serif">1</text>
+            <text x="196" y="450" textAnchor="middle" fill="#888" fontSize="11" fontFamily="sans-serif">2</text>
+            <text x="264" y="450" textAnchor="middle" fill="#888" fontSize="11" fontFamily="sans-serif">3</text>
+            <text x="332" y="450" textAnchor="middle" fill="#888" fontSize="11" fontFamily="sans-serif">4</text>
+            <text x="400" y="450" textAnchor="middle" fill="#888" fontSize="11" fontFamily="sans-serif">5</text>
+            <text x="468" y="450" textAnchor="middle" fill="#888" fontSize="11" fontFamily="sans-serif">6</text>
+            <text x="536" y="450" textAnchor="middle" fill="#888" fontSize="11" fontFamily="sans-serif">7</text>
+            <text x="604" y="450" textAnchor="middle" fill="#888" fontSize="11" fontFamily="sans-serif">8</text>
+            <text x="672" y="450" textAnchor="middle" fill="#888" fontSize="11" fontFamily="sans-serif">9</text>
+            <text x="740" y="450" textAnchor="middle" fill="#888" fontSize="11" fontFamily="sans-serif">10</text>
+            <text x="400" y="475" textAnchor="middle" fill="#aaa" fontSize="12" fontFamily="sans-serif" fontWeight="bold">Day of Dry Fast</text>
+
+            <line x1="264" y1="90" x2="264" y2="430" stroke="rgba(251,191,36,0.25)" strokeWidth="1" strokeDasharray="4 4" />
+            <line x1="400" y1="90" x2="400" y2="430" stroke="rgba(34,197,94,0.25)" strokeWidth="1" strokeDasharray="4 4" />
+            <line x1="604" y1="90" x2="604" y2="430" stroke="rgba(239,68,68,0.25)" strokeWidth="1" strokeDasharray="4 4" />
+
+            <polyline
+              points="60,400 128,360 196,290 264,200 332,165 400,140 468,120 536,100 604,82 672,72 740,68"
+              fill="none"
+              stroke="#3b82f6"
+              strokeWidth="3"
+              strokeLinejoin="round"
+              strokeLinecap="round"
+              opacity="0.9"
+            />
+
+            <polyline
+              points="60,380 128,320 196,235 264,115 332,100 400,108 468,160 536,235 604,310 672,370 740,400"
+              fill="none"
+              stroke="#e85d04"
+              strokeWidth="3.5"
+              strokeLinejoin="round"
+              strokeLinecap="round"
+            />
+
+            <text x="264" y="105" textAnchor="middle" fill="#fbbf24" fontSize="11" fontWeight="bold" fontFamily="sans-serif">
+              Day 3 Acidotic Crisis
+            </text>
+            <text x="400" y="128" textAnchor="middle" fill="#86efac" fontSize="11" fontWeight="bold" fontFamily="sans-serif">
+              Day 5 Ceiling
+            </text>
+            <text x="604" y="70" textAnchor="middle" fill="#fca5a5" fontSize="11" fontWeight="bold" fontFamily="sans-serif">
+              2nd Acidotic Crisis
+            </text>
+            <text x="604" y="84" textAnchor="middle" fill="#fca5a5" fontSize="10" fontFamily="sans-serif">
+              (biofilm melt)
+            </text>
+          </svg>
+          <p style={{ fontSize: "0.85rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic", maxWidth: "700px", marginLeft: "auto", marginRight: "auto" }}>
+            Stem cell regeneration peaks around the Day 3 acidotic crisis and hits a ceiling by Day 5. Past that, autophagy keeps climbing &mdash; especially through the second acidotic crisis at Day 7&ndash;9, where deeper acidification melts biofilms and reaches what shorter fasts cannot.
+          </p>
+        </div>
+
         <div className="guiding-questions box-orange">
           <h3>The Stem Cell Regeneration Ceiling</h3>
           <p>

@@ -2,12 +2,27 @@ import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
+import MermaidCharts from "@/components/MermaidCharts";
 
 export const metadata: Metadata = {
   title: "Phase 2: The Dry Fast | The Scorch Protocol",
   description:
     "Phase 2: A step-by-step guide to dry fasting safely: day-by-day breakdown, red flags, weight milestones, and refeeding timing.",
 };
+
+const dryFastStages = `graph LR
+  D0["Day 0<br/>Last meal<br/>Prep complete"] --> D1["Day 1<br/>Glycogen burn<br/>Cortisol surge<br/>HR up 10-20 bpm"]
+  D1 --> D2["Day 2<br/>Acidosis onset<br/>Ketones ramping<br/>Hunger fades"]
+  D2 --> D3["Day 3<br/>ACIDOTIC CRISIS<br/>pH 7.40 → 7.34<br/>Parasympathetic flip<br/>The hard wall"]
+  D3 --> D4["Day 4-5<br/>Deep repair phase<br/>Healing fever<br/>Mental clarity<br/>Stem cells active"]
+  D4 --> D7["Day 7-9 (optional)<br/>2nd ACIDOTIC CRISIS<br/>pH drops further<br/>Biofilms melt<br/>Nuclear-option zone"]
+
+  style D0 fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
+  style D1 fill:#713f12,stroke:#eab308,stroke-width:2px,color:#fde047
+  style D2 fill:#713f12,stroke:#eab308,stroke-width:2px,color:#fde047
+  style D3 fill:#7c2d12,stroke:#f97316,stroke-width:3px,color:#fdba74
+  style D4 fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
+  style D7 fill:#7f1d1d,stroke:#ef4444,stroke-width:2px,color:#fca5a5`;
 
 export default function DryFastingPage() {
   return (
@@ -114,6 +129,14 @@ export default function DryFastingPage() {
       </p>
 
       <h3>The Stages of a 5-Day Fast</h3>
+
+      <div style={{ margin: "1.5rem 0" }}>
+        <MermaidCharts charts={[dryFastStages]} />
+        <p style={{ fontSize: "0.9rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic", textAlign: "center" }}>
+          The full arc of a dry fast. Day 3 is the hard wall (acidotic crisis); Days 4&ndash;5 are where the deep repair lives. The optional second crisis at Day 7&ndash;9 is the nuclear-option zone for biofilm-protected chronic illness.
+        </p>
+      </div>
+
       <ul>
         <li>
           <strong>Burning Sugar (0–24h):</strong> Your body uses up its sugar

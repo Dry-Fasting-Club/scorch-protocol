@@ -1,12 +1,42 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
+import MermaidCharts from "@/components/MermaidCharts";
 
 export const metadata: Metadata = {
   title: "Dealing with Long Covid Basics | The Scorch Protocol",
   description:
     "Foundational supportive-care basics for Long Covid: anti-inflammatory medications, anti-clotting supplements, mast cell support, and lifestyle interventions. The Scorch Protocol is a more permanent solution. These are the basics.",
 };
+
+const cascadeCollapse = `graph TD
+  Start["SARS-CoV-2 Infection"] --> Spike["Spike protein PERSISTS in tissue<br/>(skull marrow, meninges, vasculature<br/>up to 4 years post-infection)"]
+
+  Spike --> Mito["Mitochondrial damage<br/>(zombie mitochondria:<br/>damaged but not cleared)"]
+  Spike --> Vasc["Endothelial dysfunction<br/>(impaired nitric oxide)"]
+  Spike --> Immune["Chronic immune activation<br/>(Th2 dominance, MCAS priming)"]
+
+  Mito --> Energy["Cellular ATP collapse"]
+  Vasc --> Auto["Autonomic dysregulation"]
+  Immune --> Latent["Latent virus reactivation<br/>(EBV, HHV-6, HSV)"]
+
+  Energy --> Thyroid["T3 cannot enter cells<br/>(tissue-level resistance)"]
+  Auto --> POTS["POTS<br/>(baroreceptor failure)"]
+  Latent --> MCAS["MCAS<br/>+ histamine flood"]
+
+  Thyroid --> Sym["The chronic state you live in"]
+  POTS --> Sym
+  MCAS --> Sym
+
+  Sym --> S1["Fatigue / PEM"]
+  Sym --> S2["Brain fog"]
+  Sym --> S3["Insomnia"]
+  Sym --> S4["Cold + low temp"]
+  Sym --> S5["Recurring infections"]
+
+  style Start fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
+  style Spike fill:#7f1d1d,stroke:#ef4444,stroke-width:2px,color:#fca5a5
+  style Sym fill:#7c2d12,stroke:#f97316,stroke-width:3px,color:#fdba74`;
 
 export default function LongCovidBasicsPage() {
   return (
@@ -51,6 +81,21 @@ export default function LongCovidBasicsPage() {
           <a href="/dry-fasting">Dry Fasting</a> page,{" "}
           <a href="/t3-therapy">T3 Therapy</a>, and the{" "}
           <a href="/viral-reactivation">Viral Reactivation</a> deep-dive.
+        </p>
+      </div>
+
+      <h2>The Cascade That Got You Here</h2>
+      <p>
+        Before reaching for any supplement or medication, it helps to see
+        the chain. Long Covid is not a single problem you can hit with a
+        single tool. It is a cascade collapse with multiple parallel paths,
+        all running from the same upstream source.
+      </p>
+
+      <div style={{ margin: "1.5rem 0" }}>
+        <MermaidCharts charts={[cascadeCollapse]} />
+        <p style={{ fontSize: "0.9rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic", textAlign: "center" }}>
+          The basics on this page target the SYMPTOM tier at the bottom. The Scorch Protocol targets the spike protein at the top and reverses the cascade from the source.
         </p>
       </div>
 

@@ -2,12 +2,32 @@ import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
+import MermaidCharts from "@/components/MermaidCharts";
 
 export const metadata: Metadata = {
   title: "Symptom Management | The Scorch Protocol",
   description:
     "A symptom-by-symptom guide to managing side effects during The Scorch Protocol: Herxheimer reactions, electrolytes, and more.",
 };
+
+const herxDecisionTree = `graph TD
+  Start["Concerning symptom appears<br/>during the fast or T3 cycle"] --> Vital{"Check vital signs in order"}
+
+  Vital --> HR{"1. Resting HR > 120 bpm<br/>SUSTAINED?"}
+  HR -->|Yes| Stop["STOP — break the fast<br/>with coconut water"]
+  HR -->|No| Urine{"2. No urination<br/>for 24 hours?"}
+
+  Urine -->|Yes| Stop
+  Urine -->|No| Temp{"3. Core temp below 35°C<br/>OR sustained fever above 38.5°C?"}
+
+  Temp -->|Yes| Stop
+  Temp -->|No| Neuro{"4. Severe confusion,<br/>fainting, vision changes?"}
+
+  Neuro -->|Yes| Stop
+  Neuro -->|No| Herx["HERXHEIMER REACTION<br/>(safe to push through)<br/><br/>• Flu-like aches and chills<br/>• Skin reactions / itching<br/>• Energy crash + brain fog<br/>• Mood shifts / emotional release<br/><br/>Action: hydrate (if water fast),<br/>rest, lie still, wait it out"]
+
+  style Stop fill:#7f1d1d,stroke:#ef4444,stroke-width:4px,color:#fca5a5
+  style Herx fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac`;
 
 export default function SymptomManagementPage() {
   return (
@@ -93,6 +113,23 @@ export default function SymptomManagementPage() {
           the clearest signs of MCAS-driven neurological dysfunction and a
           direct indicator that the Scorch Protocol is needed.
         </div>
+      </div>
+
+      <h2>Herxheimer vs Warning Sign: How to Tell the Difference</h2>
+      <p>
+        Most symptoms during the fast or a T3 cycle are Herxheimer reactions
+        &mdash; uncomfortable but expected die-off and detox effects you push
+        through. A small subset are true warning signs that require breaking
+        the fast immediately. Knowing the difference is the single most
+        important on-the-fly skill in the protocol. Use this triage chart
+        before reaching for the phone or the food.
+      </p>
+
+      <div style={{ margin: "1.5rem 0" }}>
+        <MermaidCharts charts={[herxDecisionTree]} />
+        <p style={{ fontSize: "0.9rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic", textAlign: "center" }}>
+          Vital signs override subjective discomfort every time. If all four checks pass, what you are feeling is Herxheimer and is part of the work. If any one fails, stop.
+        </p>
       </div>
 
       <h2>1. Low Energy &amp; Fatigue</h2>

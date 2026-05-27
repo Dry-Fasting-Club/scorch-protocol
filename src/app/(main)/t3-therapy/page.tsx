@@ -3,6 +3,31 @@ import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
 import Image from "next/image";
+import MermaidCharts from "@/components/MermaidCharts";
+
+const t3ResistanceChart = `graph LR
+  subgraph Healthy["HEALTHY PERSON"]
+    direction TB
+    HA["T3 in blood<br/>(normal labs)"] --> HB["Enters cell freely<br/>(transporters working)"]
+    HB --> HC["Binds nuclear receptor<br/>activates mitochondria"]
+    HC --> HD["Energy + heat<br/>NORMAL FUNCTION"]
+  end
+
+  subgraph Chronic["CHRONIC ILLNESS PATIENT"]
+    direction TB
+    CA["T3 in blood<br/>(labs ALSO look NORMAL)"] --> CB["Cell membrane resistant<br/>T3 cannot enter properly"]
+    CB --> CC["Mitochondria starved<br/>despite 'normal' labs"]
+    CC --> CD["Fatigue + brain fog<br/>+ low temperature<br/>= dismissed as anxiety"]
+  end
+
+  style HA fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
+  style HB fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
+  style HC fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
+  style HD fill:#14532d,stroke:#22c55e,stroke-width:3px,color:#86efac
+  style CA fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
+  style CB fill:#713f12,stroke:#eab308,stroke-width:2px,color:#fde047
+  style CC fill:#7c2d12,stroke:#f97316,stroke-width:2px,color:#fdba74
+  style CD fill:#7f1d1d,stroke:#ef4444,stroke-width:3px,color:#fca5a5`;
 
 export const metadata: Metadata = {
   title: "Phase 4: T3 Therapy | The Scorch Protocol",
@@ -258,6 +283,13 @@ export default function T3TherapyPage() {
           inside your cells where it&rsquo;s needed. This is called{" "}
           <strong>tissue-level resistance</strong>.
         </p>
+
+        <div style={{ margin: "1.5rem 0" }}>
+          <MermaidCharts charts={[t3ResistanceChart]} />
+          <p style={{ fontSize: "0.9rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic", textAlign: "center" }}>
+            Side-by-side: the same lab result, two completely different cellular realities. This is why &ldquo;your labs are normal&rdquo; is not the answer chronic illness patients need.
+          </p>
+        </div>
         <p>
           Think of T3 as a &ldquo;key&rdquo; and your cells as
           &ldquo;doors.&rdquo; In many sick people, the locks are jammed. The T3

@@ -2,12 +2,58 @@ import type { Metadata } from "next";
 import Script from "next/script";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
+import MermaidCharts from "@/components/MermaidCharts";
 
 export const metadata: Metadata = {
   title: "Viral Reactivation | The Scorch Protocol",
   description:
     "The deepest dive into viral reactivation in chronic illness: why dry fasting protects you and the refeed window puts you at maximum risk, and how to bridge it safely with water fasting, T3, lysine, and antivirals.",
 };
+
+const reactivationCascade = `graph TD
+  Start["DRY FAST<br/>Body biologically hostile to viral replication"] --> Defenses["4 Active Antiviral Defenses<br/>• Autophagy clears infected cells<br/>• Ketones starve viral metabolism<br/>• mTOR shutdown blocks viral protein synthesis<br/>• NK cells + stem cell immune renewal"]
+
+  Defenses --> Refeed["REFEED BEGINS"]
+
+  Refeed --> Vuln["5 Simultaneous Vulnerabilities Open"]
+
+  Vuln --> V1["mTOR roars back<br/>(viral replication signal returns)"]
+  Vuln --> V2["Autophagy shuts off<br/>(cleanup crew clocks out)"]
+  Vuln --> V3["T-cells still in bone marrow<br/>(surveillance physically absent)"]
+  Vuln --> V4["Cortisol still elevated<br/>(herpes trigger active)"]
+  Vuln --> V5["T3 still crashed<br/>(antiviral interferon weakened)"]
+
+  V1 --> Choice{"Antiviral stack<br/>in place before refeed?"}
+  V2 --> Choice
+  V3 --> Choice
+  V4 --> Choice
+  V5 --> Choice
+
+  Choice -->|YES: ivermectin + lysine + monolaurin + Tα1| Safe["Window closed safely<br/>Gains locked in"]
+  Choice -->|NO: unprotected refeed| Bad["Virus reactivates AND EXPANDS<br/>Seeds new ganglia and tissue<br/>Patient ends MORE broadly infected<br/>than starting baseline"]
+
+  style Defenses fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
+  style Refeed fill:#7c2d12,stroke:#f97316,stroke-width:2px,color:#fdba74
+  style Vuln fill:#713f12,stroke:#eab308,stroke-width:2px,color:#fde047
+  style Safe fill:#14532d,stroke:#22c55e,stroke-width:3px,color:#86efac
+  style Bad fill:#7f1d1d,stroke:#ef4444,stroke-width:4px,color:#fca5a5`;
+
+const pathogenStack = `graph TB
+  Core["CORE SCORCH PROTOCOL<br/>Dry Fast + T3 + hGH"]
+
+  Core -.->|runs in parallel with| AV["ANTIVIRAL LAYER<br/>Always-on prophylaxis<br/><br/>PRIMARY: Ivermectin<br/>RESCUE: Valacyclovir (prodrome only)<br/>NATURAL: Lysine, Monolaurin,<br/>Olive Leaf, Elderberry"]
+
+  Core -.->|runs in parallel with| AF["ANTIFUNGAL LAYER<br/>If fungal-focused patient<br/><br/>PRIMARY: Fluconazole<br/>REJECTED: Itraconazole (too strong)<br/>REJECTED: Natural antifungals (too weak)"]
+
+  Core -.->|runs in parallel with| AP["ANTIPARASITIC LAYER<br/>Default for most patients<br/><br/>PRIMARY: Ivermectin (double duty)<br/>SYNERGY: Ivermectin + Dry Fasting<br/>REJECTED: Natural antiparasitics (too weak)"]
+
+  Core -.->|runs in parallel with| IR["IMMUNE REBUILD LAYER<br/>Distinct from pathogen kill<br/><br/>EARLY REFEED: Thymalin<br/>LATE REFEED or PRE-FAST: Tα1<br/>(strengthens AND balances)"]
+
+  style Core fill:#7c2d12,stroke:#e85d04,stroke-width:3px,color:#fdba74
+  style AV fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
+  style AF fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
+  style AP fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
+  style IR fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1`;
 
 export default function ViralReactivationPage() {
   return (
@@ -40,6 +86,13 @@ export default function ViralReactivationPage() {
           fast suppressing now has a multi-day window to replicate, refill
           eradicated reservoirs, and infect entirely new nerve cells before
           you have any defence in place.
+        </p>
+      </div>
+
+      <div style={{ margin: "2rem 0" }}>
+        <MermaidCharts charts={[reactivationCascade]} />
+        <p style={{ fontSize: "0.9rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic", textAlign: "center" }}>
+          The full reactivation cascade. The fasted state is safe. The refeed window is where everything can come apart if the antiviral stack is not in place before the first calorie returns.
         </p>
       </div>
 
@@ -434,6 +487,13 @@ export default function ViralReactivationPage() {
         protocol is built around. Dose-level work is reserved for direct
         clinical assessment.
       </p>
+
+      <div style={{ margin: "2rem 0" }}>
+        <MermaidCharts charts={[pathogenStack]} />
+        <p style={{ fontSize: "0.9rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic", textAlign: "center" }}>
+          The Scorch Protocol runs four parallel layers, not a single linear protocol. Pathogen targeting (antiviral, antifungal, antiparasitic) and immune rebuild (thymic peptides) all run alongside the core fasting + T3 + hGH work.
+        </p>
+      </div>
 
       <div
         style={{
