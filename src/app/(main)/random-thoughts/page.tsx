@@ -799,6 +799,47 @@ export default function RandomThoughtsPage() {
             it cannot fix the underlying problem on its own.
           </p>
         </div>
+
+        <div className="guiding-questions box-lime">
+          <h3>4. Practical Defense: Tilting the Oral Biome in Your Favor</h3>
+          <p>
+            The deeper repair happens at the immune and metabolic
+            level, but there are things to do right now that shift the
+            oral environment in your favor while the rest of the system
+            is rebuilding:
+          </p>
+          <ul>
+            <li>
+              <strong>Brush more frequently.</strong> Twice a day is
+              the minimum. After every meal is better, especially
+              during chronic illness when immune defense is reduced.
+              Mechanical removal of plaque matters more than how
+              aggressive the brushing is.
+            </li>
+            <li>
+              <strong>Switch to hydroxyapatite toothpaste.</strong>{" "}
+              Nano-hydroxyapatite (n-HA) is the same calcium-phosphate
+              compound that makes up tooth enamel. It bonds to the
+              tooth surface and remineralizes from the outside in.
+              It is a real non-fluoride alternative with growing
+              research behind it.
+            </li>
+            <li>
+              <strong>Consider remineralizing chewing gum.</strong>{" "}
+              Brands like Underbrush combine nano-hydroxyapatite with
+              xylitol and other biome-supportive ingredients. Chewing
+              after meals stimulates saliva (which is itself
+              protective) and delivers remineralizing compounds where
+              they are needed.
+            </li>
+          </ul>
+          <p>
+            None of this replaces the deeper work. Think of it as
+            defense while the immune system is rebuilding. Once the
+            underlying capacity comes back online, the oral biome
+            usually starts trending in the right direction on its own.
+          </p>
+        </div>
       </section>
 
       <GuidanceBox />
