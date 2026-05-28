@@ -38,6 +38,7 @@ export default function RandomThoughtsPage() {
           <li><a href="#energy-balance-t3">Energy Balance, T3 Therapy, and the &ldquo;Stone&rdquo; Paradox</a></li>
           <li><a href="#genetic-polymorphisms">Genetic Polymorphisms: The Self-Selection Trap</a></li>
           <li><a href="#diminishing-returns">Diminishing Returns: When More Fasting Stops Helping (and the Acidification Magic)</a></li>
+          <li><a href="#cavity-immune-signal">The Cavity Signal: Oral Health as an Immune System Indicator</a></li>
         </ul>
       </div>
 
@@ -707,6 +708,95 @@ export default function RandomThoughtsPage() {
             cycles as well. The body responds to hormesis. A rare, sharp
             intervention produces a stronger response than a long, ground-down
             intervention. Use the tools sparingly so they keep their power.
+          </p>
+        </div>
+      </section>
+
+      <hr style={{ margin: "3rem 0", border: 0, borderTop: "1px solid #eee" }} />
+
+      <section id="cavity-immune-signal">
+        <h2>The Cavity Signal: Oral Health as an Immune System Indicator</h2>
+
+        <div className="guiding-questions box-deeporange">
+          <h3>1. The Immune Crash Window</h3>
+          <p>
+            Every serious infection creates an immune vulnerability
+            window. COVID, Long Covid, Lyme, and any chronic illness
+            that ended in ME/CFS share this pattern. The body undergoes
+            an incredible stressor, and the immune system gets degraded
+            for as long as the pathogen is active.
+          </p>
+          <p>
+            With COVID specifically, your immune system was destroyed
+            for however long the virus was replicating. How deep that
+            damage went depends on three things: how strong your immune
+            system was when you got hit, what medication or support you
+            had access to, and how quickly the virus was cleared.
+          </p>
+          <p>
+            The parallel to dry fasting is direct. A dry fast creates a
+            brief vulnerability window when you exit. A COVID infection
+            creates the same kind of window, but for much longer, and
+            proportional to how severe the infection was. Some people
+            bounce back in weeks. Others stay in the window for years.
+            That is the ME/CFS endpoint.
+          </p>
+        </div>
+
+        <div className="guiding-questions box-blue">
+          <h3>2. The Visible Indicator: Cavities</h3>
+          <p>
+            A healthy immune system produces fewer cavities. Forty or
+            fifty years ago, cavities were rare. The change correlates
+            with the introduction of high-sugar diets, which compromised
+            the immune system at the same time as the rise in cancer
+            rates. Both trends share a root cause: a population-level
+            immune system in decline.
+          </p>
+          <p>
+            Right now, particularly in the last six years, cavities in
+            children have spiked. Run the statistics. Talk to any
+            dentist. The increase is real and accelerating. This is an
+            indicator that children&rsquo;s immune systems are being
+            damaged at population scale, and the same pattern shows up
+            in chronically ill adults.
+          </p>
+          <p>
+            I have tons of patients dealing with this. Many of them
+            found out they needed tooth extractions, root canals, and
+            deep work because the body was not putting up any defense
+            against ordinary oral bacteria. This is not primarily a
+            hygiene problem, and it does not have much to do with acid
+            either. It is an immune defense problem expressing itself
+            through the mouth.
+          </p>
+        </div>
+
+        <div className="guiding-questions box-orange">
+          <h3>3. Fighting on All Fronts: Biome and Immune Together</h3>
+          <p>
+            Oral bacteria are not benign. When the biome is disrupted,
+            the species that win out are the ones that produce the most
+            damage. For some reason, COVID disrupts the biome as well
+            as the immune system, including the oral biome. You end up
+            fighting on both fronts at the same time: less immune
+            capacity, and a more hostile microbial environment.
+          </p>
+          <p>
+            This is why chronically ill patients often present with
+            10, 20, or even 30 different things that need addressing
+            or at least kept in mind and observed. The damage is not
+            in one system. It runs across the immune system, the
+            biome, the metabolism, and the connective tissues that
+            depend on all of them. Cavities are just one of the more
+            visible signals.
+          </p>
+          <p>
+            If you are watching cavities multiply alongside chronic
+            illness, treat them as data. They are pointing at the same
+            root the Scorch Protocol is built to address: immune
+            collapse plus biome disruption. Dental work matters, but
+            it cannot fix the underlying problem on its own.
           </p>
         </div>
       </section>
