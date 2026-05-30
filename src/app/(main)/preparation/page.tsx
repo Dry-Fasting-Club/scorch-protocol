@@ -300,6 +300,7 @@ export default function PreparationPage() {
 
       <FaithBlock
         title="Into the Wilderness: Preparing Spirit Alongside Body"
+        videoFileSrc="/assets/videos/catholicism%20150billion%20a%20year%20charity.mp4"
         instagramSrc="https://www.instagram.com/reel/DYuUGBjM4bl/embed/"
       >
         <p>
