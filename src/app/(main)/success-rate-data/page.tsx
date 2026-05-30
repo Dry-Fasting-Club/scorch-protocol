@@ -366,8 +366,6 @@ export default function SuccessRateDataPage() {
 
       <FaithBlock
         title="The Prayer of Faith Will Make the Sick Person Well"
-        imageSrc="/assets/images/faith/faith-success-data.jpg"
-        imageAlt="People standing together in testimony, community and witness"
       >
         <p>
           <strong>James 5:15: &ldquo;And the prayer offered in faith will make the sick person well; the Lord will raise them up.&rdquo;</strong>

@@ -516,8 +516,6 @@ export default function HomePage() {
 
       <FaithBlock
         title="Healing the Whole Person: Body, Mind, and Spirit"
-        imageSrc="/assets/images/faith/faith-home.png"
-        imageAlt="Light breaking through storm clouds, hope and healing"
         videoSrc="https://www.youtube.com/embed/V9GGh_sFLYw"
         videoCaption="The world elites want us divided, they amplify hate and propagandized both Jews and Non-Jews against each other. To really flip their propaganda on its head uniting together would be the ultimate counter punch."
       >

@@ -852,8 +852,6 @@ export default function TipsAndTricksPage() {
 
       <FaithBlock
         title="Put On the Full Armor of God: We Do Not Apologize for Naming Evil"
-        imageSrc="/assets/images/faith/faith-tips-tricks.jpg"
-        imageAlt="A warrior standing in armor against the light, Ephesians 6"
       >
         <p>
           <strong>Ephesians 6:10-12: &ldquo;Put on the full armor of God, so that you can take your stand against the devil&rsquo;s schemes. For our struggle is not against flesh and blood, but against the rulers, against the authorities, against the powers of this dark world.&rdquo;</strong>

@@ -169,8 +169,6 @@ export default function GeneralQuestionsPage() {
 
       <FaithBlock
         title="Your Body Is a Temple: The Theology Behind Why This Works"
-        imageSrc="/assets/images/faith/faith-faq-general.jpg"
-        imageAlt="Cathedral light streaming through high windows, the body as sacred space"
       >
         <p>
           <strong>1 Corinthians 6:19-20: &ldquo;Do you not know that your bodies are temples of the Holy Spirit? You were bought at a price. Therefore honor God with your bodies.&rdquo;</strong>

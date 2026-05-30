@@ -427,8 +427,6 @@ export default function RefeedForBmrPage() {
 
       <FaithBlock
         title="Let Perseverance Finish Its Work"
-        imageSrc="/assets/images/faith/faith-refeed-bmr.jpg"
-        imageAlt="A long road stretching through open landscape, the long journey of healing"
       >
         <p>
           <strong>James 1:3-4: &ldquo;Because you know that the testing of your faith produces perseverance. Let perseverance finish its work so that you may be mature and complete, not lacking anything.&rdquo;</strong>

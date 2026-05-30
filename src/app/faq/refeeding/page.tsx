@@ -260,8 +260,6 @@ export default function RefeedingFaqPage() {
 
       <FaithBlock
         title="At the Proper Time We Will Reap if We Do Not Give Up"
-        imageSrc="/assets/images/faith/faith-faq-refeeding.jpg"
-        imageAlt="Still water at dawn, patience, peace, and trust"
       >
         <p>
           <strong>Galatians 6:9: &ldquo;Let us not become weary in doing good, for at the proper time we will reap a harvest if we do not give up.&rdquo;</strong>

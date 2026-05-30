@@ -300,8 +300,6 @@ export default function PreparationPage() {
 
       <FaithBlock
         title="Into the Wilderness: Preparing Spirit Alongside Body"
-        imageSrc="/assets/images/faith/faith-preparation.png"
-        imageAlt="A solitary figure in prayer at the edge of a wilderness"
         instagramSrc="https://www.instagram.com/reel/DYuUGBjM4bl/embed/"
       >
         <p>
