@@ -97,7 +97,7 @@ It is not healing. It is the body adapting to the lower energy floor by reducing
 
 This adaptation is the most dangerous moment in the disease course. Patients stop pursuing aggressive intervention because they feel "manageable." They settle. And then they live the next thirty years at thirty percent.
 
-For a focused breakdown of why post-Covid fatigue specifically does not resolve with rest, see [Why Am I Still Tired After Covid? The Real Mechanism Doctors Miss](/blog/still-tired-after-covid).
+For a focused breakdown of why post-Covid fatigue specifically does not resolve with rest, see [Why Am I Still Tired After Covid? The Real Mechanism Doctors Miss](/blog/still-tired-after-covid). The mechanism-specific breakdowns of the most common symptom presentations are covered in [Long Covid Brain Fog: The Real Mechanism](/blog/long-covid-brain-fog-mechanism), [Long Covid and MCAS: Why They Almost Always Come Together](/blog/long-covid-mcas-connection), and [POTS After Covid: The Metabolic Mechanism](/blog/pots-after-covid-mechanism).
 
 ## Why Most Long Covid Treatments Fail
 

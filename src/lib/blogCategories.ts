@@ -7,6 +7,7 @@
 export const BLOG_CATEGORIES = [
   { slug: "long-covid",          label: "Long Covid" },
   { slug: "me-cfs",              label: "ME/CFS" },
+  { slug: "chronic-lyme",        label: "Chronic Lyme" },
   { slug: "dry-fasting-science", label: "Dry Fasting Science" },
   { slug: "t3-therapy",          label: "T3 Therapy" },
   { slug: "hgh-peptides",        label: "hGH & Peptides" },

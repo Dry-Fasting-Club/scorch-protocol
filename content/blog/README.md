@@ -60,6 +60,7 @@ Defined in `src/lib/blogCategories.ts` (single source of truth):
 |---|---|
 | `long-covid` | Long Covid |
 | `me-cfs` | ME/CFS |
+| `chronic-lyme` | Chronic Lyme |
 | `dry-fasting-science` | Dry Fasting Science |
 | `t3-therapy` | T3 Therapy |
 | `hgh-peptides` | hGH & Peptides |

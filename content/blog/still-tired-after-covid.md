@@ -94,7 +94,7 @@ If your fatigue comes with several of these, the metabolic collapse model fits y
 - Loss of libido, missed periods, or other hormonal disruption
 - Persistent low-grade inflammation, swollen lymph nodes, or night sweats
 
-These symptoms are not unrelated complaints to be triaged separately. They are the signature of a single metabolic system operating at fraction capacity, manifesting in every system that depends on that capacity.
+These symptoms are not unrelated complaints to be triaged separately. They are the signature of a single metabolic system operating at fraction capacity, manifesting in every system that depends on that capacity. Specific mechanism breakdowns: [Long Covid Brain Fog](/blog/long-covid-brain-fog-mechanism), [Long Covid and MCAS](/blog/long-covid-mcas-connection), [POTS After Covid](/blog/pots-after-covid-mechanism).
 
 ## What Actually Works
 
