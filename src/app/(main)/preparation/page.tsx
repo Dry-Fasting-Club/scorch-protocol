@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import FaithBlock from "@/components/FaithBlock";
+import InterestingVideoBlock from "@/components/InterestingVideoBlock";
 
 export const metadata: Metadata = {
   title: "Phase 1: Preparation | The Scorch Protocol",
@@ -298,21 +298,10 @@ export default function PreparationPage() {
         </div>
       </div>
 
-      <FaithBlock
-        title="Into the Wilderness: Preparing Spirit Alongside Body"
+      <InterestingVideoBlock
         videoFileSrc="/assets/videos/catholicism%20150billion%20a%20year%20charity.mp4"
         instagramSrc="https://www.instagram.com/reel/DYuUGBjM4bl/embed/"
-      >
-        <p>
-          <strong>Luke 4:1-2: &ldquo;Jesus, full of the Holy Spirit, left the Jordan and was led by the Spirit into the wilderness, where for forty days he was tempted.&rdquo;</strong>
-        </p>
-        <p>
-          Jesus did not enter the wilderness unprepared, and He did not go reluctantly. He went full of the Spirit, deliberately, led. As you prepare your body with blood tests, nutrients, and dietary changes, prepare your spirit too. What fears are you bringing in? What resentments are still fueling your inflammation? Unresolved bitterness and chronic fear manifest in the body as dysfunction. Forgive someone you have been holding onto. Not for them, but for the freedom of your own cells. <strong>The body heals faster when the spirit is at peace.</strong>
-        </p>
-        <p>
-          <em>You were led here. Trust that.</em>
-        </p>
-      </FaithBlock>
+      />
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="preparation" sectionTitle="Phase 1: Preparation" />

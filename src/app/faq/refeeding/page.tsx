@@ -258,6 +258,8 @@ export default function RefeedingFaqPage() {
 
       </div>
 
+      {/* FaithBlock hidden for now — to restore, remove the `false && (` wrapper and matching `)` */}
+      {false && (
       <FaithBlock
         title="At the Proper Time We Will Reap if We Do Not Give Up"
       >
@@ -268,6 +270,7 @@ export default function RefeedingFaqPage() {
           The refeeding phase demands patience in a culture that has none. I have worked directly with dozens of people through this phase, and seen many more report their outcomes through surveys. The ones who healed most fully were not the ones who rushed. They were the ones who finally, after years of fighting their own body, learned to cooperate with it. Every question on this page is ultimately a question about trust. <strong>At the proper time you will reap. Do not give up.</strong>
         </p>
       </FaithBlock>
+      )}
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="faq/refeeding" sectionTitle="Refeeding Strategy" />

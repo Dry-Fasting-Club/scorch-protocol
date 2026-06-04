@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import FaithBlock from "@/components/FaithBlock";
+import InterestingVideoBlock from "@/components/InterestingVideoBlock";
 import MermaidCharts from "@/components/MermaidCharts";
 
 export const metadata: Metadata = {
@@ -466,22 +466,9 @@ export default function SymptomManagementPage() {
         increase until you have tested that dose for several nights.
       </p>
 
-      <FaithBlock
-        title="Warriors of Truth"
+      <InterestingVideoBlock
         tweetUrl="https://x.com/whitesocksclips/status/2038856462072754376"
-      >
-        <p>
-          <strong>&ldquo;Then you will know the truth, and the truth will set you free.&rdquo;</strong>
-          <br />
-          <em>John 8:32</em>
-        </p>
-        <p>
-          Chronic illness does not happen in a vacuum. I have seen it again and again: the people who stay sick longest are often the ones who have spent years shrinking. Shrinking to keep peace. Shrinking to avoid conflict. Saying nothing when they saw something wrong. The body keeps score. Chronic suppression of what you know to be true is itself a stressor -- and a deep one.
-        </p>
-        <p>
-          The armor of God in Ephesians 6 is not poetry. It is a combat manual. A warrior of truth does not look away from evil because it is uncomfortable. He names it. He prays about it. He stands firm. That courage -- to stop appeasing, stop shrinking, stop pretending -- is part of the healing.
-        </p>
-      </FaithBlock>
+      />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="symptom-management" sectionTitle="Symptom Management" />
     </>

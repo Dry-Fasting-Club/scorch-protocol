@@ -364,6 +364,8 @@ export default function SuccessRateDataPage() {
         chronic illness, not just the symptoms.
       </p>
 
+      {/* FaithBlock hidden for now — to restore, remove the `false && (` wrapper and matching `)` */}
+      {false && (
       <FaithBlock
         title="The Prayer of Faith Will Make the Sick Person Well"
       >
@@ -374,6 +376,7 @@ export default function SuccessRateDataPage() {
           I do not present the 97% as a marketing number. I present it as testimony. I was one of the sick people first. I know what it is to sit at a 2 or 3 on the fatigue scale, barely functional, watching life happen behind glass. I also know what it is to come back. These 141 participants saw something medicine does not yet have the framework to fully explain. <em>Evil propagates when good men look away,</em> and one of the evils done to chronically ill people is the systematic dismissal of their suffering. This data is a refusal to be silent. <strong>The Lord will raise them up.</strong> That promise is for you too.
         </p>
       </FaithBlock>
+      )}
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="success-rate-data" sectionTitle="Success Rate Data" />

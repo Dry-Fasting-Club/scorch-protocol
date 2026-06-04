@@ -354,6 +354,8 @@ export default function DryFastingPage() {
         </li>
       </ul>
 
+      {/* FaithBlock hidden for now — to restore, remove the `false && (` wrapper and matching `)` */}
+      {false && (
       <FaithBlock
         title="Jesus on Fasting: What is Done in Secret, God Rewards"
       >
@@ -367,6 +369,7 @@ export default function DryFastingPage() {
           <strong>Your Father sees what is done in secret. He will reward you.</strong>
         </p>
       </FaithBlock>
+      )}
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="dry-fasting" sectionTitle="Phase 2: The Dry Fast" />

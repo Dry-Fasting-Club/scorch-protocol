@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import FaithBlock from "@/components/FaithBlock";
+import InterestingVideoBlock from "@/components/InterestingVideoBlock";
 
 export const metadata: Metadata = {
   title: "Phase 3: The Refeed | The Scorch Protocol",
@@ -568,17 +568,9 @@ export default function RefeedingPage() {
         </p>
       </div>
 
-      <FaithBlock
-        title="The Feast After the Fast: Coming Home to Abundance"
+      <InterestingVideoBlock
         videoSrc="https://www.youtube.com/embed/pHJSNYGQYcU"
-      >
-        <p>
-          <strong>Luke 15:24: &ldquo;For this son of mine was dead and is alive again; he was lost and is found. So they began to celebrate.&rdquo;</strong>
-        </p>
-        <p>
-          The prodigal son did not return to judgment. He returned to a feast. The father ran toward him. I have sat with people at this threshold, post-fast, raw with emotion, sometimes weeping without knowing why. The body remembers things the mind tried to forget. Be gentle with yourself in the way the father was gentle with his son. You do not have to explain where you have been. <strong>The celebration is already prepared. Walk toward it.</strong>
-        </p>
-      </FaithBlock>
+      />
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="refeeding" sectionTitle="Phase 3: The Refeed" />

@@ -167,6 +167,8 @@ export default function GeneralQuestionsPage() {
         </p>
       </div>
 
+      {/* FaithBlock hidden for now — to restore, remove the `false && (` wrapper and matching `)` */}
+      {false && (
       <FaithBlock
         title="Your Body Is a Temple: The Theology Behind Why This Works"
       >
@@ -177,6 +179,7 @@ export default function GeneralQuestionsPage() {
           Underneath every question on this page is a deeper one: <em>does my body deserve to be healed?</em> Some people with chronic illness have been sick so long they have stopped believing it does. Paul answers with a price tag. You were bought at a price. You have infinite value. A temple is not valuable because of what gets done inside it. It is valuable because of who lives there. Honor God with your body. Fight for it. <strong>The healing is real. Your temple is worth restoring.</strong>
         </p>
       </FaithBlock>
+      )}
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="faq/general-questions" sectionTitle="General Questions" />

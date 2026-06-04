@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import FaithBlock from "@/components/FaithBlock";
+import InterestingVideoBlock from "@/components/InterestingVideoBlock";
 
 export const metadata: Metadata = {
   title: "Phase 5: hGH Therapy | The Scorch Protocol",
@@ -362,17 +362,9 @@ export default function HghTherapyPage() {
         </div>
       </div>
 
-      <FaithBlock
-        title="New Creation: The Old Has Gone, the New Is Here"
+      <InterestingVideoBlock
         videoSrc="https://www.youtube.com/embed/Wsp0o8LalfY"
-      >
-        <p>
-          <strong>2 Corinthians 5:17: &ldquo;Therefore, if anyone is in Christ, the new creation has come: The old has gone, the new is here!&rdquo;</strong>
-        </p>
-        <p>
-          Death and resurrection is not a metaphor. It is the template woven into biological reality. Autophagy destroys damaged cells so new ones can take their place. hGH is the final hormonal instruction: rebuild. I think of this phase as the commissioning. After the desert, after the fast, after the long road, you are sent back into the world not as the person who got sick, not as the person who merely survived, but as something new. Paul wrote those words from prison, describing not an easy transformation but a real one. <strong>The old has gone. Receive what is here.</strong>
-        </p>
-      </FaithBlock>
+      />
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="hgh-therapy" sectionTitle="Phase 5: hGH Therapy" />

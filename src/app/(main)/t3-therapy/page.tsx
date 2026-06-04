@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import FaithBlock from "@/components/FaithBlock";
+import InterestingVideoBlock from "@/components/InterestingVideoBlock";
 import Image from "next/image";
 import MermaidCharts from "@/components/MermaidCharts";
 
@@ -640,17 +640,9 @@ export default function T3TherapyPage() {
         </div>
       </div>
 
-      <FaithBlock
-        title="Life to Your Mortal Body: The Spirit That Raises the Dead"
+      <InterestingVideoBlock
         instagramSrc="https://www.instagram.com/reel/DUI8Cv9DdEa/embed/"
-      >
-        <p>
-          <strong>Romans 8:11: &ldquo;And if the Spirit of him who raised Jesus from the dead is living in you, he who raised Christ from the dead will also give life to your mortal bodies through his Spirit, who lives in you.&rdquo;</strong>
-        </p>
-        <p>
-          The thyroid is not broken. It has gone quiet. T3 is the spark that calls it back. The morning my metabolism came back online after years of crashing was one of the most spiritual experiences of my life. Not dramatic. Just warmth, where there had been cold. Energy, where there had been nothing. The body recognizing itself again. The same Spirit that raised Christ from the dead dwells in you. If He can do that, He can wake up your cells. <strong>If you have been sick long enough to stop believing this is possible, that is exactly where this protocol meets you.</strong>
-        </p>
-      </FaithBlock>
+      />
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="t3-therapy" sectionTitle="Phase 4: T3 Therapy" />

@@ -425,6 +425,8 @@ export default function RefeedForBmrPage() {
         </ul>
       </div>
 
+      {/* FaithBlock hidden for now — to restore, remove the `false && (` wrapper and matching `)` */}
+      {false && (
       <FaithBlock
         title="Let Perseverance Finish Its Work"
       >
@@ -435,6 +437,7 @@ export default function RefeedForBmrPage() {
           Nine months of metabolic reconstruction is not a detour. It is the work finishing. Your metabolism, suppressed for years or decades, does not snap back in a week. That is not failure. The Minnesota Starvation Experiment showed that healthy young men needed nine months or more to fully recover their metabolic rate after severe restriction. Extend yourself at least that much patience. One of the subtler evils our culture exports is the lie that a body which doesn&rsquo;t snap back in 30 days has failed. <strong>Let perseverance finish its work. You will not lack anything.</strong>
         </p>
       </FaithBlock>
+      )}
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="refeed-for-bmr" sectionTitle="9-Month BMR Reconstruction" />

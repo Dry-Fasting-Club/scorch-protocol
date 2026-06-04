@@ -850,6 +850,8 @@ export default function TipsAndTricksPage() {
         </a>
       </div>
 
+      {/* FaithBlock hidden for now — to restore, remove the `false && (` wrapper and matching `)` */}
+      {false && (
       <FaithBlock
         title="Put On the Full Armor of God: We Do Not Apologize for Naming Evil"
       >
@@ -863,6 +865,7 @@ export default function TipsAndTricksPage() {
           <strong>Stand firm. And having done everything, stand.</strong>
         </p>
       </FaithBlock>
+      )}
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="tips-and-tricks" sectionTitle="Tips and Tricks" />
