@@ -132,7 +132,9 @@ What happens during a properly executed dry fast:
 
 For severely ill patients, a 5-day fast is insufficient. It can trigger a Herxheimer-like flare without completing the immune cycle that would have resolved it. These patients require a 9-day fast, but only after building tolerance through shorter fasts (3-day → 5-day → 7-day → 9-day progression). For most Long Covid patients, the 5-day to 7-day range is the working zone.
 
-Read the full protocol: [Dry Fasting](/dry-fasting).
+The deeper mechanism (why dry fasting activates a second autophagy pathway that water fasting cannot reach, and why this matters for clearing the viral reservoirs Long Covid sets up in tissue) is covered in [the complete dry fasting guide](/blog/dry-fasting-complete-guide). If you have already done extended dry fasting at a Filonov-tradition retreat and your symptoms came back after six to twelve months, the gap that needs to be closed next is covered in [Starving to Heal vs the Scorch Protocol](/blog/starving-to-heal-vs-scorch-protocol).
+
+Read the practical protocol: [Dry Fasting](/dry-fasting).
 
 ### Phase 2: T3 Therapy, the Cellular Restart
 
