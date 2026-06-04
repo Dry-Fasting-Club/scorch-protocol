@@ -44,7 +44,7 @@ The infection adds enormous metabolic demand to a system with no reserves left t
 
 When they fail, the body makes a survival decision: drop to a lower energy state and conserve. This is not a temporary dip. It is a new operating set point. The body treats this lower state as the new normal and rations every system to fit inside it:
 
-- Immune surveillance is partially shut down, which is why latent viruses like EBV reactivate (66.7% of Long Covid patients per Gold et al., 2021)
+- Immune surveillance is partially shut down, which is why latent viruses like EBV reactivate (66.7% of Long Covid patients per [Gold et al., 2021 — investigation of Long Haul COVID-19 reveals reactivated EBV in most cases](https://pubmed.ncbi.nlm.nih.gov/34204243/), *Pathogens*)
 - Body temperature drops 1-2°F, which slows every enzyme in your body, because enzyme rates are temperature-dependent
 - Brain activity is reduced, which is the actual mechanism of brain fog (your brain is not damaged, it is being rationed)
 - Organ output is dialed down across the board
@@ -57,7 +57,7 @@ Once the metabolic system drops to the lower state, three reinforcing loops form
 
 ### Loop 1: Reactivated Viruses
 
-Your immune system runs on energy. Energy is rationed. Viruses that were dormant for years (EBV, HHV-6, HSV) wake up. They consume more of your remaining energy and generate inflammation that further reduces your energy floor. The lower the floor, the less immune surveillance, the more viral reactivation. Recent tissue biopsies have found SARS-CoV-2 RNA persisting in gut wall for up to 676 days after infection (Peluso et al., 2024). The virus is not gone. It is in places your bloodstream antibodies cannot see.
+Your immune system runs on energy. Energy is rationed. Viruses that were dormant for years (EBV, HHV-6, HSV) wake up. They consume more of your remaining energy and generate inflammation that further reduces your energy floor. The lower the floor, the less immune surveillance, the more viral reactivation. Recent tissue biopsies have found SARS-CoV-2 RNA persisting in gut wall for up to 676 days after infection ([Peluso et al., 2024 — tissue-based evidence of persistent SARS-CoV-2 RNA and replication in post-acute sequelae](https://pubmed.ncbi.nlm.nih.gov/38959327/), *Science Translational Medicine*). The virus is not gone. It is in places your bloodstream antibodies cannot see.
 
 ### Loop 2: Lower Body Temperature, Slower Biochemistry
 

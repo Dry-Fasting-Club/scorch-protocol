@@ -30,6 +30,7 @@ const navItems: NavItem[] = [
   { type: "link",  href: "/list-of-pharmacies",   label: "List of Pharmacies" },
   { type: "link",  href: "/random-thoughts",      label: "Random Thoughts" },
   { type: "group", label: "Knowledge Base" },
+  { type: "link",  href: "/blog",                 label: "Blog" },
   { type: "link",  href: "/faq",                  label: "FAQ Section" },
 ];
 
