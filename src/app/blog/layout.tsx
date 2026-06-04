@@ -7,6 +7,7 @@
 
 import TopNav from "@/components/TopNav";
 import ProgressBar from "@/components/ProgressBar";
+import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 
 export const dynamic = "force-dynamic";
 
@@ -19,7 +20,10 @@ export default function BlogLayout({
     <div className="blog-wrapper">
       <ProgressBar />
       <TopNav />
-      <main className="blog-main">{children}</main>
+      <main className="blog-main">
+        {children}
+        <MedicalDisclaimer />
+      </main>
     </div>
   );
 }
