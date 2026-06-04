@@ -37,7 +37,7 @@ export default function MainNav() {
   const pathname = usePathname();
 
   return (
-    <nav>
+    <nav className="main-nav">
       <h2>The Scorch Protocol</h2>
       <ul>
         {navItems.map((item, i) => {

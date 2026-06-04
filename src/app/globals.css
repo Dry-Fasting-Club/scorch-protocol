@@ -61,9 +61,11 @@ body {
 
 /* ============================================================
    SIDEBAR NAVIGATION
+   Scoped to .main-nav to avoid bleeding into other <nav> elements
+   (e.g., the inner <nav> inside TopNav on blog pages).
    ============================================================ */
 
-nav {
+.main-nav {
     width: var(--sidebar-width);
     background-color: var(--surface);
     padding: 1.75rem 1.5rem;
@@ -76,7 +78,7 @@ nav {
     scrollbar-color: var(--border-strong) transparent;
 }
 
-nav h2 {
+.main-nav h2 {
     color: var(--heading-color);
     font-family: 'Fraunces', Georgia, serif;
     font-size: 1.05rem;
@@ -87,17 +89,17 @@ nav h2 {
     letter-spacing: -0.01em;
 }
 
-nav ul {
+.main-nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
 
-nav li {
+.main-nav li {
     margin-bottom: 0.2rem;
 }
 
-nav a {
+.main-nav a {
     text-decoration: none;
     color: var(--text-secondary);
     font-size: 0.865rem;
@@ -108,13 +110,13 @@ nav a {
     border-radius: 5px;
 }
 
-nav a:hover,
-nav a.active {
+.main-nav a:hover,
+.main-nav a.active {
     color: var(--scorch);
     background-color: var(--scorch-dim);
 }
 
-nav a.active {
+.main-nav a.active {
     font-weight: 600;
 }
 
@@ -1176,7 +1178,7 @@ tr:hover {
 @media (max-width: 768px) {
     body { flex-direction: column; }
 
-    nav {
+    .main-nav {
         position: relative;
         width: 100%;
         height: auto;
