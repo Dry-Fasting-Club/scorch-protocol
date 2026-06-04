@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "db:migrate": "node scripts/run-migrations.mjs",
-    "db:admin": "node scripts/create-admin.mjs"
+    "db:admin": "node scripts/create-admin.mjs",
+    "blog:publish": "node scripts/publish-blog.mjs"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.995.0",
