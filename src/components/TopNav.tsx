@@ -45,10 +45,18 @@ export default function TopNav() {
           })}
         </nav>
 
-        {/* CTA */}
-        <Link href="/preparation" className="top-nav-cta">
-          Start Protocol →
-        </Link>
+        {/* CTAs */}
+        <div className="top-nav-ctas">
+          <a
+            href="https://members.scorchprotocol.com/login"
+            className="top-nav-members"
+          >
+            Members →
+          </a>
+          <Link href="/preparation" className="top-nav-cta">
+            Start Protocol →
+          </Link>
+        </div>
       </div>
     </header>
   );

@@ -1607,6 +1607,31 @@ tr:hover {
     background-color: var(--scorch-dim);
 }
 
+.top-nav-ctas {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    flex-shrink: 0;
+}
+
+.top-nav-members {
+    background-color: transparent;
+    color: var(--scorch);
+    font-size: 0.875rem;
+    font-weight: 600;
+    padding: calc(0.45rem - 1px) calc(1rem - 1px);
+    border: 1px solid var(--scorch);
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.15s, color 0.15s;
+    white-space: nowrap;
+}
+
+.top-nav-members:hover {
+    background-color: var(--scorch-dim);
+    color: var(--scorch);
+}
+
 .top-nav-cta {
     flex-shrink: 0;
     background-color: var(--scorch);
@@ -1622,6 +1647,27 @@ tr:hover {
 .top-nav-cta:hover {
     background-color: var(--scorch-light);
     color: #fff;
+}
+
+/* Sidebar (MainNav) Members button — sits between brand and link list */
+.main-nav-members {
+    display: block;
+    text-align: center;
+    background-color: transparent;
+    color: var(--scorch);
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.55rem 0.75rem;
+    border: 1px solid var(--scorch);
+    border-radius: 6px;
+    text-decoration: none;
+    margin-bottom: 1.25rem;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.main-nav-members:hover {
+    background-color: var(--scorch-dim);
+    color: var(--scorch);
 }
 
 /* ============================================================

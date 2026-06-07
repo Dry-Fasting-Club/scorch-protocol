@@ -40,6 +40,12 @@ export default function MainNav() {
   return (
     <nav className="main-nav">
       <h2>The Scorch Protocol</h2>
+      <a
+        href="https://members.scorchprotocol.com/login"
+        className="main-nav-members"
+      >
+        Members →
+      </a>
       <ul>
         {navItems.map((item, i) => {
           if (item.type === "group") {
