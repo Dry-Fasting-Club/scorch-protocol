@@ -204,6 +204,37 @@ export default function PreparationPage() {
           Stock up on coconut water and soft foods for the refeed. Prepare a
           cool, comfortable space to rest. Remove temptations.
         </div>
+        <div className="question-item">
+          <span className="question-label">Pray or Meditate Deep Into the Fast:</span>
+          This one matters more than most people realize, so do not sleep on
+          it. A dry fast pushes you into a depth of ketosis you have likely
+          never been in before. Carnivore eating does not reach this depth.
+          Even long water fasting does not reach it. Something happens to
+          the brain in that state that no amount of normal meditation
+          practice reproduces: the mental noise drops away, the body
+          settles, and you can hold a focused inner state that meditation
+          teachers spend decades training toward. People who have never
+          meditated a day in their life will sit down on day 3 or 4 of a
+          dry fast and feel what a thirty-year practitioner feels. The fast
+          hands you a state that is otherwise reached only through years of
+          training. You do not have to earn it. It is a gift of the
+          protocol.
+          <br /><br />
+          My specific recommendation, and I do not lie when I talk about
+          these things: praying the rosary has been ten times more effective
+          for me than chanting mantras or doing standard breathwork
+          meditation. Get a cheap rosary, find a guided rosary video on
+          YouTube, and follow along on day 3 or 4 of your fast even if you
+          are not religious or have actively rejected religion. My honest
+          belief is that there is real power in the specific words, and in
+          the fact that hundreds of millions of people have prayed those
+          same words for centuries. That spiritual weight accumulates
+          somewhere we do not yet have instruments to measure, in the ether
+          or whatever the correct framing is between dimensions, and the
+          deep-fast state appears to be one of the rare windows where you
+          can tap into it directly. Try it once. Please do not sleep on
+          this.
+        </div>
       </div>
 
       <h2>Step 5: Colon Cleanse (2 Days Before the Fast)</h2>
