@@ -113,6 +113,19 @@ export default function SymptomManagementPage() {
           the clearest signs of MCAS-driven neurological dysfunction and a
           direct indicator that the Scorch Protocol is needed.
         </div>
+        <div className="question-item">
+          <span className="question-label">
+            Are you puffy with high blood pressure after a long fast?
+          </span>
+          If <strong>YES</strong>{" "}
+          <span className="action-arrow">&rarr;</span> See{" "}
+          <a href="/blog/cortisol-off-switch-after-extended-fasting">
+            <strong>&ldquo;The Cortisol Off-Switch That Gets Stuck&rdquo;</strong>
+          </a>{" "}
+          to learn why an enzyme called 11β-HSD2 sometimes fails to reset after
+          extended fasting and how the refeed stack of carbs, T3, and low-dose
+          aspirin fixes it.
+        </div>
       </div>
 
       <h2>Herxheimer vs Warning Sign: How to Tell the Difference</h2>

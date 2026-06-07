@@ -226,6 +226,47 @@ export default function RefeedingPage() {
         </div>
       </div>
 
+      <h2>Watch For Post-Fast Cortisol Stuck State</h2>
+      <div className="guiding-questions box-purple">
+        <h3>The 11β-HSD2 Off-Switch That Can Get Stuck</h3>
+        <p>
+          Some patients come out of an extended fast puffier than they went
+          in, with sustained high blood pressure, anxiety, and post-fast
+          weight rebound that lands disproportionately on the belly. This is
+          not a sign that your fast failed. It is a sign that an enzyme
+          called 11β-HSD2 (the cortisol off-switch) has gotten stuck in the
+          off position, and your body is locked in a high-cortisol loop
+          even after refeed begins.
+        </p>
+        <div className="question-item">
+          <span className="question-label">Signs To Watch For:</span>
+          Facial or abdominal puffiness, sustained elevated blood pressure
+          (10–20 mmHg above your baseline), wired-but-tired anxiety,
+          early-morning waking around 3–5 AM, post-fast weight rebound
+          concentrated in visceral fat.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Why This Refeed Stack Targets It:</span>
+          Carbohydrates signal abundance to the hypothalamus (reducing
+          cortisol output). Slow-release T3 restores the metabolic clearance
+          pathway that pulls active cortisol out of the bloodstream. Low-dose
+          aspirin blocks the inflammatory cytokines (TNF-α especially) that
+          jam the off-switch closed. The three together flip the switch back
+          to its normal balance.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Full Mechanism:</span>
+          See{" "}
+          <a href="/blog/cortisol-off-switch-after-extended-fasting">
+            The Cortisol Off-Switch That Gets Stuck After Extended Fasting
+          </a>{" "}
+          for the enzyme story, the three reasons it stays stuck (sex
+          differences, fat tissue upregulation, systemic inflammation), and
+          the safer adjuncts (potassium, inositol, progesterone) that layer
+          on top.
+        </div>
+      </div>
+
       <h2>Why Coconut Water First?</h2>
       <div className="guiding-questions box-green">
         <h3>The Science of Coconut Water</h3>
