@@ -48,7 +48,7 @@ export default function TopNav() {
         {/* CTAs */}
         <div className="top-nav-ctas">
           <a
-            href="https://members.scorchprotocol.com/login"
+            href="https://members.scorchprotocol.com/"
             className="top-nav-members"
           >
             Members →

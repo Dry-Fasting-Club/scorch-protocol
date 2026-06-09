@@ -41,7 +41,7 @@ export default function MainNav() {
     <nav className="main-nav">
       <h2>The Scorch Protocol</h2>
       <a
-        href="https://members.scorchprotocol.com/login"
+        href="https://members.scorchprotocol.com/"
         className="main-nav-members"
       >
         Members →
