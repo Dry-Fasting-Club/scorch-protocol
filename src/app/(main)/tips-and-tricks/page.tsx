@@ -508,6 +508,24 @@ export default function TipsAndTricksPage() {
         </ul>
       </div>
 
+      <div className="guiding-questions box-purple">
+        <h3>
+          Cyproheptadine: Protecting Appetite, Sleep, and the Stress Axis on T3
+        </h3>
+        <p>
+          T3 drives metabolism up, and in many patients it also drives the
+          stress response up: racing heart at night, broken sleep, and a
+          suppressed appetite right when you need to be eating more.
+          Cyproheptadine answers all three. As a serotonin and histamine
+          antagonist it sedates (restoring sleep), stimulates appetite (so you
+          can match T3&rsquo;s caloric demand), and dampens the
+          serotonin-driven cortisol surge (lowering the catabolic, anxious
+          state). Dose it in the evening, start low (2mg), and treat it as the
+          partner to aspirin and K2 in the co-factor layer, not as an optional
+          extra.
+        </p>
+      </div>
+
       <h2 id="advanced">Advanced and Optional Protocols</h2>
       <p>
         Topics outside the core Scorch Protocol that experienced

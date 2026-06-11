@@ -530,6 +530,44 @@ export default function T3TherapyPage() {
         </li>
       </ul>
 
+      <div className="guiding-questions box-purple">
+        <h3>The Co-Factor Stack That Makes T3 Stick</h3>
+        <p>
+          T3 reboots metabolism, but whether it holds depends on three things
+          going right at the same time: you have to eat enough, you have to
+          sleep, and your stress hormones have to come down instead of spiking.
+          The protocol uses a small co-factor stack to protect all three.
+        </p>
+        <div className="question-item">
+          <span className="question-label">Cyproheptadine (appetite, sleep, stress):</span>
+          Restores appetite so you can fuel the higher metabolic rate, restores
+          sleep so repair happens, and blunts the serotonin and cortisol surge
+          that T3 can provoke. Lower cortisol means less muscle catabolism and a
+          calmer nervous system, which is exactly the environment mitochondria
+          need to respond to T3 instead of fighting it. This is why it is more
+          than a sleep aid here: it removes the three most common reasons people
+          abandon T3. See the{" "}
+          <a href="/symptom-management">Symptom Management</a> page for dosing.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Low-dose aspirin (inflammation, cortisol, insulin sensitivity):</span>
+          Lowers the inflammatory drag and peripheral cortisol conversion that
+          keep cells resistant to T3. See the{" "}
+          <a href="/tips-and-tricks#co-factors">Tips &amp; Tricks</a> aspirin
+          section for dosing and safety.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Vitamin K2 (vascular protection):</span>
+          Non-negotiable alongside aspirin to protect clotting and arterial
+          health, and it supports the bone health T3 therapy demands. Use MK-4
+          or MK-7.
+        </div>
+        <p style={{ marginTop: "1rem", fontStyle: "italic" }}>
+          None of these replace T3. They are what keep T3 working long enough to
+          reset your baseline.
+        </p>
+      </div>
+
       <div style={{ margin: "2rem 0", textAlign: "center" }}>
         <Image
           src="/assets/images/Your-Natural-Body-Temperature_Graph_Cropped_Simplified.jpg"
@@ -619,6 +657,15 @@ export default function T3TherapyPage() {
               agonist that improves glucose utilization and raises baseline
               energy availability. The glucagon component is particularly
               useful for people stuck in low-energy states.
+            </li>
+            <li>
+              <strong>Cyproheptadine:</strong> a potent appetite stimulant that
+              also calms the serotonin and histamine signaling that suppresses
+              hunger in chronic illness. Taken in the evening it does double
+              duty: it restores the drive to eat (so you can actually hit
+              T3&rsquo;s caloric demand) and it deepens sleep, which is when most
+              tissue repair on T3 happens. For many people this is the single
+              cheapest way to get calories back up early in the refeed.
             </li>
           </ul>
         </div>

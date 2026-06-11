@@ -437,27 +437,35 @@ export default function SymptomManagementPage() {
       </p>
 
       <div className="guiding-questions box-purple">
-        <h3>Ketotifen vs Cyproheptadine</h3>
+        <h3>Cyproheptadine vs Ketotifen</h3>
         <div className="question-item">
-          <span className="question-label">Ketotifen (Preferred):</span>
-          Ketotifen is an antihistamine and mast cell stabilizer with serotonin
-          antagonist properties. It is the better first choice because it
-          produces less next-day sedation and less of the cognitive blunting
-          that many people describe as a &ldquo;zombie effect.&rdquo; Start at
-          1mg before bed to test your response. The effective range for sleep is
-          typically 1 to 4mg. Always use the lowest dose that works. At 4mg it
-          is a meaningful sedative, so titrate up slowly. It also helps directly
-          with MCAS-driven digestive problems, which is a significant secondary
-          benefit.
+          <span className="question-label">Cyproheptadine (First Choice):</span>
+          Cyproheptadine is an H1 antihistamine and serotonin (5-HT2) antagonist
+          that works on the same MCAS mechanism but does more of the work you
+          actually want. It restores genuine sleep, stimulates appetite, and
+          dampens the serotonin-driven cortisol surge that keeps the nervous
+          system wired. It is slightly more sedating than Ketotifen, but for
+          most people that is a feature rather than a drawback: the deeper
+          sedation is what finally breaks MCAS-driven insomnia. Start at 2mg in
+          the evening and use the lowest dose that works. Typical sleep dose is
+          2 to 4mg.{" "}
+          <strong>Worth noting for anyone on T3 therapy:</strong> that same
+          appetite-stimulating and cortisol-lowering action makes cyproheptadine
+          an unusually good T3 co-factor, where suppressed appetite, broken
+          sleep, and a spiking stress response are the usual reasons therapy
+          fails. See the <a href="/t3-therapy">T3 Therapy</a> page.
         </div>
         <div className="question-item">
-          <span className="question-label">Cyproheptadine (Second Choice):</span>
-          Cyproheptadine is also an H1 antihistamine and serotonin antagonist
-          and works well for MCAS-driven sleep and appetite problems. It is more
-          sedating than Ketotifen and the next-day grogginess is more pronounced
-          at higher doses, which is why it sits at second choice for most people.
-          Useful when Ketotifen is unavailable or not effective enough. Typical
-          sleep dose is 2 to 4mg.
+          <span className="question-label">Ketotifen (Second Choice):</span>
+          Ketotifen is an antihistamine and mast cell stabilizer with serotonin
+          antagonist properties. It produces less next-day sedation and less of
+          the cognitive blunting some describe as a &ldquo;zombie effect,&rdquo;
+          which makes it a reasonable choice when cyproheptadine&rsquo;s
+          sedation is too strong or when you need to stay sharp the next
+          morning. Start at 1mg before bed to test your response. The effective
+          range for sleep is typically 1 to 4mg. Always use the lowest dose that
+          works, and titrate up slowly. It also helps directly with MCAS-driven
+          digestive problems, a useful secondary benefit.
         </div>
         <div className="question-item">
           <span className="question-label">Why Not Benadryl (Diphenhydramine)?</span>
@@ -472,7 +480,7 @@ export default function SymptomManagementPage() {
       </div>
 
       <p>
-        Both Ketotifen and Cyproheptadine address the same root mechanism:
+        Both Cyproheptadine and Ketotifen address the same root mechanism:
         histamine and serotonin dysregulation driven by mast cell overactivity.
         They buy you functional sleep while the Scorch Protocol addresses the
         underlying cause. Always start at the lowest effective dose and do not
