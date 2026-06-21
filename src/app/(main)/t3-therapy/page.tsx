@@ -368,6 +368,15 @@ export default function T3TherapyPage() {
           to wait for kidney rehydration before beginning antivirals.
         </p>
         <div className="question-item">
+          <span className="question-label">Adjust for Body Composition:</span>
+          The day-3 window assumes you are carrying enough body fat. If you are
+          very lean or close to skin-and-bones, starting T3 that early can
+          trigger an adrenaline surge, so wait further into the refeed before you
+          begin. If you have more body fat to work with, day 3 of the water fast
+          is the ideal start. When you are unsure, this is a timing call worth
+          confirming with Yannick directly.
+        </div>
+        <div className="question-item">
           <span className="question-label">The Ramp During the Fast:</span>
           Follow the standard 15 mcg/day climb. Water fast day 3 = 15 mcg
           (T3 day 1). Water fast day 4 = 30 mcg (T3 day 2). Water fast day 5
