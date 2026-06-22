@@ -442,6 +442,47 @@ tr:hover {
 }
 
 /* ============================================================
+   REFEED-PLAN CROSS-PROMO (members portal)
+   ============================================================ */
+
+.refeed-promo {
+    margin: 2.5rem 0 0;
+    background-color: rgba(232, 93, 4, 0.06);
+    border: 1px solid rgba(232, 93, 4, 0.25);
+    border-left: 5px solid var(--accent-color);
+    border-radius: 0 8px 8px 0;
+    padding: 1.25rem 1.5rem;
+}
+
+.refeed-promo h3 {
+    margin: 0 0 0.5rem;
+    color: var(--accent-color);
+    font-size: 1.05rem;
+}
+
+.refeed-promo p {
+    margin: 0 0 0.9rem;
+}
+
+.refeed-promo-btn {
+    display: inline-block;
+    background-color: var(--accent-color);
+    color: #fff;
+    padding: 9px 18px;
+    border-radius: 6px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: background-color 0.2s, transform 0.15s;
+}
+
+.refeed-promo-btn:hover {
+    background-color: #c94d00;
+    color: #fff;
+    transform: translateY(-1px);
+}
+
+/* ============================================================
    CORE PILLARS GRID
    ============================================================ */
 
