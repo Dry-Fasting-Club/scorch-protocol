@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
+import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import InterestingVideoBlock from "@/components/InterestingVideoBlock";
 
@@ -617,6 +618,7 @@ export default function RefeedingPage() {
         videoSrc="https://www.youtube.com/embed/pHJSNYGQYcU"
       />
 
+      <RefeedPlanPromo source="refeeding" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="refeeding" sectionTitle="Phase 3: The Refeed" />
     </>

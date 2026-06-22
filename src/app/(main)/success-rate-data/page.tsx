@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
+import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
 import Image from "next/image";
@@ -378,6 +379,7 @@ export default function SuccessRateDataPage() {
       </FaithBlock>
       )}
 
+      <RefeedPlanPromo source="success-rate-data" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="success-rate-data" sectionTitle="Success Rate Data" />
     </>

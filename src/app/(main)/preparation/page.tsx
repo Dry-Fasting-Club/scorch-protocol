@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import GuidanceBox from "@/components/GuidanceBox";
+import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import InterestingVideoBlock from "@/components/InterestingVideoBlock";
 
@@ -334,6 +335,7 @@ export default function PreparationPage() {
         instagramSrc="https://www.instagram.com/reel/DYuUGBjM4bl/embed/"
       />
 
+      <RefeedPlanPromo source="preparation" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="preparation" sectionTitle="Phase 1: Preparation" />
     </>

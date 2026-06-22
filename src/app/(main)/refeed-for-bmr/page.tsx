@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
+import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
 
@@ -439,6 +440,7 @@ export default function RefeedForBmrPage() {
       </FaithBlock>
       )}
 
+      <RefeedPlanPromo source="refeed-for-bmr" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="refeed-for-bmr" sectionTitle="9-Month BMR Reconstruction" />
     </>

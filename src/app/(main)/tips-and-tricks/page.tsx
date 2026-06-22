@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
+import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
 import Image from "next/image";
@@ -885,6 +886,7 @@ export default function TipsAndTricksPage() {
       </FaithBlock>
       )}
 
+      <RefeedPlanPromo source="tips-and-tricks" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="tips-and-tricks" sectionTitle="Tips and Tricks" />
     </>
