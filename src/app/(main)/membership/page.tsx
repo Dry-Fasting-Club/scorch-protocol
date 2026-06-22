@@ -20,7 +20,7 @@ export default function MembershipPage() {
         <a href={MEMBERS_PORTAL_URL} className="guidance-btn">
           Open the members portal →
         </a>
-        <a href={MEMBERS_SIGNUP_URL} style={{ marginLeft: "0.9rem" }}>
+        <a href={MEMBERS_SIGNUP_URL} className="membership-secondary">
           or start for $1
         </a>
       </p>

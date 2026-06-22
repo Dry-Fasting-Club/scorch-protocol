@@ -482,6 +482,10 @@ tr:hover {
     transform: translateY(-1px);
 }
 
+.membership-secondary {
+    margin-left: 0.9rem;
+}
+
 /* ============================================================
    CORE PILLARS GRID
    ============================================================ */
