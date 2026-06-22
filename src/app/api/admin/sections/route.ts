@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
+import { revalidateTag } from "next/cache";
 import sql from "@/lib/db";
 import { getAdminFromRequest } from "@/lib/auth";
 
@@ -56,6 +57,11 @@ export async function PATCH(req: NextRequest) {
   if ("price_cents" in updates) {
     await sql`UPDATE sections SET price_cents = ${updates.price_cents as number} WHERE slug = ${slug}`;
   }
+
+  // Bust the cached section config so edits show on the public pages immediately
+  // (otherwise they would lag until the 1h TTL). Matches the tag set in
+  // PaidContentBlock's unstable_cache.
+  revalidateTag("sections");
 
   const updated = await sql`SELECT * FROM sections WHERE slug = ${slug} LIMIT 1`;
   return NextResponse.json(updated[0] ?? { ok: true });
