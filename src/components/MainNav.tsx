@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { MEMBERSHIP_PATH } from "@/lib/constants";
 
 type NavItem =
   | { type: "link"; href: string; label: string; phase?: string }
@@ -40,12 +41,9 @@ export default function MainNav() {
   return (
     <nav className="main-nav">
       <h2>The Scorch Protocol</h2>
-      <a
-        href="https://members.scorchprotocol.com/"
-        className="main-nav-members"
-      >
+      <Link href={MEMBERSHIP_PATH} className="main-nav-members">
         Members →
-      </a>
+      </Link>
       <ul>
         {navItems.map((item, i) => {
           if (item.type === "group") {

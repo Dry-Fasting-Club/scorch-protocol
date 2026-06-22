@@ -9,6 +9,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { MEMBERSHIP_PATH } from "@/lib/constants";
 
 const NAV_LINKS = [
   { href: "/",              label: "Protocol" },
@@ -47,12 +48,9 @@ export default function TopNav() {
 
         {/* CTAs */}
         <div className="top-nav-ctas">
-          <a
-            href="https://members.scorchprotocol.com/"
-            className="top-nav-members"
-          >
+          <Link href={MEMBERSHIP_PATH} className="top-nav-members">
             Members →
-          </a>
+          </Link>
           <Link href="/preparation" className="top-nav-cta">
             Start Protocol →
           </Link>
