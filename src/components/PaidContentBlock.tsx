@@ -11,6 +11,7 @@
  */
 
 import Link from "next/link";
+import { unstable_cache } from "next/cache";
 import sql from "@/lib/db";
 import { hasAccess } from "@/lib/tokens";
 import UnlockButton from "./UnlockButton";
@@ -37,8 +38,15 @@ interface Props {
   sectionTitle: string;
 }
 
-async function getSectionConfig(sectionSlug: string): Promise<SectionConfig | null> {
-  try {
+// Cached reader for the per-section paid-content config. This config is the
+// same for every visitor and changes only on an admin edit, so caching it keeps
+// the public protocol pages from querying Neon on every pageview (which would
+// keep Neon's compute from auto-suspending). The cache key includes the
+// sectionSlug arg; invalidated by revalidateTag("sections") on admin save and
+// by the 1h TTL backstop. A DB error throws here so a transient failure is NOT
+// cached; the caller below catches it and returns null.
+const getSectionConfigCached = unstable_cache(
+  async (sectionSlug: string): Promise<SectionConfig | null> => {
     const rows = await sql`
       SELECT published, paid_content_type, price_cents,
              COALESCE(paid_content_items, '[]'::jsonb) AS paid_content_items
@@ -54,6 +62,14 @@ async function getSectionConfig(sectionSlug: string): Promise<SectionConfig | nu
       price_cents: row.price_cents ?? 1000,
       paid_content_items: (row.paid_content_items as ContentItem[]) ?? [],
     };
+  },
+  ["section-config"],
+  { tags: ["sections"], revalidate: 3600 },
+);
+
+async function getSectionConfig(sectionSlug: string): Promise<SectionConfig | null> {
+  try {
+    return await getSectionConfigCached(sectionSlug);
   } catch {
     return null;
   }
