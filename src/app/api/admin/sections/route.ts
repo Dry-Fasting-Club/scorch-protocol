@@ -58,10 +58,16 @@ export async function PATCH(req: NextRequest) {
     await sql`UPDATE sections SET price_cents = ${updates.price_cents as number} WHERE slug = ${slug}`;
   }
 
-  // Bust the cached section config so edits show on the public pages immediately
-  // (otherwise they would lag until the 1h TTL). Matches the tag set in
-  // PaidContentBlock's unstable_cache.
-  revalidateTag("sections");
+  // Bust the cached section config so edits show on the public pages quickly
+  // (otherwise they lag until the 1h TTL backstop). Matches the tag set in
+  // PaidContentBlock's unstable_cache. Next 16's revalidateTag takes a cache-
+  // life profile as its second arg; { expire: 0 } requests immediate expiry.
+  // Wrapped so a cache-invalidation hiccup can never fail the admin save.
+  try {
+    revalidateTag("sections", { expire: 0 });
+  } catch (err) {
+    console.error("[admin/sections] revalidateTag failed:", err);
+  }
 
   const updated = await sql`SELECT * FROM sections WHERE slug = ${slug} LIMIT 1`;
   return NextResponse.json(updated[0] ?? { ok: true });
