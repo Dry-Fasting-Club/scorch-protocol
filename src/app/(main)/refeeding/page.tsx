@@ -223,11 +223,25 @@ export default function RefeedingPage() {
           best: a well-fueled body on T3 rebuilds tissue; an underfueled
           body on T3 just burns faster. Peptides like Retatrutide, Carnitine, and
           BPC-157 can further optimize the energy-to-composition ratio for
-          people who need additional help here. If suppressed appetite is the
-          bottleneck early in the refeed,{" "}
-          <strong>cyproheptadine</strong> is a simple appetite-restoration tool
-          that also improves sleep and lowers the stress surge T3 can provoke
-          (see the <a href="/t3-therapy">T3 Therapy</a> page).
+          people who need additional help here.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Cyproheptadine: the first-cycle eating-window lever</span>
+          When suppressed appetite or a hypersensitive gut is the bottleneck
+          in the first T3 cycle,{" "}
+          <strong>cyproheptadine</strong> is the primary tool. Its job is to
+          drive you to eat dramatically more food so you fill the wider
+          metabolic eating window T3 opens: an underfueled body on T3 just
+          burns muscle. It also calms the brain-gut nerves that make large
+          meals nauseating (the same action behind its established use for
+          cyclic vomiting in children), so eating more becomes tolerable
+          even when the gut is not ready. It also improves sleep and lowers
+          the serotonin-driven cortisol surge T3 can provoke.
+          Dose is 1 to 4 mg in the evening, set in your consult.
+          For the full mechanism and the critical cycle-1-only caveat
+          (cyproheptadine is stopped before hGH because it blunts growth
+          hormone and nocturnal cortisol), see the{" "}
+          <a href="/t3-therapy#cyproheptadine-caveat">T3 Therapy page</a>.
         </div>
       </div>
 

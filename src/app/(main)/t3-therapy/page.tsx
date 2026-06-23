@@ -548,15 +548,53 @@ export default function T3TherapyPage() {
           The protocol uses a small co-factor stack to protect all three.
         </p>
         <div className="question-item">
-          <span className="question-label">Cyproheptadine (appetite, sleep, stress):</span>
-          Restores appetite so you can fuel the higher metabolic rate, restores
-          sleep so repair happens, and blunts the serotonin and cortisol surge
-          that T3 can provoke. Lower cortisol means less muscle catabolism and a
-          calmer nervous system, which is exactly the environment mitochondria
-          need to respond to T3 instead of fighting it. This is why it is more
-          than a sleep aid here: it removes the three most common reasons people
-          abandon T3. See the{" "}
-          <a href="/symptom-management">Symptom Management</a> page for dosing.
+          <span className="question-label">Cyproheptadine (appetite, sleep, stress, mitochondria):</span>
+          This is a first-cycle tool with one primary job: drive you to eat
+          dramatically more food so you fill the wider metabolic eating window
+          T3 opens. Without sufficient calories T3 burns muscle, not fat.
+          Cyproheptadine fixes that by restoring the appetite T3 demands.
+          It also calms a hypersensitive, nauseated gut by quieting the
+          brain-gut nerves (the same mechanism behind its well-established
+          use for cyclic vomiting and abdominal migraine in children), which
+          makes eating much larger amounts tolerable even when the gut is
+          not ready.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Additional effects: cortisol, sleep, and mitochondrial uncoupling</span>
+          It blunts the serotonin and cortisol surge that T3 can provoke,
+          reducing muscle catabolism and settling the nervous system into the
+          calm state mitochondria need to respond to T3 instead of fighting
+          it. As an anti-serotonin drug it also supports mitochondrial
+          uncoupling: the mitochondria burn fuel to produce heat, which raises
+          body temperature and metabolic rate, directly supporting what T3 is
+          driving. And it is T3-sparing: some patients who barely respond to T3
+          are tempted to push the dose above the roughly 150 mcg/day Wilson&rsquo;s
+          protocol ceiling, which carries more cardiac and adrenal risk.
+          Adding cyproheptadine often lets the existing T3 dose reach the
+          target temperature instead, avoiding that escalation.
+          Dose is 1 to 4 mg in the evening, set individually in your consult.
+          See the{" "}
+          <a href="/symptom-management">Symptom Management</a> page for MCAS
+          context and the ketotifen comparison.
+        </div>
+        <div
+          style={{
+            marginTop: "1rem",
+            padding: "0.75rem 1rem",
+            backgroundColor: "rgba(232,93,4,0.08)",
+            borderLeft: "3px solid var(--scorch)",
+            borderRadius: "4px",
+            fontSize: "0.92rem",
+          }}
+          id="cyproheptadine-caveat"
+        >
+          <strong>First-cycle only: stop before hGH.</strong>{" "}
+          Cyproheptadine blunts growth hormone directly, so it is stopped
+          before the second T3 cycle where hGH does the rebuilding. There
+          is a second reason to stop it: hGH fat-burning at night depends on
+          nocturnal cortisol, and cyproheptadine blunts that nocturnal cortisol.
+          Running cyproheptadine during the hGH phase works against the hGH
+          phase on both fronts. Do not run them together.
         </div>
         <div className="question-item">
           <span className="question-label">Low-dose aspirin (inflammation, cortisol, insulin sensitivity):</span>
@@ -668,13 +706,15 @@ export default function T3TherapyPage() {
               useful for people stuck in low-energy states.
             </li>
             <li>
-              <strong>Cyproheptadine:</strong> a potent appetite stimulant that
-              also calms the serotonin and histamine signaling that suppresses
-              hunger in chronic illness. Taken in the evening it does double
-              duty: it restores the drive to eat (so you can actually hit
-              T3&rsquo;s caloric demand) and it deepens sleep, which is when most
-              tissue repair on T3 happens. For many people this is the single
-              cheapest way to get calories back up early in the refeed.
+              <strong>Cyproheptadine:</strong> the primary first-cycle lever
+              for filling the eating window when appetite is broken or the gut
+              is hypersensitive. It restores the drive to eat, calms the
+              brain-gut nerves that make large meals nauseating, and deepens
+              sleep when repair on T3 happens. For many people this is the
+              single cheapest way to get calories back up early in the
+              refeed. See the{" "}
+              <a href="/t3-therapy#cyproheptadine-caveat">caveat above</a>:
+              cyproheptadine is a first-cycle tool and is stopped before hGH.
             </li>
           </ul>
         </div>
