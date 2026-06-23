@@ -234,7 +234,7 @@ export default function RefeedingPage() {
           metabolic eating window T3 opens: an underfueled body on T3 just
           burns muscle. It also calms the brain-gut nerves that make large
           meals nauseating (the same action behind its established use for
-          cyclic vomiting in children), so eating more becomes tolerable
+          cyclic vomiting and abdominal migraine in children), so eating more becomes tolerable
           even when the gut is not ready. It also improves sleep and lowers
           the serotonin-driven cortisol surge T3 can provoke.
           Dose is 1 to 4 mg in the evening, set in your consult.

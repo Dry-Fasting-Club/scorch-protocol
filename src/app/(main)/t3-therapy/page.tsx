@@ -713,7 +713,7 @@ export default function T3TherapyPage() {
               sleep when repair on T3 happens. For many people this is the
               single cheapest way to get calories back up early in the
               refeed. See the{" "}
-              <a href="/t3-therapy#cyproheptadine-caveat">caveat above</a>:
+              <a href="/t3-therapy#cyproheptadine-caveat">stop-before-hGH caveat</a>:
               cyproheptadine is a first-cycle tool and is stopped before hGH.
             </li>
           </ul>
