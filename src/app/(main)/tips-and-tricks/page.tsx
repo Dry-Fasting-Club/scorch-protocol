@@ -64,9 +64,12 @@ export default function TipsAndTricksPage() {
             immediately before starting, as this can cause discomfort.
           </li>
           <li>
-            <strong>Eat Light:</strong> Consume easily digestible foods (fruits,
-            vegetables, light proteins) in the days leading up to your fast.
-            Avoid heavy, processed foods.
+            <strong>Follow Your Prep Path:</strong> What you eat in the days
+            before matters more than most realize. The plant-based path finishes
+            on raw and steamed vegetables; the ketogenic path keeps you fat-based
+            and low-carb. Either way, avoid heavy, processed foods. See the{" "}
+            <a href="/preparation">Preparation page</a> for the full taper of
+            both paths.
           </li>
           <li>
             <strong>Mental Preparation:</strong> Set clear intentions. Journal

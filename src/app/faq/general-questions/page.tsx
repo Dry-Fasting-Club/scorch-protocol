@@ -91,10 +91,12 @@ export default function GeneralQuestionsPage() {
 
         <h3>4. Can I skip the preparation phase?</h3>
         <p>
-          <strong>No.</strong> Skipping preparation (like the Ketovore diet or
-          juice cleanse) can make the fast much harder and even dangerous.
-          Preparation gets your body ready to burn fat and cleans out your
-          system so you don&rsquo;t feel as sick during the fast.
+          <strong>No.</strong> Preparation is where you choose your road into the
+          fast: a plant-based taper that heals deeper, or a ketogenic path that
+          is safer and more forgiving. Skipping it can make the fast much harder
+          and even dangerous. Either path gets your body ready to burn fat and
+          clears out your system gently through food, so you don&rsquo;t feel as
+          sick during the fast.
         </p>
 
         <h3>5. Why is the refeeding phase so dangerous?</h3>

@@ -8,7 +8,7 @@ import InterestingVideoBlock from "@/components/InterestingVideoBlock";
 export const metadata: Metadata = {
   title: "Phase 1: Preparation | The Scorch Protocol",
   description:
-    "Phase 1: Baseline blood tests, supplement stacks, and readiness checks required before beginning The Scorch Protocol.",
+    "Phase 1: Baseline blood tests, supplement stacks, the two preparation paths (plant-based and ketogenic), and readiness checks required before beginning The Scorch Protocol.",
 };
 
 export default function PreparationPage() {
@@ -18,8 +18,10 @@ export default function PreparationPage() {
       <p>
         Before starting the Scorch Protocol, you must get your body ready. Think
         of this as &ldquo;turning on the lights&rdquo; before the deep work
-        begins. This phase involves testing your baseline health, fixing major
-        deficiencies, and choosing the right diet to support your fast.
+        begins. Preparation means testing your baseline health, fixing major
+        deficiencies, and then choosing one of two roads into the fast: a
+        plant-based path that heals deeper, or a ketogenic path that is safer
+        and far more forgiving. This page walks you through both.
       </p>
 
       <div className="guiding-questions">
@@ -146,38 +148,107 @@ export default function PreparationPage() {
         </div>
       </div>
 
-      <h2>Step 3: Dietary Preparation</h2>
+      <h2>Step 3: Choose Your Preparation Path</h2>
       <p>
-        What you eat in the weeks before the fast significantly affects how your
-        body responds to it.
+        There are two ways to prepare for the fast, and they are not equal. One
+        gets you closer to fully healed. The other is safer and far more
+        forgiving. The right choice depends on how sick you are, how many
+        medications you are on, and how precisely you can follow a plan. Pick
+        honestly.
+      </p>
+      <p>
+        Both paths begin the same way. Starting at least <strong>3 weeks
+        out</strong>, remove alcohol, caffeine, nicotine, and ultra-processed
+        food completely. This clears the caffeine-withdrawal headache and the
+        dopamine crash out of the way now, so they do not land on top of you
+        during the fast itself. From there the two paths diverge.
       </p>
       <div className="core-pillars">
         <div
           className="pillar-item"
           style={{ borderLeftColor: "#27ae60" }}
         >
-          <h3>Option A: Ketogenic Pre-Fast Diet (Recommended for Sick Patients)</h3>
+          <h3>Path 1: Plant-Based Preparation (The Gold Standard)</h3>
           <p>
-            If you are dealing with significant chronic illness, fatigue, or have
-            failed previous fasting attempts: eat a strict ketogenic diet
-            (high-fat, very low carb) for <strong>4–8 weeks</strong> before your
-            fast. This trains your body to burn fat efficiently, making the
-            transition into dry fasting much smoother. It also reduces
-            inflammation and improves insulin sensitivity before you begin.
+            This is the stronger path. Done correctly, it gets you closest to
+            fully healed, because it builds exactly the baseline a dry fast heals
+            best from: a higher metabolic rate, higher T3, and a body primed so
+            that the Day 3 acidotic shift hits with full force. That shift is the
+            therapeutic event, and the larger your metabolic gap entering
+            ketosis, the deeper it goes. It demands precision, so choose it only
+            if you can follow the steps closely.
+          </p>
+          <p><strong>After cutting the inputs above, the taper continues:</strong></p>
+          <ul>
+            <li>
+              <strong>1 to 2 weeks out:</strong> Move to a strict whole-food
+              plant-based diet with no added salt, oil, or sugar. Stripping these
+              out lowers excess sodium stores so the fluid and blood-pressure
+              swings of the first fasting days are gentler. (Your actual
+              electrolyte target going into a dry fast is individual and set with
+              your coach. Going salt, oil, and sugar free is about removing the
+              excess, not about depleting you.)
+            </li>
+            <li>
+              <strong>48 to 72 hours out:</strong> Raw fruit, raw vegetables, and
+              steamed vegetables only. No grains, beans, nuts, or heavy starches.
+              This low-residue step is the real cleanse. It empties you out gently
+              through food instead of through harsh laxatives.
+            </li>
+          </ul>
+          <p>
+            This path is also where medications come down, where appropriate and
+            always under your prescribing physician. Tapering off fat-soluble
+            drugs before the fast matters because as you burn fat, stored drug
+            residues re-enter the bloodstream. Which drugs and on what schedule is
+            individual, and your coach works it out with you. Do not change
+            prescriptions on your own.
           </p>
         </div>
         <div
           className="pillar-item"
           style={{ borderLeftColor: "#3498db" }}
         >
-          <h3>Option B: Standard Pre-Fast Approach (For Healthier Individuals)</h3>
+          <h3>Path 2: Ketogenic Preparation (The Safer Fallback)</h3>
           <p>
-            If you are relatively healthy and doing a shorter fast (36–72 hours):
-            a strict ketogenic diet for just <strong>3–5 days</strong> before
-            starting is sufficient. This depletes glycogen stores and puts your
-            body into a mild ketogenic state, reducing the difficulty of the first
-            24 hours of the dry fast.
+            This is the forgiving path. Eat <strong>50 grams of carbohydrate a
+            day or less for at least 1 to 2 months</strong> before the fast, with
+            the same cleanse prep below. Keto-adapting first means your body is
+            already burning fat when the fast begins, which makes the fast
+            dramatically easier and safer and leaves a large margin for error.
+            Because the fast itself is softened, the medication picture is usually
+            less drastic too.
           </p>
+          <p>
+            The trade-off is ceiling. A body that eased into ketosis meets a
+            smaller Day 3 shock, so the healing is gentler than the plant-based
+            path. This is a tolerance accommodation, not a depth multiplier.
+            Choose it if you are seriously ill, on many medications, have failed
+            fasts before, cannot follow the plant-based steps precisely, or simply
+            want the largest safety margin for your first attempts.
+          </p>
+        </div>
+      </div>
+      <div className="guiding-questions box-yellow">
+        <h3>Which Path Is Right for You?</h3>
+        <div className="question-item">
+          <span className="question-label">Choose Plant-Based if:</span>
+          You can follow a plan precisely, you are stable enough to taper
+          medications with your prescriber, and you want the highest healing
+          ceiling.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Choose Keto if:</span>
+          You are sicker, on many medications, have struggled with fasts before,
+          or want the safest and most forgiving on-ramp.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Neither, yet:</span>
+          If you are over-adapted (many months of low-carb with weight loss
+          stalled at the same calories that used to work) or your waking
+          temperature is under 96&deg;F, fasting is not your entry point. You need
+          T3 therapy to rebuild your metabolism first. See the T3 therapy section
+          before preparing to fast.
         </div>
       </div>
 
@@ -238,16 +309,28 @@ export default function PreparationPage() {
         </div>
       </div>
 
-      <h2>Step 5: Colon Cleanse (2 Days Before the Fast)</h2>
+      <h2>Step 5: The Cleanse and the Final Days</h2>
       <div className="guiding-questions box-indigo">
-        <h3>Magnesium Citrate Cleanse: Starting 2 Days Before the Fast</h3>
+        <h3>One Clean-Out, Not a Cascade of Cleanses</h3>
         <p>
-          One of the most underrated preparation steps is clearing out the
-          colon before you begin. A full colon during a dry fast means your
-          body is dealing with rotting material in a sealed environment, which is
-          extra toxin load during a time when you want nothing pulling your
-          immune system in the wrong direction. A clean colon means a cleaner,
-          more productive fast.
+          Going into the fast with an empty colon means your body is not dealing
+          with rotting material in a sealed, waterless environment, which is
+          extra toxin load at exactly the time you want nothing pulling your
+          immune system the wrong way. But more is not better here. Repeated
+          laxatives, enemas, colonics, saltwater flushes, and herbal colon
+          cleanses irritate the bowel lining and strip out potassium right before
+          a fast that already stresses your electrolytes. We do not do them. The
+          plant-based taper (or the keto prep) already does most of the work of
+          emptying you out gently through food. One single, gentle clear-out
+          finishes the job.
+        </p>
+        <p>
+          The one exception we keep is magnesium citrate, the least stressful of
+          all the options. A dry fast is not a multi-day water flush of the colon,
+          so a single clear-out beforehand plays a specific role it would not in a
+          water fast. Once you are in the fast, autophagy and fat burning handle
+          the real cellular clearance from the inside. There is nothing left to
+          &ldquo;flush.&rdquo;
         </p>
 
         <div style={{ margin: "1.5rem 0", textAlign: "center" }}>
@@ -327,6 +410,15 @@ export default function PreparationPage() {
           all fall into this category. Starting TUDCA weeks in advance, not
           days, gives your liver a meaningful head start before the added
           metabolic demands of fasting arrive.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Stop Exercising, Rest Into It:</span>
+          In the final days before the fast, stop hard exercise and avoid sauna
+          or any trick meant to &ldquo;burn off&rdquo; glycogen faster. Your body
+          has a transition speed that took millions of years to evolve, and
+          forcing it faster only adds risk while protecting nothing. Conserve your
+          energy and your muscle for the fast itself. Strict physical rest going
+          in is part of the protocol, not laziness.
         </div>
       </div>
 

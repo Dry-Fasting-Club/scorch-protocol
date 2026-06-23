@@ -50,20 +50,23 @@ export default function DryFastingPage() {
 
       <ul>
         <li>
-          <strong>Choosing Your Diet:</strong>
+          <strong>Choosing Your Path:</strong> Preparation comes in two roads.
           <ul>
             <li>
-              <em>If you are sick or in high pain:</em> You{" "}
-              <strong>should</strong> eat a Ketogenic (high fat, low carb) diet
-              for <strong>1 to 2 months</strong> before you start. If your body
-              has struggled with fasting before, you must do this first.
+              <em>Plant-based path (gold standard):</em> A whole-food,
+              salt/oil/sugar-free taper over your final weeks, finishing on raw
+              and steamed vegetables. It heals deeper and gets you closest to
+              fully healed, but it asks for precision.
             </li>
             <li>
-              <em>Standard Prep:</em> For everyone else, you don&rsquo;t need
-              major dietary changes, but eating low-carb for 3 days before the
-              fast can help reduce hunger.
+              <em>Ketogenic path (safer fallback):</em> 50g of carbs a day or
+              less for <strong>1 to 2 months</strong> before you start. Far more
+              forgiving and the right call if you are sicker, on many
+              medications, or have struggled with fasting before.
             </li>
           </ul>
+          The full breakdown of both paths is on the{" "}
+          <a href="/preparation">Preparation page</a>.
         </li>
         <li>
           <strong>Get Your Mind Right:</strong> Write down why you are doing
