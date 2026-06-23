@@ -312,37 +312,6 @@ export default function HomePage() {
         </p>
       </div>
 
-      {/* ── SUCCESS DATA CALLOUT ── */}
-      <div className="outcomes-callout">
-        <h3>Real Outcomes from 141 Protocol Participants</h3>
-        <div className="outcomes-grid">
-          <div className="outcome-item">
-            <span className="outcome-phase">Before Protocol</span>
-            <span className="outcome-stat">75%</span>
-            <span className="outcome-desc">
-              scored 5 or lower on energy, cognition &amp; sleep
-            </span>
-          </div>
-          <div className="outcome-item">
-            <span className="outcome-phase">After Dry + Water Fast</span>
-            <span className="outcome-stat">35%</span>
-            <span className="outcome-desc">
-              reached level 8–10 (near-normal function)
-            </span>
-          </div>
-          <div className="outcome-item">
-            <span className="outcome-phase">After T3 Therapy</span>
-            <span className="outcome-stat">97%</span>
-            <span className="outcome-desc">
-              experienced significant improvement across all symptoms
-            </span>
-          </div>
-        </div>
-        <Link href="/success-rate-data" className="outcomes-link">
-          View Full Success Rate Data &rarr;
-        </Link>
-      </div>
-
       {/* ── EXTRA TOOLS ── */}
       <h2>Extra Helping Tools</h2>
       <p>Depending on your blood work and symptoms, we may use other tools:</p>

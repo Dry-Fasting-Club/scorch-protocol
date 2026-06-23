@@ -9,22 +9,22 @@ import MermaidCharts from "@/components/MermaidCharts";
 export const metadata: Metadata = {
   title: "Success Rate Data | The Scorch Protocol",
   description:
-    "Real outcome data from 141 protocol participants: 97% success rate after completing dry fasting and T3 therapy phases.",
+    "Real outcome data from 141 protocol participants: 97% success rate after completing the dry fasting, T3, and hGH therapy phases.",
 };
 
 const patientFunnel = `graph TD
-  Start["141 chronically ill patients<br/>enrolled in tracked protocol"] --> Phase2["117 completed Phase 2<br/>(10-day dry+water fast + refeed)"]
+  Start["141 chronically ill patients<br/>cleared and enrolled in the tracked protocol"] --> Phase2["117 completed the 10-day fast block<br/>(5 dry + 5 water) + refeed"]
 
-  Phase2 --> NoT3["~31% reached level 10 on fatigue<br/>WITHOUT needing T3<br/>(prep + dry fast + refeed sufficient)"]
-  Phase2 --> T3Group["32 progressed to full T3 therapy phase<br/>(most motivated, much sicker patients)"]
+  Phase2 --> FastingOnly["The largest group: deep fasting only<br/>lower-severity patients, not the most chronically ill<br/>partial to full resolution from the fast alone<br/>(about a third reached level 10 with no T3)"]
+  Phase2 --> Continued["32 continued to the full protocol:<br/>T3 + hGH therapy<br/>plus symptom-specific add-ons<br/>(e.g. herbal Lyme protocols kept running<br/>through regeneration)<br/>the sickest, most-motivated patients"]
 
-  T3Group --> Recovered["30 of 32 fully recovered<br/>= 97% success rate<br/><br/>• 53% reached 10/10 brain fog<br/>• 56% reached 10/10 insomnia<br/>• 41% reached 10/10 fatigue"]
-  T3Group --> Incomplete["2 of 32 still in protocol<br/>or did not complete"]
+  Continued --> Recovered["30 of 32 fully recovered<br/>= 97% success rate<br/><br/>• 53% reached 10/10 brain fog<br/>• 56% reached 10/10 insomnia<br/>• 41% reached 10/10 fatigue"]
+  Continued --> Incomplete["2 of 32 still in protocol<br/>or did not complete"]
 
   style Start fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
   style Phase2 fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
-  style NoT3 fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
-  style T3Group fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
+  style FastingOnly fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
+  style Continued fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
   style Recovered fill:#14532d,stroke:#22c55e,stroke-width:4px,color:#86efac
   style Incomplete fill:#1e293b,stroke:#64748b,stroke-width:1px,color:#94a3b8`;
 
@@ -50,16 +50,46 @@ export default function SuccessRateDataPage() {
       <div style={{ margin: "1.5rem 0" }}>
         <MermaidCharts charts={[patientFunnel]} />
         <p style={{ fontSize: "0.9rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic", textAlign: "center" }}>
-          The participant funnel. The 97% number specifically describes the 32 patients who completed the full protocol including T3 therapy. A meaningful subset (~31%) reached full recovery WITHOUT ever needing T3 &mdash; the fast + refeed alone was enough.
+          The participant funnel. These 141 are the people who were medically cleared and chose to proceed. Over 100 others were assessed and advised not to attempt the protocol (see below). The 97% describes the 32 who completed the full protocol, T3 and hGH together. The largest group never needed that: they reached partial or full resolution on the deep fast and refeed alone.
         </p>
+      </div>
+
+      <div className="guiding-questions box-red">
+        <h3>Who the Scorch Protocol Is Not For</h3>
+        <p>
+          Over 100 people who came to Yannick were assessed and advised{" "}
+          <strong>not</strong> to attempt the Scorch Protocol. The 141 tracked
+          participants are those who were medically cleared and ready, which is
+          part of why the outcomes look the way they do. This is careful
+          screening, not cherry-picked data.
+        </p>
+        <div className="question-item">
+          <span className="question-label">Medical contraindications</span>
+          People with heart damage, type 1 diabetes, and a range of other
+          serious conditions were turned away, because deep dry fasting would put
+          them at real risk.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Redirected to metabolic therapy</span>
+          Some were advised to focus on metabolic therapy first rather than
+          fasting, as the safer and more appropriate starting point for their
+          situation.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Mindset and readiness</span>
+          Others were turned away because their headspace or mindset made dry
+          fasting too dangerous to attempt. Fasting at this depth demands the
+          right mental footing, and pushing someone who is not ready can do more
+          harm than good.
+        </div>
       </div>
 
       <div className="guiding-questions box-deepgreen">
         <h3>Key Findings</h3>
         <div className="question-item">
           <span className="question-label">97% Success Rate</span>
-          After completing the full Scorch Protocol (including T3 Therapy),{" "}
-          <strong>97% of participants</strong> experienced significant
+          After completing the full Scorch Protocol (including T3 and hGH
+          therapy), <strong>97% of participants</strong> experienced significant
           improvement in their symptoms.
         </div>
         <div className="question-item">
@@ -70,9 +100,9 @@ export default function SuccessRateDataPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Combined Approach</span>
-          The combination of dry fasting and T3 therapy together creates results
-          that{" "}
-          <strong>cannot be achieved with either treatment alone</strong>.
+          For those who go all the way, the combination of dry fasting, T3, and
+          hGH together creates results that{" "}
+          <strong>cannot be achieved with any of them alone</strong>.
         </div>
       </div>
 
@@ -157,6 +187,12 @@ export default function SuccessRateDataPage() {
           healed after 1-2 months of refeeding
         </li>
       </ul>
+      <p>
+        Most participants stopped here. They were healed enough on the fast and
+        refeed alone, and this largest group tended to be the lower-severity
+        patients, not the most chronically ill. Only the sicker, most-motivated
+        minority continued to T3 and hGH (next section).
+      </p>
 
       <div style={{ margin: "2rem 0", textAlign: "center" }}>
         <Image
@@ -177,8 +213,11 @@ export default function SuccessRateDataPage() {
         </p>
       </div>
 
-      <h3>After T3 Therapy Cycle (32 Participants)</h3>
-      <p>For those who continued to T3 Therapy, the results are exceptional:</p>
+      <h3>After T3 + hGH Therapy (32 Participants)</h3>
+      <p>
+        For those who continued to the full T3 and hGH protocol, the results are
+        exceptional:
+      </p>
       <ul>
         <li>
           <strong>Fatigue:</strong> 40.6% reached level 10, with 18.8% at level
@@ -205,7 +244,7 @@ export default function SuccessRateDataPage() {
       <div style={{ margin: "2rem 0", textAlign: "center" }}>
         <Image
           src="/assets/images/symptoms-after-t3.png"
-          alt="Fatigue, Brain Fog, and Insomnia levels after T3 Therapy - 32 participants"
+          alt="Fatigue, Brain Fog, and Insomnia levels after T3 and hGH therapy - 32 participants"
           width={900}
           height={600}
           style={{
@@ -217,7 +256,7 @@ export default function SuccessRateDataPage() {
           }}
         />
         <p style={{ fontSize: "0.9rem", color: "#666", marginTop: "0.5rem" }}>
-          <em>After T3 Therapy: 32 participants (97% success rate)</em>
+          <em>After T3 + hGH Therapy: 32 participants (97% success rate)</em>
         </p>
       </div>
 
@@ -239,7 +278,7 @@ export default function SuccessRateDataPage() {
           8-9.
         </div>
         <div className="question-item">
-          <span className="question-label">After T3 Therapy</span>
+          <span className="question-label">After T3 + hGH Therapy</span>
           For those who continued, over 40% reached level 10 for Fatigue, and
           over 50% reached level 10 for Brain Fog and Insomnia.{" "}
           <strong>97% experienced significant improvement.</strong>
@@ -358,6 +397,11 @@ export default function SuccessRateDataPage() {
         </li>
         <li>
           <strong>T3 Therapy</strong> (metabolic reset and energy restoration)
+        </li>
+        <li>
+          <strong>hGH Therapy</strong> (for those who continue: directs the
+          released stem cells into tissue rebuilding), plus symptom-specific
+          add-ons where needed
         </li>
       </ul>
       <p>
