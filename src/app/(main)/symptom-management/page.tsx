@@ -446,14 +446,20 @@ export default function SymptomManagementPage() {
           dampens the serotonin-driven cortisol surge that keeps the nervous
           system wired. It is slightly more sedating than Ketotifen, but for
           most people that is a feature rather than a drawback: the deeper
-          sedation is what finally breaks MCAS-driven insomnia. Start at 2mg in
-          the evening and use the lowest dose that works. Typical sleep dose is
-          2 to 4mg.{" "}
-          <strong>Worth noting for anyone on T3 therapy:</strong> that same
-          appetite-stimulating and cortisol-lowering action makes cyproheptadine
-          an unusually good T3 co-factor, where suppressed appetite, broken
-          sleep, and a spiking stress response are the usual reasons therapy
-          fails. See the <a href="/t3-therapy">T3 Therapy</a> page.
+          sedation is what finally breaks MCAS-driven insomnia. Dose it in the
+          evening; the range is 1 to 4 mg, set individually in your consult.
+          Always use the lowest dose that works.{" "}
+          <strong>Broader role in the first T3 cycle:</strong> beyond sleep,
+          cyproheptadine also calms the hypersensitive brain-gut nerves (the
+          same action used for cyclic vomiting and abdominal migraine in
+          children), making eating more tolerable precisely when T3 demands more
+          calories. That appetite and brain-gut role is why it is used as an
+          active first-cycle tool, not just a sleep aid. See the full framing on
+          the{" "}
+          <a href="/t3-therapy#cyproheptadine-caveat">T3 Therapy page</a>.{" "}
+          <strong>Cycle-1 only:</strong> stop cyproheptadine before moving to
+          hGH, because it lowers growth hormone output and blunts the nighttime
+          cortisol hGH needs to burn fat.
         </div>
         <div className="question-item">
           <span className="question-label">Ketotifen (Second Choice):</span>

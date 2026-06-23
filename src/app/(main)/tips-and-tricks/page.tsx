@@ -521,9 +521,16 @@ export default function TipsAndTricksPage() {
           antagonist it sedates (restoring sleep), stimulates appetite (so you
           can match T3&rsquo;s caloric demand), and dampens the
           serotonin-driven cortisol surge (lowering the catabolic, anxious
-          state). Dose it in the evening, start low (2mg), and treat it as the
-          partner to aspirin and K2 in the co-factor layer, not as an optional
-          extra.
+          state). Dose it in the evening (1 to 4 mg, set in your consult) and
+          treat it as the partner to aspirin and K2 in the co-factor layer, not
+          as an optional extra. See the full cyproheptadine framing on the{" "}
+          <a href="/t3-therapy#cyproheptadine-caveat">T3 Therapy page</a>.
+        </p>
+        <p>
+          <strong>First T3 cycle only.</strong> Stop cyproheptadine before
+          moving to hGH: it lowers growth hormone directly and blunts the
+          nighttime cortisol pulse hGH relies on to burn fat. The two do not
+          belong together.
         </p>
       </div>
 

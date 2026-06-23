@@ -43,6 +43,30 @@ export default function HghTherapyPage() {
       </p>
 
       <div
+        style={{
+          backgroundColor: "rgba(220,38,38,0.10)",
+          borderLeft: "5px solid #dc2626",
+          padding: "1.25rem 1.5rem",
+          borderRadius: "8px",
+          margin: "1.5rem 0",
+        }}
+      >
+        <h4 style={{ marginTop: 0, color: "#fca5a5" }}>
+          Stop Cyproheptadine Before Starting hGH
+        </h4>
+        <p style={{ marginBottom: 0 }}>
+          If you used cyproheptadine during your first T3 cycle (for appetite,
+          sleep, or brain-gut calming), stop it before you move to hGH.
+          Cyproheptadine directly lowers growth hormone output, so it belongs
+          to the first T3 cycle only. It also blunts the nighttime cortisol
+          pulse that hGH depends on to burn fat while you sleep. Running both
+          at the same time works against the therapy. See the full cyproheptadine
+          context on the{" "}
+          <a href="/t3-therapy#cyproheptadine-caveat">T3 Therapy page</a>.
+        </p>
+      </div>
+
+      <div
         role="navigation"
         aria-label="On this page"
         style={{
