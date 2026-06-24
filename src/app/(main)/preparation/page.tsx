@@ -178,31 +178,46 @@ export default function PreparationPage() {
             ketosis, the deeper it goes. It demands precision, so choose it only
             if you can follow the steps closely.
           </p>
-          <p><strong>After cutting the inputs above, the taper continues:</strong></p>
+          <p>
+            <strong>After cutting those inputs, the taper counts down to the
+            fast.</strong> Day 0 is the day the dry fast begins:
+          </p>
           <ul>
             <li>
-              <strong>1 to 2 weeks out:</strong> Move to a strict whole-food
-              plant-based diet with no added salt, oil, or sugar. Stripping these
-              out lowers excess sodium stores so the fluid and blood-pressure
-              swings of the first fasting days are gentler. (Your actual
-              electrolyte target going into a dry fast is individual and set with
-              your coach. Going salt, oil, and sugar free is about removing the
-              excess, not about depleting you.)
+              <strong>2 weeks to 5 days out:</strong> Strict whole-food
+              plant-based, with no added salt, oil, or sugar. Stripping these out
+              sheds excess stored sodium so the fluid and blood-pressure swings of
+              the first fasting days are gentler. This is about removing the
+              excess, not depleting you. You bring electrolytes back up to a safe
+              baseline on the rehydrate day below.
             </li>
             <li>
-              <strong>48 to 72 hours out:</strong> Raw fruit, raw vegetables, and
+              <strong>5 to 3 days out:</strong> Raw fruit, raw vegetables, and
               steamed vegetables only. No grains, beans, nuts, or heavy starches.
-              This low-residue step is the real cleanse. It empties you out gently
+              This low-residue step is the real cleanse, clearing fiber out gently
               through food instead of through harsh laxatives.
+            </li>
+            <li>
+              <strong>2 days out:</strong> The single magnesium citrate clear-out
+              (see Step 5), followed by a 1 to 2 day window of water, juice,
+              broth, and electrolytes only, with no fiber, fat, or protein. This
+              is where you reload electrolytes to baseline before going in.
+            </li>
+            <li>
+              <strong>Day 0:</strong> Begin the dry fast.
             </li>
           </ul>
           <p>
             This path is also where medications come down, where appropriate and
-            always under your prescribing physician. Tapering off fat-soluble
-            drugs before the fast matters because as you burn fat, stored drug
-            residues re-enter the bloodstream. Which drugs and on what schedule is
-            individual, and your coach works it out with you. Do not change
-            prescriptions on your own.
+            always under your prescribing physician. Two kinds of drugs matter
+            most: ones that stress the kidneys or raise dehydration risk, which
+            generally need to be off before a dry fast, and fat-soluble drugs that
+            sit in your fat stores and re-enter the bloodstream as you burn fat,
+            which are tapered over the weeks beforehand. This is selective, not a
+            clean sweep. Anything load-bearing that is holding you together, like a
+            Lyme protocol or an antifungal or antiviral you depend on, stays.
+            Which specific drugs and what schedule is individual, and your coach
+            works it out with you. Do not change prescriptions on your own.
           </p>
         </div>
         <div
@@ -384,6 +399,10 @@ export default function PreparationPage() {
           pulp), broths, and electrolyte drinks only. You want your colon
           to remain empty and your body to be well-hydrated going into the
           fast. Think of it as a juice fast bridging you into the dry fast.
+          If you came through the plant-based path salt, oil, and sugar free,
+          this is the window where you bring electrolytes back up to a safe
+          baseline. You shed the excess earlier so the fast starts gently;
+          you do not want to walk in actually depleted.
         </div>
         <div className="question-item">
           <span className="question-label">Why It Matters:</span>
