@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
+import RefeedPlanPromo from "@/components/RefeedPlanPromo";
+import EmailCapture from "@/components/EmailCapture";
+import { MEMBERSHIP_PATH } from "@/lib/constants";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -31,6 +34,9 @@ export default function HomePage() {
           </Link>
           <Link href="/preparation" className="hero-btn hero-btn-secondary">
             Start the Protocol &rarr;
+          </Link>
+          <Link href={MEMBERSHIP_PATH} className="hero-btn hero-btn-secondary">
+            Get a personalized plan for $1 &rarr;
           </Link>
         </div>
       </section>
@@ -481,6 +487,14 @@ export default function HomePage() {
         blood tests and supplement loading it requires directly affect how safe
         and effective the fasting phases will be.
       </p>
+
+      <RefeedPlanPromo source="home" />
+
+      <EmailCapture
+        heading="Not ready to start? Get the protocol by email"
+        body="New write-ups on dry fasting, T3 therapy, refeeding, and recovery, sent straight to your inbox. No spam, ever."
+        source="homepage"
+      />
 
       {/* ── CTA SECTION ── */}
       <div className="cta-group">

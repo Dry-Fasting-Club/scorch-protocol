@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
+import KeyTakeaways from "@/components/KeyTakeaways";
+import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 
 export const metadata: Metadata = {
   title: "List of Pharmacies | The Scorch Protocol",
@@ -12,6 +14,12 @@ export default function ListOfPharmaciesPage() {
   return (
     <>
       <h1>Popular and Reliable Prescription-Free Pharmacies</h1>
+
+      <KeyTakeaways points={[
+        "For slow-release T3 (the specific form used in the protocol), chronic-illness.st is the recommended source; the general pharmacies in the table below carry standard liothyronine only.",
+        "The table lists 17 long-established no-prescription pharmacies organized by country and shipping time, useful for sourcing hGH, peptides, and the rest of the protocol stack.",
+        "All listed pharmacies are prescription-free in practice even if their sites say otherwise; the notes section explains how to navigate checkout at each one.",
+      ]} />
 
       <div className="guiding-questions box-purple">
         <h3>Recommended Source for Slow-Release T3 (SR-T3)</h3>
@@ -406,6 +414,7 @@ export default function ListOfPharmaciesPage() {
         </p>
       </div>
 
+      <RefeedPlanPromo source="list-of-pharmacies" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="list-of-pharmacies" sectionTitle="List of Pharmacies" />
     </>

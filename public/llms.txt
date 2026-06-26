@@ -1,0 +1,42 @@
+# The Scorch Protocol
+
+> A data-driven protocol for reversing Long Covid, ME/CFS, and related chronic illness through dry fasting, T3 (Wilson's) thyroid therapy, and hGH/peptide therapy. Built by Yannick Wolfe, who recovered from severe ME/CFS and Long Covid. Outcomes are tracked across 141 participants; of the 32 who completed the full protocol (dry fasting + T3 + hGH), 97% recovered.
+
+## About
+
+The protocol runs in phases: a supported preparation period, a deep dry fast (the "scorch"), a carefully staged refeed to avoid refeeding syndrome, T3 therapy to restart a suppressed metabolism, and hGH/peptide therapy to rebuild. Several steps (T3, hGH, some Long Covid medications) require prescriptions in most countries and carry real risks; the site is educational and not a substitute for medical supervision.
+
+## Core protocol pages
+
+- [Home](https://scorchprotocol.com/): Overview of the protocol, who it is for, and the outcome data.
+- [Decision Tree](https://scorchprotocol.com/decision-tree): How to tell which phase to start with, plus stop-signals and the baseline-temperature gate.
+- [Phase 1: Preparation](https://scorchprotocol.com/preparation): Baseline blood tests, supplement loading, the plant-based vs ketogenic preparation paths, and readiness checks.
+- [Phase 2: The Dry Fast](https://scorchprotocol.com/dry-fasting): Day-by-day dry fasting, the acidotic crisis, progressive fast length, the water-fast bridge, and red-flag stop signals.
+- [Refeeding](https://scorchprotocol.com/refeeding): How to break a dry fast safely, refeeding-syndrome rules, coconut water first, and gut repopulation.
+- [Phase 4: T3 Therapy](https://scorchprotocol.com/t3-therapy): Wilson's T3 protocol to restart suppressed metabolism, dosing ramp, co-factors, and safety.
+- [Phase 5: hGH Therapy](https://scorchprotocol.com/hgh-therapy): Growth hormone and peptides for the rebuilding phase.
+- [Viral Reactivation](https://scorchprotocol.com/viral-reactivation): Why the refeed window can reactivate latent viruses (EBV, HSV) and how to cover it.
+
+## Conditions and supportive care
+
+- [Long Covid Basics](https://scorchprotocol.com/long-covid-basics): First-line supportive stack for Long Covid (LDN, nattokinase, ivermectin, MCAS support) for people not yet ready to fast.
+- [Symptom Management](https://scorchprotocol.com/symptom-management): Managing Herxheimer reactions and side effects during the protocol.
+- [Genetic Polymorphisms](https://scorchprotocol.com/genetic-polymorphisms): How DIO2, MTHFR, and other variants affect T3 conversion and protocol response.
+- [Weight Loss](https://scorchprotocol.com/weight-loss): How fasting and T3 affect body composition.
+- [Mindfulness and Neurology](https://scorchprotocol.com/mindfulness): Meditation, metabolic health, and neuroregeneration.
+
+## Data and reference
+
+- [Success Rate Data](https://scorchprotocol.com/success-rate-data): Outcome data and methodology (141 tracked; 97% of 32 full-protocol completers recovered; self-reported, single assessor, no control group).
+- [9-Month Metabolism Repair](https://scorchprotocol.com/refeed-for-bmr): Rebuilding basal metabolic rate after fasting.
+- [Tips and Tricks](https://scorchprotocol.com/tips-and-tricks): Practical guidance across the protocol.
+- [List of Pharmacies](https://scorchprotocol.com/list-of-pharmacies): Where members source protocol medications.
+
+## Membership
+
+- [Membership](https://scorchprotocol.com/membership): The $1/mo membership at members.scorchprotocol.com, where members build a personalized refeed plan, track temperature and labs, and ask Yannick questions directly.
+
+## More
+
+- [Blog](https://scorchprotocol.com/blog): Articles and Q&A on dry fasting, T3 therapy, and recovery.
+- [FAQ](https://scorchprotocol.com/faq): Common questions about the protocol, kidneys, safety, and more.

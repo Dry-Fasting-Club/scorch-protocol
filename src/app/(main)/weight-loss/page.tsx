@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
+import KeyTakeaways from "@/components/KeyTakeaways";
+import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 
 export const metadata: Metadata = {
   title: "Weight Loss Protocol | The Scorch Protocol",
@@ -12,6 +14,12 @@ export default function WeightLossPage() {
   return (
     <>
       <h1>Weight Loss with The Scorch Protocol</h1>
+      <KeyTakeaways points={[
+        "The Scorch Protocol is designed for metabolic healing, not weight loss, but fat loss is an inevitable and powerful side effect.",
+        "Stop fasting at least 10 lbs before you reach an underweight state, because T3 therapy and the post-refeed period can remove another 10 lbs even after you stop.",
+        "Dry fasting can produce permanent fat loss without loose skin because osmotic stress triggers autophagy that re-elasticizes the skin.",
+        "Do not dry fast if you are under 18. The risk of disrupting metabolism during critical developmental years is too high.",
+      ]} />
       <p style={{ fontSize: "1.1rem", color: "#e74c3c", fontWeight: "bold" }}>
         ⚠️ UNDER CONSTRUCTION
       </p>
@@ -155,6 +163,7 @@ export default function WeightLossPage() {
         </li>
       </ul>
 
+      <RefeedPlanPromo source="weight-loss" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="weight-loss" sectionTitle="Weight Loss Protocol" />
     </>

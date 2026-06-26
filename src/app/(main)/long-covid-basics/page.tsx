@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import MermaidCharts from "@/components/MermaidCharts";
+import KeyTakeaways from "@/components/KeyTakeaways";
+import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 
 export const metadata: Metadata = {
   title: "Dealing with Long Covid Basics | The Scorch Protocol",
@@ -42,6 +44,13 @@ export default function LongCovidBasicsPage() {
   return (
     <>
       <h1>Dealing with Long Covid Basics</h1>
+
+      <KeyTakeaways points={[
+        "This page covers the foundational supportive-care stack most informed clinicians use for Long Covid: anti-inflammatories, micro-clot support, mast cell calming, and lifestyle basics.",
+        "The basics manage symptoms but do not address the root drivers (viral persistence, mitochondrial damage, suppressed thyroid axis), so stopping the stack usually brings symptoms back.",
+        "Several items here, including LDN, ivermectin, sildenafil, and corticosteroids, require a prescriber or a pharmacist willing to work off-label.",
+        "The Scorch Protocol targets the root cause; use this page as a starting floor while building toward it.",
+      ]} />
 
       <div className="guiding-questions box-purple">
         <h3>Read This First</h3>
@@ -407,6 +416,7 @@ export default function LongCovidBasicsPage() {
         </em>
       </p>
 
+      <RefeedPlanPromo source="long-covid-basics" />
       <GuidanceBox />
       <PaidContentBlock
         sectionSlug="long-covid-basics"

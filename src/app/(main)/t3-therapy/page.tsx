@@ -4,6 +4,9 @@ import PaidContentBlock from "@/components/PaidContentBlock";
 import InterestingVideoBlock from "@/components/InterestingVideoBlock";
 import Image from "next/image";
 import MermaidCharts from "@/components/MermaidCharts";
+import KeyTakeaways from "@/components/KeyTakeaways";
+import EmailCapture from "@/components/EmailCapture";
+import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 
 const t3ResistanceChart = `graph LR
   subgraph Healthy["HEALTHY PERSON"]
@@ -39,6 +42,15 @@ export default function T3TherapyPage() {
   return (
     <>
       <h1>Phase 4: T3 Thyroid Therapy (Rebooting Your Metabolism)</h1>
+
+      <KeyTakeaways points={[
+        "T3 therapy is for people with low waking temperature (below 36.5C / 97.7F) and low resting heart rate (below 72 bpm). Normal blood tests do not rule it out, because the problem is cells not responding to T3, not T3 being absent.",
+        "The 30-day cycle climbs 15 mcg per day for 10 days, holds at the peak, then tapers slowly over 20 days. Use Slow-Release T3, not instant-release.",
+        "Stop increasing your dose if your resting heart rate goes above 100 bpm. If it goes above 90 bpm before you even start, resolve that first.",
+        "T3 must be paired with enough calories and some physical movement. Without sufficient fuel, T3 burns muscle instead of fat.",
+        "In the Scorch Protocol, T3 starts on day 3 of the water fast (not at the refeed) so it is already running when you begin eating again.",
+      ]} />
+
       <p>
         Many people with chronic illness are stuck in a state where their body
         is &ldquo;hibernating&rdquo; to save energy. Even if your blood tests
@@ -740,6 +752,8 @@ export default function T3TherapyPage() {
         instagramSrc="https://www.instagram.com/reel/DUI8Cv9DdEa/embed/"
       />
 
+      <EmailCapture compact source="t3-therapy-footer" />
+      <RefeedPlanPromo source="t3-therapy" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="t3-therapy" sectionTitle="Phase 4: T3 Therapy" />
     </>

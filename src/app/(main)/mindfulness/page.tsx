@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
+import KeyTakeaways from "@/components/KeyTakeaways";
+import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 
 export const metadata: Metadata = {
   title: "Mindfulness & Neurology | The Scorch Protocol",
@@ -12,6 +14,14 @@ export default function MindfulnessPage() {
   return (
     <>
       <h1>Mindfulness &amp; Neurology</h1>
+
+      <KeyTakeaways points={[
+        "Chronic illness, depression, and brain fog often share a metabolic root cause: low cellular energy and a suppressed metabolism.",
+        "Meditation reduces the energy drain of a ruminating mind and induces a healing biochemical state similar to nutritional ketosis.",
+        "Fix your metabolism first (body temperature, diet, the protocol) before relying on meditation or other tools to amplify it.",
+        "The post-fast refeeding window is a key window for neuroregeneration, with surges in BDNF, stem cell activity, and autophagy.",
+        "Tools like BPC-157 and psilocybin are covered here as targeted neurological recovery aids, not recreational shortcuts.",
+      ]} />
 
       <p>
         There is a way out, and it starts with health. Almost every chronic
@@ -289,6 +299,7 @@ export default function MindfulnessPage() {
         </div>
       </div>
 
+      <RefeedPlanPromo source="mindfulness" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="mindfulness" sectionTitle="Mindfulness & Neurology" />
     </>

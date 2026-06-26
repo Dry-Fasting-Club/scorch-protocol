@@ -4,6 +4,8 @@ import Link from "next/link";
 import GuidanceBox from "@/components/GuidanceBox";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import PaidContentBlock from "@/components/PaidContentBlock";
+import KeyTakeaways from "@/components/KeyTakeaways";
+import EmailCapture from "@/components/EmailCapture";
 
 export const metadata: Metadata = {
   title: "Phase 1: Preparation | The Scorch Protocol",
@@ -15,6 +17,14 @@ export default function PreparationPage() {
   return (
     <>
       <h1>Phase 1: Preparation</h1>
+
+      <KeyTakeaways points={[
+        "Get baseline blood tests (thyroid, CBC, metabolic panel, Vitamin D, B12, iron, cortisol) and fix critical deficiencies before fasting.",
+        "Choose between two preparation paths: plant-based (gold standard, highest healing ceiling) or ketogenic (safer fallback, more forgiving for sicker or more medicated patients).",
+        "Do one single magnesium citrate clear-out 2 days before the fast, then spend that window rehydrating with water, juice, and electrolytes only.",
+        "Do not change or stop prescription medications on your own; medication tapering is selective and worked out individually with your prescribing physician.",
+      ]} />
+
       <p>
         Before starting the Scorch Protocol, you must get your body ready. Think
         of this as &ldquo;turning on the lights&rdquo; before the deep work
@@ -432,6 +442,7 @@ export default function PreparationPage() {
         </div>
       </div>
 
+      <EmailCapture compact source="preparation-footer" />
       <RefeedPlanPromo source="preparation" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="preparation" sectionTitle="Phase 1: Preparation" />

@@ -1,6 +1,7 @@
 import MainNav from "@/components/MainNav";
 import ProgressBar from "@/components/ProgressBar";
 import MedicalDisclaimer from "@/components/MedicalDisclaimer";
+import AuthorByline from "@/components/AuthorByline";
 
 // Pages under this layout use cookies + DB - never pre-render statically
 export const dynamic = "force-dynamic";
@@ -16,6 +17,7 @@ export default function MainLayout({
       <MainNav />
       <main>
         {children}
+        <AuthorByline />
         <MedicalDisclaimer />
       </main>
     </>

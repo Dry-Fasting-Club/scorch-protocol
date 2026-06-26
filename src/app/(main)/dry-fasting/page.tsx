@@ -3,6 +3,9 @@ import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
 import MermaidCharts from "@/components/MermaidCharts";
+import KeyTakeaways from "@/components/KeyTakeaways";
+import EmailCapture from "@/components/EmailCapture";
+import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 
 export const metadata: Metadata = {
   title: "Phase 2: The Dry Fast | The Scorch Protocol",
@@ -28,6 +31,14 @@ export default function DryFastingPage() {
   return (
     <>
       <h1>Phase 2: The Dry Fast (The Scorch)</h1>
+
+      <KeyTakeaways points={[
+        "Build up gradually: start with 36 hours, then 72 hours, then 5 days dry. Do not jump straight to a long fast.",
+        "The full protocol is 5 days dry followed by 5 days water (not food). Never reverse that order.",
+        "Day 3 is the hard wall (acidotic crisis). Days 4 to 5 are where deep repair and stem cell activity happen.",
+        "Stop immediately if your resting heart rate goes above 120 bpm, you stop urinating for more than 12 hours, you feel confused or get blurry vision, or you develop kidney pain or leg swelling.",
+        "Refeeding starts with coconut water only, sipped slowly. Eating too much too fast is dangerous.",
+      ]} />
 
       <h2>Phase 1: Getting Ready</h2>
       <p>Preparing correctly avoids a &ldquo;detox crash&rdquo; and makes the fast easier.</p>
@@ -374,6 +385,8 @@ export default function DryFastingPage() {
       </FaithBlock>
       )}
 
+      <EmailCapture compact source="dry-fasting-footer" />
+      <RefeedPlanPromo source="dry-fasting" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="dry-fasting" sectionTitle="Phase 2: The Dry Fast" />
     </>

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import InterestingVideoBlock from "@/components/InterestingVideoBlock";
+import KeyTakeaways from "@/components/KeyTakeaways";
+import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 
 export const metadata: Metadata = {
   title: "Phase 5: hGH Therapy | The Scorch Protocol",
@@ -13,6 +15,13 @@ export default function HghTherapyPage() {
   return (
     <>
       <h1>Phase 5: hGH Therapy (Rebuilding Your Body)</h1>
+
+      <KeyTakeaways points={[
+        "hGH is the rebuild signal. Dry fasting clears damaged cells, T3 restores metabolic power, and hGH tells your body to build new healthy muscle and immune tissue from what was freed.",
+        "Stop cyproheptadine before starting hGH. Running both at the same time directly works against the therapy.",
+        "Some people need to eat significantly more calories than they ever have during this phase. Without enough fuel, the rebuild cannot happen. Research suggests 9 months of treatment may be needed to feel substantial results.",
+        "If you cannot access prescription or UGL hGH, Tesamorelin (a GH secretagogue peptide) is a legal, easier-to-source alternative with milder but still meaningful effects.",
+      ]} />
 
       <div
         style={{
@@ -390,6 +399,7 @@ export default function HghTherapyPage() {
         videoSrc="https://www.youtube.com/embed/Wsp0o8LalfY"
       />
 
+      <RefeedPlanPromo source="hgh-therapy" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="hgh-therapy" sectionTitle="Phase 5: hGH Therapy" />
     </>

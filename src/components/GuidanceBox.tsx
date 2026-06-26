@@ -1,21 +1,24 @@
+import Link from "next/link";
+import { MEMBERSHIP_PATH } from "@/lib/constants";
+
+/**
+ * End-of-page CTA: "ask Yannick a question" path into the $1 membership.
+ * Distinct job from RefeedPlanPromo (which pitches the refeed plan builder);
+ * both drive to the on-site /membership hub, which routes to the portal.
+ */
 export default function GuidanceBox() {
   return (
     <div className="guidance-box">
-      <h3>Need Personalized Guidance?</h3>
+      <h3>Have a question about your own case?</h3>
       <p>
-        <strong>What you get:</strong> Access to years of highly synthesized
-        data, a personal researcher, coach, and someone who had severe ME/CFS,
-        Long Covid all in one. You will also get personal help with acquiring
-        medication.
+        <strong>Ask Yannick directly.</strong> Members send their labs, symptoms,
+        and questions and get a personal, reviewed answer, plus help sourcing
+        medication and the full synthesized protocol behind every reply. It
+        starts at $1/mo.
       </p>
-      <a
-        href="https://dryfastingclub.com"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="guidance-btn"
-      >
-        Visit DryFastingClub.com
-      </a>
+      <Link href={`${MEMBERSHIP_PATH}?ref=ask-yannick`} className="guidance-btn">
+        Ask Yannick for $1 →
+      </Link>
     </div>
   );
 }

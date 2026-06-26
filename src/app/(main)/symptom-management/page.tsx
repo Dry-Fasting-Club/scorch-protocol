@@ -3,6 +3,8 @@ import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import InterestingVideoBlock from "@/components/InterestingVideoBlock";
 import MermaidCharts from "@/components/MermaidCharts";
+import KeyTakeaways from "@/components/KeyTakeaways";
+import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 
 export const metadata: Metadata = {
   title: "Symptom Management | The Scorch Protocol",
@@ -33,6 +35,12 @@ export default function SymptomManagementPage() {
   return (
     <>
       <h1>Symptom Management Guide</h1>
+      <KeyTakeaways points={[
+        "Most symptoms during the fast or a T3 cycle are Herxheimer reactions (die-off and detox) that you push through, not emergencies.",
+        "Break the fast immediately if resting heart rate exceeds 120 bpm, you have had no urination for 24 hours, core temp is below 35C or above 38.5C, or you have severe confusion or fainting.",
+        "Insomnia that does not respond to magnesium, GABA, or melatonin is usually MCAS-driven histamine overload, and requires cyproheptadine or ketotifen rather than standard sleep aids.",
+        "Each of the Big 6 (fatigue, fungal issues, kidney, liver, blood sugar, muscle wasting) has a specific protocol fix covered in the sections below.",
+      ]} />
       <p>
         This is a library of ways to handle the &ldquo;Big 6&rdquo; chronic
         health issues people often face during the Scorch Protocol.
@@ -496,6 +504,7 @@ export default function SymptomManagementPage() {
       <InterestingVideoBlock
         tweetUrl="https://x.com/whitesocksclips/status/2038856462072754376"
       />
+      <RefeedPlanPromo source="symptom-management" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="symptom-management" sectionTitle="Symptom Management" />
     </>

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import MermaidCharts from "@/components/MermaidCharts";
+import KeyTakeaways from "@/components/KeyTakeaways";
+import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 
 export const metadata: Metadata = {
   title: "Decision Logic Tree | The Scorch Protocol",
@@ -152,6 +154,13 @@ export default function DecisionTreePage() {
   return (
     <>
       <h1>Protocol Decision Logic Tree</h1>
+
+      <KeyTakeaways points={[
+        "Use Part 0 to find your starting level: Beginner, Intermediate, or Advanced, based on how long you have been sick and how much your daily life is affected.",
+        "Check your morning body temperature before fasting. Below 97.8F means you need T3 therapy first. Below 96F means T3 and high calories are mandatory before any fasting attempt.",
+        "Stop the fast immediately if your heart rate goes above 120 bpm, you stop urinating for more than 24 hours, you develop a fever above 100.4F, or you feel confused or delirious.",
+        "Your diet history (carnivore vs. high-carb) and your thyroid panel each have their own decision branch: follow the chart that matches your situation.",
+      ]} />
 
       <div
         style={{
@@ -445,6 +454,7 @@ export default function DecisionTreePage() {
         </ul>
       </div>
 
+      <RefeedPlanPromo source="decision-tree" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="decision-tree" sectionTitle="Decision Logic Tree" />
     </>

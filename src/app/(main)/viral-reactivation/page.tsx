@@ -3,6 +3,8 @@ import Script from "next/script";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import MermaidCharts from "@/components/MermaidCharts";
+import KeyTakeaways from "@/components/KeyTakeaways";
+import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 
 export const metadata: Metadata = {
   title: "Viral Reactivation | The Scorch Protocol",
@@ -59,6 +61,13 @@ export default function ViralReactivationPage() {
   return (
     <>
       <h1>Viral Reactivation</h1>
+      <KeyTakeaways points={[
+        "The dry fast is actually the safest period for your immune system: autophagy, ketones, mTOR suppression, and NK cell activity all work against viral replication.",
+        "The danger window is the refeed, not the fast. Five defenses collapse at once in the first 24 to 72 hours after breaking the fast.",
+        "An unprotected refeed can leave you more broadly infected than when you started, because cleared viral reservoirs get re-seeded in new nerve tissue.",
+        "The bridge strategy (dry fast to water fast to protected refeed) keeps antivirals and T3 active before food returns, closing the vulnerability window.",
+        "Stop and escalate antivirals immediately if you feel tingling at a previous outbreak site, new nerve-territory pain, or a sudden return of pre-protocol fatigue.",
+      ]} />
       <p>
         <strong>
           This is the most overlooked danger in chronic illness recovery, and
@@ -635,6 +644,7 @@ export default function ViralReactivationPage() {
         </p>
       </div>
 
+      <RefeedPlanPromo source="viral-reactivation" />
       <GuidanceBox />
       <PaidContentBlock
         sectionSlug="viral-reactivation"
