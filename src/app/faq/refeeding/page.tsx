@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
+import JsonLd from "@/components/JsonLd";
+import { faqPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "Refeeding Strategy | The Scorch Protocol FAQ",
@@ -9,44 +11,53 @@ export const metadata: Metadata = {
     "Refeeding FAQ: How to avoid refeeding syndrome, what to eat first, electrolyte management, and calorie ramp-up schedule.",
 };
 
-const faqJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "What should I eat first after a dry fast?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Start refeeding with small amounts of diluted fruit juice or watermelon, then progress to broths and easily digestible foods. Avoid protein and fat for the first 24–48 hours. The Kempner Rice Diet or clinical broths are standard starting points in the Scorch Protocol.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How do I avoid refeeding syndrome?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Refeeding syndrome occurs when carbohydrates are reintroduced too rapidly after fasting, causing dangerous electrolyte shifts (especially phosphate). Avoid it by starting with very small quantities, monitoring electrolytes, and increasing calories gradually over several days.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How long does the refeeding phase take?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "The initial refeeding phase after a 10-day fasting block (5 days dry + 5 days water) typically takes 10–14 days to return to normal eating. Full metabolic recovery and microbiome rebuilding can take 1–3 months. The Scorch Protocol includes a detailed BMR reconstruction plan for the full recovery period.",
-      },
-    },
-  ],
-};
+const faqItems = [
+  {
+    question: "Why do you say the refeed is \"dangerous\"?",
+    answer: "Your body has switched entirely to fat oxidation during the fast. The pancreas has stopped making insulin and stomach acid is low. Introducing a complex meal or too much salt too soon risks Refeeding Syndrome: massive fluid retention, electrolyte antagonism, and renal stress. The Khoroshilov 1994 thesis found improper refeeding (too fast, or wrong foods) was the primary cause of adverse reactions in 13% of dropout cases. You must wake up the machinery slowly.",
+  },
+  {
+    question: "Can I speed up the refeed? I feel fine after 1 day.",
+    answer: "Yes, but with conditions. The slow refeed is a safety buffer. If you have completed the T3 Therapy Phase and your basal body temperature is consistently above 37 degrees C, your digestive enzymes and insulin sensitivity are likely more robust. In that case you can compress the Liquid Phase (Day 1) into 12 hours instead of 24. However, Zero Fat and Zero Protein for the first few days remains non-negotiable to prevent insulin resistance rebound.",
+  },
+  {
+    question: "Many protocols recommend vegetable broth or bone broth. You recommend fruit and rice. Why?",
+    answer: "This reflects the difference between a Clinical Model and a Metabolic/Bio-Energetic Model. The Clinical Model focuses on gentle rehydration and electrolytes using broth or vegetable juice, which is safer for the gut but slower for energy. The Metabolic Model uses simple sugars (fruit and rice) to signal abundance to the hypothalamus immediately, creating a stronger hormonal rebound, but it requires strict avoidance of fat to work safely. The Scorch Protocol uses coconut water to achieve the same hydration safety as broth while adding the glucose needed for T3 conversion.",
+  },
+  {
+    question: "I am craving salt like crazy. Can I have just a pinch?",
+    answer: "Caution is warranted. Your kidneys have been hoarding sodium (aldosterone is high). Adding dietary salt while aldosterone remains elevated causes your body to super-saturate with water, producing puffiness or edema. However, if you feel dizzy or have low blood pressure (hyponatremia symptoms), a tiny pinch under the tongue is a medical necessity. Use your symptoms, not your cravings, as the guide.",
+  },
+  {
+    question: "My ankles are swollen (Edema) on Day 3. Did I ruin it?",
+    answer: "You did not ruin the healing, but you overstressed the kidneys. This usually means you consumed sodium or too much volume too fast. The fix typically involves eating a high-potassium diet to flush the excess sodium. The swelling will often subside on its own if you slow down with sodium. A future dry fast or sauna session may also help if it persists.",
+  },
+  {
+    question: "I gained all the weight back in 3 days. Is that fat?",
+    answer: "No. It is physically impossible to gain 5 lbs of fat in 3 days. This is Glycogen Replenishment plus Water Weight. Every gram of carbohydrate stores approximately 3 grams of water. As you refill your muscles, they pull water in. This is healthy intracellular hydration. Do not panic.",
+  },
+  {
+    question: "Why do I have to wait 5-7 days for meat/eggs?",
+    answer: "Two reasons: First, protein (amino acids) shuts down autophagy instantly. A slow taper preserves more of the healing benefits. Second, your stomach has stopped producing pepsin (the protein-digesting enzyme). If you eat meat too soon, it ferments rather than digests properly.",
+  },
+  {
+    question: "I felt great fasting, but now I feel tired and achy after eating. Why?",
+    answer: "This is Metabolic Switching Fatigue combined with electrolyte rebalancing. As your body transitions from ketosis back to glucose metabolism it can cause fatigue and achiness. This is normal and temporary.",
+  },
+  {
+    question: "Should I take probiotics or vitamins immediately?",
+    answer: "No. Your gut mucosa is open and sensitive during early refeeding; strong supplements can irritate it. The exception is antivirals on Day 1: if you carry any of the nine herpesviruses (HSV-1, HSV-2, VZV, EBV, CMV, HHV-6A, HHV-6B, HHV-7, or HHV-8), start L-lysine and monolaurin immediately. In the Scorch Protocol, T3 therapy has already been running since Day 3 of the water fast, so your kidneys are supported and you do not need to wait. Monolaurin and L-lysine together disrupt viral envelopes and block arginine-dependent replication.",
+  },
+  {
+    question: "When can I go back to \"normal\" eating?",
+    answer: "The Khoroshilov standard is: refeed length equals fast length. In the Scorch Protocol the full fasting block is 10 days (5 dry + 5 water), so be strict for at least 10 days. After that you are biologically safe, but for maximum tissue remodeling the protocol recommends extending the High Carb/Low Fat phase for 2 to 4 weeks to maximize stem cell differentiation and thyroid restoration.",
+  },
+];
 
 export default function RefeedingFaqPage() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-      />
+      <JsonLd data={faqPageLd(faqItems)} />
       <h1>Refeeding: The Art of Landing</h1>
       <p>
         Refeeding is not just &ldquo;eating again.&rdquo; It is a biological

@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
+import JsonLd from "@/components/JsonLd";
+import { faqPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "General Questions | The Scorch Protocol FAQ",
@@ -9,52 +11,53 @@ export const metadata: Metadata = {
     "General FAQ: What is The Scorch Protocol, who is it for, how long does it take, and is it safe?",
 };
 
-const faqJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "What is The Scorch Protocol?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "The Scorch Protocol is a multi-phase healing system combining dry fasting, T3 thyroid therapy, and hGH therapy to reverse chronic illnesses such as Long Covid, ME/CFS, Lyme disease, and autoimmune conditions.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "How long does The Scorch Protocol take?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Full recovery typically takes 6–12 months of consistent effort. The fasting block is 10 days total: 5 days dry followed by 5 days water, then refeeding and metabolic therapy phases that continue for months.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Is The Scorch Protocol safe?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "When done with proper preparation including blood tests, supplement loading, and following the protocol's safety guidelines and stop signals, serious complications are rare. The protocol is not recommended for those on liver-toxic medications such as benzodiazepines or acetaminophen.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Who is The Scorch Protocol designed for?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "The protocol is designed primarily for people with chronic illness, especially Long Covid, ME/CFS, Lyme disease, and autoimmune conditions. People with European ancestry (45–60% carry the DIO2 gene variant) and those with low morning body temperature may especially benefit.",
-      },
-    },
-  ],
-};
+const faqItems = [
+  {
+    question: "Is dry fasting safe?",
+    answer: "Dry fasting is a powerful tool but must be done carefully. For most healthy people, short supervised fasts are safe. However, if you have severe kidney disease, severe heart problems, or are pregnant, you should not dry fast. Always follow the preparation and refeeding rules to stay safe.",
+  },
+  {
+    question: "Why do I need T3 therapy?",
+    answer: "Many people with chronic illness have a low-power metabolism; their body is in hibernation mode. T3 therapy helps restart the body's heater and gives cells the energy they need to heal. Without it, some people find they do not get better even with fasting.",
+  },
+  {
+    question: "What is \"Tissue-Level Resistance\"?",
+    answer: "Tissue-Level Resistance is when blood tests look normal but T3 hormone is not actually getting into your cells. It is like having a key that will not fit the lock. T3 therapy helps force those locks open so your body can finally use the energy it has.",
+  },
+  {
+    question: "Can I skip the preparation phase?",
+    answer: "No. Preparation is where you choose your road into the fast: a plant-based taper that heals deeper, or a ketogenic path that is safer and more forgiving. Skipping it can make the fast much harder and even dangerous. Either path gets your body ready to burn fat and clears out your system gently through food so you do not feel as sick during the fast.",
+  },
+  {
+    question: "Why is the refeeding phase so dangerous?",
+    answer: "When you have not eaten for days, your body is very sensitive. Eating the wrong foods (heavy fats, meat, too many carbs at once, or nuts) too early can cause swelling, kidney stress, or refeeding syndrome. Following the 7-day protocol ensures your body heals correctly. Long-term carnivore dieters may have particular trouble with the refeed phase because they have lost the ability to utilize carbohydrates.",
+  },
+  {
+    question: "What if I lose too much weight?",
+    answer: "Weight loss is normal during a fast, but much of it is water. Most people gain some weight back during the refeed. The 9-Month BMR Reconstruction plan shows that most participants regained weight after a prolonged period of reduced intake, indicating the metabolism slows after a fast. If you do not have a pancreatic insulin problem, you will regain weight after a fast when eating enough calories.",
+  },
+  {
+    question: "Why do I need hGH therapy?",
+    answer: "Growth Hormone (hGH) is the signal that tells your body to rebuild. It helps build new, healthy cells and improves the immune system. hGH therapy is not necessary for everyone, but it can be extremely helpful because many chronic illnesses are associated with low hGH pituitary secretion.",
+  },
+  {
+    question: "Can I drink water during a dry fast?",
+    answer: "In a true dry fast you do not drink any water or eat any food. This forces your body to create internal water by burning fat, which is much more powerful for healing than a water fast alone. In the Scorch Protocol, the dry fast is followed immediately by a 5-day water fast, making a 10-day fasting block in total. The order is always dry first, then water. Reversing this is dangerous and ineffective.",
+  },
+  {
+    question: "What should I do if my heart races?",
+    answer: "If your resting heart rate goes above 100 beats per minute during T3 therapy or fasting, stop increasing your dose or consider breaking the fast. Always prioritize safety and listen to your body's warning signs. A resting heart rate above 100 bpm is the key threshold for both T3 therapy and fasting.",
+  },
+  {
+    question: "How long does the whole protocol take?",
+    answer: "The fast may only last a few days, but full recovery including refeeding, metabolic reconstruction, and hormone therapy can take 6 to 12 months. Healing deep, chronic issues is a marathon, not a sprint. Sometimes symptoms may indicate that additional fasting blocks are necessary.",
+  },
+];
 
 export default function GeneralQuestionsPage() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-      />
+      <JsonLd data={faqPageLd(faqItems)} />
       <h1>Frequently Asked Questions (FAQ)</h1>
       <p>
         Common questions about the Scorch Protocol, simplified for clear

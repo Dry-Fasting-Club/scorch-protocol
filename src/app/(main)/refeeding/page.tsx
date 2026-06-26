@@ -7,7 +7,7 @@ import InterestingVideoBlock from "@/components/InterestingVideoBlock";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import EmailCapture from "@/components/EmailCapture";
 import JsonLd from "@/components/JsonLd";
-import { medicalWebPageLd } from "@/lib/structured-data";
+import { medicalWebPageLd, faqPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "Phase 3: The Refeed | The Scorch Protocol",
@@ -20,6 +20,20 @@ export default function RefeedingPage() {
   return (
     <>
       <JsonLd data={medicalWebPageLd({ name: "Phase 3: The Refeed", description: "Phase 3: The Scorch Protocol refeeding plan: what to eat, when, and how to avoid refeeding syndrome after a dry fast.", path: "/refeeding", breadcrumbName: "The Refeed" })} />
+      <JsonLd data={faqPageLd([
+        {
+          question: "Why coconut water first?",
+          answer: "Coconut water has a nearly perfect ratio of electrolytes, especially potassium, that matches what your dehydrated cells need to safely rehydrate. The specific combination of sugars and electrolytes also sends a growth signal to newly released stem cells, directing them toward healing. After a dry fast, your kidneys are under stress, and coconut water's gentle mineral content helps them restart safely without the shock of plain water."
+        },
+        {
+          question: "Why white rice?",
+          answer: "White rice is one of the most digestible foods on the planet. After a fast, your gut lining has repaired and is rebuilding, and white rice does not irritate this process. Rice also provides a gentle glucose signal that tells your thyroid to start converting T4 into active T3 again, which is critical for restarting your metabolism. White rice has been stripped of the bran and germ, removing phytates and lectins that can irritate a healing gut."
+        },
+        {
+          question: "Who actually needs deliberate biome rebuild?",
+          answer: "For the standard protocol path (a 5-day dry fast plus short antiviral coverage during the refeed), the biome recovers on its own and no deliberate rebuild work is required. Two populations do need to focus on rebuild: patients on months of valacyclovir or similar suppressive antivirals, because long antiviral courses damage both the bacterial biome and the virome; and patients who completed long dry fasts of 7 or more days, especially 9 or more days, where the biome starts eating the gut lining and mucosal lining."
+        }
+      ])} />
       <h1>Phase 3: The Refeed</h1>
       <KeyTakeaways points={[
         "The refeed is as important as the fast: how you eat in the days after determines how much healing you keep.",

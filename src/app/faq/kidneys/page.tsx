@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
+import JsonLd from "@/components/JsonLd";
+import { faqPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "Kidney Health & Dry Fasting | The Scorch Protocol FAQ",
@@ -8,44 +10,53 @@ export const metadata: Metadata = {
     "Kidney safety during dry fasting: what the research shows, how the body protects kidneys, and red flags to watch for.",
 };
 
-const faqJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "Is dry fasting safe for kidneys?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Clinical data from the Khoroshilov Thesis shows that properly supervised dry fasting does not damage kidneys in healthy individuals. The body activates protective mechanisms that concentrate urine and preserve renal function during the fast.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What does dark urine mean during dry fasting?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Dark urine during dry fasting is normal and indicates concentrated urine, a sign the kidneys are working efficiently. It is not a sign of kidney damage. Seek medical attention if you experience severe flank pain or blood in the urine.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Will creatinine levels rise during a dry fast?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Creatinine may rise temporarily during a dry fast due to reduced filtration volume. This is generally reversible upon refeeding. The Khoroshilov data shows no lasting kidney damage in participants who followed proper protocol guidelines.",
-      },
-    },
-  ],
-};
+const faqItems = [
+  {
+    question: "I checked my urine and it looks like it's filtering 'stuff' (sediment/cloudiness). First time in years! Does dry fasting help with kidney filtering or not?",
+    answer: "Yes, this is a classic sign of the 'Renal Dump.' During a dry fast, urine volume drops massively but the concentration of waste products skyrockets because the kidneys focus exclusively on filtration efficiency rather than fluid management. The sediment is often precipitated salts (phosphates/urates) and cellular debris the body is finally expelling due to the deep acidotic shift. Urine osmolality shoots up to 1080 mOsm/kg (normal is ~600), and serum phosphorus rises by +29%, indicating breakdown of old cell membranes and junk tissues.",
+  },
+  {
+    question: "Will dry fasting damage my kidneys?",
+    answer: "For a healthy person, no. Clinical studies show that while kidney workload changes, it does not act as a damaging stressor leading to degeneration. Urea rose by 33% but stayed within the normal clinical limit (6.4 mmol/L). Albumin remained stable, proving the kidneys were not leaking vital proteins. 100% of participants maintained safe renal function throughout the 3-day fast.",
+  },
+  {
+    question: "My urine is extremely dark and I'm barely peeing. Is this kidney failure?",
+    answer: "No, this is Oliguria (low output) and it is a healthy, adaptive response. It means your hormones are working correctly to save your life. ADH (Antidiuretic Hormone) increases by +191%, telling the kidneys not to let water leave. Urine output drops to ~320 mL/day and specific gravity should be above 1.025. Warning: if your urine is clear/dilute (below 1.010) during a dry fast, that is a danger signal indicating renal inability to concentrate.",
+  },
+  {
+    question: "Won't my electrolyte levels crash if I don't drink water?",
+    answer: "Counterintuitively, blood electrolyte levels remain remarkably stable. Sodium is universally conserved: excretion drops by -87% in a 3-day fast and -60% in a 5-day fast. Potassium is conserved in the 3-day fast (-69% excretion), but in the 5-day fast, cortisol surges by +495% and acts like a mineralocorticoid, causing potassium excretion to remain unchanged as the body spends intracellular potassium reserves to fuel the high-energy hormonal demand.",
+  },
+  {
+    question: "My doctor saw my Creatinine go up and told me to stop. Who is right?",
+    answer: "Context matters. In dry fasting, creatinine rises due to hemoconcentration (the blood has less water so the soup looks thicker), not because the filter is broken. It is a false positive caused by volume contraction. Serum creatinine rose by 14% (from 84 to 96 micromol/L) in healthy subjects, paralleling the rise in hematocrit. Upon rehydration it returns to normal within 24 hours, confirming it was volume-related, not damage-related.",
+  },
+  {
+    question: "Can I dry fast to heal Chronic Kidney Disease (CKD)?",
+    answer: "Caution is required. Advanced kidney disease is a strict contraindication. Do not dry fast if baseline creatinine is above 120 micromol/L (1.35 mg/dL), if GFR is below 60, or if you have a history of gout (uric acid accumulation can cause stones if flow is too low). The kidneys must have enough functional reserve to handle the intense toxin concentration.",
+  },
+  {
+    question: "Why does my lower back ache (kidney area) during the fast?",
+    answer: "This is common and usually represents filtration strain or filtration pressure. The kidneys are processing a heavy load of metabolic waste (autophagy debris) with very little fluid, causing temporary congestion in the tubules. It typically feels like a dull, heavy ache rather than a sharp, stabbing pain. Mild aches are common. Severe, sharp pain (colic) suggests a stone or blockage and requires breaking the fast.",
+  },
+  {
+    question: "Is dry fasting better than water fasting for the kidneys?",
+    answer: "It is different. Water fasting flushes the kidneys (high volume, low concentration), forcing them to constantly filter large amounts of liquid. Dry fasting rests the kidneys (low volume, high concentration), allowing deep tissue repair. In a water fast, sodium excretion only drops -40%. In a dry fast it drops -87%, forcing a deeper mineral reset. Dry fasting is superior for edema (water retention) issues.",
+  },
+  {
+    question: "How do I wake up my kidneys safely?",
+    answer: "Do not chug water. Your kidneys have been in hibernate mode (high ADH) and are tightly constricted. Flooding them suddenly with liter-sized volumes can cause washout shock, cramping, and potential cellular damage. Sip 100 mL (3-4 oz) per hour for the first 4-6 hours. The first urine may take 4-8 hours to appear as the body sponges up the first liter to rehydrate blood and brain before allowing urination.",
+  },
+  {
+    question: "Will dehydration cause kidney stones?",
+    answer: "Chronic dehydration causes stones. Acute therapeutic dehydration (dry fasting) usually does not, provided you refeed correctly. The study observed 0 cases of acute stone formation in 3-day dry fasts. However, the high acidity (acidotic crisis) could theoretically precipitate uric acid stones in susceptible individuals. The flush phase during the refeed (citrus juices, baking soda water) is critical to alkalize the urine and dissolve any potential sediment.",
+  },
+];
 
 export default function KidneysPage() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-      />
+      <JsonLd data={faqPageLd(faqItems)} />
       <h1>Kidneys &amp; Dry Fasting: The Science</h1>
       <p>
         The number one fear regarding dry fasting is kidney damage. This page

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
+import JsonLd from "@/components/JsonLd";
+import { faqPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "Autophagy & Dry Fasting | The Scorch Protocol FAQ",
@@ -8,44 +10,53 @@ export const metadata: Metadata = {
     "How dry fasting triggers autophagy, clears damaged cells, and why it is more powerful than water fasting for immune repair.",
 };
 
-const faqJsonLd = {
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  mainEntity: [
-    {
-      "@type": "Question",
-      name: "How does dry fasting trigger autophagy?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Dry fasting activates autophagy through hyperosmotic stress: cellular dehydration forces cells to break down damaged proteins and organelles for recycling. This pathway is faster and more aggressive than the nutrient-deprivation autophagy activated by water fasting.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "Is dry fasting more effective than water fasting for autophagy?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "Yes. Dry fasting activates a hyperosmotic autophagy pathway that is more intense than standard water fasting. This allows deeper cellular cleaning, including in cells protected by biofilms or intracellular pathogens that water fasting cannot reach.",
-      },
-    },
-    {
-      "@type": "Question",
-      name: "What happens to damaged cells during dry fasting?",
-      acceptedAnswer: {
-        "@type": "Answer",
-        text: "During dry fasting, the body identifies and breaks down damaged, dysfunctional, or infected cells through autophagy. The cellular debris is recycled into raw materials that are used to build new, healthy cells once refeeding begins.",
-      },
-    },
-  ],
-};
+const faqItems = [
+  {
+    question: "How much faster is dry fasting autophagy than water fasting?",
+    answer: "Evidence suggests that 1 day of dry fasting provides a cellular reset equivalent to roughly 3 days of standard water fasting. While water fasting typically reaches peak autophagy around day 3 or 4, dry fasting can achieve similar cellular recycling metrics within 24 hours. Dehydration creates a state of high concentration (hypertonicity) inside the cell, which acts as a much more urgent emergency cleaning signal than simple calorie restriction, forcing the cell to find metabolic water by breaking down its own internal trash.",
+  },
+  {
+    question: "What is the 'backdoor' to autophagy that only dry fasting uses?",
+    answer: "Standard autophagy is controlled by nutrient sensors like mTOR (which stops cleaning when you eat). Dry fasting activates a secondary 'unconventional' pathway triggered specifically by the increase in salt and mineral concentration within the cellular fluid. This osmotic backdoor allows the cell to begin deep cleaning even if some nutrients or glycogen are still present. This is known as Ulk1-Independent Autophagy, which uses an emergency signaling channel that clears cellular debris even during the initial hours of the fast.",
+  },
+  {
+    question: "Will I lose my muscle mass if I go into deep autophagy?",
+    answer: "No. Dry fasting is remarkably protein-sparing. By Day 3, the body has essentially shut down the burning of amino acids for energy, switching almost entirely to fat (ketones). Any protein used for fuel is sourced from junk proteins, old enzymes, and inflammatory debris rather than functional muscle tissue. Urine nitrogen excretion drops by -66% by Day 3, proving the body has entered a high-efficiency state where it protects structural integrity while recycling cellular garbage for fuel.",
+  },
+  {
+    question: "Can dry fasting autophagy clear out brain plaques or 'tau tangles'?",
+    answer: "Research into hypertonic stress shows it physically remodels the cell's cytoskeleton (microtubules), which act as conveyor belts for waste. Under dry fasting conditions, autophagosomes (trash bags of waste) are packed tighter and moved more efficiently to the cell's incinerators. Dehydration triggers the formation of microtubule-dependent autophagosomal clusters that are 2.5x more efficient at degrading misfolded proteins than standard autophagic structures, making this mechanism specifically potent against stubborn protein clumps causing neuroinflammation and brain fog.",
+  },
+  {
+    question: "Does the body know the difference between 'garbage' and healthy tissue?",
+    answer: "Yes. This is called Selective Autophagy. The body uses 'chaperone' proteins to identify and tag damaged, misfolded, or viral proteins for destruction. During a dry fast, the need for metabolic water and amino acids is so high that the body becomes an elite hunter of these tagged waste products, leaving healthy muscle and organ tissue untouched.",
+  },
+  {
+    question: "I feel a 'cleaning' sensation in my joints/skin. What is that?",
+    answer: "This is the 'Osmotic Flush.' Because your blood volume decreases during the fast, the body is forced to pull fluid from the interstitial space (the fluid surrounding your cells) back into circulation. This effectively drains the swamp where metabolic toxins, edema, and inflammatory markers tend to sit. Serum albumin (the protein that maintains blood pressure) remains stable or slightly rises by +5%, confirming the liver is producing enough protein to pull fluid out of tissues and into the blood for cleaning.",
+  },
+  {
+    question: "Is dry fasting autophagy better for clearing chronic viral residues (Long Covid/EBV)?",
+    answer: "The unconventional autophagy pathway creates persistent cleaning clusters that are larger and more robust than those found in water fasting. These larger clusters are significantly more effective at engulfing and neutralizing viral residues, spike proteins, and intracellular bacteria that hide from the standard immune system response.",
+  },
+  {
+    question: "What happens after the cellular 'garbage' is eaten?",
+    answer: "The debris is broken down into amino acids and fatty acids, which are saved for the Anabolic Rebound during the refeed. Immediately after the fast, growth factors surge and the body uses these recycled materials to build brand-new, healthy cellular components. Markers for tissue repair and growth (IGF-1) have been observed to rise by +57% during dry fast recovery, compared to a significant drop in water fasting.",
+  },
+  {
+    question: "Will a single snack or drink stop the autophagy?",
+    answer: "Yes. Autophagy is a survival program. The moment you ingest calories or water, you signal to the brain that the emergency is over. This releases insulin and shuts down the cleaning machinery via the mTOR pathway. To get the maximum benefit, the absolute nature of the deprivation must be maintained.",
+  },
+  {
+    question: "How long do I need to fast to hit 'Maximum Cleaning'?",
+    answer: "While autophagy begins within 12-16 hours of dry fasting, the deep work on large protein aggregates and systemic edema usually requires reaching the 'Acidotic Crisis' (typically Day 3). At this point, the body's internal chemistry has shifted entirely and the osmotic pump is working at its highest intensity to scour the tissues. One of the most powerful yet safe ways to continue this is to transition to a water fast after hitting the acidotic crisis around day 3 of dry fasting.",
+  },
+];
 
 export default function AutophagyPage() {
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
-      />
+      <JsonLd data={faqPageLd(faqItems)} />
       <h1>Autophagy &amp; Dry Fasting: The Science</h1>
       <p>
         Autophagy is the body&rsquo;s mandatory &ldquo;deep clean.&rdquo; While

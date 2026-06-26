@@ -63,6 +63,27 @@ export function medicalWebPageLd(input: MedicalWebPageInput): object[] {
   return [page, breadcrumb];
 }
 
+export interface FaqItem {
+  question: string;
+  answer: string;
+}
+
+/**
+ * FAQPage schema. Pass every visible Q&A on the page (Google requires the
+ * marked-up Q&A to match what the user can see). `answer` is plain text.
+ */
+export function faqPageLd(items: FaqItem[]): object {
+  return {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: items.map((it) => ({
+      "@type": "Question",
+      name: it.question,
+      acceptedAnswer: { "@type": "Answer", text: it.answer },
+    })),
+  };
+}
+
 /**
  * MedicalStudy schema for the success-rate-data page. Frames the outcome data
  * honestly: observational, self-reported, single assessor, no control group.
