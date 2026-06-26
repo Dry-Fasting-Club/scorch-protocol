@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import GuidanceBox from "@/components/GuidanceBox";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import PaidContentBlock from "@/components/PaidContentBlock";
-import InterestingVideoBlock from "@/components/InterestingVideoBlock";
 
 export const metadata: Metadata = {
   title: "Phase 1: Preparation | The Scorch Protocol",
@@ -307,20 +307,11 @@ export default function PreparationPage() {
           training. You do not have to earn it. It is a gift of the
           protocol.
           <br /><br />
-          My specific recommendation, and I do not lie when I talk about
-          these things: praying the rosary has been ten times more effective
-          for me than chanting mantras or doing standard breathwork
-          meditation. Get a cheap rosary, find a guided rosary video on
-          YouTube, and follow along on day 3 or 4 of your fast even if you
-          are not religious or have actively rejected religion. My honest
-          belief is that there is real power in the specific words, and in
-          the fact that hundreds of millions of people have prayed those
-          same words for centuries. That spiritual weight accumulates
-          somewhere we do not yet have instruments to measure, in the ether
-          or whatever the correct framing is between dimensions, and the
-          deep-fast state appears to be one of the rare windows where you
-          can tap into it directly. Try it once. Please do not sleep on
-          this.
+          A contemplative or prayer practice helps many people settle into and
+          hold this state once they reach it on day 3 or 4. If that appeals to
+          you, the{" "}
+          <Link href="/mindfulness">Mindfulness &amp; Neurology</Link> page
+          covers specific approaches that work well in the deep-fast window.
         </div>
       </div>
 
@@ -440,11 +431,6 @@ export default function PreparationPage() {
           in is part of the protocol, not laziness.
         </div>
       </div>
-
-      <InterestingVideoBlock
-        videoFileSrc="/assets/videos/catholicism%20150billion%20a%20year%20charity.mp4"
-        instagramSrc="https://www.instagram.com/reel/DYuUGBjM4bl/embed/"
-      />
 
       <RefeedPlanPromo source="preparation" />
       <GuidanceBox />

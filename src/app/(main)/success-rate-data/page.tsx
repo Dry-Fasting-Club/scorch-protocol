@@ -9,7 +9,7 @@ import MermaidCharts from "@/components/MermaidCharts";
 export const metadata: Metadata = {
   title: "Success Rate Data | The Scorch Protocol",
   description:
-    "Real outcome data from 141 protocol participants: 97% success rate after completing the dry fasting, T3, and hGH therapy phases.",
+    "Real outcome data from 141 protocol participants: of the 32 who completed the full dry fasting, T3, and hGH therapy phases, 97% recovered. Methodology and full breakdown inside.",
 };
 
 const patientFunnel = `graph TD
@@ -236,8 +236,9 @@ export default function SuccessRateDataPage() {
           improvement after T3 Therapy
         </li>
         <li>
-          The combination of dry fasting + T3 therapy creates{" "}
-          <strong>miraculous results</strong> that cannot be achieved separately
+          The combination of dry fasting + T3 therapy produced{" "}
+          <strong>remarkable, consistent results</strong> in this cohort that
+          neither intervention produced on its own
         </li>
       </ul>
 

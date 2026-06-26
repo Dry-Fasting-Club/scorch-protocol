@@ -51,13 +51,14 @@ export default function MindfulnessPage() {
       </p>
 
       <p>
-        There is also a reason the food supply in developed countries has been
-        systematically degraded at the micro-level over decades. Seed oils,
-        processed carbohydrates, and chemical additives suppress thyroid
-        function, disrupt mitochondria, and keep populations dull, sick, and
-        compliant. This is not speculation. Look up Project Artichoke. You
-        already know who ran these programs and which populations were targeted.
-        Knowing this does not make you paranoid. It makes you informed.
+        The modern food supply works against this. Decades of cheap industrial
+        food have flooded the diet with seed oils, refined carbohydrates, and
+        chemical additives that suppress thyroid function, disrupt mitochondria,
+        and leave people tired and inflamed. This is well documented in the
+        research on ultra-processed food and metabolic disease. You do not have
+        to assume bad intent to see the effect: the default diet in developed
+        countries is metabolically hostile, and cleaning it up is one of the
+        highest-leverage moves you can make.
       </p>
 
       <h2>Why a Busy Mind Is Draining You</h2>
@@ -224,6 +225,34 @@ export default function MindfulnessPage() {
             activate neuroplasticity, stimulate BDNF, and help the brain form
             new connections where old ones were pruned. This is not recreational
             use. This is targeted neurological rehabilitation.
+          </p>
+        </div>
+      </div>
+
+      <h2>A Personal Note on Prayer and the Deep-Fast State</h2>
+
+      <p>
+        This part is personal experience, not protocol. Take it or leave it. A
+        dry fast pushes you into a depth of ketosis most people never reach, and
+        in that state the mental noise drops away and a focused inner stillness
+        becomes easy to hold, the kind meditators train years for. A
+        contemplative or prayer practice helps many people settle into that
+        window rather than letting it slip past.
+      </p>
+
+      <div className="guiding-questions box-dark">
+        <div className="question-item">
+          <span className="question-label">What has worked for me</span>
+          <p>
+            Praying the rosary has been more effective for me than mantras or
+            standard breathwork. Get a cheap rosary, find a guided rosary video,
+            and follow along on day 3 or 4 of a fast, even if you are not
+            religious. Part of it may simply be the structure: a repeated,
+            familiar cadence gives a foggy, fatigued mind something steady to
+            rest on. Try it once and see how it lands for you. If prayer is not
+            your thing, any slow repetitive practice (breath counting, a simple
+            mantra) serves the same purpose. The point is the state, not the
+            specific words.
           </p>
         </div>
       </div>
