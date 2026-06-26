@@ -5,6 +5,8 @@ import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
 import Image from "next/image";
 import MermaidCharts from "@/components/MermaidCharts";
+import KeyTakeaways from "@/components/KeyTakeaways";
+import EmailCapture from "@/components/EmailCapture";
 
 export const metadata: Metadata = {
   title: "Success Rate Data | The Scorch Protocol",
@@ -32,6 +34,12 @@ export default function SuccessRateDataPage() {
   return (
     <>
       <h1>Success Rate Data: The Scorch Protocol Results</h1>
+      <KeyTakeaways points={[
+        "141 chronically ill patients were tracked. Of those, 32 completed the full protocol including T3 and hGH therapy, and 97% of those 32 experienced significant improvement.",
+        "Many participants never needed T3 or hGH: roughly a third reached full or near-full resolution from the fasting block and refeed alone.",
+        "The 97% figure applies to the sickest, most motivated patients who went all the way through every phase, not to everyone who enrolled.",
+        "Over 100 additional people were assessed and advised not to attempt the protocol due to medical contraindications or readiness concerns, so the screened group is not cherry-picked.",
+      ]} />
       <p>
         This page presents real data from participants who have completed The
         Scorch Protocol, showing measurable improvements across multiple chronic
@@ -424,6 +432,7 @@ export default function SuccessRateDataPage() {
       </FaithBlock>
       )}
 
+      <EmailCapture compact source="success-rate-data-footer" />
       <RefeedPlanPromo source="success-rate-data" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="success-rate-data" sectionTitle="Success Rate Data" />

@@ -3,6 +3,7 @@ import GuidanceBox from "@/components/GuidanceBox";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
+import KeyTakeaways from "@/components/KeyTakeaways";
 
 export const metadata: Metadata = {
   title: "9-Month BMR Reconstruction | The Scorch Protocol",
@@ -14,6 +15,13 @@ export default function RefeedForBmrPage() {
   return (
     <>
       <h1>9-Month Metabolism Repair Plan</h1>
+      <KeyTakeaways points={[
+        "Fixing a suppressed metabolism takes 8 to 12 months of deliberate, high-calorie eating. There is no shortcut.",
+        "Calories come first. Supplements and protein are largely wasted if your total energy intake is too low.",
+        "The target is 3,500 to 4,000 or more calories per day. Eating 2,000 to 2,500 calories is not enough to shift out of starvation mode.",
+        "Expect fat gain before muscle returns. The body rebuilds fat reserves as a safety buffer before it allows muscle growth, and this is a sign the plan is working.",
+        "Do not ramp calories too fast in the first week: sudden large increases can cause dangerous insulin and electrolyte shifts (refeeding syndrome).",
+      ]} />
       <p>
         This plan uses data from the{" "}
         <strong>Minnesota Starvation Experiment (1944–1945)</strong> to help

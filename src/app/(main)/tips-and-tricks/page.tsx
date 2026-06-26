@@ -4,6 +4,7 @@ import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
 import Image from "next/image";
+import KeyTakeaways from "@/components/KeyTakeaways";
 
 export const metadata: Metadata = {
   title: "Tips and Tricks | The Scorch Protocol",
@@ -15,6 +16,13 @@ export default function TipsAndTricksPage() {
   return (
     <>
       <h1>Tips and Tricks for Successful Dry Fasting</h1>
+      <KeyTakeaways points={[
+        "The bookends matter most: preparation and the refeed determine whether the fast's gains stick. The fast itself is the easy part.",
+        "During the fast, prioritize rest and a cool environment. Light walking is fine; intense exercise is not.",
+        "Always break the fast with coconut water sipped slowly. Rushing the refeed can cause refeeding syndrome or digestive distress.",
+        "Start small: build tolerance with 36-hour, then 72-hour fasts before attempting a full 5-day dry fast.",
+        "High-dose aspirin requires careful titration and specific gut protection. It is not appropriate for everyone, especially those on anticoagulants or with bleeding disorders.",
+      ]} />
 
       <p>
         This page contains practical wisdom from dry fasting experts and the{" "}

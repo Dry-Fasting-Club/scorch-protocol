@@ -3,6 +3,8 @@ import GuidanceBox from "@/components/GuidanceBox";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import InterestingVideoBlock from "@/components/InterestingVideoBlock";
+import KeyTakeaways from "@/components/KeyTakeaways";
+import EmailCapture from "@/components/EmailCapture";
 
 export const metadata: Metadata = {
   title: "Phase 3: The Refeed | The Scorch Protocol",
@@ -14,6 +16,13 @@ export default function RefeedingPage() {
   return (
     <>
       <h1>Phase 3: The Refeed</h1>
+      <KeyTakeaways points={[
+        "The refeed is as important as the fast: how you eat in the days after determines how much healing you keep.",
+        "Never break a dry fast with solid food. Start with coconut water only, sipping slowly over the first hour.",
+        "Refeeding syndrome is a real danger. Do not eat solid proteins on day 1, avoid caffeine for at least 7 days, and do not combine high-fat and high-carb foods in the first few days.",
+        "After the first week, ramp calories gradually, targeting 3,000 or more per day to complete the metabolic reset.",
+        "Watch for a stuck-cortisol pattern after the fast (puffiness, elevated blood pressure, belly fat rebound) and see the dedicated cortisol section if it appears.",
+      ]} />
       <p>
         The refeed is just as important as the fast itself. How you eat after
         the fast determines how much healing you keep, and whether you trigger
@@ -632,6 +641,7 @@ export default function RefeedingPage() {
         videoSrc="https://www.youtube.com/embed/pHJSNYGQYcU"
       />
 
+      <EmailCapture compact source="refeeding-footer" />
       <RefeedPlanPromo source="refeeding" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="refeeding" sectionTitle="Phase 3: The Refeed" />
