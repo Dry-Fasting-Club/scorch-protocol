@@ -412,6 +412,89 @@ hr {
 }
 
 /* ============================================================
+   ACCESSIBILITY (skip link + focus)
+   ============================================================ */
+
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    z-index: 10000;
+    background: var(--scorch);
+    color: #fff;
+    padding: 0.6rem 1rem;
+    border-radius: 0 0 6px 0;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.skip-link:focus {
+    left: 0;
+}
+
+:focus-visible {
+    outline: 2px solid var(--scorch);
+    outline-offset: 2px;
+}
+
+/* ============================================================
+   MAIN NAV — mobile toggle (desktop: hidden)
+   ============================================================ */
+
+.main-nav-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.5rem;
+}
+
+.main-nav-toggle {
+    display: none;
+    background: transparent;
+    color: var(--scorch);
+    border: 1px solid var(--scorch);
+    border-radius: 6px;
+    padding: 0.4rem 0.7rem;
+    font-size: 0.85rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* ============================================================
+   MEMBERSHIP PAGE
+   ============================================================ */
+
+.membership-lede {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    max-width: 60ch;
+}
+
+.membership-cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin: 1.5rem 0 0.75rem;
+}
+
+.membership-primary {
+    font-size: 1.05rem;
+}
+
+.membership-risk {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin: 0 0 2rem;
+}
+
+.membership-secondary {
+    color: var(--text-secondary);
+    text-decoration: underline;
+    font-size: 0.95rem;
+}
+
+/* ============================================================
    TABLES
    ============================================================ */
 
@@ -532,10 +615,6 @@ tr:hover {
     background-color: #c94d00;
     color: #fff;
     transform: translateY(-1px);
-}
-
-.membership-secondary {
-    margin-left: 0.9rem;
 }
 
 /* ============================================================
@@ -1282,6 +1361,20 @@ tr:hover {
         border-right: none;
         border-bottom: var(--box-border);
         padding: 1rem 1.25rem;
+    }
+
+    /* Collapse the 20+ link sidebar behind a toggle on mobile */
+    .main-nav-toggle { display: block; }
+    .main-nav-list { display: none; }
+    .main-nav-list.open { display: block; }
+
+    /* Wide tables scroll horizontally instead of overflowing the viewport */
+    main table {
+        display: block;
+        width: max-content;
+        max-width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
     }
 
     main {

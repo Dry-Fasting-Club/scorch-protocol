@@ -4,16 +4,20 @@ import PaidContentBlock from "@/components/PaidContentBlock";
 import InterestingVideoBlock from "@/components/InterestingVideoBlock";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
+import JsonLd from "@/components/JsonLd";
+import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "Phase 5: hGH Therapy | The Scorch Protocol",
   description:
     "Phase 5: hGH therapy signals tissue rebuilding after The Scorch, restoring muscle, nerve, and immune system function.",
+  alternates: { canonical: "https://scorchprotocol.com/hgh-therapy" },
 };
 
 export default function HghTherapyPage() {
   return (
     <>
+      <JsonLd data={medicalWebPageLd({ name: "Phase 5: hGH Therapy", description: "Phase 5: hGH therapy signals tissue rebuilding after The Scorch, restoring muscle, nerve, and immune system function.", path: "/hgh-therapy", breadcrumbName: "hGH Therapy" })} />
       <h1>Phase 5: hGH Therapy (Rebuilding Your Body)</h1>
 
       <KeyTakeaways points={[
@@ -22,26 +26,6 @@ export default function HghTherapyPage() {
         "Some people need to eat significantly more calories than they ever have during this phase. Without enough fuel, the rebuild cannot happen. Research suggests 9 months of treatment may be needed to feel substantial results.",
         "If you cannot access prescription or UGL hGH, Tesamorelin (a GH secretagogue peptide) is a legal, easier-to-source alternative with milder but still meaningful effects.",
       ]} />
-
-      <div
-        style={{
-          backgroundColor: "rgba(245,158,11,0.12)",
-          color: "#fde68a",
-          padding: "15px",
-          border: "1px solid rgba(245,158,11,0.4)",
-          borderRadius: "4px",
-          marginBottom: "20px",
-          textAlign: "center",
-          fontWeight: "bold",
-        }}
-      >
-        ⚠️ UNDER CONSTRUCTION ⚠️
-        <br />
-        <span style={{ fontWeight: "normal" }}>
-          This section is still being finished. The information here is an early
-          version.
-        </span>
-      </div>
 
       <p>
         This phase is about using Human Growth Hormone (hGH) to help your body
@@ -271,8 +255,12 @@ export default function HghTherapyPage() {
             <strong>UGL Labs:</strong> Underground labs (UGLs) are the more
             accessible and affordable option for most people. Nearly every
             country has some way to access UGL-sourced hGH if you do the right
-            digging in your local community. Quality varies, so research your
-            source carefully.
+            digging in your local community. The catch is that UGL products are
+            not subject to any pharmaceutical quality control: purity and actual
+            dose vary, and contaminated batches do exist. The prescription route
+            above is bioidentical and verifiable, so it is worth pursuing first.
+            If you do go the UGL route, use a source that provides third-party
+            purity testing and start at the lowest sensible dose.
           </li>
           <li>
             <strong>Can&rsquo;t access either?</strong> Consider{" "}

@@ -6,6 +6,8 @@ export const metadata: Metadata = {
   title: "Random Thoughts | The Scorch Protocol",
   description:
     "Yannick Wolfe’s ongoing research notes, protocol updates, and observations from the Dry Fasting Club community.",
+  // Informal working notes: keep out of the index to protect site quality signals.
+  robots: { index: false, follow: true },
 };
 
 export default function RandomThoughtsPage() {

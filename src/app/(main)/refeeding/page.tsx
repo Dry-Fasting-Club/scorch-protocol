@@ -1,20 +1,25 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import GuidanceBox from "@/components/GuidanceBox";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import InterestingVideoBlock from "@/components/InterestingVideoBlock";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import EmailCapture from "@/components/EmailCapture";
+import JsonLd from "@/components/JsonLd";
+import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "Phase 3: The Refeed | The Scorch Protocol",
   description:
     "Phase 3: The Scorch Protocol refeeding plan: what to eat, when, and how to avoid refeeding syndrome after a dry fast.",
+  alternates: { canonical: "https://scorchprotocol.com/refeeding" },
 };
 
 export default function RefeedingPage() {
   return (
     <>
+      <JsonLd data={medicalWebPageLd({ name: "Phase 3: The Refeed", description: "Phase 3: The Scorch Protocol refeeding plan: what to eat, when, and how to avoid refeeding syndrome after a dry fast.", path: "/refeeding", breadcrumbName: "The Refeed" })} />
       <h1>Phase 3: The Refeed</h1>
       <KeyTakeaways points={[
         "The refeed is as important as the fast: how you eat in the days after determines how much healing you keep.",
@@ -32,6 +37,16 @@ export default function RefeedingPage() {
 
       <div className="guiding-questions box-red">
         <h3>Critical Safety Rules (Refeeding Syndrome)</h3>
+        <p>
+          Refeeding syndrome is what can happen when food, especially
+          carbohydrate, comes back too fast after a long fast. As insulin rises,
+          the body pulls phosphate, potassium, and magnesium out of the blood
+          and into cells all at once. Those minerals are what the heart,
+          muscles, and nerves run on, so a sudden drop can cause an irregular
+          heartbeat, muscle weakness, breathing trouble, confusion, and in
+          severe cases it can be fatal. The rules below exist to prevent exactly
+          this.
+        </p>
         <div className="question-item">
           <span className="question-label">Never Eat Solid Food First:</span>
           Starting with solid food after a dry fast can cause dangerous electrolyte
@@ -51,6 +66,13 @@ export default function RefeedingPage() {
           <span className="question-label">Avoid Fat &amp; Carbs Together:</span>
           In the first few days, do not combine high-fat and high-carb foods.
           Your metabolism is restarting and cannot handle this combination yet.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Warning Signs: Get Medical Help:</span>
+          If during the refeed you feel a racing or irregular heartbeat, marked
+          muscle weakness, trouble breathing, swelling, or confusion, treat it
+          as an emergency and seek medical care. These can be early signs of
+          refeeding syndrome.
         </div>
       </div>
 
@@ -522,6 +544,11 @@ export default function RefeedingPage() {
           difference between a clean recovery and a frustrating one. The
           Scorch Protocol is closer to having a fasting detective on your
           team than following a generic checklist.
+        </p>
+        <p>
+          <Link href="/membership?ref=refeed-timing">
+            Get Yannick&rsquo;s direct guidance on your refeed for $1/mo &rarr;
+          </Link>
         </p>
       </div>
 

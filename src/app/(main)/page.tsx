@@ -3,6 +3,7 @@ import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import EmailCapture from "@/components/EmailCapture";
+import JsonLd from "@/components/JsonLd";
 import { MEMBERSHIP_PATH } from "@/lib/constants";
 import Link from "next/link";
 import Image from "next/image";
@@ -11,11 +12,30 @@ export const metadata: Metadata = {
   title: "The Scorch Protocol | Reverse Long Covid, ME/CFS & Chronic Illness",
   description:
     "The Scorch Protocol combines dry fasting, T3 therapy, and hGH to reverse Long Covid, ME/CFS, and autoimmune disease. Outcomes tracked across 141 participants; 97% of the 32 who completed the full protocol recovered.",
+  alternates: { canonical: "https://scorchprotocol.com/" },
+};
+
+const homeLd = {
+  "@context": "https://schema.org",
+  "@type": "MedicalWebPage",
+  name: "The Scorch Protocol",
+  description:
+    "A protocol for reversing Long Covid and ME/CFS using dry fasting, T3 therapy, and hGH.",
+  url: "https://scorchprotocol.com/",
+  inLanguage: "en",
+  isPartOf: { "@type": "WebSite", name: "The Scorch Protocol", url: "https://scorchprotocol.com" },
+  author: { "@type": "Person", name: "Yannick Wolfe" },
+  publisher: { "@type": "Organization", name: "The Scorch Protocol", url: "https://scorchprotocol.com" },
+  about: [
+    { "@type": "MedicalCondition", name: "Long COVID" },
+    { "@type": "MedicalCondition", name: "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome" },
+  ],
 };
 
 export default function HomePage() {
   return (
     <>
+      <JsonLd data={homeLd} />
       {/* ── HERO ── */}
       <section className="hero">
         <h1 className="hero-headline">
@@ -39,6 +59,10 @@ export default function HomePage() {
             Get a personalized plan for $1 &rarr;
           </Link>
         </div>
+        <p style={{ marginTop: "1rem", fontSize: "0.9rem", color: "var(--text-secondary)" }}>
+          Not sure this is safe for you?{" "}
+          <Link href="/contraindications">See who should not do this &rarr;</Link>
+        </p>
       </section>
 
       {/* ── SOCIAL PROOF BAR ── */}
@@ -47,10 +71,10 @@ export default function HomePage() {
           <span className="proof-number">141</span>
           <span className="proof-label">Participants Tracked</span>
         </div>
-        <div className="proof-stat">
+        <Link href="/success-rate-data" className="proof-stat" style={{ textDecoration: "none", color: "inherit" }}>
           <span className="proof-number">97%</span>
           <span className="proof-label">Recovered (of 32 full-protocol completers)</span>
-        </div>
+        </Link>
         <div className="proof-stat">
           <span className="proof-number">21+</span>
           <span className="proof-label">Symptoms Measured &amp; Improved</span>

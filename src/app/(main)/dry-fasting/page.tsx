@@ -6,11 +6,14 @@ import MermaidCharts from "@/components/MermaidCharts";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import EmailCapture from "@/components/EmailCapture";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
+import JsonLd from "@/components/JsonLd";
+import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "Phase 2: The Dry Fast | The Scorch Protocol",
   description:
     "Phase 2: A step-by-step guide to dry fasting safely: day-by-day breakdown, red flags, weight milestones, and refeeding timing.",
+  alternates: { canonical: "https://scorchprotocol.com/dry-fasting" },
 };
 
 const dryFastStages = `graph LR
@@ -30,6 +33,7 @@ const dryFastStages = `graph LR
 export default function DryFastingPage() {
   return (
     <>
+      <JsonLd data={medicalWebPageLd({ name: "Phase 2: The Dry Fast", description: "Phase 2: A step-by-step guide to dry fasting safely: day-by-day breakdown, red flags, weight milestones, and refeeding timing.", path: "/dry-fasting", breadcrumbName: "The Dry Fast" })} />
       <h1>Phase 2: The Dry Fast (The Scorch)</h1>
 
       <KeyTakeaways points={[
@@ -40,7 +44,7 @@ export default function DryFastingPage() {
         "Refeeding starts with coconut water only, sipped slowly. Eating too much too fast is dangerous.",
       ]} />
 
-      <h2>Phase 1: Getting Ready</h2>
+      <h2>Step 1: Getting Ready</h2>
       <p>Preparing correctly avoids a &ldquo;detox crash&rdquo; and makes the fast easier.</p>
 
       <div className="guiding-questions">
@@ -86,7 +90,7 @@ export default function DryFastingPage() {
         </li>
       </ul>
 
-      <h2>Phase 2: Starting Slowly</h2>
+      <h2>Step 2: Starting Slowly</h2>
       <p>
         <strong>Do NOT jump straight to 5 days.</strong> You must build up your
         body&rsquo;s strength.
@@ -135,7 +139,7 @@ export default function DryFastingPage() {
         </em>
       </p>
 
-      <h2>Phase 3: The Dry Fast (The Scorch)</h2>
+      <h2>Step 3: The Dry Fast (The Scorch)</h2>
       <p>
         <strong>How it works:</strong> Your body starts getting water by
         burning old, damaged cells and fat. This speeds up deep cleaning
@@ -201,7 +205,7 @@ export default function DryFastingPage() {
         </ul>
       </div>
 
-      <h2>Phase 3B: The Water Fast (Days 6–10)</h2>
+      <h2>Step 3B: The Water Fast (Days 6–10)</h2>
       <p>
         After completing the 5-day dry fast, you do <strong>not</strong> break
         the fast with food. You transition directly into a 5-day water fast.
@@ -315,7 +319,7 @@ export default function DryFastingPage() {
         </tbody>
       </table>
 
-      <h2>Phase 4: Breaking the Fast (Refeeding)</h2>
+      <h2>Step 4: Breaking the Fast (Refeeding)</h2>
       <p>
         <strong>Very Important:</strong> Eating too much too fast can be
         dangerous. Your refeed should last roughly as long as the fasting block.

@@ -49,7 +49,7 @@ export default function TopNav() {
         {/* CTAs */}
         <div className="top-nav-ctas">
           <Link href={MEMBERSHIP_PATH} className="top-nav-members">
-            Members →
+            Join for $1 →
           </Link>
           <Link href="/preparation" className="top-nav-cta">
             Start Protocol →

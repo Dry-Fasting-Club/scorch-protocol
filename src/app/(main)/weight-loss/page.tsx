@@ -8,6 +8,8 @@ export const metadata: Metadata = {
   title: "Weight Loss Protocol | The Scorch Protocol",
   description:
     "How The Scorch Protocol resets insulin resistance and achieves sustainable fat loss through metabolic repair, not calorie restriction.",
+  // Thin / in-progress page: keep out of the index until it is built out.
+  robots: { index: false, follow: true },
 };
 
 export default function WeightLossPage() {

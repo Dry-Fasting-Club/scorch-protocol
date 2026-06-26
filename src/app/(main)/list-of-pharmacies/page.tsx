@@ -3,16 +3,20 @@ import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
+import JsonLd from "@/components/JsonLd";
+import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "List of Pharmacies | The Scorch Protocol",
   description:
     "Trusted pharmacies for sourcing T3 (liothyronine), hGH, and peptides used in The Scorch Protocol, organized by country.",
+  alternates: { canonical: "https://scorchprotocol.com/list-of-pharmacies" },
 };
 
 export default function ListOfPharmaciesPage() {
   return (
     <>
+      <JsonLd data={medicalWebPageLd({ name: "List of Pharmacies", description: "Trusted pharmacies for sourcing T3 (liothyronine), hGH, and peptides used in The Scorch Protocol, organized by country.", path: "/list-of-pharmacies", breadcrumbName: "Pharmacies" })} />
       <h1>Popular and Reliable Prescription-Free Pharmacies</h1>
 
       <KeyTakeaways points={[

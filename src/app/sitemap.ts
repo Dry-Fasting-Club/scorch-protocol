@@ -9,21 +9,26 @@ import { getAllPublishedSlugs } from "@/lib/blog";
 
 const BASE_URL = "https://scorchprotocol.com";
 
-const protocolPages = [
-  "/decision-tree",
-  "/preparation",
-  "/dry-fasting",
-  "/refeeding",
-  "/t3-therapy",
-  "/hgh-therapy",
-  "/symptom-management",
-  "/weight-loss",
-  "/genetic-polymorphisms",
-  "/tips-and-tricks",
-  "/success-rate-data",
-  "/refeed-for-bmr",
-  "/list-of-pharmacies",
-  "/random-thoughts",
+// Indexed protocol pages with differentiated priority. Excludes pages marked
+// noindex (weight-loss, random-thoughts, purchase/success).
+const protocolPages: { path: string; priority: number }[] = [
+  { path: "/decision-tree", priority: 0.9 },
+  { path: "/preparation", priority: 0.9 },
+  { path: "/dry-fasting", priority: 0.9 },
+  { path: "/refeeding", priority: 0.9 },
+  { path: "/t3-therapy", priority: 0.9 },
+  { path: "/viral-reactivation", priority: 0.9 },
+  { path: "/success-rate-data", priority: 0.9 },
+  { path: "/long-covid-basics", priority: 0.9 },
+  { path: "/hgh-therapy", priority: 0.8 },
+  { path: "/symptom-management", priority: 0.8 },
+  { path: "/genetic-polymorphisms", priority: 0.8 },
+  { path: "/tips-and-tricks", priority: 0.8 },
+  { path: "/contraindications", priority: 0.8 },
+  { path: "/mindfulness", priority: 0.7 },
+  { path: "/refeed-for-bmr", priority: 0.7 },
+  { path: "/membership", priority: 0.7 },
+  { path: "/list-of-pharmacies", priority: 0.6 },
 ];
 
 const faqPages = [
@@ -65,11 +70,11 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       changeFrequency: "daily",
       priority: 0.9,
     },
-    ...protocolPages.map((path) => ({
+    ...protocolPages.map(({ path, priority }) => ({
       url: `${BASE_URL}${path}`,
       lastModified: now,
       changeFrequency: "weekly" as const,
-      priority: 0.9,
+      priority,
     })),
     ...faqPages.map((path) => ({
       url: `${BASE_URL}${path}`,

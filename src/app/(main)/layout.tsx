@@ -13,9 +13,12 @@ export default function MainLayout({
 }) {
   return (
     <>
+      <a href="#main-content" className="skip-link">
+        Skip to content
+      </a>
       <ProgressBar />
       <MainNav />
-      <main>
+      <main id="main-content" tabIndex={-1}>
         {children}
         <AuthorByline />
         <MedicalDisclaimer />

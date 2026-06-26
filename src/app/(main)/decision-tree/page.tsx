@@ -4,11 +4,14 @@ import PaidContentBlock from "@/components/PaidContentBlock";
 import MermaidCharts from "@/components/MermaidCharts";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
+import JsonLd from "@/components/JsonLd";
+import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "Decision Logic Tree | The Scorch Protocol",
   description:
     "Use this decision logic tree to determine which phase of The Scorch Protocol applies to your current health status and symptoms.",
+  alternates: { canonical: "https://scorchprotocol.com/decision-tree" },
 };
 
 const chart0 = `graph TD
@@ -153,6 +156,7 @@ const chart3 = `graph TD
 export default function DecisionTreePage() {
   return (
     <>
+      <JsonLd data={medicalWebPageLd({ name: "Decision Logic Tree", description: "Use this decision logic tree to determine which phase of The Scorch Protocol applies to your current health status and symptoms.", path: "/decision-tree", breadcrumbName: "Decision Tree" })} />
       <h1>Protocol Decision Logic Tree</h1>
 
       <KeyTakeaways points={[

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import GuidanceBox from "@/components/GuidanceBox";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import PaidContentBlock from "@/components/PaidContentBlock";
@@ -7,11 +8,14 @@ import Image from "next/image";
 import MermaidCharts from "@/components/MermaidCharts";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import EmailCapture from "@/components/EmailCapture";
+import JsonLd from "@/components/JsonLd";
+import { medicalWebPageLd, medicalStudyLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "Success Rate Data | The Scorch Protocol",
   description:
     "Real outcome data from 141 protocol participants: of the 32 who completed the full dry fasting, T3, and hGH therapy phases, 97% recovered. Methodology and full breakdown inside.",
+  alternates: { canonical: "https://scorchprotocol.com/success-rate-data" },
 };
 
 const patientFunnel = `graph TD
@@ -33,6 +37,7 @@ const patientFunnel = `graph TD
 export default function SuccessRateDataPage() {
   return (
     <>
+      <JsonLd data={[...medicalWebPageLd({ name: "Success Rate Data", description: "Real outcome data from 141 protocol participants: of the 32 who completed the full dry fasting, T3, and hGH therapy phases, 97% recovered. Methodology and full breakdown inside.", path: "/success-rate-data", breadcrumbName: "Success Rate Data", about: ["Long COVID", "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome"] }), medicalStudyLd()]} />
       <h1>Success Rate Data: The Scorch Protocol Results</h1>
       <KeyTakeaways points={[
         "141 chronically ill patients were tracked. Of those, 32 completed the full protocol including T3 and hGH therapy, and 97% of those 32 experienced significant improvement.",
@@ -292,6 +297,18 @@ export default function SuccessRateDataPage() {
           over 50% reached level 10 for Brain Fog and Insomnia.{" "}
           <strong>97% experienced significant improvement.</strong>
         </div>
+      </div>
+
+      <div className="refeed-promo">
+        <h3>Want results like these for your own case?</h3>
+        <p>
+          Members run this protocol with Yannick: a personalized refeed plan,
+          your questions answered with your labs in context, and temperature
+          tracking. It starts at $1.
+        </p>
+        <Link href="/membership?ref=success-data" className="refeed-promo-btn">
+          Start for $1 &rarr;
+        </Link>
       </div>
 
       <h2>Other Tracked Symptoms</h2>

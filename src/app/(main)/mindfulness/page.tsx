@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
+import JsonLd from "@/components/JsonLd";
+import { medicalWebPageLd } from "@/lib/structured-data";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
@@ -8,11 +10,13 @@ export const metadata: Metadata = {
   title: "Mindfulness & Neurology | The Scorch Protocol",
   description:
     "How meditation, metabolic health, and neuroregeneration work together to reverse chronic illness, heal the brain, and restore energy.",
+  alternates: { canonical: "https://scorchprotocol.com/mindfulness" },
 };
 
 export default function MindfulnessPage() {
   return (
     <>
+      <JsonLd data={medicalWebPageLd({ name: "Mindfulness & Neurology", description: "How meditation, metabolic health, and neuroregeneration work together to reverse chronic illness, heal the brain, and restore energy.", path: "/mindfulness", breadcrumbName: "Mindfulness" })} />
       <h1>Mindfulness &amp; Neurology</h1>
 
       <KeyTakeaways points={[

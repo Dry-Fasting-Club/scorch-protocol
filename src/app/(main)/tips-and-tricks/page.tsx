@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
+import JsonLd from "@/components/JsonLd";
+import { medicalWebPageLd } from "@/lib/structured-data";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
@@ -10,11 +12,13 @@ export const metadata: Metadata = {
   title: "Tips and Tricks | The Scorch Protocol",
   description:
     "Practical tips from experienced Scorch Protocol practitioners: supplements, timing, sourcing, and what to expect week by week.",
+  alternates: { canonical: "https://scorchprotocol.com/tips-and-tricks" },
 };
 
 export default function TipsAndTricksPage() {
   return (
     <>
+      <JsonLd data={medicalWebPageLd({ name: "Tips and Tricks", description: "Practical tips from experienced Scorch Protocol practitioners: supplements, timing, sourcing, and what to expect week by week.", path: "/tips-and-tricks", breadcrumbName: "Tips and Tricks" })} />
       <h1>Tips and Tricks for Successful Dry Fasting</h1>
       <KeyTakeaways points={[
         "The bookends matter most: preparation and the refeed determine whether the fast's gains stick. The fast itself is the easy part.",

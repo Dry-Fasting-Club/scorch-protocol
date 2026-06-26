@@ -1,14 +1,17 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
+import JsonLd from "@/components/JsonLd";
+import { medicalWebPageLd } from "@/lib/structured-data";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import MermaidCharts from "@/components/MermaidCharts";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 
 export const metadata: Metadata = {
-  title: "Dealing with Long Covid Basics | The Scorch Protocol",
+  title: "Long Covid Treatment Options: The Foundational Stack | The Scorch Protocol",
   description:
-    "Foundational supportive-care basics for Long Covid: anti-inflammatory medications, anti-clotting supplements, mast cell support, and lifestyle interventions. The Scorch Protocol is a more permanent solution. These are the basics.",
+    "First-line Long Covid treatment options: LDN, nattokinase, ivermectin, mast cell (MCAS) support, and lifestyle basics. The foundational supportive-care stack to try while building toward the full Scorch Protocol.",
+  alternates: { canonical: "https://scorchprotocol.com/long-covid-basics" },
 };
 
 const cascadeCollapse = `graph TD
@@ -43,7 +46,8 @@ const cascadeCollapse = `graph TD
 export default function LongCovidBasicsPage() {
   return (
     <>
-      <h1>Dealing with Long Covid Basics</h1>
+      <JsonLd data={medicalWebPageLd({ name: "Long Covid Treatment Options: The Foundational Stack", description: "First-line Long Covid treatment options: LDN, nattokinase, ivermectin, mast cell (MCAS) support, and lifestyle basics. The foundational supportive-care stack to try while building toward the full Scorch Protocol.", path: "/long-covid-basics", breadcrumbName: "Long Covid Basics", about: ["Long COVID"] })} />
+      <h1>Long Covid Treatment Options: The Foundational Stack</h1>
 
       <KeyTakeaways points={[
         "This page covers the foundational supportive-care stack most informed clinicians use for Long Covid: anti-inflammatories, micro-clot support, mast cell calming, and lifestyle basics.",

@@ -7,6 +7,8 @@ import MermaidCharts from "@/components/MermaidCharts";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import EmailCapture from "@/components/EmailCapture";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
+import JsonLd from "@/components/JsonLd";
+import { medicalWebPageLd } from "@/lib/structured-data";
 
 const t3ResistanceChart = `graph LR
   subgraph Healthy["HEALTHY PERSON"]
@@ -36,11 +38,13 @@ export const metadata: Metadata = {
   title: "Phase 4: T3 Therapy | The Scorch Protocol",
   description:
     "Phase 4: How T3 thyroid therapy reboots suppressed metabolism, bypasses the DIO2 gene mutation, and amplifies dry fasting results.",
+  alternates: { canonical: "https://scorchprotocol.com/t3-therapy" },
 };
 
 export default function T3TherapyPage() {
   return (
     <>
+      <JsonLd data={medicalWebPageLd({ name: "Phase 4: T3 Therapy", description: "Phase 4: How T3 thyroid therapy reboots suppressed metabolism, bypasses the DIO2 gene mutation, and amplifies dry fasting results.", path: "/t3-therapy", breadcrumbName: "T3 Therapy" })} />
       <h1>Phase 4: T3 Thyroid Therapy (Rebooting Your Metabolism)</h1>
 
       <KeyTakeaways points={[
@@ -50,6 +54,38 @@ export default function T3TherapyPage() {
         "T3 must be paired with enough calories and some physical movement. Without sufficient fuel, T3 burns muscle instead of fat.",
         "In the Scorch Protocol, T3 starts on day 3 of the water fast (not at the refeed) so it is already running when you begin eating again.",
       ]} />
+
+      <div className="guiding-questions box-red">
+        <h3>Get medical supervision before T3 if any of these apply</h3>
+        <p>
+          T3 raises your heart rate and metabolic demand. At the doses described
+          here it is real medicine with real risk. Do not start T3 on your own
+          if any of the following apply. Work with a doctor who can monitor you.
+        </p>
+        <div className="question-item">
+          <span className="question-label">A heart rhythm problem or heart disease</span>
+          Arrhythmia, atrial fibrillation, or known heart disease. T3 can push
+          an unstable heart into dangerous territory.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Known osteoporosis or low bone density</span>
+          Long-term, high-dose T3 can accelerate bone loss.
+        </div>
+        <div className="question-item">
+          <span className="question-label">On anticoagulants such as warfarin</span>
+          T3 can change how these drugs behave, so dosing may need medical
+          adjustment.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Pregnant, or a history of thyrotoxicosis</span>
+          These call for specialist oversight before any thyroid hormone.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Resting heart rate already above 90 bpm</span>
+          Resolve that first. An elevated resting heart rate is a
+          contraindication to starting T3.
+        </div>
+      </div>
 
       <p>
         Many people with chronic illness are stuck in a state where their body

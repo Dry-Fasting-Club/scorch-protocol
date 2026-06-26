@@ -4,16 +4,20 @@ import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
 import KeyTakeaways from "@/components/KeyTakeaways";
+import JsonLd from "@/components/JsonLd";
+import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "9-Month BMR Reconstruction | The Scorch Protocol",
   description:
     "The 9-month BMR reconstruction protocol: how to rebuild metabolic rate after deep caloric restriction using systematic refeeding.",
+  alternates: { canonical: "https://scorchprotocol.com/refeed-for-bmr" },
 };
 
 export default function RefeedForBmrPage() {
   return (
     <>
+      <JsonLd data={medicalWebPageLd({ name: "9-Month BMR Reconstruction", description: "The 9-month BMR reconstruction protocol: how to rebuild metabolic rate after deep caloric restriction using systematic refeeding.", path: "/refeed-for-bmr", breadcrumbName: "BMR Reconstruction" })} />
       <h1>9-Month Metabolism Repair Plan</h1>
       <KeyTakeaways points={[
         "Fixing a suppressed metabolism takes 8 to 12 months of deliberate, high-calorie eating. There is no shortcut.",

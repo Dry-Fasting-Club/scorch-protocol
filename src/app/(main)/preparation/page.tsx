@@ -6,16 +6,20 @@ import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import EmailCapture from "@/components/EmailCapture";
+import JsonLd from "@/components/JsonLd";
+import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title: "Phase 1: Preparation | The Scorch Protocol",
   description:
     "Phase 1: Baseline blood tests, supplement stacks, the two preparation paths (plant-based and ketogenic), and readiness checks required before beginning The Scorch Protocol.",
+  alternates: { canonical: "https://scorchprotocol.com/preparation" },
 };
 
 export default function PreparationPage() {
   return (
     <>
+      <JsonLd data={medicalWebPageLd({ name: "Phase 1: Preparation", description: "Phase 1: Baseline blood tests, supplement stacks, the two preparation paths (plant-based and ketogenic), and readiness checks required before beginning The Scorch Protocol.", path: "/preparation", breadcrumbName: "Preparation" })} />
       <h1>Phase 1: Preparation</h1>
 
       <KeyTakeaways points={[

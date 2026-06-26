@@ -1,19 +1,23 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
+import JsonLd from "@/components/JsonLd";
+import { medicalWebPageLd } from "@/lib/structured-data";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 
 export const metadata: Metadata = {
-  title: "Genetic Polymorphisms | The Scorch Protocol",
+  title: "DIO2 and Genetic Variants in Dry Fasting | The Scorch Protocol",
   description:
     "How DIO2, MTHFR, and other genetic variants affect your response to The Scorch Protocol, and how to tailor treatment accordingly.",
+  alternates: { canonical: "https://scorchprotocol.com/genetic-polymorphisms" },
 };
 
 export default function GeneticPolymorphismsPage() {
   return (
     <>
-      <h1>Genetic Variants: Matching Your Scorch Protocol to Your DNA</h1>
+      <JsonLd data={medicalWebPageLd({ name: "DIO2 and Genetic Variants in Dry Fasting", description: "How DIO2, MTHFR, and other genetic variants affect your response to The Scorch Protocol, and how to tailor treatment accordingly.", path: "/genetic-polymorphisms", breadcrumbName: "Genetic Variants" })} />
+      <h1>DIO2 and Genetic Variants: Matching The Scorch Protocol to Your DNA</h1>
       <KeyTakeaways points={[
         "Certain gene variants, especially DIO2 Thr92Ala, reduce your ability to make active thyroid hormone (T3) by 20 to 40%, making the metabolic drop from fasting much more severe.",
         "Up to 45 to 60% of people with European ancestry carry the DIO2 variant, so testing your DNA before aggressive dry fasting is strongly recommended.",

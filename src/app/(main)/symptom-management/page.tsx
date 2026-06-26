@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
+import JsonLd from "@/components/JsonLd";
+import { medicalWebPageLd } from "@/lib/structured-data";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import InterestingVideoBlock from "@/components/InterestingVideoBlock";
 import MermaidCharts from "@/components/MermaidCharts";
@@ -10,6 +12,7 @@ export const metadata: Metadata = {
   title: "Symptom Management | The Scorch Protocol",
   description:
     "A symptom-by-symptom guide to managing side effects during The Scorch Protocol: Herxheimer reactions, electrolytes, and more.",
+  alternates: { canonical: "https://scorchprotocol.com/symptom-management" },
 };
 
 const herxDecisionTree = `graph TD
@@ -34,6 +37,7 @@ const herxDecisionTree = `graph TD
 export default function SymptomManagementPage() {
   return (
     <>
+      <JsonLd data={medicalWebPageLd({ name: "Symptom Management", description: "A symptom-by-symptom guide to managing side effects during The Scorch Protocol: Herxheimer reactions, electrolytes, and more.", path: "/symptom-management", breadcrumbName: "Symptom Management" })} />
       <h1>Symptom Management Guide</h1>
       <KeyTakeaways points={[
         "Most symptoms during the fast or a T3 cycle are Herxheimer reactions (die-off and detox) that you push through, not emergencies.",

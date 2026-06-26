@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import GuidanceBox from "@/components/GuidanceBox";
+import JsonLd from "@/components/JsonLd";
+import { medicalWebPageLd } from "@/lib/structured-data";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import MermaidCharts from "@/components/MermaidCharts";
 import KeyTakeaways from "@/components/KeyTakeaways";
@@ -10,6 +12,7 @@ export const metadata: Metadata = {
   title: "Viral Reactivation | The Scorch Protocol",
   description:
     "The deepest dive into viral reactivation in chronic illness: why dry fasting protects you and the refeed window puts you at maximum risk, and how to bridge it safely with water fasting, T3, lysine, and antivirals.",
+  alternates: { canonical: "https://scorchprotocol.com/viral-reactivation" },
 };
 
 const reactivationCascade = `graph TD
@@ -60,6 +63,7 @@ const pathogenStack = `graph TB
 export default function ViralReactivationPage() {
   return (
     <>
+      <JsonLd data={medicalWebPageLd({ name: "Viral Reactivation", description: "The deepest dive into viral reactivation in chronic illness: why dry fasting protects you and the refeed window puts you at maximum risk, and how to bridge it safely with water fasting, T3, lysine, and antivirals.", path: "/viral-reactivation", breadcrumbName: "Viral Reactivation", about: ["Long COVID", "Epstein-Barr virus infection", "Herpes simplex"] })} />
       <h1>Viral Reactivation</h1>
       <KeyTakeaways points={[
         "The dry fast is actually the safest period for your immune system: autophagy, ketones, mTOR suppression, and NK cell activity all work against viral replication.",
