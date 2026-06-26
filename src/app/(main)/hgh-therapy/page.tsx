@@ -176,7 +176,7 @@ export default function HghTherapyPage() {
         </p>
       </div>
 
-      <div className="guiding-questions box-indigo">
+      <div className="guiding-questions box-info">
         <h3>How hGH Helps You Burn Fat</h3>
         <p>
           During a fast, your body makes more growth hormone to help you burn
@@ -195,7 +195,7 @@ export default function HghTherapyPage() {
         </p>
       </div>
 
-      <div className="guiding-questions box-deepgreen">
+      <div className="guiding-questions box-success">
         <h3>Rebuilding Muscle, Not Fat</h3>
         <p>
           One of the hardest parts of the Scorch Protocol is the{" "}
@@ -239,7 +239,7 @@ export default function HghTherapyPage() {
         during recovery. This section covers both.
       </p>
 
-      <div className="guiding-questions box-blue">
+      <div className="guiding-questions box-info">
         <h3>Where to Get hGH</h3>
         <p>
           It is very important to get high-quality hGH, as many products sold
@@ -279,7 +279,7 @@ export default function HghTherapyPage() {
         </p>
       </div>
 
-      <div className="guiding-questions box-purple">
+      <div className="guiding-questions box-info">
         <h3>Synergistic Peptides During Recovery</h3>
         <p>
           For certain people, the protocol has missing keys that no amount of
@@ -332,7 +332,7 @@ export default function HghTherapyPage() {
         conditions of long-term suppression.
       </p>
 
-      <div className="guiding-questions box-dark">
+      <div className="guiding-questions box-info">
         <h3>Why hGH Works for Chronic Illness: The Research Case</h3>
         <p>
           If you have been sick for years, you are not just dealing with a

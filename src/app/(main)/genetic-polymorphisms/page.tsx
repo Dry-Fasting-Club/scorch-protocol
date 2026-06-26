@@ -31,7 +31,7 @@ export default function GeneticPolymorphismsPage() {
         it is safe and works best for you.
       </p>
 
-      <div className="guiding-questions box-purple">
+      <div className="guiding-questions box-info">
         <h3>Why Your Genes Matter for Fasting</h3>
         <div className="question-item">
           <span className="question-label">The Main Problem</span>
@@ -57,7 +57,7 @@ export default function GeneticPolymorphismsPage() {
         higher blood sugar.
       </p>
 
-      <div className="guiding-questions box-red">
+      <div className="guiding-questions box-danger">
         <h3>Fasting Risks for DIO2 Carriers</h3>
         <div className="question-item">
           <span className="question-label">The Danger</span>
@@ -106,7 +106,7 @@ export default function GeneticPolymorphismsPage() {
         people with certain genes.
       </p>
 
-      <div className="guiding-questions box-orange">
+      <div className="guiding-questions box-warning">
         <h3>Why DIO2 Carriers Struggle on Keto</h3>
         <p>
           The DIO2 variant (rs225014) is very common, affecting{" "}
@@ -154,7 +154,7 @@ export default function GeneticPolymorphismsPage() {
         end.
       </p>
 
-      <div className="guiding-questions box-blue">
+      <div className="guiding-questions box-info">
         <h3>Where You Come From: Who Is at Risk?</h3>
         <p>
           The DIO2 variant is found at different rates around the world.{" "}

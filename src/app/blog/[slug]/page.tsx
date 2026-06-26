@@ -145,7 +145,7 @@ export default async function BlogPostPage({ params }: Props) {
             {/* Link to related protocol section */}
             {post.related_protocol_slug && (
               <div
-                className="guiding-questions box-orange"
+                className="guiding-questions box-info"
                 style={{ marginTop: "3rem" }}
               >
                 <h3>Related Protocol Section</h3>

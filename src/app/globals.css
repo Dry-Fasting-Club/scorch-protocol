@@ -324,40 +324,18 @@ hr {
     font-weight: 700;
 }
 
-/* Colour variants */
-.box-red     { background-color: rgba(239,  68,  68, 0.08); border-left-color: #ef4444; }
-.box-green   { background-color: rgba( 34, 197,  94, 0.08); border-left-color: #22c55e; }
-.box-yellow  { background-color: rgba(245, 158,  11, 0.08); border-left-color: #f59e0b; }
-.box-blue    { background-color: rgba( 59, 130, 246, 0.07); border-left-color: #3b82f6; }
-.box-orange  { background-color: rgba(249, 115,  22, 0.09); border-left-color: #f97316; }
-.box-purple  { background-color: rgba(168,  85, 247, 0.08); border-left-color: #a855f7; }
-.box-teal    { background-color: rgba( 20, 184, 166, 0.08); border-left-color: #14b8a6; }
-.box-dark    { background-color: var(--surface-2); border-left-color: #475569; }
-.box-gray    { background-color: var(--surface);   border-left-color: #3b82f6; }
-.box-brown   { background-color: rgba( 93,  64,  55, 0.18); border-left-color: #8d6e63; }
-.box-lime    { background-color: rgba(104, 159,  56, 0.09); border-left-color: #8bc34a; }
-.box-teal2   { background-color: rgba(  0, 137, 123, 0.08); border-left-color: #009688; }
-.box-pink    { background-color: rgba(233,  30,  99, 0.08); border-left-color: #e91e63; }
-.box-amber   { background-color: rgba(251, 192,  45, 0.07); border-left-color: #fbc02d; }
-.box-deepgreen  { background-color: rgba( 40, 167,  69, 0.08); border-left-color: #28a745; }
-.box-deeporange { background-color: rgba(230,  81,   0, 0.10); border-left-color: #e65100; }
-.box-indigo  { background-color: rgba(156,  39, 176, 0.08); border-left-color: #9c27b0; }
-.box-blue2   { background-color: rgba( 33, 150, 243, 0.08); border-left-color: #2196f3; }
-.box-deepgreen2 { background-color: rgba( 46, 125,  50, 0.08); border-left-color: #2e7d32; }
-.box-snow    { background-color: var(--surface); border-left-color: #475569; }
+/* Semantic variants — four meanings, so colour is signal not decoration:
+   danger (red) = stop / contraindication, warning (amber) = caution,
+   info (blue) = explanation/how-to (also the default), success (green) = good. */
+.box-danger  { background-color: rgba(239,  68,  68, 0.08); border-left-color: #ef4444; }
+.box-warning { background-color: rgba(245, 158,  11, 0.10); border-left-color: #f59e0b; }
+.box-info    { background-color: rgba( 59, 130, 246, 0.07); border-left-color: #3b82f6; }
+.box-success { background-color: rgba( 34, 197,  94, 0.08); border-left-color: #22c55e; }
 
-/* h3 colour inside each box variant */
-.box-red h3, .box-red .guiding-questions h3     { color: #fca5a5; }
-.box-green h3, .box-green .guiding-questions h3 { color: #86efac; }
-.box-yellow h3                                  { color: #fde68a; }
-.box-blue h3, .box-blue .guiding-questions h3   { color: #93c5fd; }
-.box-orange h3                                  { color: #fdba74; }
-.box-purple h3                                  { color: #d8b4fe; }
-.box-teal h3, .box-teal .guiding-questions h3   { color: #5eead4; }
-.box-teal2 h3                                   { color: #4db6ac; }
-.box-amber h3                                   { color: #fde68a; }
-.box-deepgreen h3                               { color: #86efac; }
-.box-deeporange h3                              { color: #fdba74; }
+.box-danger h3,  .box-danger .guiding-questions h3  { color: #fca5a5; }
+.box-warning h3, .box-warning .guiding-questions h3 { color: #fde68a; }
+.box-info h3,    .box-info .guiding-questions h3    { color: #93c5fd; }
+.box-success h3, .box-success .guiding-questions h3 { color: #86efac; }
 
 /* ============================================================
    KEY TAKEAWAYS (TL;DR box) + AUTHOR BYLINE

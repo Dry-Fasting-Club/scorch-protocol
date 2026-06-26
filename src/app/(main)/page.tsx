@@ -189,7 +189,7 @@ export default function HomePage() {
       </div>
 
       {/* ── THE SCORCH ADVANTAGE + VIDEO ── */}
-      <div className="guiding-questions box-dark">
+      <div className="guiding-questions box-info">
         <h3>The Double Advantage: Metabolism &amp; Cleaning</h3>
         <p>
           Healing chronic illness requires two things:{" "}
@@ -246,7 +246,7 @@ export default function HomePage() {
       </div>
 
       {/* ── ENERGY ABUNDANCE PRINCIPLE ── */}
-      <div className="guiding-questions box-orange">
+      <div className="guiding-questions box-info">
         <h3>The Other Half of Healing: Energy Abundance</h3>
         <p>
           You are already here because you believe in fasting. You believe in
@@ -292,7 +292,7 @@ export default function HomePage() {
       </div>
 
       {/* ── CONDITIONS ── */}
-      <div className="guiding-questions box-teal2">
+      <div className="guiding-questions box-info">
         <h3>Conditions That Respond to The Scorch Protocol</h3>
         <p>
           This protocol is effective at reaching hidden pathogens, viral

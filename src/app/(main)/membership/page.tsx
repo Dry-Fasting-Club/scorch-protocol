@@ -38,7 +38,7 @@ export default function MembershipPage() {
 
       <h2>What you get</h2>
 
-      <div className="guiding-questions box-orange">
+      <div className="guiding-questions box-info">
         <div className="question-item">
           <span className="question-label">A refeed plan built for your fast</span>
           Tell the portal your fast length, fast type, maintenance calories, and

@@ -90,7 +90,7 @@ export default function ViralReactivationPage() {
         the vulnerability window, not just the fast itself.
       </p>
 
-      <div className="guiding-questions box-red">
+      <div className="guiding-questions box-danger">
         <h3>The Counterintuitive Truth, In One Sentence</h3>
         <p>
           During the dry fast, your body becomes biologically hostile to viral
@@ -118,7 +118,7 @@ export default function ViralReactivationPage() {
         metabolically near-impossible during the fasted state.
       </p>
 
-      <div className="guiding-questions box-green">
+      <div className="guiding-questions box-success">
         <h3>The Four Layers of Anti-Viral Defence That Activate During a Dry Fast</h3>
         <div className="question-item">
           <span className="question-label">1. Autophagy clears infected cells from the inside out</span>
@@ -196,7 +196,7 @@ export default function ViralReactivationPage() {
         antiviral capacity.
       </p>
 
-      <div className="guiding-questions box-red">
+      <div className="guiding-questions box-danger">
         <h3>The Five Vulnerability Mechanisms in the Refeed Window</h3>
         <div className="question-item">
           <span className="question-label">1. mTOR roars back on within hours</span>
@@ -259,7 +259,7 @@ export default function ViralReactivationPage() {
         much more dangerous in a chronically ill body.
       </p>
 
-      <div className="guiding-questions box-blue">
+      <div className="guiding-questions box-info">
         <h3>What Actually Happens When a Virus Reactivates in the Refeed Window</h3>
         <div className="question-item">
           <span className="question-label">The dry fast eradicated the virus from many of its hiding places</span>
@@ -311,7 +311,7 @@ export default function ViralReactivationPage() {
         differs from every recreational fasting program online.
       </p>
 
-      <div className="guiding-questions box-purple">
+      <div className="guiding-questions box-info">
         <h3>What the Water Fast Bridge Accomplishes</h3>
         <div className="question-item">
           <span className="question-label">Rehydrates organs while keeping you in ketosis</span>
@@ -562,7 +562,7 @@ export default function ViralReactivationPage() {
         missed if you don&rsquo;t know what you&rsquo;re looking for.
       </p>
 
-      <div className="guiding-questions box-red">
+      <div className="guiding-questions box-danger">
         <h3>Early Reactivation Warning Signs in the Refeed Window</h3>
         <div className="question-item">
           <span className="question-label">Tingling, burning, or itching at a previous outbreak site</span>
@@ -626,7 +626,7 @@ export default function ViralReactivationPage() {
       </p>
 
       <h2>Bottom Line for Anyone With Chronic Illness</h2>
-      <div className="guiding-questions box-purple">
+      <div className="guiding-questions box-info">
         <h3>The Mental Model to Carry Through the Whole Protocol</h3>
         <p>
           The dry fast is the safest period your immune system experiences

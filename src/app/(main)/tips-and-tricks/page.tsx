@@ -67,7 +67,7 @@ export default function TipsAndTricksPage() {
         sticks.
       </p>
 
-      <div className="guiding-questions box-deepgreen">
+      <div className="guiding-questions box-info">
         <h3>Before the Fast</h3>
         <ul>
           <li>
@@ -100,7 +100,7 @@ export default function TipsAndTricksPage() {
         </ul>
       </div>
 
-      <div className="guiding-questions box-yellow">
+      <div className="guiding-questions box-info">
         <h3>During the Fast</h3>
         <ul>
           <li>
@@ -157,7 +157,7 @@ export default function TipsAndTricksPage() {
         </ul>
       </div>
 
-      <div className="guiding-questions box-blue">
+      <div className="guiding-questions box-warning">
         <h3>Breaking the Fast</h3>
         <ul>
           <li>
@@ -191,7 +191,7 @@ export default function TipsAndTricksPage() {
         through your tenth 5-day cycle.
       </p>
 
-      <div className="guiding-questions box-purple">
+      <div className="guiding-questions box-info">
         <h3>General Wisdom</h3>
         <ul>
           <li>
@@ -235,7 +235,7 @@ export default function TipsAndTricksPage() {
         full Scorch Protocol.
       </p>
 
-      <div className="guiding-questions box-pink">
+      <div className="guiding-questions box-warning">
         <h3>Managing Cortisol on High-Dose T3 Monotherapy</h3>
         <p>
           Weight-loss or chronic illness protocols involving solo T3 therapy
@@ -311,7 +311,7 @@ export default function TipsAndTricksPage() {
         </ol>
       </div>
 
-      <div className="guiding-questions box-red">
+      <div className="guiding-questions box-info">
         <h3>The Salt and Potassium Balance: Hidden Drivers of Energy</h3>
 
         <h4>The Salt Overeating Trap</h4>
@@ -367,7 +367,7 @@ export default function TipsAndTricksPage() {
         </p>
       </div>
 
-      <div className="guiding-questions box-dark">
+      <div className="guiding-questions box-warning">
         <h3>Aspirin Optimization &amp; Metabolic Re-Lighting</h3>
         <p>
           In the Scorch Protocol, Aspirin (acetylsalicylic acid) is used not
@@ -524,7 +524,7 @@ export default function TipsAndTricksPage() {
         </ul>
       </div>
 
-      <div className="guiding-questions box-purple">
+      <div className="guiding-questions box-warning">
         <h3>
           Cyproheptadine: Protecting Appetite, Sleep, and the Stress Axis on T3
         </h3>
@@ -557,7 +557,7 @@ export default function TipsAndTricksPage() {
         completed dry fasts and metabolic recovery first.
       </p>
 
-      <div className="guiding-questions box-blue">
+      <div className="guiding-questions box-info">
         <h3>Advanced Topic: Psilocybin &amp; Brain Rejuvenation</h3>
         <p>
           <strong>Note:</strong> This is a very deep topic and cannot be fully
@@ -607,7 +607,7 @@ export default function TipsAndTricksPage() {
 
       <h2 id="video-resources">Video Resources</h2>
 
-      <div className="guiding-questions box-orange">
+      <div className="guiding-questions box-info">
         <h3>Interesting Content to Watch During Your Fast</h3>
         <p>
           While resting in bed during your fast, watching engaging and calming
@@ -672,7 +672,7 @@ export default function TipsAndTricksPage() {
         </div>
       </div>
 
-      <div className="guiding-questions box-blue">
+      <div className="guiding-questions box-info">
         <h3>Essential Dry Fasting Education</h3>
         <p>
           Learn from experts and the dry fasting community to deepen your
@@ -747,7 +747,7 @@ export default function TipsAndTricksPage() {
         <strong>hypothalamus/pituitary</strong>.
       </p>
 
-      <div className="guiding-questions box-purple">
+      <div className="guiding-questions box-info">
         <h3>Chakra Meditation for Endocrine Healing</h3>
 
         <h4>Why This Matters</h4>

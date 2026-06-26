@@ -55,7 +55,7 @@ export default function T3TherapyPage() {
         "In the Scorch Protocol, T3 starts on day 3 of the water fast (not at the refeed) so it is already running when you begin eating again.",
       ]} />
 
-      <div className="guiding-questions box-red">
+      <div className="guiding-questions box-danger">
         <h3>Get medical supervision before T3 if any of these apply</h3>
         <p>
           T3 raises your heart rate and metabolic demand. At the doses described
@@ -149,7 +149,7 @@ export default function T3TherapyPage() {
       </div>
 
       <h2>Getting an Accurate Temperature Reading</h2>
-      <div className="guiding-questions box-deepgreen">
+      <div className="guiding-questions box-info">
         <h3>Use a Basal Body Thermometer, Not a Standard One</h3>
         <p>
           Your waking temperature is one of the most important data points in
@@ -273,7 +273,7 @@ export default function T3TherapyPage() {
         </p>
       </div>
 
-      <div className="guiding-questions box-purple">
+      <div className="guiding-questions box-info">
         <h3>The Best Way: Slow-Release T3 (SR-T3)</h3>
         <p>
           <strong>We strongly recommend using Slow-Release T3 (SR-T3).</strong>
@@ -294,7 +294,7 @@ export default function T3TherapyPage() {
         </ul>
       </div>
 
-      <div className="guiding-questions box-blue">
+      <div className="guiding-questions box-info">
         <h3>Where to Get T3</h3>
         <p>
           One trusted source for Slow-Release T3 is{" "}
@@ -320,7 +320,7 @@ export default function T3TherapyPage() {
         </p>
       </div>
 
-      <div className="guiding-questions box-orange">
+      <div className="guiding-questions box-info">
         <h3>Why Your Blood Tests Might Lie to You</h3>
         <p>
           <strong>The Real Problem: Tissue-Level Resistance</strong>
@@ -399,7 +399,7 @@ export default function T3TherapyPage() {
       </div>
 
       <h2>When to Start T3: The Fasting Block Integration</h2>
-      <div className="guiding-questions box-deepgreen">
+      <div className="guiding-questions box-info">
         <h3>Start T3 on Day 3 of the Water Fast, Not After</h3>
         <p>
           In the Scorch Protocol, T3 therapy does not begin at the refeed. It
@@ -519,7 +519,7 @@ export default function T3TherapyPage() {
         </p>
       </div>
 
-      <div className="guiding-questions box-red">
+      <div className="guiding-questions box-danger">
         <h3>Safety First</h3>
         <div className="question-item">
           <span className="question-label">Is your heart racing?</span>
@@ -545,7 +545,7 @@ export default function T3TherapyPage() {
         </div>
       </div>
 
-      <div className="guiding-questions box-red">
+      <div className="guiding-questions box-danger">
         <h3>Drug Interactions to Review Before Starting</h3>
         <p>
           Thyroid can thin blood, especially at higher doses. Patients on
@@ -587,7 +587,7 @@ export default function T3TherapyPage() {
         </li>
       </ul>
 
-      <div className="guiding-questions box-purple">
+      <div className="guiding-questions box-info">
         <h3>The Co-Factor Stack That Makes T3 Stick</h3>
         <p>
           T3 reboots metabolism, but whether it holds depends on three things
@@ -710,7 +710,7 @@ export default function T3TherapyPage() {
         </p>
       </div>
 
-      <div className="guiding-questions box-orange">
+      <div className="guiding-questions box-warning">
         <h3>Fueling T3 Therapy: Why Calories Matter Here</h3>
         <p>
           T3 dramatically increases your metabolic rate. That is the point.

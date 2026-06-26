@@ -67,7 +67,7 @@ export default function SuccessRateDataPage() {
         </p>
       </div>
 
-      <div className="guiding-questions box-red">
+      <div className="guiding-questions box-danger">
         <h3>Who the Scorch Protocol Is Not For</h3>
         <p>
           Over 100 people who came to Yannick were assessed and advised{" "}
@@ -97,7 +97,7 @@ export default function SuccessRateDataPage() {
         </div>
       </div>
 
-      <div className="guiding-questions box-deepgreen">
+      <div className="guiding-questions box-success">
         <h3>Key Findings</h3>
         <div className="question-item">
           <span className="question-label">97% Success Rate</span>
@@ -275,7 +275,7 @@ export default function SuccessRateDataPage() {
       </div>
 
       <div
-        className="guiding-questions box-green"
+        className="guiding-questions box-success"
         style={{ margin: "3rem 0" }}
       >
         <h3>Summary: The Transformation</h3>
@@ -318,7 +318,7 @@ export default function SuccessRateDataPage() {
         and showed measurable improvement:
       </p>
 
-      <div className="guiding-questions box-yellow">
+      <div className="guiding-questions box-info">
         <h3>Core Tracked Symptoms</h3>
         <div
           style={{
@@ -367,7 +367,7 @@ export default function SuccessRateDataPage() {
         <li>And many more...</li>
       </ul>
 
-      <div className="guiding-questions box-red">
+      <div className="guiding-questions box-warning">
         <h3>Important Notes About the Data</h3>
         <div className="question-item">
           <span className="question-label">Sample Size</span>

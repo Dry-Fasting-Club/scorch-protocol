@@ -123,7 +123,7 @@ export default function MindfulnessPage() {
         sources efficiently. This is not a compromise. It is an upgrade.
       </p>
 
-      <div className="guiding-questions box-purple">
+      <div className="guiding-questions box-info">
         <div className="question-item">
           <span className="question-label">The Randle Cycle Problem</span>
           <p>
@@ -195,7 +195,7 @@ export default function MindfulnessPage() {
         chronic illness looks like this:
       </p>
 
-      <div className="guiding-questions box-yellow">
+      <div className="guiding-questions box-info">
         <div className="question-item">
           <span className="question-label">Improve Blood Flow</span>
           <p>
@@ -254,7 +254,7 @@ export default function MindfulnessPage() {
         window rather than letting it slip past.
       </p>
 
-      <div className="guiding-questions box-dark">
+      <div className="guiding-questions box-info">
         <div className="question-item">
           <span className="question-label">What has worked for me</span>
           <p>

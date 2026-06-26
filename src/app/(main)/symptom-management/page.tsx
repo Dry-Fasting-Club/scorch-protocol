@@ -330,7 +330,7 @@ export default function SymptomManagementPage() {
         heal properly.
       </p>
 
-      <div className="guiding-questions box-blue">
+      <div className="guiding-questions box-info">
         <h3>The 3 Best Ways to Recharge Your Body</h3>
         <p>
           While things like walking barefoot on grass (grounding) are good,
@@ -397,7 +397,7 @@ export default function SymptomManagementPage() {
         root cause is biochemical, not behavioral.
       </p>
 
-      <div className="guiding-questions box-yellow">
+      <div className="guiding-questions box-info">
         <h3>Start Here: Natural Sleep Support</h3>
         <p>
           Try these first. They are low-risk, well-tolerated, and genuinely
@@ -448,7 +448,7 @@ export default function SymptomManagementPage() {
         simple sedatives.
       </p>
 
-      <div className="guiding-questions box-purple">
+      <div className="guiding-questions box-info">
         <h3>Cyproheptadine vs Ketotifen</h3>
         <div className="question-item">
           <span className="question-label">Cyproheptadine (First Choice):</span>

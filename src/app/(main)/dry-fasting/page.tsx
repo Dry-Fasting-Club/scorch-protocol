@@ -193,7 +193,7 @@ export default function DryFastingPage() {
         </li>
       </ul>
 
-      <div className="guiding-questions box-red">
+      <div className="guiding-questions box-danger">
         <h3>When to Stop Immediately (Red Flags)</h3>
         <ul>
           <li>Heart rate stays over 120 bpm while resting</li>

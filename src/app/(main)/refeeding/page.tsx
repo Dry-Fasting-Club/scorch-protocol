@@ -35,7 +35,7 @@ export default function RefeedingPage() {
         rush this phase.
       </p>
 
-      <div className="guiding-questions box-red">
+      <div className="guiding-questions box-danger">
         <h3>Critical Safety Rules (Refeeding Syndrome)</h3>
         <p>
           Refeeding syndrome is what can happen when food, especially
@@ -138,7 +138,7 @@ export default function RefeedingPage() {
       </table>
 
       <h2>How Many Calories to Eat During Recovery</h2>
-      <div className="guiding-questions box-blue">
+      <div className="guiding-questions box-info">
         <h3>The Calorie Ramp: Day 8 Onward</h3>
         <p>
           Once you exit the first 7 days of the refeed, the goal is not to
@@ -188,7 +188,7 @@ export default function RefeedingPage() {
       </div>
 
       <h2>How to Track Your Calories</h2>
-      <div className="guiding-questions box-green">
+      <div className="guiding-questions box-info">
         <h3>Use a Calorie Counting App (With the Image Scan Feature)</h3>
         <p>
           Hitting your calorie targets is not guesswork. The most practical
@@ -277,7 +277,7 @@ export default function RefeedingPage() {
       </div>
 
       <h2>Watch For Post-Fast Cortisol Stuck State</h2>
-      <div className="guiding-questions box-purple">
+      <div className="guiding-questions box-warning">
         <h3>The 11β-HSD2 Off-Switch That Can Get Stuck</h3>
         <p>
           Some patients come out of an extended fast puffier than they went
@@ -318,7 +318,7 @@ export default function RefeedingPage() {
       </div>
 
       <h2>Why Coconut Water First?</h2>
-      <div className="guiding-questions box-green">
+      <div className="guiding-questions box-info">
         <h3>The Science of Coconut Water</h3>
         <div className="question-item">
           <span className="question-label">Electrolyte Balance:</span>
@@ -343,7 +343,7 @@ export default function RefeedingPage() {
       </div>
 
       <h2>The Rice &amp; Fruit Protocol: Why These Foods?</h2>
-      <div className="guiding-questions box-blue">
+      <div className="guiding-questions box-info">
         <h3>Why White Rice?</h3>
         <div className="question-item">
           <span className="question-label">Easy to Digest:</span>
@@ -366,7 +366,7 @@ export default function RefeedingPage() {
       </div>
 
       <h2>BPC-157: Doubling Your Stem Cell Regeneration</h2>
-      <div className="guiding-questions box-purple">
+      <div className="guiding-questions box-success">
         <h3>The Most Overlooked Upgrade to the Refeed</h3>
         <p>
           You&rsquo;ve already done something incredible by dry fasting, and your
@@ -417,7 +417,7 @@ export default function RefeedingPage() {
         improvised.
       </p>
 
-      <div className="guiding-questions box-red">
+      <div className="guiding-questions box-danger">
         <h3>Read the Full Deep Dive Before You Refeed</h3>
         <p>
           The mechanism, the studies, the full list of nine human
@@ -434,7 +434,7 @@ export default function RefeedingPage() {
         </p>
       </div>
 
-      <div className="guiding-questions box-orange">
+      <div className="guiding-questions box-warning">
         <h3>The Refeed-Day Action Checklist</h3>
         <p>
           Three things to have in place by the time you take your first
@@ -462,7 +462,7 @@ export default function RefeedingPage() {
         </div>
       </div>
 
-      <div className="guiding-questions box-red">
+      <div className="guiding-questions box-danger">
         <h3>The T3 Cycle Off-Ramp Is Another High-Risk Window</h3>
         <p>
           Viral reactivation risk does not end with the refeed. When you
@@ -486,7 +486,7 @@ export default function RefeedingPage() {
         aggressive rebuild work. Some absolutely do.
       </p>
 
-      <div className="guiding-questions box-orange">
+      <div className="guiding-questions box-info">
         <h3>Who Actually Needs Deliberate Biome Rebuild?</h3>
         <p>
           For the standard protocol path &ndash; a 5-day dry fast plus short
@@ -517,7 +517,7 @@ export default function RefeedingPage() {
         </div>
       </div>
 
-      <div className="guiding-questions box-deepgreen">
+      <div className="guiding-questions box-info">
         <h3>The Sequencing Inside the Scorch Protocol</h3>
         <p>
           Biome rebuild is not a Day-1-of-refeed activity for most patients.
@@ -552,7 +552,7 @@ export default function RefeedingPage() {
         </p>
       </div>
 
-      <div className="guiding-questions box-purple">
+      <div className="guiding-questions box-info">
         <h3>The Rebuild Stack: The Trinity</h3>
         <p>
           When repopulation time comes, the foundational stack is three
@@ -583,7 +583,7 @@ export default function RefeedingPage() {
         </p>
       </div>
 
-      <div className="guiding-questions box-blue">
+      <div className="guiding-questions box-info">
         <h3>Timing: How Long Until It Actually Shifts</h3>
         <div className="question-item">
           <span className="question-label">For regular people:</span>
@@ -600,7 +600,7 @@ export default function RefeedingPage() {
         </div>
       </div>
 
-      <div className="guiding-questions box-blue">
+      <div className="guiding-questions box-info">
         <h3>The Bacterial Exception: Lyme, Babesia, Bartonella</h3>
         <p>
           The Scorch Protocol targets fungal, parasitic, and viral
@@ -639,7 +639,7 @@ export default function RefeedingPage() {
         </p>
       </div>
 
-      <div className="guiding-questions box-orange">
+      <div className="guiding-questions box-info">
         <h3>The Virome: The Biome You Were Never Told About</h3>
         <p>
           The bacterial microbiome gets all the attention. The virome

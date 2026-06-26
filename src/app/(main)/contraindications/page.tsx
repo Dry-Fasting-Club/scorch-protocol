@@ -42,7 +42,7 @@ export default function ContraindicationsPage() {
         before starting any fast, supplement, or medication change.
       </p>
 
-      <div className="guiding-questions box-red">
+      <div className="guiding-questions box-danger">
         <h3>Do not attempt the fasting protocol if any of these apply</h3>
         <div className="question-item">
           <span className="question-label">Pregnant or breastfeeding</span>
@@ -81,7 +81,7 @@ export default function ContraindicationsPage() {
         </div>
       </div>
 
-      <div className="guiding-questions box-yellow">
+      <div className="guiding-questions box-warning">
         <h3>Get a doctor's clearance and supervision first if any of these apply</h3>
         <p>
           These are not automatic disqualifiers, but they change the risk enough

@@ -25,7 +25,7 @@ export default function ListOfPharmaciesPage() {
         "All listed pharmacies are prescription-free in practice even if their sites say otherwise; the notes section explains how to navigate checkout at each one.",
       ]} />
 
-      <div className="guiding-questions box-purple">
+      <div className="guiding-questions box-info">
         <h3>Recommended Source for Slow-Release T3 (SR-T3)</h3>
         <p>
           <strong>

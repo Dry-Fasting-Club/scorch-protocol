@@ -137,7 +137,7 @@ export default function PreparationPage() {
         start the fast with known, severe deficiencies, as your body will not
         respond well.
       </p>
-      <div className="guiding-questions box-yellow">
+      <div className="guiding-questions box-warning">
         <h3>Priority Supplements Before Fasting</h3>
         <div className="question-item">
           <span className="question-label">Vitamin D3 + K2:</span>
@@ -258,7 +258,7 @@ export default function PreparationPage() {
           </p>
         </div>
       </div>
-      <div className="guiding-questions box-yellow">
+      <div className="guiding-questions box-info">
         <h3>Which Path Is Right for You?</h3>
         <div className="question-item">
           <span className="question-label">Choose Plant-Based if:</span>
@@ -282,7 +282,7 @@ export default function PreparationPage() {
       </div>
 
       <h2>Step 4: Mental Preparation</h2>
-      <div className="guiding-questions box-purple">
+      <div className="guiding-questions box-info">
         <h3>Setting Your Intention</h3>
         <div className="question-item">
           <span className="question-label">Write Down Your Why:</span>
@@ -330,7 +330,7 @@ export default function PreparationPage() {
       </div>
 
       <h2>Step 5: The Cleanse and the Final Days</h2>
-      <div className="guiding-questions box-indigo">
+      <div className="guiding-questions box-info">
         <h3>One Clean-Out, Not a Cascade of Cleanses</h3>
         <p>
           Going into the fast with an empty colon means your body is not dealing

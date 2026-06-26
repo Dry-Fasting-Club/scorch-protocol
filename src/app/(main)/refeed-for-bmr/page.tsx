@@ -34,7 +34,7 @@ export default function RefeedForBmrPage() {
         health after a long illness or fasting.
       </p>
 
-      <div className="guiding-questions box-red">
+      <div className="guiding-questions box-info">
         <h3>What You Need to Know</h3>
         <div className="question-item">
           <span className="question-label">Recovery Takes Time:</span>
@@ -111,7 +111,7 @@ export default function RefeedForBmrPage() {
         to 4,000+ calories a day.
       </p>
 
-      <div className="guiding-questions box-green">
+      <div className="guiding-questions box-success">
         <h3>Key Metabolic Rules</h3>
         <div className="question-item">
           <span className="question-label">The Supplement Problem:</span>
@@ -141,7 +141,7 @@ export default function RefeedForBmrPage() {
         You must slowly introduce your body to all that food to stay safe.
       </p>
 
-      <div className="guiding-questions box-yellow">
+      <div className="guiding-questions box-warning">
         <h3>Safety Rules</h3>
         <div className="question-item">
           <span className="question-label">Heart Health:</span>
@@ -245,7 +245,7 @@ export default function RefeedForBmrPage() {
 
       <h3>Phase I: The Survival Phase (Months 1–3)</h3>
       <p>This phase is cut down to 1 month if you use the Scorch Protocol correctly.</p>
-      <div className="guiding-questions box-blue">
+      <div className="guiding-questions box-info">
         <h4>Goal: Stabilize the heart and stay safe.</h4>
         <div className="question-item">
           <span className="question-label">How Your Body Feels:</span>
@@ -272,7 +272,7 @@ export default function RefeedForBmrPage() {
         The Scorch Protocol uses T3, hGH, and specific foods to help you move
         through this phase faster and avoid too much fat gain.
       </p>
-      <div className="guiding-questions box-orange">
+      <div className="guiding-questions box-info">
         <h4>Goal: Build an &ldquo;emergency fund&rdquo; of energy.</h4>
         <div className="question-item">
           <span className="question-label">Fat Before Muscle:</span>
@@ -299,7 +299,7 @@ export default function RefeedForBmrPage() {
       </div>
 
       <h3>Phase III: Rebuilding Muscle (Months 6–9+)</h3>
-      <div className="guiding-questions box-deepgreen">
+      <div className="guiding-questions box-success">
         <h4>Goal: Build muscle and return to normal.</h4>
         <div className="question-item">
           <span className="question-label">Muscle Growth:</span>
@@ -412,7 +412,7 @@ export default function RefeedForBmrPage() {
         </tbody>
       </table>
 
-      <div className="guiding-questions box-purple" style={{ margin: "3rem 0" }}>
+      <div className="guiding-questions box-info" style={{ margin: "3rem 0" }}>
         <h3>Key Lessons</h3>
         <ul style={{ margin: "1rem 0", paddingLeft: "1.5rem" }}>
           <li>

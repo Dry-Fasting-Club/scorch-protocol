@@ -26,7 +26,7 @@ export default function WeightLossPage() {
         ⚠️ UNDER CONSTRUCTION
       </p>
 
-      <div className="guiding-questions box-red">
+      <div className="guiding-questions box-danger">
         <h3>Critical Warning: Too Powerful for Casual Use</h3>
         <p>
           The Scorch Protocol is{" "}
@@ -44,7 +44,7 @@ export default function WeightLossPage() {
         pitfalls.
       </p>
 
-      <div className="guiding-questions box-yellow">
+      <div className="guiding-questions box-warning">
         <h3>The 10-Pound Rule</h3>
         <div className="question-item">
           <span className="question-label">Stop Early</span>
@@ -75,7 +75,7 @@ export default function WeightLossPage() {
         of fat, and keep it off.
       </p>
 
-      <div className="guiding-questions box-deepgreen">
+      <div className="guiding-questions box-success">
         <h3>Why Dry Fasting Works for Fat Loss</h3>
         <div className="question-item">
           <span className="question-label">Permanent Results</span>
@@ -108,7 +108,7 @@ export default function WeightLossPage() {
       </p>
 
       <h2>⚠️ CRITICAL WARNING: Children Under 18</h2>
-      <div className="guiding-questions box-red">
+      <div className="guiding-questions box-danger">
         <h3>DO NOT Dry Fast if You Are Under 18</h3>
         <p>
           <strong>

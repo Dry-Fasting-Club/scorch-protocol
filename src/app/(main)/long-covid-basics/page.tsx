@@ -56,7 +56,7 @@ export default function LongCovidBasicsPage() {
         "The Scorch Protocol targets the root cause; use this page as a starting floor while building toward it.",
       ]} />
 
-      <div className="guiding-questions box-purple">
+      <div className="guiding-questions box-info">
         <h3>Read This First</h3>
         <p>
           The information on this page is the foundational supportive-care
@@ -120,7 +120,7 @@ export default function LongCovidBasicsPage() {
         dysregulation, micro-clotting, oxidative stress).
       </p>
 
-      <div className="guiding-questions box-blue">
+      <div className="guiding-questions box-info">
         <h3>The Daily Stack</h3>
         <div className="question-item">
           <span className="question-label">Daily Intermittent Fasting</span>
@@ -208,7 +208,7 @@ export default function LongCovidBasicsPage() {
         active at once.
       </p>
 
-      <div className="guiding-questions box-green">
+      <div className="guiding-questions box-info">
         <h3>Targeted Support by Symptom</h3>
         <div className="question-item">
           <span className="question-label">Mast Cell Activation / Histamine Flares</span>
@@ -271,7 +271,7 @@ export default function LongCovidBasicsPage() {
         progress has plateaued, layer in these second-line items.
       </p>
 
-      <div className="guiding-questions box-blue">
+      <div className="guiding-questions box-info">
         <h3>Adjuncts for Stalled Progress</h3>
         <div className="question-item">
           <span className="question-label">N-Acetylcysteine (NAC)</span>
@@ -327,7 +327,7 @@ export default function LongCovidBasicsPage() {
         significant time, and significant cost.
       </p>
 
-      <div className="guiding-questions box-red">
+      <div className="guiding-questions box-info">
         <h3>Refractory-Case Tier</h3>
         <div className="question-item">
           <span className="question-label">Hyperbaric Oxygen Therapy (HBOT)</span>
@@ -356,7 +356,7 @@ export default function LongCovidBasicsPage() {
       </div>
 
       <h2>Why This Is Not the Full Answer</h2>
-      <div className="guiding-questions box-purple">
+      <div className="guiding-questions box-info">
         <h3>The Ceiling of the Basics, and the Path Past It</h3>
         <p>
           Everything on this page reduces symptoms and inflammation. Almost

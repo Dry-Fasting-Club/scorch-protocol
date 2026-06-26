@@ -51,7 +51,7 @@ export default function RandomThoughtsPage() {
           metabolism, and how long it really takes for your body to heal.
         </p>
 
-        <div className="guiding-questions box-gray">
+        <div className="guiding-questions box-info">
           <h3>1. Fasting vs. Starving: The BMR Trap</h3>
           <p>
             Proper fasting (like the Scorch Protocol) can actually protect your
@@ -76,7 +76,7 @@ export default function RandomThoughtsPage() {
           </ul>
         </div>
 
-        <div className="guiding-questions box-orange">
+        <div className="guiding-questions box-info">
           <h3>2. Chronic Illness Makes It Harder</h3>
           <p>
             Many chronic illnesses start with a low BMR and a weak immune
@@ -98,7 +98,7 @@ export default function RandomThoughtsPage() {
           </ul>
         </div>
 
-        <div className="guiding-questions box-teal2">
+        <div className="guiding-questions box-info">
           <h3>3. How Long It Takes to Heal</h3>
           <p>
             If we look at how people recover from severe starvation, it usually
@@ -131,7 +131,7 @@ export default function RandomThoughtsPage() {
 
       <section id="thermal-threshold">
         <h2>The Thermal Threshold: Using Heat to Measure Your Metabolism</h2>
-        <div className="guiding-questions box-yellow">
+        <div className="guiding-questions box-info">
           <h3>Insight: Showering in extreme heat</h3>
           <p>
             I was standing in the shower today and realized something profound: I
@@ -169,7 +169,7 @@ export default function RandomThoughtsPage() {
           </p>
         </div>
 
-        <div className="guiding-questions box-red">
+        <div className="guiding-questions box-info">
           <h3>The Northern European &ldquo;Freeze&rdquo;</h3>
           <p>
             Think back to the early stages of COVID, when many people complained
@@ -189,7 +189,7 @@ export default function RandomThoughtsPage() {
           </p>
         </div>
 
-        <div className="guiding-questions box-blue">
+        <div className="guiding-questions box-success">
           <h3>Signs of Healing: Feeling Warm</h3>
           <p>
             As you go through the Scorch Protocol, watch for changes in how you
@@ -205,7 +205,7 @@ export default function RandomThoughtsPage() {
 
       <section id="energy-gap-theory">
         <h2>The &ldquo;Energy Gap&rdquo;: Why COVID-19 Crashed Your Metabolism</h2>
-        <div className="guiding-questions box-indigo">
+        <div className="guiding-questions box-info">
           <h3>The Theory: Why Your Energy Shut Down</h3>
           <p>
             There is strong evidence that COVID-19 (and Long Covid) causes a
@@ -225,7 +225,7 @@ export default function RandomThoughtsPage() {
           </p>
         </div>
 
-        <div className="guiding-questions box-blue2">
+        <div className="guiding-questions box-info">
           <h3>The Computer Analogy: The 100W vs. 50W Gap</h3>
           <p>
             Imagine your body is a high-power computer that needs 100 Watts of
@@ -256,7 +256,7 @@ export default function RandomThoughtsPage() {
           </p>
         </div>
 
-        <div className="guiding-questions box-deeporange">
+        <div className="guiding-questions box-info">
           <h3>Clots, Sudden Death, and the Keto Shield</h3>
           <p>
             Things like blood clots and sudden heart issues are extreme signs of a
@@ -279,7 +279,7 @@ export default function RandomThoughtsPage() {
 
       <section id="energy-balance-t3">
         <h2>Energy Balance, T3 Therapy, and the &ldquo;Stone&rdquo; Paradox</h2>
-        <div className="guiding-questions box-lime">
+        <div className="guiding-questions box-warning">
           <h3>1. How T3 Changes Your &ldquo;Wattage&rdquo;</h3>
           <p>
             Taking T3 (thyroid hormone) can raise your metabolic rate by 20% to
@@ -301,7 +301,7 @@ export default function RandomThoughtsPage() {
           </ul>
         </div>
 
-        <div className="guiding-questions box-deeporange">
+        <div className="guiding-questions box-warning">
           <h3>2. Why T3 Fails Without Enough Food</h3>
           <p>
             Trying to use T3 without eating enough is like trying to squeeze blood
@@ -322,7 +322,7 @@ export default function RandomThoughtsPage() {
           </ul>
         </div>
 
-        <div className="guiding-questions box-deepgreen2">
+        <div className="guiding-questions box-info">
           <h3>3. The Liver: Your Body&rsquo;s Battery</h3>
           <p>
             Long-term stress and low-carb dieting can weaken your liver&rsquo;s
@@ -361,7 +361,7 @@ export default function RandomThoughtsPage() {
           </li>
         </ul>
 
-        <div className="guiding-questions box-purple">
+        <div className="guiding-questions box-warning">
           <h3>5. The Long Game: Tracking Your Progress</h3>
           <p>
             Recovery is a numbers game. You can&rsquo;t just &ldquo;guess&rdquo;
@@ -384,7 +384,7 @@ export default function RandomThoughtsPage() {
           </ul>
         </div>
 
-        <div className="guiding-questions box-brown">
+        <div className="guiding-questions box-success">
           <h3>6. The Goal: 100x Better Fasting</h3>
           <p>
             Many people think fasting is the <em>only</em> cure. But fasting
@@ -398,7 +398,7 @@ export default function RandomThoughtsPage() {
 
         <section id="genetic-polymorphisms">
           <h2>Genetic Polymorphisms: The Self-Selection Trap</h2>
-          <div className="guiding-questions box-pink">
+          <div className="guiding-questions box-info">
             <h3>The &ldquo;Self-Selection&rdquo; Trap</h3>
             <p>
               In fasting communities, you usually only hear from the people who
@@ -414,7 +414,7 @@ export default function RandomThoughtsPage() {
             </p>
           </div>
 
-          <div className="guiding-questions box-amber">
+          <div className="guiding-questions box-warning">
             <h3>Why Some People Struggle (The European Link)</h3>
             <p>
               Many people of European descent have genetics that make them very
@@ -455,7 +455,7 @@ export default function RandomThoughtsPage() {
             </ul>
           </div>
 
-          <div className="guiding-questions box-teal2">
+          <div className="guiding-questions box-info">
             <h3>T3 and the &ldquo;Genetically Perfect&rdquo; Guru</h3>
             <p>
               The good news is that <strong>T3 therapy</strong> can often fix
@@ -564,7 +564,7 @@ export default function RandomThoughtsPage() {
           </p>
         </div>
 
-        <div className="guiding-questions box-orange">
+        <div className="guiding-questions box-warning">
           <h3>The Stem Cell Regeneration Ceiling</h3>
           <p>
             There is a point of diminishing returns when it comes to stem
@@ -600,7 +600,7 @@ export default function RandomThoughtsPage() {
           </p>
         </div>
 
-        <div className="guiding-questions box-red">
+        <div className="guiding-questions box-info">
           <h3>The Acidification Story: Why Day 7&ndash;9 Is Where the Magic Happens</h3>
           <p>
             So if extra days past Day 5 are not for stem cell regeneration,
@@ -638,7 +638,7 @@ export default function RandomThoughtsPage() {
           </p>
         </div>
 
-        <div className="guiding-questions box-purple">
+        <div className="guiding-questions box-warning">
           <h3>The Nuclear Option: When Extended Dry Fasts Are Justified</h3>
           <p>
             Extended dry fasts past the 5-day threshold are NOT for
@@ -688,7 +688,7 @@ export default function RandomThoughtsPage() {
           </p>
         </div>
 
-        <div className="guiding-questions box-blue">
+        <div className="guiding-questions box-info">
           <h3>For Everyone Else: Rare and Powerful Beats Long and Frequent</h3>
           <p>
             For someone that is literally looking at improvements to their
@@ -719,7 +719,7 @@ export default function RandomThoughtsPage() {
       <section id="cavity-immune-signal">
         <h2>The Cavity Signal: Oral Health as an Immune System Indicator</h2>
 
-        <div className="guiding-questions box-deeporange">
+        <div className="guiding-questions box-info">
           <h3>1. The Immune Crash Window</h3>
           <p>
             Every serious infection creates an immune vulnerability
@@ -745,7 +745,7 @@ export default function RandomThoughtsPage() {
           </p>
         </div>
 
-        <div className="guiding-questions box-blue">
+        <div className="guiding-questions box-info">
           <h3>2. The Visible Indicator: Cavities</h3>
           <p>
             A healthy immune system produces fewer cavities. Forty or
@@ -774,7 +774,7 @@ export default function RandomThoughtsPage() {
           </p>
         </div>
 
-        <div className="guiding-questions box-orange">
+        <div className="guiding-questions box-info">
           <h3>3. Fighting on All Fronts: Biome and Immune Together</h3>
           <p>
             Oral bacteria are not benign. When the biome is disrupted,
@@ -802,7 +802,7 @@ export default function RandomThoughtsPage() {
           </p>
         </div>
 
-        <div className="guiding-questions box-lime">
+        <div className="guiding-questions box-info">
           <h3>4. Practical Defense: Tilting the Oral Biome in Your Favor</h3>
           <p>
             The deeper repair happens at the immune and metabolic
