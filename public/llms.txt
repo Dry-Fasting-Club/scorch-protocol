@@ -12,6 +12,7 @@ The protocol runs in phases: a supported preparation period, a deep dry fast (th
 - [Decision Tree](https://scorchprotocol.com/decision-tree): How to tell which phase to start with, plus stop-signals and the baseline-temperature gate.
 - [Phase 1: Preparation](https://scorchprotocol.com/preparation): Baseline blood tests, supplement loading, the plant-based vs ketogenic preparation paths, and readiness checks.
 - [Phase 2: The Dry Fast](https://scorchprotocol.com/dry-fasting): Day-by-day dry fasting, the acidotic crisis, progressive fast length, the water-fast bridge, and red-flag stop signals.
+- [Dry Fasting vs Water Fasting](https://scorchprotocol.com/dry-fasting-vs-water-fasting): How dry and water fasting compare (mechanism, kidney/electrolyte data, autophagy depth, safety) and why the protocol uses 5 days dry then 5 days water.
 - [Refeeding](https://scorchprotocol.com/refeeding): How to break a dry fast safely, refeeding-syndrome rules, coconut water first, and gut repopulation.
 - [Phase 4: T3 Therapy](https://scorchprotocol.com/t3-therapy): Wilson's T3 protocol to restart suppressed metabolism, dosing ramp, co-factors, and safety.
 - [Phase 5: hGH Therapy](https://scorchprotocol.com/hgh-therapy): Growth hormone and peptides for the rebuilding phase.
@@ -20,6 +21,9 @@ The protocol runs in phases: a supported preparation period, a deep dry fast (th
 ## Conditions and supportive care
 
 - [Long Covid Basics](https://scorchprotocol.com/long-covid-basics): First-line supportive stack for Long Covid (LDN, nattokinase, ivermectin, MCAS support) for people not yet ready to fast.
+- [Dry Fasting and POTS](https://scorchprotocol.com/dry-fasting-for-pots): Whether dry fasting is safe with POTS/dysautonomia, the precautions and clearance it needs, and the supportive stack to stabilize first.
+- [EBV and Chronic Fatigue](https://scorchprotocol.com/ebv-chronic-fatigue): How Epstein-Barr reactivation drives chronic fatigue, why fasting suppresses viral replication, and why the refeed window is the risk.
+- [MCAS and Dry Fasting](https://scorchprotocol.com/mcas-and-dry-fasting): Mast cell activation in Long Covid, the histamine-calming stack, MCAS-driven insomnia, and how fasting fits in.
 - [Symptom Management](https://scorchprotocol.com/symptom-management): Managing Herxheimer reactions and side effects during the protocol.
 - [Genetic Polymorphisms](https://scorchprotocol.com/genetic-polymorphisms): How DIO2, MTHFR, and other variants affect T3 conversion and protocol response.
 - [Weight Loss](https://scorchprotocol.com/weight-loss): How fasting and T3 affect body composition.
