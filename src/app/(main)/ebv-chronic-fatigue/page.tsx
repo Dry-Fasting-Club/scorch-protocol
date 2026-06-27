@@ -309,13 +309,6 @@ export default function EbvChronicFatiguePage() {
           defences before the mTOR switch flips back on.
         </div>
         <div className="question-item">
-          <span className="question-label">Gives the immune system several days to begin redistributing</span>
-          T-cells and monocytes begin returning to the bloodstream during the
-          water fast phase, before food signals trigger mTOR. By the time you
-          take your first calories, baseline immune surveillance is materially
-          better than it would have been on a direct refeed.
-        </div>
-        <div className="question-item">
           <span className="question-label">Cortisol begins to descend</span>
           Water intake reduces the perceived stress signal. Cortisol begins its
           descent from peak. The herpesvirus reactivation trigger weakens before
