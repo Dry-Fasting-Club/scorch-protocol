@@ -22,15 +22,10 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
-      // Canonical host: force the apex (https://scorchprotocol.com) as the one
-      // indexable origin. The www subdomain and Vercel's free project alias both
-      // serve the same app, which is duplicate content; 308 them to the apex.
-      {
-        source: "/:path*",
-        has: [{ type: "host", value: "www.scorchprotocol.com" }],
-        destination: "https://scorchprotocol.com/:path*",
-        permanent: true,
-      },
+      // Redirect Vercel's free project alias to the canonical site so it isn't a
+      // duplicate indexable origin. NOTE: www vs apex canonicalization is handled
+      // at the Vercel domain level (dashboard), NOT here. Adding a www->apex rule
+      // here while Vercel has apex->www set as primary creates an infinite loop.
       {
         source: "/:path*",
         has: [{ type: "host", value: "scorch-protocol.vercel.app" }],
