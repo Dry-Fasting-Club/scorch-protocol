@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
@@ -51,6 +52,10 @@ const faqItems = [
   {
     question: "How long does the whole protocol take?",
     answer: "The fast may only last a few days, but full recovery including refeeding, metabolic reconstruction, and hormone therapy can take 6 to 12 months. Healing deep, chronic issues is a marathon, not a sprint. Sometimes symptoms may indicate that additional fasting blocks are necessary.",
+  },
+  {
+    question: "Where do I get slow-release T3, peptides, or hGH?",
+    answer: "This is the single most common question, and it is the hardest part of the whole protocol. No doctor will prescribe slow-release T3, and the peptide and hGH markets are full of fakes. The public list of pharmacies on this site will get you standard liothyronine and the basics. The verified, current supplier contacts for slow-release T3, peptides, hGH, and cyproheptadine, plus exactly what to order and how to dose it, are part of 1-on-1 coaching. They are kept private on purpose, because good sources stop working the moment they are posted publicly.",
   },
 ];
 
@@ -169,6 +174,20 @@ export default function GeneralQuestionsPage() {
           hormone therapy) can take <strong>6 to 12 months</strong>. Healing
           deep, chronic issues is a marathon, not a sprint. Sometimes your
           symptoms may indicate extra fasts being necessary.
+        </p>
+
+        <h3>11. Where do I get slow-release T3, peptides, or hGH?</h3>
+        <p>
+          This is the single most common question, and it is the hardest part of
+          the whole protocol. No doctor will prescribe slow-release T3, and the
+          peptide and hGH markets are full of fakes. The public{" "}
+          <Link href="/list-of-pharmacies">list of pharmacies</Link> will get you
+          standard liothyronine and the basics. The verified, current supplier
+          contacts for slow-release T3, peptides, hGH, and cyproheptadine, plus
+          exactly what to order and how to dose it, are part of{" "}
+          <Link href="/coaching">1-on-1 coaching</Link>. They are kept private on
+          purpose, because good sources stop working the moment they are posted
+          publicly.
         </p>
       </div>
 

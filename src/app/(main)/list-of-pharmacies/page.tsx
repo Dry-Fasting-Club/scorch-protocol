@@ -3,6 +3,7 @@ import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
+import SourcingCallout from "@/components/SourcingCallout";
 import JsonLd from "@/components/JsonLd";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
@@ -418,6 +419,7 @@ export default function ListOfPharmaciesPage() {
         </p>
       </div>
 
+      <SourcingCallout heading="The verified slow-release T3, peptide, and hGH sources are inside the 1-on-1." />
       <RefeedPlanPromo source="list-of-pharmacies" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="list-of-pharmacies" sectionTitle="List of Pharmacies" />

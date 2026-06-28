@@ -91,8 +91,10 @@ export default function MembershipPage() {
           <h3>Inner Circle</h3>
           <p>
             Everything in Member, plus the most questions each month, priority on
-            your answers, and a direct line to 1-on-1 coaching with the exact
-            doses set in consult.
+            your answers, and direct 1-on-1 coaching: your exact doses set in
+            consult, and Yannick&rsquo;s verified, current supplier contacts for
+            slow-release T3, peptides, hGH, and cyproheptadine. See{" "}
+            <Link href="/coaching">how the 1-on-1 works</Link>.
           </p>
         </div>
       </div>

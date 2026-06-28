@@ -7,6 +7,7 @@ import MermaidCharts from "@/components/MermaidCharts";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import EmailCapture from "@/components/EmailCapture";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
+import SourcingCallout from "@/components/SourcingCallout";
 import JsonLd from "@/components/JsonLd";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
@@ -790,6 +791,7 @@ export default function T3TherapyPage() {
 
       <EmailCapture compact source="t3-therapy-footer" />
       <RefeedPlanPromo source="t3-therapy" />
+      <SourcingCallout heading="Can't actually get slow-release T3?" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="t3-therapy" sectionTitle="Phase 4: T3 Therapy" />
     </>

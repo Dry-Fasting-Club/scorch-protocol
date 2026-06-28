@@ -11,6 +11,7 @@ type NavItem =
 
 const navItems: NavItem[] = [
   { type: "link",  href: "/",                    label: "Overview & Principles" },
+  { type: "link",  href: "/coaching",             label: "1-on-1 Coaching" },
   { type: "link",  href: "/decision-tree",        label: "Decision Logic Tree" },
   { type: "link",  href: "/long-covid-basics",    label: "Long Covid Basics (start here)" },
   { type: "link",  href: "/dry-fasting-vs-water-fasting", label: "Dry Fasting vs Water Fasting" },

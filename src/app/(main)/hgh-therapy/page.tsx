@@ -4,6 +4,7 @@ import PaidContentBlock from "@/components/PaidContentBlock";
 import InterestingVideoBlock from "@/components/InterestingVideoBlock";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
+import SourcingCallout from "@/components/SourcingCallout";
 import JsonLd from "@/components/JsonLd";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
@@ -388,6 +389,7 @@ export default function HghTherapyPage() {
       />
 
       <RefeedPlanPromo source="hgh-therapy" />
+      <SourcingCallout heading="Can't source real hGH or peptides?" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="hgh-therapy" sectionTitle="Phase 5: hGH Therapy" />
     </>
