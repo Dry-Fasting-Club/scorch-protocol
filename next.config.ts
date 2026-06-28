@@ -22,6 +22,21 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      // Canonical host: force the apex (https://scorchprotocol.com) as the one
+      // indexable origin. The www subdomain and Vercel's free project alias both
+      // serve the same app, which is duplicate content; 308 them to the apex.
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.scorchprotocol.com" }],
+        destination: "https://scorchprotocol.com/:path*",
+        permanent: true,
+      },
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "scorch-protocol.vercel.app" }],
+        destination: "https://scorchprotocol.com/:path*",
+        permanent: true,
+      },
       // Main protocol pages
       { source: "/index.html",                destination: "/",                    permanent: true },
       { source: "/decision-tree.html",        destination: "/decision-tree",       permanent: true },
