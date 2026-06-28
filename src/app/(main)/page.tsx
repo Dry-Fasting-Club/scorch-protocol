@@ -335,6 +335,27 @@ export default function HomePage() {
           </li>
         </ul>
         <p>
+          <strong>What about cancer and other serious or rare diseases?</strong>{" "}
+          Every illness, at its root, is a metabolic and immune problem. The body
+          lost the energy or the immune capacity to keep something in check. That
+          principle does not stop at the list above. Complex and serious
+          conditions, including cancer and rarer diseases, may respond to a{" "}
+          <em>modified</em> version of the protocol. But these are exactly the
+          cases where a generic template is not enough. The real work is figuring
+          out what went wrong for <em>you</em> and reshaping the protocol to
+          match.
+        </p>
+        <p>
+          That is detective work, and it is hardest to do alone. The fastest path
+          is a 1-on-1, where your full history and lab numbers get worked through
+          directly. The next best is the{" "}
+          <Link href="/membership">members portal</Link>: dissect your own
+          numbers, ask the right questions, and get the detective on the case
+          starting at $1. For a serious diagnosis like cancer, the goal is to
+          find and fix the root cause alongside your medical care, not in place
+          of it.
+        </p>
+        <p>
           <strong>The Final Goal:</strong> Your immune system becomes so strong
           that it keeps hidden viruses quiet forever, not just suppressed, but
           replaced with a new immune system built from fresh stem cells.
