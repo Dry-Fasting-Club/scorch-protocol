@@ -3,6 +3,7 @@ import Link from "next/link";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
+import HghAccessNote from "@/components/HghAccessNote";
 import JsonLd from "@/components/JsonLd";
 import { faqPageLd } from "@/lib/structured-data";
 
@@ -39,7 +40,7 @@ const faqItems = [
   },
   {
     question: "Why do I need hGH therapy?",
-    answer: "Growth Hormone (hGH) is the signal that tells your body to rebuild. It helps build new, healthy cells and improves the immune system. hGH therapy is not necessary for everyone, but it can be extremely helpful because many chronic illnesses are associated with low hGH pituitary secretion.",
+    answer: "Growth Hormone (hGH) is the signal that tells your body to rebuild. It helps build new, healthy cells and improves the immune system. hGH therapy is not necessary for everyone, but it can be extremely helpful because many chronic illnesses are associated with low hGH pituitary secretion. If hGH is hard to access, easier-to-source growth hormone secretagogues like CJC-1295 and Ipamorelin can be used in its place on a slightly modified protocol.",
   },
   {
     question: "Can I drink water during a dry fast?",
@@ -140,6 +141,7 @@ export default function GeneralQuestionsPage() {
           everyone, but it can be extremely helpful considering many chronic
           illnesses are associated with low hGH pituitary secretion.
         </p>
+        <HghAccessNote />
 
         <h3>8. Can I drink water during a dry fast?</h3>
         <p>

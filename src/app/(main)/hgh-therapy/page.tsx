@@ -5,6 +5,7 @@ import InterestingVideoBlock from "@/components/InterestingVideoBlock";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import SourcingCallout from "@/components/SourcingCallout";
+import HghAccessNote from "@/components/HghAccessNote";
 import JsonLd from "@/components/JsonLd";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
@@ -35,6 +36,8 @@ export default function HghTherapyPage() {
         body is a little different, so we have to carefully figure out how it
         works for you.
       </p>
+
+      <HghAccessNote />
 
       <div
         style={{
