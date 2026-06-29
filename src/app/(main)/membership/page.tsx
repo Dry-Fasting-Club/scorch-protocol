@@ -5,7 +5,7 @@ import JsonLd from "@/components/JsonLd";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  title: "Membership: Run the Protocol With Yannick for $1 | The Scorch Protocol",
+  title: "Membership: Run the Protocol With Yannick for $1",
   description:
     "Join the Scorch Protocol members portal for $1/mo: build a personalized day-by-day refeed plan, track your temperature and labs, and ask Yannick your questions directly. Cancel anytime.",
   alternates: { canonical: "https://scorchprotocol.com/membership" },

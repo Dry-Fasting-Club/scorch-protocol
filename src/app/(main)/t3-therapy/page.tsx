@@ -36,7 +36,7 @@ const t3ResistanceChart = `graph LR
   style CD fill:#7f1d1d,stroke:#ef4444,stroke-width:3px,color:#fca5a5`;
 
 export const metadata: Metadata = {
-  title: "Phase 4: T3 Therapy | The Scorch Protocol",
+  title: "Phase 4: T3 Therapy",
   description:
     "Phase 4: How T3 thyroid therapy reboots suppressed metabolism, bypasses the DIO2 gene mutation, and amplifies dry fasting results.",
   alternates: { canonical: "https://scorchprotocol.com/t3-therapy" },

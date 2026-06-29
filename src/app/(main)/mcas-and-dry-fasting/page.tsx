@@ -11,7 +11,7 @@ const PAGE_DESCRIPTION =
 
 export const metadata: Metadata = {
   title:
-    "MCAS and Dry Fasting: Calming Mast Cells in Long Covid | The Scorch Protocol",
+    "MCAS and Dry Fasting: Calming Mast Cells in Long Covid",
   description: PAGE_DESCRIPTION,
   alternates: { canonical: "https://scorchprotocol.com/mcas-and-dry-fasting" },
 };

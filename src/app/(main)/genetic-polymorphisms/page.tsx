@@ -7,7 +7,7 @@ import KeyTakeaways from "@/components/KeyTakeaways";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 
 export const metadata: Metadata = {
-  title: "DIO2 and Genetic Variants in Dry Fasting | The Scorch Protocol",
+  title: "DIO2 and Genetic Variants in Dry Fasting",
   description:
     "How DIO2, MTHFR, and other genetic variants affect your response to The Scorch Protocol, and how to tailor treatment accordingly.",
   alternates: { canonical: "https://scorchprotocol.com/genetic-polymorphisms" },

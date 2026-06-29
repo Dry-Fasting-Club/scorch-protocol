@@ -9,7 +9,7 @@ import JsonLd from "@/components/JsonLd";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  title: "Phase 5: hGH Therapy | The Scorch Protocol",
+  title: "Phase 5: hGH Therapy",
   description:
     "Phase 5: hGH therapy signals tissue rebuilding after The Scorch, restoring muscle, nerve, and immune system function.",
   alternates: { canonical: "https://scorchprotocol.com/hgh-therapy" },

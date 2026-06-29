@@ -12,7 +12,7 @@ import JsonLd from "@/components/JsonLd";
 import { medicalWebPageLd, medicalStudyLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  title: "Success Rate Data | The Scorch Protocol",
+  title: "Success Rate Data",
   description:
     "Real outcome data from 141 protocol participants: of the 32 who completed the full dry fasting, T3, and hGH therapy phases, 97% recovered. Methodology and full breakdown inside.",
   alternates: { canonical: "https://scorchprotocol.com/success-rate-data" },

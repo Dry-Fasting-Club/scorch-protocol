@@ -7,7 +7,7 @@ import { accessCookieName } from "@/lib/tokens";
 import stripe from "@/lib/stripe";
 
 export const metadata: Metadata = {
-  title: "Purchase Successful | The Scorch Protocol",
+  title: "Purchase Successful",
   robots: { index: false, follow: false },
 };
 

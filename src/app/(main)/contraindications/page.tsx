@@ -6,7 +6,7 @@ import JsonLd from "@/components/JsonLd";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  title: "Who Should Not Do This: Dry Fasting Contraindications | The Scorch Protocol",
+  title: "Who Should Not Do This: Dry Fasting Contraindications",
   description:
     "The Scorch Protocol is not for everyone. The conditions and situations where deep dry fasting and T3 therapy are unsafe, and when to get medical clearance first.",
   alternates: { canonical: "https://scorchprotocol.com/contraindications" },

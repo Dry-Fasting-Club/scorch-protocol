@@ -5,7 +5,7 @@ import JsonLd from "@/components/JsonLd";
 import { faqPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  title: "Autophagy & Dry Fasting | The Scorch Protocol FAQ",
+  title: "Autophagy & Dry Fasting FAQ",
   description:
     "How dry fasting triggers autophagy, clears damaged cells, and why it is more powerful than water fasting for immune repair.",
 };

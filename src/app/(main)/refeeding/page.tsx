@@ -10,7 +10,7 @@ import JsonLd from "@/components/JsonLd";
 import { medicalWebPageLd, faqPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  title: "Phase 3: The Refeed | The Scorch Protocol",
+  title: "Phase 3: The Refeed",
   description:
     "Phase 3: The Scorch Protocol refeeding plan: what to eat, when, and how to avoid refeeding syndrome after a dry fast.",
   alternates: { canonical: "https://scorchprotocol.com/refeeding" },

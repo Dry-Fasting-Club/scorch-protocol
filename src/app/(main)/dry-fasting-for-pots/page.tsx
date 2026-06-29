@@ -7,7 +7,7 @@ import JsonLd from "@/components/JsonLd";
 import { medicalWebPageLd, faqPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  title: "Dry Fasting and POTS: Is It Safe, and Can It Help? | The Scorch Protocol",
+  title: "Dry Fasting and POTS: Is It Safe, and Can It Help?",
   description:
     "Dry fasting with POTS and dysautonomia: why fluid shifts and T3 can backfire, the precautions that matter, and how the Scorch Protocol approaches POTS as part of the Long Covid cascade.",
   alternates: { canonical: "https://scorchprotocol.com/dry-fasting-for-pots" },

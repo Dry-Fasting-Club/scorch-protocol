@@ -6,7 +6,7 @@ import JsonLd from "@/components/JsonLd";
 import { faqPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  title: "Refeeding Strategy | The Scorch Protocol FAQ",
+  title: "Refeeding Strategy FAQ",
   description:
     "Refeeding FAQ: How to avoid refeeding syndrome, what to eat first, electrolyte management, and calorie ramp-up schedule.",
 };

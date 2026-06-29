@@ -5,7 +5,7 @@ import KeyTakeaways from "@/components/KeyTakeaways";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 
 export const metadata: Metadata = {
-  title: "Weight Loss Protocol | The Scorch Protocol",
+  title: "Weight Loss Protocol",
   description:
     "How The Scorch Protocol resets insulin resistance and achieves sustainable fat loss through metabolic repair, not calorie restriction.",
   // Thin / in-progress page: keep out of the index until it is built out.

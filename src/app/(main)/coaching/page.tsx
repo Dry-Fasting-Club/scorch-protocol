@@ -5,7 +5,7 @@ import JsonLd from "@/components/JsonLd";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  title: "1-on-1 Coaching: Verified Sourcing for T3, Peptides & hGH | The Scorch Protocol",
+  title: "1-on-1 Coaching: Verified Sourcing for T3, Peptides & hGH",
   description:
     "The protocol is free to read. The hard part is sourcing slow-release T3, peptides, hGH, and cyproheptadine without getting faked or scammed. 1-on-1 coaching gives you Yannick's current, verified supplier contacts, the exact products, and your doses set in consult.",
   alternates: { canonical: "https://scorchprotocol.com/coaching" },

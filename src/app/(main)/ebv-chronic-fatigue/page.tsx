@@ -8,7 +8,7 @@ import { medicalWebPageLd, faqPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
   title:
-    "EBV Reactivation and Chronic Fatigue: The Fasting Approach | The Scorch Protocol",
+    "EBV Reactivation and Chronic Fatigue: The Fasting Approach",
   description:
     "How Epstein-Barr (EBV) reactivation drives chronic fatigue, why fasting suppresses viral replication, and why the refeed window is the dangerous part to get right.",
   alternates: { canonical: "https://scorchprotocol.com/ebv-chronic-fatigue" },

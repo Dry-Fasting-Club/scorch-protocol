@@ -9,7 +9,7 @@ import KeyTakeaways from "@/components/KeyTakeaways";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 
 export const metadata: Metadata = {
-  title: "Symptom Management | The Scorch Protocol",
+  title: "Symptom Management",
   description:
     "A symptom-by-symptom guide to managing side effects during The Scorch Protocol: Herxheimer reactions, electrolytes, and more.",
   alternates: { canonical: "https://scorchprotocol.com/symptom-management" },

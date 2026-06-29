@@ -10,7 +10,7 @@ import JsonLd from "@/components/JsonLd";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  title: "Phase 1: Preparation | The Scorch Protocol",
+  title: "Phase 1: Preparation",
   description:
     "Phase 1: Baseline blood tests, supplement stacks, the two preparation paths (plant-based and ketogenic), and readiness checks required before beginning The Scorch Protocol.",
   alternates: { canonical: "https://scorchprotocol.com/preparation" },

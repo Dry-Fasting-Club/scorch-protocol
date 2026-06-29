@@ -8,7 +8,7 @@ import JsonLd from "@/components/JsonLd";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  title: "List of Pharmacies | The Scorch Protocol",
+  title: "List of Pharmacies",
   description:
     "Trusted pharmacies for sourcing T3 (liothyronine), hGH, and peptides used in The Scorch Protocol, organized by country.",
   alternates: { canonical: "https://scorchprotocol.com/list-of-pharmacies" },

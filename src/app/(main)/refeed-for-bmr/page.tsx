@@ -8,7 +8,7 @@ import JsonLd from "@/components/JsonLd";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  title: "9-Month BMR Reconstruction | The Scorch Protocol",
+  title: "9-Month BMR Reconstruction",
   description:
     "The 9-month BMR reconstruction protocol: how to rebuild metabolic rate after deep caloric restriction using systematic refeeding.",
   alternates: { canonical: "https://scorchprotocol.com/refeed-for-bmr" },

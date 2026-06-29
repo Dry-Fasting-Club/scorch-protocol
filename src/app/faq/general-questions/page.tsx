@@ -7,7 +7,7 @@ import JsonLd from "@/components/JsonLd";
 import { faqPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  title: "General Questions | The Scorch Protocol FAQ",
+  title: "General Questions FAQ",
   description:
     "General FAQ: What is The Scorch Protocol, who is it for, how long does it take, and is it safe?",
 };

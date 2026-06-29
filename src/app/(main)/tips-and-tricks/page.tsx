@@ -9,7 +9,7 @@ import Image from "next/image";
 import KeyTakeaways from "@/components/KeyTakeaways";
 
 export const metadata: Metadata = {
-  title: "Tips and Tricks | The Scorch Protocol",
+  title: "Tips and Tricks",
   description:
     "Practical tips from experienced Scorch Protocol practitioners: supplements, timing, sourcing, and what to expect week by week.",
   alternates: { canonical: "https://scorchprotocol.com/tips-and-tricks" },

@@ -5,7 +5,7 @@ import JsonLd from "@/components/JsonLd";
 import { faqPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  title: "Kidney Health & Dry Fasting | The Scorch Protocol FAQ",
+  title: "Kidney Health & Dry Fasting FAQ",
   description:
     "Kidney safety during dry fasting: what the research shows, how the body protects kidneys, and red flags to watch for.",
 };

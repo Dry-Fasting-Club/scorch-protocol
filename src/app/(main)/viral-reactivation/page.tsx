@@ -9,7 +9,7 @@ import KeyTakeaways from "@/components/KeyTakeaways";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 
 export const metadata: Metadata = {
-  title: "Viral Reactivation | The Scorch Protocol",
+  title: "Viral Reactivation",
   description:
     "The deepest dive into viral reactivation in chronic illness: why dry fasting protects you and the refeed window puts you at maximum risk, and how to bridge it safely with water fasting, T3, lysine, and antivirals.",
   alternates: { canonical: "https://scorchprotocol.com/viral-reactivation" },

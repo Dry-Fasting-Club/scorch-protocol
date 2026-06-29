@@ -10,7 +10,7 @@ const PAGE_DESCRIPTION =
   "Dry fasting vs water fasting compared: the osmotic-stress mechanism, kidney and electrolyte data, autophagy depth, safety, and why the Scorch Protocol uses 5 days dry then 5 days water instead of choosing one.";
 
 export const metadata: Metadata = {
-  title: "Dry Fasting vs Water Fasting: Which Heals Faster? | The Scorch Protocol",
+  title: "Dry Fasting vs Water Fasting: Which Heals Faster?",
   description: PAGE_DESCRIPTION,
   alternates: { canonical: "https://scorchprotocol.com/dry-fasting-vs-water-fasting" },
 };

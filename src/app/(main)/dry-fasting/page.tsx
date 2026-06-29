@@ -10,7 +10,7 @@ import JsonLd from "@/components/JsonLd";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  title: "Phase 2: The Dry Fast | The Scorch Protocol",
+  title: "Phase 2: The Dry Fast",
   description:
     "Phase 2: A step-by-step guide to dry fasting safely: day-by-day breakdown, red flags, weight milestones, and refeeding timing.",
   alternates: { canonical: "https://scorchprotocol.com/dry-fasting" },

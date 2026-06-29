@@ -8,7 +8,7 @@ import KeyTakeaways from "@/components/KeyTakeaways";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 
 export const metadata: Metadata = {
-  title: "Long Covid Treatment Options: The Foundational Stack | The Scorch Protocol",
+  title: "Long Covid Treatment Options: The Foundational Stack",
   description:
     "First-line Long Covid treatment options: LDN, nattokinase, ivermectin, mast cell (MCAS) support, and lifestyle basics. The foundational supportive-care stack to try while building toward the full Scorch Protocol.",
   alternates: { canonical: "https://scorchprotocol.com/long-covid-basics" },

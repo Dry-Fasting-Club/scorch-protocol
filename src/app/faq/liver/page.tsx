@@ -5,7 +5,7 @@ import JsonLd from "@/components/JsonLd";
 import { faqPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  title: "Liver Health & Dry Fasting | The Scorch Protocol FAQ",
+  title: "Liver Health & Dry Fasting FAQ",
   description:
     "Liver health during The Scorch Protocol: how autophagy benefits liver function and what to do if liver enzymes spike.",
 };

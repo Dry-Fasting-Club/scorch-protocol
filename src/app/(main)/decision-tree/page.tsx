@@ -8,7 +8,7 @@ import JsonLd from "@/components/JsonLd";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  title: "Decision Logic Tree | The Scorch Protocol",
+  title: "Decision Logic Tree",
   description:
     "Use this decision logic tree to determine which phase of The Scorch Protocol applies to your current health status and symptoms.",
   alternates: { canonical: "https://scorchprotocol.com/decision-tree" },

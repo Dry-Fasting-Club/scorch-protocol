@@ -7,7 +7,7 @@ import KeyTakeaways from "@/components/KeyTakeaways";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 
 export const metadata: Metadata = {
-  title: "Mindfulness & Neurology | The Scorch Protocol",
+  title: "Mindfulness & Neurology",
   description:
     "How meditation, metabolic health, and neuroregeneration work together to reverse chronic illness, heal the brain, and restore energy.",
   alternates: { canonical: "https://scorchprotocol.com/mindfulness" },
