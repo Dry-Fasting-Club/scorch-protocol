@@ -25,8 +25,14 @@ export default function MainLayout({
         {children}
         <AuthorByline />
         <MedicalDisclaimer />
+        {/* Footer lives INSIDE <main> here: this layout is a bare fragment, so a
+            <Footer /> sibling would become a second flex-row child of the flex
+            <body> and sit BESIDE the content (squishing it) instead of below.
+            Inside <main> it flows below the content and inherits the sidebar
+            clearance. (The blog/(pages) layouts wrap in .blog-wrapper, so their
+            footer is full-width there.) */}
+        <Footer />
       </main>
-      <Footer />
     </>
   );
 }
