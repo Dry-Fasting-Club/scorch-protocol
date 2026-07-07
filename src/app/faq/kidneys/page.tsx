@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import JsonLd from "@/components/JsonLd";
+import ReferencesSection from "@/components/ReferencesSection";
 import { faqPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
@@ -364,6 +365,25 @@ export default function KidneysPage() {
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="faq/kidneys" sectionTitle="Kidney Health" />
+
+      <ReferencesSection
+        refs={[
+          {
+            citation:
+              "Papagiannopoulos IA, Sideris VI, Boschmann M, Koutsoni OS, Dotsika EN. Anthropometric, Hemodynamic, Metabolic, and Renal Responses during 5 Days of Food and Water Deprivation. Forsch Komplementmed, 2013;20(6):427–433.",
+            href: "https://doi.org/10.1159/000357718",
+            note: "in healthy adults, serum creatinine stayed within normal range and filtration (GFR) rose during a 5-day fast",
+          },
+          {
+            citation: "The state of water and mineral metabolism under conditions of absolute (dry) fasting (Khoroshilov series).",
+            note: "maximal urine concentration, the +191% ADH rise, oliguria, and −87% sodium excretion",
+          },
+          {
+            citation: "Change of the indices of protein metabolism under conditions of absolute (dry) fasting (Khoroshilov series).",
+            note: "creatinine rise from hemoconcentration (not damage), urea within normal limits, and the creatinine >120 µmol/L / gout contraindication",
+          },
+        ]}
+      />
     </>
   );
 }

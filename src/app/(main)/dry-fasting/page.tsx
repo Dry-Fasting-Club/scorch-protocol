@@ -7,6 +7,7 @@ import KeyTakeaways from "@/components/KeyTakeaways";
 import EmailCapture from "@/components/EmailCapture";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import JsonLd from "@/components/JsonLd";
+import ReferencesSection from "@/components/ReferencesSection";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
@@ -393,6 +394,33 @@ export default function DryFastingPage() {
       <RefeedPlanPromo source="dry-fasting" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="dry-fasting" sectionTitle="Phase 2: The Dry Fast" />
+
+      <ReferencesSection
+        refs={[
+          {
+            citation:
+              "Papagiannopoulos IA, Sideris VI, Boschmann M, Koutsoni OS, Dotsika EN. Anthropometric, Hemodynamic, Metabolic, and Renal Responses during 5 Days of Food and Water Deprivation. Forsch Komplementmed, 2013;20(6):427–433.",
+            href: "https://doi.org/10.1159/000357718",
+            note: "5 days of total food and water deprivation was hemodynamically stable in healthy adults (~1.4 kg/day weight loss)",
+          },
+          {
+            citation: "Hyperosmotic Stress Induces Unconventional Autophagy Independent of the Ulk1 Complex.",
+            note: "dehydration triggers autophagy independently of the nutrient-sensing pathway, and turns on faster",
+          },
+          {
+            citation: "Hypertonic stress promotes autophagy and microtubule-dependent autophagosomal clusters. Autophagy, 2013.",
+            note: "hypertonic (dehydration) stress rapidly clears p62-positive protein aggregates",
+          },
+          {
+            citation: "Absolute fasting: the effect of the complete absence of food and water on the human body (Khoroshilov).",
+            note: "metabolic-water production (~0.5–0.8 L/day) from fat and glycogen oxidation",
+          },
+          {
+            citation: "Cahill GF Jr. Starvation in Man. New England Journal of Medicine, 1970.",
+            note: "the day-by-day starvation metabolic timeline (glycogen → gluconeogenesis → ketosis)",
+          },
+        ]}
+      />
     </>
   );
 }

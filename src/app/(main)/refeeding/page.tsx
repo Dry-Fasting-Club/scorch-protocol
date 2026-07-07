@@ -7,6 +7,7 @@ import InterestingVideoBlock from "@/components/InterestingVideoBlock";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import EmailCapture from "@/components/EmailCapture";
 import JsonLd from "@/components/JsonLd";
+import ReferencesSection from "@/components/ReferencesSection";
 import { medicalWebPageLd, faqPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
@@ -686,6 +687,17 @@ export default function RefeedingPage() {
       <RefeedPlanPromo source="refeeding" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="refeeding" sectionTitle="Phase 3: The Refeed" />
+
+      <ReferencesSection
+        refs={[
+          {
+            citation:
+              "Papagiannopoulos IA, Sideris VI, Boschmann M, Koutsoni OS, Dotsika EN. Anthropometric, Hemodynamic, Metabolic, and Renal Responses during 5 Days of Food and Water Deprivation. Forsch Komplementmed, 2013;20(6):427–433.",
+            href: "https://doi.org/10.1159/000357718",
+            note: "renal filtration rises sharply during the fast and settles afterward, the basis for a gradual, monitored refeed",
+          },
+        ]}
+      />
     </>
   );
 }

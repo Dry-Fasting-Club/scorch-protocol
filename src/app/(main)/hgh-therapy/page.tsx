@@ -7,6 +7,7 @@ import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import SourcingCallout from "@/components/SourcingCallout";
 import HghAccessNote from "@/components/HghAccessNote";
 import JsonLd from "@/components/JsonLd";
+import ReferencesSection from "@/components/ReferencesSection";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
@@ -395,6 +396,27 @@ export default function HghTherapyPage() {
       <SourcingCallout heading="Can't source real hGH or peptides?" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="hgh-therapy" sectionTitle="Phase 5: hGH Therapy" />
+
+      <ReferencesSection
+        refs={[
+          {
+            citation: "Comprehensive assessment of body composition during absolute (dry) fasting.",
+            note: "the growth-hormone surge acting anti-catabolically to spare lean mass while burning fat",
+          },
+          {
+            citation: "Hypertonic stress promotes autophagy and microtubule-dependent autophagosomal clusters. Autophagy, 2013.",
+            note: "dehydration stress as a potent trigger for clearing misfolded protein aggregates",
+          },
+          {
+            citation: "Dry fasting and the immune system (Khoroshilov series).",
+            note: "fasting as an immune reset, with sustained cytotoxic T-cell and NK-cell activity",
+          },
+          {
+            citation: "Cahill GF Jr. Starvation in Man. New England Journal of Medicine, 1970.",
+            note: "ketone metabolism and protein sparing that the rebuild phase relies on",
+          },
+        ]}
+      />
     </>
   );
 }

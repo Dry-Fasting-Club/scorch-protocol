@@ -9,6 +9,7 @@ import EmailCapture from "@/components/EmailCapture";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import SourcingCallout from "@/components/SourcingCallout";
 import JsonLd from "@/components/JsonLd";
+import ReferencesSection from "@/components/ReferencesSection";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
 const t3ResistanceChart = `graph LR
@@ -794,6 +795,19 @@ export default function T3TherapyPage() {
       <SourcingCallout heading="Can't actually get slow-release T3?" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="t3-therapy" sectionTitle="Phase 4: T3 Therapy" />
+
+      <ReferencesSection
+        refs={[
+          {
+            citation: "Cahill GF Jr. Starvation in Man. New England Journal of Medicine, 1970.",
+            note: "the fasting-metabolism timeline: the brain's shift to ketones and muscle sparing once ketosis is established, and why T3 must be paired with adequate fuel",
+          },
+          {
+            citation: "Influence of absolute (dry) fasting on metabolic processes and organ function.",
+            note: "profound insulin suppression and improved insulin sensitivity (HOMA-IR) during fasting",
+          },
+        ]}
+      />
     </>
   );
 }

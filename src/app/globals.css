@@ -3273,3 +3273,23 @@ tr:hover {
     font-size: 1.1rem;
     color: var(--text-secondary);
 }
+
+/* End-of-page References block on protocol pages */
+.references-section {
+    margin-top: 3rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+}
+.references-section h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.75rem;
+}
+.references-list {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    padding-left: 1.35rem;
+    line-height: 1.6;
+}
+.references-list a {
+    color: var(--scorch);
+}

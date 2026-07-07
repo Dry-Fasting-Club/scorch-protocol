@@ -4,6 +4,7 @@ import GuidanceBox from "@/components/GuidanceBox";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import JsonLd from "@/components/JsonLd";
+import ReferencesSection from "@/components/ReferencesSection";
 import { medicalWebPageLd, faqPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
@@ -394,6 +395,26 @@ export default function EbvChronicFatiguePage() {
 
       <RefeedPlanPromo source="ebv-chronic-fatigue" />
       <GuidanceBox />
+
+      <ReferencesSection
+        refs={[
+          {
+            citation: "Gold JE, Okyay RA, Licht WE, Hurley DJ. Investigation of Long COVID Prevalence and Its Relationship to Epstein-Barr Virus Reactivation. Pathogens, 2021;10(6):763.",
+            href: "https://doi.org/10.3390/pathogens10060763",
+            note: "66% of Long Covid patients showed active EBV reactivation",
+          },
+          {
+            citation: "Levine B, Mizushima N, Virgin HW. Autophagy in immunity and inflammation. Nature, 2011;469(7330):323–335.",
+            href: "https://doi.org/10.1038/nature09782",
+            note: "autophagy as a primary innate antiviral defense",
+          },
+          {
+            citation: "Cheng CW, Adams GB, Perin L, et al. Prolonged Fasting Reduces IGF-1/PKA to Promote Hematopoietic-Stem-Cell-Based Regeneration and Reverse Immunosuppression. Cell Stem Cell, 2014;14(6):810–823.",
+            href: "https://doi.org/10.1016/j.stem.2014.04.014",
+            note: "prolonged fasting regenerates the immune system from hematopoietic stem cells",
+          },
+        ]}
+      />
     </>
   );
 }
