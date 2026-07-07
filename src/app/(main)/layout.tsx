@@ -4,8 +4,10 @@ import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import AuthorByline from "@/components/AuthorByline";
 import Footer from "@/components/Footer";
 
-// Pages under this layout use cookies + DB - never pre-render statically
-export const dynamic = "force-dynamic";
+// No blanket dynamic directive: these pages render statically (CDN-cached). The
+// paid-content lock/unlock is checked client-side (PaidContentClient + /api/access),
+// so nothing here reads the request. The one page that truly needs the request
+// (purchase/success: Stripe + cookies) declares its own `dynamic = "force-dynamic"`.
 
 export default function MainLayout({
   children,

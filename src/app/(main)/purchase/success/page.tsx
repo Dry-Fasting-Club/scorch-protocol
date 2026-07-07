@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   robots: { index: false, follow: false },
 };
 
+// Reads the Stripe session (searchParams), the DB, and sets the httpOnly access
+// cookie — must run per request. (The rest of the (main) group is now static.)
+export const dynamic = "force-dynamic";
+
 interface Props {
   searchParams: Promise<{ session_id?: string }>;
 }

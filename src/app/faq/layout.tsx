@@ -1,7 +1,8 @@
 import FaqNav from "@/components/FaqNav";
 
-// Pages under this layout use cookies + DB - never pre-render statically
-export const dynamic = "force-dynamic";
+// FAQ pages render statically (CDN-cached). Their paid-content block checks
+// access client-side (PaidContentClient + /api/access), so nothing here reads
+// the request.
 
 export default function FaqLayout({
   children,

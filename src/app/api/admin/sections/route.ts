@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { revalidateTag } from "next/cache";
+import { revalidateTag, revalidatePath } from "next/cache";
 import sql from "@/lib/db";
 import { getAdminFromRequest } from "@/lib/auth";
 
@@ -65,8 +65,13 @@ export async function PATCH(req: NextRequest) {
   // Wrapped so a cache-invalidation hiccup can never fail the admin save.
   try {
     revalidateTag("sections", { expire: 0 });
+    // The section's public page is now statically rendered, so also regenerate
+    // it on-demand so price/item edits show without waiting for a redeploy.
+    // slug IS the path (e.g. "t3-therapy" -> /t3-therapy, "faq/kidneys" ->
+    // /faq/kidneys); "bundle" has no page, so this is a harmless no-op there.
+    revalidatePath(`/${slug}`);
   } catch (err) {
-    console.error("[admin/sections] revalidateTag failed:", err);
+    console.error("[admin/sections] revalidate failed:", err);
   }
 
   const updated = await sql`SELECT * FROM sections WHERE slug = ${slug} LIMIT 1`;
