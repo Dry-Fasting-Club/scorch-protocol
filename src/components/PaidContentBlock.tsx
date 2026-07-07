@@ -58,7 +58,7 @@ const getSectionConfigCached = unstable_cache(
     return {
       published: row.published,
       paid_content_type: row.paid_content_type,
-      price_cents: row.price_cents ?? 1000,
+      price_cents: row.price_cents ?? 900, // default $9 if a section has no price set
       paid_content_items: (row.paid_content_items as ContentItem[]) ?? [],
     };
   },
