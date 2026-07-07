@@ -3293,3 +3293,57 @@ tr:hover {
 .references-list a {
     color: var(--scorch);
 }
+
+/* Blog topic tags */
+.blog-post-tags {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 2rem 0 1rem;
+}
+.blog-post-tags-label {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+.blog-tag-chip {
+    display: inline-block;
+    padding: 0.25rem 0.7rem;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    color: var(--text-secondary);
+    font-size: 0.82rem;
+    text-decoration: none;
+}
+.blog-tag-chip:hover {
+    color: var(--scorch);
+    border-color: var(--scorch);
+}
+
+/* Protocol → blog "Further reading" block */
+.further-reading {
+    margin-top: 2.5rem;
+    padding: 1.25rem 1.5rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--scorch);
+    border-radius: 8px;
+}
+.further-reading h2 {
+    font-size: 1.15rem;
+    margin: 0 0 0.75rem;
+}
+.further-reading-list {
+    margin: 0;
+    padding-left: 1.25rem;
+    line-height: 1.7;
+}
+.further-reading-list a {
+    color: var(--scorch);
+}
+.further-reading-time {
+    color: var(--text-muted);
+    font-size: 0.85rem;
+}

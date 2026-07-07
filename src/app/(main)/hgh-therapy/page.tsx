@@ -8,6 +8,7 @@ import SourcingCallout from "@/components/SourcingCallout";
 import HghAccessNote from "@/components/HghAccessNote";
 import JsonLd from "@/components/JsonLd";
 import ReferencesSection from "@/components/ReferencesSection";
+import ProtocolFurtherReading from "@/components/ProtocolFurtherReading";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
@@ -417,6 +418,8 @@ export default function HghTherapyPage() {
           },
         ]}
       />
+
+      <ProtocolFurtherReading protocolSlug="hgh-therapy" />
     </>
   );
 }

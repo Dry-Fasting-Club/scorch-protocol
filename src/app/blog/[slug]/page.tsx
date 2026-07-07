@@ -70,35 +70,53 @@ export default async function BlogPostPage({ params }: Props) {
   const categoryLabel = CATEGORY_LABEL[post.category] ?? post.category;
   const postUrl = `${SITE_URL}/blog/${post.slug}`;
 
-  // Article JSON-LD schema
+  // Article JSON-LD schema. image is always set (Google requires it for rich
+  // results); falls back to the branded OG card. author/publisher reference the
+  // shared @id entities defined in the root layout graph.
+  const articleImage = post.og_image_url || `${SITE_URL}/assets/scorch-og.png`;
   const articleSchema = {
     "@context": "https://schema.org",
     "@type": "Article",
     headline: post.title,
     description: post.excerpt,
+    image: { "@type": "ImageObject", url: articleImage },
     author: {
       "@type": "Person",
+      "@id": `${SITE_URL}/about#yannick`,
       name: post.author_name,
-      url: "https://dryfastingclub.com",
+      url: `${SITE_URL}/about`,
     },
     publisher: {
       "@type": "Organization",
+      "@id": `${SITE_URL}/#organization`,
       name: "The Scorch Protocol",
       url: SITE_URL,
+      logo: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}/assets/scorch-logo.png`,
+      },
     },
     datePublished: post.published_at?.toISOString(),
     dateModified: post.updated_at.toISOString(),
     mainEntityOfPage: { "@type": "WebPage", "@id": postUrl },
-    ...(post.og_image_url && {
-      image: { "@type": "ImageObject", url: post.og_image_url },
-    }),
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${SITE_URL}/` },
+      { "@type": "ListItem", position: 2, name: "Blog", item: `${SITE_URL}/blog` },
+      { "@type": "ListItem", position: 3, name: categoryLabel, item: `${SITE_URL}/blog/category/${post.category}` },
+      { "@type": "ListItem", position: 4, name: post.title, item: postUrl },
+    ],
   };
 
   return (
     <>
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+        dangerouslySetInnerHTML={{ __html: JSON.stringify([articleSchema, breadcrumbSchema]) }}
       />
 
       {/* Fire-and-forget view count increment */}
@@ -176,6 +194,22 @@ export default async function BlogPostPage({ params }: Props) {
             </aside>
           )}
         </div>
+
+        {/* Topic tags (internal linking) */}
+        {post.tags && post.tags.length > 0 && (
+          <div className="blog-post-tags">
+            <span className="blog-post-tags-label">Topics:</span>
+            {post.tags.map((t) => (
+              <Link
+                key={t}
+                href={`/blog/tag/${encodeURIComponent(t)}`}
+                className="blog-tag-chip"
+              >
+                {t}
+              </Link>
+            ))}
+          </div>
+        )}
 
         {/* Author E-E-A-T box */}
         <AuthorByline />

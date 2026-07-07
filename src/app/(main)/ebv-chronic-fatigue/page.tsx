@@ -5,6 +5,7 @@ import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import JsonLd from "@/components/JsonLd";
 import ReferencesSection from "@/components/ReferencesSection";
+import ProtocolFurtherReading from "@/components/ProtocolFurtherReading";
 import { medicalWebPageLd, faqPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
@@ -415,6 +416,8 @@ export default function EbvChronicFatiguePage() {
           },
         ]}
       />
+
+      <ProtocolFurtherReading protocolSlug="ebv-chronic-fatigue" />
     </>
   );
 }

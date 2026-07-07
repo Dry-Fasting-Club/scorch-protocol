@@ -10,6 +10,7 @@ import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import SourcingCallout from "@/components/SourcingCallout";
 import JsonLd from "@/components/JsonLd";
 import ReferencesSection from "@/components/ReferencesSection";
+import ProtocolFurtherReading from "@/components/ProtocolFurtherReading";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
 const t3ResistanceChart = `graph LR
@@ -808,6 +809,8 @@ export default function T3TherapyPage() {
           },
         ]}
       />
+
+      <ProtocolFurtherReading protocolSlug="t3-therapy" />
     </>
   );
 }

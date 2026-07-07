@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import JsonLd from "@/components/JsonLd";
+import ProtocolFurtherReading from "@/components/ProtocolFurtherReading";
 import { medicalWebPageLd } from "@/lib/structured-data";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import MermaidCharts from "@/components/MermaidCharts";
@@ -426,6 +427,8 @@ export default function LongCovidBasicsPage() {
         sectionSlug="long-covid-basics"
         sectionTitle="Dealing with Long Covid Basics"
       />
+
+      <ProtocolFurtherReading protocolSlug="long-covid-basics" />
     </>
   );
 }

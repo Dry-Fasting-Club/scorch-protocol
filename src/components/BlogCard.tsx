@@ -36,7 +36,7 @@ export default function BlogCard({ post, featured = false }: Props) {
       <article className="blog-card-featured">
         <div className="blog-card-featured-body">
           <div className="blog-card-meta">
-            <span className="blog-category-badge">{categoryLabel}</span>
+            <Link href={`/blog/category/${post.category}`} className="blog-category-badge">{categoryLabel}</Link>
             {date && <span className="blog-card-date">{date}</span>}
             {readTime && <span className="blog-card-date">{readTime}</span>}
           </div>
@@ -58,7 +58,7 @@ export default function BlogCard({ post, featured = false }: Props) {
   return (
     <article className="blog-card">
       <div className="blog-card-meta">
-        <span className="blog-category-badge">{categoryLabel}</span>
+        <Link href={`/blog/category/${post.category}`} className="blog-category-badge">{categoryLabel}</Link>
         {readTime && <span className="blog-card-date">{readTime}</span>}
       </div>
       <h3 className="blog-card-title">

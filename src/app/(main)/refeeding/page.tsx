@@ -8,6 +8,7 @@ import KeyTakeaways from "@/components/KeyTakeaways";
 import EmailCapture from "@/components/EmailCapture";
 import JsonLd from "@/components/JsonLd";
 import ReferencesSection from "@/components/ReferencesSection";
+import ProtocolFurtherReading from "@/components/ProtocolFurtherReading";
 import { medicalWebPageLd, faqPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
@@ -698,6 +699,8 @@ export default function RefeedingPage() {
           },
         ]}
       />
+
+      <ProtocolFurtherReading protocolSlug="refeeding" />
     </>
   );
 }

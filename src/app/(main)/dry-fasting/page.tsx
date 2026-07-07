@@ -8,6 +8,7 @@ import EmailCapture from "@/components/EmailCapture";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import JsonLd from "@/components/JsonLd";
 import ReferencesSection from "@/components/ReferencesSection";
+import ProtocolFurtherReading from "@/components/ProtocolFurtherReading";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
@@ -421,6 +422,8 @@ export default function DryFastingPage() {
           },
         ]}
       />
+
+      <ProtocolFurtherReading protocolSlug="dry-fasting" />
     </>
   );
 }

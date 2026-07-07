@@ -143,7 +143,9 @@ export async function getPostBySlug(slug: string): Promise<BlogPost | null> {
   return (rows[0] as unknown as BlogPost) ?? null;
 }
 
-/** Get related posts (same category, excluding current post). */
+/** Get related posts (same category first, excluding current post). Falls back to
+ *  recent/featured posts from other categories so a thin category still shows
+ *  related links instead of an empty section. */
 export async function getRelatedPosts(
   currentSlug: string,
   category: string,
@@ -158,6 +160,44 @@ export async function getRelatedPosts(
     WHERE status = 'published'
       AND category = ${category}
       AND slug != ${currentSlug}
+    ORDER BY published_at DESC
+    LIMIT ${limit}
+  `;
+  let related = rows as unknown as BlogPostCard[];
+
+  if (related.length < limit) {
+    const exclude = [currentSlug, ...related.map((r) => r.slug)];
+    const fill = await sql`
+      SELECT id, slug, title, subtitle, excerpt, category, tags,
+             author_name, status, featured, og_image_url,
+             reading_time_minutes, word_count, seo_title, seo_description,
+             related_protocol_slug, view_count, published_at, created_at, updated_at
+      FROM blog_posts
+      WHERE status = 'published'
+        AND slug != ALL(${exclude})
+      ORDER BY featured DESC, published_at DESC
+      LIMIT ${limit - related.length}
+    `;
+    related = [...related, ...(fill as unknown as BlogPostCard[])];
+  }
+
+  return related;
+}
+
+/** Get published posts that point back at a given protocol page (reverse of
+ *  related_protocol_slug). Powers the "Further reading" block on protocol pages. */
+export async function getPostsByProtocolSlug(
+  protocolSlug: string,
+  limit = 3
+): Promise<BlogPostCard[]> {
+  const rows = await sql`
+    SELECT id, slug, title, subtitle, excerpt, category, tags,
+           author_name, status, featured, og_image_url,
+           reading_time_minutes, word_count, seo_title, seo_description,
+           related_protocol_slug, view_count, published_at, created_at, updated_at
+    FROM blog_posts
+    WHERE status = 'published'
+      AND related_protocol_slug = ${protocolSlug}
     ORDER BY published_at DESC
     LIMIT ${limit}
   `;
