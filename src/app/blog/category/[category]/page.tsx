@@ -10,6 +10,8 @@ import BlogCard from "@/components/BlogCard";
 import { getPublishedPosts } from "@/lib/blog";
 import { CATEGORY_LABEL, BLOG_CATEGORIES } from "@/lib/blogCategories";
 
+const SITE_URL = "https://scorchprotocol.com";
+
 interface Props {
   params: Promise<{ category: string }>;
 }
@@ -21,6 +23,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `${label} Articles`,
     description: `Browse all Scorch Protocol articles on ${label}.`,
+    alternates: { canonical: `${SITE_URL}/blog/category/${category}` },
   };
 }
 

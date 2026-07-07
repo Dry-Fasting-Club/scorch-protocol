@@ -18,6 +18,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: `Posts tagged "${label}"`,
     description: `Scorch Protocol articles tagged with ${label}.`,
+    // Tag archives are thin, near-duplicate slices of the category pages. Keep
+    // them crawlable-for-links but out of the index to avoid index bloat.
+    robots: { index: false, follow: true },
   };
 }
 

@@ -6,6 +6,7 @@
 
 import type { MetadataRoute } from "next";
 import { getAllPublishedSlugs } from "@/lib/blog";
+import { BLOG_CATEGORIES } from "@/lib/blogCategories";
 
 const BASE_URL = "https://scorchprotocol.com";
 
@@ -32,6 +33,7 @@ const protocolPages: { path: string; priority: number }[] = [
   { path: "/mindfulness", priority: 0.7 },
   { path: "/refeed-for-bmr", priority: 0.7 },
   { path: "/membership", priority: 0.7 },
+  { path: "/coaching", priority: 0.7 },
   { path: "/list-of-pharmacies", priority: 0.6 },
 ];
 
@@ -85,6 +87,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: now,
       changeFrequency: "weekly" as const,
       priority: 0.8,
+    })),
+    // Blog category hubs (indexable, linked from every post card).
+    ...BLOG_CATEGORIES.map(({ slug }) => ({
+      url: `${BASE_URL}/blog/category/${slug}`,
+      lastModified: now,
+      changeFrequency: "weekly" as const,
+      priority: 0.6,
     })),
     ...blogEntries,
   ];

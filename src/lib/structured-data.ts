@@ -5,15 +5,24 @@
 
 const SITE = "https://scorchprotocol.com";
 
+// Date the protocol pages were last editorially reviewed. Surfaced as a YMYL
+// freshness/trust signal via `lastReviewed`. Bump when the pages are re-reviewed.
+const REVIEWED_DATE = "2026-07-01";
+
+// Reference the same Organization/Person entities defined in full in the root
+// layout @graph, by @id, so search engines consolidate one authoritative node.
 const ORG = {
   "@type": "Organization",
+  "@id": `${SITE}/#organization`,
   name: "The Scorch Protocol",
   url: SITE,
 };
 
 const AUTHOR = {
   "@type": "Person",
+  "@id": `${SITE}/about#yannick`,
   name: "Yannick Wolfe",
+  url: `${SITE}/about`,
 };
 
 export interface MedicalWebPageInput {
@@ -26,6 +35,8 @@ export interface MedicalWebPageInput {
   breadcrumbName: string;
   /** Optional MedicalCondition names the page is about. */
   about?: string[];
+  /** ISO date this page was last reviewed; defaults to the site-wide review date. */
+  lastReviewed?: string;
 }
 
 /**
@@ -44,7 +55,10 @@ export function medicalWebPageLd(input: MedicalWebPageInput): object[] {
     inLanguage: "en",
     isPartOf: { "@type": "WebSite", name: "The Scorch Protocol", url: SITE },
     author: AUTHOR,
+    reviewedBy: AUTHOR,
+    lastReviewed: input.lastReviewed ?? REVIEWED_DATE,
     publisher: ORG,
+    medicalAudience: { "@type": "MedicalAudience", audienceType: "Patient" },
   };
 
   if (input.about && input.about.length > 0) {

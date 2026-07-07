@@ -30,7 +30,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
   const title = post.seo_title || post.title;
   const description = post.seo_description || post.excerpt;
-  const ogImage = post.og_image_url || "/assets/scorch-og.png";
+  // When a post has no custom OG image, omit it so the post inherits the
+  // dynamic /opengraph-image.tsx card. (The old static fallback 404'd.)
+  const ogImage = post.og_image_url;
 
   return {
     title,
@@ -43,13 +45,13 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       publishedTime: post.published_at?.toISOString(),
       modifiedTime: post.updated_at.toISOString(),
       authors: [post.author_name],
-      images: [{ url: ogImage, width: 1200, height: 630 }],
+      ...(ogImage && { images: [{ url: ogImage, width: 1200, height: 630 }] }),
     },
     twitter: {
       card: "summary_large_image",
       title,
       description,
-      images: [ogImage],
+      ...(ogImage && { images: [ogImage] }),
     },
     alternates: {
       canonical: `${SITE_URL}/blog/${post.slug}`,
