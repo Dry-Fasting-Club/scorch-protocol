@@ -555,6 +555,25 @@ tr:hover {
 }
 
 /* ============================================================
+   PROTOCOL TLDR ("the fast version" on the home page)
+   ============================================================ */
+.protocol-tldr {
+    background-color: var(--scorch-dim);
+    border: 1px solid rgba(232, 93, 4, 0.4);
+    border-radius: 12px;
+    padding: 1.5rem 1.75rem;
+    margin: 2.5rem 0;
+}
+.protocol-tldr h2 { margin: 0 0 0.6rem; color: var(--accent-color); font-size: 1.6rem; }
+.protocol-tldr-lede { margin: 0 0 1rem; color: var(--text-color); }
+.protocol-tldr-steps { margin: 0 0 1rem; padding-left: 1.5rem; }
+.protocol-tldr-steps li { margin: 0.7rem 0; color: var(--text-color); line-height: 1.6; }
+.protocol-tldr-steps strong { color: var(--heading-color); }
+.protocol-tldr-steps a { color: var(--accent-color); }
+.protocol-tldr-close { margin: 0; color: var(--text-color); font-weight: 500; }
+.protocol-tldr-note { margin: 0.9rem 0 0; font-size: 0.85rem; color: var(--text-secondary); }
+
+/* ============================================================
    REFEED-PLAN CROSS-PROMO (members portal)
    ============================================================ */
 

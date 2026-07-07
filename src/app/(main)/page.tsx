@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
+import ProtocolTLDR from "@/components/ProtocolTLDR";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import EmailCapture from "@/components/EmailCapture";
@@ -64,6 +65,8 @@ export default function HomePage() {
           <Link href="/contraindications">See who should not do this &rarr;</Link>
         </p>
       </section>
+
+      <ProtocolTLDR />
 
       {/* ── SOCIAL PROOF BAR ── */}
       <div className="proof-bar">
