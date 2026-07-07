@@ -46,6 +46,17 @@ const faqPages = [
   "/faq/liver",
 ];
 
+// Trust / about / policy pages.
+const staticPages: { path: string; priority: number }[] = [
+  { path: "/about", priority: 0.6 },
+  { path: "/research", priority: 0.6 },
+  { path: "/contact", priority: 0.4 },
+  { path: "/editorial-policy", priority: 0.4 },
+  { path: "/medical-disclaimer", priority: 0.4 },
+  { path: "/privacy", priority: 0.3 },
+  { path: "/terms", priority: 0.3 },
+];
+
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
 
@@ -87,6 +98,12 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       lastModified: now,
       changeFrequency: "weekly" as const,
       priority: 0.8,
+    })),
+    ...staticPages.map(({ path, priority }) => ({
+      url: `${BASE_URL}${path}`,
+      lastModified: now,
+      changeFrequency: "monthly" as const,
+      priority,
     })),
     // Blog category hubs (indexable, linked from every post card).
     ...BLOG_CATEGORIES.map(({ slug }) => ({

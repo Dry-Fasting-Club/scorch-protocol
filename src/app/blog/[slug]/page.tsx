@@ -12,6 +12,7 @@ import BlogPostRenderer from "@/components/BlogPostRenderer";
 import TableOfContents from "@/components/TableOfContents";
 import SocialShare from "@/components/SocialShare";
 import BlogCard from "@/components/BlogCard";
+import AuthorByline from "@/components/AuthorByline";
 import ViewTracker from "./ViewTracker";
 import { getPostBySlug, getRelatedPosts } from "@/lib/blog";
 import { parseMarkdown } from "@/lib/markdown";
@@ -175,6 +176,9 @@ export default async function BlogPostPage({ params }: Props) {
             </aside>
           )}
         </div>
+
+        {/* Author E-E-A-T box */}
+        <AuthorByline />
 
         {/* Related posts */}
         {relatedPosts.length > 0 && (

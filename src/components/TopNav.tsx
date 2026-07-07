@@ -16,6 +16,7 @@ const NAV_LINKS = [
   { href: "/blog",          label: "Blog" },
   { href: "/faq",           label: "FAQ" },
   { href: "/success-rate-data", label: "Results" },
+  { href: "/about",         label: "About" },
 ];
 
 export default function TopNav() {

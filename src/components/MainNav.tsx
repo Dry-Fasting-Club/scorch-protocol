@@ -41,6 +41,10 @@ const navItems: NavItem[] = [
   { type: "group", label: "Knowledge Base" },
   { type: "link",  href: "/blog",                 label: "Blog" },
   { type: "link",  href: "/faq",                  label: "FAQ Section" },
+  { type: "group", label: "About & Trust" },
+  { type: "link",  href: "/about",                label: "About Yannick" },
+  { type: "link",  href: "/research",             label: "Research & Citations" },
+  { type: "link",  href: "/contact",              label: "Contact" },
 ];
 
 export default function MainNav() {

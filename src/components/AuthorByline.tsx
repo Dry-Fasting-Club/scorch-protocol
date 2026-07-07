@@ -1,8 +1,9 @@
+import Link from "next/link";
+
 /**
  * AuthorByline — a small end-of-page author box for E-E-A-T. Names the founder
- * on every protocol page so readers (and AI crawlers) can see who stands behind
- * the protocol. Rendered once via the (main) layout, above the medical
- * disclaimer. Text-only for now; link to a full /about page when one exists.
+ * so readers (and AI crawlers) can see who stands behind the protocol. Rendered
+ * via the (main) layout and on blog posts, above the medical disclaimer.
  */
 export default function AuthorByline() {
   return (
@@ -11,7 +12,8 @@ export default function AuthorByline() {
         <strong>Written by Yannick Wolfe</strong>, founder of The Scorch
         Protocol. He recovered from severe ME/CFS and Long Covid after
         conventional medicine had run out of answers, and has since worked
-        one-on-one with the people whose outcomes are tracked on this site.
+        one-on-one with the people whose outcomes are tracked on this site.{" "}
+        <Link href="/about">Read his story →</Link>
       </p>
     </aside>
   );
