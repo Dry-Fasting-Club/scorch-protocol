@@ -59,8 +59,9 @@ export default function PrivacyPage() {
       <h2>Service providers</h2>
       <p>
         We rely on a few trusted processors to run the site: <strong>Vercel</strong>{" "}
-        (hosting and analytics), <strong>Stripe</strong> (payments), and an email
-        delivery provider. They process data only to provide their service to us.
+        (hosting and analytics), <strong>Stripe</strong> (payments), and{" "}
+        <strong>Brevo</strong> (email delivery). They process data only to provide
+        their service to us.
       </p>
 
       <h2>Cookies</h2>

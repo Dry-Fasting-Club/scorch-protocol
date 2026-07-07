@@ -416,6 +416,11 @@ export default function HghTherapyPage() {
             citation: "Cahill GF Jr. Starvation in Man. New England Journal of Medicine, 1970.",
             note: "ketone metabolism and protein sparing that the rebuild phase relies on",
           },
+          {
+            citation: "Fahy GM, Brooke RT, Watson JP, et al. Reversal of epigenetic aging and immunosenescent trends in humans (the TRIIM trial). Aging Cell, 2019;18(6):e13028.",
+            href: "https://doi.org/10.1111/acel.13028",
+            note: "recombinant hGH (with DHEA and metformin) regenerated the thymus and reversed epigenetic age markers",
+          },
         ]}
       />
 

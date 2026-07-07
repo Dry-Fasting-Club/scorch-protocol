@@ -63,9 +63,12 @@ export default function EditorialPolicyPage() {
       <p>
         This is transparent: the site earns revenue from{" "}
         <Link href="/coaching">coaching</Link> and the{" "}
-        <Link href="/membership">$1 membership</Link>. The core protocol is free to
-        read in full, and nothing about the medical content is gated behind a
-        purchase. We disclose this so you can weigh it.
+        <Link href="/membership">$1 membership</Link>. The educational protocol
+        itself is free to read in full. What the paid tiers add is private,
+        hands-on help, verified supplier sourcing for hard-to-get compounds
+        (slow-release T3, peptides, hGH, cyproheptadine) and dosing worked out with
+        you in a consult. That is a real commercial incentive, so we name it here
+        and let you weigh it.
       </p>
 
       <h2>Not medical advice</h2>

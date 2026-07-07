@@ -96,7 +96,9 @@ export default async function BlogPostPage({ params }: Props) {
         url: `${SITE_URL}/assets/scorch-logo.png`,
       },
     },
-    datePublished: post.published_at?.toISOString(),
+    // Only published posts reach this page, but guard the type so the required
+    // Article field is never dropped from the JSON-LD.
+    datePublished: (post.published_at ?? post.updated_at).toISOString(),
     dateModified: post.updated_at.toISOString(),
     mainEntityOfPage: { "@type": "WebPage", "@id": postUrl },
   };
