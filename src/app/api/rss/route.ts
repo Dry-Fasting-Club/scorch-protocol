@@ -39,7 +39,7 @@ export async function GET() {
       <description>${escapeXml(post.excerpt)}</description>
       <pubDate>${pubDate}</pubDate>
       <category>${escapeXml(post.category)}</category>
-      <author>yannick@scorchprotocol.com (${escapeXml(post.author_name)})</author>
+      <author>yannick@dryfastingclub.com (${escapeXml(post.author_name)})</author>
     </item>`.trim();
     })
     .join("\n    ");
