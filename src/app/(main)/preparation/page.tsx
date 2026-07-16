@@ -26,7 +26,7 @@ export default function PreparationPage() {
         "Get baseline blood tests (thyroid, CBC, metabolic panel, Vitamin D, B12, iron, cortisol) and fix critical deficiencies before fasting.",
         "Choose between two preparation paths: plant-based (gold standard, highest healing ceiling) or ketogenic (safer fallback, more forgiving for sicker or more medicated patients).",
         "Do one single magnesium citrate clear-out 2 days before the fast, then spend that window rehydrating with water, juice, and electrolytes only.",
-        "Do not change or stop prescription medications on your own; medication tapering is selective and worked out individually with your prescribing physician.",
+        "Do not change or stop prescription medications on your own; medication tapering is selective and worked out individually, so bring your list to Yannick before you touch anything.",
       ]} />
 
       <p>
@@ -142,7 +142,7 @@ export default function PreparationPage() {
         <div className="question-item">
           <span className="question-label">Vitamin D3 + K2:</span>
           If your Vitamin D is below 40 ng/mL, supplement aggressively (often
-          5,000–10,000 IU/day with K2) for at least 4–8 weeks before your fast.
+          5,000 to 10,000 IU/day with K2) for at least 4 to 8 weeks before your fast.
         </div>
         <div className="question-item">
           <span className="question-label">B12 (Methylcobalamin):</span>
@@ -222,15 +222,16 @@ export default function PreparationPage() {
             </li>
           </ul>
           <p>
-            This path is also where medications come down, where appropriate and
-            always under your prescribing physician. Two kinds of drugs matter
+            This path is also where medications come down, where appropriate.
+            Two kinds of drugs matter
             most: ones that stress the kidneys or raise dehydration risk, which
             generally need to be off before a dry fast, and fat-soluble drugs that
             sit in your fat stores and re-enter the bloodstream as you burn fat,
             which are tapered over the weeks beforehand. This is selective, not a
             clean sweep. Anything load-bearing that is holding you together, like a
             Lyme protocol or an antifungal or antiviral you depend on, stays.
-            Which specific drugs and what schedule is individual, and your coach
+            Which specific drugs and what schedule is individual, and this is
+            exactly what the membership is for: bring Yannick your list and he
             works it out with you. Do not change prescriptions on your own.
           </p>
         </div>
@@ -263,7 +264,7 @@ export default function PreparationPage() {
         <div className="question-item">
           <span className="question-label">Choose Plant-Based if:</span>
           You can follow a plan precisely, you are stable enough to taper
-          medications with your prescriber, and you want the highest healing
+          medications on a worked-out schedule, and you want the highest healing
           ceiling.
         </div>
         <div className="question-item">
@@ -398,7 +399,7 @@ export default function PreparationPage() {
         </div>
         <div className="question-item">
           <span className="question-label">The 2-Day Window: Rehydrate and Replenish</span>
-          After taking the laxative, spend the next 1–2 days drinking water,
+          After taking the laxative, spend the next 1 to 2 days drinking water,
           fresh juices, and electrolytes. <strong>No fiber, fat, or
           protein</strong> during this period. Stick to water, juice (no
           pulp), broths, and electrolyte drinks only. You want your colon
@@ -425,7 +426,7 @@ export default function PreparationPage() {
           extended window allows long-persisting medications and their active
           metabolites to begin clearing before the fast begins. This matters
           because drugs processed via the liver&rsquo;s CYP450 enzyme system
-          are often fat-soluble and accumulate in fatty tissues — and as you
+          are often fat-soluble and accumulate in fatty tissues, and as you
           burn fat during the fast, those residues re-enter the bloodstream.
           Long-acting benzodiazepines (Diazepam, Librium), SSRIs like Prozac
           (whose norfluoxetine metabolite takes up to 5 weeks to wash out),

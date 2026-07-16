@@ -84,11 +84,11 @@ export default function RefeedingPage() {
           Your metabolism is restarting and cannot handle this combination yet.
         </div>
         <div className="question-item">
-          <span className="question-label">Warning Signs: Get Medical Help:</span>
+          <span className="question-label">Warning Signs That Mean Stop Now:</span>
           If during the refeed you feel a racing or irregular heartbeat, marked
           muscle weakness, trouble breathing, swelling, or confusion, treat it
-          as an emergency and seek medical care. These can be early signs of
-          refeeding syndrome.
+          as an emergency. These are the early signs of refeeding syndrome, and
+          it can turn fatal fast, so get to an ER, do not wait it out.
         </div>
       </div>
 

@@ -193,7 +193,7 @@ export default function GeneralQuestionsPage() {
         </p>
       </div>
 
-      {/* FaithBlock hidden for now — to restore, remove the `false && (` wrapper and matching `)` */}
+      {/* FaithBlock hidden for now: to restore, remove the `false && (` wrapper and matching `)` */}
       {false && (
       <FaithBlock
         title="Your Body Is a Temple: The Theology Behind Why This Works"

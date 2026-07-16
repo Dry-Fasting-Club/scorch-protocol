@@ -93,8 +93,11 @@ export default function GeneticPolymorphismsPage() {
           activity by 20%.
         </li>
         <li>
-          <strong>Consider T3 Therapy:</strong> If carrier with stubborn
-          hypothyroid symptoms, consult for LT3 (liothyronine).
+          <strong>Consider T3 Therapy:</strong> If you carry the variant and
+          hypothyroid symptoms stay stubborn, this is where LT3 (liothyronine)
+          earns its place. T3 is prescription-only, so you will need to source
+          it, and it is worth running past Yannick with your own FT3 and TSH
+          numbers in front of you.
         </li>
       </ul>
 

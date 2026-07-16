@@ -218,12 +218,17 @@ export default function KidneysPage() {
           </h3>
           <div className="answer-text">
             <p>
-              Context matters. Creatinine measures muscle turnover vs. kidney
+              I am. Creatinine measures muscle turnover vs. kidney
               filtration. In dry fasting, it rises due to{" "}
               <strong>Hemoconcentration</strong> (the blood has less water, so
               the &ldquo;soup&rdquo; looks thicker), not because the filter is
               broken. It is a false positive caused by volume contraction,
-              similar to how a tide going out makes the rocks look bigger.
+              similar to how a tide going out makes the rocks look bigger. Most
+              doctors have never watched this marker under a controlled fast, so
+              they read the number and panic. Rehydrate, retest, and it comes
+              back to baseline. If your numbers look scary and you want a second
+              read before you act on them, that is worth running past Yannick with
+              your labs in front of you.
             </p>
           </div>
           <div className="faq-data-box faq-data-blue">
@@ -262,7 +267,9 @@ export default function KidneysPage() {
             accumulation can cause stones if flow is too low).
             <br />
             Kidneys must be functional enough to handle the concentration
-            stress. Fix the diet first.
+            stress. Fix the diet first. If your numbers sit right on one of these
+            lines and you are not sure which side you land on, that is exactly
+            the kind of case worth putting in front of Yannick before you start.
           </div>
         </div>
 
@@ -370,7 +377,7 @@ export default function KidneysPage() {
         refs={[
           {
             citation:
-              "Papagiannopoulos IA, Sideris VI, Boschmann M, Koutsoni OS, Dotsika EN. Anthropometric, Hemodynamic, Metabolic, and Renal Responses during 5 Days of Food and Water Deprivation. Forsch Komplementmed, 2013;20(6):427–433.",
+              "Papagiannopoulos IA, Sideris VI, Boschmann M, Koutsoni OS, Dotsika EN. Anthropometric, Hemodynamic, Metabolic, and Renal Responses during 5 Days of Food and Water Deprivation. Forsch Komplementmed, 2013;20(6):427-433.",
             href: "https://doi.org/10.1159/000357718",
             note: "in healthy adults, serum creatinine stayed within normal range and filtration (GFR) rose during a 5-day fast",
           },

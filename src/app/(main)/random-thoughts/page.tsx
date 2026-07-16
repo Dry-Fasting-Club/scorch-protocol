@@ -676,8 +676,10 @@ export default function RandomThoughtsPage() {
             For these patients, the acidification depth and biofilm-melting
             power of the 7&ndash;9 day window IS the protocol. The risk is
             justified by what is at stake. Filonov in Russia and Della
-            Dewey in Switzerland both run extended dry fasts under medical
-            supervision precisely for this severity tier of patient.
+            Dewey in Switzerland both run extended dry fasts in clinical
+            settings precisely for this severity tier of patient. This is
+            exactly the kind of case worth putting in front of Yannick with
+            your own numbers before you attempt it.
           </p>
           <p>
             Critical: <strong>the refeed protocol becomes proportionally

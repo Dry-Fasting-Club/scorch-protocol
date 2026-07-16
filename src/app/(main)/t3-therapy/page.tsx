@@ -59,29 +59,34 @@ export default function T3TherapyPage() {
       ]} />
 
       <div className="guiding-questions box-danger">
-        <h3>Get medical supervision before T3 if any of these apply</h3>
+        <h3>Where T3 can actually hurt you</h3>
         <p>
           T3 raises your heart rate and metabolic demand. At the doses described
-          here it is real medicine with real risk. Do not start T3 on your own
-          if any of the following apply. Work with a doctor who can monitor you.
+          here it is real medicine with real force behind it. These are the cases
+          where you slow down and build the prep first, and a couple where you get
+          Yannick&rsquo;s eyes on your numbers before you touch it.
         </p>
         <div className="question-item">
           <span className="question-label">A heart rhythm problem or heart disease</span>
           Arrhythmia, atrial fibrillation, or known heart disease. T3 can push
-          an unstable heart into dangerous territory.
+          an unstable heart into dangerous territory. This is one to run past
+          Yannick with your own numbers before you start.
         </div>
         <div className="question-item">
           <span className="question-label">Known osteoporosis or low bone density</span>
-          Long-term, high-dose T3 can accelerate bone loss.
+          Long-term, high-dose T3 can accelerate bone loss. Load the K2 and
+          bone-support stack (below) before you climb.
         </div>
         <div className="question-item">
           <span className="question-label">On anticoagulants such as warfarin</span>
-          T3 can change how these drugs behave, so dosing may need medical
-          adjustment.
+          T3 changes how these drugs behave, so the anticoagulant dose usually
+          needs to come down as thyroid comes up. Get this dialed in before you
+          start, not mid-climb.
         </div>
         <div className="question-item">
           <span className="question-label">Pregnant, or a history of thyrotoxicosis</span>
-          These call for specialist oversight before any thyroid hormone.
+          These are the two here where you want real oversight before any thyroid
+          hormone. Worth running past Yannick first.
         </div>
         <div className="question-item">
           <span className="question-label">Resting heart rate already above 90 bpm</span>
@@ -115,7 +120,7 @@ export default function T3TherapyPage() {
           metabolism.
           <br />
           <strong>Note:</strong> If your resting heart rate is{" "}
-          <strong>above 90 bpm</strong>, resolve that first — elevated resting
+          <strong>above 90 bpm</strong>, resolve that first. An elevated resting
           HR is a contraindication for starting T3 therapy.
         </div>
 
@@ -206,7 +211,7 @@ export default function T3TherapyPage() {
           Log your temperature every morning. You are tracking a trend, not
           a single number. As T3 therapy works, you should see your waking
           temperature gradually climb toward{" "}
-          <strong>36.5–37.0°C (97.7–98.6°F)</strong> and stabilize there.
+          <strong>36.5 to 37.0°C (97.7 to 98.6°F)</strong> and stabilize there.
           Erratic readings, persistent sub-36°C temperatures, or a
           temperature that rises but then drops again are all meaningful
           signals worth noting.
@@ -312,7 +317,7 @@ export default function T3TherapyPage() {
           </strong>
           . They specialize in this medication and can ship to many places.{" "}
           <em style={{ fontSize: "0.9em", opacity: 0.75 }}>
-            (Previously chronic-illness.ca — the site has recently migrated.)
+            (Previously chronic-illness.ca, the site has recently migrated.)
           </em>
         </p>
         <p>
@@ -440,7 +445,7 @@ export default function T3TherapyPage() {
           temporarily dips. This creates the same energetic trough that
           triggers herpesvirus reactivation during the fast-to-refeed
           transition. Continue antiviral coverage during T3 wind-down until
-          your waking temperature has stabilized at your baseline for 5–7
+          your waking temperature has stabilized at your baseline for 5 to 7
           consecutive days.
         </div>
       </div>
@@ -543,13 +548,14 @@ export default function T3TherapyPage() {
         <div className="question-item">
           <span className="question-label">Having trouble stopping?</span>
           <span className="action-arrow">&rarr;</span> If you feel bad while
-          lowering your dose, your doctor might suggest a small dose of{" "}
-          <strong>T4</strong> to help your body adjust.
+          lowering your dose, a small dose of{" "}
+          <strong>T4</strong> can help your body bridge the taper. This is the
+          kind of adjustment worth running past Yannick.
         </div>
       </div>
 
       <div className="guiding-questions box-danger">
-        <h3>Drug Interactions to Review Before Starting</h3>
+        <h3>Drug Interactions You Need to Know About</h3>
         <p>
           Thyroid can thin blood, especially at higher doses. Patients on
           warfarin sodium (Coumadin&reg;) or other anticoagulants may develop
@@ -692,7 +698,7 @@ export default function T3TherapyPage() {
       <div style={{ margin: "2rem 0", textAlign: "center" }}>
         <Image
           src="/assets/images/Thermoregulation%20five%20cycles%20of%20slow%20release%20T3%20in%2051%20year%20old%20woman.png"
-          alt="Thermoregulation across five cycles of slow-release T3 therapy in a 51-year-old woman, showing waking temperature climbing from a sub-36°C baseline toward the healthy 36.5–37.0°C range"
+          alt="Thermoregulation across five cycles of slow-release T3 therapy in a 51-year-old woman, showing waking temperature climbing from a sub-36°C baseline toward the healthy 36.5 to 37.0°C range"
           width={900}
           height={500}
           style={{
@@ -707,7 +713,7 @@ export default function T3TherapyPage() {
             Figure 3: Real-world thermoregulation data across five cycles of
             slow-release T3 in a 51-year-old woman. Each cycle progressively
             lifts the waking temperature baseline toward the healthy
-            36.5–37.0°C range shown in Figure 2 — the pattern most
+            36.5 to 37.0°C range shown in Figure 2, the pattern most
             participants follow when the protocol is working.
           </em>
         </p>

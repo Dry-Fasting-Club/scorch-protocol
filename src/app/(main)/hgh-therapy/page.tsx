@@ -372,7 +372,7 @@ export default function HghTherapyPage() {
           <span className="question-label">Safety &amp; Immunogenicity:</span>
           Modern recombinant hGH is bioidentical to what your pituitary
           produces. As a result, the immune system rarely recognizes it as
-          foreign, with antibody formation rates in adults of approximately 2–3%,
+          foreign, with antibody formation rates in adults of approximately 2 to 3%,
           far lower than many common medications. Tesamorelin, by comparison,
           triggers antibody formation in up to 50% of users (though usually
           without clinical impact). For most people, well-sourced recombinant

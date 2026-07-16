@@ -230,9 +230,9 @@ export default function LongCovidBasicsPage() {
           Salt loading (3 to 5 g extra daily), oral electrolytes,
           compression garments to mid-thigh, slow position changes (sit on
           edge of bed for 60 seconds before standing). Gentle vagal
-          exercises (humming, gargling, cold face splash). Discuss
-          ivabradine or a low-dose beta-blocker with a cardiologist if
-          tachycardia is severe. See the{" "}
+          exercises (humming, gargling, cold face splash). If tachycardia
+          is severe, ivabradine or a low-dose beta-blocker helps and is
+          worth running past Yannick with your own numbers. See the{" "}
           <a href="/decision-tree">Decision Logic Tree</a> for fasting
           considerations specific to POTS.
         </div>
@@ -411,15 +411,6 @@ export default function LongCovidBasicsPage() {
           should be.
         </p>
       </div>
-
-      <p style={{ fontSize: "0.85em", opacity: 0.7, marginTop: "2rem" }}>
-        <em>
-          Medical disclaimer: this page is educational. None of it is
-          medical advice. Discuss any new medication, supplement, or major
-          dietary change with a licensed healthcare provider familiar with
-          your case before starting.
-        </em>
-      </p>
 
       <RefeedPlanPromo source="long-covid-basics" />
       <GuidanceBox />

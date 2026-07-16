@@ -33,7 +33,7 @@ const faqItems = [
   },
   {
     question: "I have gallstones. Is it safe to dry fast?",
-    answer: "Caution is required. While fasting helps clear sludge (the precursor to stones), passing a calcified stone can be a medical emergency. For sludge or small sand, the biliary squeeze is therapeutic. But for large stones, the contraction could lodge a stone in the duct. The study observed 0% incidence of new stone formation, and the Cholesterol Saturation Index improved from 1.24 to 0.86, meaning bile became chemically less likely to form stones post-fast. If you have active colic or large stones (above 1 cm), do not dry fast without medical supervision.",
+    answer: "This is the one liver scenario where you slow down. While fasting helps clear sludge (the precursor to stones), passing a calcified stone can be a genuine emergency. For sludge or small sand, the biliary squeeze is therapeutic. But for large stones, the contraction could lodge a stone in the duct. The study observed 0% incidence of new stone formation, and the Cholesterol Saturation Index improved from 1.24 to 0.86, meaning bile became chemically less likely to form stones post-fast. If you have active colic or large stones (above 1 cm), do not dry fast until that is dealt with. This is exactly the kind of case worth running past Yannick with your imaging in hand before you start.",
   },
   {
     question: "Is dry fasting actually better for detox than water fasting?",
@@ -229,15 +229,17 @@ export default function LiverPage() {
           <h3>6. I have gallstones. Is it safe to dry fast?</h3>
           <div className="answer-text">
             <p>
-              <strong>Caution is required.</strong> While fasting helps clear
-              &ldquo;sludge&rdquo; (the precursor to stones), passing a
-              calcified stone can be a medical emergency.
+              <strong>This is the one liver scenario where you slow down.</strong>{" "}
+              While fasting helps clear &ldquo;sludge&rdquo; (the precursor to
+              stones), passing a calcified stone can be a genuine emergency.
             </p>
             <p>
               For sludge or small sand, the &ldquo;Biliary Squeeze&rdquo; is
               therapeutic. But for large stones, the contraction could lodge a
               stone in the duct. If you have active colic or large stones
-              (&gt;1cm), do not dry fast without medical supervision.
+              (&gt;1cm), do not dry fast until that is dealt with first. This is
+              exactly the kind of case worth running past Yannick with your
+              imaging in hand before you start.
             </p>
           </div>
           <div className="faq-data-box faq-data-green">

@@ -133,14 +133,17 @@ export default function WeightLossPage() {
             Thr92Ala or thyroid variants.
           </li>
           <li>
-            <strong>Talk to Your Doctor:</strong> If diet doesn&rsquo;t work,
-            discuss T3 therapy with a medical professional. This is a safer
-            option than dry fasting for young people.
+            <strong>Look at T3 Therapy:</strong> If diet doesn&rsquo;t move the
+            needle, T3 is the next lever, and it is a far safer option than dry
+            fasting for a developing body. T3 is prescription-only, so you will
+            need a script to source it. This is exactly the kind of case worth
+            running past Yannick with your numbers in front of you.
           </li>
           <li>
             <strong>Dry Fasting = Last Resort Only:</strong> Only consider dry
-            fasting if all other options have failed and under strict medical
-            supervision. The risks outweigh the benefits for developing bodies.
+            fasting if every other option has failed, and even then, get Yannick
+            on your case before you start. The risks outweigh the benefits for
+            developing bodies.
           </li>
         </ol>
       </div>

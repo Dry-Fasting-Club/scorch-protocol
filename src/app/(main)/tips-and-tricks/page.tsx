@@ -411,9 +411,10 @@ export default function TipsAndTricksPage() {
           everyone</strong>. If you are on anticoagulant medication
           (warfarin, DOACs, etc.), have a known bleeding disorder, are
           scheduled for surgery or a dental procedure, or are pregnant
-          or trying to conceive, the calculus changes. Talk to a clinician
-          who knows your full picture before starting, and stop several
-          days before any procedure that could bleed.
+          or trying to conceive, the calculus changes. This is exactly the
+          kind of case worth running past Yannick with your own numbers before
+          you start, and you stop several days before any procedure that could
+          bleed regardless.
         </p>
 
         <h4>

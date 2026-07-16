@@ -27,7 +27,7 @@ const chart0 = `graph TD
   getting worse.<br />I am not functional."}
 
   Q3 -->|Yes| Advanced["Focus on the Advanced Scorch Protocol<br />Focus: Phase 1, 2, 3, 4, 5"]
-  Q3 -->|No| Consult["Further Assessment Needed<br />Consult with the community or coach"]
+  Q3 -->|No| Consult["Further Assessment Needed<br />Run your numbers past Yannick"]
 
   style Beginner fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
   style Intermediate fill:#713f12,stroke:#eab308,stroke-width:2px,color:#fde047
@@ -37,9 +37,9 @@ const chartTemp = `graph TD
   Start["Measure Baseline Temperature<br />(Morning, on waking + 30 min post-breakfast)"] --> Check{"Resting Body Temperature"}
 
   Check -->|"&ge;98.6&deg;F / 37.0&deg;C"| Safe["Safe to Fast First<br />Standard protocol applies"]
-  Check -->|"97.8–98.5&deg;F / 36.6–36.9&deg;C"| Monitor["Can Fast — Monitor Closely<br />Consider T3 support"]
+  Check -->|"97.8-98.5&deg;F / 36.6-36.9&deg;C"| Monitor["Can Fast, Monitor Closely<br />Consider T3 support"]
   Check -->|"&lt;97.8&deg;F / &lt;36.6&deg;C"| T3First["T3 Therapy Should Precede<br />Dry Fasting"]
-  Check -->|"95–96&deg;F / 35.0–35.6&deg;C"| Severe["Severe Metabolic Suppression<br />T3 + High Calories MANDATORY<br />before any fasting attempt"]
+  Check -->|"95-96&deg;F / 35.0-35.6&deg;C"| Severe["Severe Metabolic Suppression<br />T3 + High Calories MANDATORY<br />before any fasting attempt"]
 
   style Safe fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
   style Monitor fill:#713f12,stroke:#eab308,stroke-width:2px,color:#fde047
@@ -219,7 +219,7 @@ export default function DecisionTreePage() {
       <p>
         Your starting temperature determines whether dry fasting is safe to
         attempt at all. Long Covid and ME/CFS patients commonly run cold
-        (96–97&deg;F) because viral persistence has already suppressed the
+        (96-97&deg;F) because viral persistence has already suppressed the
         thyroid axis. Fasting on top of that suppression can push you too deep.
         Measure your morning resting temperature (on waking) <em>and</em> 30
         minutes post-breakfast before planning any fast.
@@ -260,7 +260,7 @@ export default function DecisionTreePage() {
           }}
         >
           <h4 style={{ marginTop: 0, color: "#fde047" }}>
-            97.8–98.5&deg;F (36.6–36.9&deg;C)
+            97.8-98.5&deg;F (36.6-36.9&deg;C)
           </h4>
           <p style={{ marginBottom: 0 }}>
             <strong>Can fast, but monitor closely.</strong> Consider T3
@@ -294,13 +294,13 @@ export default function DecisionTreePage() {
           }}
         >
           <h4 style={{ marginTop: 0, color: "#ff6b6b" }}>
-            95–96&deg;F (35.0–35.6&deg;C)
+            95-96&deg;F (35.0-35.6&deg;C)
           </h4>
           <p style={{ marginBottom: 0 }}>
             <strong>Severe metabolic suppression.</strong> T3 + high calories
             mandatory before any fasting attempt. A cortisol-inversion pattern
             (temperature <em>drops</em> after eating) means cortisol is the
-            only thing holding metabolism up — a major red flag.
+            only thing holding metabolism up, a major red flag.
           </p>
         </div>
       </div>
@@ -452,7 +452,7 @@ export default function DecisionTreePage() {
             eradicating viral reservoirs through autophagy (fasting).
           </li>
           <li>
-            <strong>Maintenance:</strong> In cohorts, pulsing maintains 70–80%
+            <strong>Maintenance:</strong> In cohorts, pulsing maintains 70-80%
             of gains long-term while avoiding tolerance.
           </li>
         </ul>

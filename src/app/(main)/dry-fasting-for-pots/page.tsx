@@ -17,17 +17,17 @@ const faqItems = [
   {
     question: "Can you dry fast with POTS?",
     answer:
-      "Possibly, but only with medical clearance and close supervision first. POTS is listed as a get-clearance-first condition for the Scorch Protocol because fluid shifts and T3 therapy can provoke unpredictable responses. The Scorch Protocol has not studied POTS as a standalone population. If you have POTS and are considering dry fasting, talk to a physician who knows your case before starting anything.",
+      "Yes, but POTS is a get-the-prep-right-first condition, not a disqualifier. Fluid shifts and T3 can provoke unpredictable responses in an autonomic system that is already misfiring, so the supportive stack (salt loading, electrolytes, compression, vagal work) has to be solid and stable before you fast, and you build from the shorter end. This is exactly the kind of counterintuitive case worth running past Yannick with your own numbers in front of you before you start.",
   },
   {
     question: "Does fasting help POTS?",
     answer:
-      "The Scorch Protocol's position is that POTS, when it appears in the context of Long Covid, is downstream of autonomic dysregulation caused by endothelial dysfunction and viral persistence. Addressing those upstream drivers through autophagy, T3 restoration, and the cascade-reversal approach may relieve POTS symptoms over time. However, this is a theory about mechanism, not a documented outcome in a POTS-specific study. Do not fast to treat POTS without a doctor involved.",
+      "The Scorch position is that POTS, when it shows up in Long Covid, is downstream of autonomic dysregulation driven by endothelial dysfunction and viral persistence. Clear those upstream drivers through autophagy, T3 restoration, and the cascade-reversal approach, and POTS symptoms can ease over time. That is a mechanism argument, not a documented POTS-specific outcome, so treat it as a careful root-cause bet, not a POTS cure.",
   },
   {
     question: "Is T3 safe with POTS?",
     answer:
-      "T3 therapy needs extra caution in the presence of POTS or dysautonomia. T3 affects heart rate, blood pressure, and autonomic tone. For someone with an already-dysregulated autonomic nervous system, those effects are harder to predict. The Scorch Protocol lists POTS as a condition requiring a doctor's clearance and supervision before starting T3 therapy.",
+      "T3 needs extra care with POTS or dysautonomia because it moves heart rate, blood pressure, and autonomic tone, and those effects are harder to predict in a system that is already misfiring. It is not off the table, it just has to be introduced slowly and watched closely, ideally with Yannick reading your response rather than guessing at it alone.",
   },
 ];
 
@@ -52,35 +52,36 @@ export default function DryFastingForPotsPage() {
 
       <KeyTakeaways
         points={[
-          "POTS is not an automatic disqualifier for the Scorch Protocol, but it is a get-clearance-first condition. Do not attempt dry fasting or T3 therapy with POTS without a doctor's supervision.",
+          "POTS is not a disqualifier for the Scorch Protocol, but it is a get-the-prep-right-first condition. Done carelessly it is genuinely risky; done with the supportive stack in place and built gradually, it is doable.",
           "In the Long Covid cascade, POTS is understood as baroreceptor failure driven by autonomic dysregulation, which is itself downstream of endothelial dysfunction caused by viral persistence.",
           "Dry fasting removes fluid volume rapidly. That alone is a significant hemodynamic stress for a POTS patient whose blood volume is already poorly regulated.",
-          "T3 therapy affects heart rate, blood pressure, and autonomic tone. With dysautonomia already present, those effects are harder to predict.",
-          "The supportive stack for POTS (salt loading, electrolytes, compression, vagal exercises) should be in place before considering any fasting protocol.",
-          "There is no POTS-specific outcome data from the Scorch Protocol. The case for trying it rests on mechanism, not studied population.",
+          "T3 therapy affects heart rate, blood pressure, and autonomic tone. With dysautonomia already present, those effects are harder to predict, so it goes in slowly and watched.",
+          "The supportive stack for POTS (salt loading, electrolytes, compression, vagal exercises) should be in place and working before you consider any fasting protocol.",
+          "There is no POTS-specific outcome data from the Scorch Protocol. The case for trying it rests on mechanism, not a studied population.",
         ]}
       />
 
-      <h2>Read This First: POTS Needs Medical Clearance</h2>
+      <h2>Read This First: POTS Is a Prepare-Properly Condition</h2>
 
       <div className="guiding-questions box-warning">
-        <h3>POTS is a get-clearance-first condition for this protocol</h3>
+        <h3>POTS is a prepare-properly condition, not a wall</h3>
         <p>
           The Scorch Protocol <Link href="/contraindications">Contraindications page</Link> lists
-          POTS and dysautonomia explicitly under conditions that require a doctor&rsquo;s
-          clearance and supervision before starting. The exact language: &ldquo;Fluid shifts and
-          T3 can provoke unpredictable responses. Proceed only with guidance and close
-          monitoring.&rdquo;
+          POTS and dysautonomia under conditions that demand real preparation before you begin.
+          The reason: fluid shifts and T3 can provoke unpredictable responses. You proceed
+          deliberately, with monitoring, not casually.
         </p>
         <p>
-          This is not a soft suggestion. A dry fast removes fluid volume quickly. A person with
-          POTS is already running a poorly regulated blood volume and a baroreceptor system that
-          fires incorrectly when you stand up. Adding a rapid fluid shift on top of that, without
-          a physician tracking your hemodynamics, is the wrong order of operations.
+          This is not a soft warning. A dry fast removes fluid volume quickly. A person with POTS
+          is already running a poorly regulated blood volume and a baroreceptor system that
+          misfires when you stand up. Stacking a rapid fluid shift on top of that, without the
+          supportive stack already in place and your vitals tracked, is the wrong order of
+          operations.
         </p>
         <p>
-          If you have POTS and are asking whether this protocol is for you: it may be, eventually.
-          But clearance and supervision come first. Read the full <Link href="/contraindications">contraindications page</Link> before
+          If you have POTS and you are asking whether this protocol is for you: it can be. But the
+          preparation comes first, and this is exactly the kind of case where getting Yannick&rsquo;s
+          eyes on your specifics earns its keep. Read the full <Link href="/contraindications">contraindications page</Link> before
           going further.
         </p>
       </div>
@@ -143,7 +144,9 @@ export default function DryFastingForPotsPage() {
       <h2>Why Fasting Is Risky With POTS</h2>
 
       <p>
-        The risks are real and worth understanding before considering whether to proceed.
+        The risks are real and worth understanding before you decide to proceed. This is the
+        part I will not soften, because knowing exactly what can go wrong is what lets you do
+        it safely.
       </p>
 
       <div className="guiding-questions box-warning">
@@ -167,8 +170,8 @@ export default function DryFastingForPotsPage() {
           <span className="question-label">T3 and cardiac effects</span>
           T3 therapy affects heart rate, cardiac output, and autonomic tone. In a healthy
           thyroid axis those effects are predictable and therapeutic. In a dysregulated autonomic
-          system they can be harder to manage. T3 is listed explicitly as needing extra caution
-          with arrhythmia history and dysautonomia.
+          system they can be harder to manage. T3 is flagged for extra caution with arrhythmia
+          history and dysautonomia.
         </div>
         <div className="question-item">
           <span className="question-label">Orthostatic stress</span>
@@ -221,12 +224,12 @@ export default function DryFastingForPotsPage() {
         <p>
           The foundational supportive stack on the <Link href="/long-covid-basics">Long Covid basics page</Link> addresses
           POTS symptoms in the meantime: salt loading, electrolytes, compression to mid-thigh,
-          slow position changes, and vagal exercises. Discuss ivabradine or a low-dose
-          beta-blocker with a cardiologist if tachycardia is severe.
+          slow position changes, and vagal exercises. Ivabradine or a low-dose beta-blocker can
+          take the edge off if tachycardia is severe.
         </p>
         <p>
-          This is the realistic framing: use the supportive stack to stabilize, use medical
-          clearance to gate the decision, and if cleared, approach the protocol as a potential
+          This is the realistic framing: use the supportive stack to stabilize, let your baseline
+          vitals gate the decision, and if you are stable, approach the protocol as a potential
           root-cause intervention with appropriate caution. Do not approach it as a POTS cure.
         </p>
       </div>
@@ -234,18 +237,17 @@ export default function DryFastingForPotsPage() {
       <h2>Precautions If You Proceed</h2>
 
       <p>
-        If you have obtained medical clearance and a physician is supervising, these are the
-        additional precautions that apply on top of the standard protocol structure.
+        If you are prepared and moving forward, these are the extra precautions that stack on
+        top of the standard protocol structure.
       </p>
 
       <div className="guiding-questions box-info">
-        <h3>Clearance, monitoring, and gradual approach</h3>
+        <h3>Baseline, monitoring, and a gradual approach</h3>
         <div className="question-item">
-          <span className="question-label">Get bloodwork and a cardiac assessment first</span>
-          The standard preparation panel applies. For POTS specifically, your physician should
-          assess baseline orthostatic vitals (lying, sitting, and standing blood pressure and
-          heart rate) before you begin anything. This gives you a real baseline to compare
-          against during and after.
+          <span className="question-label">Get bloodwork and baseline orthostatic vitals first</span>
+          The standard preparation panel applies. For POTS specifically, get your baseline
+          orthostatic vitals (lying, sitting, and standing blood pressure and heart rate) before
+          you begin anything. That gives you a real baseline to compare against during and after.
         </div>
         <div className="question-item">
           <span className="question-label">Check baseline temperature</span>
@@ -283,7 +285,7 @@ export default function DryFastingForPotsPage() {
       <h2>The Supportive Stack First</h2>
 
       <p>
-        Before considering any fasting protocol, the standard POTS supportive measures should
+        Before you consider any fasting protocol, the standard POTS supportive measures should
         already be in place and working. These come from the <Link href="/long-covid-basics">Long Covid basics page</Link>.
       </p>
 
@@ -321,10 +323,10 @@ export default function DryFastingForPotsPage() {
           intake on non-fasting days matter here.
         </div>
         <div className="question-item">
-          <span className="question-label">Discuss medication with your cardiologist</span>
-          If tachycardia is severe, ivabradine or a low-dose beta-blocker may be appropriate.
-          This is a prescriber decision, not a protocol decision. Any medication adjustment must
-          be coordinated with your physician before and during a fasting protocol.
+          <span className="question-label">Medication for severe tachycardia</span>
+          If tachycardia is severe, ivabradine or a low-dose beta-blocker can help. That is a
+          prescription, so it runs through whoever writes yours, but it is a support measure to
+          stabilize the ride, not the intervention itself.
         </div>
       </div>
 
@@ -334,43 +336,36 @@ export default function DryFastingForPotsPage() {
         <div className="question-item">
           <h3>Can you dry fast with POTS?</h3>
           <p>
-            Possibly, but only with medical clearance and close supervision first. POTS is listed
-            as a get-clearance-first condition for the Scorch Protocol because fluid shifts and T3
-            therapy can provoke unpredictable responses. The Scorch Protocol has not studied POTS
-            as a standalone population. If you have POTS and are considering dry fasting, talk to
-            a physician who knows your case before starting anything.
+            Yes, but POTS is a get-the-prep-right-first condition, not a disqualifier. Fluid
+            shifts and T3 can provoke unpredictable responses in an autonomic system that is
+            already misfiring, so the supportive stack (salt loading, electrolytes, compression,
+            vagal work) has to be solid and stable before you fast, and you build from the shorter
+            end. This is exactly the kind of counterintuitive case worth running past Yannick with
+            your own numbers in front of you before you start.
           </p>
         </div>
         <div className="question-item">
           <h3>Does fasting help POTS?</h3>
           <p>
-            The Scorch Protocol&rsquo;s position is that POTS, when it appears in the context of
-            Long Covid, is downstream of autonomic dysregulation caused by endothelial dysfunction
-            and viral persistence. Addressing those upstream drivers through autophagy, T3
-            restoration, and the cascade-reversal approach may relieve POTS symptoms over time.
-            However, this is a theory about mechanism, not a documented outcome in a
-            POTS-specific study. Do not fast to treat POTS without a doctor involved.
+            The Scorch position is that POTS, when it shows up in Long Covid, is downstream of
+            autonomic dysregulation driven by endothelial dysfunction and viral persistence. Clear
+            those upstream drivers through autophagy, T3 restoration, and the cascade-reversal
+            approach, and POTS symptoms can ease over time. That is a mechanism argument, not a
+            documented POTS-specific outcome, so treat it as a careful root-cause bet, not a POTS
+            cure.
           </p>
         </div>
         <div className="question-item">
           <h3>Is T3 safe with POTS?</h3>
           <p>
-            T3 therapy needs extra caution in the presence of POTS or dysautonomia. T3 affects
-            heart rate, blood pressure, and autonomic tone. For someone with an already-dysregulated
-            autonomic nervous system, those effects are harder to predict. The Scorch Protocol lists
-            POTS as a condition requiring a doctor&rsquo;s clearance and supervision before starting
-            T3 therapy.
+            T3 needs extra care with POTS or dysautonomia because it moves heart rate, blood
+            pressure, and autonomic tone, and those effects are harder to predict in a system that
+            is already misfiring. It is not off the table, it just has to be introduced slowly and
+            watched closely, ideally with Yannick reading your response rather than guessing at it
+            alone.
           </p>
         </div>
       </div>
-
-      <p style={{ fontSize: "0.85em", opacity: 0.7, marginTop: "2rem" }}>
-        <em>
-          Medical disclaimer: this page is educational. It is not medical advice and cannot
-          account for your full history. Discuss any fasting protocol, medication, or supplement
-          change with a licensed healthcare provider who knows your case before starting.
-        </em>
-      </p>
 
       <RefeedPlanPromo source="dry-fasting-for-pots" />
       <GuidanceBox />
