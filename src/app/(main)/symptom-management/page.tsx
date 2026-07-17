@@ -469,9 +469,10 @@ export default function SymptomManagementPage() {
           active first-cycle tool, not just a sleep aid. See the full framing on
           the{" "}
           <a href="/t3-therapy#cyproheptadine-caveat">T3 Therapy page</a>.{" "}
-          <strong>Cycle-1 only:</strong> stop cyproheptadine before moving to
-          hGH, because it lowers growth hormone output and blunts the nighttime
-          cortisol hGH needs to burn fat.
+          <strong>Compatible with hGH:</strong> you do not need to stop
+          cyproheptadine before hGH. It blunts the pituitary&rsquo;s own
+          growth-hormone signal, but injected hGH bypasses that signal, so the
+          two work together.
         </div>
         <div className="question-item">
           <span className="question-label">Ketotifen (Second Choice):</span>

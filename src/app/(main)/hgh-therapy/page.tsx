@@ -26,7 +26,7 @@ export default function HghTherapyPage() {
 
       <KeyTakeaways points={[
         "hGH is the rebuild signal. Dry fasting clears damaged cells, T3 restores metabolic power, and hGH tells your body to build new healthy muscle and immune tissue from what was freed.",
-        "Stop cyproheptadine before starting hGH. Running both at the same time directly works against the therapy.",
+        "Cyproheptadine and hGH work together. Injected hGH bypasses the pituitary signal cyproheptadine blunts, so you do not need to stop cyproheptadine before starting hGH.",
         "Some people need to eat significantly more calories than they ever have during this phase. Without enough fuel, the rebuild cannot happen. Research suggests 9 months of treatment may be needed to feel substantial results.",
         "If you cannot access prescription or UGL hGH, Tesamorelin (a GH secretagogue peptide) is a legal, easier-to-source alternative with milder but still meaningful effects.",
       ]} />
@@ -43,24 +43,27 @@ export default function HghTherapyPage() {
 
       <div
         style={{
-          backgroundColor: "rgba(220,38,38,0.10)",
-          borderLeft: "5px solid #dc2626",
+          backgroundColor: "rgba(232,93,4,0.10)",
+          borderLeft: "5px solid #e85d04",
           padding: "1.25rem 1.5rem",
           borderRadius: "8px",
           margin: "1.5rem 0",
         }}
       >
-        <h4 style={{ marginTop: 0, color: "#fca5a5" }}>
-          Stop Cyproheptadine Before Starting hGH
+        <h4 style={{ marginTop: 0, color: "#fdba74" }}>
+          Cyproheptadine and hGH Work Together
         </h4>
         <p style={{ marginBottom: 0 }}>
           If you used cyproheptadine during your first T3 cycle (for appetite,
-          sleep, or brain-gut calming), stop it before you move to hGH.
-          Cyproheptadine directly lowers growth hormone output, so it belongs
-          to the first T3 cycle only. It also blunts the nighttime cortisol
-          pulse that hGH depends on to burn fat while you sleep. Running both
-          at the same time works against the therapy. See the full cyproheptadine
-          context on the{" "}
+          sleep, or brain-gut calming), you do not need to stop it before hGH.
+          Cyproheptadine blunts the pituitary&rsquo;s own signal to release
+          growth hormone, but the hGH phase injects growth hormone directly, so
+          it bypasses the pituitary and overrides the blunting. The nighttime
+          cortisol point does not change this: hGH here is for regeneration and
+          calming the nervous system, not overnight fat loss, and its rebuilding
+          actions stay active even with cortisol softened. Keep cyproheptadine
+          going wherever appetite, gut tolerance, or sleep still call for it.
+          See the full cyproheptadine context on the{" "}
           <a href="/t3-therapy#cyproheptadine-caveat">T3 Therapy page</a>.
         </p>
       </div>

@@ -209,9 +209,11 @@ export default function MCASAndDryFastingPage() {
           is 1 to 4 mg, set individually. Always use the lowest dose that works.
           <br />
           <br />
-          <strong>Important cycle note:</strong> cyproheptadine is a cycle-1-only
-          tool. Stop it before moving to hGH, because it lowers growth hormone
-          output and blunts the nighttime cortisol hGH needs to burn fat. See the{" "}
+          <strong>Cycle note:</strong> cyproheptadine and hGH are compatible.
+          You do not need to stop it before hGH: it blunts the pituitary&rsquo;s
+          own growth-hormone signal, but injected hGH bypasses that signal, so
+          the two work together (and continuing the calming stack through the
+          rebuild is often what you want anyway). See the{" "}
           <a href="/t3-therapy#cyproheptadine-caveat">T3 Therapy page</a> for the
           full framing.
         </div>

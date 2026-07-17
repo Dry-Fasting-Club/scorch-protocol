@@ -606,7 +606,7 @@ export default function T3TherapyPage() {
         </p>
         <div className="question-item">
           <span className="question-label">Cyproheptadine (appetite, sleep, stress, mitochondria):</span>
-          This is a first-cycle tool with one primary job: drive you to eat
+          Its main job in the first T3 cycle is to drive you to eat
           dramatically more food so you fill the wider metabolic eating window
           T3 opens. Without sufficient calories T3 burns muscle, not fat.
           Cyproheptadine fixes that by restoring the appetite T3 demands.
@@ -645,13 +645,17 @@ export default function T3TherapyPage() {
           }}
           id="cyproheptadine-caveat"
         >
-          <strong>First-cycle only: stop before hGH.</strong>{" "}
-          Cyproheptadine blunts growth hormone directly, so it is stopped
-          before the second T3 cycle where hGH does the rebuilding. There
-          is a second reason to stop it: hGH fat-burning at night depends on
-          nocturnal cortisol, and cyproheptadine blunts that nocturnal cortisol.
-          Running cyproheptadine during the hGH phase works against the hGH
-          phase on both fronts. Do not run them together.
+          <strong>Cyproheptadine and hGH work together.</strong>{" "}
+          You may have read that cyproheptadine has to be stopped before hGH
+          because it lowers growth hormone. That is not the case. Cyproheptadine
+          blunts the pituitary&rsquo;s own signal to release GH, but the hGH
+          phase injects growth hormone directly, so it bypasses the pituitary
+          entirely and overrides the blunting. The nighttime cortisol point does
+          not change this either: the goal of hGH here is regeneration and
+          calming the nervous system, not overnight fat loss, and the rebuilding
+          actions of hGH stay fully active even with cortisol softened.
+          Cyproheptadine can continue into the hGH cycle wherever appetite, gut
+          tolerance, or sleep still call for it.
         </div>
         <div className="question-item">
           <span className="question-label">Low-dose aspirin (inflammation, cortisol, insulin sensitivity):</span>
@@ -769,9 +773,9 @@ export default function T3TherapyPage() {
               brain-gut nerves that make large meals nauseating, and deepens
               sleep when repair on T3 happens. For many people this is the
               single cheapest way to get calories back up early in the
-              refeed. See the{" "}
-              <a href="/t3-therapy#cyproheptadine-caveat">stop-before-hGH caveat</a>:
-              cyproheptadine is a first-cycle tool and is stopped before hGH.
+              refeed. It is introduced in the first cycle, but it does not
+              have to stop when hGH begins: see the{" "}
+              <a href="/t3-therapy#cyproheptadine-caveat">cyproheptadine and hGH note</a>.
             </li>
           </ul>
         </div>

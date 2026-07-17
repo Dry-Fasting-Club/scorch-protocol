@@ -543,10 +543,11 @@ export default function TipsAndTricksPage() {
           <a href="/t3-therapy#cyproheptadine-caveat">T3 Therapy page</a>.
         </p>
         <p>
-          <strong>First T3 cycle only.</strong> Stop cyproheptadine before
-          moving to hGH: it lowers growth hormone directly and blunts the
-          nighttime cortisol pulse hGH relies on to burn fat. The two do not
-          belong together.
+          <strong>It carries into the hGH cycle.</strong> You do not need to
+          stop cyproheptadine before hGH. It blunts the pituitary&rsquo;s own
+          growth-hormone signal, but the hGH phase injects growth hormone
+          directly and bypasses that signal, so the two work together. Continue
+          it wherever appetite, gut tolerance, or sleep still call for it.
         </p>
       </div>
 

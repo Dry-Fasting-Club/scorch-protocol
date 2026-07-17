@@ -285,9 +285,9 @@ export default function RefeedingPage() {
           even when the gut is not ready. It also improves sleep and lowers
           the serotonin-driven cortisol surge T3 can provoke.
           Dose is 1 to 4 mg in the evening, set in your consult.
-          For the full mechanism and the critical cycle-1-only caveat
-          (cyproheptadine is stopped before hGH because it blunts growth
-          hormone and nocturnal cortisol), see the{" "}
+          For the full mechanism, and why cyproheptadine can continue into the
+          hGH cycle (injected hGH bypasses the pituitary signal cyproheptadine
+          blunts), see the{" "}
           <a href="/t3-therapy#cyproheptadine-caveat">T3 Therapy page</a>.
         </div>
       </div>
