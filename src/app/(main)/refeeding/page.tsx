@@ -465,7 +465,7 @@ export default function RefeedingPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Avoid Arginine-Rich Foods for the First Two Weeks</span>
-          Nuts, seeds, chocolate, peanut butter, gelatin. These spike free
+          Nuts, seeds, chocolate, peanut butter. These spike free
           arginine and undo the work lysine is doing.
         </div>
         <div className="question-item">

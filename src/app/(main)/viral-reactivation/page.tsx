@@ -484,7 +484,7 @@ export default function ViralReactivationPage() {
             </td>
             <td>Refeed Day 1 through Week 2</td>
             <td>
-              Nuts, seeds, chocolate, peanut butter, gelatin. These spike free
+              Nuts, seeds, chocolate, peanut butter. These spike free
               arginine and undo the work lysine is doing. Especially critical
               in the first week.
             </td>
