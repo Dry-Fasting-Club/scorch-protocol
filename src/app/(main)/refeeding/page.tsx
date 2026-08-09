@@ -563,7 +563,7 @@ export default function RefeedingPage() {
         </p>
         <p>
           <Link href="/membership?ref=refeed-timing">
-            Get Yannick&rsquo;s direct guidance on your refeed for $1/mo &rarr;
+            Get Yannick&rsquo;s direct guidance on your refeed for $5/mo &rarr;
           </Link>
         </p>
       </div>

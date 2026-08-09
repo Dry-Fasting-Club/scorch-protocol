@@ -13,7 +13,7 @@ export default function RefeedPlanPromo({ source }: { source: string }) {
       <p>
         Members build a personalized, day-by-day refeed plan: food choices and a
         calorie ramp sized to their own fast, plus when to layer in T3 and the
-        rest of the protocol. It starts at $1.
+        rest of the protocol. It starts at $5.
       </p>
       <Link href={`${MEMBERSHIP_PATH}?ref=${source}`} className="refeed-promo-btn">
         Build your refeed plan →

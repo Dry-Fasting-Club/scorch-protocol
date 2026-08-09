@@ -57,7 +57,7 @@ export default function HomePage() {
             Start the Protocol &rarr;
           </Link>
           <Link href={MEMBERSHIP_PATH} className="hero-btn hero-btn-secondary">
-            Get a personalized plan for $1 &rarr;
+            Get a personalized plan for $5 &rarr;
           </Link>
         </div>
         <p style={{ marginTop: "1rem", fontSize: "0.9rem", color: "var(--text-secondary)" }}>
@@ -354,7 +354,7 @@ export default function HomePage() {
           directly. The next best is the{" "}
           <Link href="/membership">members portal</Link>: dissect your own
           numbers, ask the right questions, and get the detective on the case
-          starting at $1. For a serious diagnosis like cancer, the goal is to
+          starting at $5. For a serious diagnosis like cancer, the goal is to
           find and fix the root cause alongside your medical care, not in place
           of it.
         </p>
