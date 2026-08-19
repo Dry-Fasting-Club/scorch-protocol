@@ -12,7 +12,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: { absolute: "The Scorch Protocol | Reverse Long Covid, ME/CFS & Chronic Illness" },
   description:
-    "The Scorch Protocol combines dry fasting, T3 therapy, and hGH to reverse Long Covid, ME/CFS, and autoimmune disease. Outcomes tracked across 141 participants; 97% of the 32 who completed the full protocol recovered.",
+    "The Scorch Protocol combines dry fasting, T3 therapy, and hGH to reverse Long Covid, ME/CFS, and autoimmune disease, for people whose labs read normal but who are still exhausted.",
   alternates: { canonical: "https://scorchprotocol.com/" },
 };
 

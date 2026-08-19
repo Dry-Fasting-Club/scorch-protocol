@@ -4,7 +4,7 @@ import "./globals.css";
 
 const SITE_URL = "https://scorchprotocol.com";
 const DESCRIPTION =
-  "A data-driven protocol for metabolic recovery from ME/CFS and Long Covid using dry fasting, T3 therapy, and hGH. 97% improvement across 141 participants.";
+  "A metabolic-recovery protocol for ME/CFS and Long Covid built on dry fasting, T3 therapy, and hGH, for people whose labs read normal but who are still exhausted.";
 
 export const metadata: Metadata = {
   title: {

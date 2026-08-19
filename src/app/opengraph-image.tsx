@@ -73,10 +73,10 @@ export default function OgImage() {
               display: "flex",
             }}
           >
-            97% recovered
+            Labs normal, still sick?
           </div>
           <div style={{ color: "#94a3b8", fontSize: 26, display: "flex" }}>
-            of 32 full-protocol completers · 141 tracked
+            The recovery your bloodwork misses
           </div>
         </div>
       </div>
