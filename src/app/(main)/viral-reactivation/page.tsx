@@ -34,7 +34,7 @@ const reactivationCascade = `graph TD
   V4 --> Choice
   V5 --> Choice
 
-  Choice -->|YES: ivermectin + lysine + monolaurin + Tα1| Safe["Window closed safely<br/>Gains locked in"]
+  Choice -->|YES: ivermectin + lysine + monolaurin| Safe["Window closed safely<br/>Gains locked in"]
   Choice -->|NO: unprotected refeed| Bad["Virus reactivates AND EXPANDS<br/>Seeds new ganglia and tissue<br/>Patient ends MORE broadly infected<br/>than starting baseline"]
 
   style Defenses fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
@@ -52,7 +52,7 @@ const pathogenStack = `graph TB
 
   Core -.->|runs in parallel with| AP["ANTIPARASITIC LAYER<br/>Default for most patients<br/><br/>PRIMARY: Ivermectin (double duty)<br/>SYNERGY: Ivermectin + Dry Fasting<br/>REJECTED: Natural antiparasitics (too weak)"]
 
-  Core -.->|runs in parallel with| IR["IMMUNE REBUILD LAYER<br/>Distinct from pathogen kill<br/><br/>EARLY REFEED: Thymalin<br/>LATE REFEED or PRE-FAST: Tα1<br/>(strengthens AND balances)"]
+  Core -.->|runs in parallel with| IR["IMMUNE REBUILD LAYER<br/>Distinct from pathogen kill<br/><br/>REFEED: Thymalin<br/>(Tα1 retired: in Yannick's experience<br/>it can hypersensitize immune cells)"]
 
   style Core fill:#7c2d12,stroke:#e85d04,stroke-width:3px,color:#fdba74
   style AV fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
@@ -355,8 +355,9 @@ export default function ViralReactivationPage() {
         primary pharmaceutical, with valacyclovir held in reserve for prodromal
         tingling), started at the water fast bridge and continued across the
         entire refeed. The second is active immune rebuilding via thymic
-        peptides (Thymalin early in the refeed, Thymus Alpha-1 later or
-        pre-fast). Through the first seven days of refeeding you also add a
+        peptides (Thymalin early in the refeed; Thymus Alpha-1 has been retired
+        from the protocol, see the note below). Through the first seven days of
+        refeeding you also add a
         case-by-case metabolic layer, methylene blue and in selected cases
         ethyl pyruvate, to support the mitochondria while food scales back in.
         T3 is deliberately held until you have scaled food for a full seven
@@ -490,20 +491,19 @@ export default function ViralReactivationPage() {
           </tr>
           <tr>
             <td>
-              <strong>Thymus Alpha-1 (Tα1) (immune rebuild: late or pre-fast)</strong>
+              <strong>
+                <s>Thymus Alpha-1 (Tα1)</s> (retired)
+              </strong>
             </td>
+            <td>No longer used</td>
             <td>
-              Late refeed (regeneration phase), or alternatively pre-fast
-            </td>
-            <td>
-              FDA / EMA-approved thymic peptide used for hepatitis B/C,
-              immunodeficient cancer patients, and some septic conditions.
-              Distinct from Thymalin in that it both <em>strengthens</em>{" "}
-              and <em>balances</em> the immune system, making it useful
-              for patients whose immune dysregulation runs both directions
-              (e.g., MCAS + immunodeficiency in Long Covid). Can also be
-              used proactively before a fast to optimise the starting
-              immune state.
+              Retired from the protocol. Through Yannick&rsquo;s own research and
+              experiments, T&alpha;1 was found to hypersensitize immune cells and
+              can backfire, driving new allergies instead of balancing the immune
+              system. Working theory: the wave of benzyl alcohol allergies people
+              keep developing traces back to reconstituting T&alpha;1 with
+              bacteriostatic water, which is preserved with benzyl alcohol.
+              Thymalin is now the only thymus peptide in the protocol.
             </td>
           </tr>
           <tr>
