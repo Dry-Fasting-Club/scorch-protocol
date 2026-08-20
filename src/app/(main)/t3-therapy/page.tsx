@@ -571,10 +571,30 @@ export default function T3TherapyPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Having trouble stopping?</span>
-          <span className="action-arrow">&rarr;</span> If you feel bad while
-          lowering your dose, a small dose of{" "}
-          <strong>T4</strong> can help your body bridge the taper. This is the
-          kind of adjustment worth running past Yannick.
+          <span className="action-arrow">&rarr;</span> If you feel shaky while
+          lowering your dose, that is usually your T4 running out. Near-zero TSH
+          means your own T4 is gone, so nothing is buffering the dropping T3.
+          The fix is to add a little T4 back on top of the T3 you are still
+          lowering:{" "}
+          <strong>50 to 100 mcg of T4 every other day</strong>. T4 has a long
+          half-life, so every-other-day dosing holds a steady floor (slow-release
+          T4 is available from chronic-illness.st or other sources). Desiccated
+          thyroid (30 to 60 mg) is the accessible fallback if you cannot get a
+          formulation. This is the kind of adjustment worth running past Yannick.
+        </div>
+        <div className="question-item">
+          <span className="question-label">
+            On a second cycle and still struggling with energy or the fast
+            itself?
+          </span>
+          <span className="action-arrow">&rarr;</span> Some people do better on
+          a custom <strong>T4/T3 ratio</strong> for the next round. Find your
+          full thyroid replacement rate and run about half of it through the
+          fast.{" "}
+          <em>
+            Medical caveat: this is the one per-case exception to the rule that
+            T3 does not run during the fast, never the default.
+          </em>
         </div>
       </div>
 
