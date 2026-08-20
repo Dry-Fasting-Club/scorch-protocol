@@ -11,7 +11,7 @@ import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 export const metadata: Metadata = {
   title: "Viral Reactivation",
   description:
-    "The deepest dive into viral reactivation in chronic illness: why dry fasting protects you and the refeed window puts you at maximum risk, and how to bridge it safely with water fasting, T3, lysine, and antivirals.",
+    "The deepest dive into viral reactivation in chronic illness: why dry fasting protects you and the refeed window puts you at maximum risk, and how to bridge it safely with water fasting, lysine, and antivirals that continue through the whole refeed.",
   alternates: { canonical: "https://scorchprotocol.com/viral-reactivation" },
 };
 
@@ -63,13 +63,13 @@ const pathogenStack = `graph TB
 export default function ViralReactivationPage() {
   return (
     <>
-      <JsonLd data={medicalWebPageLd({ name: "Viral Reactivation", description: "The deepest dive into viral reactivation in chronic illness: why dry fasting protects you and the refeed window puts you at maximum risk, and how to bridge it safely with water fasting, T3, lysine, and antivirals.", path: "/viral-reactivation", breadcrumbName: "Viral Reactivation", about: ["Long COVID", "Epstein-Barr virus infection", "Herpes simplex"] })} />
+      <JsonLd data={medicalWebPageLd({ name: "Viral Reactivation", description: "The deepest dive into viral reactivation in chronic illness: why dry fasting protects you and the refeed window puts you at maximum risk, and how to bridge it safely with water fasting, lysine, and antivirals that continue through the whole refeed.", path: "/viral-reactivation", breadcrumbName: "Viral Reactivation", about: ["Long COVID", "Epstein-Barr virus infection", "Herpes simplex"] })} />
       <h1>Viral Reactivation</h1>
       <KeyTakeaways points={[
         "The dry fast is actually the safest period for your immune system: autophagy, ketones, mTOR suppression, and NK cell activity all work against viral replication.",
         "The danger window is the refeed, not the fast. Five defenses collapse at once in the first 24 to 72 hours after breaking the fast.",
         "An unprotected refeed can leave you more broadly infected than when you started, because cleared viral reservoirs get re-seeded in new nerve tissue.",
-        "The bridge strategy (dry fast to water fast to protected refeed) keeps antivirals and T3 active before food returns, closing the vulnerability window.",
+        "The bridge strategy (dry fast to water fast to protected refeed) keeps the antiviral stack running from the bridge all the way through the refeed. T3 is deliberately held until after Day 7 of refeeding, so antivirals, not T3, are what close the vulnerability window.",
         "Stop and escalate antivirals immediately if you feel tingling at a previous outbreak site, new nerve-territory pain, or a sudden return of pre-protocol fatigue.",
       ]} />
       <p>
@@ -322,13 +322,15 @@ export default function ViralReactivationPage() {
           siege state. You just have working organs again.
         </div>
         <div className="question-item">
-          <span className="question-label">Allows T3, antivirals, and lysine to be absorbed and active before food returns</span>
-          You cannot safely take oral T3, acyclovir, valacyclovir, or L-lysine
+          <span className="question-label">Allows antivirals and lysine to be absorbed and active before food returns (and kept running through the refeed)</span>
+          You cannot safely take oral acyclovir, valacyclovir, or L-lysine
           during a dry fast. Without renal water flow, the dosing window and
           clearance kinetics are wrong, and you risk concentrated toxicity.
           The water fast bridge restores renal clearance while still
           preserving the antiviral metabolic state. Now you can layer in the
-          pharmacological defences before the immune surveillance gap opens.
+          antiviral defences and keep them running straight through the refeed,
+          before the immune surveillance gap opens. (T3 is not part of this
+          bridge. It is held back until after Day 7 of the refeed.)
         </div>
         <div className="question-item">
           <span className="question-label">Gives the immune system several days to start redistributing back to circulation</span>
@@ -347,15 +349,22 @@ export default function ViralReactivationPage() {
 
       <h2>The Pharmacological Stack for the Refeed Vulnerability Window</h2>
       <p>
-        Once organs are rehydrated through the water fast, you build two
-        parallel walls before food returns. The first is antiviral pressure
-        (ivermectin as the primary pharmaceutical, with valacyclovir held
-        in reserve for prodromal tingling). The second is active immune
-        rebuilding via thymic peptides (Thymalin early in the refeed,
-        Thymus Alpha-1 later or pre-fast). This stack is not optional for
-        anyone with Long Covid, ME/CFS, recurring herpesvirus history, or
-        unexplained chronic illness. Each component blocks or rebuilds a
-        different stage of the cascade.
+        Once organs are rehydrated through the water fast, you build your
+        defensive walls and keep them standing through the whole refeed, not
+        just on day one. The first wall is antiviral pressure (ivermectin as the
+        primary pharmaceutical, with valacyclovir held in reserve for prodromal
+        tingling), started at the water fast bridge and continued across the
+        entire refeed. The second is active immune rebuilding via thymic
+        peptides (Thymalin early in the refeed, Thymus Alpha-1 later or
+        pre-fast). Through the first seven days of refeeding you also add a
+        case-by-case metabolic layer, methylene blue and in selected cases
+        ethyl pyruvate, to support the mitochondria while food scales back in.
+        T3 is deliberately held until you have scaled food for a full seven
+        days: the antiviral stack, not T3, is what closes the vulnerability
+        window. This stack is not optional for anyone with Long Covid, ME/CFS,
+        recurring herpesvirus history, or unexplained chronic illness. Each
+        component blocks, rebuilds, or supports a different stage of the
+        cascade.
       </p>
 
       <table>
@@ -368,19 +377,8 @@ export default function ViralReactivationPage() {
         </thead>
         <tbody>
           <tr>
-            <td><strong>T3 (liothyronine)</strong></td>
-            <td>Day 3 of the water fast</td>
-            <td>
-              Restores Type I interferon signalling and NK cell cytotoxicity.
-              Boosts cellular metabolism to power the immune system back up.
-              Starting early ensures T3 is already active when food returns.
-              See the <a href="/t3-therapy">T3 Therapy</a> page for full
-              dosing.
-            </td>
-          </tr>
-          <tr>
             <td><strong>L-Lysine</strong></td>
-            <td>Refeed Day 1</td>
+            <td>Refeed Day 1, continued through the refeed</td>
             <td>
               Competes with arginine for the amino acid transporter herpes
               viruses depend on. Griffith et al. (1987, <em>Dermatologica</em>)
@@ -392,7 +390,7 @@ export default function ViralReactivationPage() {
           </tr>
           <tr>
             <td><strong>Monolaurin</strong></td>
-            <td>Refeed Day 1</td>
+            <td>Refeed Day 1, continued through the refeed</td>
             <td>
               Disrupts the lipid envelope of all herpesviruses (HSV-1, HSV-2,
               VZV, EBV, CMV, HHV-6, HHV-7, HHV-8). A virus with a damaged
@@ -403,7 +401,8 @@ export default function ViralReactivationPage() {
           <tr>
             <td><strong>Ivermectin (primary antiviral)</strong></td>
             <td>
-              Refeed Day 1, continued through the vulnerability window
+              Started at the water fast bridge, continued through the entire
+              refeed
             </td>
             <td>
               Blocks importin α/β nuclear transport, which herpesviruses
@@ -426,7 +425,9 @@ export default function ViralReactivationPage() {
               because it is overall better on the gut microbiome during the
               refeed and pulls double duty as an antiparasitic. The combination
               of ivermectin and dry fasting clears most parasitic load
-              alongside the viral suppression.
+              alongside the viral suppression. Coverage does not stop at the 24
+              to 72 hour vulnerability window: it runs across the full refeed,
+              bridging the gap until T3 begins after Day 7.
             </td>
           </tr>
           <tr>
@@ -439,7 +440,7 @@ export default function ViralReactivationPage() {
             <td>
               Inhibits viral DNA polymerase. Covers HSV-1, HSV-2, VZV
               completely; partial coverage of EBV and CMV. Reserved for
-              prodromal rescue — the tingling, itching, or burning at a
+              prodromal rescue: the tingling, itching, or burning at a
               previous outbreak site that signals an oncoming HSV
               reactivation. A single loading dose at the prodrome can
               abort the outbreak before lesions form. Not used as a daily
@@ -448,8 +449,35 @@ export default function ViralReactivationPage() {
             </td>
           </tr>
           <tr>
+            <td><strong>Methylene blue (mitochondrial support)</strong></td>
+            <td>First 7 days of the refeed</td>
             <td>
-              <strong>Thymalin (immune rebuild — early)</strong>
+              Acts as an alternative electron carrier for the mitochondria.
+              Coming out of the fast the cell is loaded with NADH from
+              fat-burning, a reductive stress, and if the electron transport
+              chain cannot clear it that NADH backs up and stalls energy
+              production. Methylene blue accepts electrons from the backed-up
+              NADH and passes them down the chain, restoring the NAD+ to NADH
+              balance so the mitochondria can make energy again while food is
+              scaling back in and before T3 begins. It is added case by case,
+              matched to the individual. No dose is published here: it is set
+              with you directly in the consult, in keeping with the Fasting
+              Detective approach.
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Ethyl pyruvate (metabolic support, selected cases)</strong></td>
+            <td>First 7 days of the refeed, selected cases</td>
+            <td>
+              A metabolic and anti-inflammatory support option considered
+              alongside methylene blue for some individuals during the early
+              refeed. Used only when it fits the case, and only as decided in
+              the consult. As with methylene blue, no dose is published here.
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <strong>Thymalin (immune rebuild: early)</strong>
             </td>
             <td>Early refeed</td>
             <td>
@@ -462,7 +490,7 @@ export default function ViralReactivationPage() {
           </tr>
           <tr>
             <td>
-              <strong>Thymus Alpha-1 (Tα1) (immune rebuild — late or pre-fast)</strong>
+              <strong>Thymus Alpha-1 (Tα1) (immune rebuild: late or pre-fast)</strong>
             </td>
             <td>
               Late refeed (regeneration phase), or alternatively pre-fast
@@ -498,7 +526,9 @@ export default function ViralReactivationPage() {
         Generalised public dosing would contradict the &ldquo;Fasting
         Detective&rdquo; clinical-individualisation approach that the
         protocol is built around. Dose-level work is reserved for direct
-        clinical assessment.
+        clinical assessment. This applies with particular force to the
+        metabolic supports: methylene blue and ethyl pyruvate are dosed
+        strictly per individual, and no amounts appear anywhere on this site.
       </p>
 
       <div style={{ margin: "2rem 0" }}>
@@ -632,12 +662,13 @@ export default function ViralReactivationPage() {
           The dry fast is the safest period your immune system experiences
           all year. The refeed is the most dangerous. Your job is not to fear
           the fast. It is to fear the transition. The Scorch Protocol&rsquo;s
-          structure (dry fast → water fast bridge → controlled refeed with T3
-          and antivirals already on board) exists specifically to close the
-          vulnerability window before food can open it. Honour that structure
-          and viral reactivation becomes manageable. Skip it and you can
-          undo every gain the fast produced, ending up more broadly infected
-          than when you started.
+          structure (dry fast → water fast bridge → controlled refeed with the
+          antiviral stack already on board and running straight through it)
+          exists specifically to close the vulnerability window before food can
+          open it. T3 comes later, after a full seven days of refeeding. Honour
+          that structure and viral reactivation becomes manageable. Skip it and
+          you can undo every gain the fast produced, ending up more broadly
+          infected than when you started.
         </p>
         <p>
           For deeper context on the refeed itself, see the{" "}

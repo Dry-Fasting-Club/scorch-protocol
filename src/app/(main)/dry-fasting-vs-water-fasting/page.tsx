@@ -19,7 +19,7 @@ const faqItems = [
   {
     question: "Is dry fasting better than water fasting?",
     answer:
-      "Neither is simply better than the other. Dry fasting drives deeper autophagy, forces a more profound mineral reset (sodium excretion drops 87% versus 40% on a water fast), and generates internal metabolic water by burning old and damaged cells. Water fasting is gentler, easier to sustain for longer, and lower risk for most people. The Scorch Protocol uses both in sequence: 5 days dry to achieve maximum cellular repair, then 5 days water to rehydrate organs, allow T3 and antivirals to be absorbed safely, and extend the therapeutic fasting state before refeeding.",
+      "Neither is simply better than the other. Dry fasting drives deeper autophagy, forces a more profound mineral reset (sodium excretion drops 87% versus 40% on a water fast), and generates internal metabolic water by burning old and damaged cells. Water fasting is gentler, easier to sustain for longer, and lower risk for most people. The Scorch Protocol uses both in sequence: 5 days dry to achieve maximum cellular repair, then 5 days water to rehydrate organs, allow antivirals to be absorbed safely, and extend the therapeutic fasting state before refeeding.",
   },
   {
     question: "Is dry fasting more dangerous than water fasting?",
@@ -29,7 +29,7 @@ const faqItems = [
   {
     question: "Can you do both dry and water fasting?",
     answer:
-      "Yes, and that is exactly what the Scorch Protocol does. The sequence is always dry fasting first, water fasting second. After 5 days dry, you transition directly into 5 days of water fasting rather than breaking the fast with food. The dry fast creates the deep cellular repair state; the water fast extends the therapeutic window, rehydrates organs so T3 and antiviral medications can be taken safely, and allows the immune system to begin redistributing before food returns. Reversing the order is dangerous and defeats the purpose.",
+      "Yes, and that is exactly what the Scorch Protocol does. The sequence is always dry fasting first, water fasting second. After 5 days dry, you transition directly into 5 days of water fasting rather than breaking the fast with food. The dry fast creates the deep cellular repair state; the water fast extends the therapeutic window, rehydrates organs so antiviral medications can be taken safely, and allows the immune system to begin redistributing before food returns. Reversing the order is dangerous and defeats the purpose.",
   },
 ];
 
@@ -292,10 +292,12 @@ export default function DryFastingVsWaterFastingPage() {
         </li>
         <li>
           <strong>It allows oral medications and supplements.</strong> You
-          cannot safely take T3, antivirals, or lysine during a dry fast
+          cannot safely take antivirals or lysine during a dry fast
           because without renal water flow, clearance kinetics are wrong and
           you risk concentrated toxicity. The moment you transition to water
-          fasting, those medications become possible.
+          fasting, that antiviral coverage becomes possible. T3 is different: it
+          is not started during the fast at all, but only after the first 7 days
+          of refeeding.
         </li>
         <li>
           <strong>It is the right follow-on to a dry fast.</strong> After 5
@@ -353,8 +355,8 @@ export default function DryFastingVsWaterFastingPage() {
           medications and supplements.
         </li>
         <li>
-          <strong>Allows T3 therapy to begin</strong> (starting on Day 3 of the
-          water fast, so T3 is already active when the first calories return).
+          <strong>Keeps antiviral coverage in place</strong> so it carries into
+          the refeed, where T3 begins only after day 7.
         </li>
         <li>
           <strong>Allows antivirals and lysine to be absorbed safely</strong>,
@@ -437,7 +439,7 @@ export default function DryFastingVsWaterFastingPage() {
             sustain, and lower risk for most people. The Scorch Protocol uses
             both in sequence: 5 days dry for maximum cellular repair, then 5
             days water to extend the therapeutic window safely and allow
-            medications to be absorbed before refeeding begins.
+            antivirals to be absorbed before refeeding begins.
           </p>
         </div>
         <div className="question-item">

@@ -18,17 +18,19 @@ export default function ProtocolTLDR() {
           builds on.
         </li>
         <li>
-          <strong>Restart your metabolism with T3.</strong> Slow-release T3 is the
-          quick win. It switches your cellular energy back on so your body finally has
-          the power to heal.{" "}
+          <strong>Cover and support as you refeed.</strong> Keep your antiviral
+          coverage running straight through the refeed, and during the first week of
+          eating add targeted mitochondrial support (methylene blue, sometimes ethyl
+          pyruvate), dialed in case by case. This protects everything the fast cleared
+          while your body comes back online.
+        </li>
+        <li>
+          <strong>Restart your metabolism with T3.</strong> Once you are eating again,
+          after that first week of refeeding, slow-release T3 switches your cellular
+          energy back on so your body finally has the power to heal.{" "}
           <a href="https://chronic-illness.st" target="_blank" rel="noopener noreferrer">
             where to get it
           </a>
-        </li>
-        <li>
-          <strong>Cover your known issues.</strong> Keep the right herbs or medication
-          going for what is already wrong (viral load, gut, symptoms) so nothing holds
-          you back while you rebuild.
         </li>
         <li>
           <strong>Rebuild with calories and hGH.</strong> Feed the system and add hGH
@@ -37,7 +39,7 @@ export default function ProtocolTLDR() {
         </li>
       </ol>
       <p className="protocol-tldr-close">
-        Clear, restart, support, rebuild. Everything else on this site is just the
+        Clear, support, restart, rebuild. Everything else on this site is just the
         detail behind these four steps. You do not need to master the science to
         begin. You just need to start.
       </p>

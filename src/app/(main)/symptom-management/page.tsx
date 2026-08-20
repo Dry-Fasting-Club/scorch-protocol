@@ -135,8 +135,8 @@ export default function SymptomManagementPage() {
             <strong>&ldquo;The Cortisol Off-Switch That Gets Stuck&rdquo;</strong>
           </a>{" "}
           to learn why an enzyme called 11β-HSD2 sometimes fails to reset after
-          extended fasting and how the refeed stack of carbs, T3, and low-dose
-          aspirin fixes it.
+          extended fasting and how the refeed resets it, first with carbs and
+          low-dose aspirin, then with T3 once the T3 phase begins.
         </div>
       </div>
 

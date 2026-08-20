@@ -116,6 +116,16 @@ export default function ContraindicationsPage() {
           in these cases. Worth running past Yannick before you start T3.
         </div>
         <div className="question-item">
+          <span className="question-label">On an SSRI, SNRI, MAOI, or other serotonergic medication, or you have G6PD deficiency</span>
+          The early refeed can include methylene blue as case-by-case metabolic
+          support. Methylene blue is a monoamine oxidase inhibitor, so combined
+          with serotonergic drugs it can trigger serotonin syndrome, and in
+          G6PD deficiency it can cause red-cell breakdown. Neither is a reason
+          you cannot fast. It just means that particular support is left out or
+          handled with extra care, which is exactly the kind of thing to flag
+          before you build in.
+        </div>
+        <div className="question-item">
           <span className="question-label">A heavy medication load, or you are not in the right headspace</span>
           A complex medication picture, or a mindset that is not ready, can make
           deep fasting too risky to rush. Sort this out first.

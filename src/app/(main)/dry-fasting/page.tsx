@@ -44,6 +44,7 @@ export default function DryFastingPage() {
         "Day 3 is the hard wall (acidotic crisis). Days 4 to 5 are where deep repair and stem cell activity happen.",
         "Stop immediately if your resting heart rate goes above 120 bpm, you stop urinating for more than 12 hours, you feel confused or get blurry vision, or you develop kidney pain or leg swelling.",
         "Refeeding starts with coconut water only, sipped slowly. Eating too much too fast is dangerous.",
+        "No T3 during the fast. You finish the dry and water fast clean, keep antiviral coverage running through the refeed, and T3 therapy only begins after the first 7 days of refeeding.",
       ]} />
 
       <h2>Step 1: Getting Ready</h2>
@@ -253,8 +254,9 @@ export default function DryFastingPage() {
           it properly.
         </li>
         <li>
-          <strong>T3 therapy,</strong> started on day 3 of the water fast (see
-          below).
+          <strong>No T3 during the fast:</strong> T3 is no longer taken during
+          the water fast. It now begins only after the first 7 days of refeeding
+          (see below).
         </li>
         <li>
           <strong>L-Carnitine (optional):</strong> if energy is a significant
@@ -267,68 +269,54 @@ export default function DryFastingPage() {
         </li>
       </ul>
 
-      <h3>Starting T3 Therapy During the Water Fast</h3>
+      <h3>No T3 During the Fast</h3>
       <p>
-        T3 therapy begins on <strong>day 3 of the water fast</strong>, not at
-        the end of the fast, and not at the start of the refeed. The timing is
-        deliberate: by starting T3 on day 3, you are on{" "}
-        <strong>day 3 of T3 therapy</strong> when you have your first calories.
-        This matters because T3 needs to already be running when refeeding
-        begins, shifting your metabolism into a state that allows the
-        antiviral protocol (L-lysine + monolaurin) to start immediately on
-        refeeding day 1, rather than waiting.
+        Earlier versions of this protocol started T3 during the water fast. That
+        is no longer how it is done. You finish the entire fast, dry first and
+        then water, with no T3 at all. Adding a metabolism accelerator while the
+        body is still deep in fasting scarcity works against the fast instead of
+        with it. The fast has one job, which is to clear the system as deeply as
+        possible. Let it finish that job clean.
       </p>
       <p>
-        Follow the standard T3 ramp: start at <strong>15 mcg on day 3</strong>{" "}
-        of the water fast, adding 15 mcg each day per the T3 therapy protocol.
-        So:
+        What does carry through the transition is your antiviral coverage. The
+        fast clears out the viral reservoirs, and the moment they are most
+        likely to try to re-seed is when food comes back, not during the fast
+        itself. So the viral reactivation protocol (L-lysine + monolaurin, and
+        where indicated ivermectin or valacyclovir at the first sign of a
+        prodrome) stays in place straight through the fast-to-refeed handoff and
+        across the whole refeed. The{" "}
+        <a href="/viral-reactivation">Viral Reactivation</a> page has the full
+        stack.
       </p>
-      <table>
-        <tbody>
-          <tr>
-            <td style={{ width: "30%" }}>
-              <strong>Water Fast Day 1–2</strong>
-            </td>
-            <td>Water only. No T3 yet.</td>
-          </tr>
-          <tr>
-            <td>
-              <strong>Water Fast Day 3</strong>
-              <br />
-              <em>(T3 Day 1)</em>
-            </td>
-            <td>15 mcg T3</td>
-          </tr>
-          <tr>
-            <td>
-              <strong>Water Fast Day 4</strong>
-              <br />
-              <em>(T3 Day 2)</em>
-            </td>
-            <td>30 mcg T3</td>
-          </tr>
-          <tr>
-            <td>
-              <strong>Water Fast Day 5</strong>
-              <br />
-              <em>(T3 Day 3)</em>
-            </td>
-            <td>
-              45 mcg T3 (end of the water fast). You are now on T3 day 3 when
-              you break the fast with your first calories.
-            </td>
-          </tr>
-        </tbody>
-      </table>
+      <p>
+        During the first 7 days of refeeding we also add targeted mitochondrial
+        and metabolic support: methylene blue, and in some cases ethyl pyruvate.
+        This is decided case by case with each person, against their own history
+        and lab numbers, so no fixed amount is published here. It is worked out
+        directly in a consult. Its job is to help the mitochondria come back
+        online as calories return, before any T3 is layered on top.
+      </p>
+      <p>
+        T3 therapy does not start until{" "}
+        <strong>after the first 7 days of refeeding</strong>. The body needs to
+        be eating again, rehydrated, and metabolically back online before you
+        add the T3 signal. Once that first week of refeeding is behind you, the
+        T3 climb, hold, and taper run exactly as laid out on the{" "}
+        <a href="/t3-therapy">T3 Therapy</a> page.
+      </p>
 
       <h2>Step 4: Breaking the Fast (Refeeding)</h2>
       <p>
         <strong>Very Important:</strong> Eating too much too fast can be
         dangerous. Your refeed should last roughly as long as the fasting block.
         For a 10-day fast (5 dry + 5 water), give your body at least 10 days
-        before returning to normal eating. By this point, your T3 therapy is
-        already running at day 4, which is intentional and allows your
-        antiviral protocol to begin immediately.
+        before returning to normal eating. Your antiviral coverage keeps running
+        straight through this refeed window. During the first 7 days of
+        refeeding we also add case-by-case mitochondrial support (methylene
+        blue, and in some cases ethyl pyruvate), worked out individually rather
+        than by any published dose. T3 therapy is deliberately not part of this
+        window: it begins only after day 7 of refeeding.
       </p>
       <ul>
         <li>
@@ -344,12 +332,21 @@ export default function DryFastingPage() {
         <li>
           <strong>Day 1 After the Fast:</strong> Stick to coconut water. In the
           late afternoon, you can have a small bowl of soft, mushy rice if you
-          feel stable. Start your antiviral protocol (L-lysine + monolaurin)
-          today. T3 is already active and your kidneys can handle it.
+          feel stable. Continue your antiviral protocol (L-lysine + monolaurin),
+          and this is where case-by-case mitochondrial support (methylene blue)
+          is layered in. No T3 yet: it does not begin until after day 7 of
+          refeeding.
         </li>
         <li>
           <strong>Day 2 to 7:</strong> Follow the rice and fruit schedule. (See
-          the <a href="/refeeding">Refeeding Page</a> for the full plan).
+          the <a href="/refeeding">Refeeding Page</a> for the full plan). Through
+          this first week, keep the antiviral coverage and the case-by-case
+          methylene blue support going. T3 has still not started.
+        </li>
+        <li>
+          <strong>After Day 7:</strong> Begin T3 therapy. See the{" "}
+          <a href="/t3-therapy">T3 Therapy</a> page for the climb, hold, and
+          taper.
         </li>
       </ul>
 
@@ -369,8 +366,8 @@ export default function DryFastingPage() {
         <li>
           <strong>5 Days Dry + 5 Days Water (10 Days Total):</strong> The full
           protocol fasting block. Deep cellular restructuring followed by a
-          supercharged water fast with T3 already running. This is the
-          definitive version.
+          supercharged water fast that carries straight into a guided refeed.
+          This is the definitive version.
         </li>
       </ul>
 

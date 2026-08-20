@@ -42,6 +42,7 @@ export default function RefeedingPage() {
         "Never break a dry fast with solid food. Start with coconut water only, sipping slowly over the first hour.",
         "Refeeding syndrome is a real danger. Do not eat solid proteins on day 1, avoid caffeine for at least 7 days, and do not combine high-fat and high-carb foods in the first few days.",
         "After the first week, ramp calories gradually, targeting 3,000 or more per day to complete the metabolic reset.",
+        "Antivirals keep running across the whole first week, mitochondrial support (methylene blue, and in some cases ethyl pyruvate) is added case by case with no fixed dose, and T3 therapy does not begin until after 7 full days of refeeding.",
         "Watch for a stuck-cortisol pattern after the fast (puffiness, elevated blood pressure, belly fat rebound) and see the dedicated cortisol section if it appears.",
       ]} />
       <p>
@@ -152,6 +153,109 @@ export default function RefeedingPage() {
           </tr>
         </tbody>
       </table>
+
+      <h2>The First 7 Days: What Runs Alongside the Food</h2>
+      <p>
+        The food schedule above is only half of the first week. Three things
+        run in parallel with it, and the timing of each one matters as much as
+        what is on your plate. Get this window right and the rest of the
+        protocol has a clean foundation to build on.
+      </p>
+
+      <div className="guiding-questions box-warning">
+        <h3>Keep the Antiviral Coverage Running the Whole Week</h3>
+        <p>
+          The viral reactivation window does not close when you take your first
+          sip of coconut water. It stays open across the entire fast-to-refeed
+          transition and through the first seven days, because that is exactly
+          the stretch where your immune system is still rebuilding and latent
+          herpesviruses look for a gap. Do not treat antivirals as a day-1
+          checkbox. Carry them all the way through the week.
+        </p>
+        <div className="question-item">
+          <span className="question-label">Ivermectin stays primary:</span>
+          It has the better gut microbiome profile during the refeed and pulls
+          double duty as an antiparasitic. Keep it running through the
+          transition and across the refeed, not just on the first day.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Valacyclovir stays on standby:</span>
+          It is your prodrome rescue. The moment you feel tingling, the early
+          signal of an oncoming HSV outbreak, you use it. Have it in your
+          possession before the fast ends.
+        </div>
+        <div className="question-item">
+          <span className="question-label">L-lysine + monolaurin continue daily:</span>
+          Start both with your first meal and keep them going through the week
+          while you also hold off on arginine-rich foods (nuts, seeds,
+          chocolate, peanut butter). The full mechanism and the
+          nine-herpesvirus breakdown live on the{" "}
+          <a href="/viral-reactivation">Viral Reactivation</a> page.
+        </div>
+      </div>
+
+      <div className="guiding-questions box-info">
+        <h3>Mitochondrial Support During the First 7 Days: Methylene Blue (and Sometimes Ethyl Pyruvate)</h3>
+        <p>
+          Coming out of the fast, your mitochondria are the bottleneck. They
+          have been through autophagy and are rebuilding, and the first week of
+          refeeding is when they are most responsive to being pushed in the
+          right direction. This is where methylene blue earns its place, and in
+          selected cases ethyl pyruvate alongside it.
+        </p>
+        <div className="question-item">
+          <span className="question-label">Methylene blue, as electron-transport support:</span>
+          Coming out of a fast, the cell is carrying a heavy load of NADH from
+          all the fat-burning, a kind of reductive stress, and if the electron
+          transport chain cannot clear it that NADH backs up and stalls energy
+          production. Methylene blue acts as an alternative electron carrier: it
+          accepts electrons from the backed-up NADH and passes them down the
+          chain, restoring the NAD+ to NADH balance so the mitochondria can make
+          energy again. It keeps the respiratory chain moving even where
+          individual complexes are still damaged, which in a body climbing out
+          of the metabolic trough of a fast can be the difference between an
+          energetic refeed and a flat one.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Ethyl pyruvate, in selected cases:</span>
+          For some patients we layer in ethyl pyruvate as an additional
+          metabolic and anti-inflammatory support during the same window.
+          Whether it belongs in your stack depends on your specific
+          presentation.
+        </div>
+        <div className="question-item">
+          <span className="question-label">This is decided case by case, with no fixed number:</span>
+          Methylene blue and ethyl pyruvate are individualized. There is no
+          one-size dose, no drop count, no amount published here, and that is
+          deliberate. The right approach is worked out with each person in the
+          consult, weighed against their medications (methylene blue interacts
+          dangerously with serotonergic drugs, a real hard-stop that has to be
+          screened for) and their history. This is exactly the kind of call the
+          fasting detective approach exists to make. Do not self-prescribe a
+          number off the internet.
+        </div>
+      </div>
+
+      <div className="guiding-questions box-warning">
+        <h3>T3 Does Not Start Yet</h3>
+        <p>
+          This is worth stating plainly, because it is a change from how the
+          protocol used to be sequenced. You finish the fast, the dry fast and
+          then the water fast, with no T3 on board. You do not start T3 during
+          the fast, and you do not start it in the first week of refeeding. T3
+          therapy begins only after you have completed seven full days of
+          refeeding: once the food is back in, once the antiviral coverage has
+          carried you through the reactivation window, and once the
+          mitochondrial support has had a week to work.
+        </p>
+        <p>
+          After those seven days, the T3 protocol starts and the climb, hold,
+          and taper run exactly as laid out on the{" "}
+          <a href="/t3-therapy">T3 Therapy</a> page. Starting T3 earlier, on top
+          of a gut and a metabolism that are still coming back online, is the
+          mistake this sequence is built to prevent.
+        </p>
+      </div>
 
       <h2>How Many Calories to Eat During Recovery</h2>
       <div className="guiding-questions box-info">
@@ -314,11 +418,13 @@ export default function RefeedingPage() {
         <div className="question-item">
           <span className="question-label">Why This Refeed Stack Targets It:</span>
           Carbohydrates signal abundance to the hypothalamus (reducing
-          cortisol output). Slow-release T3 restores the metabolic clearance
-          pathway that pulls active cortisol out of the bloodstream. Low-dose
-          aspirin blocks the inflammatory cytokines (TNF-α especially) that
-          jam the off-switch closed. The three together flip the switch back
-          to its normal balance.
+          cortisol output). Low-dose aspirin blocks the inflammatory cytokines
+          (TNF-α especially) that jam the off-switch closed. In the first seven
+          days of refeeding these two do the work, because T3 is not on board
+          yet. Once T3 therapy begins after day 7 of refeeding, slow-release T3
+          restores the metabolic clearance pathway that pulls active cortisol
+          out of the bloodstream and completes the correction. Together they
+          flip the switch back to its normal balance.
         </div>
         <div className="question-item">
           <span className="question-label">Full Mechanism:</span>
@@ -454,8 +560,11 @@ export default function RefeedingPage() {
         <h3>The Refeed-Day Action Checklist</h3>
         <p>
           Three things to have in place by the time you take your first
-          calories. All three are explained in full mechanistic detail on
-          the Viral Reactivation page; this is the action shortlist.
+          calories, and to keep running across the whole first week, not just
+          on day one. The reactivation window stays open through the entire
+          fast-to-refeed transition and the first seven days of refeeding. All
+          three are explained in full mechanistic detail on the Viral
+          Reactivation page; this is the action shortlist.
         </p>
         <div className="question-item">
           <span className="question-label">L-Lysine + Monolaurin from Refeed Day 1</span>

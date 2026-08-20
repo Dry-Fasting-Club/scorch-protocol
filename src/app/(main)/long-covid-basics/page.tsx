@@ -171,9 +171,9 @@ export default function LongCovidBasicsPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Low-Dose Methylene Blue</span>
-          Highly individualized. Start very low (0.5 to 1 mg). Mitochondrial
-          electron-transport support. Avoid combining with SSRI
-          antidepressants (serotonin syndrome risk).
+          Strictly individualized: the amount is worked out case by case, not a
+          fixed number. Mitochondrial electron-transport support. Avoid
+          combining with SSRI antidepressants (serotonin syndrome risk).
         </div>
         <div className="question-item">
           <span className="question-label">Resveratrol or Combination Flavonoid</span>

@@ -46,7 +46,11 @@ const faqItems = [
   },
   {
     question: "Should I take probiotics or vitamins immediately?",
-    answer: "No. Your gut mucosa is open and sensitive during early refeeding; strong supplements can irritate it. The exception is antivirals on Day 1: if you carry any of the nine herpesviruses (HSV-1, HSV-2, VZV, EBV, CMV, HHV-6A, HHV-6B, HHV-7, or HHV-8), start L-lysine and monolaurin immediately. In the Scorch Protocol, T3 therapy has already been running since Day 3 of the water fast, so your kidneys are supported and you do not need to wait. Monolaurin and L-lysine together disrupt viral envelopes and block arginine-dependent replication.",
+    answer: "No. Your gut mucosa is open and sensitive during early refeeding; strong supplements can irritate it. The exception is antivirals: if you carry any of the nine herpesviruses (HSV-1, HSV-2, VZV, EBV, CMV, HHV-6A, HHV-6B, HHV-7, or HHV-8), start L-lysine and monolaurin with your first meal and keep them going across the refeed. You do not wait because the reactivation window is open right now, in the energetic trough between the fasted and fully refed states, and L-lysine and monolaurin are gentle enough for an open gut. Note that T3 is not running at this point. In the current protocol you finish the entire fast with no T3, keep the antiviral coverage going across the refeed, and T3 therapy does not begin until after seven full days of refeeding, so it plays no part in this early-refeed decision. Monolaurin and L-lysine together disrupt viral envelopes and block arginine-dependent replication.",
+  },
+  {
+    question: "When does T3 therapy actually start? I thought it ran during the fast.",
+    answer: "It does not run during the fast anymore. You finish the whole fasting block, dry fast then water fast, with no T3 on board. Across the refeed you keep the antiviral coverage going, and during the first seven days we add mitochondrial support, methylene blue and in some cases ethyl pyruvate, decided case by case with no fixed dose published here. T3 therapy begins only after you have completed seven full days of refeeding. Once you cross that mark, the T3 climb, hold, and taper run exactly as described on the T3 Therapy page. Starting T3 on top of a gut and metabolism that are still coming back online is the mistake this sequence is built to prevent.",
   },
   {
     question: "When can I go back to \"normal\" eating?",
@@ -236,22 +240,49 @@ export default function RefeedingFaqPage() {
               sensitive. Strong supplements can irritate it.
             </p>
             <p>
-              <strong>Exception: antivirals on day 1.</strong> If you carry
+              <strong>Exception: antivirals.</strong> If you carry
               any of the nine herpesviruses (HSV-1, HSV-2, VZV, EBV, CMV,
               HHV-6A, HHV-6B, HHV-7, or HHV-8), start{" "}
-              <strong>L-lysine and monolaurin</strong> on refeeding day 1. In
-              the Scorch Protocol, T3 therapy has already been running since
-              day 3 of the water fast, so your kidneys are supported and you do
-              not need to wait before starting these. Monolaurin and L-lysine
-              together disrupt viral envelopes and block arginine-dependent
-              replication. This also applies to Lyme herbal protocols, but those
-              must be reintroduced very gently.
+              <strong>L-lysine and monolaurin</strong> with your first meal and
+              keep them going across the refeed. You do not wait because the
+              reactivation window is open right now, in the energetic trough
+              between the fasted and fully refed states, and L-lysine and
+              monolaurin are gentle enough for an open gut. Note that T3 is not
+              running at this point. In the current protocol you finish the
+              entire fast with no T3, keep the antiviral coverage going across
+              the refeed, and T3 therapy does not begin until after seven full
+              days of refeeding, so it plays no part in this early-refeed
+              decision. Monolaurin and L-lysine together disrupt viral envelopes
+              and block arginine-dependent replication. This also applies to
+              Lyme herbal protocols, but those must be reintroduced very gently.
             </p>
           </div>
         </div>
 
         <div className="question-item">
-          <h3>10. When can I go back to &ldquo;normal&rdquo; eating?</h3>
+          <h3>
+            10. When does T3 therapy actually start? I thought it ran during
+            the fast.
+          </h3>
+          <div className="answer-text">
+            <p>
+              It does not run during the fast anymore. You finish the whole
+              fasting block, dry fast then water fast, with no T3 on board.
+              Across the refeed you keep the antiviral coverage going, and
+              during the first seven days we add mitochondrial support,
+              methylene blue and in some cases ethyl pyruvate, decided case by
+              case with no fixed dose published here. T3 therapy begins only
+              after you have completed seven full days of refeeding. Once you
+              cross that mark, the T3 climb, hold, and taper run exactly as
+              described on the <a href="/t3-therapy">T3 Therapy</a> page.
+              Starting T3 on top of a gut and metabolism that are still coming
+              back online is the mistake this sequence is built to prevent.
+            </p>
+          </div>
+        </div>
+
+        <div className="question-item">
+          <h3>11. When can I go back to &ldquo;normal&rdquo; eating?</h3>
           <div className="answer-text">
             <p>
               The Khoroshilov standard is:{" "}

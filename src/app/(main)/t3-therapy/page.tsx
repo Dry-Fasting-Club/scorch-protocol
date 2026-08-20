@@ -55,7 +55,7 @@ export default function T3TherapyPage() {
         "The 30-day cycle climbs 15 mcg per day for 10 days, holds at the peak, then tapers slowly over 20 days. Use Slow-Release T3, not instant-release.",
         "Stop increasing your dose if your resting heart rate goes above 100 bpm. If it goes above 90 bpm before you even start, resolve that first.",
         "T3 must be paired with enough calories and some physical movement. Without sufficient fuel, T3 burns muscle instead of fat.",
-        "In the Scorch Protocol, T3 starts on day 3 of the water fast (not at the refeed) so it is already running when you begin eating again.",
+        "In the Scorch Protocol, T3 does not run during the fast. You finish the entire fast (dry fast then water fast) with no T3, continue your antiviral coverage through the refeed, and start T3 only after the first 7 days of refeeding.",
       ]} />
 
       <div className="guiding-questions box-danger">
@@ -406,47 +406,71 @@ export default function T3TherapyPage() {
         </p>
       </div>
 
-      <h2>When to Start T3: The Fasting Block Integration</h2>
+      <h2>When to Start T3: After the First 7 Days of Refeeding</h2>
       <div className="guiding-questions box-info">
-        <h3>Start T3 on Day 3 of the Water Fast, Not After</h3>
+        <h3>Finish the Fast First. T3 Starts After 7 Days of Refeeding.</h3>
         <p>
-          In the Scorch Protocol, T3 therapy does not begin at the refeed. It
-          begins on <strong>day 3 of the water fast</strong> that follows the
-          5-day dry fast. This timing is intentional.
+          In the Scorch Protocol, T3 does not run during the fast. You finish
+          the whole fast, the dry fast first and then the water fast, with no T3
+          on board. The fast is doing its own work: clearing damaged cells,
+          draining the viral reservoir, resetting insulin signaling. Loading a
+          metabolic accelerant on top of that while zero calories are coming in
+          is how you burn muscle and stress the heart for nothing. Let the fast
+          finish clean.
         </p>
         <p>
-          By starting T3 on day 3 of the water fast, you are on{" "}
-          <strong>T3 day 3 when you have your first calories</strong>. This
-          matters because T3 needs to already be running when refeeding begins
-          It supports your metabolism, keeps your kidneys in a stronger state,
-          and crucially, it means your antiviral protocol (L-lysine +
-          monolaurin) can start immediately on refeeding day 1. You do not need
-          to wait for kidney rehydration before beginning antivirals.
+          What you do carry straight through the fast-to-refeed transition is
+          your viral reactivation protocol. The antiviral coverage (ivermectin,
+          valacyclovir if you feel a prodrome coming on, L-lysine plus
+          monolaurin) does not pause. That handoff from fasting to eating is the
+          exact energetic trough where dormant herpesviruses wake up, so the
+          antivirals stay on through the transition and across the entire
+          refeed. Do not drop them the moment you start eating.
         </p>
+        <div className="question-item">
+          <span className="question-label">The First 7 Days of Refeeding: Rebuild the Engine Before You Rev It</span>
+          During the first 7 days of refeeding, before any T3, the job is
+          mitochondrial and metabolic support. This is where methylene blue
+          comes in, and in some cases ethyl pyruvate as well. Coming out of a
+          fast, the cell is carrying a heavy load of NADH from all that
+          fat-burning, a kind of reductive stress, and if the electron
+          transport chain cannot clear it that NADH backs up and stalls energy
+          production. Methylene blue fixes the electron redox directly: it acts
+          as an alternative electron carrier, accepting electrons from the
+          backed-up NADH and passing them down the chain, restoring the NAD+ to
+          NADH balance so the mitochondria can make energy again. These are
+          decided case by case with each individual. There is no dose printed
+          here, and that is deliberate: methylene blue and ethyl pyruvate are
+          individualized in your consult, matched to your own presentation,
+          never a generic number pulled off a webpage.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Then T3 Starts: After Day 7 of the Refeed</span>
+          Once you have 7 days of refeeding behind you, with fuel flowing and
+          the mitochondria supported, T3 begins. From there the 30-day cycle
+          below runs exactly as written: the 15 mcg/day climb, the short hold at
+          the peak, and the slow 20-day taper. Starting T3 after the refeed is
+          established, instead of mid-fast, means you never ask a metabolic
+          accelerant to run on an empty tank. The calories are already there,
+          the antivirals have held the line, and the mitochondrial support has
+          done its prep work.
+        </div>
         <div className="question-item">
           <span className="question-label">Adjust for Body Composition:</span>
-          The day-3 window assumes you are carrying enough body fat. If you are
-          very lean or close to skin-and-bones, starting T3 that early can
-          trigger an adrenaline surge, so wait further into the refeed before you
-          begin. If you have more body fat to work with, day 3 of the water fast
-          is the ideal start. When you are unsure, this is a timing call worth
-          confirming with Yannick directly.
+          The 7-day mark is the floor, not a fixed date. It assumes you are
+          carrying enough body fat to fuel what T3 demands. If you are very lean
+          or close to skin-and-bones, starting T3 even after 7 days can trigger
+          an adrenaline surge, so keep refeeding and rebuilding further before
+          you begin. When you are unsure how much refeed runway you need, this
+          is a timing call worth confirming with Yannick directly.
         </div>
         <div className="question-item">
-          <span className="question-label">The Ramp During the Fast:</span>
-          Follow the standard 15 mcg/day climb. Water fast day 3 = 15 mcg
-          (T3 day 1). Water fast day 4 = 30 mcg (T3 day 2). Water fast day 5
-          = 45 mcg (T3 day 3). You then continue climbing into the refeed from
-          there, with T3 day 4 being your first day of eating.
-        </div>
-        <div className="question-item">
-          <span className="question-label">Also a High-Risk Window for Viral Reactivation:</span>
-          When T3 cycles end and doses taper down, your metabolic rate
-          temporarily dips. This creates the same energetic trough that
-          triggers herpesvirus reactivation during the fast-to-refeed
-          transition. Continue antiviral coverage during T3 wind-down until
-          your waking temperature has stabilized at your baseline for 5 to 7
-          consecutive days.
+          <span className="question-label">The Taper Is Also a High-Risk Window for Viral Reactivation:</span>
+          When a T3 cycle ends and the dose tapers down, your metabolic rate
+          temporarily dips. That dip is the same energetic trough that lets
+          herpesviruses flare during the fast-to-refeed transition. Keep
+          antiviral coverage running through the T3 wind-down until your waking
+          temperature has held at your baseline for 5 to 7 consecutive days.
         </div>
       </div>
 
@@ -750,8 +774,8 @@ export default function T3TherapyPage() {
         </div>
         <div className="question-item">
           <span className="question-label">When You Cannot Hit High Calories Yet:</span>
-          Some people, especially early in the refeed, cannot physically
-          eat enough to match T3&rsquo;s demand. Their gut is not ready,
+          Some people, especially in the first days of the T3 cycle, cannot
+          physically eat enough to match T3&rsquo;s demand. Their gut is not ready,
           appetite is suppressed, or digestion is too compromised. In this
           case, there are specific strategies that can help:
           <ul style={{ marginTop: "0.5rem" }}>

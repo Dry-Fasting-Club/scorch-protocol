@@ -415,7 +415,7 @@ export default function SuccessRateDataPage() {
         <li>
           <strong>10-Day Fasting Block (5 Dry + 5 Water):</strong> intense
           autophagy and stem cell activation during the dry phase, followed by
-          a supercharged water fast with T3 already running
+          a supercharged water fast that carries straight into the guided refeed
         </li>
         <li>
           <strong>Proper Refeeding</strong> (stem cell proliferation and tissue
