@@ -28,7 +28,7 @@ export default function HghTherapyPage() {
         "hGH is the rebuild signal. Dry fasting clears damaged cells, T3 restores metabolic power, and hGH tells your body to build new healthy muscle and immune tissue from what was freed.",
         "Cyproheptadine and hGH work together. Injected hGH bypasses the pituitary signal cyproheptadine blunts, so you do not need to stop cyproheptadine before starting hGH.",
         "Some people need to eat significantly more calories than they ever have during this phase. Without enough fuel, the rebuild cannot happen. Research suggests 9 months of treatment may be needed to feel substantial results.",
-        "If you cannot access prescription or UGL hGH, Tesamorelin (a GH secretagogue peptide) is a legal, easier-to-source alternative with milder but still meaningful effects.",
+        "hGH is the preferred base: it is the actual hormone, so it needs nothing from your body to work, puts the least strain on the system, and gives the most benefit. If you truly cannot access hGH, CJC-1295 + Ipamorelin can be tried to help wake up your own pituitary, but it is an awakening aid, not a full replacement.",
       ]} />
 
       <p>
@@ -272,12 +272,12 @@ export default function HghTherapyPage() {
             purity testing and start at the lowest sensible dose.
           </li>
           <li>
-            <strong>Can&rsquo;t access either?</strong> Consider{" "}
-            <strong>Tesamorelin</strong>, a GH secretagogue peptide. Rather
-            than replacing hGH directly, it signals your pituitary to maximize
-            its own production. Output is limited (typically below 2 IU) but
-            it is legal, far easier to source, and still meaningfully effective
-            for supporting the recovery phase.
+            <strong>Can&rsquo;t access either?</strong> hGH is strongly
+            preferred as the base, but if it is truly out of reach you can try{" "}
+            <strong>CJC-1295 + Ipamorelin</strong> to stimulate and speed up
+            your own pituitary&rsquo;s awakening. These do not replace hGH, they
+            only nudge your GH axis to wake back up, so treat them as an
+            awakening aid rather than a full substitute.
           </li>
         </ul>
         <p>
@@ -362,24 +362,25 @@ export default function HghTherapyPage() {
           lasting up to a year post-discontinuation.
         </div>
         <div className="question-item">
-          <span className="question-label">hGH vs. Tesamorelin:</span>
-          Tesamorelin is a milder alternative that stimulates your pituitary to
-          release its own GH in a pulsatile, natural pattern, making it safer
-          and easier to source, but limited (typically below 2 IU output) and
-          more targeted toward visceral fat. hGH provides broader systemic
-          effects: stronger muscle and tissue rebuilding, more pronounced thymic
-          regeneration, and a direct anabolic signal to every cell in your body.
-          For serious chronic illness recovery, hGH is the more powerful tool.
+          <span className="question-label">hGH vs. secretagogues:</span>
+          hGH is the preferred base. It is the actual hormone, so it needs
+          nothing from your body to work, puts the least strain on the system,
+          and gives the most benefit: strong muscle and tissue rebuilding,
+          pronounced thymic regeneration, and a direct anabolic signal to every
+          cell. Secretagogues like CJC-1295 + Ipamorelin only prompt your own
+          pituitary to release GH, so they depend on your axis responding and do
+          not replace hGH. We keep them for one narrow job: helping to wake up
+          and speed the pituitary&rsquo;s own recovery.
         </div>
         <div className="question-item">
           <span className="question-label">Safety &amp; Immunogenicity:</span>
           Modern recombinant hGH is bioidentical to what your pituitary
           produces. As a result, the immune system rarely recognizes it as
           foreign, with antibody formation rates in adults of approximately 2 to 3%,
-          far lower than many common medications. Tesamorelin, by comparison,
-          triggers antibody formation in up to 50% of users (though usually
-          without clinical impact). For most people, well-sourced recombinant
-          hGH is remarkably well tolerated.
+          far lower than many common medications. Peptide secretagogues, by
+          comparison, can provoke antibody responses against the peptide (usually
+          without clinical impact), one more reason hGH stays the base. For most
+          people, well-sourced recombinant hGH is remarkably well tolerated.
         </div>
         <div className="question-item">
           <span className="question-label">The Bottom Line:</span>

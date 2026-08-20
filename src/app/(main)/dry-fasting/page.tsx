@@ -259,9 +259,11 @@ export default function DryFastingPage() {
           (see below).
         </li>
         <li>
-          <strong>L-Carnitine (optional):</strong> if energy is a significant
-          issue, small amounts of L-carnitine can help. This is not necessary
-          for everyone.
+          <strong>No L-carnitine:</strong> we no longer use L-carnitine. In
+          Yannick&rsquo;s experience it works against the thyroid gains the
+          protocol is driving (it blunts thyroid hormone&rsquo;s effect in the
+          tissues), and our working theory is that this is part of why the
+          thyroid slows on carnivore-style diets.
         </li>
         <li>
           <strong>Nothing else:</strong> no food, no juice, no broth, no

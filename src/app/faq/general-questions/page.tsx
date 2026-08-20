@@ -40,7 +40,7 @@ const faqItems = [
   },
   {
     question: "Why do I need hGH therapy?",
-    answer: "Growth Hormone (hGH) is the signal that tells your body to rebuild. It helps build new, healthy cells and improves the immune system. hGH therapy is not necessary for everyone, but it can be extremely helpful because many chronic illnesses are associated with low hGH pituitary secretion. If hGH is hard to access, easier-to-source growth hormone secretagogues like CJC-1295 and Ipamorelin can be used in its place on a slightly modified protocol.",
+    answer: "Growth Hormone (hGH) is the signal that tells your body to rebuild. It helps build new, healthy cells and improves the immune system. hGH therapy is not necessary for everyone, but it can be extremely helpful because many chronic illnesses are associated with low hGH pituitary secretion. hGH is the preferred base (it is the actual hormone, so it needs nothing from your body, puts the least strain on the system, and gives the most benefit). If hGH is hard to access, CJC-1295 and Ipamorelin can be tried to help wake up your own pituitary, as an awakening aid rather than a full replacement.",
   },
   {
     question: "Can I drink water during a dry fast?",

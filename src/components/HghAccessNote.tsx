@@ -1,9 +1,9 @@
 import { MEMBERS_PORTAL_URL } from "@/lib/constants";
 
 /**
- * Small asterisk note shown wherever hGH is taught: if hGH is hard to source,
- * growth-hormone secretagogues (CJC-1295 + Ipamorelin) can substitute on a
- * slightly modified protocol. Points to the portal to ask Yannick for the plan.
+ * Small asterisk note shown wherever hGH is taught: hGH is the preferred base,
+ * but if it is hard to source, CJC-1295 + Ipamorelin can be tried to help wake
+ * the pituitary (an awakening aid, not a full substitute). Points to the portal.
  */
 export default function HghAccessNote() {
   return (
@@ -19,10 +19,11 @@ export default function HghAccessNote() {
       }}
     >
       <strong style={{ color: "var(--accent-color)" }}>* Can&rsquo;t get hGH?</strong>{" "}
-      Real hGH is the strongest rebuilding signal, but it is not the only way in.
-      Easier-to-source growth hormone secretagogues like{" "}
-      <strong>CJC-1295 + Ipamorelin</strong> can be used in its place on a slightly
-      modified protocol.{" "}
+      Real hGH is the preferred base: it is the actual hormone, so it needs
+      nothing from your body, puts the least strain on the system, and gives the
+      most benefit. If it is truly out of reach, secretagogues like{" "}
+      <strong>CJC-1295 + Ipamorelin</strong> can be tried to help wake up your own
+      pituitary, as an awakening aid rather than a full replacement.{" "}
       <a href={MEMBERS_PORTAL_URL} target="_blank" rel="noopener noreferrer">
         Ask Yannick in the portal
       </a>{" "}
