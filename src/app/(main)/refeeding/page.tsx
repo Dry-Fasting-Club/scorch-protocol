@@ -372,7 +372,7 @@ export default function RefeedingPage() {
           energy, but calibrated so fat accumulation stays manageable.
           This balance is what allows the T3 therapy phase to work at its
           best: a well-fueled body on T3 rebuilds tissue; an underfueled
-          body on T3 just burns faster. Peptides like Retatrutide and BPC-157 can further optimize the
+          body on T3 just burns faster. Because a long-starved appetite fills up fast, the calories have to be dense: load oils, full-fat dairy, eggs, fatty fish and meat, and starchy carbs so you actually cover the window instead of leaving it half-filled and wasting muscle. Peptides like Retatrutide and BPC-157 can further optimize the
           energy-to-composition ratio for people who need additional help here.
           (L-carnitine is no longer used: it works against the peripheral
           thyroid effect the protocol depends on.)

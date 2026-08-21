@@ -128,6 +128,20 @@ export default function PreparationPage() {
               It affects how well your body handles stress, including fasting.
             </td>
           </tr>
+          <tr>
+            <td>
+              <strong>
+                Sex Hormones (Total &amp; Free Testosterone, Estradiol, SHBG)
+              </strong>
+            </td>
+            <td>
+              Your baseline before the rebuild. Years of low-carb fasting drive
+              SHBG up, which can hide a low free testosterone under a
+              normal-looking total. Estradiol goes on the same panel because you
+              protect it, not crush it, when testosterone comes online later.
+              Retest after carbs return.
+            </td>
+          </tr>
         </tbody>
       </table>
 
@@ -140,14 +154,10 @@ export default function PreparationPage() {
       <div className="guiding-questions box-warning">
         <h3>Priority Supplements Before Fasting</h3>
         <div className="question-item">
-          <span className="question-label">Vitamin D3 + K2:</span>
-          If your Vitamin D is below 40 ng/mL, supplement aggressively (often
-          5,000 to 10,000 IU/day with K2) for at least 4 to 8 weeks before your fast.
-        </div>
-        <div className="question-item">
-          <span className="question-label">B12 (Methylcobalamin):</span>
-          Critical for nerve function and energy. Low B12 is extremely common in
-          chronic illness. Sublingual B12 is absorbed better than pills.
+          <span className="question-label">Known Deficiencies:</span>
+          If a blood test already shows a specific vitamin or mineral deficiency,
+          correct it before you fast. Do not walk into a fast carrying a known,
+          uncorrected shortfall.
         </div>
         <div className="question-item">
           <span className="question-label">Magnesium (Glycinate or Malate):</span>
@@ -409,6 +419,16 @@ export default function PreparationPage() {
           this is the window where you bring electrolytes back up to a safe
           baseline. You shed the excess earlier so the fast starts gently;
           you do not want to walk in actually depleted.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Best Pre-Fast Hydration: Carb Juicing</span>
+          Real hydration is more than water. The carbohydrates in fresh juice
+          help your body actually hold onto water and carry minerals and
+          vitamins into the cells, so carb juicing (fresh fruit and vegetable
+          juice, no pulp) is the ideal way to hydrate going into the fast. The
+          one exception is the ketogenic path: if you have been specifically
+          cleared for a keto prep, stay on water and electrolytes and skip the
+          juice so you do not break ketosis before Day 0.
         </div>
         <div className="question-item">
           <span className="question-label">Why It Matters:</span>

@@ -117,7 +117,7 @@ export default function ContraindicationsPage() {
         </div>
         <div className="question-item">
           <span className="question-label">On an SSRI, SNRI, MAOI, or other serotonergic medication, or you have G6PD deficiency</span>
-          The early refeed can include methylene blue as case-by-case metabolic
+          The early refeed can include methylene blue (and, in selected cases, ethyl pyruvate alongside it) as case-by-case metabolic
           support. Methylene blue is a monoamine oxidase inhibitor, so combined
           with serotonergic drugs it can trigger serotonin syndrome, and in
           G6PD deficiency it can cause red-cell breakdown. Neither is a reason

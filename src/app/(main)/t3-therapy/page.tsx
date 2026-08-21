@@ -714,6 +714,15 @@ export default function T3TherapyPage() {
           health, and it supports the bone health T3 therapy demands. Use MK-4
           or MK-7.
         </div>
+        <div className="question-item">
+          <span className="question-label">Vitamin D3 + K2 (immune, bone, mood):</span>
+          The co-factor that pairs best with T3. In Yannick&rsquo;s experience
+          most chronically ill patients run deficient, and correcting it steadies
+          immune function, protects bone while T3 is driving hard, and lifts mood.
+          Run D3 together with K2 (the same K2 that partners your aspirin above).
+          If your vitamin D is below 40 ng/mL, dose 5,000 to 10,000 IU/day of D3
+          through this phase.
+        </div>
         <p style={{ marginTop: "1rem", fontStyle: "italic" }}>
           None of these replace T3. They are what keep T3 working long enough to
           reset your baseline.
@@ -782,6 +791,20 @@ export default function T3TherapyPage() {
           Keep calories at or above your target (see the Refeeding page)
           and prioritize protein to give your body something to build with,
           not just burn.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Make the Calories Dense: This Is a Must-Do, Not a Preference</span>
+          Here is where people quietly fail this phase. T3 throws the eating
+          window wide open, and it is on you to actually fill it. A wrecked
+          appetite cannot hit 3,000-plus calories a day on bulky, watery,
+          low-calorie food: you get full long before you get enough. So make
+          every bite count and go calorie-dense: olive oil and butter on
+          everything, full-fat dairy, eggs, fatty fish and meat, nut butters,
+          honey, white rice, ripe fruit. When high T3 opens the window and you
+          leave it half-filled, the body does not coast, it strips muscle and
+          lean tissue to cover the demand you just created. Covering that window
+          with dense, high-calorie food is the line between rebuilding and
+          wasting away.
         </div>
         <div className="question-item">
           <span className="question-label">Move Your Muscles: Tell Your Brain to Keep Them</span>

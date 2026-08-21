@@ -333,6 +333,37 @@ export default function HghTherapyPage() {
         </p>
       </div>
 
+      <div className="guiding-questions box-success">
+        <h3>The Final Step: Testosterone, After the Rebuild Is Underway</h3>
+        <p>
+          In Yannick&rsquo;s own recovery, testosterone was the last lever, not
+          an early one. It goes in only after the earlier work is done: the fast
+          has cleared the ground, T3 has restored metabolic power, and the hGH
+          rebuild is already established. On that base, testosterone adds
+          mitochondrial density and muscle and acts as the anabolic counterweight
+          to the catabolic, high-cortisol state chronic illness leaves behind.
+          Adding it before the prior cycles are complete is building density on
+          an engine that is not yet running. This ordering is Yannick&rsquo;s
+          clinical framework rather than a tested protocol.
+        </p>
+        <div className="question-item">
+          <span className="question-label">How it is run:</span>
+          Case by case, only once prior cycles and blood work support it. Monitor
+          hematocrit and hemoglobin (testosterone thickens the blood), and let
+          estradiol rise rather than reflexively crushing it, since some of
+          testosterone&rsquo;s benefits run through the estradiol it converts
+          into.
+        </div>
+        <p>
+          <em>
+            Medical caveat: testosterone is a prescription therapy with real
+            cardiac, hematologic, and endocrine risks. Every dose and change is
+            an individualized, physician-supervised decision, not a self-serve
+            lever.
+          </em>
+        </p>
+      </div>
+
       <h2 id="research">The Research Case for hGH in Chronic Illness</h2>
       <p>
         The published mechanism for why this matters specifically for

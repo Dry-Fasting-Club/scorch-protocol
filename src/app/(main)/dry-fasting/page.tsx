@@ -335,7 +335,7 @@ export default function DryFastingPage() {
           <strong>Day 1 After the Fast:</strong> Stick to coconut water. In the
           late afternoon, you can have a small bowl of soft, mushy rice if you
           feel stable. Continue your antiviral protocol (L-lysine + monolaurin),
-          and this is where case-by-case mitochondrial support (methylene blue)
+          and this is where case-by-case mitochondrial support (methylene blue, and in some cases ethyl pyruvate)
           is layered in. No T3 yet: it does not begin until after day 7 of
           refeeding.
         </li>
@@ -343,7 +343,7 @@ export default function DryFastingPage() {
           <strong>Day 2 to 7:</strong> Follow the rice and fruit schedule. (See
           the <a href="/refeeding">Refeeding Page</a> for the full plan). Through
           this first week, keep the antiviral coverage and the case-by-case
-          methylene blue support going. T3 has still not started.
+          methylene blue (and, for some, ethyl pyruvate) support going. T3 has still not started.
         </li>
         <li>
           <strong>After Day 7:</strong> Begin T3 therapy. See the{" "}
