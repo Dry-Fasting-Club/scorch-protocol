@@ -5,6 +5,7 @@ import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import InterestingVideoBlock from "@/components/InterestingVideoBlock";
 import KeyTakeaways from "@/components/KeyTakeaways";
+import StarterKitCallout from "@/components/StarterKitCallout";
 import EmailCapture from "@/components/EmailCapture";
 import JsonLd from "@/components/JsonLd";
 import ReferencesSection from "@/components/ReferencesSection";
@@ -37,6 +38,7 @@ export default function RefeedingPage() {
         }
       ])} />
       <h1>Phase 3: The Refeed</h1>
+      <StarterKitCallout />
       <KeyTakeaways points={[
         "The refeed is as important as the fast: how you eat in the days after determines how much healing you keep.",
         "Never break a dry fast with solid food. Start with coconut water only, sipping slowly over the first hour.",

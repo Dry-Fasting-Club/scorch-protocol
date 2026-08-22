@@ -5,6 +5,7 @@ import InterestingVideoBlock from "@/components/InterestingVideoBlock";
 import Image from "next/image";
 import MermaidCharts from "@/components/MermaidCharts";
 import KeyTakeaways from "@/components/KeyTakeaways";
+import StarterKitCallout from "@/components/StarterKitCallout";
 import EmailCapture from "@/components/EmailCapture";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import SourcingCallout from "@/components/SourcingCallout";
@@ -49,6 +50,7 @@ export default function T3TherapyPage() {
     <>
       <JsonLd data={medicalWebPageLd({ name: "Phase 4: T3 Therapy", description: "Phase 4: How T3 thyroid therapy reboots suppressed metabolism, bypasses the DIO2 gene mutation, and amplifies dry fasting results.", path: "/t3-therapy", breadcrumbName: "T3 Therapy" })} />
       <h1>Phase 4: T3 Thyroid Therapy (Rebooting Your Metabolism)</h1>
+      <StarterKitCallout />
 
       <KeyTakeaways points={[
         "T3 therapy is for people with low waking temperature (below 36.5C / 97.7F) and low resting heart rate (below 72 bpm). Normal blood tests do not rule it out, because the problem is cells not responding to T3, not T3 being absent.",

@@ -23,6 +23,7 @@ export default function Footer() {
             <span className="site-footer-h">Protocol</span>
             <a href="/">Overview</a>
             <a href="/preparation">Start here</a>
+            <a href="/starter-kit">Starter kit</a>
             <a href="/success-rate-data">Results</a>
             <a href="/faq">FAQ</a>
             <a href="/blog">Blog</a>

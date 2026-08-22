@@ -3,6 +3,7 @@ import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import InterestingVideoBlock from "@/components/InterestingVideoBlock";
 import KeyTakeaways from "@/components/KeyTakeaways";
+import StarterKitCallout from "@/components/StarterKitCallout";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import SourcingCallout from "@/components/SourcingCallout";
 import HghAccessNote from "@/components/HghAccessNote";
@@ -23,6 +24,7 @@ export default function HghTherapyPage() {
     <>
       <JsonLd data={medicalWebPageLd({ name: "Phase 5: hGH Therapy", description: "Phase 5: hGH therapy signals tissue rebuilding after The Scorch, restoring muscle, nerve, and immune system function.", path: "/hgh-therapy", breadcrumbName: "hGH Therapy" })} />
       <h1>Phase 5: hGH Therapy (Rebuilding Your Body)</h1>
+      <StarterKitCallout />
 
       <KeyTakeaways points={[
         "hGH is the rebuild signal. Dry fasting clears damaged cells, T3 restores metabolic power, and hGH tells your body to build new healthy muscle and immune tissue from what was freed.",

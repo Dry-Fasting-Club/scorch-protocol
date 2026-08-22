@@ -4,6 +4,7 @@ import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
 import MermaidCharts from "@/components/MermaidCharts";
 import KeyTakeaways from "@/components/KeyTakeaways";
+import StarterKitCallout from "@/components/StarterKitCallout";
 import EmailCapture from "@/components/EmailCapture";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import JsonLd from "@/components/JsonLd";
@@ -37,6 +38,7 @@ export default function DryFastingPage() {
     <>
       <JsonLd data={medicalWebPageLd({ name: "Phase 2: The Dry Fast", description: "Phase 2: A step-by-step guide to dry fasting safely: day-by-day breakdown, red flags, weight milestones, and refeeding timing.", path: "/dry-fasting", breadcrumbName: "The Dry Fast" })} />
       <h1>Phase 2: The Dry Fast (The Scorch)</h1>
+      <StarterKitCallout />
 
       <KeyTakeaways points={[
         "Build up gradually: start with 36 hours, then 72 hours, then 5 days dry. Do not jump straight to a long fast.",
