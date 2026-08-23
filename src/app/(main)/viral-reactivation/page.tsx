@@ -46,7 +46,7 @@ const reactivationCascade = `graph TD
 const pathogenStack = `graph TB
   Core["CORE SCORCH PROTOCOL<br/>Dry Fast + T3 + hGH"]
 
-  Core -.->|runs in parallel with| AV["ANTIVIRAL LAYER<br/>Always-on prophylaxis<br/><br/>PRIMARY: Ivermectin<br/>RESCUE: Valacyclovir (prodrome only)<br/>NATURAL: Lysine, Monolaurin,<br/>Olive Leaf, Elderberry"]
+  Core -.->|runs in parallel with| AV["ANTIVIRAL LAYER<br/>Always-on supportive coverage<br/><br/>CONTINUOUS: Ivermectin (supportive)<br/>TARGETED: Valacyclovir (prodrome only)<br/>NATURAL: Lysine, Monolaurin,<br/>Olive Leaf, Elderberry"]
 
   Core -.->|runs in parallel with| AF["ANTIFUNGAL LAYER<br/>If fungal-focused patient<br/><br/>PRIMARY: Fluconazole<br/>REJECTED: Itraconazole (too strong)<br/>REJECTED: Natural antifungals (too weak)"]
 
@@ -351,10 +351,12 @@ export default function ViralReactivationPage() {
       <p>
         Once organs are rehydrated through the water fast, you build your
         defensive walls and keep them standing through the whole refeed, not
-        just on day one. The first wall is antiviral pressure (ivermectin as the
-        primary pharmaceutical, with valacyclovir held in reserve for prodromal
-        tingling), started at the water fast bridge and continued across the
-        entire refeed. The second is active immune rebuilding via thymic
+        just on day one. The first wall is antiviral pressure: ivermectin runs
+        continuously as the supportive backbone (kept on for its antiparasitic
+        double duty and its gentler gut profile, with supportive antiviral value
+        on top), while valacyclovir is the targeted antiviral held in reserve for
+        prodromal tingling. The supportive layer is started at the water fast
+        bridge and continued across the entire refeed. The second is active immune rebuilding via thymic
         peptides (Thymalin early in the refeed; Thymus Alpha-1 has been retired
         from the protocol, see the note below). Through the first seven days of
         refeeding you also add a
@@ -400,7 +402,7 @@ export default function ViralReactivationPage() {
             </td>
           </tr>
           <tr>
-            <td><strong>Ivermectin (primary antiviral)</strong></td>
+            <td><strong>Ivermectin (supportive antiviral + antiparasitic)</strong></td>
             <td>
               Started at the water fast bridge, continued through the entire
               refeed
@@ -422,13 +424,16 @@ export default function ViralReactivationPage() {
               >
                 [2]
               </a>
-              ). Ivermectin is now the primary antiviral in the protocol
-              because it is overall better on the gut microbiome during the
-              refeed and pulls double duty as an antiparasitic. The combination
-              of ivermectin and dry fasting clears most parasitic load
-              alongside the viral suppression. Coverage does not stop at the 24
-              to 72 hour vulnerability window: it runs across the full refeed,
-              bridging the gap until T3 begins after Day 7.
+              ). Ivermectin is the pharmaceutical kept running continuously
+              here, chosen because it is overall better on the gut microbiome
+              during the refeed and pulls double duty as an antiparasitic. Treat
+              it as a supportive antiviral (it calms the nervous system and
+              inflammation and may mildly inhibit viral entry) rather than a
+              standalone virus-killer. The combination of ivermectin and dry
+              fasting clears most parasitic load, with supportive antiviral
+              coverage on top. Coverage does not stop at the 24 to 72 hour
+              vulnerability window: it runs across the full refeed, bridging the
+              gap until T3 begins after Day 7.
             </td>
           </tr>
           <tr>
@@ -444,9 +449,10 @@ export default function ViralReactivationPage() {
               prodromal rescue: the tingling, itching, or burning at a
               previous outbreak site that signals an oncoming HSV
               reactivation. A single loading dose at the prodrome can
-              abort the outbreak before lesions form. Not used as a daily
-              prophylactic in the current protocol; ivermectin holds that
-              role.
+              abort the outbreak before lesions form. Valacyclovir is the
+              targeted antiviral, deployed at the prodrome rather than run daily;
+              ivermectin is the agent kept running continuously through the
+              window for its antiparasitic and supportive antiviral role.
             </td>
           </tr>
           <tr>

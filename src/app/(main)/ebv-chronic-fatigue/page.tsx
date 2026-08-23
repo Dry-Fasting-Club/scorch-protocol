@@ -325,8 +325,11 @@ export default function EbvChronicFatiguePage() {
         mechanisms, including disruption of the lipid envelope that EBV and
         other herpesviruses depend on to enter new cells. An immune-rebuilding
         layer using thymic peptides runs in parallel to accelerate the return of
-        T-cell function. T3 is introduced during the water fast phase to restore
-        interferon signalling before food is added.
+        T-cell function. T3 itself is deliberately held until you have scaled
+        food for a full seven days of refeed, so through this window it is the
+        antiviral stack, not T3, that holds the line. Once T3 begins after refeed
+        day 7, it restores the Type I interferon signalling that keeps latent
+        viruses suppressed for the long term.
       </p>
       <p>
         Specific antiviral agents, timing, and doses are kept at the high level

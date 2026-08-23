@@ -125,11 +125,11 @@ export default function StarterKitPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Ivermectin<Tag>Rx</Tag></span>
-          The primary antiviral and antiparasitic through the vulnerable window.
+          Runs continuously through the vulnerable window: antiparasitic double duty plus supportive antiviral value.
         </div>
         <div className="question-item">
           <span className="question-label">Valacyclovir<Tag>Rx</Tag></span>
-          Kept on hand to catch a cold-sore prodrome early.
+          The targeted antiviral, kept on hand to catch a cold-sore prodrome early.
         </div>
         <div className="question-item">
           <span className="question-label">Humidifier<Tag>Gear</Tag></span>
