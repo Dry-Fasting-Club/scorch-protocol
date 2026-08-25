@@ -499,7 +499,7 @@ export default function BetweenFastsPage() {
           </span>
           Psilocybin is serotonergic and methylene blue is a monoamine oxidase
           inhibitor. Combining them risks serotonin toxicity. Methylene blue
-          runs during the early refeed, which is one more reason this stack and
+          runs during the early refeed, which is one more reason psilocybin and
           the refeed phase stay separate.
         </div>
         <div className="question-item">
@@ -528,7 +528,7 @@ export default function BetweenFastsPage() {
           the effect is modest. Stacked daily it is real, and it compounds with
           anything else that thins the blood.
         </p>
-        <h4>While running this stack, completely avoid</h4>
+        <h4>While the anti-platelet items are running, completely avoid</h4>
         <ul>
           <li>Aspirin</li>
           <li>Ibuprofen and other NSAIDs</li>
