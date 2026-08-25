@@ -35,7 +35,7 @@ const betweenFastsFaq = [
   {
     question: "Can you take aspirin or ibuprofen on this stack?",
     answer:
-      "No. Nattokinase, garlic and olive leaf are all anti-platelet, so while this stack is running you avoid aspirin, ibuprofen and other NSAIDs, prescription anticoagulants, bromelain, and high-dose omega-3. This is also why the phase boundary matters: this stack runs between fasts and does not overlap the T3 and refeed phases, where low-dose aspirin is a deliberate co-factor. Never run both at once.",
+      "No. Nattokinase, garlic and olive leaf are all anti-platelet, so while those three are running you avoid aspirin, ibuprofen and other NSAIDs, prescription anticoagulants, bromelain, and high-dose omega-3. This is also why the phase boundary matters, and that boundary applies to the anti-platelet items only. Nattokinase, garlic and olive leaf do not overlap the T3 and refeed phases, where low-dose aspirin is a deliberate co-factor, so never run those three and low-dose aspirin at once. Valacyclovir is the explicit carve-out: it is not anti-platelet, it is the standing antiviral backbone, and it keeps running through the refeed and the T3 phase instead of coming down at the boundary.",
   },
   {
     question: "Why are there no doses on this page?",
@@ -72,7 +72,7 @@ export default function BetweenFastsPage() {
           "Valacyclovir is the standing antiviral backbone. It stays off during the dry fast and the first two water days because it is renally cleared, starts on water day 3, and then keeps running. Ivermectin is a secondary supportive antiviral and the primary antiparasitic.",
           "Almost everything here is daily. The two exceptions are artemisinin (reserved for high-risk days and PEM crashes, because continuous use builds tolerance) and psilocybin microdosing (an optional extra, never part of the baseline).",
           "Food timing is not a detail. Lysine and nattokinase need an empty stomach to work at all, while monolaurin and thymus glandular need food to be tolerated.",
-          "Bleeding risk is the hard stop: nattokinase, garlic and olive leaf are all anti-platelet. This stack never overlaps the T3 and refeed phases, where low-dose aspirin is a deliberate co-factor.",
+          "Bleeding risk is the hard stop: nattokinase, garlic and olive leaf are all anti-platelet, and those three never overlap the T3 and refeed phases, where low-dose aspirin is a deliberate co-factor. Valacyclovir is the carve-out: it is not anti-platelet, and it keeps running through the refeed and the T3 phase.",
           "No doses appear on this page. They are individualized against your own labs and live in the members portal.",
         ]}
       />
@@ -541,12 +541,19 @@ export default function BetweenFastsPage() {
         </ul>
         <h4>The phase boundary</h4>
         <p>
-          This stack runs between fasts and does not overlap the T3 and refeed
-          phases, where low-dose aspirin is a deliberate co-factor. Never run
-          both at once. If you are moving into a refeed or starting{" "}
-          <Link href="/t3-therapy">T3 therapy</Link>, the between-fasts stack
-          comes down first. The two schedules are designed to be sequential, not
-          simultaneous.
+          The phase boundary applies to the anti-platelet items only:
+          nattokinase, garlic and olive leaf. Those three do not overlap the T3
+          and refeed phases, where low-dose aspirin is a deliberate co-factor,
+          and you never run them and low-dose aspirin at once. If you are moving
+          into a refeed or starting <Link href="/t3-therapy">T3 therapy</Link>,
+          nattokinase, garlic and olive leaf are what comes down first.
+        </p>
+        <p>
+          Valacyclovir is the explicit carve-out and it does not come down here.
+          It is the standing antiviral backbone, it is not anti-platelet, and it
+          keeps running straight through the refeed and the T3 phase. The refeed
+          is the vulnerability window for viral reactivation, which is exactly
+          why the backbone stays on through it.
         </p>
         <h4>Routine monitoring</h4>
         <p>
