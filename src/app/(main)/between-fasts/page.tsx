@@ -30,7 +30,7 @@ const betweenFastsFaq = [
   {
     question: "What can you take during a PEM crash?",
     answer:
-      "Artemisinin is the as-needed lever for a crash. It is deliberately not a daily supplement. It is reserved for high-risk days and post-exertional malaise crashes because it works by causing localised oxidative stress, and continuous use builds metabolic clearance tolerance that makes it useless by the time you actually need it. Screen for G6PD deficiency before the first dose. Everything else in the standing stack keeps running through a crash unchanged.",
+      "Artemisinin is the as-needed lever for a crash. It is deliberately not a daily supplement. It is reserved for high-risk days and post-exertional malaise crashes because it works by causing localized oxidative stress, and continuous use builds metabolic clearance tolerance that makes it useless by the time you actually need it. Screen for G6PD deficiency before the first dose. Everything else in the standing stack keeps running through a crash unchanged.",
   },
   {
     question: "Can you take aspirin or ibuprofen on this stack?",
@@ -114,7 +114,7 @@ export default function BetweenFastsPage() {
             </td>
             <td>
               Before you are ready to fast. The first-line supportive stack that
-              stabilises you enough to consider a protocol cycle at all.
+              stabilizes you enough to consider a protocol cycle at all.
             </td>
           </tr>
           <tr>
@@ -231,7 +231,7 @@ export default function BetweenFastsPage() {
         <h3>The Valacyclovir Timing Gate</h3>
         <p>
           Valacyclovir is renally cleared. That single fact sets its entire
-          schedule, and it is worth understanding rather than memorising.
+          schedule, and it is worth understanding rather than memorizing.
         </p>
         <div className="question-item">
           <span className="question-label">
@@ -300,7 +300,7 @@ export default function BetweenFastsPage() {
           randomized controlled trials found consistent clinical benefit for
           pain and general wellbeing, with mast-cell and microglial damping
           given as the rationale (Bortoletto et al., 2025). Read that as
-          researched for calming overactive immune and glial signalling, rather
+          researched for calming overactive immune and glial signaling, rather
           than as a settled human imaging finding. The ultramicronized form is
           the one used, because particle size drives absorption.
         </div>
@@ -311,12 +311,10 @@ export default function BetweenFastsPage() {
           Taken 30 to 60 minutes before bed. Apigenin crosses the blood-brain
           barrier and binds the benzodiazepine site on the GABA-A receptor. That
           receptor affinity is well demonstrated, but only in preclinical work:
-          rat brain tissue and cultured cells (Avallone et al., 2000). Be clear
-          about what that does and does not mean. The same paper found no
-          anxiolytic effect in living animals, so receptor binding is a
-          mechanism, not evidence of a sleep or calming benefit. Apigenin sits
-          in this stack on mechanism and clinical experience, not on
-          demonstrated sleep efficacy. If your insomnia is histamine-driven, the{" "}
+          rat brain tissue and cultured cells (Avallone et al., 2000). The same
+          paper found no anxiolytic effect in living animals, so receptor
+          binding is a mechanism, not evidence of a sleep or calming benefit. If
+          your insomnia is histamine-driven, the{" "}
           <Link href="/mcas-and-dry-fasting">MCAS page</Link> covers the tools
           that address it directly.
         </div>
@@ -382,7 +380,7 @@ export default function BetweenFastsPage() {
       <div className="guiding-questions box-warning">
         <h3>Why Artemisinin Is Not a Daily Supplement</h3>
         <p>
-          Artemisinin works by causing localised oxidative stress, which is
+          Artemisinin works by causing localized oxidative stress, which is
           hostile to pathogens sheltering inside biofilm. That mechanism is
           exactly why it cannot be a daily agent.
         </p>
@@ -402,7 +400,7 @@ export default function BetweenFastsPage() {
         <p>
           Artemisinin drives oxidative stress on purpose. Red blood cells in
           people with G6PD deficiency cannot buffer that stress, and the result
-          can be haemolysis. G6PD deficiency is common, frequently undiagnosed,
+          can be hemolysis. G6PD deficiency is common, frequently undiagnosed,
           and simple to test for. Get the test before the first dose, not after
           a reaction.
         </p>
@@ -424,8 +422,8 @@ export default function BetweenFastsPage() {
       <div className="guiding-questions box-info">
         <h3>The Systemic Layer</h3>
         <div className="question-item">
-          <span className="question-label">Garlic (odourless)</span>
-          Broad antimicrobial defence. Allicin, the active compound, reacts with
+          <span className="question-label">Garlic (odorless)</span>
+          Broad antimicrobial defense. Allicin, the active compound, reacts with
           thiol groups on microbial enzymes, and that single mechanism underlies
           documented activity against a wide range of bacteria, against Candida,
           and against parasites such as Entamoeba and Giardia (Ankri and
@@ -436,13 +434,14 @@ export default function BetweenFastsPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Olive leaf extract</span>
-          A plant-derived antimicrobial, included for its activity against viral
-          replication loops. It sits alongside garlic as background pressure,
-          not as a primary agent.
+          A plant-derived antimicrobial. It sits alongside garlic as background
+          pressure, not as a primary agent. In Yannick&rsquo;s clinical
+          experience it helps interrupt viral replication loops, which is why it
+          is in the stack, and no trial evidence is being claimed for that.
         </div>
         <div className="question-item">
           <span className="question-label">Quercetin</span>
-          Stabilises mast cells and acts as a zinc ionophore, carrying zinc into
+          Stabilizes mast cells and acts as a zinc ionophore, carrying zinc into
           the cell where it can interfere with viral replication. It is also the
           one item in this stack with a real drug interaction, covered
           immediately below.
@@ -454,7 +453,7 @@ export default function BetweenFastsPage() {
         </div>
       </div>
 
-      <div className="guiding-questions box-warning">
+      <div className="guiding-questions box-danger">
         <h3>Two Interactions You Must Check</h3>
         <div className="question-item">
           <span className="question-label">
@@ -486,7 +485,7 @@ export default function BetweenFastsPage() {
         it to run this stack correctly, and leaving it out costs you nothing.
       </p>
 
-      <div className="guiding-questions box-warning">
+      <div className="guiding-questions box-danger">
         <h3>If You Choose To Use It</h3>
         <div className="question-item">
           <span className="question-label">What it is there for</span>
@@ -562,13 +561,6 @@ export default function BetweenFastsPage() {
 
       <h2>Where the Doses Live</h2>
       <p>
-        There are no doses on this page, and that is deliberate rather than coy.
-        A dose that is correct for one patient is wrong for the next. Kidney
-        function, liver function, body weight, how many cycles you have already
-        completed, and which pathogens are actually driving your case all move
-        the numbers, sometimes substantially.
-      </p>
-      <p>
         The full dose sheet for this stack is individualized and lives in the
         members portal, where it sits next to your own labs and can be adjusted
         against them. Members get the complete between-fasts sheet with amounts,
@@ -595,13 +587,16 @@ export default function BetweenFastsPage() {
         ))}
       </div>
 
+      <RefeedPlanPromo source="between-fasts" />
+      <GuidanceBox />
+
       <ReferencesSection
         refs={[
           {
             citation:
               "Bortoletto R, Comacchio C, Garzitto M, Piscitelli F, Balestrieri M, Colizzi M. Palmitoylethanolamide supplementation for human health: A state-of-the-art systematic review of Randomized Controlled Trials in patient populations. Brain, Behavior, & Immunity - Health, 2025;43:100927. PMID 39839988.",
             href: "https://doi.org/10.1016/j.bbih.2024.100927",
-            note: "systematic review of 47 human randomized controlled trials; cited for PEA as researched for calming overactive microglial and mast-cell signalling",
+            note: "systematic review of 47 human randomized controlled trials; cited for PEA as researched for calming overactive microglial and mast-cell signaling",
           },
           {
             citation:
@@ -617,9 +612,6 @@ export default function BetweenFastsPage() {
           },
         ]}
       />
-
-      <RefeedPlanPromo source="between-fasts" />
-      <GuidanceBox />
     </>
   );
 }
