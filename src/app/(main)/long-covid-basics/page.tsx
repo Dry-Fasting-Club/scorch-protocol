@@ -145,10 +145,12 @@ export default function LongCovidBasicsPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Nattokinase</span>
-          100 to 200 mg (2,000 to 4,000 FU) twice daily, on an empty
+          100 to 200 mg (2,000 to 4,000 FU) once daily, on an empty
           stomach. A fibrinolytic enzyme that breaks down the abnormal
-          micro-clots associated with spike protein persistence. Hold 48
-          hours before any surgical procedure.
+          micro-clots and viral biofilms associated with spike protein
+          persistence. Taken with food, the enzyme is spent digesting meal
+          protein instead of reaching the bloodstream to do that work. Hold
+          48 hours before any surgical procedure.
         </div>
         <div className="question-item">
           <span className="question-label">Melatonin</span>
@@ -177,9 +179,10 @@ export default function LongCovidBasicsPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Resveratrol or Combination Flavonoid</span>
-          250 to 500 mg per day. Anti-inflammatory and sirtuin-supportive.
-          Quercetin combinations (often with bromelain) are interchangeable
-          here.
+          250 to 500 mg per day for resveratrol. Anti-inflammatory and
+          sirtuin-supportive. If substituting a quercetin combination
+          (often with bromelain), quercetin follows its own dosing: 500 mg
+          twice daily, not this resveratrol range.
         </div>
         <div className="question-item">
           <span className="question-label">Probiotics + Prebiotics</span>
@@ -383,8 +386,10 @@ export default function LongCovidBasicsPage() {
             reservoirs do not get re-seeded.
           </li>
           <li>
-            <a href="/viral-reactivation">Antiviral coverage</a> (lysine,
-            monolaurin, acyclovir, ivermectin) holds the line during the
+            <a href="/viral-reactivation">Antiviral coverage</a>
+            (valacyclovir as the standing backbone, ivermectin as
+            supportive antiviral and primary antiparasitic, lysine and
+            monolaurin holding the natural line) holds the line during the
             transition.
           </li>
           <li>
