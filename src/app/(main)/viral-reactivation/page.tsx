@@ -46,7 +46,7 @@ const reactivationCascade = `graph TD
 const pathogenStack = `graph TB
   Core["CORE SCORCH PROTOCOL<br/>Dry Fast + T3 + hGH"]
 
-  Core -.->|runs in parallel with| AV["ANTIVIRAL LAYER<br/>Always-on supportive coverage<br/><br/>STANDING: Valacyclovir (backbone)<br/>SUPPORTIVE: Ivermectin (also antiparasitic)<br/>NATURAL: Lysine, Monolaurin,<br/>Olive Leaf, Elderberry"]
+  Core -.->|runs in parallel with| AV["ANTIVIRAL LAYER<br/>Standing coverage, starts water day 3<br/><br/>STANDING: Valacyclovir (backbone)<br/>SUPPORTIVE: Ivermectin (also antiparasitic)<br/>NATURAL: Lysine, Monolaurin,<br/>Olive Leaf, Elderberry"]
 
   Core -.->|runs in parallel with| AF["ANTIFUNGAL LAYER<br/>If fungal-focused patient<br/><br/>PRIMARY: Fluconazole<br/>REJECTED: Itraconazole (too strong)<br/>REJECTED: Natural antifungals (too weak)"]
 
@@ -638,17 +638,18 @@ export default function ViralReactivationPage() {
         <div className="question-item">
           <span className="question-label">Lymph node swelling, low-grade fever, sore throat without infection</span>
           Classic EBV/CMV reactivation pattern. Pull bloodwork (EBV early
-          antigen IgG, viral capsid IgM) to confirm. Add suppressive
-          valacyclovir even though coverage of EBV is partial. Combined with
-          T3 and monolaurin, it provides meaningful pressure.
+          antigen IgG, viral capsid IgM) to confirm. Reinforce the standing
+          valacyclovir course, already running by this point, even though
+          coverage of EBV is partial. Combined with T3 and monolaurin, it
+          provides meaningful pressure.
         </div>
         <div className="question-item">
           <span className="question-label">New pain in nerve territories that weren&rsquo;t previously affected</span>
           This is the most concerning sign. It suggests the virus has spread
           beyond its original ganglion to new nerve tissue, exactly the
           worst-case scenario described above. Stop the refeed advancement,
-          maximise antiviral coverage, escalate to ivermectin if not already
-          included.
+          maximise antiviral coverage, and reinforce the ivermectin support
+          already running alongside the standing valacyclovir course.
         </div>
       </div>
 

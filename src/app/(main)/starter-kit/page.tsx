@@ -125,7 +125,7 @@ export default function StarterKitPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Valacyclovir<Tag>Rx</Tag></span>
-          The standing antiviral backbone: off during the dry fast and the first two water days, starts once rehydrated at water day 3, and runs through the refeed. Kept on hand from the start of the fast for a loading dose at the first sign of a cold-sore prodrome.
+          The standing antiviral backbone: off during the dry fast and the first two water days, starts once rehydrated at water day 3, and runs through the refeed. Buy it before the fast begins. The loading dose for a cold-sore prodrome goes on top of the standing course, once that course has started.
         </div>
         <div className="question-item">
           <span className="question-label">Ivermectin<Tag>Rx</Tag></span>

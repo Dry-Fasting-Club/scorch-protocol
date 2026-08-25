@@ -34,7 +34,7 @@ export default function RefeedingPage() {
         },
         {
           question: "Who actually needs deliberate biome rebuild?",
-          answer: "For the standard protocol path (a 5-day dry fast plus short antiviral coverage during the refeed), the biome recovers on its own and no deliberate rebuild work is required. Two populations do need to focus on rebuild: patients on months of valacyclovir or similar suppressive antivirals, because long antiviral courses damage both the bacterial biome and the virome; and patients who completed long dry fasts of 7 or more days, especially 9 or more days, where the biome starts eating the gut lining and mucosal lining."
+          answer: "The standard protocol path (a 5-day dry fast followed by the standing valacyclovir antiviral backbone, running from water day 3 through the refeed) carries a mandatory gut-rebuild rider: kefir first, then kombucha, run alongside the standing course for as long as it runs, paying down the microbiome cost on purpose rather than leaving antiviral coverage weaker to avoid it. Patients who complete long dry fasts of 7 or more days, especially 9 or more days, need rebuild work for a second, independent reason: at those durations the biome itself starts eating the gut lining and mucosal lining."
         }
       ])} />
       <h1>Phase 3: The Refeed</h1>
@@ -635,31 +635,27 @@ export default function RefeedingPage() {
       <div className="guiding-questions box-info">
         <h3>Who Actually Needs Deliberate Biome Rebuild?</h3>
         <p>
-          For the standard protocol path &ndash; a 5-day dry fast plus short
-          antiviral coverage during the refeed &ndash; the biome recovers
-          on its own. No deliberate rebuild work is required. The body
-          handles it.
-        </p>
-        <p>
-          The two populations that <em>do</em> need to focus on rebuild:
+          The standard protocol path is a 5-day dry fast followed by the
+          standing valacyclovir antiviral backbone, running from water day
+          3 through the refeed. Because that course runs long enough to
+          take real damage to both the bacterial biome and the virome, the
+          gut-rebuild rider is mandatory for it, not optional. This is the
+          default population now, not an edge case.
         </p>
         <div className="question-item">
-          <span className="question-label">Long suppressive antiviral therapy:</span>
-          Patients on months of valacyclovir or similar suppressive
-          antivirals (typically because of aggressive ongoing viral
-          reactivations) take real damage to both the bacterial biome
-          and the virome. Recent research confirms that long antiviral
-          courses nuke beneficial bacteria alongside the targeted viruses.
-          This population needs deliberate rebuild after the antiviral
-          course winds down.
+          <span className="question-label">The standing valacyclovir course:</span>
+          Kefir first, then kombucha, run alongside the standing course for
+          as long as it runs, paying down the microbiome cost on purpose
+          instead of leaving the antiviral coverage weaker to avoid it.
         </div>
         <div className="question-item">
           <span className="question-label">Long dry fasts (7+ days, especially 9+):</span>
-          At those durations the biome starts eating your gut lining and
-          mucosal lining. For some patients this is therapeutic &ndash;
-          it trims back negative bacterial populations and clears space
-          for repopulation with beneficial cultures. But it does mean the
-          rebuild step is no longer optional.
+          A second, independent reason to rebuild: at those durations the
+          biome itself starts eating your gut lining and mucosal lining.
+          For some patients this is therapeutic &ndash; it trims back
+          negative bacterial populations and clears space for
+          repopulation with beneficial cultures. But it does mean the
+          rebuild step is not optional here either.
         </div>
       </div>
 
