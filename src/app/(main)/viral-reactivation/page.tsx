@@ -72,6 +72,7 @@ export default function ViralReactivationPage() {
         "An unprotected refeed can leave you more broadly infected than when you started, because cleared viral reservoirs get re-seeded in new nerve tissue.",
         "The bridge strategy (dry fast to water fast to protected refeed) keeps the antiviral stack running from the bridge all the way through the refeed. T3 is deliberately held until after Day 7 of refeeding, so antivirals, not T3, are what close the vulnerability window.",
         "Stop and escalate antivirals immediately if you feel tingling at a previous outbreak site, new nerve-territory pain, or a sudden return of pre-protocol fatigue.",
+        "If that tingling arrives while you are still in the dry phase, the response is different: the dry fast converts to a water fast and you rehydrate before any antiviral goes in, because valacyclovir is renally cleared and a dehydrated body cannot clear it.",
       ]} />
       <p>
         <strong>
@@ -615,7 +616,10 @@ export default function ViralReactivationPage() {
         Even with the full bridge protocol, reactivation can break through,
         especially in cycle 1 or 2 when baseline viral load is highest. Catch
         it early. The earliest signs are the most subtle and almost always
-        missed if you don&rsquo;t know what you&rsquo;re looking for.
+        missed if you don&rsquo;t know what you&rsquo;re looking for. The signs
+        below are scoped to the refeed window, when the standing antiviral
+        course is already running. A prodrome that arrives during the dry phase
+        itself is a different call, and it is covered directly after them.
       </p>
 
       <div className="guiding-questions box-danger">
@@ -653,6 +657,105 @@ export default function ViralReactivationPage() {
           already running alongside the standing valacyclovir course.
         </div>
       </div>
+
+      <h2>If a Prodrome Hits During the Dry Fast Itself</h2>
+      <p>
+        Everything above assumes the standing antiviral course is already
+        running. During the dry phase it is not, and it cannot be. Valacyclovir
+        is renally cleared, and a dry-fasted body has no renal water flow to
+        clear it with. Dosing kinetics go wrong, concentration builds, and you
+        risk a kidney injury on top of the outbreak you were trying to stop.
+        This is the same renal boundary that holds the standing course back
+        until water day 3, and it does not bend because a tingle showed up
+        early.
+      </p>
+      <p>
+        So the answer is not to push a rescue dose into a dehydrated body, and
+        it is not to grit your teeth and finish the dry fast. In
+        Yannick&rsquo;s clinical judgement, a prodrome during the dry phase is
+        the signal that ends the dry phase.
+      </p>
+
+      <div className="guiding-questions box-danger">
+        <h3>Prodrome During the Dry Phase: The Sequence</h3>
+        <div className="question-item">
+          <span className="question-label">1. End the dry phase and convert to a water fast</span>
+          This is not a refeed. You are not breaking the fast, you are changing
+          its form. Water comes back, food does not, so ketosis holds, mTOR
+          stays suppressed, and autophagy keeps working. You keep most of the
+          protective siege state described at the top of this page while
+          restoring the one thing you need in order to treat at all: working
+          kidneys.
+        </div>
+        <div className="question-item">
+          <span className="question-label">2. Rehydrate first, then the antiviral</span>
+          This order is the entire safety point. Rehydration is not a formality
+          to rush through so you can dose sooner. It is the precondition that
+          makes dosing survivable. Nothing renally cleared goes into a body
+          that cannot clear it, however convincing the tingle feels.
+        </div>
+        <div className="question-item">
+          <span className="question-label">3. How long you rehydrate depends on how deep the dry fast was</span>
+          A prodrome caught early in the dry phase rehydrates relatively
+          quickly, and the treatment window opens soon after. A prodrome deep
+          into a long dry fast is a different body: the deficit is larger, it
+          is not water alone, and it calls for a substantially longer stretch
+          of aggressive rehydration with electrolytes before valacyclovir goes
+          anywhere near you. The specific length, and where the line between a
+          shallow and a deep dry fast sits for you, are per-case calls and are
+          deliberately not published here.
+        </div>
+        <div className="question-item">
+          <span className="question-label">4. L-lysine comes in with the antiviral, and monolaurin is an option</span>
+          Once rehydration is established and the antiviral is on board,
+          L-lysine runs alongside it. Monolaurin can be brought in as well, and
+          because monolaurin is a fat, adding it converts the water fast into
+          what Yannick calls a fat-water fast. That is a deliberate variant of
+          the fast with its own rules, not a supplement you simply drop into
+          the day, so how one is actually run is handled case by case rather
+          than published as a recipe.
+        </div>
+        <div className="question-item">
+          <span className="question-label">5. If it keeps happening, the fast itself is the wrong shape</span>
+          A prodrome that returns cycle after cycle is not telling you the
+          rescue was too small. It is telling you the sequence is wrong for
+          your viral load. In that situation Yannick inverts the order: the
+          cycle opens as a valacyclovir-focused water fast, and the dry phase
+          only begins once the fast&rsquo;s own protective mechanisms are
+          established and the antiviral has had time to do its work. That
+          restructure is built per patient and is not a public template.
+        </div>
+      </div>
+
+      <p>
+        None of this comes from a trial. There is no published literature on
+        managing a herpes prodrome inside a dry fast, because almost nobody
+        outside this protocol runs fasts deep enough to create the situation.
+        What is above is Yannick&rsquo;s clinical judgement from running the
+        protocol with patients, and the reasoning is set out so you can
+        recognise the situation rather than improvise inside it.
+      </p>
+      <p>
+        <em>
+          Medical caveat: converting a fast, rehydrating a deeply dry-fasted
+          body, and starting a prescription antiviral are decisions to make
+          with a physician who knows your renal function and your history.
+        </em>
+      </p>
+      <p>
+        The parts deliberately left out above (how long to rehydrate, where
+        your own shallow-to-deep line falls, how a fat-water fast is run, and
+        how an antiviral-led water fast transitions back into a dry fast) are
+        the parts that move with the patient. Getting them wrong from a guess
+        is how a recoverable prodrome becomes a lost cycle. If a prodrome has
+        interrupted one of your fasts, or keeps interrupting them, that is the
+        modified protocol to ask Yannick for rather than assemble yourself.
+      </p>
+      <p>
+        <Link href="/membership?ref=prodrome-in-fast">
+          Ask Yannick for the modified protocol for $5/mo &rarr;
+        </Link>
+      </p>
 
       <h2>Why This Becomes Easier With Each Cycle</h2>
       <p>

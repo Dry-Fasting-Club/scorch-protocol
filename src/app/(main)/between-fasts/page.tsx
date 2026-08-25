@@ -265,6 +265,23 @@ export default function BetweenFastsPage() {
           <Link href="/viral-reactivation">Viral Reactivation</Link> for the
           full prodrome decision tree.
         </div>
+        <div className="question-item">
+          <span className="question-label">
+            A prodrome during the dry fast is a different call entirely
+          </span>
+          The escalation above assumes the standing course is already running.
+          If a prodrome arrives while you are still in the dry phase, there is
+          no course to escalate and, more to the point, no renal water flow to
+          clear a renally cleared drug with. That case ends the dry phase: you
+          convert to a water fast and rehydrate first, and only then does the
+          antiviral go in, with L-lysine alongside it. How long that
+          rehydration runs depends on how deep the dry fast was, and a prodrome
+          that repeats every cycle means the fast needs restructuring rather
+          than a bigger rescue. See{" "}
+          <Link href="/viral-reactivation">Viral Reactivation</Link> for the
+          reasoning, and ask Yannick for the modified protocol before improvising
+          your own.
+        </div>
       </div>
 
       <div className="guiding-questions box-warning">
