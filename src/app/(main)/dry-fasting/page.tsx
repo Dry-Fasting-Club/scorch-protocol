@@ -293,7 +293,11 @@ export default function DryFastingPage() {
         started at water day 3), ivermectin alongside it as supportive
         coverage plus the primary antiparasitic, L-lysine and monolaurin
         holding the natural line, and a valacyclovir loading dose on top at
-        the first sign of a prodrome. The{" "}
+        the first sign of a prodrome, once that standing course is actually
+        running. A prodrome that arrives while you are still in the dry phase
+        is the exception: there is no standing course to escalate and no renal
+        water flow to clear the drug with, so that case ends the dry phase and
+        rehydrates before any antiviral goes in. The{" "}
         <a href="/viral-reactivation">Viral Reactivation</a> page has the full
         stack.
       </p>

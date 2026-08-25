@@ -692,7 +692,11 @@ export default function ViralReactivationPage() {
           This order is the entire safety point. Rehydration is not a formality
           to rush through so you can dose sooner. It is the precondition that
           makes dosing survivable. Nothing renally cleared goes into a body
-          that cannot clear it, however convincing the tingle feels.
+          that cannot clear it, however convincing the tingle feels. Note also
+          that water day 3 is the marker for a planned bridge at the end of a
+          completed dry fast. It is not a countdown you restart the moment you
+          convert early, and it does not carry over to a converted fast on its
+          own.
         </div>
         <div className="question-item">
           <span className="question-label">3. How long you rehydrate depends on how deep the dry fast was</span>
@@ -703,7 +707,10 @@ export default function ViralReactivationPage() {
           of aggressive rehydration with electrolytes before valacyclovir goes
           anywhere near you. The specific length, and where the line between a
           shallow and a deep dry fast sits for you, are per-case calls and are
-          deliberately not published here.
+          deliberately not published here. Do not estimate them. Ask Yannick
+          for the modified protocol, and keep rehydrating while you wait for
+          the answer, because rehydrating is the part that is safe to start
+          without one.
         </div>
         <div className="question-item">
           <span className="question-label">4. L-lysine comes in with the antiviral, and monolaurin is an option</span>
