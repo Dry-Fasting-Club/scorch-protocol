@@ -23,6 +23,7 @@ const navItems: NavItem[] = [
   { type: "link",  href: "/hgh-therapy",          label: "hGH Therapy",             phase: "05" },
   { type: "group", label: "Supplements & Tools" },
   { type: "link",  href: "/viral-reactivation",  label: "Viral Reactivation" },
+  { type: "link",  href: "/between-fasts",       label: "Between Fasts" },
   { type: "link",  href: "/symptom-management",   label: "Symptom Management" },
   { type: "link",  href: "/weight-loss",          label: "Weight Loss Protocol" },
   { type: "link",  href: "/genetic-polymorphisms",label: "Genetic Polymorphisms" },

@@ -21,6 +21,7 @@ The protocol runs in phases: a supported preparation period, a deep dry fast (th
 ## Conditions and supportive care
 
 - [Long Covid Basics](https://scorchprotocol.com/long-covid-basics): First-line supportive stack for Long Covid (LDN, nattokinase, ivermectin, MCAS support) for people not yet ready to fast.
+- [Between Fasts](https://scorchprotocol.com/between-fasts): The standing daily stack for the long gap between protocol cycles: valacyclovir as the standing antiviral backbone, ivermectin as supportive antiviral and primary antiparasitic, lysine, monolaurin, PEA, apigenin, nattokinase, quercetin, what to do during a PEM crash (artemisinin), and the anti-platelet bleeding-risk stop.
 - [Dry Fasting and POTS](https://scorchprotocol.com/dry-fasting-for-pots): Whether dry fasting is safe with POTS/dysautonomia, the precautions and clearance it needs, and the supportive stack to stabilize first.
 - [EBV and Chronic Fatigue](https://scorchprotocol.com/ebv-chronic-fatigue): How Epstein-Barr reactivation drives chronic fatigue, why fasting suppresses viral replication, and why the refeed window is the risk.
 - [MCAS and Dry Fasting](https://scorchprotocol.com/mcas-and-dry-fasting): Mast cell activation in Long Covid, the histamine-calming stack, MCAS-driven insomnia, and how fasting fits in.
@@ -38,7 +39,7 @@ The protocol runs in phases: a supported preparation period, a deep dry fast (th
 
 ## Membership
 
-- [Membership](https://scorchprotocol.com/membership): The $1/mo membership at members.scorchprotocol.com, where members build a personalized refeed plan, track temperature and labs, and ask Yannick questions directly.
+- [Membership](https://scorchprotocol.com/membership): The $5/mo membership at members.scorchprotocol.com, where members build a personalized refeed plan, track temperature and labs, and ask Yannick questions directly.
 
 ## More
 

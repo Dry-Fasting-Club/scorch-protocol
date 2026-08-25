@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import Script from "next/script";
 import GuidanceBox from "@/components/GuidanceBox";
 import JsonLd from "@/components/JsonLd";
@@ -703,6 +704,12 @@ export default function ViralReactivationPage() {
           see <a href="/t3-therapy">T3 Therapy</a>. For protocol entry
           decisions based on baseline temperature and viral history, see the{" "}
           <a href="/decision-tree">Decision Logic Tree</a>.
+        </p>
+        <p>
+          Once this window has closed and you are in the long gap before the
+          next cycle, the standing daily stack that holds the ground the fast
+          took is on the{" "}
+          <Link href="/between-fasts">Between Fasts</Link> page.
         </p>
       </div>
 

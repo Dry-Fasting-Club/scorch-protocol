@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import GuidanceBox from "@/components/GuidanceBox";
 import JsonLd from "@/components/JsonLd";
 import ProtocolFurtherReading from "@/components/ProtocolFurtherReading";
@@ -415,6 +416,11 @@ export default function LongCovidBasicsPage() {
           Start with the <a href="/decision-tree">Decision Logic Tree</a>{" "}
           to see where you are in the protocol and what your next step
           should be.
+        </p>
+        <p>
+          Once you have completed a cycle, the standing daily stack for the
+          long gap before the next fast is on the{" "}
+          <Link href="/between-fasts">Between Fasts</Link> page.
         </p>
       </div>
 

@@ -23,6 +23,7 @@ const protocolPages: { path: string; priority: number }[] = [
   { path: "/refeeding", priority: 0.9 },
   { path: "/t3-therapy", priority: 0.9 },
   { path: "/viral-reactivation", priority: 0.9 },
+  { path: "/between-fasts", priority: 0.9 },
   { path: "/success-rate-data", priority: 0.9 },
   { path: "/long-covid-basics", priority: 0.9 },
   { path: "/hgh-therapy", priority: 0.8 },
