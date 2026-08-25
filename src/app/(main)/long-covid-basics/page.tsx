@@ -386,12 +386,12 @@ export default function LongCovidBasicsPage() {
             reservoirs do not get re-seeded.
           </li>
           <li>
-            <a href="/viral-reactivation">Antiviral coverage</a>
-            (valacyclovir as the standing backbone (it starts at water day 3,
-            never during the dry fast itself), ivermectin as supportive
-            antiviral and primary antiparasitic, lysine and monolaurin
-            holding the natural line) holds the line during the
-            transition.
+            <a href="/viral-reactivation">Antiviral coverage</a> holds the line
+            during the transition: valacyclovir as the standing backbone,
+            starting at water day 3 and never during the dry fast itself,
+            ivermectin alongside it as a supportive antiviral and the
+            primary antiparasitic, and lysine and monolaurin as the
+            natural baseline.
           </li>
           <li>
             <a href="/t3-therapy">T3 therapy</a> restores the suppressed
