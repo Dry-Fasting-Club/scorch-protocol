@@ -34,7 +34,7 @@ const reactivationCascade = `graph TD
   V4 --> Choice
   V5 --> Choice
 
-  Choice -->|YES: ivermectin + lysine + monolaurin| Safe["Window closed safely<br/>Gains locked in"]
+  Choice -->|YES: valacyclovir + ivermectin + lysine + monolaurin| Safe["Window closed safely<br/>Gains locked in"]
   Choice -->|NO: unprotected refeed| Bad["Virus reactivates AND EXPANDS<br/>Seeds new ganglia and tissue<br/>Patient ends MORE broadly infected<br/>than starting baseline"]
 
   style Defenses fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
@@ -46,7 +46,7 @@ const reactivationCascade = `graph TD
 const pathogenStack = `graph TB
   Core["CORE SCORCH PROTOCOL<br/>Dry Fast + T3 + hGH"]
 
-  Core -.->|runs in parallel with| AV["ANTIVIRAL LAYER<br/>Always-on supportive coverage<br/><br/>CONTINUOUS: Ivermectin (supportive)<br/>TARGETED: Valacyclovir (prodrome only)<br/>NATURAL: Lysine, Monolaurin,<br/>Olive Leaf, Elderberry"]
+  Core -.->|runs in parallel with| AV["ANTIVIRAL LAYER<br/>Always-on supportive coverage<br/><br/>STANDING: Valacyclovir (backbone)<br/>SUPPORTIVE: Ivermectin (also antiparasitic)<br/>NATURAL: Lysine, Monolaurin,<br/>Olive Leaf, Elderberry"]
 
   Core -.->|runs in parallel with| AF["ANTIFUNGAL LAYER<br/>If fungal-focused patient<br/><br/>PRIMARY: Fluconazole<br/>REJECTED: Itraconazole (too strong)<br/>REJECTED: Natural antifungals (too weak)"]
 
@@ -349,25 +349,32 @@ export default function ViralReactivationPage() {
 
       <h2>The Pharmacological Stack for the Refeed Vulnerability Window</h2>
       <p>
-        Once organs are rehydrated through the water fast, you build your
-        defensive walls and keep them standing through the whole refeed, not
-        just on day one. The first wall is antiviral pressure: ivermectin runs
-        continuously as the supportive backbone (kept on for its antiparasitic
-        double duty and its gentler gut profile, with supportive antiviral value
-        on top), while valacyclovir is the targeted antiviral held in reserve for
-        prodromal tingling. The supportive layer is started at the water fast
-        bridge and continued across the entire refeed. The second is active immune rebuilding via thymic
-        peptides (Thymalin early in the refeed; Thymus Alpha-1 has been retired
-        from the protocol, see the note below). Through the first seven days of
-        refeeding you also add a
-        case-by-case metabolic layer, methylene blue and in selected cases
-        ethyl pyruvate, to support the mitochondria while food scales back in.
-        T3 is deliberately held until you have scaled food for a full seven
+        Nothing oral runs during the dry fast itself. Without renal water
+        flow, dosing and clearance kinetics are wrong and concentrated
+        toxicity becomes a real risk, so the antiviral stack stays off the
+        table through the dry fast and the first two days of the water fast.
+        The water fast bridge exists to restore that renal clearance, and
+        once it has (by water day 3, the water fast&rsquo;s third day) you
+        build your defensive walls and keep them standing through the whole
+        refeed, not just on day one. The first wall is antiviral pressure:
+        valacyclovir becomes the standing backbone, started at that water
+        day 3 mark and held through the calorie ramp and into maintenance,
+        never during the dry fast or the first two water days. Ivermectin
+        runs alongside it as a supportive antiviral (it calms the nervous
+        system and inflammation and may mildly inhibit viral entry) and,
+        more importantly, as the primary antiparasitic, working in synergy
+        with the fast itself. The second wall is active immune rebuilding
+        via thymic peptides (Thymalin early in the refeed; Thymus Alpha-1
+        has been retired from the protocol, see the note below). Through
+        the first seven days of refeeding you also add a case-by-case
+        metabolic layer, methylene blue and in selected cases ethyl
+        pyruvate, to support the mitochondria while food scales back in. T3
+        is deliberately held until you have scaled food for a full seven
         days: the antiviral stack, not T3, is what closes the vulnerability
-        window. This stack is not optional for anyone with Long Covid, ME/CFS,
-        recurring herpesvirus history, or unexplained chronic illness. Each
-        component blocks, rebuilds, or supports a different stage of the
-        cascade.
+        window. This stack is not optional for anyone with Long Covid,
+        ME/CFS, recurring herpesvirus history, or unexplained chronic
+        illness. Each component blocks, rebuilds, or supports a different
+        stage of the cascade.
       </p>
 
       <table>
@@ -424,35 +431,44 @@ export default function ViralReactivationPage() {
               >
                 [2]
               </a>
-              ). Ivermectin is the pharmaceutical kept running continuously
-              here, chosen because it is overall better on the gut microbiome
-              during the refeed and pulls double duty as an antiparasitic. Treat
+              ). Ivermectin runs in the second seat here, alongside the
+              standing valacyclovir course, chosen for its gentler gut
+              profile and its double duty as an antiparasitic. Treat
               it as a supportive antiviral (it calms the nervous system and
               inflammation and may mildly inhibit viral entry) rather than a
               standalone virus-killer. The combination of ivermectin and dry
               fasting clears most parasitic load, with supportive antiviral
-              coverage on top. Coverage does not stop at the 24 to 72 hour
-              vulnerability window: it runs across the full refeed, bridging the
-              gap until T3 begins after Day 7.
+              coverage riding along on top. Coverage does not stop at the 24
+              to 72 hour vulnerability window: it runs across the full
+              refeed, bridging the gap until T3 begins after Day 7.
             </td>
           </tr>
           <tr>
             <td>
-              <strong>Acyclovir or Valacyclovir (prodrome rescue)</strong>
+              <strong>Acyclovir or Valacyclovir (standing antiviral backbone)</strong>
             </td>
             <td>
-              On hand <em>before</em> the fast; deploy at first tingling
+              Off during the dry fast and the first two days of the water
+              fast (renal clearance is not yet restored); standing course
+              starts water day 3 and is held through the calorie ramp and
+              into maintenance. On hand <em>before</em> the fast for the
+              prodrome escalation below.
             </td>
             <td>
               Inhibits viral DNA polymerase. Covers HSV-1, HSV-2, VZV
-              completely; partial coverage of EBV and CMV. Reserved for
-              prodromal rescue: the tingling, itching, or burning at a
-              previous outbreak site that signals an oncoming HSV
-              reactivation. A single loading dose at the prodrome can
-              abort the outbreak before lesions form. Valacyclovir is the
-              targeted antiviral, deployed at the prodrome rather than run daily;
-              ivermectin is the agent kept running continuously through the
-              window for its antiparasitic and supportive antiviral role.
+              completely; partial coverage of EBV and CMV. This is now the
+              standing backbone of the antiviral layer: never run during
+              the dry fast or the first two days of the water fast, since
+              without renal water flow the dosing and clearance kinetics
+              are wrong, but started once rehydration is established at
+              water day 3 and carried through the calorie ramp and into
+              maintenance. A prodrome loading dose, the tingling, itching,
+              or burning at a previous outbreak site that signals an
+              oncoming HSV reactivation, is layered on top of that standing
+              course as an escalation, not a substitute for it, and can
+              abort the outbreak before lesions form. Ivermectin runs
+              alongside the standing course in the second seat, for its
+              antiparasitic and supportive antiviral role.
             </td>
           </tr>
           <tr>
@@ -526,15 +542,18 @@ export default function ViralReactivationPage() {
         </tbody>
       </table>
       <p style={{ fontSize: "0.9rem", opacity: 0.75, fontStyle: "italic", marginTop: "1rem" }}>
-        Doses for each agent are intentionally not published here. They are
-        highly patient-specific (dependent on weight, prior viral load,
-        baseline immune status, comorbidities, and current symptom pattern).
-        Generalised public dosing would contradict the &ldquo;Fasting
-        Detective&rdquo; clinical-individualisation approach that the
-        protocol is built around. Dose-level work is reserved for direct
+        Doses for this stack, including the valacyclovir standing course and
+        its prodrome escalation, are intentionally not published on this
+        page. They are highly patient-specific (dependent on weight, prior
+        viral load, baseline immune status, comorbidities, and current
+        symptom pattern). Generalised public dosing would contradict the
+        &ldquo;Fasting Detective&rdquo; clinical-individualisation approach
+        that the protocol is built around. Dose-level work for these
+        individualised levers belongs to the members portal and direct
         clinical assessment. This applies with particular force to the
         metabolic supports: methylene blue and ethyl pyruvate are dosed
-        strictly per individual, and no amounts appear anywhere on this site.
+        strictly per individual, and no amount for them is published on this
+        page.
       </p>
 
       <div style={{ margin: "2rem 0" }}>
@@ -604,8 +623,9 @@ export default function ViralReactivationPage() {
           <span className="question-label">Tingling, burning, or itching at a previous outbreak site</span>
           The prodrome: a viral particle has reached a nerve ending and
           replication has started. This is the moment to escalate antivirals,
-          not after the lesion appears. A 2g loading dose of valacyclovir at
-          the prodrome can abort an outbreak entirely.
+          not after the lesion appears. A loading dose of valacyclovir,
+          layered on top of the standing course, can abort an outbreak
+          entirely at the prodrome.
         </div>
         <div className="question-item">
           <span className="question-label">Sudden return of pre-protocol fatigue, brain fog, or post-exertional malaise</span>

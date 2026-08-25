@@ -422,9 +422,14 @@ export default function T3TherapyPage() {
         </p>
         <p>
           What you do carry straight through the fast-to-refeed transition is
-          your viral reactivation protocol. The antiviral coverage (ivermectin,
-          valacyclovir if you feel a prodrome coming on, L-lysine plus
-          monolaurin) does not pause. That handoff from fasting to eating is the
+          your viral reactivation protocol. Valacyclovir leads it as the
+          standing antiviral backbone (off during the dry fast and the first
+          two days of the water fast, started once rehydrated at water day
+          3), with ivermectin alongside it as supportive coverage plus the
+          primary antiparasitic, L-lysine plus monolaurin holding the
+          natural line, and a valacyclovir loading dose layered on top if
+          you feel a prodrome coming on. None of it pauses once the standing
+          course is running. That handoff from fasting to eating is the
           exact energetic trough where dormant herpesviruses wake up, so the
           antivirals stay on through the transition and across the entire
           refeed. Do not drop them the moment you start eating.

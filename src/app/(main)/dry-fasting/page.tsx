@@ -286,10 +286,14 @@ export default function DryFastingPage() {
         What does carry through the transition is your antiviral coverage. The
         fast clears out the viral reservoirs, and the moment they are most
         likely to try to re-seed is when food comes back, not during the fast
-        itself. So the viral reactivation protocol (L-lysine + monolaurin, and
-        where indicated ivermectin or valacyclovir at the first sign of a
-        prodrome) stays in place straight through the fast-to-refeed handoff and
-        across the whole refeed. The{" "}
+        itself. So the viral reactivation protocol stays in place straight
+        through the fast-to-refeed handoff and across the whole refeed:
+        valacyclovir as the standing antiviral backbone (off during the dry
+        fast and the first two days of the water fast for renal clearance,
+        started at water day 3), ivermectin alongside it as supportive
+        coverage plus the primary antiparasitic, L-lysine and monolaurin
+        holding the natural line, and a valacyclovir loading dose on top at
+        the first sign of a prodrome. The{" "}
         <a href="/viral-reactivation">Viral Reactivation</a> page has the full
         stack.
       </p>

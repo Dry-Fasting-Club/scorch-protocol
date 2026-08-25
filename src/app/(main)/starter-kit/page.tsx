@@ -124,12 +124,12 @@ export default function StarterKitPage() {
           Your always-on antiviral stack.
         </div>
         <div className="question-item">
-          <span className="question-label">Ivermectin<Tag>Rx</Tag></span>
-          Runs continuously through the vulnerable window: antiparasitic double duty plus supportive antiviral value.
+          <span className="question-label">Valacyclovir<Tag>Rx</Tag></span>
+          The standing antiviral backbone: off during the dry fast and the first two water days, starts once rehydrated at water day 3, and runs through the refeed. Kept on hand from the start of the fast for a loading dose at the first sign of a cold-sore prodrome.
         </div>
         <div className="question-item">
-          <span className="question-label">Valacyclovir<Tag>Rx</Tag></span>
-          The targeted antiviral, kept on hand to catch a cold-sore prodrome early.
+          <span className="question-label">Ivermectin<Tag>Rx</Tag></span>
+          Runs alongside it through the vulnerable window: primary antiparasitic double duty plus supportive antiviral value.
         </div>
         <div className="question-item">
           <span className="question-label">Humidifier<Tag>Gear</Tag></span>

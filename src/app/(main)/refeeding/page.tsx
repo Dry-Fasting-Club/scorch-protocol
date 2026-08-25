@@ -175,18 +175,29 @@ export default function RefeedingPage() {
           checkbox. Carry them all the way through the week.
         </p>
         <div className="question-item">
-          <span className="question-label">Ivermectin runs continuously:</span>
-          It has the better gut microbiome profile during the refeed and pulls
-          double duty as an antiparasitic, with supportive antiviral value on
-          top (a supportive antiviral, not a standalone virus-killer). Keep it
-          running through the transition and across the refeed, not just on the
-          first day.
+          <span className="question-label">Valacyclovir is the standing backbone:</span>
+          It stays off the table during the dry fast and the first two days
+          of the water fast, while renal clearance is not yet restored. Once
+          rehydration is established at water day 3, the standing course
+          begins and is held through the calorie ramp and into maintenance.
+          Have it in your possession before the fast ends so it is ready to
+          start on schedule, and keep it running across the transition and
+          the whole refeed, not just on day one.
         </div>
         <div className="question-item">
-          <span className="question-label">Valacyclovir stays on standby:</span>
-          It is your prodrome rescue. The moment you feel tingling, the early
-          signal of an oncoming HSV outbreak, you use it. Have it in your
-          possession before the fast ends.
+          <span className="question-label">Ivermectin runs alongside it as supportive coverage:</span>
+          It has the better gut microbiome profile during the refeed and pulls
+          double duty as the primary antiparasitic, with supportive antiviral
+          value on top (a supportive antiviral, not a standalone
+          virus-killer). Keep it running through the transition and across
+          the refeed, not just on the first day.
+        </div>
+        <div className="question-item">
+          <span className="question-label">A prodrome loading dose escalates on top:</span>
+          The moment you feel tingling, the early signal of an oncoming HSV
+          outbreak, add a loading dose of valacyclovir on top of the
+          standing course that is already running. It is an escalation, not
+          valacyclovir&rsquo;s only role.
         </div>
         <div className="question-item">
           <span className="question-label">L-lysine + monolaurin continue daily:</span>
@@ -583,13 +594,17 @@ export default function RefeedingPage() {
           arginine and undo the work lysine is doing.
         </div>
         <div className="question-item">
-          <span className="question-label">Have Ivermectin (Continuous) and Valacyclovir (Prodrome Rescue) On Hand BEFORE Breaking the Fast</span>
-          The protocol keeps ivermectin running continuously through the
-          window (better gut microbiome compatibility during refeed and double
-          duty as antiparasitic, with supportive antiviral value on top).
-          Valacyclovir is the targeted antiviral, reserved for prodromal
-          tingling, the early signal of an oncoming HSV outbreak. Both
-          need to be in your possession before the fast ends, not after.
+          <span className="question-label">Have Valacyclovir (Standing Backbone) and Ivermectin (Supportive) On Hand BEFORE Breaking the Fast</span>
+          Valacyclovir is the standing antiviral backbone: off during the
+          dry fast and the first two days of the water fast, then started
+          once rehydration is established at water day 3 and held through
+          the calorie ramp and into maintenance. Ivermectin runs alongside
+          it through the window (better gut microbiome compatibility during
+          refeed and double duty as the primary antiparasitic, with
+          supportive antiviral value on top). Both need to be in your
+          possession before the fast ends, not after, and a prodrome
+          loading dose of valacyclovir sits ready as an escalation on top
+          of the standing course if tingling shows up.
         </div>
       </div>
 
@@ -787,11 +802,22 @@ export default function RefeedingPage() {
           bacterial side. Phage therapy exists experimentally but is
           not yet a protocol component. The pragmatic position: once
           you stop the antiviral pressure, the virome auto-recovers
-          on its own. The job is to <em>not destroy it unnecessarily</em>{" "}
-          in the first place. That is one of the reasons the protocol keeps
-          ivermectin running (better gut microbiome profile) as its continuous
-          supportive antiviral rather than long-course valacyclovir where
-          possible.
+          on its own.
+        </p>
+        <p>
+          This cost is exactly why valacyclovir, now run as the standing
+          antiviral backbone (started once rehydration is established at
+          water day 3, never during the dry fast or the first two water
+          days, and held through the calorie ramp and into maintenance),
+          carries a mandatory gut-rebuild rider alongside it: kefir first,
+          then kombucha. This is a deliberate tradeoff, not an oversight.
+          The standing course gives you the stronger, more reliable
+          antiviral coverage across the whole refeed, and the rider pays
+          the biome cost down on purpose instead of leaving that coverage
+          weaker to avoid the cost. Ivermectin still runs alongside the
+          standing course for its gentler gut profile and its double duty
+          as the primary antiparasitic, but it no longer stands in for
+          valacyclovir&rsquo;s job.
         </p>
       </div>
 
