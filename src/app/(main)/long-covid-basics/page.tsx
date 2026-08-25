@@ -387,9 +387,10 @@ export default function LongCovidBasicsPage() {
           </li>
           <li>
             <a href="/viral-reactivation">Antiviral coverage</a>
-            (valacyclovir as the standing backbone, ivermectin as
-            supportive antiviral and primary antiparasitic, lysine and
-            monolaurin holding the natural line) holds the line during the
+            (valacyclovir as the standing backbone (it starts at water day 3,
+            never during the dry fast itself), ivermectin as supportive
+            antiviral and primary antiparasitic, lysine and monolaurin
+            holding the natural line) holds the line during the
             transition.
           </li>
           <li>
