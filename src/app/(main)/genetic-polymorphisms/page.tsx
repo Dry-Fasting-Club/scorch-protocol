@@ -20,7 +20,7 @@ export default function GeneticPolymorphismsPage() {
       <h1>DIO2 and Genetic Variants: Matching The Scorch Protocol to Your DNA</h1>
       <KeyTakeaways points={[
         "Certain gene variants, especially DIO2 Thr92Ala, reduce your ability to make active thyroid hormone (T3) by 20 to 40%, making the metabolic drop from fasting much more severe.",
-        "Up to 45 to 60% of people with European ancestry carry the DIO2 variant, so testing your DNA before aggressive dry fasting is strongly recommended.",
+        "Up to 45 to 60% of people with European ancestry carry the DIO2 variant. Testing your DNA for it is an optional curiosity if you have the time and money, not a requirement: temperature and symptom tracking, not a lab result, are what actually guide the protocol.",
         "DIO2 carriers should start with shorter wet fasts, monitor FT3 and TSH closely, add 200mcg selenium daily, and consider T3 therapy if hypothyroid symptoms persist.",
         "Other variants (DIO1, MCT10, TSHR, FTO) can stack with DIO2 to make fasting 2 to 3 times harder, amplifying energy crashes, fat storage, and recovery time.",
       ]} />
@@ -77,8 +77,11 @@ export default function GeneticPolymorphismsPage() {
       <h3>Actionable Steps for DIO2 Carriers</h3>
       <ul>
         <li>
-          <strong>Test Your DNA:</strong> Upload Ancestry.com raw data to
-          Promethease; flag if Thr/Ala or Ala/Ala.
+          <strong>Testing Is Optional:</strong> If you have the time and
+          money and are curious, you can upload your Ancestry.com raw data to
+          Promethease and check for Thr/Ala or Ala/Ala. It is interesting to
+          know, but nothing below requires it: temperature and symptoms tell
+          you the same thing a lab result would.
         </li>
         <li>
           <strong>Modify Fasting:</strong> Start with wet fasts (12-16h); limit
@@ -93,11 +96,12 @@ export default function GeneticPolymorphismsPage() {
           activity by 20%.
         </li>
         <li>
-          <strong>Consider T3 Therapy:</strong> If you carry the variant and
-          hypothyroid symptoms stay stubborn, this is where LT3 (liothyronine)
-          earns its place. T3 is prescription-only, so you will need to source
-          it, and it is worth running past Yannick with your own FT3 and TSH
-          numbers in front of you.
+          <strong>Consider T3 Therapy:</strong> If your temperature stays low
+          and hypothyroid symptoms stay stubborn, whether or not you have
+          ever tested for the variant, this is where LT3 (liothyronine) earns
+          its place. T3 is prescription-only, so you will need to source it,
+          and it is worth running past Yannick with your own FT3, TSH, and
+          temperature numbers in front of you.
         </li>
       </ul>
 
@@ -150,11 +154,13 @@ export default function GeneticPolymorphismsPage() {
       </div>
 
       <p>
-        <strong>The Solution:</strong> You must test your genes for the DIO2
-        variant. If you have it, you should prioritize diets that include
-        healthy carbs and support your thyroid, rather than following a standard
-        keto diet. This keeps your metabolism running instead of hitting a dead
-        end.
+        <strong>The Solution:</strong> You do not need a lab result to act on
+        this. If you notice the low-temperature, tired, foggy pattern above on
+        keto, whether or not you have ever tested your genes, prioritize
+        diets that include healthy carbs and support your thyroid rather than
+        following a standard keto diet. A DNA test can satisfy your curiosity
+        about the DIO2 variant if you have the time and money for one, but it
+        does not change what to do next.
       </p>
 
       <div className="guiding-questions box-info">
@@ -234,8 +240,10 @@ export default function GeneticPolymorphismsPage() {
         </table>
         <p style={{ marginTop: "1rem" }}>
           <strong>Key Fact:</strong> If you are of European descent, there is a{" "}
-          <strong>45-60% chance</strong> you carry this variant. This makes
-          testing your DNA very important before you try aggressive dry fasting.
+          <strong>45-60% chance</strong> you carry this variant. That is
+          useful context, not a reason to test before you fast: temperature
+          charting during the protocol tells you what you need to know
+          whether or not you ever confirm the genotype.
         </p>
       </div>
 
