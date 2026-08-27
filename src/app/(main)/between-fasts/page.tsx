@@ -20,17 +20,17 @@ const betweenFastsFaq = [
   {
     question: "What do you take between fasts?",
     answer:
-      "A standing daily stack, not a pre-fast shopping list. It has four working parts: a direct antiviral core (valacyclovir as the backbone, ivermectin as supportive cover plus the primary antiparasitic, lysine and monolaurin as the natural baseline), nervous-system and immune support (PEA, liposomal apigenin, thymus glandular), blood and biofilm clearing (nattokinase daily, artemisinin only on bad days), and systemic support (garlic, olive leaf, quercetin, Pyrucet). Artemisinin and psilocybin are the only two items that are not daily.",
+      "A standing daily stack, not a pre-fast shopping list. It has four working parts: a direct antiviral core (valacyclovir as the backbone, ivermectin as supportive cover plus the primary antiparasitic, lysine and monolaurin as the natural baseline), nervous-system and immune support (PEA, liposomal apigenin, thymus glandular), blood and biofilm clearing (nattokinase, daily), and systemic support (garlic, olive leaf, quercetin, Pyrucet). Artemisinin sits outside the daily stack entirely: it is an optional extra antiviral, added only when stacking against a strongly suspected viral reactivation. Artemisinin and psilocybin are the only two items that are not daily.",
   },
   {
     question: "Do you stay on antivirals between fasts?",
     answer:
-      "Yes. Valacyclovir is a standing backbone, not a short course you stop once the refeed ends. It stays off during the dry fast and the first two water days because it is renally cleared and needs water flow to clear safely, it starts on water day 3 once rehydration is established, and it keeps running through the refeed and into the long gap before the next cycle. Ivermectin runs alongside it as a secondary supportive antiviral and the primary antiparasitic. If a prodrome starts, the loading dose is an escalation layered on top of the standing course, not a replacement for it.",
+      "Yes. Valacyclovir is a standing backbone, not a short course you stop once the refeed ends. It stays off during the dry fast and the first two water days because it is renally cleared and needs water flow to clear safely, it starts on water day 3 once rehydration is established, and it keeps running through the refeed and into the long gap before the next cycle. Ivermectin runs alongside it as a secondary supportive antiviral and the primary antiparasitic, and some patients keep it as a crash-only medication rather than a daily one, since the same calming effect that supports it as an antiviral is also the reason it is reached for during a PEM crash. If a prodrome starts, the loading dose is an escalation layered on top of the standing course, not a replacement for it.",
   },
   {
     question: "What can you take during a PEM crash?",
     answer:
-      "Artemisinin is the as-needed lever for a crash. It is deliberately not a daily supplement. It is reserved for high-risk days and post-exertional malaise crashes because it works by causing localized oxidative stress, and continuous use builds metabolic clearance tolerance that makes it useless by the time you actually need it. Screen for G6PD deficiency before the first dose. Everything else in the standing stack keeps running through a crash unchanged.",
+      "The standing stack keeps running unchanged. What changes is dosing on two items already in the picture. Ivermectin is the first lever: its calming effect on the nervous system and on inflammation, already part of why it is in the stack, is often strong enough on its own to pull a crash back, so the dose is raised temporarily. Some patients keep ivermectin as a crash-only medication rather than a daily one. For patients already established on T3 therapy, an acute, temporary increase in the T3 dose is the second tried strategy, set with whoever manages that prescription, never a reason to start T3 early. Artemisinin plays no role here. It is an optional extra antiviral for stacking against suspected viral reactivation, not a crash tool.",
   },
   {
     question: "Can you take aspirin or ibuprofen on this stack?",
@@ -70,7 +70,8 @@ export default function BetweenFastsPage() {
         points={[
           "This is the standing daily stack for the long gap between protocol cycles: the months after one fast and refeed have finished, and before the next fast begins. It is not a pre-fast shopping list.",
           "Valacyclovir is the standing antiviral backbone. It stays off during the dry fast and the first two water days because it is renally cleared, starts on water day 3, and then keeps running. Ivermectin is a secondary supportive antiviral and the primary antiparasitic.",
-          "Almost everything here is daily. The two exceptions are artemisinin (reserved for high-risk days and PEM crashes, because continuous use builds tolerance) and psilocybin microdosing (an optional extra, never part of the baseline).",
+          "During a PEM crash, the standing stack keeps running and dosing changes on two items already in it: ivermectin, raised for its calming effect on the nervous system and inflammation, and, for patients already established on T3 therapy, a temporary acute increase set with a clinician. Artemisinin is not a crash tool.",
+          "Almost everything here is daily. Artemisinin is the one exception in the standing stack: an optional extra antiviral, added only when stacking against a strongly suspected viral reactivation, and marginal to the protocol outside that situation. Psilocybin microdosing is the other non-daily item, an optional extra never part of the baseline.",
           "Food timing is not a detail. Lysine and nattokinase need an empty stomach to work at all, while monolaurin and thymus glandular need food to be tolerated.",
           "Bleeding risk is the hard stop: nattokinase, garlic and olive leaf are all anti-platelet, and those three never overlap the T3 and refeed phases, where low-dose aspirin is a deliberate co-factor. Valacyclovir is the carve-out: it is not anti-platelet, and it keeps running through the refeed and the T3 phase.",
           "No doses appear on this page. They are individualized against your own labs and live in the members portal.",
@@ -192,7 +193,8 @@ export default function BetweenFastsPage() {
             </td>
             <td>
               Prescription only. Read the quercetin interaction note further
-              down before running the two together.
+              down before running the two together. The dose is raised
+              temporarily during a PEM crash; see that section below.
             </td>
           </tr>
           <tr>
@@ -350,66 +352,52 @@ export default function BetweenFastsPage() {
       <p>
         Microclots and viral biofilms are physical obstacles. They block oxygen
         delivery and they shelter pathogens from both the immune system and the
-        antivirals. Two agents work this layer, and they work very differently.
+        antivirals. Nattokinase works this layer, daily.
       </p>
 
       <div className="guiding-questions box-info">
-        <h3>Daily Versus As-Needed</h3>
+        <h3>Nattokinase (Daily, Empty Stomach)</h3>
         <div className="question-item">
           <span className="question-label">
-            Nattokinase (daily, empty stomach)
+            An enzyme, not a supplement to skip
           </span>
-          An enzyme that breaks down microclots and viral biofilms in the
+          Nattokinase breaks down microclots and viral biofilms in the
           bloodstream. It must be taken on an empty stomach, first thing in the
           morning or right before bed. The reason matters: taken with food, the
           enzyme is spent digesting meal protein and never reaches the
           bloodstream at all. With food it is not a smaller effect. It is a
           wasted dose.
         </div>
-        <div className="question-item">
-          <span className="question-label">Artemisinin (never daily)</span>
-          Sweet wormwood extract, used only on high-risk days and during PEM
-          crashes. It is the one agent here that is deliberately intermittent.
-          The next section explains why, and how to use it.
-        </div>
       </div>
 
-      <h2>What To Do During a PEM Crash</h2>
+      <h2>Artemisinin: An Optional Extra, Not a Core Item</h2>
       <p>
-        Post-exertional malaise is the collapse that arrives hours or a day
-        after you did something ordinary. Every other page on this site covers
-        how to avoid crashing. This section covers what to do once you are
-        already in one, because that is the question people are actually typing
-        at 2am.
-      </p>
-      <p>
-        The first rule is the least satisfying one: the standing stack keeps
-        running unchanged. A crash is not the moment to add three new
-        supplements or to stop the antiviral backbone. The stack is what holds
-        the baseline while the crash passes.
-      </p>
-      <p>
-        The one thing that changes is artemisinin. It is the as-needed lever
-        reserved for exactly this situation, plus the high-risk days you can see
-        coming: travel, a known exposure, a heavy commitment you cannot move.
+        Artemisinin is sweet wormwood extract. It earns its place in this
+        protocol for one reason only: when viral reactivation is strongly
+        suspected, it stacks with the standing antivirals to add extra
+        pressure while that suspicion is being worked through.
       </p>
 
-      <div className="guiding-questions box-warning">
-        <h3>Why Artemisinin Is Not a Daily Supplement</h3>
-        <p>
-          Artemisinin works by causing localized oxidative stress, which is
-          hostile to pathogens sheltering inside biofilm. That mechanism is
-          exactly why it cannot be a daily agent.
-        </p>
-        <h4>Continuous use makes it useless</h4>
-        <p>
-          Taken every day, the body upregulates its metabolic clearance of
-          artemisinin. It is cleared faster and faster until the same amount
-          does nothing at all. Patients who run it daily as a general antiviral
-          find it has stopped working by the time they hit a crash and genuinely
-          need it. Use days only, with real gaps between them, is what keeps the
-          tool sharp.
-        </p>
+      <div className="guiding-questions box-info">
+        <h3>What It Is Actually For</h3>
+        <div className="question-item">
+          <span className="question-label">
+            An extra antiviral for stacking, nothing more
+          </span>
+          Artemisinin is not a daily agent and it is not a PEM-crash tool. In
+          Yannick&rsquo;s own assessment it is a marginal item in the protocol:
+          useful specifically when stacking antivirals because reactivation is
+          strongly suspected, and outside that situation it would not really
+          have a place in the protocol at all.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Never daily</span>
+          Continuous use lets the body upregulate its metabolic clearance of
+          artemisinin, so the same amount does less and less over time.
+          Reserving it for the situations that actually call for it, with real
+          gaps between uses, is what keeps it useful on the occasions it is
+          genuinely needed.
+        </div>
       </div>
 
       <div className="guiding-questions box-danger">
@@ -429,6 +417,81 @@ export default function BetweenFastsPage() {
           </em>
         </p>
       </div>
+
+      <h2>What To Do During a PEM Crash</h2>
+      <p>
+        Post-exertional malaise is the collapse that arrives hours or a day
+        after you did something ordinary. Every other page on this site covers
+        how to avoid crashing. This section covers what to do once you are
+        already in one, because that is the question people are actually typing
+        at 2am.
+      </p>
+      <p>
+        The first rule is the least satisfying one: the standing stack keeps
+        running unchanged. A crash is not the moment to add three new
+        supplements or to stop the antiviral backbone. The stack is what holds
+        the baseline while the crash passes.
+      </p>
+      <p>
+        What does change is dosing on two items already in the picture:
+        ivermectin, and, for some patients, T3. Artemisinin is not part of
+        crash management. It is an optional extra antiviral for stacking
+        against suspected reactivation, covered above.
+      </p>
+
+      <div className="guiding-questions box-warning">
+        <h3>Ivermectin: The First Lever</h3>
+        <div className="question-item">
+          <span className="question-label">Why ivermectin works here</span>
+          Ivermectin is already in the standing stack as a supportive
+          antiviral, where it calms the nervous system and inflammation and may
+          mildly inhibit viral entry. In Yannick&rsquo;s clinical experience,
+          that same calming and anti-inflammatory effect is powerful enough
+          that raising the dose is often what pulls someone out of a crash.
+          Some patients keep ivermectin as a crash-only medication rather than
+          a daily one. Others run it daily and simply raise the dose when a
+          crash hits.
+        </div>
+        <div className="question-item">
+          <span className="question-label">
+            The dose is raised, not the drug changed
+          </span>
+          The amount goes up during a crash and comes back down once the crash
+          has passed. What that amount is, and how it is ramped, is set per
+          case, in the members portal or with whoever prescribes it. The
+          quercetin interaction covered further down still applies: flag the
+          crash dose to your prescriber the same as you would the standing one.
+        </div>
+      </div>
+
+      <div className="guiding-questions box-warning">
+        <h3>Acute T3 Increase: For Patients Already On T3</h3>
+        <div className="question-item">
+          <span className="question-label">The second tried strategy</span>
+          For someone already established on T3 therapy, a temporary, acute
+          increase in the T3 dose is the other strategy Yannick has seen work
+          to beat back a crash quickly. This applies only to patients already
+          running T3. It is not a reason to start T3 early, or to begin it
+          because a crash hit.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Not a self-directed change</span>
+          A thyroid hormone dose is not something to adjust on your own,
+          especially mid-crash. If you are already on T3, this is worth
+          discussing in advance with whoever manages that prescription, so you
+          know what an acute increase looks like for your case before you need
+          one.
+        </div>
+      </div>
+
+      <p>
+        <em>
+          Medical caveat: both of these are dose changes to prescription
+          medications. Raising ivermectin or T3 during a crash belongs with
+          the physician managing that prescription, not as a self-directed
+          decision made in the moment.
+        </em>
+      </p>
 
       <h2>Systemic Support</h2>
       <p>
@@ -594,7 +657,7 @@ export default function BetweenFastsPage() {
       </p>
       <p>
         <em>
-          Medical caveat: valacyclovir and ivermectin are prescription
+          Medical caveat: valacyclovir, ivermectin and T3 are prescription
           medications. Every item on this page, prescription or not, is a
           decision to make with a physician who knows your history and your
           labs.
