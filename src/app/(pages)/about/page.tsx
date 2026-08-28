@@ -71,9 +71,10 @@ export default function AboutPage() {
         <Link href="/t3-therapy">T3 therapy</Link>, and{" "}
         <Link href="/hgh-therapy">hGH</Link>. It is not a single miracle switch; it
         is a sequence with preparation, timing, and exit steps that matter. The
-        outcomes I publish come from real people I have tracked, laid out honestly
-        on the <Link href="/success-rate-data">results page</Link>, methodology and
-        limitations included.
+        outcomes I publish come from real people who ran it and reported back, laid
+        out honestly on the <Link href="/success-rate-data">results page</Link>,
+        including who it works best for and everything those reports cannot tell
+        you.
       </p>
 
       <h2>What I am, and what I&rsquo;m not</h2>

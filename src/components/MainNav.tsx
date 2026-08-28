@@ -34,7 +34,7 @@ const navItems: NavItem[] = [
   { type: "link",  href: "/ebv-chronic-fatigue",   label: "EBV & Chronic Fatigue" },
   { type: "link",  href: "/mcas-and-dry-fasting",  label: "MCAS & Mast Cells" },
   { type: "group", label: "Data & Reference" },
-  { type: "link",  href: "/success-rate-data",    label: "Success Rate Data" },
+  { type: "link",  href: "/success-rate-data",    label: "Results" },
   { type: "link",  href: "/contraindications",    label: "Who Should Not Do This" },
   { type: "link",  href: "/refeed-for-bmr",       label: "9-Month BMR Reconstruction" },
   { type: "link",  href: "/list-of-pharmacies",   label: "List of Pharmacies" },

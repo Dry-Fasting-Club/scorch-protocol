@@ -100,11 +100,12 @@ export default function MembershipPage() {
 
       <h2>Why start with Starter?</h2>
       <p>
-        Because the hard part of recovery is starting. The people whose outcomes
-        are tracked on the{" "}
-        <Link href="/success-rate-data">results page</Link> worked one-on-one
-        with Yannick, and Starter is the easiest way into that same guidance. If
-        it is not useful, cancel before your second month and move on.
+        Because the hard part of recovery is starting. The{" "}
+        <Link href="/success-rate-data">results page</Link> lays out what tends
+        to improve and, more usefully, which profile responds best. Starter is
+        the easiest way to find out whether that profile is you, with Yannick
+        looking at your actual case. If it is not useful, cancel before your
+        second month and move on.
       </p>
 
       <div className="guidance-box">

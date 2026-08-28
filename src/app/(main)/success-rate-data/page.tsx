@@ -4,83 +4,170 @@ import GuidanceBox from "@/components/GuidanceBox";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
-import Image from "next/image";
-import MermaidCharts from "@/components/MermaidCharts";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import EmailCapture from "@/components/EmailCapture";
 import JsonLd from "@/components/JsonLd";
-import { medicalWebPageLd, medicalStudyLd } from "@/lib/structured-data";
+import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  title: "Success Rate Data",
+  title: "Results: What Improves, and For Whom",
   description:
-    "Real outcome data from 141 protocol participants: of the 32 who completed the full dry fasting, T3, and hGH therapy phases, 97% recovered. Methodology and full breakdown inside.",
+    "What people report after running the Scorch Protocol, which profile responds best (a low waking temperature and clear signs of metabolic damage), and an honest account of where these reports come from and what they cannot tell you.",
   alternates: { canonical: "https://scorchprotocol.com/success-rate-data" },
 };
-
-const patientFunnel = `graph TD
-  Start["141 chronically ill patients<br/>cleared and enrolled in the tracked protocol"] --> Phase2["117 completed the 10-day fast block<br/>(5 dry + 5 water) + refeed"]
-
-  Phase2 --> FastingOnly["The largest group: deep fasting only<br/>lower-severity patients, not the most chronically ill<br/>partial to full resolution from the fast alone<br/>(about a third reached level 10 with no T3)"]
-  Phase2 --> Continued["32 continued to the full protocol:<br/>T3 + hGH therapy<br/>plus symptom-specific add-ons<br/>(e.g. herbal Lyme protocols kept running<br/>through regeneration)<br/>the sickest, most-motivated patients"]
-
-  Continued --> Recovered["30 of 32 fully recovered<br/>= 97% success rate<br/><br/>• 53% reached 10/10 brain fog<br/>• 56% reached 10/10 insomnia<br/>• 41% reached 10/10 fatigue"]
-  Continued --> Incomplete["2 of 32 still in protocol<br/>or did not complete"]
-
-  style Start fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
-  style Phase2 fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
-  style FastingOnly fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
-  style Continued fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
-  style Recovered fill:#14532d,stroke:#22c55e,stroke-width:4px,color:#86efac
-  style Incomplete fill:#1e293b,stroke:#64748b,stroke-width:1px,color:#94a3b8`;
 
 export default function SuccessRateDataPage() {
   return (
     <>
-      <JsonLd data={[...medicalWebPageLd({ name: "Success Rate Data", description: "Real outcome data from 141 protocol participants: of the 32 who completed the full dry fasting, T3, and hGH therapy phases, 97% recovered. Methodology and full breakdown inside.", path: "/success-rate-data", breadcrumbName: "Success Rate Data", about: ["Long COVID", "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome"] }), medicalStudyLd()]} />
-      <h1>Success Rate Data: The Scorch Protocol Results</h1>
-      <KeyTakeaways points={[
-        "141 chronically ill patients were tracked. Of those, 32 completed the full protocol including T3 and hGH therapy, and 97% of those 32 experienced significant improvement.",
-        "Many participants never needed T3 or hGH: roughly a third reached full or near-full resolution from the fasting block and refeed alone.",
-        "The 97% figure applies to the sickest, most motivated patients who went all the way through every phase, not to everyone who enrolled.",
-        "Over 100 additional people were assessed and advised not to attempt the protocol due to medical contraindications or readiness concerns, so the screened group is not cherry-picked.",
-      ]} />
+      <JsonLd
+        data={medicalWebPageLd({
+          name: "Results: What Improves, and For Whom",
+          description:
+            "What people report after running the Scorch Protocol, which profile responds best, and an honest account of where these reports come from and what they cannot tell you.",
+          path: "/success-rate-data",
+          breadcrumbName: "Results",
+          about: [
+            "Long COVID",
+            "Myalgic Encephalomyelitis/Chronic Fatigue Syndrome",
+          ],
+        })}
+      />
+      <h1>Results: What Improves, and For Whom</h1>
+      <KeyTakeaways
+        points={[
+          "Most people who run the full protocol report large improvements in fatigue, brain fog, and insomnia, and a good share report full or near-full resolution.",
+          "The strongest responses cluster in one profile: a low waking temperature plus clear signs of metabolic damage. If that is your picture, this is built for you.",
+          "Yannick has also taken on cases that were extremely difficult from the first conversation, accepted openly as long shots with no promises attached. Those belong in an honest account too.",
+          "These are self-reported symptom scores from people who chose to fill in a questionnaire. This is not a clinical trial, there is no control group, and nothing here was checked against medical records.",
+          "Many people who came to Yannick were assessed and told not to attempt this at all. That screening shapes everything else on this page.",
+        ]}
+      />
+
       <p>
-        This page presents real data from participants who have completed The
-        Scorch Protocol, showing measurable improvements across multiple chronic
-        illness symptoms. All data is based on{" "}
-        <a
-          href="https://www.dryfastingclub.com/the-data-behind-fatigue-brain-fog-insomnia-dry-fasting-and-the-scorch-protocol/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          tracked studies from the Dry Fasting Club
-        </a>
-        . All data is anonymized and aggregated from the participants, all of
-        whom worked 1-on-1 with Yannick Wolfe.
+        This page describes what people report after running The Scorch
+        Protocol, and, more usefully, <em>who</em> tends to report the biggest
+        changes. It deliberately does not lead with a success rate.
       </p>
 
-      <div style={{ margin: "1.5rem 0" }}>
-        <MermaidCharts charts={[patientFunnel]} />
-        <p style={{ fontSize: "0.9rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic", textAlign: "center" }}>
-          The participant funnel. These 141 are the people who were medically cleared and chose to proceed. Over 100 others were assessed and advised not to attempt the protocol (see below). The 97% describes the 32 who completed the full protocol, T3 and hGH together. The largest group never needed that: they reached partial or full resolution on the deep fast and refeed alone.
+      <p>
+        The reports behind it come from symptom questionnaires filled in by
+        people in the dry fasting community: once before starting, again after
+        the fasting block and refeed, and again after T3 and hGH therapy for
+        those who went that far. Each person rated their own symptoms on a
+        simple scale. That is a real signal, and it is also a limited one. The
+        scores are self-assessed, no response was verified against a medical
+        record or a lab result, and people who feel better are far more likely
+        to come back and say so than people who quietly stopped. Yannick would
+        rather tell you that plainly than dress it up with a decimal point.
+      </p>
+
+      <div className="guiding-questions box-success">
+        <h3>What People Report</h3>
+        <div className="question-item">
+          <span className="question-label">Fatigue, brain fog, and insomnia</span>
+          These three were tracked the closest, because they are the ones that
+          take a life apart. Most people came in rating themselves severe across
+          all three. After the protocol, the great majority report moving a long
+          way up the scale, and a substantial group report landing back at
+          normal.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Many never needed T3 or hGH</span>
+          The largest group stopped after the fasting block and the refeed,
+          because they already felt healed. That group skewed toward the less
+          severe cases: people whose metabolism had not yet been ground all the
+          way down.
+        </div>
+        <div className="question-item">
+          <span className="question-label">The stack does what the pieces cannot</span>
+          For the people who go all the way, dry fasting, T3, and hGH in
+          sequence produce something none of them produce on their own. That
+          combination, not any single lever, is what the protocol is actually
+          about.
+        </div>
+      </div>
+
+      <h2>Who Responds Best</h2>
+      <p>
+        This is the part worth your attention, and the part most protocols will
+        not tell you. The high improvement rates are not spread evenly. They
+        concentrate in a specific kind of patient, and if you recognise yourself
+        in the profile below, the odds here are genuinely good.
+      </p>
+
+      <div className="guiding-questions box-info">
+        <h3>The Profile That Responds</h3>
+        <div className="question-item">
+          <span className="question-label">A low waking temperature</span>
+          The single most useful predictor. A basal temperature that sits
+          consistently below the healthy band (roughly 97.7 to 98.6 F) means
+          your metabolic engine is running cold. That is precisely the thing
+          this protocol is built to restart, which is why temperature, not a
+          lab reference range, is the dial the whole T3 phase is titrated to.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Clear signs of metabolic damage</span>
+          Cold hands and feet, weight that will not move whatever you do,
+          needing far more sleep than you ever used to, feeling wrecked for days
+          after ordinary exertion, hair and skin that changed, a body running on
+          fumes. This is the picture of a metabolism that stalled and never
+          restarted after an infection or a long stretch of stress.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Willingness to run the whole sequence</span>
+          The people with the strongest outcomes are, almost without exception,
+          the ones who did the preparation properly, held the fast, respected
+          the refeed, and did not improvise the order. This protocol punishes
+          shortcuts more than most.
+        </div>
+      </div>
+
+      <p>
+        Read the rest of this page through that filter. When people quote high
+        improvement rates for the Scorch Protocol, those are, in practice, the
+        rates for that group. If your temperature is normal and your metabolic
+        markers look fine, this is a poorer fit for you, and Yannick will say so
+        rather than take you on.
+      </p>
+
+      <h2>The Cases That Were Taken On Anyway</h2>
+      <div className="guiding-questions box-warning">
+        <p>
+          Not everyone who works with Yannick fits that profile. Some of the
+          hardest cases were accepted precisely because they were hard: years
+          spent largely bedbound, several overlapping diagnoses, damage that had
+          been compounding for a decade before anyone named it.
+        </p>
+        <p>
+          Those cases were taken on with the situation stated plainly at the
+          start. No projected outcome, no promise, and an honest{" "}
+          <em>this may not be enough</em>. Some of those people improved further
+          than anyone involved expected. Some did not. Both outcomes belong in
+          an honest account of this work, and neither of them belongs inside a
+          success rate.
+        </p>
+        <p>
+          If your case is one of the difficult ones, that is a reason to have
+          the conversation, not a reason to skip it. It is also a reason to be
+          suspicious of anyone who answers it with a number.
         </p>
       </div>
 
       <div className="guiding-questions box-danger">
         <h3>Who the Scorch Protocol Is Not For</h3>
         <p>
-          Over 100 people who came to Yannick were assessed and advised{" "}
-          <strong>not</strong> to attempt the Scorch Protocol. The 141 tracked
-          participants are those who were medically cleared and ready, which is
-          part of why the outcomes look the way they do. This is careful
-          screening, not cherry-picked data.
+          A large number of people who came to Yannick were assessed and advised{" "}
+          <strong>not</strong> to attempt the Scorch Protocol. Only the people
+          who were medically cleared and ready went ahead, and that screening is
+          a real part of why the reports read the way they do. This is careful
+          filtering, and you should factor it in before you read anything above
+          as a promise.
         </p>
         <div className="question-item">
           <span className="question-label">Medical contraindications</span>
           People with heart damage, type 1 diabetes, and a range of other
-          serious conditions were turned away, because deep dry fasting would put
-          them at real risk.
+          serious conditions were turned away, because deep dry fasting would
+          put them at real risk.
         </div>
         <div className="question-item">
           <span className="question-label">Redirected to metabolic therapy</span>
@@ -97,225 +184,72 @@ export default function SuccessRateDataPage() {
         </div>
       </div>
 
-      <div className="guiding-questions box-success">
-        <h3>Key Findings</h3>
-        <div className="question-item">
-          <span className="question-label">97% Success Rate</span>
-          After completing the full Scorch Protocol (including T3 and hGH
-          therapy), <strong>97% of participants</strong> experienced significant
-          improvement in their symptoms.
-        </div>
-        <div className="question-item">
-          <span className="question-label">Symptom Tracking</span>
-          Participants rated symptoms on a scale of 1-10 (10 being
-          normal/healthy). Most participants started at 5 or lower, with many
-          achieving scores of 9-10 after treatment.
-        </div>
-        <div className="question-item">
-          <span className="question-label">Combined Approach</span>
-          For those who go all the way, the combination of dry fasting, T3, and
-          hGH together creates results that{" "}
-          <strong>cannot be achieved with any of them alone</strong>.
-        </div>
-      </div>
-
-      <h2>Key Symptom Improvement Data</h2>
-      <p>
-        Fatigue, Brain Fog, and Insomnia are among the most common and
-        debilitating symptoms in Long Covid, ME/CFS, and autoimmune conditions.
-        The data shows remarkable improvements through each phase of the
-        protocol. Participants rated symptoms on a scale of 1-10, where{" "}
-        <strong>10 represents normal/healthy</strong> and 1 represents severe
-        symptoms.
-      </p>
-
-      <h3>Before Scorch Protocol (141 Participants)</h3>
-      <p>
-        Before starting the protocol, most participants were experiencing severe
-        symptoms:
-      </p>
-      <ul>
-        <li>
-          <strong>Fatigue:</strong> 27.7% rated themselves at level 1 (most
-          severe), with 17% at level 5
-        </li>
-        <li>
-          <strong>Brain Fog:</strong> 24.8% rated themselves at level 1, with
-          18.4% at level 5
-        </li>
-        <li>
-          <strong>Insomnia:</strong> 25.5% rated themselves at level 1, with
-          16.3% at level 5
-        </li>
-        <li>
-          Most participants scored <strong>5 or lower</strong> across all three
-          symptoms
-        </li>
-      </ul>
-
-      <div style={{ margin: "2rem 0", textAlign: "center" }}>
-        <Image
-          src="/assets/images/symptoms-before.png"
-          alt="Fatigue, Brain Fog, and Insomnia levels before Scorch Protocol - 141 participants"
-          width={900}
-          height={600}
-          style={{
-            maxWidth: "100%",
-            height: "auto",
-            border: "1px solid #ddd",
-            borderRadius: "8px",
-            boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
-          }}
-        />
-        <p style={{ fontSize: "0.9rem", color: "#666", marginTop: "0.5rem" }}>
-          <em>Baseline: 141 participants before protocol</em>
-        </p>
-      </div>
-
-      <h3>After Dry Fast + Water Fast: 10 Days Total (117 Participants)</h3>
-      <p>The transformation after the full fasting block is remarkable:</p>
-      <ul>
-        <li>
-          <strong>Fatigue:</strong> 31.6% reached level 10 (normal), with many
-          others in the 8-9 range
-        </li>
-        <li>
-          <strong>Brain Fog:</strong> 29.1% reached level 10, showing
-          significant cognitive improvement
-        </li>
-        <li>
-          <strong>Insomnia:</strong> 35% reached level 10, with 13.7% at level
-          9
-        </li>
-        <li>
-          Many participants improved from the 5-9 range into{" "}
-          <strong>level 10 (normal/healthy)</strong>
-        </li>
-        <li>
-          Those who reached 10 did not need T3 Therapy: the preparation,
-          dry fast, and refeeding were sufficient
-        </li>
-        <li>
-          Participants who improved significantly often considered themselves
-          healed after 1-2 months of refeeding
-        </li>
-      </ul>
-      <p>
-        Most participants stopped here. They were healed enough on the fast and
-        refeed alone, and this largest group tended to be the lower-severity
-        patients, not the most chronically ill. Only the sicker, most-motivated
-        minority continued to T3 and hGH (next section).
-      </p>
-
-      <div style={{ margin: "2rem 0", textAlign: "center" }}>
-        <Image
-          src="/assets/images/symptoms-after-dryfast.png"
-          alt="Fatigue, Brain Fog, and Insomnia levels after 10-day fast (5 dry + 5 water) - 117 participants"
-          width={900}
-          height={600}
-          style={{
-            maxWidth: "100%",
-            height: "auto",
-            border: "1px solid #ddd",
-            borderRadius: "8px",
-            boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
-          }}
-        />
-        <p style={{ fontSize: "0.9rem", color: "#666", marginTop: "0.5rem" }}>
-          <em>After 10-day fast (5 dry + 5 water): 117 participants</em>
-        </p>
-      </div>
-
-      <h3>After T3 + hGH Therapy (32 Participants)</h3>
-      <p>
-        For those who continued to the full T3 and hGH protocol, the results are
-        exceptional:
-      </p>
-      <ul>
-        <li>
-          <strong>Fatigue:</strong> 40.6% reached level 10, with 18.8% at level
-          8 and 12.5% at levels 7 and 9
-        </li>
-        <li>
-          <strong>Brain Fog:</strong> 53.1% reached level 10 (over half
-          achieved normal cognitive function)
-        </li>
-        <li>
-          <strong>Insomnia:</strong> 56.3% reached level 10 (more than
-          half achieved normal sleep)
-        </li>
-        <li>
-          <strong>97% of participants</strong> experienced significant
-          improvement after T3 Therapy
-        </li>
-        <li>
-          The combination of dry fasting + T3 therapy produced{" "}
-          <strong>remarkable, consistent results</strong> in this cohort that
-          neither intervention produced on its own
-        </li>
-      </ul>
-
-      <div style={{ margin: "2rem 0", textAlign: "center" }}>
-        <Image
-          src="/assets/images/symptoms-after-t3.png"
-          alt="Fatigue, Brain Fog, and Insomnia levels after T3 and hGH therapy - 32 participants"
-          width={900}
-          height={600}
-          style={{
-            maxWidth: "100%",
-            height: "auto",
-            border: "1px solid #ddd",
-            borderRadius: "8px",
-            boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
-          }}
-        />
-        <p style={{ fontSize: "0.9rem", color: "#666", marginTop: "0.5rem" }}>
-          <em>After T3 + hGH Therapy: 32 participants (97% success rate)</em>
-        </p>
-      </div>
-
-      <div
-        className="guiding-questions box-success"
-        style={{ margin: "3rem 0" }}
-      >
-        <h3>Summary: The Transformation</h3>
-        <div className="question-item">
-          <span className="question-label">Before Protocol</span>
-          Most participants (25-28%) rated their symptoms at level 1 (most
-          severe), with the majority scoring 5 or lower across Fatigue, Brain
-          Fog, and Insomnia.
-        </div>
-        <div className="question-item">
-          <span className="question-label">After Dry + Water Fast (10 Days)</span>
-          A dramatic shift occurred: 30-35% of participants reached level 10
-          (normal/healthy) for each symptom, with many others achieving levels
-          8-9.
-        </div>
-        <div className="question-item">
-          <span className="question-label">After T3 + hGH Therapy</span>
-          For those who continued, over 40% reached level 10 for Fatigue, and
-          over 50% reached level 10 for Brain Fog and Insomnia.{" "}
-          <strong>97% experienced significant improvement.</strong>
-        </div>
-      </div>
-
       <div className="refeed-promo">
-        <h3>Want results like these for your own case?</h3>
+        <h3>Want to know whether you fit the profile?</h3>
         <p>
           Members run this protocol with Yannick: a personalized refeed plan,
           your questions answered with your labs in context, and temperature
-          tracking.
+          tracking that tells you whether the metabolic picture is actually
+          moving.
         </p>
         <Link href="/membership?ref=success-data" className="refeed-promo-btn">
           Get started &rarr;
         </Link>
       </div>
 
+      <h2>How to Read Any of This</h2>
+      <div className="guiding-questions box-warning">
+        <div className="question-item">
+          <span className="question-label">Self-reported, not verified</span>
+          Every score came from the person living it, ticking a box on a form.
+          There was no chart review, no independent assessor, and no lab
+          confirmation. Some answers were certainly rosier than the reality
+          behind them, and there is no way to go back and separate those out.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Who fills in a follow-up form</span>
+          People who feel better come back and say so. People who quietly gave
+          up mostly do not. Every voluntary follow-up survey leans in the same
+          direction, and this one is no exception.
+        </div>
+        <div className="question-item">
+          <span className="question-label">No control group</span>
+          Nothing here separates the protocol from time, from placebo, or from
+          the ten other things a highly motivated person changes in their life
+          at the same moment. Treat it as a pattern worth investigating, not as
+          proof.
+        </div>
+        <div className="question-item">
+          <span className="question-label">The people who finish are the sickest</span>
+          Those who complete every phase tend to be{" "}
+          <strong>much sicker and much more determined</strong> than average.
+          That self-selection cuts both ways: it stacks the deck with hard
+          cases, and it also stacks it with people who follow instructions
+          exactly.
+        </div>
+        <div className="question-item">
+          <span className="question-label">T3 availability</span>
+          Some people stopped simply because they could not get T3, especially
+          slow-release T3. That is why{" "}
+          <a
+            href="https://chronic-illness.st"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            chronic-illness.st
+          </a>{" "}
+          exists, to help patients access the medications the protocol needs.{" "}
+          <em style={{ fontSize: "0.9em", opacity: 0.75 }}>
+            (Previously chronic-illness.ca, the site has recently migrated.)
+          </em>
+        </div>
+      </div>
+
       <h2>Other Tracked Symptoms</h2>
       <p>
-        The Scorch Protocol has shown improvements across a wide range of
-        chronic illness symptoms. The following symptoms were officially tracked
-        and showed measurable improvement:
+        The questionnaires covered a wide range of chronic illness symptoms
+        beyond the main three. These are the ones respondents reported
+        measurable improvement in:
       </p>
 
       <div className="guiding-questions box-info">
@@ -354,8 +288,8 @@ export default function SuccessRateDataPage() {
 
       <h2>Additional Improvements Observed</h2>
       <p>
-        While not officially tracked in the main study, the following symptoms
-        have also been reported as improved by participants:
+        These were not on the tracked list, but people reported them often
+        enough to be worth naming:
       </p>
       <ul>
         <li>Lowered or eliminated recurrence of cold sores/herpes</li>
@@ -367,45 +301,11 @@ export default function SuccessRateDataPage() {
         <li>And many more...</li>
       </ul>
 
-      <div className="guiding-questions box-warning">
-        <h3>Important Notes About the Data</h3>
-        <div className="question-item">
-          <span className="question-label">Sample Size</span>
-          Sample sizes naturally decrease as participants progress through the
-          protocol. This is because many participants feel significantly better
-          after earlier phases and consider themselves healed, or face
-          financial/time constraints.
-        </div>
-        <div className="question-item">
-          <span className="question-label">Most Motivated Participants</span>
-          The participants who complete the full protocol tend to be those who
-          are{" "}
-          <strong>much sicker and really motivated to heal</strong>. This
-          self-selection means the data represents those with more severe cases.
-        </div>
-        <div className="question-item">
-          <span className="question-label">T3 Availability</span>
-          Some participants dropped out due to difficulty obtaining T3,
-          especially slow-release T3. This is why{" "}
-          <a
-            href="https://chronic-illness.st"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            chronic-illness.st
-          </a>{" "}
-          was created to help patients access necessary medications.{" "}
-          <em style={{ fontSize: "0.9em", opacity: 0.75 }}>
-            (Previously chronic-illness.ca — the site has recently migrated.)
-          </em>
-        </div>
-      </div>
-
       <h2>What This Means For You</h2>
       <p>
-        The data shows that The Scorch Protocol offers real hope for those
-        suffering from Long Covid, ME/CFS, autoimmune conditions, and other
-        chronic illnesses. The combination of:
+        The pattern here is consistent enough to be worth your attention,
+        particularly if you recognised yourself in the profile above. What
+        appears to do the work is the sequence, not any one piece of it:
       </p>
       <ul>
         <li>
@@ -431,8 +331,10 @@ export default function SuccessRateDataPage() {
         </li>
       </ul>
       <p>
-        ...creates a powerful healing cascade that addresses the root causes of
-        chronic illness, not just the symptoms.
+        Run in that order, it addresses the root of the problem rather than the
+        symptoms sitting on top of it. Run out of order, or run by someone it
+        was never the right tool for, it does considerably less. Which is the
+        whole reason this page talks about profiles instead of percentages.
       </p>
 
       {/* FaithBlock hidden for now — to restore, remove the `false && (` wrapper and matching `)` */}
@@ -444,7 +346,7 @@ export default function SuccessRateDataPage() {
           <strong>James 5:15: &ldquo;And the prayer offered in faith will make the sick person well; the Lord will raise them up.&rdquo;</strong>
         </p>
         <p>
-          I do not present the 97% as a marketing number. I present it as testimony. I was one of the sick people first. I know what it is to sit at a 2 or 3 on the fatigue scale, barely functional, watching life happen behind glass. I also know what it is to come back. These 141 participants saw something medicine does not yet have the framework to fully explain. <em>Evil propagates when good men look away,</em> and one of the evils done to chronically ill people is the systematic dismissal of their suffering. This data is a refusal to be silent. <strong>The Lord will raise them up.</strong> That promise is for you too.
+          I do not present any of this as a marketing number, which is exactly why you will not find one on this page. I present it as testimony. I was one of the sick people first. I know what it is to sit at a 2 or 3 on the fatigue scale, barely functional, watching life happen behind glass. I also know what it is to come back. The people who have run this saw something medicine does not yet have the framework to fully explain. <em>Evil propagates when good men look away,</em> and one of the evils done to chronically ill people is the systematic dismissal of their suffering. Refusing to be silent about that is the point. <strong>The Lord will raise them up.</strong> That promise is for you too.
         </p>
       </FaithBlock>
       )}

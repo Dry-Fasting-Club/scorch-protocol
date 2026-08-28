@@ -1,6 +1,6 @@
 # The Scorch Protocol
 
-> A data-driven protocol for reversing Long Covid, ME/CFS, and related chronic illness through dry fasting, T3 (Wilson's) thyroid therapy, and hGH/peptide therapy. Built by Yannick Wolfe, who recovered from severe ME/CFS and Long Covid. Outcomes are tracked across 141 participants; of the 32 who completed the full protocol (dry fasting + T3 + hGH), 97% recovered.
+> A data-driven protocol for reversing Long Covid, ME/CFS, and related chronic illness through dry fasting, T3 (Wilson's) thyroid therapy, and hGH/peptide therapy. Built by Yannick Wolfe, who recovered from severe ME/CFS and Long Covid. Reported outcomes are self-reported and observational, and the site publishes no participant counts or success rate; the strongest responses come from people with a low waking temperature and clear signs of metabolic damage.
 
 ## About
 
@@ -32,7 +32,7 @@ The protocol runs in phases: a supported preparation period, a deep dry fast (th
 
 ## Data and reference
 
-- [Success Rate Data](https://scorchprotocol.com/success-rate-data): Outcome data and methodology (141 tracked; 97% of 32 full-protocol completers recovered; self-reported, single assessor, no control group).
+- [Results](https://scorchprotocol.com/success-rate-data): What improves and which profile responds best (low waking temperature plus signs of metabolic damage). Self-reported questionnaire responses, unverified, no control group, no participant counts or success rate published.
 - [9-Month Metabolism Repair](https://scorchprotocol.com/refeed-for-bmr): Rebuilding basal metabolic rate after fasting.
 - [Tips and Tricks](https://scorchprotocol.com/tips-and-tricks): Practical guidance across the protocol.
 - [List of Pharmacies](https://scorchprotocol.com/list-of-pharmacies): Where members source protocol medications.

@@ -87,9 +87,10 @@ export default function CoachingPage() {
         One bad order of fake peptides or the wrong T3 costs more than the coaching, in money
         and in months. The whole point of the 1-on-1 is that you do not pay that tuition. You
         get the working sources, the right products, your doses, and a person in your corner
-        who has walked this exact path many times. The people whose outcomes are tracked on
-        the <Link href="/success-rate-data">results page</Link> worked one-on-one with
-        Yannick. This is the way into that same guidance.
+        who has walked this exact path many times. The{" "}
+        <Link href="/success-rate-data">results page</Link> lays out what tends to improve
+        and which profile responds best. This is the way to run it with Yannick in your
+        corner instead of alone.
       </p>
 
       <div

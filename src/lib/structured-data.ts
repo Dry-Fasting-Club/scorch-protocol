@@ -98,20 +98,9 @@ export function faqPageLd(items: FaqItem[]): object {
   };
 }
 
-/**
- * MedicalStudy schema for the success-rate-data page. Frames the outcome data
- * honestly: observational, self-reported, single assessor, no control group.
+/*
+ * A MedicalStudy node used to sit here for the results page. It was removed
+ * deliberately: the underlying reports are self-reported community
+ * questionnaires, not a study, and publishing them as machine-readable study
+ * outcomes overstated what they are.
  */
-export function medicalStudyLd(): object {
-  return {
-    "@context": "https://schema.org",
-    "@type": "MedicalStudy",
-    name: "The Scorch Protocol outcome data",
-    description:
-      "Observational outcome data from 141 tracked participants. Of the 32 who completed the full protocol (dry fasting, T3, and hGH therapy), 97% experienced significant improvement. Self-reported symptom scores, single assessor, no control group.",
-    url: `${SITE}/success-rate-data`,
-    studySubject: { "@type": "MedicalCondition", name: "Long COVID" },
-    author: AUTHOR,
-    sponsor: ORG,
-  };
-}

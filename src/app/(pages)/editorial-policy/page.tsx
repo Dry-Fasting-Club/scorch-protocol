@@ -44,12 +44,14 @@ export default function EditorialPolicyPage() {
 
       <h2>How outcomes are reported</h2>
       <p>
-        The numbers on the{" "}
+        The outcomes on the{" "}
         <Link href="/success-rate-data">results page</Link> are observational and
-        self-reported, from participants tracked by a single assessor, with no
-        control group. We say so plainly, and we report the denominator (who
-        started) alongside the success rate (who improved) rather than only the
-        flattering figure.
+        self-reported, gathered through symptom questionnaires people filled in
+        themselves, with no independent assessor and no control group. Because
+        those responses were never verified, that page deliberately reports no
+        participant counts and no success rate. It describes what improves and
+        which profile responds best, states its own limitations, and names the
+        difficult cases that were taken on with no promise of a result.
       </p>
 
       <h2>Review, updates, and corrections</h2>

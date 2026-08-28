@@ -51,7 +51,7 @@ export default function HomePage() {
         </p>
         <div className="hero-cta-group">
           <Link href="/success-rate-data" className="hero-btn hero-btn-primary">
-            See the 97% Success Data &rarr;
+            See What Improves, and For Whom &rarr;
           </Link>
           <Link href="/preparation" className="hero-btn hero-btn-secondary">
             Start the Protocol &rarr;
@@ -70,21 +70,17 @@ export default function HomePage() {
 
       {/* ── SOCIAL PROOF BAR ── */}
       <div className="proof-bar">
-        <div className="proof-stat">
-          <span className="proof-number">141</span>
-          <span className="proof-label">Participants Tracked</span>
-        </div>
         <Link href="/success-rate-data" className="proof-stat" style={{ textDecoration: "none", color: "inherit" }}>
-          <span className="proof-number">97%</span>
-          <span className="proof-label">Recovered (of 32 full-protocol completers)</span>
-        </Link>
-        <div className="proof-stat">
           <span className="proof-number">21+</span>
-          <span className="proof-label">Symptoms Measured &amp; Improved</span>
-        </div>
+          <span className="proof-label">Symptoms Tracked &amp; Improved</span>
+        </Link>
         <div className="proof-stat">
           <span className="proof-number">5</span>
           <span className="proof-label">Phase System With Clear Steps</span>
+        </div>
+        <div className="proof-stat">
+          <span className="proof-number">10</span>
+          <span className="proof-label">Day Fast Block: 5 Dry, 5 Water</span>
         </div>
       </div>
 
@@ -552,7 +548,7 @@ export default function HomePage() {
             Start Phase 1: Preparation &rarr;
           </Link>
           <Link href="/success-rate-data" className="cta-secondary-btn">
-            View Success Rate Data &rarr;
+            View the Results Page &rarr;
           </Link>
           <Link href="/decision-tree" className="cta-secondary-btn">
             Use the Decision Tree &rarr;

@@ -23,7 +23,7 @@ export default function ContraindicationsPage() {
           "Deep dry fasting and T3 therapy are powerful and not safe for everyone. Some conditions are hard stops.",
           "Do not attempt the fasting protocol if you are pregnant or breastfeeding, type 1 diabetic, underweight (BMI under 18), have active heart or kidney disease, an active infection, or are under 18.",
           "Other situations (certain medications, type 2 diabetes, POTS, arrhythmia or osteoporosis history) are not automatic no's. They are get-the-prep-right-first situations, doable when you build in properly.",
-          "Over 100 people who came to Yannick were assessed and advised not to attempt this. Careful screening is part of why the tracked outcomes look the way they do.",
+          "A large number of people who came to Yannick were assessed and advised not to attempt this. Careful screening is part of why the reported outcomes look the way they do.",
           "If you are unsure where you fall, do not guess. Run your numbers past Yannick before you start.",
         ]}
       />
