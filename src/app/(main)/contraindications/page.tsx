@@ -23,8 +23,8 @@ export default function ContraindicationsPage() {
           "Deep dry fasting and T3 therapy are powerful and not safe for everyone. Some conditions are hard stops.",
           "Do not attempt the fasting protocol if you are pregnant or breastfeeding, type 1 diabetic, underweight (BMI under 18), have active heart or kidney disease, an active infection, or are under 18.",
           "Other situations (certain medications, type 2 diabetes, POTS, arrhythmia or osteoporosis history) are not automatic no's. They are get-the-prep-right-first situations, doable when you build in properly.",
-          "A large number of people who came to Yannick were assessed and advised not to attempt this. Careful screening is part of why the reported outcomes look the way they do.",
-          "If you are unsure where you fall, do not guess. Run your numbers past Yannick before you start.",
+          "A large number of people who came to me were assessed and advised not to attempt this. Careful screening is part of why the reported outcomes look the way they do.",
+          "If you are unsure where you fall, do not guess. Run your numbers past me before you start.",
         ]}
       />
 
@@ -41,8 +41,8 @@ export default function ContraindicationsPage() {
         the physiology says no and no amount of preparation changes that. The
         second is the cautious list: conditions that scare people off but are
         usually doable once you build the prep in. If you are anywhere in that
-        second group, this is exactly the kind of case worth running past
-        Yannick with your own numbers in front of you before you start.
+        second group, this is exactly the kind of case worth running past me with
+        your own numbers in front of you before you start.
       </p>
 
       <div className="guiding-questions box-danger">
@@ -89,7 +89,7 @@ export default function ContraindicationsPage() {
         <p>
           These are not disqualifiers. They change the risk enough that you do
           not want to wing it, and they are exactly what the membership is for:
-          getting Yannick&rsquo;s eyes on your numbers before you build in.
+          getting my eyes on your numbers before you build in.
         </p>
         <div className="question-item">
           <span className="question-label">On diuretics, anticoagulants, insulin, or any medication that needs close titration</span>
@@ -113,7 +113,7 @@ export default function ContraindicationsPage() {
         <div className="question-item">
           <span className="question-label">A history of arrhythmia, or known osteoporosis</span>
           T3 therapy in particular calls for extra caution and closer tracking
-          in these cases. Worth running past Yannick before you start T3.
+          in these cases. Worth running past me before you start T3.
         </div>
         <div className="question-item">
           <span className="question-label">On an SSRI, SNRI, MAOI, or other serotonergic medication, or you have G6PD deficiency</span>

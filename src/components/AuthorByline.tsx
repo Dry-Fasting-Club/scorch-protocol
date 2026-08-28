@@ -12,7 +12,7 @@ export default function AuthorByline() {
         <strong>Written by Yannick Wolfe</strong>, founder of The Scorch
         Protocol. He recovered from severe ME/CFS and Long Covid after
         conventional medicine had run out of answers, and has since worked
-        one-on-one with the people whose outcomes are tracked on this site.{" "}
+        directly with people running the protocol.{" "}
         <Link href="/about">Read his story →</Link>
       </p>
     </aside>

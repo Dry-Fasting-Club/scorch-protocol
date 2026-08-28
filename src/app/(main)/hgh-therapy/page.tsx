@@ -35,9 +35,9 @@ export default function HghTherapyPage() {
 
       <p>
         This phase is about using Human Growth Hormone (hGH) to help your body
-        repair deep tissues and fix your immune system. Yannick has used this
-        himself and with his clients to get amazing results. Everyone&rsquo;s
-        body is a little different, so we have to carefully figure out how it
+        repair deep tissues and fix your immune system. I have used this
+        myself and with my clients to get amazing results. Everyone&rsquo;s
+        body is a little different, so you and I have to carefully figure out how it
         works for you.
       </p>
 
@@ -201,7 +201,7 @@ export default function HghTherapyPage() {
           losing much fat anymore, even if you aren&rsquo;t eating. You might
           also feel more tired or take longer to recover. Some people mistake
           this for being sick again and try to fast more, but that only makes
-          the problem worse. This is why we focus on using hGH to break that
+          the problem worse. This is why I focus on using hGH to break that
           cycle.
         </p>
       </div>
@@ -284,7 +284,7 @@ export default function HghTherapyPage() {
         </ul>
         <p>
           <em>
-            If you have trouble finding what you need, Yannick can help point
+            If you have trouble finding what you need, I can help point
             you in the right direction.
           </em>
         </p>
@@ -338,14 +338,14 @@ export default function HghTherapyPage() {
       <div className="guiding-questions box-success">
         <h3>The Final Step: Testosterone, After the Rebuild Is Underway</h3>
         <p>
-          In Yannick&rsquo;s own recovery, testosterone was the last lever, not
+          In my own recovery, testosterone was the last lever, not
           an early one. It goes in only after the earlier work is done: the fast
           has cleared the ground, T3 has restored metabolic power, and the hGH
           rebuild is already established. On that base, testosterone adds
           mitochondrial density and muscle and acts as the anabolic counterweight
           to the catabolic, high-cortisol state chronic illness leaves behind.
           Adding it before the prior cycles are complete is building density on
-          an engine that is not yet running. This ordering is Yannick&rsquo;s
+          an engine that is not yet running. This ordering is my
           clinical framework rather than a tested protocol.
         </p>
         <div className="question-item">
@@ -402,7 +402,7 @@ export default function HghTherapyPage() {
           pronounced thymic regeneration, and a direct anabolic signal to every
           cell. Secretagogues like CJC-1295 + Ipamorelin only prompt your own
           pituitary to release GH, so they depend on your axis responding and do
-          not replace hGH. We keep them for one narrow job: helping to wake up
+          not replace hGH. I keep them for one narrow job: helping to wake up
           and speed the pituitary&rsquo;s own recovery.
         </div>
         <div className="question-item">

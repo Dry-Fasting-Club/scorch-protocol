@@ -281,7 +281,7 @@ export default function BetweenFastsPage() {
           that repeats every cycle means the fast needs restructuring rather
           than a bigger rescue. See{" "}
           <Link href="/viral-reactivation">Viral Reactivation</Link> for the
-          reasoning, and ask Yannick for the modified protocol before improvising
+          reasoning, and ask me for the modified protocol before improvising
           your own.
         </div>
       </div>
@@ -289,10 +289,10 @@ export default function BetweenFastsPage() {
       <div className="guiding-questions box-warning">
         <h3>The Gut Rebuild Rider (Mandatory, Not Optional)</h3>
         <p>
-          In Yannick&rsquo;s clinical observation, a months-long valacyclovir
-          course damages the bacterial biome and the virome alongside the
-          pathogens it is aimed at. That collateral damage is predictable, so
-          the repair runs alongside the course rather than after it.
+          In my clinical observation, a months-long valacyclovir course damages
+          the bacterial biome and the virome alongside the pathogens it is
+          aimed at. That collateral damage is predictable, so the repair runs
+          alongside the course rather than after it.
         </p>
         <h4>What to do</h4>
         <p>
@@ -342,9 +342,9 @@ export default function BetweenFastsPage() {
           Bovine thymus tissue, taken with food, to support T-cell maturation
           and the immune baseline between cycles. Note the category carefully:
           this is a glandular, not a peptide. Thymalin remains the only thymus
-          peptide in the protocol. This is Yannick&rsquo;s clinical framework
-          rather than a tested protocol, and no published trial evidence is
-          being claimed for it.
+          peptide in the protocol. This is my own clinical framework rather
+          than a tested protocol, and no published trial evidence is being
+          claimed for it.
         </div>
       </div>
 
@@ -385,8 +385,8 @@ export default function BetweenFastsPage() {
             An extra antiviral for stacking, nothing more
           </span>
           Artemisinin is not a daily agent and it is not a PEM-crash tool. In
-          Yannick&rsquo;s own assessment it is a marginal item in the protocol:
-          useful specifically when stacking antivirals because reactivation is
+          my own assessment it is a marginal item in the protocol: useful
+          specifically when stacking antivirals because reactivation is
           strongly suspected, and outside that situation it would not really
           have a place in the protocol at all.
         </div>
@@ -445,9 +445,9 @@ export default function BetweenFastsPage() {
           <span className="question-label">Why ivermectin works here</span>
           Ivermectin is already in the standing stack as a supportive
           antiviral, where it calms the nervous system and inflammation and may
-          mildly inhibit viral entry. In Yannick&rsquo;s clinical experience,
-          that same calming and anti-inflammatory effect is powerful enough
-          that raising the dose is often what pulls someone out of a crash.
+          mildly inhibit viral entry. In my clinical experience, that same
+          calming and anti-inflammatory effect is powerful enough that raising
+          the dose is often what pulls someone out of a crash.
           Some patients keep ivermectin as a crash-only medication rather than
           a daily one. Others run it daily and simply raise the dose when a
           crash hits.
@@ -469,7 +469,7 @@ export default function BetweenFastsPage() {
         <div className="question-item">
           <span className="question-label">The second tried strategy</span>
           For someone already established on T3 therapy, a temporary, acute
-          increase in the T3 dose is the other strategy Yannick has seen work
+          increase in the T3 dose is the other strategy I have seen work
           to beat back a crash quickly. This applies only to patients already
           running T3. It is not a reason to start T3 early, or to begin it
           because a crash hit.
@@ -515,9 +515,9 @@ export default function BetweenFastsPage() {
         <div className="question-item">
           <span className="question-label">Olive leaf extract</span>
           A plant-derived antimicrobial. It sits alongside garlic as background
-          pressure, not as a primary agent. In Yannick&rsquo;s clinical
-          experience it helps interrupt viral replication loops, which is why it
-          is in the stack, and no trial evidence is being claimed for that.
+          pressure, not as a primary agent. In my clinical experience it helps
+          interrupt viral replication loops, which is why it is in the stack,
+          and no trial evidence is being claimed for that.
         </div>
         <div className="question-item">
           <span className="question-label">Quercetin</span>

@@ -53,7 +53,7 @@ const pathogenStack = `graph TB
 
   Core -.->|runs in parallel with| AP["ANTIPARASITIC LAYER<br/>Default for most patients<br/><br/>PRIMARY: Ivermectin (double duty)<br/>SYNERGY: Ivermectin + Dry Fasting<br/>REJECTED: Natural antiparasitics (too weak)"]
 
-  Core -.->|runs in parallel with| IR["IMMUNE REBUILD LAYER<br/>Distinct from pathogen kill<br/><br/>REFEED: Thymalin<br/>(Tα1 retired: in Yannick's experience<br/>it can hypersensitize immune cells)"]
+  Core -.->|runs in parallel with| IR["IMMUNE REBUILD LAYER<br/>Distinct from pathogen kill<br/><br/>REFEED: Thymalin<br/>(Tα1 retired: in my experience<br/>it can hypersensitize immune cells)"]
 
   style Core fill:#7c2d12,stroke:#e85d04,stroke-width:3px,color:#fdba74
   style AV fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
@@ -521,13 +521,14 @@ export default function ViralReactivationPage() {
             </td>
             <td>No longer used</td>
             <td>
-              Retired from the protocol. Through Yannick&rsquo;s own research and
-              experiments, T&alpha;1 was found to hypersensitize immune cells and
-              can backfire, driving new allergies instead of balancing the immune
-              system. Working theory: the wave of benzyl alcohol allergies people
-              keep developing traces back to reconstituting T&alpha;1 with
-              bacteriostatic water, which is preserved with benzyl alcohol.
-              Thymalin is now the only thymus peptide in the protocol.
+              Retired from the protocol. Through my own research and
+              experiments, I found that T&alpha;1 hypersensitizes immune cells
+              and can backfire, driving new allergies instead of balancing the
+              immune system. Working theory: the wave of benzyl alcohol
+              allergies people keep developing traces back to reconstituting
+              T&alpha;1 with bacteriostatic water, which is preserved with
+              benzyl alcohol. Thymalin is now the only thymus peptide in the
+              protocol.
             </td>
           </tr>
           <tr>
@@ -585,7 +586,7 @@ export default function ViralReactivationPage() {
             textAlign: "center",
           }}
         >
-          Our deeper breakdown of ivermectin&rsquo;s antiviral mechanism, from{" "}
+          My deeper breakdown of ivermectin&rsquo;s antiviral mechanism, from{" "}
           <a
             href="https://x.com/DryFastingClub"
             target="_blank"
@@ -671,9 +672,9 @@ export default function ViralReactivationPage() {
       </p>
       <p>
         So the answer is not to push a rescue dose into a dehydrated body, and
-        it is not to grit your teeth and finish the dry fast. In
-        Yannick&rsquo;s clinical judgement, a prodrome during the dry phase is
-        the signal that ends the dry phase.
+        it is not to grit your teeth and finish the dry fast. In my clinical
+        judgement, a prodrome during the dry phase is the signal that ends the
+        dry phase.
       </p>
 
       <div className="guiding-questions box-danger">
@@ -707,8 +708,8 @@ export default function ViralReactivationPage() {
           of aggressive rehydration with electrolytes before valacyclovir goes
           anywhere near you. The specific length, and where the line between a
           shallow and a deep dry fast sits for you, are per-case calls and are
-          deliberately not published here. Do not estimate them. Ask Yannick
-          for the modified protocol, and keep rehydrating while you wait for
+          deliberately not published here. Do not estimate them. Ask me for
+          the modified protocol, and keep rehydrating while you wait for
           the answer, because rehydrating is the part that is safe to start
           without one.
         </div>
@@ -717,7 +718,7 @@ export default function ViralReactivationPage() {
           Once rehydration is established and the antiviral is on board,
           L-lysine runs alongside it. Monolaurin can be brought in as well, and
           because monolaurin is a fat, adding it converts the water fast into
-          what Yannick calls a fat-water fast. That is a deliberate variant of
+          what I call a fat-water fast. That is a deliberate variant of
           the fast with its own rules, not a supplement you simply drop into
           the day, so how one is actually run is handled case by case rather
           than published as a recipe.
@@ -726,7 +727,7 @@ export default function ViralReactivationPage() {
           <span className="question-label">5. If it keeps happening, the fast itself is the wrong shape</span>
           A prodrome that returns cycle after cycle is not telling you the
           rescue was too small. It is telling you the sequence is wrong for
-          your viral load. In that situation Yannick inverts the order: the
+          your viral load. In that situation I invert the order: the
           cycle opens as a valacyclovir-focused water fast, and the dry phase
           only begins once the fast&rsquo;s own protective mechanisms are
           established and the antiviral has had time to do its work. That
@@ -738,9 +739,9 @@ export default function ViralReactivationPage() {
         None of this comes from a trial. There is no published literature on
         managing a herpes prodrome inside a dry fast, because almost nobody
         outside this protocol runs fasts deep enough to create the situation.
-        What is above is Yannick&rsquo;s clinical judgement from running the
-        protocol with patients, and the reasoning is set out so you can
-        recognise the situation rather than improvise inside it.
+        What is above is my clinical judgement from running the protocol with
+        patients, and the reasoning is set out so you can recognise the
+        situation rather than improvise inside it.
       </p>
       <p>
         <em>
@@ -756,7 +757,7 @@ export default function ViralReactivationPage() {
         the parts that move with the patient. Getting them wrong from a guess
         is how a recoverable prodrome becomes a lost cycle. If a prodrome has
         interrupted one of your fasts, or keeps interrupting them, that is the
-        modified protocol to ask Yannick for rather than assemble yourself.
+        modified protocol to ask me for rather than assemble yourself.
       </p>
       <p>
         <Link href="/membership?ref=prodrome-in-fast">

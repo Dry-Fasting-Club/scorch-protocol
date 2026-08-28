@@ -20,7 +20,7 @@ export default function MembershipPage() {
         The site tells you how the protocol works. The members portal turns it
         into a plan built around <em>you</em>: a day-by-day refeed schedule sized
         to your own fast, your data in one place, and your questions answered by
-        Yannick directly.
+        me directly.
       </p>
 
       <div className="membership-cta-row">
@@ -47,10 +47,10 @@ export default function MembershipPage() {
           is the part most people most want help with.
         </div>
         <div className="question-item">
-          <span className="question-label">Your questions, answered by Yannick</span>
+          <span className="question-label">Your questions, answered by me</span>
           Send your situation and get a real answer. Every reply is drafted with
           your labs, medications, and check-ins in context, then personally
-          reviewed by Yannick before it reaches you. You also get help sourcing
+          reviewed by me before it reaches you. You also get help sourcing
           medication.
         </div>
         <div className="question-item">
@@ -91,7 +91,7 @@ export default function MembershipPage() {
           <p>
             Everything in Member, plus the most questions each month, priority on
             your answers, and direct 1-on-1 coaching: your exact doses set in
-            consult, and Yannick&rsquo;s verified, current supplier contacts for
+            consult, and my verified, current supplier contacts for
             slow-release T3, peptides, hGH, and cyproheptadine. See{" "}
             <Link href="/coaching">how the 1-on-1 works</Link>.
           </p>
@@ -103,7 +103,7 @@ export default function MembershipPage() {
         Because the hard part of recovery is starting. The{" "}
         <Link href="/success-rate-data">results page</Link> lays out what tends
         to improve and, more usefully, which profile responds best. Starter is
-        the easiest way to find out whether that profile is you, with Yannick
+        the easiest way to find out whether that profile is you, with me
         looking at your actual case. If it is not useful, cancel before your
         second month and move on.
       </p>
@@ -111,7 +111,7 @@ export default function MembershipPage() {
       <div className="guidance-box">
         <h3>Ready when you are</h3>
         <p>
-          Build your plan today, and ask Yannick your first question this week.
+          Build your plan today, and ask me your first question this week.
         </p>
         <a href={MEMBERS_SIGNUP_URL} className="guidance-btn">
           Get started →

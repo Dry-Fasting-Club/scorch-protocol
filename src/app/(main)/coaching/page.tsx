@@ -49,7 +49,7 @@ export default function CoachingPage() {
       <div className="guiding-questions box-info">
         <div className="question-item">
           <span className="question-label">Verified, current supplier contacts</span>
-          The exact, personally vetted sources Yannick uses right now for slow-release T3,
+          The exact, personally vetted sources I use right now for slow-release T3,
           peptides, hGH, and cyproheptadine. Not a stale list scraped off a forum, a living
           one that is kept current, because the good sources disappear the moment they get
           posted in public.
@@ -67,7 +67,7 @@ export default function CoachingPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Someone who already walked it</span>
-          Yannick spent years and a lot of wasted money working out what actually helps and
+          I spent years and a lot of wasted money working out what actually helps and
           what actually ships. You skip the tuition and start from what works.
         </div>
       </div>
@@ -86,11 +86,10 @@ export default function CoachingPage() {
       <p>
         One bad order of fake peptides or the wrong T3 costs more than the coaching, in money
         and in months. The whole point of the 1-on-1 is that you do not pay that tuition. You
-        get the working sources, the right products, your doses, and a person in your corner
-        who has walked this exact path many times. The{" "}
+        get the working sources, the right products, your doses, and me in your corner. I have
+        walked this exact path many times. The{" "}
         <Link href="/success-rate-data">results page</Link> lays out what tends to improve
-        and which profile responds best. This is the way to run it with Yannick in your
-        corner instead of alone.
+        and which profile responds best. This is the way to run it with me instead of alone.
       </p>
 
       <div

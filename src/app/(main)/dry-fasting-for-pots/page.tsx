@@ -17,7 +17,7 @@ const faqItems = [
   {
     question: "Can you dry fast with POTS?",
     answer:
-      "Yes, but POTS is a get-the-prep-right-first condition, not a disqualifier. Fluid shifts and T3 can provoke unpredictable responses in an autonomic system that is already misfiring, so the supportive stack (salt loading, electrolytes, compression, vagal work) has to be solid and stable before you fast, and you build from the shorter end. This is exactly the kind of counterintuitive case worth running past Yannick with your own numbers in front of you before you start.",
+      "Yes, but POTS is a get-the-prep-right-first condition, not a disqualifier. Fluid shifts and T3 can provoke unpredictable responses in an autonomic system that is already misfiring, so the supportive stack (salt loading, electrolytes, compression, vagal work) has to be solid and stable before you fast, and you build from the shorter end. This is exactly the kind of counterintuitive case worth running past me with your own numbers in front of you before you start.",
   },
   {
     question: "Does fasting help POTS?",
@@ -27,7 +27,7 @@ const faqItems = [
   {
     question: "Is T3 safe with POTS?",
     answer:
-      "T3 needs extra care with POTS or dysautonomia because it moves heart rate, blood pressure, and autonomic tone, and those effects are harder to predict in a system that is already misfiring. It is not off the table, it just has to be introduced slowly and watched closely, ideally with Yannick reading your response rather than guessing at it alone.",
+      "T3 needs extra care with POTS or dysautonomia because it moves heart rate, blood pressure, and autonomic tone, and those effects are harder to predict in a system that is already misfiring. It is not off the table, it just has to be introduced slowly and watched closely, ideally with me reading your response rather than guessing at it alone.",
   },
 ];
 
@@ -80,8 +80,8 @@ export default function DryFastingForPotsPage() {
         </p>
         <p>
           If you have POTS and you are asking whether this protocol is for you: it can be. But the
-          preparation comes first, and this is exactly the kind of case where getting Yannick&rsquo;s
-          eyes on your specifics earns its keep. Read the full <Link href="/contraindications">contraindications page</Link> before
+          preparation comes first, and this is exactly the kind of case where getting my eyes on
+          your specifics earns its keep. Read the full <Link href="/contraindications">contraindications page</Link> before
           going further.
         </p>
       </div>
@@ -206,7 +206,7 @@ export default function DryFastingForPotsPage() {
 
       <p>
         That is a chain of &ldquo;if&rdquo; statements. The protocol does not have data that
-        isolates POTS as an outcome. Some people who came to Yannick had dysautonomia as part
+        isolates POTS as an outcome. Some people who came to me had dysautonomia as part
         of their Long Covid picture, and the overall protocol trajectory showed improvement in
         their symptom load. But POTS was not tracked as a separate endpoint, and individual
         results varied.
@@ -340,7 +340,7 @@ export default function DryFastingForPotsPage() {
             shifts and T3 can provoke unpredictable responses in an autonomic system that is
             already misfiring, so the supportive stack (salt loading, electrolytes, compression,
             vagal work) has to be solid and stable before you fast, and you build from the shorter
-            end. This is exactly the kind of counterintuitive case worth running past Yannick with
+            end. This is exactly the kind of counterintuitive case worth running past me with
             your own numbers in front of you before you start.
           </p>
         </div>
@@ -361,7 +361,7 @@ export default function DryFastingForPotsPage() {
             T3 needs extra care with POTS or dysautonomia because it moves heart rate, blood
             pressure, and autonomic tone, and those effects are harder to predict in a system that
             is already misfiring. It is not off the table, it just has to be introduced slowly and
-            watched closely, ideally with Yannick reading your response rather than guessing at it
+            watched closely, ideally with me reading your response rather than guessing at it
             alone.
           </p>
         </div>

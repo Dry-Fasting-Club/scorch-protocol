@@ -37,9 +37,9 @@ export default function SuccessRateDataPage() {
         points={[
           "Most people who run the full protocol report large improvements in fatigue, brain fog, and insomnia, and a good share report full or near-full resolution.",
           "The strongest responses cluster in one profile: a low waking temperature plus clear signs of metabolic damage. If that is your picture, this is built for you.",
-          "Yannick has also taken on cases that were extremely difficult from the first conversation, accepted openly as long shots with no promises attached. Those belong in an honest account too.",
+          "I have also taken on cases that were extremely difficult from the first conversation, accepted openly as long shots with no promises attached. Those belong in an honest account too.",
           "These are self-reported symptom scores from people who chose to fill in a questionnaire. This is not a clinical trial, there is no control group, and nothing here was checked against medical records.",
-          "Many people who came to Yannick were assessed and told not to attempt this at all. That screening shapes everything else on this page.",
+          "Many people who came to me were assessed and told not to attempt this at all. That screening shapes everything else on this page.",
         ]}
       />
 
@@ -57,8 +57,8 @@ export default function SuccessRateDataPage() {
         simple scale. That is a real signal, and it is also a limited one. The
         scores are self-assessed, no response was verified against a medical
         record or a lab result, and people who feel better are far more likely
-        to come back and say so than people who quietly stopped. Yannick would
-        rather tell you that plainly than dress it up with a decimal point.
+        to come back and say so than people who quietly stopped. I would rather
+        tell you that plainly than dress it up with a decimal point.
       </p>
 
       <div className="guiding-questions box-success">
@@ -126,20 +126,20 @@ export default function SuccessRateDataPage() {
         Read the rest of this page through that filter. When people quote high
         improvement rates for the Scorch Protocol, those are, in practice, the
         rates for that group. If your temperature is normal and your metabolic
-        markers look fine, this is a poorer fit for you, and Yannick will say so
-        rather than take you on.
+        markers look fine, this is a poorer fit for you, and I will say so rather
+        than take you on.
       </p>
 
       <h2>The Cases That Were Taken On Anyway</h2>
       <div className="guiding-questions box-warning">
         <p>
-          Not everyone who works with Yannick fits that profile. Some of the
-          hardest cases were accepted precisely because they were hard: years
+          Not everyone who works with me fits that profile. Some of the
+          hardest cases I accepted precisely because they were hard: years
           spent largely bedbound, several overlapping diagnoses, damage that had
           been compounding for a decade before anyone named it.
         </p>
         <p>
-          Those cases were taken on with the situation stated plainly at the
+          I took those cases on with the situation stated plainly at the
           start. No projected outcome, no promise, and an honest{" "}
           <em>this may not be enough</em>. Some of those people improved further
           than anyone involved expected. Some did not. Both outcomes belong in
@@ -156,7 +156,7 @@ export default function SuccessRateDataPage() {
       <div className="guiding-questions box-danger">
         <h3>Who the Scorch Protocol Is Not For</h3>
         <p>
-          A large number of people who came to Yannick were assessed and advised{" "}
+          A large number of people who came to me were assessed and advised{" "}
           <strong>not</strong> to attempt the Scorch Protocol. Only the people
           who were medically cleared and ready went ahead, and that screening is
           a real part of why the reports read the way they do. This is careful
@@ -187,7 +187,7 @@ export default function SuccessRateDataPage() {
       <div className="refeed-promo">
         <h3>Want to know whether you fit the profile?</h3>
         <p>
-          Members run this protocol with Yannick: a personalized refeed plan,
+          Members run this protocol with me: a personalized refeed plan,
           your questions answered with your labs in context, and temperature
           tracking that tells you whether the metabolic picture is actually
           moving.

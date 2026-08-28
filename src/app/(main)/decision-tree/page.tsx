@@ -27,7 +27,7 @@ const chart0 = `graph TD
   getting worse.<br />I am not functional."}
 
   Q3 -->|Yes| Advanced["Focus on the Advanced Scorch Protocol<br />Focus: Phase 1, 2, 3, 4, 5"]
-  Q3 -->|No| Consult["Further Assessment Needed<br />Run your numbers past Yannick"]
+  Q3 -->|No| Consult["Further Assessment Needed<br />Run your numbers past me"]
 
   style Beginner fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
   style Intermediate fill:#713f12,stroke:#eab308,stroke-width:2px,color:#fde047

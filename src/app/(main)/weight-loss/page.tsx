@@ -40,7 +40,7 @@ export default function WeightLossPage() {
       <h2>The Problem: Overshooting Your Target</h2>
       <p>
         If you are simply looking to lose an insane amount of weight safely, you{" "}
-        <strong>should work with Yannick Wolfe</strong> to avoid critical
+        <strong>should work with me</strong> to avoid critical
         pitfalls.
       </p>
 
@@ -137,12 +137,12 @@ export default function WeightLossPage() {
             needle, T3 is the next lever, and it is a far safer option than dry
             fasting for a developing body. T3 is prescription-only, so you will
             need a script to source it. This is exactly the kind of case worth
-            running past Yannick with your numbers in front of you.
+            running past me with your numbers in front of you.
           </li>
           <li>
             <strong>Dry Fasting = Last Resort Only:</strong> Only consider dry
-            fasting if every other option has failed, and even then, get Yannick
-            on your case before you start. The risks outweigh the benefits for
+            fasting if every other option has failed, and even then, bring me
+            onto your case before you start. The risks outweigh the benefits for
             developing bodies.
           </li>
         </ol>

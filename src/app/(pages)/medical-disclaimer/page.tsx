@@ -25,10 +25,10 @@ export default function MedicalDisclaimerPage() {
 
       <h2>Not a doctor-patient relationship</h2>
       <p>
-        Reading this site, subscribing, or corresponding with us does not create a
-        doctor-patient relationship. Yannick Wolfe is not a licensed medical
-        professional. Nothing here should be taken as a diagnosis, a prescription,
-        or personalized medical treatment.
+        I am Yannick Wolfe, and I am not a licensed medical professional. Reading
+        this site, subscribing, or corresponding with me does not create a
+        doctor-patient relationship. Nothing here should be taken as a diagnosis,
+        a prescription, or personalized medical treatment.
       </p>
 
       <h2>Talk to your physician first</h2>

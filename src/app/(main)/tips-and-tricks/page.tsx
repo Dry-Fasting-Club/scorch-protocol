@@ -412,7 +412,7 @@ export default function TipsAndTricksPage() {
           (warfarin, DOACs, etc.), have a known bleeding disorder, are
           scheduled for surgery or a dental procedure, or are pregnant
           or trying to conceive, the calculus changes. This is exactly the
-          kind of case worth running past Yannick with your own numbers before
+          kind of case worth running past me with your own numbers before
           you start, and you stop several days before any procedure that could
           bleed regardless.
         </p>

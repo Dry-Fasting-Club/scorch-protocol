@@ -175,9 +175,9 @@ export default function StarterKitPage() {
           a decision about <em>your</em> body. The items are no secret, they are
           below. What matters is the part a page cannot give you: the dose, the
           sourcing, the timing, and whether a given lever is even right for your
-          case. Inside the portal, Yannick turns this into your sheet: he sets
-          your doses, strikes what is not for you and tells you why, adds how-to
-          notes, and helps you source the harder items.
+          case. Inside the portal, I turn this into your sheet: I set your doses,
+          strike what is not for you and tell you why, add how-to notes, and
+          help you source the harder items.
         </p>
       </div>
 

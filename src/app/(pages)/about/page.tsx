@@ -59,7 +59,7 @@ export default function AboutPage() {
       <p>
         Dry fasting was the turning point. Layered with thyroid (T3) support to
         restart a stalled metabolism, and later a growth-hormone phase to rebuild,
-        it pulled me out. That sequence — prepare, dry fast, refeed, T3, hGH — is
+        it pulled me out. That sequence (prepare, dry fast, refeed, T3, hGH) is
         what became the protocol on this site.
       </p>
 
@@ -85,7 +85,7 @@ export default function AboutPage() {
         also a boundary I take seriously: everything on this site is educational,
         not medical advice, and it is written to be used <em>with</em> a doctor,
         not instead of one. Several phases involve prescription medication and are
-        genuinely not safe for everyone — the{" "}
+        genuinely not safe for everyone. The{" "}
         <Link href="/contraindications">contraindications page</Link> exists for a
         reason, and I would rather you skip the protocol than get hurt by it.
       </p>

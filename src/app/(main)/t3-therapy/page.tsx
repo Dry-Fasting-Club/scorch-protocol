@@ -66,13 +66,13 @@ export default function T3TherapyPage() {
           T3 raises your heart rate and metabolic demand. At the doses described
           here it is real medicine with real force behind it. These are the cases
           where you slow down and build the prep first, and a couple where you get
-          Yannick&rsquo;s eyes on your numbers before you touch it.
+          my eyes on your numbers before you touch it.
         </p>
         <div className="question-item">
           <span className="question-label">A heart rhythm problem or heart disease</span>
           Arrhythmia, atrial fibrillation, or known heart disease. T3 can push
           an unstable heart into dangerous territory. This is one to run past
-          Yannick with your own numbers before you start.
+          me with your own numbers before you start.
         </div>
         <div className="question-item">
           <span className="question-label">Known osteoporosis or low bone density</span>
@@ -88,7 +88,7 @@ export default function T3TherapyPage() {
         <div className="question-item">
           <span className="question-label">Pregnant, or a history of thyrotoxicosis</span>
           These are the two here where you want real oversight before any thyroid
-          hormone. Worth running past Yannick first.
+          hormone. Worth running past me first.
         </div>
         <div className="question-item">
           <span className="question-label">Resting heart rate already above 90 bpm</span>
@@ -286,7 +286,7 @@ export default function T3TherapyPage() {
       <div className="guiding-questions box-info">
         <h3>The Best Way: Slow-Release T3 (SR-T3)</h3>
         <p>
-          <strong>We strongly recommend using Slow-Release T3 (SR-T3).</strong>
+          <strong>I strongly recommend using Slow-Release T3 (SR-T3).</strong>
         </p>
         <ul>
           <li>
@@ -324,7 +324,7 @@ export default function T3TherapyPage() {
         </p>
         <p>
           <em>
-            If you have trouble getting your medication, Yannick can help you
+            If you have trouble getting your medication, I can help you
             find a way to get what you need.
           </em>
         </p>
@@ -469,7 +469,7 @@ export default function T3TherapyPage() {
           or close to skin-and-bones, starting T3 even after 7 days can trigger
           an adrenaline surge, so keep refeeding and rebuilding further before
           you begin. When you are unsure how much refeed runway you need, this
-          is a timing call worth confirming with Yannick directly.
+          is a timing call worth confirming with me directly.
         </div>
         <div className="question-item">
           <span className="question-label">The Taper Is Also a High-Risk Window for Viral Reactivation:</span>
@@ -587,7 +587,7 @@ export default function T3TherapyPage() {
           half-life, so every-other-day dosing holds a steady floor (slow-release
           T4 is available from chronic-illness.st or other sources). Desiccated
           thyroid (30 to 60 mg) is the accessible fallback if you cannot get a
-          formulation. This is the kind of adjustment worth running past Yannick.
+          formulation. This is the kind of adjustment worth running past me.
         </div>
         <div className="question-item">
           <span className="question-label">
@@ -723,7 +723,7 @@ export default function T3TherapyPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Vitamin D3 + K2 (immune, bone, mood):</span>
-          The co-factor that pairs best with T3. In Yannick&rsquo;s experience
+          The co-factor that pairs best with T3. In my experience
           most chronically ill patients run deficient, and correcting it steadies
           immune function, protects bone while T3 is driving hard, and lifts mood.
           Run D3 together with K2 (the same K2 that partners your aspirin above).

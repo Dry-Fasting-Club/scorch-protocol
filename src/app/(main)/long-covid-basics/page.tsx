@@ -236,7 +236,7 @@ export default function LongCovidBasicsPage() {
           edge of bed for 60 seconds before standing). Gentle vagal
           exercises (humming, gargling, cold face splash). If tachycardia
           is severe, ivabradine or a low-dose beta-blocker helps and is
-          worth running past Yannick with your own numbers. See the{" "}
+          worth running past me with your own numbers. See the{" "}
           <a href="/decision-tree">Decision Logic Tree</a> for fasting
           considerations specific to POTS.
         </div>

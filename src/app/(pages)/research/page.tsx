@@ -161,8 +161,8 @@ export default function ResearchPage() {
         mix. Some of it is modern, indexed, peer-reviewed research with a DOI you can
         open. Much of the dry-fasting-specific work comes from a specialized (largely
         Russian-language) clinical literature that is harder to link but real, and a
-        few figures cited across the site are our own summaries of that work rather
-        than a single indexed source. We try to make that distinction visible rather
+        few figures cited across the site are my own summaries of that work rather
+        than a single indexed source. I try to make that distinction visible rather
         than dress every number up as a landmark trial.
       </p>
 
@@ -176,16 +176,16 @@ export default function ResearchPage() {
       <p>
         A body of specialized dry-fasting research (associated with the Khoroshilov
         line of work) documenting how the body handles total food-and-water
-        deprivation — renal conservation, protein sparing, hormonal shifts, and
-        immune effects. We cite it for mechanism and direction, and we flag where a
+        deprivation: renal conservation, protein sparing, hormonal shifts, and
+        immune effects. I cite it for mechanism and direction, and I flag where a
         specific number is an interpretation rather than a headline finding.
       </p>
       <RefList refs={DRY_FASTING_SERIES} />
 
       <h2>Have a correction?</h2>
       <p>
-        If a citation is wrong, outdated, or better sourced elsewhere, tell us and
-        we&rsquo;ll fix it. See our <Link href="/editorial-policy">editorial policy</Link>{" "}
+        If a citation is wrong, outdated, or better sourced elsewhere, tell me and
+        I will fix it. See my <Link href="/editorial-policy">editorial policy</Link>{" "}
         for how claims are sourced and corrected, and{" "}
         <Link href="/contact">get in touch</Link>.
       </p>

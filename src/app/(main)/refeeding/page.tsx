@@ -233,7 +233,7 @@ export default function RefeedingPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Ethyl pyruvate, in selected cases:</span>
-          For some patients we layer in ethyl pyruvate as an additional
+          For some patients I layer in ethyl pyruvate as an additional
           metabolic and anti-inflammatory support during the same window.
           Whether it belongs in your stack depends on your specific
           presentation.
@@ -669,7 +669,7 @@ export default function RefeedingPage() {
         <div className="question-item">
           <span className="question-label">Early protocol (first cycles):</span>
           Focus is dry fast stem cell regeneration, autophagy, and
-          metabolic foundation (T3). We are setting the main structure
+          metabolic foundation (T3). I am setting the main structure
           up. Aggressive probiotic loading here is not the priority.
         </div>
         <div className="question-item">
@@ -682,7 +682,7 @@ export default function RefeedingPage() {
         <p>
           It is genuinely difficult to nail this timing without individual
           assessment, and doing it wrong can set a patient back. This is
-          one of the moments where working with Yannick directly is the
+          one of the moments where working with me directly is the
           difference between a clean recovery and a frustrating one. The
           Scorch Protocol is closer to having a fasting detective on your
           team than following a generic checklist.
@@ -698,7 +698,7 @@ export default function RefeedingPage() {
         <h3>The Rebuild Stack: The Trinity</h3>
         <p>
           When repopulation time comes, the foundational stack is three
-          fermented foods. Yannick calls it the trinity:
+          fermented foods. I call it the trinity:
         </p>
         <ul>
           <li>

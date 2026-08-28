@@ -26,7 +26,7 @@ export default function PreparationPage() {
         "Get baseline blood tests (thyroid, CBC, metabolic panel, Vitamin D, B12, iron, cortisol) and fix critical deficiencies before fasting.",
         "Choose between two preparation paths: plant-based (gold standard, highest healing ceiling) or ketogenic (safer fallback, more forgiving for sicker or more medicated patients).",
         "Do one single magnesium citrate clear-out 2 days before the fast, then spend that window rehydrating with water, juice, and electrolytes only.",
-        "Do not change or stop prescription medications on your own; medication tapering is selective and worked out individually, so bring your list to Yannick before you touch anything.",
+        "Do not change or stop prescription medications on your own; medication tapering is selective and worked out individually, so bring your list to me before you touch anything.",
       ]} />
 
       <p>
@@ -241,8 +241,8 @@ export default function PreparationPage() {
             clean sweep. Anything load-bearing that is holding you together, like a
             Lyme protocol or an antifungal or antiviral you depend on, stays.
             Which specific drugs and what schedule is individual, and this is
-            exactly what the membership is for: bring Yannick your list and he
-            works it out with you. Do not change prescriptions on your own.
+            exactly what the membership is for: bring me your list and I work it
+            out with you. Do not change prescriptions on your own.
           </p>
         </div>
         <div

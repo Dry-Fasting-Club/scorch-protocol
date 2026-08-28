@@ -6,7 +6,7 @@ const SITE_URL = "https://scorchprotocol.com";
 export const metadata: Metadata = {
   title: "Editorial Policy",
   description:
-    "How content on The Scorch Protocol is researched, sourced, reviewed, and corrected — and how outcomes and conflicts of interest are disclosed.",
+    "How content on The Scorch Protocol is researched, sourced, reviewed, and corrected, and how outcomes and conflicts of interest are disclosed.",
   alternates: { canonical: `${SITE_URL}/editorial-policy` },
 };
 
@@ -23,10 +23,11 @@ export default function EditorialPolicyPage() {
 
       <h2>Who writes it</h2>
       <p>
-        Content is written by Yannick Wolfe, founder of The Scorch Protocol, who
-        recovered from severe ME/CFS and Long Covid and now researches and coaches
-        the protocol full-time. He is not a licensed physician; the authority here
-        is lived experience plus independent research. Read the full{" "}
+        Everything here is written by me, Yannick Wolfe, founder of The Scorch
+        Protocol. I recovered from severe ME/CFS and Long Covid and now research
+        and coach the protocol full-time. I am not a licensed physician; the
+        authority here is lived experience plus independent research. Read the
+        full{" "}
         <Link href="/about">background</Link>.
       </p>
 
@@ -51,14 +52,14 @@ export default function EditorialPolicyPage() {
         those responses were never verified, that page deliberately reports no
         participant counts and no success rate. It describes what improves and
         which profile responds best, states its own limitations, and names the
-        difficult cases that were taken on with no promise of a result.
+        difficult cases I took on with no promise of a result.
       </p>
 
       <h2>Review, updates, and corrections</h2>
       <p>
         Protocol pages carry a last-reviewed date and are revised when new evidence
         or field experience warrants it. If you find an error, email{" "}
-        <Link href="/contact">us</Link>; substantive corrections are made promptly.
+        <Link href="/contact">me</Link>; substantive corrections are made promptly.
       </p>
 
       <h2>Conflicts of interest</h2>
@@ -69,7 +70,7 @@ export default function EditorialPolicyPage() {
         itself is free to read in full. What the paid tiers add is private,
         hands-on help, verified supplier sourcing for hard-to-get compounds
         (slow-release T3, peptides, hGH, cyproheptadine) and dosing worked out with
-        you in a consult. That is a real commercial incentive, so we name it here
+        you in a consult. That is a real commercial incentive, so I name it here
         and let you weigh it.
       </p>
 

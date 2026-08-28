@@ -227,7 +227,7 @@ export default function KidneysPage() {
               doctors have never watched this marker under a controlled fast, so
               they read the number and panic. Rehydrate, retest, and it comes
               back to baseline. If your numbers look scary and you want a second
-              read before you act on them, that is worth running past Yannick with
+              read before you act on them, that is worth running past me with
               your labs in front of you.
             </p>
           </div>
@@ -269,7 +269,7 @@ export default function KidneysPage() {
             Kidneys must be functional enough to handle the concentration
             stress. Fix the diet first. If your numbers sit right on one of these
             lines and you are not sure which side you land on, that is exactly
-            the kind of case worth putting in front of Yannick before you start.
+            the kind of case worth putting in front of me before you start.
           </div>
         </div>
 

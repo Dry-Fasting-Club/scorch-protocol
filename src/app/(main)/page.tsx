@@ -46,8 +46,8 @@ export default function HomePage() {
           The Scorch Protocol combines dry fasting, T3 therapy, and hGH to
           reset your immune system at the root, not just manage symptoms.
           Sometimes the orders change and sometimes fasting may not even be
-          advisable. There is no one identical chronic illness sufferer. Built
-          by someone who recovered from severe ME/CFS and Long Covid.
+          advisable. There is no one identical chronic illness sufferer. I built
+          this protocol after recovering from severe ME/CFS and Long Covid.
         </p>
         <div className="hero-cta-group">
           <Link href="/success-rate-data" className="hero-btn hero-btn-primary">
@@ -349,7 +349,7 @@ export default function HomePage() {
           is a 1-on-1, where your full history and lab numbers get worked through
           directly. The next best is the{" "}
           <Link href="/membership">members portal</Link>: dissect your own
-          numbers, ask the right questions, and get the detective on the case.
+          numbers, ask the right questions, and get me on the case.
           For a serious diagnosis like cancer, the goal is to
           find and fix the root cause alongside your medical care, not in place
           of it.

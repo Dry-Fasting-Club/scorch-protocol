@@ -678,7 +678,7 @@ export default function RandomThoughtsPage() {
             justified by what is at stake. Filonov in Russia and Della
             Dewey in Switzerland both run extended dry fasts in clinical
             settings precisely for this severity tier of patient. This is
-            exactly the kind of case worth putting in front of Yannick with
+            exactly the kind of case worth putting in front of me with
             your own numbers before you attempt it.
           </p>
           <p>

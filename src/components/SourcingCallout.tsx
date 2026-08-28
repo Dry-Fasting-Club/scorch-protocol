@@ -20,7 +20,7 @@ export default function SourcingCallout({
       <p>
         This is the wall almost everyone hits. No doctor will prescribe slow-release T3,
         and the peptide and hGH markets are full of fakes. Inside 1-on-1 coaching you get
-        Yannick&rsquo;s current, personally verified supplier contacts for slow-release T3,
+        my current, personally verified supplier contacts for slow-release T3,
         peptides, hGH, and cyproheptadine, plus exactly what to order and how to dose it.
         Most people say that list alone was worth the price.
       </p>

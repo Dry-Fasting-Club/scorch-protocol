@@ -261,11 +261,11 @@ export default function DryFastingPage() {
           (see below).
         </li>
         <li>
-          <strong>No L-carnitine:</strong> we no longer use L-carnitine. In
-          Yannick&rsquo;s experience it works against the thyroid gains the
-          protocol is driving (it blunts thyroid hormone&rsquo;s effect in the
-          tissues), and our working theory is that this is part of why the
-          thyroid slows on carnivore-style diets.
+          <strong>No L-carnitine:</strong> we no longer use L-carnitine. In my
+          experience it works against the thyroid gains the protocol is driving
+          (it blunts thyroid hormone&rsquo;s effect in the tissues), and my
+          working theory is that this is part of why the thyroid slows on
+          carnivore-style diets.
         </li>
         <li>
           <strong>Nothing else:</strong> no food, no juice, no broth, no

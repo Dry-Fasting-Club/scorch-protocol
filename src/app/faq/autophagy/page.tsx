@@ -307,8 +307,8 @@ export default function AutophagyPage() {
               highest intensity to scour the tissues. In fact, one of the most
               powerful yet safe ways to continue this is to continue in a water
               fast after hitting the acidotic crisis around day 3 of dry
-              fasting. Yannick is considering adding a (3 + 7) dry to water
-              fast to the protocol.
+              fasting. A (3 + 7) dry to water fast is something I am
+              considering adding to the protocol.
             </p>
           </div>
         </div>

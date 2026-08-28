@@ -100,7 +100,7 @@ export default function GeneticPolymorphismsPage() {
           and hypothyroid symptoms stay stubborn, whether or not you have
           ever tested for the variant, this is where LT3 (liothyronine) earns
           its place. T3 is prescription-only, so you will need to source it,
-          and it is worth running past Yannick with your own FT3, TSH, and
+          and it is worth running past me with your own FT3, TSH, and
           temperature numbers in front of you.
         </li>
       </ul>
