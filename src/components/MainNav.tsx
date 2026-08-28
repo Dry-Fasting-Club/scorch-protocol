@@ -67,7 +67,7 @@ export default function MainNav() {
         </button>
       </div>
       <Link href={MEMBERSHIP_PATH} className="main-nav-members" onClick={() => setOpen(false)}>
-        Join for $5 →
+        Join →
       </Link>
       <ul id="main-nav-list" className={open ? "main-nav-list open" : "main-nav-list"}>
         {navItems.map((item, i) => {

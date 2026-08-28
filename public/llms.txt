@@ -39,7 +39,7 @@ The protocol runs in phases: a supported preparation period, a deep dry fast (th
 
 ## Membership
 
-- [Membership](https://scorchprotocol.com/membership): The $5/mo membership at members.scorchprotocol.com, where members build a personalized refeed plan, track temperature and labs, and ask Yannick questions directly.
+- [Membership](https://scorchprotocol.com/membership): The membership at members.scorchprotocol.com, where members build a personalized refeed plan, track temperature and labs, and ask Yannick questions directly.
 
 ## More
 

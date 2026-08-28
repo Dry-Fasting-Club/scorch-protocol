@@ -5,35 +5,34 @@ import JsonLd from "@/components/JsonLd";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
-  title: "Membership: Run the Protocol With Yannick for $5",
+  title: "Membership: Run the Protocol With Yannick",
   description:
-    "Join the Scorch Protocol members portal for $5/mo: build a personalized day-by-day refeed plan, track your temperature and labs, and ask Yannick your questions directly. Cancel anytime.",
+    "Join the Scorch Protocol members portal: build a personalized day-by-day refeed plan, track your temperature and labs, and ask Yannick your questions directly. Cancel anytime.",
   alternates: { canonical: "https://scorchprotocol.com/membership" },
 };
 
 export default function MembershipPage() {
   return (
     <>
-      <JsonLd data={medicalWebPageLd({ name: "Membership: Run the Protocol With Yannick for $5", description: "Join the Scorch Protocol members portal for $5/mo: build a personalized day-by-day refeed plan, track your temperature and labs, and ask Yannick your questions directly. Cancel anytime.", path: "/membership", breadcrumbName: "Membership" })} />
-      <h1>Run the protocol with Yannick, starting at $5</h1>
+      <JsonLd data={medicalWebPageLd({ name: "Membership: Run the Protocol With Yannick", description: "Join the Scorch Protocol members portal: build a personalized day-by-day refeed plan, track your temperature and labs, and ask Yannick your questions directly. Cancel anytime.", path: "/membership", breadcrumbName: "Membership" })} />
+      <h1>Run the protocol with Yannick, personalized to your case</h1>
       <p className="membership-lede">
         The site tells you how the protocol works. The members portal turns it
         into a plan built around <em>you</em>: a day-by-day refeed schedule sized
         to your own fast, your data in one place, and your questions answered by
-        Yannick directly. It starts at $5 a month.
+        Yannick directly.
       </p>
 
       <div className="membership-cta-row">
         <a href={MEMBERS_SIGNUP_URL} className="guidance-btn membership-primary">
-          Start for $5 today →
+          Get started today →
         </a>
         <a href={MEMBERS_PORTAL_URL} className="membership-secondary">
           or look around the portal first
         </a>
       </div>
       <p className="membership-risk">
-        $5 for your first month. Less than a single supplement sample. Cancel
-        anytime, no questions asked.
+        Cancel anytime, no questions asked.
       </p>
 
       <h2>What you get</h2>
@@ -63,10 +62,10 @@ export default function MembershipPage() {
         </div>
       </div>
 
-      <h2>Three tiers, one $5 front door</h2>
+      <h2>Three tiers, one way in</h2>
       <p>
-        Start at $5 and stay there as long as you like. Upgrade only if you want
-        more. Current pricing for the higher tiers is shown at checkout in the
+        Start at Starter and stay there as long as you like. Upgrade only if you
+        want more. Current pricing for all tiers is shown at checkout in the
         portal.
       </p>
 
@@ -76,7 +75,7 @@ export default function MembershipPage() {
           <p>
             Ask one question a month, build your food-and-calorie refeed plan,
             track your temperature and labs, and log weekly check-ins. The whole
-            protocol made personal, for about $5 a month.
+            protocol made personal.
           </p>
         </div>
         <div className="pillar-item" style={{ borderLeftColor: "#27ae60" }}>
@@ -99,24 +98,22 @@ export default function MembershipPage() {
         </div>
       </div>
 
-      <h2>Why so cheap?</h2>
+      <h2>Why start with Starter?</h2>
       <p>
-        Because the hard part of recovery is starting, and $5 removes the excuse.
-        The people whose outcomes are tracked on the{" "}
+        Because the hard part of recovery is starting. The people whose outcomes
+        are tracked on the{" "}
         <Link href="/success-rate-data">results page</Link> worked one-on-one
-        with Yannick. This is the most affordable way into that same guidance. If
-        it is not useful, cancel before your second month and you are out five
-        dollars.
+        with Yannick, and Starter is the easiest way into that same guidance. If
+        it is not useful, cancel before your second month and move on.
       </p>
 
       <div className="guidance-box">
         <h3>Ready when you are</h3>
         <p>
-          Start for $5, build your plan today, and ask Yannick your first
-          question this week.
+          Build your plan today, and ask Yannick your first question this week.
         </p>
         <a href={MEMBERS_SIGNUP_URL} className="guidance-btn">
-          Start for $5 →
+          Get started →
         </a>
       </div>
     </>

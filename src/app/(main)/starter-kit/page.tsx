@@ -227,10 +227,10 @@ export default function StarterKitPage() {
           The list above becomes <em>your</em> list inside the members portal:
           your doses filled in, the wrong items struck out with the reason, how to
           take each one, and help sourcing the prescription items. It lives in
-          your portal and updates as your case moves. It starts at $5 a month.
+          your portal and updates as your case moves.
         </p>
         <a href={MEMBERS_SIGNUP_URL} className="guidance-btn membership-primary">
-          Get your personalized sheet for $5 →
+          Get your personalized sheet →
         </a>
         <p style={{ marginTop: "0.75rem", fontSize: "0.9rem", opacity: 0.8 }}>
           Prefer to read more first? See{" "}

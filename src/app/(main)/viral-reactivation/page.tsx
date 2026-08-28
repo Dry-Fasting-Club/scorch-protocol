@@ -760,7 +760,7 @@ export default function ViralReactivationPage() {
       </p>
       <p>
         <Link href="/membership?ref=prodrome-in-fast">
-          Ask Yannick for the modified protocol for $5/mo &rarr;
+          Ask Yannick for the modified protocol &rarr;
         </Link>
       </p>
 

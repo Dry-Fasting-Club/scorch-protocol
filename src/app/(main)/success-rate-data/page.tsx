@@ -304,10 +304,10 @@ export default function SuccessRateDataPage() {
         <p>
           Members run this protocol with Yannick: a personalized refeed plan,
           your questions answered with your labs in context, and temperature
-          tracking. It starts at $5.
+          tracking.
         </p>
         <Link href="/membership?ref=success-data" className="refeed-promo-btn">
-          Start for $5 &rarr;
+          Get started &rarr;
         </Link>
       </div>
 

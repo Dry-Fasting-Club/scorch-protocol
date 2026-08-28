@@ -34,14 +34,14 @@ export default function CoachingPage() {
 
       <div className="membership-cta-row">
         <a href={MEMBERS_SIGNUP_URL} className="guidance-btn membership-primary">
-          Start for $5 today →
+          Get started today →
         </a>
         <Link href={MEMBERSHIP_PATH} className="membership-secondary">
           or compare all tiers
         </Link>
       </div>
       <p className="membership-risk">
-        Step in for $5, then move up to Inner Circle for the full 1-on-1 and the verified
+        Start as a member, then move up to Inner Circle for the full 1-on-1 and the verified
         sourcing list. Cancel anytime, no questions asked.
       </p>
 
@@ -98,11 +98,11 @@ export default function CoachingPage() {
       >
         <h3>Ready to stop guessing where to get this?</h3>
         <p>
-          Start for $5, then step up to Inner Circle for the full 1-on-1 and the verified
+          Start as a member, then step up to Inner Circle for the full 1-on-1 and the verified
           sourcing list for slow-release T3, peptides, hGH, and cyproheptadine.
         </p>
         <a href={MEMBERS_SIGNUP_URL} className="guidance-btn">
-          Start for $5 →
+          Get started →
         </a>
       </div>
     </>
