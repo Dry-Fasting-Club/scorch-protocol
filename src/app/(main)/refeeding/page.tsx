@@ -34,7 +34,7 @@ export default function RefeedingPage() {
         },
         {
           question: "Who actually needs deliberate biome rebuild?",
-          answer: "The standard protocol path (a 5-day dry fast followed by the standing valacyclovir antiviral backbone, running from water day 3 through the refeed) carries a mandatory gut-rebuild rider: kefir first, then kombucha, run alongside the standing course for as long as it runs, paying down the microbiome cost on purpose rather than leaving antiviral coverage weaker to avoid it. Patients who complete long dry fasts of 7 or more days, especially 9 or more days, need rebuild work for a second, independent reason: at those durations the biome itself starts eating the gut lining and mucosal lining."
+          answer: "The standard protocol path (a 5-day dry fast followed by the standing valacyclovir antiviral backbone, started on refeed day 3 at the earliest and run daily through the months between fasts) carries a mandatory gut-rebuild rider: kefir first, then kombucha, run alongside the standing course for as long as it runs, paying down the microbiome cost on purpose rather than leaving antiviral coverage weaker to avoid it. Patients who complete long dry fasts of 7 or more days, especially 9 or more days, need rebuild work for a second, independent reason: at those durations the biome itself starts eating the gut lining and mucosal lining."
         }
       ])} />
       <h1>Phase 3: The Refeed</h1>
@@ -176,13 +176,20 @@ export default function RefeedingPage() {
         </p>
         <div className="question-item">
           <span className="question-label">Valacyclovir is the standing backbone:</span>
-          It stays off the table during the dry fast and the first two days
-          of the water fast, while renal clearance is not yet restored. Once
-          rehydration is established at water day 3, the standing course
-          begins and is held through the calorie ramp and into maintenance.
-          Have it in your possession before the fast ends so it is ready to
-          start on schedule, and keep it running across the transition and
-          the whole refeed, not just on day one.
+          It never runs during the fast, dry or water. A water fast still
+          purges water through the kidneys, so the body stays systemically
+          dehydrated and cannot clear a renally cleared drug, whatever the
+          electrolytes are doing. The standing course starts on refeed day 3
+          at the earliest, after at least two days of eating with heavy
+          rehydration, and is then held through the calorie ramp, into
+          maintenance and through the months between fasts. If your waking
+          temperature was very low going in, kidney function may lag until T3
+          brings it back. There is no hard gate there, it is your own decision
+          at your own risk, but my advice is to wait until day 3 at minimum
+          and stay on L-lysine and monolaurin until you feel ready. Have it in
+          your possession before the fast ends so it is ready on that day, and
+          once it starts, keep it running through the whole refeed, not just
+          for a week.
         </div>
         <div className="question-item">
           <span className="question-label">Ivermectin runs alongside it as supportive coverage:</span>
@@ -196,13 +203,16 @@ export default function RefeedingPage() {
           <span className="question-label">A prodrome loading dose escalates on top:</span>
           The moment you feel tingling, the early signal of an oncoming HSV
           outbreak, add a loading dose of valacyclovir on top of the
-          standing course that is already running. It is an escalation, not
-          valacyclovir&rsquo;s only role.
+          standing course, once that course is running. It is an escalation,
+          not valacyclovir&rsquo;s only role. On refeed day 1 or 2, before the
+          course has started, it is your decision: if you feel rehydrated you
+          can start early, knowing why the drug is held during the water fast.
         </div>
         <div className="question-item">
-          <span className="question-label">L-lysine + monolaurin continue daily:</span>
-          Start both with your first meal and keep them going through the week
-          while you also hold off on arginine-rich foods (nuts, seeds,
+          <span className="question-label">L-lysine, monolaurin and olive leaf continue daily:</span>
+          L-lysine comes back on water day 1, the moment water does. Monolaurin
+          and olive leaf come in with your first meal. Keep all three going
+          through the week while you also hold off on arginine-rich foods (nuts, seeds,
           chocolate, peanut butter). The full mechanism and the
           nine-herpesvirus breakdown live on the{" "}
           <a href="/viral-reactivation">Viral Reactivation</a> page.
@@ -595,10 +605,11 @@ export default function RefeedingPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Have Valacyclovir (Standing Backbone) and Ivermectin (Supportive) On Hand BEFORE Breaking the Fast</span>
-          Valacyclovir is the standing antiviral backbone: off during the
-          dry fast and the first two days of the water fast, then started
-          once rehydration is established at water day 3 and held through
-          the calorie ramp and into maintenance. Ivermectin runs alongside
+          Valacyclovir is the standing antiviral backbone: off for the whole
+          fast, dry and water, then started on refeed day 3 at the earliest,
+          after two days of eating with heavy rehydration, and held through
+          the calorie ramp, into maintenance and through the months between
+          fasts. Ivermectin runs alongside
           it through the window (better gut microbiome compatibility during
           refeed and double duty as the primary antiparasitic, with
           supportive antiviral value on top). Both need to be in your
@@ -636,8 +647,9 @@ export default function RefeedingPage() {
         <h3>Who Actually Needs Deliberate Biome Rebuild?</h3>
         <p>
           The standard protocol path is a 5-day dry fast followed by the
-          standing valacyclovir antiviral backbone, running from water day
-          3 through the refeed. Because that course runs long enough to
+          standing valacyclovir antiviral backbone, started on refeed day 3
+          at the earliest and run daily through the months between fasts.
+          Because that course runs long enough to
           take real damage to both the bacterial biome and the virome, the
           gut-rebuild rider is mandatory for it, not optional. This is the
           default population now, not an edge case.
@@ -802,9 +814,9 @@ export default function RefeedingPage() {
         </p>
         <p>
           This cost is exactly why valacyclovir, now run as the standing
-          antiviral backbone (started once rehydration is established at
-          water day 3, never during the dry fast or the first two water
-          days, and held through the calorie ramp and into maintenance),
+          antiviral backbone (started on refeed day 3 at the earliest, never
+          during the fast in either form, and held through the calorie ramp,
+          into maintenance and through the months between fasts),
           carries a mandatory gut-rebuild rider alongside it: kefir first,
           then kombucha. This is a deliberate tradeoff, not an oversight.
           The standing course gives you the stronger, more reliable

@@ -25,7 +25,7 @@ const betweenFastsFaq = [
   {
     question: "Do you stay on antivirals between fasts?",
     answer:
-      "Yes. Valacyclovir is a standing backbone, not a short course you stop once the refeed ends. It stays off during the dry fast and the first two water days because it is renally cleared and needs water flow to clear safely, it starts on water day 3 once rehydration is established, and it keeps running through the refeed and into the long gap before the next cycle. Ivermectin runs alongside it as a secondary supportive antiviral and the primary antiparasitic, and some patients keep it as a crash-only medication rather than a daily one, since the same calming effect that supports it as an antiviral is also the reason it is reached for during a PEM crash. If a prodrome starts, the loading dose is an escalation layered on top of the standing course, not a replacement for it.",
+      "Yes. Valacyclovir is a standing backbone, not a short course you stop once the refeed ends. It never runs during the fast, dry or water, because it is renally cleared and a water fast still leaves the body systemically dehydrated (the kidneys keep purging water, and electrolytes help but do not fix that). It starts on refeed day 3 at the earliest, after at least two days of eating with heavy rehydration, and from there it keeps running through the refeed, the T3 phase and the long gap before the next cycle. L-lysine from water day 1, and monolaurin and olive leaf from the first meal, are the cover until it starts. Ivermectin runs alongside it as a secondary supportive antiviral and the primary antiparasitic, and some patients keep it as a crash-only medication rather than a daily one, since the same calming effect that supports it as an antiviral is also the reason it is reached for during a PEM crash. If a prodrome starts, the loading dose is an escalation layered on top of the standing course, not a replacement for it.",
   },
   {
     question: "What can you take during a PEM crash?",
@@ -69,7 +69,7 @@ export default function BetweenFastsPage() {
       <KeyTakeaways
         points={[
           "This is the standing daily stack for the long gap between protocol cycles: the months after one fast and refeed have finished, and before the next fast begins. It is not a pre-fast shopping list.",
-          "Valacyclovir is the standing antiviral backbone. It stays off during the dry fast and the first two water days because it is renally cleared, starts on water day 3, and then keeps running. Ivermectin is a secondary supportive antiviral and the primary antiparasitic.",
+          "Valacyclovir is the standing antiviral backbone. It never runs during the fast, dry or water, because it is renally cleared and a water fast still leaves the body dehydrated. It starts on refeed day 3 at the earliest, after two days of eating with heavy rehydration, and then keeps running for months. L-lysine from water day 1, and monolaurin with olive leaf from the first meal, cover the gap. Ivermectin is a secondary supportive antiviral and the primary antiparasitic.",
           "During a PEM crash, the standing stack keeps running and dosing changes on two items already in it: ivermectin, raised for its calming effect on the nervous system and inflammation, and, for patients already established on T3 therapy, a temporary acute increase set with a clinician. Artemisinin is not a crash tool.",
           "Almost everything here is daily. Artemisinin is the one exception in the standing stack: an optional extra antiviral, added only when stacking against a strongly suspected viral reactivation, and marginal to the protocol outside that situation. Psilocybin microdosing is the other non-daily item, an optional extra never part of the baseline.",
           "Food timing is not a detail. Lysine and nattokinase need an empty stomach to work at all, while monolaurin and thymus glandular need food to be tolerated.",
@@ -237,25 +237,56 @@ export default function BetweenFastsPage() {
         </p>
         <div className="question-item">
           <span className="question-label">
-            Off during the dry fast and water days 1 and 2
+            Off for the whole fast, dry and water
           </span>
           Without renal water flow the drug cannot be cleared at the rate the
-          dosing assumes. Clearance kinetics go wrong and concentration builds.
-          This is a pharmacology boundary, not a preference.
+          dosing assumes: clearance kinetics go wrong and concentration builds.
+          That is obvious for the dry fast. It is also true of the water fast,
+          which is the part people get wrong. Water fasting still purges water
+          through the kidneys, so the body stays systemically dehydrated even
+          on the water days. Electrolytes help, they do not fix it. So
+          valacyclovir never runs during the fast in either form. This is a
+          pharmacology boundary, not a preference.
         </div>
         <div className="question-item">
-          <span className="question-label">Starts on water day 3</span>
-          By the third day of the water fast, rehydration is established and the
-          kidneys are moving fluid again. That is the moment the antiviral
-          backbone goes on, and it is deliberately before the refeed opens the
-          vulnerability window.
+          <span className="question-label">Earliest start: refeed day 3</span>
+          The standing course starts on refeed day 3 at the earliest, after at
+          least two days of eating with heavy rehydration. Food and fluid
+          together are what actually restore the water balance the drug needs
+          in order to clear. Have it in hand before the fast ends so it is
+          ready on that day.
         </div>
         <div className="question-item">
           <span className="question-label">
-            Runs through the refeed and keeps running
+            Very low temperature: your call, and my advice is to wait
           </span>
-          It does not stop when the refeed ends. It carries straight into the
-          standing between-fasts course, which is what this page describes.
+          If your waking temperature was very low going in, kidney function
+          may lag behind the rest of the refeed until T3 brings it back, and
+          T3 does not start until after refeed day 7. There is no hard gate
+          here. It is your own decision, at your own risk. My advice is to
+          wait until refeed day 3 at minimum and stay on L-lysine and
+          monolaurin until you feel ready to start.
+        </div>
+        <div className="question-item">
+          <span className="question-label">
+            L-lysine and monolaurin are the cover, not a placeholder
+          </span>
+          L-lysine comes back on water day 1, the moment water does. Monolaurin
+          and olive leaf come in with the first meal. Those three hold the
+          antiviral line through the water days and the first days of eating,
+          so the gap before valacyclovir starts is covered, not empty.
+        </div>
+        <div className="question-item">
+          <span className="question-label">
+            The real job is the months between fasts
+          </span>
+          The refeed start is the doorway, not the point. Valacyclovir&rsquo;s
+          main work is the daily course through the months of refeeding and
+          regeneration, lowering the burden of reactivated EBV, HSV and
+          shingles while the body rebuilds. Once started it does not stop at
+          the refeed boundary or the T3 boundary. It carries straight into the
+          standing between-fasts course this page describes, with the kefir
+          and kombucha rider alongside it and a kidney panel every few months.
         </div>
         <div className="question-item">
           <span className="question-label">
@@ -263,23 +294,27 @@ export default function BetweenFastsPage() {
           </span>
           Tingling, burning or itching at an old outbreak site means replication
           has already started. The loading dose for a prodrome is layered on top
-          of the standing course, not substituted for it. See{" "}
-          <Link href="/viral-reactivation">Viral Reactivation</Link> for the
-          full prodrome decision tree.
+          of the standing course, not substituted for it, and only once that
+          course is running. A prodrome on refeed day 1 or 2, before the course
+          has started, is your decision: if you feel rehydrated you can start
+          early, knowing why the drug is not advised during the water fast.
+          See <Link href="/viral-reactivation">Viral Reactivation</Link> for
+          the full prodrome decision tree.
         </div>
         <div className="question-item">
           <span className="question-label">
-            A prodrome during the dry fast is a different call entirely
+            A prodrome during the fast is a different call entirely
           </span>
-          The escalation above assumes the standing course is already running.
-          If a prodrome arrives while you are still in the dry phase, there is
-          no course to escalate and, more to the point, no renal water flow to
-          clear a renally cleared drug with. That case ends the dry phase: you
-          convert to a water fast and rehydrate first, and only then does the
-          antiviral go in, with L-lysine alongside it. How long that
-          rehydration runs depends on how deep the dry fast was, and a prodrome
+          If a prodrome arrives while you are still fasting, dry or water,
+          there is no course to escalate and no rehydrated body to clear the
+          drug with. That case ends the fast, in order: convert to water with
+          electrolytes if you are dry, L-lysine at once, break the fast once
+          you are rehydrated, monolaurin and olive leaf with the first
+          calories, and valacyclovir on the standing rule above. A prodrome
           that repeats every cycle means the fast needs restructuring rather
-          than a bigger rescue. See{" "}
+          than a bigger rescue: a water-first lead-in, with one condition, at
+          least 3 L of water a day with electrolytes (a pinch of normal salt
+          plus potassium salt) while the drug is held. See{" "}
           <Link href="/viral-reactivation">Viral Reactivation</Link> for the
           reasoning, and ask me for the modified protocol before improvising
           your own.
@@ -633,7 +668,7 @@ export default function BetweenFastsPage() {
           It is the standing antiviral backbone, it is not anti-platelet, and it
           keeps running straight through the refeed and the T3 phase. The refeed
           is the vulnerability window for viral reactivation, which is exactly
-          why the backbone stays on through it.
+          why the backbone joins on refeed day 3 and stays on through it.
         </p>
         <h4>Routine monitoring</h4>
         <p>

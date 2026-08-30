@@ -389,7 +389,8 @@ export default function LongCovidBasicsPage() {
           <li>
             <a href="/viral-reactivation">Antiviral coverage</a> holds the line
             during the transition: valacyclovir as the standing backbone,
-            starting at water day 3 and never during the dry fast itself,
+            starting on refeed day 3 at the earliest and never during the
+            fast itself, dry or water,
             ivermectin alongside it as a supportive antiviral and the
             primary antiparasitic, and lysine and monolaurin as the
             natural baseline.

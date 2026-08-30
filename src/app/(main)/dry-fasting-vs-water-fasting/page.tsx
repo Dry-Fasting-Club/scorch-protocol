@@ -19,7 +19,7 @@ const faqItems = [
   {
     question: "Is dry fasting better than water fasting?",
     answer:
-      "Neither is simply better than the other. Dry fasting drives deeper autophagy, forces a more profound mineral reset (sodium excretion drops 87% versus 40% on a water fast), and generates internal metabolic water by burning old and damaged cells. Water fasting is gentler, easier to sustain for longer, and lower risk for most people. The Scorch Protocol uses both in sequence: 5 days dry to achieve maximum cellular repair, then 5 days water to rehydrate organs, allow antivirals to be absorbed safely, and extend the therapeutic fasting state before refeeding.",
+      "Neither is simply better than the other. Dry fasting drives deeper autophagy, forces a more profound mineral reset (sodium excretion drops 87% versus 40% on a water fast), and generates internal metabolic water by burning old and damaged cells. Water fasting is gentler, easier to sustain for longer, and lower risk for most people. The Scorch Protocol uses both in sequence: 5 days dry to achieve maximum cellular repair, then 5 days water to rehydrate organs, let L-lysine return, and extend the therapeutic fasting state before refeeding. Prescription antivirals wait for the refeed, because a water fast still leaves the body dehydrated.",
   },
   {
     question: "Is dry fasting more dangerous than water fasting?",
@@ -29,7 +29,7 @@ const faqItems = [
   {
     question: "Can you do both dry and water fasting?",
     answer:
-      "Yes, and that is exactly what the Scorch Protocol does. The sequence is always dry fasting first, water fasting second. After 5 days dry, you transition directly into 5 days of water fasting rather than breaking the fast with food. The dry fast creates the deep cellular repair state; the water fast extends the therapeutic window, rehydrates organs so antiviral medications can be taken safely, and allows the immune system to begin redistributing before food returns. Reversing the order is dangerous and defeats the purpose.",
+      "Yes, and that is exactly what the Scorch Protocol does. The sequence is always dry fasting first, water fasting second. After 5 days dry, you transition directly into 5 days of water fasting rather than breaking the fast with food. The dry fast creates the deep cellular repair state; the water fast extends the therapeutic window, rehydrates organs and lets L-lysine return, and allows the immune system to begin redistributing before food returns. Prescription antivirals such as valacyclovir wait for refeed day 3, because water fasting still purges water through the kidneys and the body stays dehydrated. Reversing the order is dangerous and defeats the purpose.",
   },
 ];
 
@@ -291,18 +291,20 @@ export default function DryFastingVsWaterFastingPage() {
           not approach without direct clinical support.
         </li>
         <li>
-          <strong>It allows oral medications and supplements.</strong> You
-          cannot safely take antivirals or lysine during a dry fast
-          because without renal water flow, clearance kinetics are wrong and
-          you risk concentrated toxicity. The moment you transition to water
-          fasting, that antiviral coverage becomes possible. T3 is different: it
-          is not started during the fast at all, but only after the first 7 days
-          of refeeding.
+          <strong>It lets L-lysine return.</strong> You cannot safely take
+          antivirals or lysine during a dry fast because without renal water
+          flow, clearance kinetics are wrong and you risk concentrated
+          toxicity. The moment you transition to water fasting, L-lysine comes
+          back. Prescription antivirals do not: water fasting still purges
+          water through the kidneys, so the body stays systemically dehydrated
+          on the water days, and valacyclovir waits for refeed day 3 at the
+          earliest. T3 is different again: it is not started during the fast
+          at all, but only after the first 7 days of refeeding.
         </li>
         <li>
           <strong>It is the right follow-on to a dry fast.</strong> After 5
           days dry, the water fast extends the therapeutic fasting state,
-          rehydrates organs, and allows the antiviral stack to be in place
+          rehydrates organs, and puts the natural antiviral cover in place
           before food returns. See the section below.
         </li>
       </ul>
@@ -355,13 +357,16 @@ export default function DryFastingVsWaterFastingPage() {
           medications and supplements.
         </li>
         <li>
-          <strong>Keeps antiviral coverage in place</strong> so it carries into
-          the refeed, where T3 begins only after day 7.
+          <strong>Puts the natural antiviral cover in place</strong> (L-lysine
+          from water day 1, monolaurin and olive leaf with the first meal) so
+          it carries into the refeed, where valacyclovir joins on day 3 at the
+          earliest and T3 begins only after day 7.
         </li>
         <li>
-          <strong>Allows antivirals and lysine to be absorbed safely</strong>,
-          closing the viral reactivation vulnerability window before food opens
-          it.
+          <strong>Does not clear the way for prescription antivirals.</strong>{" "}
+          Water fasting still purges water through the kidneys, so the body
+          stays dehydrated on the water days. Valacyclovir, which is renally
+          cleared, waits for the refeed.
         </li>
         <li>
           <strong>Gives the immune system time to redistribute</strong>: T-cells
@@ -438,8 +443,9 @@ export default function DryFastingVsWaterFastingPage() {
             more careful preparation. Water fasting is gentler, easier to
             sustain, and lower risk for most people. The Scorch Protocol uses
             both in sequence: 5 days dry for maximum cellular repair, then 5
-            days water to extend the therapeutic window safely and allow
-            antivirals to be absorbed before refeeding begins.
+            days water to extend the therapeutic window safely, rehydrate the
+            organs and let L-lysine return before refeeding begins.
+            Prescription antivirals wait for the refeed.
           </p>
         </div>
         <div className="question-item">

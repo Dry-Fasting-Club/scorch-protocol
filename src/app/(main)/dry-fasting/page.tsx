@@ -288,16 +288,18 @@ export default function DryFastingPage() {
         likely to try to re-seed is when food comes back, not during the fast
         itself. So the viral reactivation protocol stays in place straight
         through the fast-to-refeed handoff and across the whole refeed:
-        valacyclovir as the standing antiviral backbone (off during the dry
-        fast and the first two days of the water fast for renal clearance,
-        started at water day 3), ivermectin alongside it as supportive
-        coverage plus the primary antiparasitic, L-lysine and monolaurin
-        holding the natural line, and a valacyclovir loading dose on top at
-        the first sign of a prodrome, once that standing course is actually
-        running. A prodrome that arrives while you are still in the dry phase
-        is the exception: there is no standing course to escalate and no renal
-        water flow to clear the drug with, so that case ends the dry phase and
-        rehydrates before any antiviral goes in. The{" "}
+        L-lysine back on water day 1, monolaurin and olive leaf with the first
+        meal, valacyclovir as the standing antiviral backbone from refeed day
+        3 at the earliest (never during the fast, dry or water, because a
+        water fast still leaves the body dehydrated and the drug is renally
+        cleared), ivermectin alongside it as supportive coverage plus the
+        primary antiparasitic, and a valacyclovir loading dose on top at the
+        first sign of a prodrome, once that standing course is actually
+        running. A prodrome that arrives while you are still fasting is the
+        exception: there is no standing course to escalate and no rehydrated
+        body to clear the drug with, so that case converts to water with
+        electrolytes, takes L-lysine at once, breaks the fast once rehydrated,
+        and brings valacyclovir in on the standing rule. The{" "}
         <a href="/viral-reactivation">Viral Reactivation</a> page has the full
         stack.
       </p>

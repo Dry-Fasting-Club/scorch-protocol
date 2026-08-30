@@ -100,7 +100,7 @@ hGH layered on the restored metabolic foundation directs nutritional inputs into
 
 ### Targeted Antimicrobial Layering
 
-For patients with confirmed or suspected herpesvirus reactivation, candida overgrowth, or other infectious cofactors, targeted antimicrobials in the appropriate protocol phase contribute to the overall recovery. The Scorch Protocol uses tiered antimicrobials: baseline supplement stack (monolaurin, vitamin C, L-lysine, elderberry, olive leaf) for all chronic illness patients, escalating to prescription antivirals (valacyclovir/acyclovir) for serious cases, with safety gating around the fasting and refeeding windows.
+For patients with confirmed or suspected herpesvirus reactivation, candida overgrowth, or other infectious cofactors, targeted antimicrobials in the appropriate protocol phase contribute to the overall recovery. The Scorch Protocol uses tiered antimicrobials: baseline supplement stack (monolaurin, vitamin C, L-lysine, elderberry, olive leaf) for all chronic illness patients, escalating to prescription antivirals (valacyclovir/acyclovir) for serious cases. The prescription tier is held off through the whole fast, dry and water, brought in on refeed day 3 at the earliest, and then run daily through the months between fasts.
 
 ## The Sequence That Actually Works
 

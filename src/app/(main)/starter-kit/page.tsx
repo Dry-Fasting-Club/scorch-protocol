@@ -121,11 +121,11 @@ export default function StarterKitPage() {
         <h3>The fast</h3>
         <div className="question-item">
           <span className="question-label">Monolaurin and L-lysine<Tag>OTC</Tag></span>
-          Your always-on antiviral stack.
+          The natural antiviral cover: L-lysine from water day 1, monolaurin (with olive leaf) from the first meal, then daily from there.
         </div>
         <div className="question-item">
           <span className="question-label">Valacyclovir<Tag>Rx</Tag></span>
-          The standing antiviral backbone: off during the dry fast and the first two water days, starts once rehydrated at water day 3, and runs through the refeed. Buy it before the fast begins. The loading dose for a cold-sore prodrome goes on top of the standing course, once that course has started.
+          The standing antiviral backbone: never during the fast, dry or water, starts on refeed day 3 at the earliest after two days of eating and heavy rehydration, then runs daily through the months between fasts. Buy it before the fast begins. The loading dose for a cold-sore prodrome goes on top of the standing course, once that course has started.
         </div>
         <div className="question-item">
           <span className="question-label">Ivermectin<Tag>Rx</Tag></span>

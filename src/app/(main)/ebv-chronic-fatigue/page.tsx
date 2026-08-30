@@ -25,7 +25,7 @@ const ebvFaq = [
   {
     question: "Can dry fasting reactivate EBV?",
     answer:
-      "The dry fast itself is the safest period for viral suppression, not a trigger for reactivation. EBV reactivation risk is highest in the refeed window, the days immediately after breaking the fast, when mTOR switches back on, autophagy shuts off, circulating T-cells have not yet returned from the bone marrow, cortisol is still elevated, and T3 remains depressed. All five of those conditions favor herpesvirus reactivation simultaneously. The protocol addresses this with a bridge strategy and an antiviral stack that is in place before food returns.",
+      "The dry fast itself is the safest period for viral suppression, not a trigger for reactivation. EBV reactivation risk is highest in the refeed window, the days immediately after breaking the fast, when mTOR switches back on, autophagy shuts off, circulating T-cells have not yet returned from the bone marrow, cortisol is still elevated, and T3 remains depressed. All five of those conditions favor herpesvirus reactivation simultaneously. The protocol addresses this with a bridge strategy and a natural antiviral stack (L-lysine from water day 1, monolaurin and olive leaf with the first meal) that is in place before food returns, with valacyclovir joining on refeed day 3 at the earliest.",
   },
   {
     question: "What are signs of EBV reactivation?",
@@ -61,7 +61,7 @@ export default function EbvChronicFatiguePage() {
           "The dry fast is the safest period for viral suppression: autophagy, ketones, mTOR shutdown, and NK cell activity all work against EBV replication simultaneously.",
           "The danger window is not the fast. It is the first 24 to 72 hours of the refeed, when every one of those defences collapses at once while the immune system is still rebuilding.",
           "An unprotected refeed can leave you more broadly infected than before you started, because EBV particles cleared from their original reservoirs can seed new nerve tissue while surveillance is absent.",
-          "The bridge strategy (dry fast to water fast to protected refeed) keeps antivirals active before food returns, closing the vulnerability window before mTOR switches back on.",
+          "The bridge strategy (dry fast to water fast to protected refeed) puts the natural antiviral stack in place before food returns, with valacyclovir joining on refeed day 3 at the earliest, closing the vulnerability window before mTOR switches back on.",
         ]}
       />
 
@@ -303,12 +303,14 @@ export default function EbvChronicFatiguePage() {
           organs again.
         </div>
         <div className="question-item">
-          <span className="question-label">Allows antivirals to be absorbed and active before food returns</span>
+          <span className="question-label">Lets L-lysine return before food does</span>
           You cannot safely take oral T3 or antiviral agents during a dry fast.
           Without renal water flow, dosing and clearance kinetics are wrong.
-          The water fast bridge restores renal clearance while still preserving
-          the antiviral metabolic state. Now you can layer in pharmacological
-          defences before the mTOR switch flips back on.
+          The water bridge rehydrates the organs while preserving the antiviral
+          metabolic state, and L-lysine comes back on water day 1. Prescription
+          antivirals wait for the refeed: water fasting still purges water
+          through the kidneys, so the body stays dehydrated on the water days,
+          and valacyclovir starts on refeed day 3 at the earliest.
         </div>
         <div className="question-item">
           <span className="question-label">Cortisol begins to descend</span>
@@ -320,10 +322,14 @@ export default function EbvChronicFatiguePage() {
 
       <p>
         On top of the water fast bridge, the protocol builds an antiviral stack
-        that is in place before the first calorie returns. The primary antiviral
-        layer uses agents that block viral replication through different
+        in two stages. The natural layer is in place before the first calorie
+        returns: L-lysine from water day 1, monolaurin and olive leaf with the
+        first meal, agents that block viral replication through different
         mechanisms, including disruption of the lipid envelope that EBV and
-        other herpesviruses depend on to enter new cells. An immune-rebuilding
+        other herpesviruses depend on to enter new cells. Valacyclovir, the
+        standing prescription backbone, joins on refeed day 3 at the earliest,
+        after two days of eating with heavy rehydration, and then runs daily
+        through the months between fasts. An immune-rebuilding
         layer using thymic peptides runs in parallel to accelerate the return of
         T-cell function. T3 itself is deliberately held until you have scaled
         food for a full seven days of refeed, so through this window it is the
@@ -332,8 +338,8 @@ export default function EbvChronicFatiguePage() {
         viruses suppressed for the long term.
       </p>
       <p>
-        Specific antiviral agents, timing, and doses are kept at the high level
-        here because they are highly patient-specific (dependent on viral
+        Doses and the finer timing calls are kept at the high level here
+        because they are highly patient-specific (dependent on viral
         history, baseline immune status, comorbidities, and current symptom
         pattern). The full mechanistic breakdown, the pharmacological stack with
         agent-by-agent rationale, and the dosing logic live on the{" "}
