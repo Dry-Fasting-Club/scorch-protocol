@@ -35,7 +35,7 @@ const betweenFastsFaq = [
   {
     question: "Can you take aspirin or ibuprofen on this stack?",
     answer:
-      "No. Nattokinase and garlic are anti-platelet, so while they are running you avoid aspirin, ibuprofen and other NSAIDs, prescription anticoagulants, bromelain, and high-dose omega-3. This is also why the phase boundary matters, and that boundary applies to those two items only. Nattokinase and garlic do not overlap the T3 and refeed phases, where low-dose aspirin is a deliberate co-factor, so never run them and low-dose aspirin at once. Olive leaf is mildly anti-platelet too, but I run it alongside low-dose aspirin without issue: it starts with the first meal and stays on. Valacyclovir is the explicit carve-out: it is not anti-platelet, it is the standing antiviral backbone, and it keeps running through the refeed and the T3 phase instead of coming down at the boundary.",
+      "Mostly no. Garlic is the one item in this stack that never runs with aspirin: it comes down for the T3 and refeed phases, where low-dose aspirin is a deliberate co-factor. Nattokinase I now run alongside low-dose aspirin (I was overly cautious about that pairing before), and olive leaf is fine with it too. While the anti-platelet items are running you still avoid ibuprofen and other NSAIDs, prescription anticoagulants, bromelain, and high-dose omega-3. Valacyclovir is the explicit carve-out: it is not anti-platelet, it is the standing antiviral backbone, and it keeps running through the refeed and the T3 phase instead of coming down at the boundary.",
   },
   {
     question: "Why are there no doses on this page?",
@@ -73,7 +73,7 @@ export default function BetweenFastsPage() {
           "During a PEM crash, the standing stack keeps running and dosing changes on two items already in it: ivermectin, raised for its calming effect on the nervous system and inflammation, and, for patients already established on T3 therapy, a temporary acute increase set with a clinician. Artemisinin is not a crash tool.",
           "Almost everything here is daily. Artemisinin is the one exception in the standing stack: an optional extra antiviral, added only when stacking against a strongly suspected viral reactivation, and marginal to the protocol outside that situation. Psilocybin microdosing is the other non-daily item, an optional extra never part of the baseline.",
           "Food timing is not a detail. Lysine and nattokinase need an empty stomach to work at all, while monolaurin and thymus glandular need food to be tolerated.",
-          "Bleeding risk is the hard stop: nattokinase and garlic are anti-platelet, and those two never overlap the T3 and refeed phases, where low-dose aspirin is a deliberate co-factor. Olive leaf is fine alongside low-dose aspirin. Valacyclovir is the carve-out: it is not anti-platelet, and it keeps running through the refeed and the T3 phase.",
+          "Bleeding risk is still the hard stop: never stack the anti-platelet items with NSAIDs or prescription anticoagulants. Garlic never overlaps low-dose aspirin; nattokinase and olive leaf are fine alongside it. Valacyclovir is the carve-out: it is not anti-platelet, and it keeps running through the refeed and the T3 phase.",
           "No doses appear on this page. They are individualized against your own labs and live in the members portal.",
         ]}
       />
@@ -641,13 +641,14 @@ export default function BetweenFastsPage() {
         <p>
           Nattokinase and garlic are anti-platelet. Individually the effect is
           modest. Stacked daily it is real, and it compounds with anything else
-          that thins the blood. Olive leaf is mildly anti-platelet as well, but
-          it is the one item I run alongside low-dose aspirin without issue, so
-          it is not part of this hard stop.
+          that thins the blood. Olive leaf is mildly anti-platelet as well. I
+          used to keep all of them away from aspirin; I have relaxed that.
+          Nattokinase and olive leaf run alongside low-dose aspirin without
+          issue. Garlic is the one that still never does.
         </p>
         <h4>While the anti-platelet items are running, completely avoid</h4>
         <ul>
-          <li>Aspirin</li>
+          <li>Aspirin (garlic only: nattokinase and olive leaf may run with low-dose aspirin)</li>
           <li>Ibuprofen and other NSAIDs</li>
           <li>Prescription anticoagulants</li>
           <li>Bromelain</li>
@@ -658,13 +659,11 @@ export default function BetweenFastsPage() {
         </ul>
         <h4>The phase boundary</h4>
         <p>
-          The phase boundary applies to the anti-platelet items only:
-          nattokinase and garlic. Those two do not overlap the T3 and refeed
-          phases, where low-dose aspirin is a deliberate co-factor, and you
-          never run them and low-dose aspirin at once. If you are moving into a
-          refeed or starting <Link href="/t3-therapy">T3 therapy</Link>,
-          nattokinase and garlic are what comes down first. Olive leaf starts
-          with the first meal and stays on through both phases.
+          The phase boundary applies to garlic: it does not overlap the T3 and
+          refeed phases, where low-dose aspirin is a deliberate co-factor, and
+          it comes down first when a refeed or <Link href="/t3-therapy">T3
+          therapy</Link> starts. Nattokinase and olive leaf stay on through
+          both phases if you are running them.
         </p>
         <p>
           Valacyclovir is the explicit carve-out and it does not come down here.
