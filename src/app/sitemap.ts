@@ -34,7 +34,6 @@ const protocolPages: { path: string; priority: number }[] = [
   { path: "/mindfulness", priority: 0.7 },
   { path: "/refeed-for-bmr", priority: 0.7 },
   { path: "/membership", priority: 0.7 },
-  { path: "/coaching", priority: 0.7 },
   { path: "/list-of-pharmacies", priority: 0.6 },
 ];
 

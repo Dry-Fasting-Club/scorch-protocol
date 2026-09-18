@@ -38,9 +38,9 @@ export default function ContactPage() {
           when the evidence says to.
         </li>
         <li>
-          <strong>Coaching &amp; sourcing.</strong> See the{" "}
-          <Link href="/coaching">coaching page</Link> for one-on-one help with
-          verified sourcing and dosing.
+          <strong>Working together &amp; sourcing.</strong> One-on-one help with
+          verified sourcing and dosing happens inside the{" "}
+          <Link href="/membership">members portal</Link>.
         </li>
         <li>
           <strong>Your story.</strong> Recoveries, setbacks, and honest data all

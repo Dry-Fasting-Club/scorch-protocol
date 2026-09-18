@@ -186,8 +186,8 @@ export default function GeneralQuestionsPage() {
           <Link href="/list-of-pharmacies">list of pharmacies</Link> will get you
           standard liothyronine and the basics. The verified, current supplier
           contacts for slow-release T3, peptides, hGH, and cyproheptadine, plus
-          exactly what to order and how to dose it, are part of{" "}
-          <Link href="/coaching">1-on-1 coaching</Link>. They are kept private on
+          exactly what to order and how to dose it, are shared when we{" "}
+          <Link href="/membership">work together directly</Link>. They are kept private on
           purpose, because good sources stop working the moment they are posted
           publicly.
         </p>

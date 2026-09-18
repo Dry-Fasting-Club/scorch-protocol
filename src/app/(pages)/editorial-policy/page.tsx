@@ -64,9 +64,9 @@ export default function EditorialPolicyPage() {
 
       <h2>Conflicts of interest</h2>
       <p>
-        This is transparent: the site earns revenue from{" "}
-        <Link href="/coaching">coaching</Link> and the{" "}
-        <Link href="/membership">members portal</Link>. The educational protocol
+        This is transparent: the site earns revenue from the{" "}
+        <Link href="/membership">members portal</Link>, including private
+        one-on-one work at the top tier. The educational protocol
         itself is free to read in full. What the paid tiers add is private,
         hands-on help, verified supplier sourcing for hard-to-get compounds
         (slow-release T3, peptides, hGH, cyproheptadine) and dosing worked out with

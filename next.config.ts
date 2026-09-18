@@ -22,6 +22,13 @@ const nextConfig: NextConfig = {
   },
   async redirects() {
     return [
+      // /coaching retired (John, 2026-09-18): the public sales page undercut the
+      // site's vibe; coaching is now discovered inside the members portal.
+      {
+        source: "/coaching",
+        destination: "/membership",
+        permanent: true,
+      },
       // Redirect Vercel's free project alias to the canonical site so it isn't a
       // duplicate indexable origin. NOTE: www vs apex canonicalization is handled
       // at the Vercel domain level (dashboard), NOT here. Adding a www->apex rule
