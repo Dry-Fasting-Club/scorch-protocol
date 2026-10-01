@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
+import AttributionCarry from "@/components/AttributionCarry";
 
 const SITE_URL = "https://scorchprotocol.com";
 const DESCRIPTION =
@@ -93,6 +94,7 @@ export default function RootLayout({
         />
       </head>
       <body>
+        <AttributionCarry />
         {children}
         <Analytics />
       </body>
