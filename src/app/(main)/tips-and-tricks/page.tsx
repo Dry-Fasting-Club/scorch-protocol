@@ -23,7 +23,7 @@ export default function TipsAndTricksPage() {
       <KeyTakeaways points={[
         "The bookends matter most: preparation and the refeed determine whether the fast's gains stick. The fast itself is the easy part.",
         "During the fast, prioritize rest and a cool environment. Light walking is fine; intense exercise is not.",
-        "Always break the fast with coconut water sipped slowly. Rushing the refeed can cause refeeding syndrome or digestive distress.",
+        "Always break the fast with plain water, about a cup an hour for the first four hours, then kompot. Coconut water waits for day 2. Rushing the refeed can cause refeeding syndrome or digestive distress.",
         "Start small: build tolerance with 36-hour, then 72-hour fasts before attempting a full 5-day dry fast.",
         "High-dose aspirin requires careful titration and specific gut protection. It is not appropriate for everyone, especially those on anticoagulants or with bleeding disorders.",
       ]} />
@@ -165,8 +165,16 @@ export default function TipsAndTricksPage() {
             itself. Rushing can cause digestive distress or refeeding syndrome.
           </li>
           <li>
-            <strong>Coconut Water First:</strong> Always start with coconut
-            water, not plain water. Sip slowly over 60 minutes.
+            <strong>Water First, Then Kompot:</strong> Start with plain water,
+            room temperature, small sips, about a cup an hour for the first
+            four hours and 1 litre at most. Once you are urinating normally,
+            kompot (a weak unsweetened fruit infusion) joins at the same pace.
+            Coconut water is not a day-1 drink: it loads potassium into thick
+            blood while the kidneys are still holding water, so it waits for
+            day 2. The caveat: if a diuretic kick-start is clearly needed, a
+            small unsweetened coconut water may come in, not before about 12
+            hours after the first water, at most 250 ml in an hour and 500 ml
+            for the day.
           </li>
           <li>
             <strong>Listen to Your Body:</strong> If you feel nauseous or

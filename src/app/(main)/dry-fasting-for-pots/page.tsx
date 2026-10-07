@@ -275,8 +275,9 @@ export default function DryFastingForPotsPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Rehydrate slowly</span>
-          On breaking a dry fast, do not rush fluid intake. The kidney guidance is to sip around
-          100 ml per hour for the first several hours. For POTS, this also applies to upright
+          On breaking a dry fast, do not rush fluid intake. The kidney guidance is plain water
+          first, sipped at about a cup (200 to 250 ml) an hour, 1 litre at most over the first
+          four hours, before anything else goes in. For POTS, this also applies to upright
           posture: sit at the edge before standing, and give the body time to adjust before
           walking.
         </div>

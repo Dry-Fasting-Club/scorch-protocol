@@ -20,7 +20,7 @@ const mcasFaq = [
   {
     question: "Can you fast with MCAS?",
     answer:
-      "Many people with MCAS do fast, but it requires preparation. During the dry fast itself, autophagy and ketosis create an environment that is generally hostile to the inflammatory cascade mast cells drive. The higher-risk moment is the refeed, when food and mTOR reactivation can trigger a histamine surge. Having H1 and H2 blockers in place before you break the fast, and following a gentle coconut-water-first refeed schedule, reduces that risk significantly.",
+      "Many people with MCAS do fast, but it requires preparation. During the dry fast itself, autophagy and ketosis create an environment that is generally hostile to the inflammatory cascade mast cells drive. The higher-risk moment is the refeed, when food and mTOR reactivation can trigger a histamine surge. Having H1 and H2 blockers in place before you break the fast, and following a gentle water-then-kompot refeed schedule, reduces that risk significantly.",
   },
   {
     question: "Does fasting help MCAS?",
@@ -356,7 +356,7 @@ export default function MCASAndDryFastingPage() {
           The refeed is the higher-risk moment for mast cell patients specifically.
           When mTOR reactivates and food returns, a temporary immune surge can
           trigger mast cell degranulation. Keep your H1 and H2 blockers active
-          through the refeed. Follow the coconut-water-first, slow-introduction
+          through the refeed. Follow the water-then-kompot, slow-introduction
           refeed schedule to avoid the high-antigen food load that triggers
           reactions. Avoid known high-histamine foods (fermented products, aged
           cheese, alcohol, spinach) during the first two weeks of the refeed. See

@@ -202,8 +202,8 @@ export default function ViralReactivationPage() {
         <h3>The Five Vulnerability Mechanisms in the Refeed Window</h3>
         <div className="question-item">
           <span className="question-label">1. mTOR roars back on within hours</span>
-          The first meal (even coconut water) sends an insulin and amino acid
-          signal that switches mTOR back on. Cap-dependent translation
+          The first calories (even kompot or coconut water) send an insulin and
+          amino acid signal that switches mTOR back on. Cap-dependent translation
           resumes. Cellular protein synthesis resumes. And so does viral
           protein synthesis, on the same machinery, at the same time. Any
           virus that was sitting dormant during the fast now has the green

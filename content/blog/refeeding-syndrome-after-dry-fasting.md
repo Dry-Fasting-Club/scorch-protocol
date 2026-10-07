@@ -21,7 +21,7 @@ excerpt: "Refeeding syndrome is the serious electrolyte and metabolic complicati
 
 ## The Short Answer
 
-Refeeding syndrome is a potentially fatal complication that can occur when food is reintroduced after extended fasting, particularly in severely depleted patients. The mechanism involves rapid intracellular shifts of phosphate, potassium, and magnesium as insulin rises in response to incoming carbohydrate, leaving dangerously low serum levels of these electrolytes. Severe cases can produce cardiac arrhythmias, respiratory failure, and death. For most extended dry fasters in the Scorch Protocol cohort, the refeed window is more dangerous than the fast itself. The protocol's gradual refeeding schedule (small fluid amounts first, then electrolytes, then easily digestible food in measured increments) is specifically designed to prevent this complication.
+Refeeding syndrome is a potentially fatal complication that can occur when food is reintroduced after extended fasting, particularly in severely depleted patients. The mechanism involves rapid intracellular shifts of phosphate, potassium, and magnesium as insulin rises in response to incoming carbohydrate, leaving dangerously low serum levels of these electrolytes. Severe cases can produce cardiac arrhythmias, respiratory failure, and death. For most extended dry fasters in the Scorch Protocol cohort, the refeed window is more dangerous than the fast itself. The protocol's gradual refeeding schedule (water, then kompot, then coconut water and broth, then cooked fruit and vegetables, then rice, in measured increments) is specifically designed to prevent this complication.
 
 ## What Refeeding Syndrome Actually Is
 
@@ -67,25 +67,25 @@ For severely depleted patients (especially those undertaking 9-day dry fasts at 
 
 ## What the Protocol Refeed Looks Like
 
-The Scorch Protocol's refeed sequence is specifically calibrated to prevent refeeding syndrome:
+The Scorch Protocol's refeed sequence is specifically calibrated to prevent refeeding syndrome. For a dry fast of 5 days or more it now runs slower than I used to teach it: over the years the break got sped up by mistake, and the first two days are now liquids only.
 
-**Hour 0-1: Small fluid amounts.** 200-300 mL of room-temperature water consumed slowly over the first hour. Cold water is avoided because it can produce gastric distress on an empty stomach.
+**First 4 hours: plain water only.** Room temperature, small sips, about a cup (200 to 250 ml) an hour, 1 litre at most over the four hours. No gulping. Cold water is avoided because it can produce gastric distress on an empty stomach. Nothing goes in with the water: no electrolyte powders, no coconut water, no food. After days without water the kidneys are in full water-retention mode and the blood is thicker than normal; plain water lets the kidneys wake up before anything with a mineral load arrives. This pacing is the Filonov tradition.
 
-**Hour 1-3: Electrolyte introduction.** Sodium, potassium, magnesium, and phosphate-containing electrolyte solution. The phosphate specifically is what most over-the-counter electrolyte preparations lack and what is most relevant for refeeding syndrome prevention. Coconut water, watermelon water, or carefully chosen electrolyte powders with added phosphate are reasonable options.
+**After hour 4: kompot joins.** Once urination is normal, kompot comes in at the same pace, never more than a cup an hour. Kompot is a large pot of water with a small amount of fruit, fresh or dried (apples, plums or prunes, apricots), simmered, strained, no sugar, cooled to room temperature; it should taste like faintly flavoured water, not juice, and is lighter in sugar than unsweetened coconut water. Day 1 total is about 2.5 litres across water and kompot. No food on day 1.
 
-**Hour 3-6: Easily digestible foods in small amounts.** Broth, watermelon, applesauce, or mashed fruit. The portions are small (100-200 mL at a time, every 30-60 minutes). The goal is to introduce some carbohydrate to begin the metabolic transition without overwhelming the cellular machinery.
+**Coconut water is not part of day 1.** It carries about 600 mg of potassium per cup and acts as a diuretic by suppressing the very hormones that are holding water in, which is the wrong combination for thick blood and lagging kidneys. There is a published case (a 2014 case report in Circulation: Arrhythmia and Electrophysiology) of a healthy 42-year-old whose heart rhythm failed after several servings of coconut water. The caveat: if a diuretic kick-start is clearly needed, a small unsweetened coconut water may be added, not before about 12 hours after the first water, starting very small, at most 250 ml in an hour and 500 ml for the day.
 
-**Hour 6-24: Continued small frequent meals.** Easily digestible foods (cooked fruit, gentle broth-based meals, sweet potato, white rice in small amounts). No fats, no protein in significant amounts during this window. The total caloric intake on Day 1 of refeed is typically 500-800 kcal, distributed across 6-8 small meals.
+**Day 2: kompot, coconut water, broth.** Unsweetened coconut water in small amounts (at most 1 litre, still a cup an hour at most). Vegetable broth with no added salt; unsalted bone broth is also fine. Still liquids only.
 
-**Days 2-3: Gradual expansion.** Continued small frequent meals; gradual reintroduction of protein, fats, and more complex carbohydrates. Total caloric intake building toward 1,000-1,500 kcal/day by end of Day 3.
+**Day 3: cooked fruit and cooked vegetables.** The first solid food: soft, well cooked, small portions. The calorie climb begins here, and this is where the electrolyte question becomes live: insulin starts to rise as carbohydrate comes in, and phosphate, potassium and magnesium start moving into cells. Potassium salt (KCl) as a light seasoning can start now, not before. No fats, no protein in significant amounts.
 
-**Days 4-7: Full refeed window.** Caloric intake building toward maintenance or slightly below maintenance. By end of Day 7, the patient is eating roughly normal meals at roughly normal frequency.
+**Days 4-7: white rice joins, then the ladder.** White rice comes in on day 4. From there the ladder is unchanged: fresh fruit, a soft egg and low-fat fish on their days, chicken and steak on theirs. Caloric intake builds toward maintenance or slightly below maintenance; by the end of Day 7 the patient is eating roughly normal meals at roughly normal frequency. Food is not salted at any point in the week: tiny amounts are fine, food carries its own sodium, and potassium matters more than sodium here.
 
 **Beyond Day 7: Begin the Rebuild Phase caloric ascent.** 70-100 calories per week additional, as covered in [the Rebuild Phase complete guide](/blog/rebuild-phase-complete-guide).
 
 ## Electrolyte Supplementation During the Refeed
 
-For higher-risk patients, prophylactic electrolyte supplementation during the first 72 hours of refeed is appropriate:
+For higher-risk patients, prophylactic electrolyte supplementation is appropriate as cooked food resumes on day 3 and through the first days of eating. Days 1 and 2 stay as described above, water, kompot, then coconut water and unsalted broth, with no electrolyte powders; the kompot, coconut water and broth carry the potassium. The phosphate reasoning matters from day 3, when carbohydrate starts the insulin rise that pulls phosphate into cells:
 
 - **Phosphate:** the most commonly overlooked. Potassium phosphate or sodium phosphate solutions, or specifically chosen electrolyte powders that include phosphate. Standard dose ranges from 250-500 mg of phosphate daily during the refeed window for moderate-risk patients.
 - **Potassium:** typically supplemented through diet (potatoes, bananas, leafy greens once tolerated) and electrolyte solutions. Severe cases may require prescription potassium supplementation under medical supervision.
@@ -115,9 +115,9 @@ For MCAS patients (a common subgroup in the Long Covid and chronic illness cohor
 
 The aggressive reintroduction of foods that would normally be appropriate after a long fast can trigger MCAS flares: histamine release, gut motility changes, skin reactivity, respiratory symptoms. The refeed schedule for MCAS patients runs slower than the standard schedule:
 
-- Hour 0-3: same as standard
-- Hour 3-24: foods limited to those the patient has previously tolerated; no novel foods during this window
-- Days 2-7: very gradual expansion of food variety; reintroduce one new food per day with adequate observation
+- Days 1-2: same as standard (liquids only: water, then kompot, then coconut water and unsalted broth)
+- Day 3: the first cooked food is limited to fruit and vegetables the patient has previously tolerated; no novel foods
+- Days 4-7: very gradual expansion of food variety; reintroduce one new food per day with adequate observation
 - Beyond Day 7: continue cautious expansion under the Rebuild Phase's 70-100 cal/week ascent
 
 The cromolyn sodium and antihistamine protocols MCAS patients typically use should continue through the refeed window. The taper of MCAS medications happens during the rebuild phase, not the refeed window.
@@ -144,7 +144,7 @@ Baseline labs (CBC, comprehensive metabolic panel including phosphate and magnes
 
 ### What about salt during the refeed?
 
-Sodium is important during the refeed window because the body has been concentrating during the dry fast and the refeed produces some fluid shifts. Reasonable sodium intake (1-2 grams of sodium chloride per day during the first week of refeed) is appropriate. POTS patients on prior salt loading protocols should continue their established sodium intake.
+Sodium is handled differently from potassium here. Food is not salted during the refeed week: tiny amounts are fine, and the cooked fruit, vegetables, rice and broth carry their own sodium, which is enough on this protocol. Someone on a low-carb diet would need added salt, which is one more reason low-carb is not recommended here. POTS patients on an established salt-loading protocol are the exception and continue their prescribed sodium intake with their clinician.
 
 ### Should I do my first extended dry fast at a retreat?
 

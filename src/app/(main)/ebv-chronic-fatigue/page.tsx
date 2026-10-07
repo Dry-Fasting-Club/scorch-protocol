@@ -225,8 +225,8 @@ export default function EbvChronicFatiguePage() {
         <h3>The Five Vulnerabilities That Open When the Refeed Begins</h3>
         <div className="question-item">
           <span className="question-label">1. mTOR switches back on within hours of the first meal</span>
-          Even coconut water sends an insulin and amino acid signal that
-          reactivates mTOR. Cap-dependent translation resumes. Viral protein
+          The first calories (even kompot or coconut water) send an insulin
+          and amino acid signal that reactivates mTOR. Cap-dependent translation resumes. Viral protein
           synthesis resumes on the same cellular machinery, at the same time as
           your own. Any latent EBV now has the green light to replicate.
         </div>

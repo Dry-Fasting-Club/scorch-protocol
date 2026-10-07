@@ -45,7 +45,7 @@ export default function DryFastingPage() {
         "The full protocol is 5 days dry followed by 5 days water (not food). Never reverse that order.",
         "Day 3 is the hard wall (acidotic crisis). Days 4 to 5 are where deep repair and stem cell activity happen.",
         "Stop immediately if your resting heart rate goes above 120 bpm, you stop urinating for more than 12 hours, you feel confused or get blurry vision, or you develop kidney pain or leg swelling.",
-        "Refeeding starts with coconut water only, sipped slowly. Eating too much too fast is dangerous.",
+        "Refeeding starts with plain water, about a cup an hour for the first four hours, then kompot. Coconut water waits for day 2. Eating too much too fast is dangerous.",
         "No T3 during the fast. You finish the dry and water fast clean, keep antiviral coverage running through the refeed, and T3 therapy only begins after the first 7 days of refeeding.",
       ]} />
 
@@ -334,28 +334,43 @@ export default function DryFastingPage() {
       </p>
       <ul>
         <li>
-          <strong>The First Hour:</strong>{" "}
-          <strong>Drink Coconut Water only.</strong> Do not start with plain
-          water. Take tiny sips (half a cup over a whole hour). This tells your
-          new cells to start growing correctly.
+          <strong>The First 4 Hours:</strong>{" "}
+          <strong>Plain water only.</strong> Room temperature, small sips,
+          about a cup (200 to 250 ml) an hour, 1 litre at most over the four
+          hours. No gulping. Not coconut water: after days without water your
+          kidneys are holding on to every drop and your blood is thicker than
+          normal, and a potassium load into that state is the wrong first
+          move. Plain water lets the kidneys wake up.
         </li>
         <li>
-          <strong>Hours 2–4:</strong> Keep drinking coconut water very slowly
-          (about one cup every hour).
+          <strong>After Hour 4:</strong> Once you are urinating normally, kompot
+          joins (a large pot of water with a little fruit, fresh or dried,
+          simmered, strained, no sugar, cooled; it should taste like faintly
+          flavoured water, not juice). Same pace, never more than a cup an
+          hour. Day 1 total is about 2.5 litres across water and kompot, and
+          nothing else: no food, no electrolyte powders.{" "}
+          <em>Caveat:</em> coconut water is not part of day 1. If a diuretic
+          kick-start is clearly needed, a small unsweetened coconut water may
+          be added, not before about 12 hours after the first water, at most
+          250 ml in an hour and 500 ml for the day.
         </li>
         <li>
-          <strong>Day 1 After the Fast:</strong> Stick to coconut water. In the
-          late afternoon, you can have a small bowl of soft, mushy rice if you
-          feel stable. Continue your antiviral protocol (L-lysine + monolaurin),
-          and this is where case-by-case mitochondrial support (methylene blue, and in some cases ethyl pyruvate)
-          is layered in. No T3 yet: it does not begin until after day 7 of
-          refeeding.
+          <strong>Day 1 After the Fast:</strong> Water, then kompot, nothing
+          else. Continue your antiviral protocol (L-lysine in your water from
+          day 1; monolaurin and olive leaf join with the first cooked food on
+          day 3), and this is where case-by-case mitochondrial support
+          (methylene blue, and in some cases ethyl pyruvate) is layered in. No
+          T3 yet: it does not begin until after day 7 of refeeding.
         </li>
         <li>
-          <strong>Day 2 to 7:</strong> Follow the rice and fruit schedule. (See
-          the <a href="/refeeding">Refeeding Page</a> for the full plan). Through
-          this first week, keep the antiviral coverage and the case-by-case
-          methylene blue (and, for some, ethyl pyruvate) support going. T3 has still not started.
+          <strong>Day 2 to 7:</strong> Day 2 is kompot, unsweetened coconut
+          water in small amounts and broth with no added salt, still liquids
+          only. Day 3 brings the first solid food, cooked fruit and cooked
+          vegetables, and white rice joins on day 4; from there follow the food
+          ladder on the <a href="/refeeding">Refeeding Page</a>. Through this
+          first week, keep the antiviral coverage and the case-by-case
+          methylene blue (and, for some, ethyl pyruvate) support going. T3 has
+          still not started.
         </li>
         <li>
           <strong>After Day 7:</strong> Begin T3 therapy. See the{" "}

@@ -141,7 +141,7 @@ export default function StarterKitPage() {
         <h3>Refeed, the first days back</h3>
         <div className="question-item">
           <span className="question-label">Break the fast gently<Tag>Food</Tag></span>
-          Coconut water, then broth, then a slow food ladder. No T3 yet.
+          Water, then kompot, then coconut water and broth, then cooked fruit and vegetables, then rice. No T3 yet.
         </div>
         <div className="question-item">
           <span className="question-label">Methylene blue<Tag>OTC</Tag></span>

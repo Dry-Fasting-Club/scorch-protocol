@@ -313,8 +313,10 @@ export default function PreparationPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Prepare Your Environment:</span>
-          Stock up on coconut water and soft foods for the refeed. Prepare a
-          cool, comfortable space to rest. Remove temptations.
+          Stock up for the refeed: dried fruit for kompot (prunes, dried
+          apples, apricots), coconut water for day 2, and soft foods for the
+          days after. Prepare a cool, comfortable space to rest. Remove
+          temptations.
         </div>
         <div className="question-item">
           <span className="question-label">Pray or Meditate Deep Into the Fast:</span>

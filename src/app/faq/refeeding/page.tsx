@@ -18,11 +18,11 @@ const faqItems = [
   },
   {
     question: "Can I speed up the refeed? I feel fine after 1 day.",
-    answer: "Yes, but with conditions. The slow refeed is a safety buffer. If you have completed the T3 Therapy Phase and your basal body temperature is consistently above 37 degrees C, your digestive enzymes and insulin sensitivity are likely more robust. In that case you can compress the Liquid Phase (Day 1) into 12 hours instead of 24. However, Zero Fat and Zero Protein for the first few days remains non-negotiable to prevent insulin resistance rebound.",
+    answer: "Yes, but with conditions. The slow refeed is a safety buffer. If you have completed the T3 Therapy Phase and your basal body temperature is consistently above 37 degrees C, your digestive enzymes and insulin sensitivity are likely more robust. In that case you can compress the liquid phase (days 1 and 2 after a long dry fast) to a single day instead of two. However, Zero Fat and Zero Protein for the first few days remains non-negotiable to prevent insulin resistance rebound.",
   },
   {
     question: "Many protocols recommend vegetable broth or bone broth. You recommend fruit and rice. Why?",
-    answer: "This reflects the difference between a Clinical Model and a Metabolic/Bio-Energetic Model. The Clinical Model focuses on gentle rehydration and electrolytes using broth or vegetable juice, which is safer for the gut but slower for energy. The Metabolic Model uses simple sugars (fruit and rice) to signal abundance to the hypothalamus immediately, creating a stronger hormonal rebound, but it requires strict avoidance of fat to work safely. The Scorch Protocol uses coconut water to achieve the same hydration safety as broth while adding the glucose needed for T3 conversion.",
+    answer: "This reflects the difference between a Clinical Model and a Metabolic/Bio-Energetic Model. The Clinical Model focuses on gentle rehydration and electrolytes using broth or vegetable juice, which is safer for the gut but slower for energy. The Metabolic Model uses simple sugars (fruit and rice) to signal abundance to the hypothalamus immediately, creating a stronger hormonal rebound, but it requires strict avoidance of fat to work safely. The Scorch Protocol now starts the refeed on plain water, then kompot (a weak unsweetened fruit infusion), for the same hydration safety as broth without a mineral load on kidneys that are still holding water. Unsalted broth and small amounts of coconut water join on day 2, and the glucose needed for T3 conversion comes from cooked fruit on day 3 and rice from day 4.",
   },
   {
     question: "I am craving salt like crazy. Can I have just a pinch?",
@@ -46,7 +46,7 @@ const faqItems = [
   },
   {
     question: "Should I take probiotics or vitamins immediately?",
-    answer: "No. Your gut mucosa is open and sensitive during early refeeding; strong supplements can irritate it. The exception is antivirals: if you carry any of the nine herpesviruses (HSV-1, HSV-2, VZV, EBV, CMV, HHV-6A, HHV-6B, HHV-7, or HHV-8), start L-lysine and monolaurin with your first meal and keep them going across the refeed. You do not wait because the reactivation window is open right now, in the energetic trough between the fasted and fully refed states, and L-lysine and monolaurin are gentle enough for an open gut. Note that T3 is not running at this point. In the current protocol you finish the entire fast with no T3, keep the antiviral coverage going across the refeed, and T3 therapy does not begin until after seven full days of refeeding, so it plays no part in this early-refeed decision. Monolaurin and L-lysine together disrupt viral envelopes and block arginine-dependent replication.",
+    answer: "No. Your gut mucosa is open and sensitive during early refeeding; strong supplements can irritate it. The exception is antivirals: if you carry any of the nine herpesviruses (HSV-1, HSV-2, VZV, EBV, CMV, HHV-6A, HHV-6B, HHV-7, or HHV-8), start L-lysine in your water from day 1 and monolaurin with your first cooked food on day 3, and keep them going across the refeed. You do not wait because the reactivation window is open right now, in the energetic trough between the fasted and fully refed states, and L-lysine and monolaurin are gentle enough for an open gut. Note that T3 is not running at this point. In the current protocol you finish the entire fast with no T3, keep the antiviral coverage going across the refeed, and T3 therapy does not begin until after seven full days of refeeding, so it plays no part in this early-refeed decision. Monolaurin and L-lysine together disrupt viral envelopes and block arginine-dependent replication.",
   },
   {
     question: "When does T3 therapy actually start? I thought it ran during the fast.",
@@ -109,7 +109,7 @@ export default function RefeedingFaqPage() {
             </p>
             <p>
               In this specific case, you can compress the &ldquo;Liquid
-              Phase&rdquo; (Day 1) into 12 hours instead of 24. However, the
+              Phase&rdquo; (days 1 and 2 after a long dry fast) to a single day instead of two. However, the
               rule of <strong>Zero Fat/Zero Protein</strong> for the first few
               days remains non-negotiable to prevent insulin resistance rebound.
             </p>
@@ -144,9 +144,13 @@ export default function RefeedingFaqPage() {
             <br />
             Khoroshilov&rsquo;s data supports starting with 100-200mL of
             water/broth to avoid &ldquo;washout.&rdquo; The Scorch Protocol
-            adapts this by using Coconut Water (nature&rsquo;s isotonic broth)
-            to achieve the same hydration safety while adding the glucose
-            needed for T3 conversion.
+            follows the same shape: the first fluid is plain water, about a
+            cup an hour for the first four hours, then kompot (a weak
+            unsweetened fruit infusion) once urination is normal. Coconut
+            water comes in on day 2, unsweetened and in small amounts, when
+            the kidneys are awake enough to handle its potassium. The glucose
+            that drives T3 conversion comes from the cooked fruit on day 3 and
+            the rice from day 4.
           </div>
         </div>
 
@@ -243,7 +247,8 @@ export default function RefeedingFaqPage() {
               <strong>Exception: antivirals.</strong> If you carry
               any of the nine herpesviruses (HSV-1, HSV-2, VZV, EBV, CMV,
               HHV-6A, HHV-6B, HHV-7, or HHV-8), start{" "}
-              <strong>L-lysine and monolaurin</strong> with your first meal and
+              <strong>L-lysine</strong> in your water from day 1 and{" "}
+              <strong>monolaurin</strong> with your first cooked food on day 3, and
               keep them going across the refeed. You do not wait because the
               reactivation window is open right now, in the energetic trough
               between the fasted and fully refed states, and L-lysine and

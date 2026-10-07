@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import GuidanceBox from "@/components/GuidanceBox";
 import JsonLd from "@/components/JsonLd";
 import { medicalWebPageLd } from "@/lib/structured-data";
@@ -19,7 +20,7 @@ const herxDecisionTree = `graph TD
   Start["Concerning symptom appears<br/>during the fast or T3 cycle"] --> Vital{"Check vital signs in order"}
 
   Vital --> HR{"1. Resting HR > 120 bpm<br/>SUSTAINED?"}
-  HR -->|Yes| Stop["STOP — break the fast<br/>with coconut water"]
+  HR -->|Yes| Stop["STOP: break the fast<br/>with water, then kompot"]
   HR -->|No| Urine{"2. No urination<br/>for 24 hours?"}
 
   Urine -->|Yes| Stop
@@ -131,9 +132,9 @@ export default function SymptomManagementPage() {
           </span>
           If <strong>YES</strong>{" "}
           <span className="action-arrow">&rarr;</span> See{" "}
-          <a href="/blog/cortisol-off-switch-after-extended-fasting">
+          <Link href="/blog/cortisol-off-switch-after-extended-fasting">
             <strong>&ldquo;The Cortisol Off-Switch That Gets Stuck&rdquo;</strong>
-          </a>{" "}
+          </Link>{" "}
           to learn why an enzyme called 11β-HSD2 sometimes fails to reset after
           extended fasting and how the refeed resets it, first with carbs and
           low-dose aspirin, then with T3 once the T3 phase begins.

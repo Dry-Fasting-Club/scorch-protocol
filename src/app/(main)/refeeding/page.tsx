@@ -25,8 +25,8 @@ export default function RefeedingPage() {
       <JsonLd data={medicalWebPageLd({ name: "Phase 3: The Refeed", description: "Phase 3: The Scorch Protocol refeeding plan: what to eat, when, and how to avoid refeeding syndrome after a dry fast.", path: "/refeeding", breadcrumbName: "The Refeed" })} />
       <JsonLd data={faqPageLd([
         {
-          question: "Why coconut water first?",
-          answer: "Coconut water has a nearly perfect ratio of electrolytes, especially potassium, that matches what your dehydrated cells need to safely rehydrate. The specific combination of sugars and electrolytes also sends a growth signal to newly released stem cells, directing them toward healing. After a dry fast, your kidneys are under stress, and coconut water's gentle mineral content helps them restart safely without the shock of plain water."
+          question: "Why plain water first, and when does coconut water come in?",
+          answer: "After days without water the kidneys are in full water-retention mode and the blood is thicker than normal. Coconut water carries about 600 mg of potassium per cup and acts as a diuretic by suppressing the very hormones that are holding water in, so taking it as the first drink, into concentrated blood and lagging kidneys, is the recipe for a potassium spike. The refeed after a dry fast of 5 days or more therefore starts on plain water: room temperature, small sips, about a cup an hour for the first four hours, 1 litre at most, so the kidneys can wake up. After hour four, once urination is normal, kompot (a weak unsweetened fruit infusion) joins at the same pace, adding gentle minerals and a little sugar without the load. Coconut water comes in on day 2, unsweetened and in small amounts, alongside unsalted broth. The only day-1 exception is a small unsweetened coconut water if a diuretic kick-start is clearly needed, not before about 12 hours after the first water, at most 250 ml in an hour and 500 ml for the day."
         },
         {
           question: "Why white rice?",
@@ -41,7 +41,7 @@ export default function RefeedingPage() {
       <StarterKitCallout />
       <KeyTakeaways points={[
         "The refeed is as important as the fast: how you eat in the days after determines how much healing you keep.",
-        "Never break a dry fast with solid food. Start with coconut water only, sipping slowly over the first hour.",
+        "Never break a dry fast with solid food. Start with plain water, about a cup an hour for the first four hours, then kompot once you are urinating normally. Coconut water waits for day 2.",
         "Refeeding syndrome is a real danger. Do not eat solid proteins on day 1, avoid caffeine for at least 7 days, and do not combine high-fat and high-carb foods in the first few days.",
         "After the first week, ramp calories gradually, targeting 3,000 or more per day to complete the metabolic reset.",
         "Antivirals keep running across the whole first week, mitochondrial support (methylene blue, and in some cases ethyl pyruvate) is added case by case with no fixed dose, and T3 therapy does not begin until after 7 full days of refeeding.",
@@ -69,7 +69,8 @@ export default function RefeedingPage() {
         <div className="question-item">
           <span className="question-label">Never Eat Solid Food First:</span>
           Starting with solid food after a dry fast can cause dangerous electrolyte
-          shifts. Always start with coconut water. This is not optional.
+          shifts. Always start with plain water, then kompot. Nothing else goes
+          in on day 1. This is not optional.
         </div>
         <div className="question-item">
           <span className="question-label">No Heavy Proteins on Day 1:</span>
@@ -112,25 +113,45 @@ export default function RefeedingPage() {
           <tr>
             <td><strong>Day 1</strong><br />(Breaking the Fast)</td>
             <td>
-              <strong>Coconut water only.</strong> Take your first sip after 1
-              hour of waking. Take tiny sips (½ cup over the first hour). By
-              the evening, you can have a small bowl of very soft, overcooked
-              white rice if you feel stable. Nothing else.
+              <strong>Water, then kompot. No food.</strong> For the first 4
+              hours, plain water only: room temperature, small sips, about a
+              cup (200 to 250 ml) an hour, 1 litre at most over the four hours.
+              No gulping. After hour 4, once you are urinating normally, kompot
+              joins at the same pace, never more than a cup an hour. Day 1
+              total is about 2.5 litres across water and kompot. Nothing else.
+              <br />
+              <em>Caveat:</em> coconut water is not part of day 1. If a
+              diuretic kick-start is clearly needed, a small unsweetened
+              coconut water may be added, not before about 12 hours after the
+              first water, starting very small, at most 250 ml in an hour and
+              500 ml for the day.
             </td>
           </tr>
           <tr>
             <td><strong>Day 2</strong></td>
             <td>
-              Coconut water, soft white rice, and small amounts of fresh fruit
-              (watermelon, banana, peach). Keep portions small.
+              Kompot, unsweetened coconut water in small amounts (at most 1
+              litre, still a cup an hour at most), and broth with no added
+              salt (vegetable broth, or unsalted bone broth). Still liquids
+              only.
             </td>
           </tr>
           <tr>
-            <td><strong>Day 3–4</strong></td>
+            <td><strong>Day 3</strong></td>
             <td>
-              Expand to include cooked vegetables, more fruit varieties, and
-              diluted fruit juices. Still no proteins or fats from animal
-              sources. Continue with rice as the main carbohydrate.
+              Cooked fruit and cooked vegetables. This is the first solid
+              food: soft, well cooked, small portions. The calorie climb
+              begins here. Still no proteins or fats from animal sources.
+            </td>
+          </tr>
+          <tr>
+            <td><strong>Day 4</strong></td>
+            <td>
+              White rice joins, with small amounts of fresh fruit (watermelon,
+              banana, peach) alongside the cooked fruit and vegetables. Rice is
+              the main carbohydrate from here. Still no proteins or fats from
+              animal sources, and do not salt the food: tiny amounts are fine,
+              food carries its own sodium.
             </td>
           </tr>
           <tr>
@@ -168,7 +189,7 @@ export default function RefeedingPage() {
         <h3>Keep the Antiviral Coverage Running the Whole Week</h3>
         <p>
           The viral reactivation window does not close when you take your first
-          sip of coconut water. It stays open across the entire fast-to-refeed
+          sip of water. It stays open across the entire fast-to-refeed
           transition and through the first seven days, because that is exactly
           the stretch where your immune system is still rebuilding and latent
           herpesviruses look for a gap. Do not treat antivirals as a day-1
@@ -455,9 +476,9 @@ export default function RefeedingPage() {
         <div className="question-item">
           <span className="question-label">Full Mechanism:</span>
           See{" "}
-          <a href="/blog/cortisol-off-switch-after-extended-fasting">
+          <Link href="/blog/cortisol-off-switch-after-extended-fasting">
             The Cortisol Off-Switch That Gets Stuck After Extended Fasting
-          </a>{" "}
+          </Link>{" "}
           for the enzyme story, the three reasons it stays stuck (sex
           differences, fat tissue upregulation, systemic inflammation), and
           the safer adjuncts (potassium, inositol, progesterone) that layer
@@ -465,28 +486,79 @@ export default function RefeedingPage() {
         </div>
       </div>
 
-      <h2>Why Coconut Water First?</h2>
+      <h2>Why Plain Water First, and Why Kompot</h2>
       <div className="guiding-questions box-info">
-        <h3>The Science of Coconut Water</h3>
+        <h3>The Reasoning Behind the New Day 1</h3>
+        <p>
+          For years I broke long dry fasts on coconut water, and I taught it
+          that way. Looking back, I now think that sped the break up by
+          mistake. After a dry fast of 5 days or more the refeed starts on
+          plain water, then kompot, and coconut water waits for day 2. Here is
+          the reasoning.
+        </p>
         <div className="question-item">
-          <span className="question-label">Electrolyte Balance:</span>
-          Coconut water has a nearly perfect ratio of electrolytes (especially
-          potassium) that matches what your dehydrated cells need to safely
-          rehydrate. If you&rsquo;re drinking water, you should be using
-          high quality spring water, but in general if you are introducing
-          calories, real coconut water is superior.
+          <span className="question-label">Your kidneys are still holding water:</span>
+          After days without water the kidneys are in full water-retention
+          mode. A 1994 clinical thesis from the Military Medical Academy in St
+          Petersburg measured aldosterone, the hormone that tells the kidneys
+          to hold on to water, up 87% at 56 hours, with the blood 4 to 6%
+          thicker. That is the state you are in when the first fluid goes
+          down.
         </div>
         <div className="question-item">
-          <span className="question-label">Stem Cell Signal:</span>
-          The specific combination of sugars and electrolytes in coconut water
-          sends a &ldquo;growth&rdquo; signal to newly released stem cells,
-          directing them toward healing.
+          <span className="question-label">Why coconut water is the wrong first drink:</span>
+          Coconut water does two things that fight that state at once. It
+          carries about 600 mg of potassium per cup, and it acts as a diuretic
+          by suppressing the very hormones that are holding the water in (a
+          2022 rat study in Frontiers in Nutrition found it lowers ADH,
+          angiotensin II and aldosterone; it is a rat study, but the direction
+          is the point). Concentrated blood, lagging kidneys and a potassium
+          load is the recipe for a potassium spike. There is a published case,
+          a 2014 case report in Circulation: Arrhythmia and Electrophysiology,
+          of a healthy 42-year-old whose heart rhythm failed after several
+          servings of coconut water. I am not willing to run that risk on the
+          first morning after a dry fast.
         </div>
         <div className="question-item">
-          <span className="question-label">Kidney Protection:</span>
-          After a dry fast, your kidneys are under stress. Coconut water&rsquo;s
-          gentle mineral content helps them restart safely without the shock of
-          plain water.
+          <span className="question-label">Plain water first lets the kidneys wake up:</span>
+          Room temperature, small sips, about a cup (200 to 250 ml) an hour for
+          the first four hours, 1 litre at most. No gulping. That pacing is the
+          Filonov tradition, the Russian dry-fasting school. Once you are
+          urinating normally, the kidneys are back on duty and can handle what
+          comes next.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Why kompot:</span>
+          Kompot is a large pot of water with a small amount of fruit, fresh or
+          dried (apples, plums or prunes, apricots), simmered, strained, no
+          sugar added, cooled to room temperature. It should taste like faintly
+          flavoured water, not juice: lighter in sugar than unsweetened coconut
+          water. It adds gentle minerals and a little sugar without the
+          potassium load. The same 1994 St Petersburg thesis started its
+          patients on dilute fruit and vegetable liquids, about 20 to 30 ml per
+          kg a day for a mild case, with fruit and vegetables next and unsalted
+          rice and porridge from day 4 to 5, and the new ladder follows that
+          shape. Make the kompot the evening before the fast ends.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Where coconut water belongs now:</span>
+          Day 2, unsweetened, in small amounts: at most 1 litre across the day
+          and still no more than a cup an hour, alongside kompot and unsalted
+          broth. Its potassium and its diuretic kick are useful once the
+          kidneys are awake and the blood has thinned out. The one day-1
+          exception is marked in the schedule above: if a diuretic kick-start
+          is clearly needed, a small unsweetened coconut water, not before
+          about 12 hours after the first water, at most 250 ml in an hour and
+          500 ml for the day.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Salt, all week:</span>
+          Do not salt your food. Tiny amounts are fine, and food carries its
+          own sodium. Potassium matters more than sodium here, and the kompot,
+          coconut water and broth supply it. Potassium salt (KCl) as a
+          seasoning waits for day 3 and stays light. Someone eating low-carb
+          would need more salt, but low-carb is not what this protocol
+          recommends.
         </div>
       </div>
 
@@ -539,8 +611,8 @@ export default function RefeedingPage() {
         </div>
         <div className="question-item">
           <span className="question-label">When to Take It:</span>
-          Begin BPC-157 from Day 2–3 of the refeed, once coconut water
-          rehydration has started and the gut is beginning to wake up. Continue
+          Begin BPC-157 from Day 2–3 of the refeed, once rehydration is under
+          way and the gut is beginning to wake up. Continue
           for 4–8 weeks through the refeed and rebuild phase.
         </div>
         <p>
@@ -593,10 +665,10 @@ export default function RefeedingPage() {
           Reactivation page; this is the action shortlist.
         </p>
         <div className="question-item">
-          <span className="question-label">L-Lysine + Monolaurin from Refeed Day 1</span>
+          <span className="question-label">L-Lysine from Refeed Day 1, Monolaurin from the first cooked food</span>
           Lysine competes with arginine for the amino acid transporter
           herpesviruses depend on. Monolaurin disrupts the lipid envelope
-          of every human herpesvirus. Start both with the first meal.
+          of every human herpesvirus. Lysine goes in your water from day 1 (empty stomach); monolaurin joins with the first cooked food on day 3.
         </div>
         <div className="question-item">
           <span className="question-label">Avoid Arginine-Rich Foods for the First Two Weeks</span>
