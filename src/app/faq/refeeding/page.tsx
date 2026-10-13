@@ -50,7 +50,7 @@ const faqItems = [
   },
   {
     question: "When does T3 therapy actually start? I thought it ran during the fast.",
-    answer: "It does not run during the fast anymore. You finish the whole fasting block, dry fast then water fast, with no T3 on board. Across the refeed you keep the antiviral coverage going, and during the first seven days we add mitochondrial support, methylene blue and in some cases ethyl pyruvate, decided case by case with no fixed dose published here. T3 therapy begins only after you have completed seven full days of refeeding. Once you cross that mark, the T3 climb, hold, and taper run exactly as described on the T3 Therapy page. Starting T3 on top of a gut and metabolism that are still coming back online is the mistake this sequence is built to prevent.",
+    answer: "It does not run during the fast anymore. You finish the whole fasting block, dry fast then water fast, with no T3 on board. Across the refeed you keep the antiviral coverage going, and during the first seven days we add mitochondrial support, methylene blue and in some cases ethyl pyruvate, decided case by case with no fixed dose published here. T3 therapy begins only after you have completed seven full days of refeeding, and only if the refeed shows you need it: running hot, holding your weight and feeling great means you skip T3 this cycle, while cold, weight stuck and the old symptoms back means the 30-day course runs on the Wilson's pattern (ramp, hold, taper) described on the T3 Therapy page. Starting T3 on top of a gut and metabolism that are still coming back online is the mistake this sequence is built to prevent.",
   },
   {
     question: "When can I go back to \"normal\" eating?",
@@ -277,11 +277,14 @@ export default function RefeedingFaqPage() {
               during the first seven days we add mitochondrial support,
               methylene blue and in some cases ethyl pyruvate, decided case by
               case with no fixed dose published here. T3 therapy begins only
-              after you have completed seven full days of refeeding. Once you
-              cross that mark, the T3 climb, hold, and taper run exactly as
-              described on the <a href="/t3-therapy">T3 Therapy</a> page.
-              Starting T3 on top of a gut and metabolism that are still coming
-              back online is the mistake this sequence is built to prevent.
+              after you have completed seven full days of refeeding, and only
+              if the refeed shows you need it. Running hot, holding your weight
+              and feeling great means you skip T3 this cycle. Cold, weight
+              stuck and the old symptoms back means the 30-day course runs on
+              the Wilson&rsquo;s pattern (ramp, hold, taper) described on the{" "}
+              <a href="/t3-therapy">T3 Therapy</a> page. Starting T3 on top of
+              a gut and metabolism that are still coming back online is the
+              mistake this sequence is built to prevent.
             </p>
           </div>
         </div>

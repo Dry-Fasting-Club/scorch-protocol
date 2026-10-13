@@ -8,6 +8,7 @@ import InterestingVideoBlock from "@/components/InterestingVideoBlock";
 import MermaidCharts from "@/components/MermaidCharts";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
+import ReferencesSection from "@/components/ReferencesSection";
 
 export const metadata: Metadata = {
   title: "Symptom Management",
@@ -30,9 +31,13 @@ const herxDecisionTree = `graph TD
   Temp -->|No| Neuro{"4. Severe confusion,<br/>fainting, vision changes?"}
 
   Neuro -->|Yes| Stop
-  Neuro -->|No| Herx["HERXHEIMER REACTION<br/>(safe to push through)<br/><br/>• Flu-like aches and chills<br/>• Skin reactions / itching<br/>• Energy crash + brain fog<br/>• Mood shifts / emotional release<br/><br/>Action: hydrate (if water fast),<br/>rest, lie still, wait it out"]
+  Neuro -->|No| Feel{"5. How bad does it feel?"}
+
+  Feel -->|"Really bad, or excruciating pain"| Break["BREAK THE FAST<br/>Vitals fine is not enough on its own.<br/>Water first, then kompot."]
+  Feel -->|"Rough but bearable"| Herx["HERXHEIMER REACTION<br/>(keep going)<br/><br/>• Flu-like aches and chills<br/>• Skin reactions / itching<br/>• Energy crash + brain fog<br/>• Mood shifts / emotional release<br/><br/>Action: walk, massage, move the whole system.<br/>Keep tracking HR, temperature, BP and urination."]
 
   style Stop fill:#7f1d1d,stroke:#ef4444,stroke-width:4px,color:#fca5a5
+  style Break fill:#7c2d12,stroke:#f97316,stroke-width:2px,color:#fdba74
   style Herx fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac`;
 
 export default function SymptomManagementPage() {
@@ -41,8 +46,9 @@ export default function SymptomManagementPage() {
       <JsonLd data={medicalWebPageLd({ name: "Symptom Management", description: "A symptom-by-symptom guide to managing side effects during The Scorch Protocol: Herxheimer reactions, electrolytes, and more.", path: "/symptom-management", breadcrumbName: "Symptom Management" })} />
       <h1>Symptom Management Guide</h1>
       <KeyTakeaways points={[
-        "Most symptoms during the fast or a T3 cycle are Herxheimer reactions (die-off and detox) that you push through, not emergencies.",
-        "Break the fast immediately if resting heart rate exceeds 120 bpm, you have had no urination for 24 hours, core temp is below 35C or above 38.5C, or you have severe confusion or fainting.",
+        "Feeling worse during the fast is usually a Herxheimer reaction (die-off and detox), and the response is to go on walks, do massages and move the whole system, not to lie still and grit it out.",
+        "If it starts to feel really bad, or the pain is excruciating, break the fast, even with clean vitals. As long as heart rate, temperature, blood pressure and urination look fine and the discomfort is bearable, you can continue.",
+        "Break the fast immediately, no judgement call, if resting heart rate exceeds 120 bpm, you have had no urination for 24 hours, core temp is below 35C or above 38.5C, or you have severe confusion or fainting.",
         "Insomnia that does not respond to magnesium, GABA, or melatonin is usually MCAS-driven histamine overload, and requires cyproheptadine or ketotifen rather than standard sleep aids.",
         "Each of the Big 6 (fatigue, fungal issues, kidney, liver, blood sugar, muscle wasting) has a specific protocol fix covered in the sections below.",
       ]} />
@@ -143,18 +149,49 @@ export default function SymptomManagementPage() {
 
       <h2>Herxheimer vs Warning Sign: How to Tell the Difference</h2>
       <p>
-        Most symptoms during the fast or a T3 cycle are Herxheimer reactions
-        &mdash; uncomfortable but expected die-off and detox effects you push
-        through. A small subset are true warning signs that require breaking
-        the fast immediately. Knowing the difference is the single most
-        important on-the-fly skill in the protocol. Use this triage chart
-        before reaching for the phone or the food.
+        Most symptoms during the fast or a T3 cycle are Herxheimer reactions:
+        uncomfortable but expected die-off and detox effects. A small subset
+        are true warning signs that require breaking the fast immediately.
+        Knowing the difference is the single most important on-the-fly skill
+        in the protocol, and my rule for it has two halves. First, the vitals:
+        if any one of the four checks below fails, you stop, no debate. Second,
+        how it feels: when you are feeling worse, go on walks, do massages,
+        move the whole system (the protocol has a few hacks for this, see{" "}
+        <Link href="/tips-and-tricks">Tips and Tricks</Link>). As long as heart
+        rate, temperature, blood pressure and urination look fine and the pain
+        is not excruciating, you can continue. If it starts to feel really bad,
+        you break the fast, clean vitals or not. Use this triage chart before
+        reaching for the phone or the food.
       </p>
 
       <div style={{ margin: "1.5rem 0" }}>
         <MermaidCharts charts={[herxDecisionTree]} />
         <p style={{ fontSize: "0.9rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic", textAlign: "center" }}>
-          Vital signs override subjective discomfort every time. If all four checks pass, what you are feeling is Herxheimer and is part of the work. If any one fails, stop.
+          Vitals come first: if any one fails, stop. If all four pass, how bad it feels decides the rest. Really bad, or excruciating pain, means break the fast. Rough but bearable means walk, massage, move, and keep tracking.
+        </p>
+      </div>
+
+      <div className="guiding-questions box-info">
+        <h3>What the Evidence Says About the Stop Rules</h3>
+        <p>
+          The fasting clinics track the same readings. In the Buchinger cohort
+          of 1,422 supervised fasts, blood pressure and pulse were recorded
+          daily, heart rate did not rise, and serious events were rare
+          (Wilhelmi de Toledo 2019); the German fasting guideline stops a fast
+          for a higher-grade arrhythmia, for potassium below 3.0 or sodium
+          below 125 mmol/L, or for circulatory depression lasting two days
+          (heart rate under 45, systolic under 70), and otherwise treats a
+          fasting crisis as a possible healing crisis (&Auml;GHE 2002). My
+          resting heart rate stop of 120 bpm is stricter than that guideline;
+          my 24-hour urine rule is looser than the kidney guideline, which
+          counts no urine for 12 hours as stage 3 kidney injury (KDIGO 2012).
+          The reading the clinics use that is not in my four is a standing
+          check: a rise of 30 beats or a systolic drop of more than 20 mmHg on
+          standing is the standard early sign of low blood volume (Freeman
+          2011; Sheldon 2015). Marked caveat: all of that was collected on water fasts with
+          fluids; nobody has published stopping criteria for a dry fast, and no
+          home reading captures electrolytes, which caused the one grade 4
+          event in the supervised water-fasting chart review (Finnell 2018).
         </p>
       </div>
 
@@ -314,6 +351,14 @@ export default function SymptomManagementPage() {
             <li>
               <strong>Note:</strong> We use very low doses just to keep your
               muscle, not for bodybuilding.
+            </li>
+            <li>
+              <strong>When it enters:</strong> around the third cycle, as an
+              add-on to T3, once two cycles of fasting plus T3 have not been
+              enough and the muscle loss is extreme (often alongside food
+              intolerance and very bad sleep). See the{" "}
+              <Link href="/hgh-therapy">hGH Therapy</Link> page for the timing
+              and the two ways to run it.
             </li>
           </ul>
         </li>
@@ -513,6 +558,47 @@ export default function SymptomManagementPage() {
       <RefeedPlanPromo source="symptom-management" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="symptom-management" sectionTitle="Symptom Management" />
+
+      <ReferencesSection
+        refs={[
+          {
+            citation:
+              "Wilhelmi de Toledo F, Grundler F, Bergouignan A, Drinda S, Michalsen A. Safety, health improvement and well-being during a 4 to 21-day fasting period in an observational study including 1422 subjects. PLoS One, 2019;14(1):e0209353. PMID 30601864. DOI 10.1371/journal.pone.0209353.",
+            href: "https://doi.org/10.1371/journal.pone.0209353",
+            note: "the Buchinger cohort: daily blood pressure and pulse, heart rate unchanged, blood pressure down, serious events rare; water-type fasting with about three litres of fluid a day",
+          },
+          {
+            citation:
+              "Ärztegesellschaft Heilfasten und Ernährung (ÄGHE). Leitlinien zur Fastentherapie. Forschende Komplementärmedizin und Klassische Naturheilkunde, 2002;9:189-198.",
+            href: "https://karger.com/fkm/article-pdf/9/3/189/4207114/000064270.pdf",
+            note: "the only published numeric stop list for fasting: higher-grade arrhythmia, potassium below 3.0 or sodium below 125 mmol/L, circulatory depression for two days (heart rate under 45, systolic under 70); fasting crises treated as possible healing crises",
+          },
+          {
+            citation:
+              "Kidney Disease: Improving Global Outcomes (KDIGO) Acute Kidney Injury Work Group. KDIGO Clinical Practice Guideline for Acute Kidney Injury. Kidney International Supplements, 2012;2(1):1-138.",
+            href: "https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf",
+            note: "no urine for 12 hours is stage 3 acute kidney injury; dry-fasting urine output sits at the oliguria line by design, so no urine at all is the signal",
+          },
+          {
+            citation:
+              "Sheldon RS, Grubb BP 2nd, Olshansky B, et al. 2015 Heart Rhythm Society expert consensus statement on the diagnosis and treatment of postural tachycardia syndrome, inappropriate sinus tachycardia, and vasovagal syncope. Heart Rhythm, 2015;12(6):e41-e63. PMID 25980576. DOI 10.1016/j.hrthm.2015.03.029.",
+            href: "https://doi.org/10.1016/j.hrthm.2015.03.029",
+            note: "restates the orthostatic definitions: a heart-rate rise of 30 beats or more on standing, a systolic fall of more than 20 mmHg; earlier signs of low blood volume than a resting reading",
+          },
+          {
+            citation:
+              "Freeman R, Wieling W, Axelrod FB, et al. Consensus statement on the definition of orthostatic hypotension, neurally mediated syncope and the postural tachycardia syndrome. Clin Auton Res, 2011;21(2):69-72. PMID 21431947.",
+            href: "https://pubmed.ncbi.nlm.nih.gov/21431947/",
+            note: "the consensus definitions: orthostatic hypotension is a systolic fall of more than 20 mmHg on standing, postural tachycardia a rise of 30 beats or more",
+          },
+          {
+            citation:
+              "Finnell JS, Saul BC, Goldhamer AC, Myers TR. Is fasting safe? A chart review of adverse events during medically supervised, water-only fasting. BMC Complement Altern Med, 2018;18(1):67. PMID 29458369. DOI 10.1186/s12906-018-2136-6.",
+            href: "https://doi.org/10.1186/s12906-018-2136-6",
+            note: "768 supervised water-only fasting visits: the one grade 4 event was low sodium presenting as speech difficulty; fasts were stopped on patient request or clinician judgement",
+          },
+        ]}
+      />
     </>
   );
 }

@@ -28,8 +28,10 @@ export default function HghTherapyPage() {
 
       <KeyTakeaways points={[
         "hGH is the rebuild signal. Dry fasting clears damaged cells, T3 restores metabolic power, and hGH tells your body to build new healthy muscle and immune tissue from what was freed.",
+        "hGH is not a phase everyone reaches. It enters around the third cycle, when two cycles of fasting plus T3 have not done enough: insulin resistance where food is not tolerated, extreme muscle loss, really bad sleep. It is an add-on to the T3 cycle, a supercharging of it, not something that waits until all T3 is finished.",
+        "Once you are on hGH, stay on it for at least three to six months. Two ways to run it: regeneration with continuous calories and no fasting, or keep cycling the fasts, in which case the hGH dosing pattern has to change because exogenous hGH suppresses your own output, and that pattern is set with me case by case, not from this page. At the end you wean off and allow about 30 days for your own production to come back before any fast.",
         "Cyproheptadine and hGH work together. Injected hGH bypasses the pituitary signal cyproheptadine blunts, so you do not need to stop cyproheptadine before starting hGH.",
-        "Some people need to eat significantly more calories than they ever have during this phase. Without enough fuel, the rebuild cannot happen. Research suggests 9 months of treatment may be needed to feel substantial results.",
+        "Some people need to eat significantly more calories than they ever have during this phase. Without enough fuel, the rebuild cannot happen. In the growth-hormone-deficiency research, around nine months of treatment is often needed before people feel substantial results.",
         "hGH is the preferred base: it is the actual hormone, so it needs nothing from your body to work, puts the least strain on the system, and gives the most benefit. If you truly cannot access hGH, CJC-1295 + Ipamorelin can be tried to help wake up your own pituitary, but it is an awakening aid, not a full replacement.",
       ]} />
 
@@ -86,6 +88,7 @@ export default function HghTherapyPage() {
         </strong>
         <ul style={{ margin: 0, paddingLeft: "1.25rem", fontSize: "0.92rem", lineHeight: 1.8 }}>
           <li><a href="#mechanism">How hGH Works in the Body</a></li>
+          <li><a href="#timing">When hGH Starts, How Long It Runs, and the Two Ways to Run It</a></li>
           <li><a href="#practical">Practical: Sourcing and the Synergistic Stack</a></li>
           <li><a href="#research">The Research Case for hGH in Chronic Illness</a></li>
         </ul>
@@ -129,19 +132,22 @@ export default function HghTherapyPage() {
         </p>
         <ul>
           <li>
-            <strong>Phase 1: The Cleanup (Dry Fasting):</strong> This cleans
+            <strong>The Cleanup (Dry Fasting):</strong> This cleans
             out the debris and old proteins that are blocking your body&rsquo;s
             healing signals.
           </li>
           <li>
-            <strong>Phase 2: The Power (T3 Therapy):</strong> This turns your
+            <strong>The Power (T3 Therapy):</strong> This turns your
             body&rsquo;s power back on. You can&rsquo;t rebuild your body if
             you don&rsquo;t have enough energy (ATP) to do the work.
           </li>
           <li>
-            <strong>Phase 3: The Rebuild (hGH):</strong> Once the trash is gone
-            and the power is on, hGH gives the command to build new, healthy
-            cells and &ldquo;power plants&rdquo; (mitochondria).
+            <strong>The Rebuild (hGH):</strong> Once the fast has cleared the
+            ground and T3 has the power on, hGH gives the command to build new,
+            healthy cells and &ldquo;power plants&rdquo; (mitochondria). In
+            practice it rides on top of a T3 cycle as an add-on; it does not
+            wait until every T3 course is finished. See the timing section
+            below for when it enters.
           </li>
         </ul>
 
@@ -241,6 +247,109 @@ export default function HghTherapyPage() {
             stronger and leaner than it was before you started.
           </p>
         </div>
+      </div>
+
+      <h2 id="timing">When hGH Starts, How Long It Runs, and the Two Ways to Run It</h2>
+      <p>
+        The most common mistake with hGH is reaching for it too early, or
+        treating it as the step that automatically follows T3. It is neither.
+        Here is how I place it inside the protocol.
+      </p>
+
+      <div className="guiding-questions box-warning">
+        <h3>Around the Third Cycle, and Only If the First Two Were Not Enough</h3>
+        <div className="question-item">
+          <span className="question-label">The trigger:</span>
+          A cycle is a fast, a refeed and a 30-day T3 course, with the next
+          fast opening seven days after the T3 course ends. hGH starts around
+          the third cycle, once the first two cycles have shown they are not
+          doing enough on their own. The signs that make it warranted are
+          specific: insulin resistance so marked that food is not tolerated,
+          muscle loss that is extreme, and sleep that is really bad. Still
+          having problems after two cycles, with that picture, is when I say we
+          need regeneration and bring hGH in.
+        </div>
+        <div className="question-item">
+          <span className="question-label">An add-on, not a successor:</span>
+          hGH is run together with T3. Think of it as supercharging the cycle
+          rather than as a separate phase that waits until every T3 course is
+          over. The T3 keeps the power on; the hGH tells the body what to build
+          with it.
+        </div>
+        <div className="question-item">
+          <span className="question-label">At least three to six months:</span>
+          Once you are on hGH you stay on it for at least three to six months.
+          Short runs do not rebuild anything. This is the stretch where the
+          calorie flood described above has to be real.
+        </div>
+      </div>
+
+      <div className="guiding-questions box-info">
+        <h3>The Two Ways to Run It</h3>
+        <div className="question-item">
+          <span className="question-label">Mode 1: Regeneration, no fasting.</span>
+          Stop the fasting for the duration, eat continuous calories, and let
+          the hGH do pure rebuild work. This is the straightforward version,
+          and for someone with extreme muscle loss or food intolerance it is
+          usually the right one.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Mode 2: Keep cycling, with the dosing changed.</span>
+          You can keep running the fasts while on hGH, but the dosing has to
+          change. Exogenous hGH suppresses your own production, so a single
+          daily dose leaves you with nothing of your own through a fast. The
+          pattern that covers that suppression is something I set with you
+          case by case, not something I print here: nothing published has
+          tested fasting on hGH, and the one study that came closest found
+          worse ketosis and no protein sparing (see the evidence box below).
+        </div>
+        <div className="question-item">
+          <span className="question-label">Coming off: allow about 30 days before any fast.</span>
+          When the three to six months are done you wean off, and it can take
+          about 30 days for your natural production to come back up. Do not
+          fast in that window. Once your own output is back, you can fast
+          again in future without worrying about it.
+        </div>
+        <p>
+          <em>
+            Medical caveat: hGH is a prescription or restricted hormone with
+            real metabolic and endocrine effects. The trigger, the mode and the
+            dosing split are decided case by case with me and with whoever
+            prescribes it, never from this page alone.
+          </em>
+        </p>
+      </div>
+
+      <div className="guiding-questions box-info">
+        <h3>What the Evidence Says About hGH and Fasting</h3>
+        <p>
+          Fasting raises your own growth hormone: a two-day fast multiplied the
+          24-hour output about fivefold in healthy men, and a five-day fast
+          raised the number of pulses from about six to about ten a day
+          (Hartman 1992; Ho 1988). In a 40-hour fast, keeping growth hormone
+          present stopped the rise in muscle protein breakdown (N&oslash;rrelund
+          2001), which is why I read extreme muscle loss as a sign that points
+          at this axis. The only study that gave hGH across a multi-week fast
+          found worse ketosis, higher glucose and insulin, nausea and muscle
+          pain, and no net protein sparing (Felig 1971), so the keep-cycling
+          mode is my practice, not something the literature has tested. No
+          published study has dosed hGH four times a day by injection under the
+          skin; twice a day is the most frequent injection schedule tested
+          (Laursen 1994).
+        </p>
+        <p>
+          Exogenous growth hormone does suppress your own output (Hashimoto
+          2000), and endocrinology does not retest the axis until one to three
+          months off treatment (Tavares and Collett-Solberg 2021), so my 30
+          days is the short end of that window; nobody has measured the
+          recovery curve in adults after months of dosing. Marked caveat on
+          cancer: growth hormone is contraindicated with an active cancer (Kim
+          2020). In the largest long-term surveillance of adults on
+          replacement doses, new cancer incidence matched the general
+          population (Johannsson 2022), but that is replacement dosing, lower
+          than what I use, so a past cancer is a case-by-case conversation
+          with your oncology history in front of me, never an automatic yes.
+        </p>
       </div>
 
       <h2 id="practical">Practical: Sourcing and the Synergistic Stack</h2>
@@ -457,6 +566,60 @@ export default function HghTherapyPage() {
             citation: "Fahy GM, Brooke RT, Watson JP, et al. Reversal of epigenetic aging and immunosenescent trends in humans (the TRIIM trial). Aging Cell, 2019;18(6):e13028.",
             href: "https://doi.org/10.1111/acel.13028",
             note: "recombinant hGH (with DHEA and metformin) regenerated the thymus and reversed epigenetic age markers",
+          },
+          {
+            citation:
+              "Ho KY, Veldhuis JD, Johnson ML, et al. Fasting enhances growth hormone secretion and amplifies the complex rhythms of growth hormone secretion in man. J Clin Invest, 1988;81(4):968-975. PMID 3127426. DOI 10.1172/JCI113450.",
+            href: "https://doi.org/10.1172/JCI113450",
+            note: "a five-day fast raised GH pulse frequency from about six to about ten pulses per 24 hours",
+          },
+          {
+            citation:
+              "Hartman ML, Veldhuis JD, Johnson ML, et al. Augmented growth hormone (GH) secretory burst frequency and amplitude mediate enhanced GH secretion during a two-day fast in normal men. J Clin Endocrinol Metab, 1992;74(4):757-765. PMID 1548337. DOI 10.1210/jcem.74.4.1548337.",
+            href: "https://doi.org/10.1210/jcem.74.4.1548337",
+            note: "two days of fasting produced a fivefold rise in the 24-hour GH production rate in healthy men",
+          },
+          {
+            citation:
+              "Nørrelund H, Nair KS, Jørgensen JO, Christiansen JS, Møller N. The protein-retaining effects of growth hormone during fasting involve inhibition of muscle-protein breakdown. Diabetes, 2001;50(1):96-104. PMID 11147801. DOI 10.2337/diabetes.50.1.96.",
+            href: "https://doi.org/10.2337/diabetes.50.1.96",
+            note: "in a 40-hour fast, suppressing GH raised muscle protein breakdown and replacing it prevented that rise",
+          },
+          {
+            citation:
+              "Felig P, Marliss EB, Cahill GF Jr. Metabolic response to human growth hormone during prolonged starvation. J Clin Invest, 1971;50(2):411-421. DOI 10.1172/JCI106508.",
+            href: "https://www.jci.org/articles/view/106508",
+            note: "the only study of hGH across a multi-week fast: worse ketosis, higher glucose and insulin, nausea and muscle pain, and no net protein sparing",
+          },
+          {
+            citation:
+              "Hashimoto Y, Kamioka T, Hosaka M, et al. Exogenous 20K growth hormone (GH) suppresses endogenous 22K GH secretion in normal men. J Clin Endocrinol Metab, 2000;85(2):601-606. PMID 10690862. DOI 10.1210/jcem.85.2.6377.",
+            href: "https://doi.org/10.1210/jcem.85.2.6377",
+            note: "injected GH suppresses the pituitary's own output in normal men; the reason the fasting-mode dosing changes and the reason for the wean",
+          },
+          {
+            citation:
+              "Tavares ABW, Collett-Solberg PF. Growth hormone deficiency and the transition from pediatric to adult care. J Pediatr (Rio J), 2021;97(6):595-602. DOI 10.1016/j.jped.2021.02.007.",
+            href: "https://www.jped.com.br/en-growth-hormone-deficiency-transition-from-articulo-S0021755721000541",
+            note: "clinical practice requires one to three months off rhGH before the axis is retested; the 30 days here is the short end of that window",
+          },
+          {
+            citation:
+              "Laursen T, Jørgensen JO, Christiansen JS. Metabolic effects of growth hormone administered subcutaneously once or twice daily to growth hormone deficient adults. Clin Endocrinol (Oxf), 1994;41(3):337-343. PMID 7525120. DOI 10.1111/j.1365-2265.1994.tb02554.x.",
+            href: "https://doi.org/10.1111/j.1365-2265.1994.tb02554.x",
+            note: "twice daily is the most frequent subcutaneous injection schedule tested in people; no study has dosed hGH four times a day by injection under the skin",
+          },
+          {
+            citation:
+              "Kim JH, Chae HW, Chin SO, et al. Diagnosis and Treatment of Growth Hormone Deficiency: A Position Statement from Korean Endocrine Society and Korean Society of Pediatric Endocrinology. Endocrinol Metab (Seoul), 2020;35(2):272-287. DOI 10.3803/EnM.2020.35.2.272.",
+            href: "https://doi.org/10.3803/EnM.2020.35.2.272",
+            note: "GH treatment is contraindicated in active malignancy (basal and squamous cell skin cancers excepted); IGF-1 is titrated to the age-adjusted reference range",
+          },
+          {
+            citation:
+              "Johannsson G, Touraine P, Feldt-Rasmussen U, et al. Long-term Safety of Growth Hormone in Adults With Growth Hormone Deficiency: Overview of 15 809 GH-Treated Patients. J Clin Endocrinol Metab, 2022;107(7):1906-1919. PMID 35368070. DOI 10.1210/clinem/dgac199.",
+            href: "https://doi.org/10.1210/clinem/dgac199",
+            note: "new cancer incidence in adults on GH replacement matched the general population; replacement dosing, below the range used here",
           },
         ]}
       />

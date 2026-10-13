@@ -56,7 +56,7 @@ export default function ListOfPharmaciesPage() {
           <li>
             <strong>IdeaLabs Tyronene (T3) or Tyromix (T3 plus T4)</strong> as
             the third option. Both are immediate-release, so they are dosed
-            more often through the day; the fast 10-day climb on the T3 page is
+            more often through the day; the stepwise ramp on the T3 page is
             written for slow-release only.
           </li>
         </ol>

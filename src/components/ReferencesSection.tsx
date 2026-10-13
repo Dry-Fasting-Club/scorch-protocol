@@ -30,7 +30,7 @@ export default function ReferencesSection({ refs }: { refs: Reference[] }) {
               <span>{r.citation}</span>
             )}
             {r.note && (
-              <span style={{ color: "var(--text-muted)" }}> — {r.note}</span>
+              <span style={{ display: "block", color: "var(--text-muted)" }}>{r.note}</span>
             )}
           </li>
         ))}

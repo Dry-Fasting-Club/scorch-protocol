@@ -4,6 +4,7 @@ import GuidanceBox from "@/components/GuidanceBox";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import JsonLd from "@/components/JsonLd";
+import ReferencesSection from "@/components/ReferencesSection";
 import { medicalWebPageLd, faqPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
@@ -251,11 +252,20 @@ export default function DryFastingForPotsPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Check baseline temperature</span>
-          The <Link href="/decision-tree">Decision Logic Tree</Link> requires a baseline morning
+          The <Link href="/decision-tree">Decision Logic Tree</Link> asks for a logged waking
           temperature before fasting. Long Covid and ME/CFS patients often run cold because the
-          thyroid axis is suppressed. Below 97.8&deg;F means T3 therapy should precede fasting.
-          Below 96&deg;F means T3 and high calories are mandatory first. This rule applies even
-          more strictly with POTS present.
+          thyroid axis is suppressed, and that reading is the dial the T3 course is dosed to
+          after the fast. The order is still fast first. T3 before the fast is only for the
+          person who has already struggled through fasts, kept getting worse and shows signs of
+          metabolic trouble; with POTS on top, that history is a case to run past me with your
+          numbers before you plan anything.
+          <br />
+          <em>
+            What the evidence says: that history is my clinical rule. The literature has no
+            published criterion for who needs T3 after a fast; the nearest objective candidate
+            is the low free T3 and high reverse T3 pattern measured in chronic fatigue patients
+            (Ruiz-Nunez 2018), which is a blood test, not a screen.
+          </em>
         </div>
         <div className="question-item">
           <span className="question-label">Build gradually, starting shorter</span>
@@ -370,6 +380,17 @@ export default function DryFastingForPotsPage() {
 
       <RefeedPlanPromo source="dry-fasting-for-pots" />
       <GuidanceBox />
+
+      <ReferencesSection
+        refs={[
+          {
+            citation:
+              "Ruiz-Nunez B, Tarasse R, Vogelaar EF, Janneke Dijck-Brouwer DA, Muskiet FAJ. Higher Prevalence of \"Low T3 Syndrome\" in Patients With Chronic Fatigue Syndrome: A Case-Control Study. Front Endocrinol (Lausanne), 2018;9:97. PMID 29615976. DOI 10.3389/fendo.2018.00097.",
+            href: "https://doi.org/10.3389/fendo.2018.00097",
+            note: "the nearest thing to a published criterion for who might need T3 after a fast: chronic fatigue patients carried lower free T3 and total T3 and more reverse T3 than matched controls at a similar TSH; a blood pattern, not the history-and-temperature screen used here",
+          },
+        ]}
+      />
     </>
   );
 }

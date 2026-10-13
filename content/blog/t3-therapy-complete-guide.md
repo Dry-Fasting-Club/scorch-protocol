@@ -100,7 +100,9 @@ This framing also explains why T3 opens the appetite window: increased cellular 
 
 ## The 30-Day T3 Cycle Protocol
 
-The standard T3 cycle in the Scorch Protocol runs approximately 30 days and follows three phases: gradual climb, peak hold, mandatory taper.
+The standard T3 course in the Scorch Protocol runs approximately 30 days and follows three phases: gradual climb, peak hold, mandatory taper. The curve itself is Wilson's Temperature Syndrome cycling, which has a large body of practice behind it: you follow it, taper off, and let your own system come back.
+
+**Update, October 2026.** A cycle of the Scorch Protocol is a fast, a refeed, and this 30-day T3 course. There used to be more emphasis on running T3 after every fast. Over time the data showed that some people come out of a fast running hot, holding their weight, and feeling great, and they do not need the T3 course at all. T3 is the reboot for the people who come out with a metabolic slowdown: cold, unable to lose the regained weight, still struggling. If that is you, and especially if you have done many fasts and seen many doctors with nothing working, run the course at least to test the water; sometimes it does little, you wean off and bounce back. Finish the course, wait seven days, and go back into the next fast. hGH is not part of the standard cycle; it comes in around the third cycle, only if the first two have not done enough.
 
 ### Gradual Climb (Days 1-15)
 
@@ -197,7 +199,7 @@ Dr. Denis Wilson developed the framework of using basal body temperature as the 
 
 ### Can I do this if my TSH is already suppressed from previous thyroid medication?
 
-Yes, with care. A suppressed TSH from previous T4 therapy indicates the HPT axis is already in a partial recovery state. The T3 cycle still applies; the taper at the end may need to be longer to allow full HPT recovery.
+Yes, with care, and expect it to be harder. In Yannick's experience the people already on thyroid therapy have a thyroid that is asleep, so coming off the T3 and asking the gland to reboot is much more difficult, and the trough after the taper is rough. The T3 course still applies; the taper at the end needs to be longer to allow full HPT recovery.
 
 ### What about pregnancy?
 
@@ -205,6 +207,6 @@ Pregnancy management of thyroid is specialized and beyond the scope of this guid
 
 ## Where to Start
 
-T3 therapy is Phase 2 of the Scorch Protocol. Most patients should not enter T3 therapy first; the standard sequence is Phase 1 (preparation and first dry fast) → Phase 2 (T3) → Phase 3 (refeeding and hGH). The exceptions are patients with severe metabolic depletion who cannot tolerate fasting on their current baseline; those patients may start with T3 to build the foundation that makes fasting safe later.
+T3 therapy is the third part of a Scorch cycle: fast, refeed, then the 30-day T3 course if the fast left you with a metabolic slowdown. The default order is always fast first. The one exception, in Yannick's experience, is the person who has already been fasting, pushing through it, and getting worse each time, with clear metabolic signs on top; that person gets T3 first as a jump start, then fasts. hGH is an add-on around the third cycle, only if the first two cycles have not done enough.
 
 Read [the T3 therapy protocol page](/t3-therapy) for the practical execution, then [the Long Covid Basics page](/long-covid-basics) or [the ME/CFS Recovery guide](/blog/me-cfs-recovery-guide) for the full protocol context.

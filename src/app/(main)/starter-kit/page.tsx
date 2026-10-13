@@ -3,6 +3,7 @@ import Link from "next/link";
 import { MEMBERS_SIGNUP_URL, MEMBERSHIP_PATH } from "@/lib/constants";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import JsonLd from "@/components/JsonLd";
+import ReferencesSection from "@/components/ReferencesSection";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
@@ -100,20 +101,35 @@ export default function StarterKitPage() {
           Liver and bile support as fat-soluble junk starts to clear.
         </div>
         <div className="question-item">
-          <span className="question-label">Magnesium-citrate clear-out<Tag>OTC</Tag></span>
-          One gentle colon flush, two days before you start.
+          <span className="question-label">Magnesium citrate<Tag>OTC</Tag></span>
+          At a higher dose than a daily supplement, every day through the final
+          week, with plenty of water. It keeps the bowel moving as the food gets
+          lighter and lowers the kidney-stone risk going dry. No enemas, no
+          colonics, and no liver flush unless your motility has truly failed.{" "}
+          <em>
+            What the evidence says: citrate salts cut stone recurrence in
+            trials that used modest daily doses for years (Phillips 2015); at
+            laxative doses magnesium pulls water and electrolytes, and toxicity
+            is documented when the kidneys could not clear it (Bokhari 2018).
+            Colon cleansing has no supporting trials and documented harms
+            (Acosta and Cash 2009). The week at a higher dose is my practice,
+            not a trial result.
+          </em>
         </div>
         <div className="question-item">
           <span className="question-label">Carb juicing to hydrate<Tag>Food</Tag></span>
           Real hydration is more than water. The carbohydrates in fresh juice help
           your body hold water and carry minerals and vitamins into the cells, so
-          carb juicing is the ideal way to hydrate in. The one exception is the
-          ketogenic path: if you are cleared for a keto prep, stay on water and
-          electrolytes instead.
+          carb juicing is the ideal way to hydrate in, and the last day before
+          the fast is juice only. The one exception is the ketogenic path: if
+          you are cleared for a keto prep, stay on water and electrolytes
+          instead.
         </div>
         <div className="question-item">
           <span className="question-label">Whole-food taper, plant-based or keto<Tag>Food</Tag></span>
-          Build the high-metabolism baseline the fast works against.
+          Build the high-metabolism baseline the fast works against, and eat
+          light into it: no oils, no meat, nothing hard to digest for the last
+          one to two days.
         </div>
       </div>
 
@@ -177,7 +193,11 @@ export default function StarterKitPage() {
           sourcing, the timing, and whether a given lever is even right for your
           case. Inside the portal, I turn this into your sheet: I set your doses,
           strike what is not for you and tell you why, add how-to notes, and
-          help you source the harder items.
+          help you source the harder items. Not everyone runs T3: if you come
+          out of the fast running hot, holding your weight and feeling great,
+          you skip that cycle. And hGH is not the automatic next step; it enters
+          around the third cycle, on top of T3, only when two cycles of fasting
+          plus T3 were not enough.
         </p>
       </div>
 
@@ -202,7 +222,7 @@ export default function StarterKitPage() {
         <PhaseTease
           title="Rebuild"
           items={[
-            ["hGH", "the rebuild signal, and the preferred base"],
+            ["hGH", "the rebuild signal and the preferred base, added on top of T3 around the third cycle, for at least three to six months"],
             ["Thymalin", "rebuilds the immune system after the fast"],
             ["Fluconazole", "antifungal for specific cases"],
             ["Testosterone", "the final lever, only after the earlier cycles are done"],
@@ -246,6 +266,29 @@ export default function StarterKitPage() {
           never a target to chase.
         </em>
       </p>
+
+      <ReferencesSection
+        refs={[
+          {
+            citation:
+              "Phillips R, Hanchanale VS, Myatt A, Somani B, Nabi G, Biyani CS. Citrate salts for preventing and treating calcium containing kidney stones in adults. Cochrane Database Syst Rev, 2015;(10):CD010057. PMID 26439475. DOI 10.1002/14651858.CD010057.pub2.",
+            href: "https://doi.org/10.1002/14651858.CD010057.pub2",
+            note: "pooled trials of citrate salts in recurrent stone formers: markedly fewer new stones than placebo over one to four years at modest daily doses",
+          },
+          {
+            citation:
+              "Bokhari SR, Siriki R, Teran FJ, Batuman V. Fatal hypermagnesemia due to laxative use. Am J Med Sci, 2018;355(4):390-395. PMID 29661354. DOI 10.1016/j.amjms.2017.08.013.",
+            href: "https://doi.org/10.1016/j.amjms.2017.08.013",
+            note: "a death from magnesium laxative use in a woman with normal kidney function, serum magnesium climbing within two days",
+          },
+          {
+            citation:
+              "Acosta RD, Cash BD. Clinical effects of colonic cleansing for general health promotion: a systematic review. Am J Gastroenterol, 2009;104(11):2830-2836. PMID 19724266. DOI 10.1038/ajg.2009.494.",
+            href: "https://doi.org/10.1038/ajg.2009.494",
+            note: "no methodologically rigorous trials support colonic cleansing for health, multiple case series of harm",
+          },
+        ]}
+      />
     </>
   );
 }
@@ -271,7 +314,7 @@ function PhaseTease({ title, items }: { title: string; items: [string, string][]
             </span>
             <span>
               <strong>{name}</strong>
-              <span style={{ opacity: 0.85 }}> — {why}</span>
+              <span style={{ opacity: 0.85 }}>: {why}</span>
             </span>
           </li>
         ))}

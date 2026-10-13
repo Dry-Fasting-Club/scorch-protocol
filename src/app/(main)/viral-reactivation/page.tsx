@@ -831,13 +831,15 @@ export default function ViralReactivationPage() {
           For deeper context on the refeed itself, see the{" "}
           <a href="/refeeding">Phase 3: The Refeed</a> page. For T3 dosing,
           see <a href="/t3-therapy">T3 Therapy</a>. For protocol entry
-          decisions based on baseline temperature and viral history, see the{" "}
+          decisions (fast first, with T3 first only for the person fasting has
+          already failed) and the viral-history branch, see the{" "}
           <a href="/decision-tree">Decision Logic Tree</a>.
         </p>
         <p>
-          Once this window has closed and you are in the long gap before the
-          next cycle, the standing daily stack that holds the ground the fast
-          took is on the{" "}
+          Once this window has closed and you are in the eating weeks before
+          the next cycle (a cycle being a fast, a refeed and a 30-day T3
+          course, with the next fast seven days after the T3 course ends), the
+          standing daily stack that holds the ground the fast took is on the{" "}
           <Link href="/between-fasts">Between Fasts</Link> page.
         </p>
       </div>

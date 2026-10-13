@@ -96,14 +96,14 @@ The Scorch Protocol is a three-phase metabolic recovery sequence that targets al
 
 ### Phase 1: Dry Fasting (the Reset)
 
-Extended dry fasting (5-9 days, under proper preparation and progression) triggers a depth of autophagy and immune activation that no other intervention reaches. The mechanism is covered in detail in [the dry fasting complete guide](/blog/dry-fasting-complete-guide), but the relevant effects for chronic Lyme are:
+Extended dry fasting (five days under proper preparation and progression, longer only once five is very comfortable) triggers a depth of autophagy and immune activation that no other intervention reaches. The mechanism is covered in detail in [the dry fasting complete guide](/blog/dry-fasting-complete-guide), but the relevant effects for chronic Lyme are:
 
 - Activation of *virophagy* through the hyperosmotic autophagy pathway that reaches intracellular viral reservoirs and persister forms of pathogens
 - NK cell cytotoxicity surge that targets exactly the immune deficit found across ME/CFS, Long Covid, and chronic Lyme populations ([Baraniuk et al., 2024 — CD8 T-cell exhaustion and persistent NK cell deficits in ME/CFS](https://pubmed.ncbi.nlm.nih.gov/39483457/), *Frontiers in Immunology*)
 - Cytokine shift from pro-inflammatory (IL-6, TNF-α) to anti-inflammatory (IL-10)
 - Gut healing through epithelial sloughing and protected stem cell crypt regeneration
 
-For chronic Lyme patients with multi-year illness duration and high co-infection burden, the 5-day fast is often insufficient. The 7-day to 9-day range is frequently required, but only after building tolerance through shorter fasts (3-day → 5-day → 7-day → 9-day progression).
+For chronic Lyme patients with multi-year illness duration and high co-infection burden, a 5-day fast is sometimes not enough, and in Yannick's experience the best results then come from the 7-day to 9-day range, but only once five days is very comfortable. The protocol itself is capped at five.
 
 ### Phase 2: T3 Therapy (the Cellular Restart)
 
@@ -130,7 +130,7 @@ Chronic Lyme recovery on the Scorch Protocol follows the same general arc as Lon
 
 - **Months 0-1** (preparation): dietary preparation, baseline labs, sourcing protocol materials, beginning shorter fasts to build tolerance, addressing acute Lyme markers if present
 - **Months 1-3** (first significant fasts + T3 initiation): the first 5-7 day fast under proper preparation, T3 therapy begun, initial symptom reduction, common Herxheimer window in weeks 1-2 post-fast as co-infection and viral debris clear
-- **Months 3-6** (refeeding + hGH phase): gradual caloric ascent under T3 support, hGH layered in, body temperature begins normalizing, joint and migrating pain often among the first to fully resolve
+- **Months 3-6** (refeeding and further cycles): gradual caloric ascent under T3 support, hGH considered around the third cycle only if the first two have not done enough, body temperature begins normalizing, joint and migrating pain often among the first to fully resolve
 - **Months 6-12** (consolidation): additional fasts if needed for severe co-infection burden, full caloric and metabolic restoration, energy floor sustainably elevated
 - **Months 12-18** (in severe long-duration cases): structural neurological recovery completes; cognitive symptoms and lasting peripheral neuropathy among the last to fully resolve
 

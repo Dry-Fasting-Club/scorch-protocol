@@ -21,7 +21,9 @@ excerpt: "The Scorch Protocol is not one-size-fits-all. The right entry point de
 
 ## The Short Answer
 
-The Scorch Protocol's standard sequence is dry fasting → T3 therapy → refeeding plus hGH → rotation. For most chronic illness patients, this sequence is the right entry point. For specific patient profiles, the sequence is modified: severely depleted patients with very low basal body temperature start with T3 first; very mildly affected patients may not need the full protocol; patients with active acute infections need to address those first. The decision tree below walks through the entry points based on your specific profile and the signals that point to each path.
+The Scorch Protocol runs in cycles: dry fast → refeed → a 30-day T3 course if the fast leaves a metabolic slowdown behind → seven days off → the next fast. For most chronic illness patients, fast first is the right entry point. For specific patient profiles, the sequence is modified: people who have already been fasting, pushing through, and getting worse each time, with metabolic signs such as a very low basal body temperature, start with T3 first; people who come out of a fast running hot, holding their weight and feeling great skip the T3 course; patients with active acute infections need to address those first. hGH is an add-on around the third cycle, only if the first two cycles have not done enough. The decision tree below walks through the entry points based on your specific profile and the signals that point to each path.
+
+**Update, October 2026.** Earlier versions of this tree made basal temperature the entry rule by itself and placed hGH as a standard phase. Over time the data showed that the people who need T3 before a fast are the ones whose fasts have already failed, and that hGH belongs only where fasting and T3 cycles are still not enough. The temperature paths below are kept as a map of who tends to struggle; read them with that in mind.
 
 ## The Baseline Tracking Required Before Any Decision
 
@@ -58,7 +60,7 @@ This is the single most important branch point in the decision tree.
 
 This is the relatively rare profile for a chronic illness patient seeking the Scorch Protocol; it means your metabolic floor has not significantly dropped. The protocol may still be appropriate but the entry sequence is unmodified.
 
-**Standard entry:** Preparation → first dry fast → T3 if needed → refeeding plus hGH if appropriate.
+**Standard entry:** Preparation → first dry fast → refeed → T3 course if needed → seven days → next fast.
 
 The right entry point in this profile is the protocol overview in [the Long Covid Recovery guide](/blog/long-covid-recovery-guide) or the chronic illness guide most matching your symptom profile.
 
@@ -66,23 +68,23 @@ The right entry point in this profile is the protocol overview in [the Long Covi
 
 This is the most common profile for the Scorch Protocol's target chronic illness population. The metabolic floor has dropped meaningfully but not into the lost-cause range. The standard protocol sequence applies.
 
-**Standard entry:** Preparation → first dry fast → T3 → refeeding plus hGH → rotation.
+**Standard entry:** Preparation → first dry fast → refeed → T3 course if the fast leaves a slowdown behind → seven days → next fast.
 
 The right entry point is the chronic illness guide most matching your symptom profile, then the [preparation page](/preparation), then [the dry fasting complete guide](/blog/dry-fasting-complete-guide).
 
 ### Path C: Basal temperature 95-95.9°F
 
-This is the "borderline" cohort. The metabolic floor has dropped substantially. Most patients in this range will benefit from T3 first to raise the foundation before attempting extended fasting.
+This is the "borderline" cohort. The metabolic floor has dropped substantially. Fast first still applies here, with close tracking; T3 first is for the patient in this range whose fasts have already been pushed through and have made them worse.
 
-**Modified entry:** Preparation → T3 therapy first → short fast tolerance building → standard sequence once temperature stabilizes above 96°F.
+**Modified entry (only after fasting has failed):** Preparation → T3 therapy first → short fast tolerance building → standard sequence once temperature stabilizes above 96°F.
 
 The right entry point is [the T3 therapy complete guide](/blog/t3-therapy-complete-guide) and the chronic illness guide most matching your symptom profile.
 
 ### Path D: Basal temperature below 95°F
 
-This is the "over-adapted" or "lost-cause fasting" profile. The metabolic floor has dropped into territory where attempting an extended fast at the current baseline is more likely to produce symptoms than therapeutic benefit. T3 therapy first is mandatory; the protocol sequence is meaningfully modified.
+This is the "over-adapted" or "lost-cause fasting" profile. The metabolic floor has dropped into territory where attempting an extended fast at the current baseline is more likely to produce symptoms than therapeutic benefit. If this is you and you have already been fasting and getting worse, T3 first is the call and the protocol sequence is meaningfully modified; if you have never fasted, start with short fasts and track closely.
 
-**Modified entry:** Extended preparation → T3 therapy first → very gradual tolerance building → first 5-day fast only after temperature stabilizes above 96°F.
+**Modified entry (only after fasting has failed):** Extended preparation → T3 therapy first → very gradual tolerance building → first 5-day fast only after temperature stabilizes above 96°F.
 
 The right entry point is [the 5-year ME/CFS protocol walkthrough](/blog/me-cfs-5-year-protocol-walkthrough) which covers this modified sequence in detail, and [the T3 therapy complete guide](/blog/t3-therapy-complete-guide).
 
@@ -92,19 +94,19 @@ After the temperature decision, illness duration shapes the rest of the path.
 
 ### Less than 1 year
 
-Shorter illness duration is associated with faster and more complete recovery. A 5-day dry fast plus one T3 cycle frequently completes recovery for this cohort if the basal temperature is above 96°F and no significant co-infections are involved.
+Shorter illness duration is associated with faster and more complete recovery. A single cycle, a 5-day dry fast, the refeed, and one T3 course if the fast leaves a slowdown behind, frequently completes recovery for this cohort when no significant co-infections are involved.
 
 The right entry point is the chronic illness guide most matching your symptom profile, then [the dry fasting complete guide](/blog/dry-fasting-complete-guide). Plan for a shorter protocol arc; you may not need the full rebuild phase.
 
 ### 1-5 years
 
-The middle range. The standard protocol arc applies: multiple T3 cycles, hGH layering during rebuild, 9-18 month timeline for substantial recovery.
+The middle range. The standard protocol arc applies: multiple cycles, hGH added around the third cycle only if the first two have not done enough, 9-18 month timeline for substantial recovery.
 
 The right entry point is the chronic illness guide most matching your symptom profile, then the standard protocol sequence.
 
 ### 5-10 years
 
-The longer-duration cohort. Multiple dry fast cycles often required, often including 7-day or 9-day fasts after building tolerance. The rebuild phase is longer; hGH cycles may need to be longer or more frequent.
+The longer-duration cohort. Multiple dry fast cycles often required; some in this cohort get their best results from 7-day or 9-day fasts once five days is very comfortable. The rebuild phase is longer; where hGH is warranted it runs three to six months before weaning off.
 
 The right entry point is [the ME/CFS Recovery guide](/blog/me-cfs-recovery-guide) (the framing best matches long-duration cases), the [5-year ME/CFS protocol walkthrough](/blog/me-cfs-5-year-protocol-walkthrough), and the standard protocol sequence with extended timeline expectations.
 
@@ -156,7 +158,7 @@ The decision tree is hierarchical: temperature is the strongest signal, then ill
 
 For example: a 3-year Long Covid patient with basal temperature 94.5°F and active MCAS would be:
 
-- Temperature 94.5°F → Path D (T3 first, modified sequence)
+- Temperature 94.5°F → Path D (T3 first if fasting has already failed, otherwise fast first with close tracking)
 - Illness duration 3 years → standard protocol arc
 - Active MCAS → MCAS-specific refeed modifications
 - No absolute contraindications

@@ -47,7 +47,7 @@ Khoroshilov's clinical work on dry fasting documents that metabolic and ketone m
 
 This is not a precise measurement (autophagic flux is hard to quantify in living patients), but the directional claim is consistent across the clinical data. The compression matters because it makes extended autophagic depths clinically usable. A 27-day water fast carries enormous logistical, social, and physiological burdens. A 9-day dry fast accesses comparable depth in a window short enough for a sick patient to complete with appropriate supervision.
 
-The compression has limits. Danger from dry fasting rises exponentially with duration, not linearly. A 9-day dry fast is dramatically harder on the body than two 5-day dry fasts spaced apart. This is why the protocol uses a progression (3-day → 5-day → 7-day → 9-day) and almost never recommends going past 9 days for any patient, regardless of severity.
+The compression has limits. Danger from dry fasting rises exponentially with duration, not linearly. A 9-day dry fast is dramatically harder on the body than two 5-day dry fasts spaced apart. This is why the protocol builds up to five days and caps there, because five days dry is still safe at home; seven to nine days is an extension for those very comfortable at five, and nothing past 9 days is recommended for any patient, regardless of severity.
 
 ## The Third Difference: Cortisol and Norepinephrine Surge
 
@@ -88,7 +88,7 @@ The right fast depends on your goal:
 
 **For mild chronic illness without significant viral or pathogen reservoirs:** a 3-day to 5-day water fast may be appropriate, possibly combined with T3 therapy in the Scorch Protocol framework.
 
-**For moderate to severe chronic illness with significant viral reactivation, persister-form pathogen burden, or persistent tissue damage:** extended dry fasting is what reaches the damage other interventions cannot. The 5-day to 9-day range is the clinical working window. Progression matters; do not start with extended dry fasts.
+**For moderate to severe chronic illness with significant viral reactivation, persister-form pathogen burden, or persistent tissue damage:** extended dry fasting is what reaches the damage other interventions cannot. Five days is the working window; some people get their best results from seven to nine days once five is very comfortable. Progression matters; do not start with extended dry fasts.
 
 **For specific clinical conditions:**
 
@@ -114,7 +114,7 @@ The differentiating mechanisms are the hyperosmotic autophagy pathway and the co
 
 ### Is dry fasting safe?
 
-In appropriate patients with proper preparation and progression, dry fasting is well-tolerated up to 9 days. In inappropriate patients (severe kidney disease, severe heart disease, untreated diabetes, MCAS at peak reactivity, pregnancy) or with poor preparation, it is genuinely dangerous. The [is dry fasting safe?](/blog/is-dry-fasting-safe) article covers the practical safety in detail.
+In appropriate patients with proper preparation and progression, dry fasting is well-tolerated for five days, and for some experienced fasters up to 9. In inappropriate patients (severe kidney disease, severe heart disease, untreated diabetes, MCAS at peak reactivity, pregnancy) or with poor preparation, it is genuinely dangerous. The [is dry fasting safe?](/blog/is-dry-fasting-safe) article covers the practical safety in detail.
 
 ### Can I switch from dry to water mid-fast?
 

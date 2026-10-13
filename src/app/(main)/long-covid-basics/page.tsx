@@ -402,7 +402,8 @@ export default function LongCovidBasicsPage() {
           </li>
           <li>
             <a href="/hgh-therapy">hGH therapy</a> rebuilds tissue at the
-            structural level once the inflammation has cleared.
+            structural level, added on top of T3 around the third cycle when
+            two cycles of fasting plus T3 were not enough.
           </li>
         </ul>
         <p>
@@ -419,8 +420,9 @@ export default function LongCovidBasicsPage() {
           should be.
         </p>
         <p>
-          Once you have completed a cycle, the standing daily stack for the
-          long gap before the next fast is on the{" "}
+          Once you have completed a cycle (a fast, a refeed and a 30-day T3
+          course, with the next fast seven days after the T3 course ends), the
+          standing daily stack for the eating weeks between fasts is on the{" "}
           <Link href="/between-fasts">Between Fasts</Link> page.
         </p>
       </div>

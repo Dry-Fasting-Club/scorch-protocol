@@ -24,7 +24,7 @@ const dryFastStages = `graph LR
   D1 --> D2["Day 2<br/>Acidosis onset<br/>Ketones ramping<br/>Hunger fades"]
   D2 --> D3["Day 3<br/>ACIDOTIC CRISIS<br/>pH 7.40 → 7.34<br/>Parasympathetic flip<br/>The hard wall"]
   D3 --> D4["Day 4-5<br/>Deep repair phase<br/>Healing fever<br/>Mental clarity<br/>Stem cells active"]
-  D4 --> D7["Day 7-9 (optional)<br/>2nd ACIDOTIC CRISIS<br/>pH drops further<br/>Biofilms melt<br/>Nuclear-option zone"]
+  D4 --> D7["Day 7-9 (extension)<br/>2nd ACIDOTIC CRISIS<br/>pH drops further<br/>Deeper immune reset<br/>Only once 5 days is very comfortable"]
 
   style D0 fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
   style D1 fill:#713f12,stroke:#eab308,stroke-width:2px,color:#fde047
@@ -43,8 +43,11 @@ export default function DryFastingPage() {
       <KeyTakeaways points={[
         "Build up gradually: start with 36 hours, then 72 hours, then 5 days dry. Do not jump straight to a long fast.",
         "The full protocol is 5 days dry followed by 5 days water (not food). Never reverse that order.",
+        "Five days dry is the cap because five days is still safe to do at home. Once you are very comfortable with it you can extend a little; some people get their best results from seven to nine days. The deeper the fast, the more aggressive the immune reset, and in my observation the more allergic and autoimmune clearing.",
         "Day 3 is the hard wall (acidotic crisis). Days 4 to 5 are where deep repair and stem cell activity happen.",
+        "Feeling worse mid-fast: go on walks, do massages, move the whole system. If it starts to feel really bad, or the pain is excruciating, break the fast. While heart rate, temperature, blood pressure and urination look fine, you can continue.",
         "Stop immediately if your resting heart rate goes above 120 bpm, you stop urinating for more than 12 hours, you feel confused or get blurry vision, or you develop kidney pain or leg swelling.",
+        "A cycle is a fast, a refeed and, if the refeed shows a metabolic slowdown, a 30-day T3 course. The next fast opens seven days after the T3 course ends. Fast first, always; T3 before the fast is only for the person fasting has already failed.",
         "Refeeding starts with plain water, about a cup an hour for the first four hours, then kompot. Coconut water waits for day 2. Eating too much too fast is dangerous.",
         "No T3 during the fast. You finish the dry and water fast clean, keep antiviral coverage running through the refeed, and T3 therapy only begins after the first 7 days of refeeding.",
       ]} />
@@ -140,9 +143,50 @@ export default function DryFastingPage() {
       </table>
       <p>
         <em>
-          Between Fasts: Wait 5 to 10 days while eating normally to recover.
+          Between the build-up fasts: wait a week or so while eating normally
+          before the next step up. Once you are running the full protocol, the
+          rhythm is a cycle: a fast, a refeed and, if the refeed shows a
+          metabolic slowdown, a 30-day T3 course, with the next fast opening
+          seven days after the T3 course ends.
         </em>
       </p>
+
+      <div className="guiding-questions box-info">
+        <h3>How Deep: Five Days Is the Cap, Not a Wall</h3>
+        <p>
+          I cap the Scorch Protocol at five days dry because five days is still
+          safe to do at home, and it does get a bit difficult by then. Once you
+          are very comfortable with five, you can try to extend it a little
+          longer. Some people get their best results from a seven-to-nine-day
+          fast. The deeper you go, the more aggressive the immune reset, and in
+          my observation the deeper fasts clear more of the allergic and
+          autoimmune load that drives so much chronic illness. The margin
+          narrows with every day past five, so this is an extension you earn
+          with comfortable five-day fasts behind you, not a target you set from
+          the start.
+        </p>
+        <p>
+          <em>
+            What the evidence says: the measured dry-fasting literature stops
+            at day five. Khoroshilov&rsquo;s thesis studied six healthy men for
+            68 hours and his own method is a dry start of one to three days by
+            individual tolerance, then water fasting (Khoroshilov 1994); the two
+            Athens studies took twenty healthy,
+            unmedicated adults through five dry days with a physician checking
+            bloods daily, and their authors call medical supervision obligatory
+            (Papagiannopoulos 2013; Papagiannopoulos-Vatopaidinos 2020), so
+            &ldquo;safe at home&rdquo; is my judgement, not theirs. Nothing
+            measures a human past day five without water, and no study
+            compares five against seven to nine days on any immune or clinical
+            endpoint; the one published harm report from a multi-day dry fast
+            is kidney failure on day four, alone, in a single conference
+            abstract (Philip 2026). The deeper immune reset and the
+            allergic and autoimmune clearing are my observation; the
+            regeneration science behind the idea comes from water-type fasting
+            cycles, mostly in mice (Cheng 2014).
+          </em>
+        </p>
+      </div>
 
       <h2>Step 3: The Dry Fast (The Scorch)</h2>
       <p>
@@ -156,7 +200,7 @@ export default function DryFastingPage() {
       <div style={{ margin: "1.5rem 0" }}>
         <MermaidCharts charts={[dryFastStages]} />
         <p style={{ fontSize: "0.9rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic", textAlign: "center" }}>
-          The full arc of a dry fast. Day 3 is the hard wall (acidotic crisis); Days 4&ndash;5 are where the deep repair lives. The optional second crisis at Day 7&ndash;9 is the nuclear-option zone for biofilm-protected chronic illness.
+          The full arc of a dry fast. Day 3 is the hard wall (acidotic crisis); Days 4 to 5 are where the deep repair lives. Five days is the cap I set because it is still safe at home. Days 7 to 9 are the extension some people reach once five days is very comfortable, and where, in my observation, the deeper immune reset and the allergic and autoimmune clearing show up.
         </p>
       </div>
 
@@ -197,6 +241,22 @@ export default function DryFastingPage() {
           per day), heart rate, and the coating on your tongue.
         </li>
       </ul>
+
+      <div className="guiding-questions box-warning">
+        <h3>Feeling Worse: Push Through or Stop?</h3>
+        <p>
+          Feeling worse partway through is the normal texture of a dry fast,
+          and the first response is movement, not panic: go on walks, do
+          massages, move the whole system. The protocol has a few hacks for
+          this, and the organ massage and walking notes on the{" "}
+          <a href="/tips-and-tricks">Tips and Tricks</a> page are the ones I
+          reach for first. The rule from there is simple. If it starts to feel
+          really bad, break the fast. If the pain is excruciating, break the
+          fast. As long as you are tracking heart rate, temperature, blood
+          pressure and urination and they look fine, you can continue. The red
+          flags below are the hard stops that override all of this.
+        </p>
+      </div>
 
       <div className="guiding-questions box-danger">
         <h3>When to Stop Immediately (Red Flags)</h3>
@@ -315,9 +375,23 @@ export default function DryFastingPage() {
         T3 therapy does not start until{" "}
         <strong>after the first 7 days of refeeding</strong>. The body needs to
         be eating again, rehydrated, and metabolically back online before you
-        add the T3 signal. Once that first week of refeeding is behind you, the
-        T3 climb, hold, and taper run exactly as laid out on the{" "}
-        <a href="/t3-therapy">T3 Therapy</a> page.
+        add the T3 signal. That first week is also when you learn whether this
+        cycle needs T3 at all. Running hot, holding your weight and feeling
+        great: you skip it. Cold, weight stuck, the old symptoms still there:
+        that is the metabolic slowdown T3 is for, and the 30-day course runs on
+        the Wilson&rsquo;s pattern (ramp, hold, taper) as laid out on the{" "}
+        <a href="/t3-therapy">T3 Therapy</a> page. Seven days after the course
+        ends, the next fast opens.
+      </p>
+      <p>
+        <em>
+          What the evidence says: the judgement of who needs T3 after the fast,
+          and the T3-first exception, are my clinical rules. The literature has
+          no published criterion for who needs T3 after a fast; the nearest
+          objective candidate is the low free T3 and high reverse T3 pattern
+          measured in chronic fatigue patients (Ruiz-Nunez 2018), which is a
+          blood test, not the screen I use.
+        </em>
       </p>
 
       <h2>Step 4: Breaking the Fast (Refeeding)</h2>
@@ -373,9 +447,11 @@ export default function DryFastingPage() {
           still not started.
         </li>
         <li>
-          <strong>After Day 7:</strong> Begin T3 therapy. See the{" "}
-          <a href="/t3-therapy">T3 Therapy</a> page for the climb, hold, and
-          taper.
+          <strong>After Day 7:</strong> Decide on T3. If the fast left you
+          running hot, holding your weight and feeling great, you skip it this
+          cycle. If the metabolic slowdown is there, begin the 30-day T3
+          course. See the <a href="/t3-therapy">T3 Therapy</a> page for the
+          ramp, hold, and taper.
         </li>
       </ul>
 
@@ -397,6 +473,13 @@ export default function DryFastingPage() {
           protocol fasting block. Deep cellular restructuring followed by a
           supercharged water fast that carries straight into a guided refeed.
           This is the definitive version.
+        </li>
+        <li>
+          <strong>7 to 9 Days Dry (the extension):</strong> For people who are
+          already very comfortable with five days. The second acidotic crisis,
+          a more aggressive immune reset, and in my observation more clearing
+          of the allergic and autoimmune load. The refeed discipline rises with
+          every extra day.
         </li>
       </ul>
 
@@ -445,6 +528,35 @@ export default function DryFastingPage() {
           {
             citation: "Cahill GF Jr. Starvation in Man. New England Journal of Medicine, 1970.",
             note: "the day-by-day starvation metabolic timeline (glycogen → gluconeogenesis → ketosis)",
+          },
+          {
+            citation:
+              "Khoroshilov IE. Clinical and hygienic aspects of absolute (dry) fasting. Author's abstract of a Candidate of Medical Sciences thesis, Military Medical Academy, St Petersburg, 1994 (abridged English translation, Siberika Publishing, 2020).",
+            note: "six healthy men fasted 68 hours without food or water: a 2 to 4 percent fluid deficit, no rhythm disturbance, the acidotic switch around day three; the author's own method is a dry start of one to three days by individual tolerance, then water fasting, and nothing in it measures a fourth day",
+          },
+          {
+            citation:
+              "Papagiannopoulos-Vatopaidinos IE, Papagiannopoulou M, Sideris V. Dry fasting physiology: responses to hypovolemia and hypertonicity. Complement Med Res, 2020;27(4):242-251. PMID 31958788. DOI 10.1159/000505201.",
+            href: "https://doi.org/10.1159/000505201",
+            note: "ten healthy, unmedicated adults through five dry days under daily medical measurement: compensated hypovolaemia, cortisol and uric acid sharply up, and the authors' own statement that supervision is obligatory and the method is limited to a few days",
+          },
+          {
+            citation:
+              "Philip R, Shahid R, Rehman S, Jussa M, Rao HS, Philip M. Severe dialysis disequilibrium following an extreme dry fast: hypernatremic dehydration and rhabdomyolysis leading to multiorgan failure. Am J Respir Crit Care Med, 2026;212(Suppl 1), ATS conference abstract A51-43. DOI 10.1093/ajrccm/aamag162.4785.",
+            href: "https://academic.oup.com/ajrccm/article/212/Supplement_1/aamag162.4785/8684721",
+            note: "the one published harm report from a multi-day dry fast: oliguric kidney injury with rhabdomyolysis after four days alone; a single conference abstract with unknown confounders",
+          },
+          {
+            citation:
+              "Cheng CW, Adams GB, Perin L, et al. Prolonged fasting reduces IGF-1/PKA to promote hematopoietic-stem-cell-based regeneration and reverse immunosuppression. Cell Stem Cell, 2014;14(6):810-823. PMID 24905167. DOI 10.1016/j.stem.2014.04.014.",
+            href: "https://doi.org/10.1016/j.stem.2014.04.014",
+            note: "the immune-regeneration finding behind the 'immune reset' idea: 48 to 72 hour fasting cycles in mice drove stem-cell self-renewal; water-type fasting, mostly in mice, with no comparison of dry-fast depth",
+          },
+          {
+            citation:
+              "Ruiz-Nunez B, Tarasse R, Vogelaar EF, Janneke Dijck-Brouwer DA, Muskiet FAJ. Higher Prevalence of \"Low T3 Syndrome\" in Patients With Chronic Fatigue Syndrome: A Case-Control Study. Front Endocrinol (Lausanne), 2018;9:97. PMID 29615976. DOI 10.3389/fendo.2018.00097.",
+            href: "https://doi.org/10.3389/fendo.2018.00097",
+            note: "the nearest thing to a published criterion for who might need T3 after a fast: chronic fatigue patients carried lower free T3 and total T3 and more reverse T3 than matched controls at a similar TSH; a blood pattern, not the screen used here",
           },
         ]}
       />

@@ -20,7 +20,7 @@ excerpt: "The honest answer to whether dry fasting is safe is: it depends. Done 
 
 ## The Short Answer
 
-Dry fasting is safe in appropriate patients with proper preparation and progression, and genuinely dangerous in inappropriate patients or without preparation. The honest assessment is conditional, not binary. This article covers who can safely do dry fasting, who absolutely should not, what proper preparation looks like, and the warning signs that mean stop the fast immediately. The protocol structure (3-day → 5-day → 7-day → 9-day progression) exists specifically to build tolerance and identify the minimum effective dose before extending.
+Dry fasting is safe in appropriate patients with proper preparation and progression, and genuinely dangerous in inappropriate patients or without preparation. The honest assessment is conditional, not binary. This article covers who can safely do dry fasting, who absolutely should not, what proper preparation looks like, and the warning signs that mean stop the fast immediately. The protocol structure (3-day → 5-day progression, capped at five days because five days dry is still safe at home, with longer fasts only once five is very comfortable) exists specifically to build tolerance and identify the minimum effective dose before extending.
 
 ## Absolute Contraindications (Do Not Dry Fast)
 
@@ -53,11 +53,11 @@ The following conditions require special care but do not absolutely preclude dry
 
 The most common causes of dry fasting going wrong, in approximate order of frequency:
 
-**Inadequate preparation.** The single biggest source of bad outcomes. Patients who attempt extended dry fasting without progressing through shorter fasts, without the colon cleanse/liver flush preparation step, without dietary preparation (typically a clean nutrient-dense diet for several weeks pre-fast), and without keto-adaptation to make ketosis transitions easier. Most of the "day 3 crisis" stories on fasting forums are preparation failures, not fast failures.
+**Inadequate preparation.** The single biggest source of bad outcomes. Patients who attempt extended dry fasting without progressing through shorter fasts, without the light-eating preparation step (no oils or meat for two days, juicing only on the last day), without dietary preparation (typically a clean nutrient-dense diet for several weeks pre-fast), and without keto-adaptation to make ketosis transitions easier. Most of the "day 3 crisis" stories on fasting forums are preparation failures, not fast failures.
 
 **Wrong patient profile.** Patients who fit one of the absolute contraindications above but attempt the fast anyway, often because they did not realize the contraindication applied or the information was not clearly communicated.
 
-**Exceeding the safe duration.** A 5-day fast in a body that should have stopped at 3 days. A 9-day fast in a body that has not built progression through 5-day and 7-day. The exponential danger curve past day 5 makes overreaching genuinely dangerous, not just uncomfortable.
+**Exceeding the safe duration.** A 5-day fast in a body that should have stopped at 3 days. Going past the five-day cap before five days is very comfortable. The exponential danger curve past day 5 makes overreaching genuinely dangerous, not just uncomfortable.
 
 **Overexertion during the fast.** Exercise, hot environments, even sustained mental stress can collapse the safe dehydration window. Dry fasting is for sedentary rest periods, not normal activity.
 
@@ -75,7 +75,9 @@ Pre-fast preparation typically takes 4-8 weeks for a first extended dry fast:
 
 **Shorter fast progression (4-8 weeks before).** Complete at least: one 24-hour water fast, one 48-hour water fast, ideally one 72-hour water fast, and one 24-48 hour dry fast before attempting a 5-day dry fast.
 
-**Colon cleanse / liver flush (1-2 weeks before).** Clearing stagnant bile and bowel contents pre-fast prevents the most common cause of bad start reactions.
+**Eat light, do not flush (the last week).** Magnesium citrate at a higher dose through the final week covers the kidney-stone risk; for the one to two days before the fast avoid oils, meat and anything hard to digest, and on the last day juice exclusively so there is as little in the colon as possible. Enemas are not necessary, and liver flushing is not recommended unless motility is so poor that food cannot be moved out; flushing is its own stressor on the body.
+
+**Update, October 2026.** There used to be a colon cleanse and liver flush in this step. Over time I found that the flushing was a big stressor stacked on top of the fast, and that eating light with magnesium citrate did the job without that cost, hence the change.
 
 **Medical clearance.** Baseline labs (CBC, comprehensive metabolic panel, thyroid panel) to identify contraindications. If any chronic medications need to be adjusted, plan this with the prescribing physician.
 
@@ -103,7 +105,7 @@ Day 3 of a dry fast should actually be easier than day 3 of a water fast, becaus
 
 If the cortisol surge is appropriate and the patient is prepared, day 3 is the energy switching transition: the body has fully committed to fat oxidation, ketones are high, mental clarity is often noticeably improved compared to days 1-2. This is the threshold past which the deeper therapeutic window opens.
 
-The patients who genuinely cannot tolerate day 3 even with proper preparation are usually patients with severe HPA dysfunction (cortisol surge absent), and the protocol for these patients is to start with T3 plus hGH therapy first to rebuild the metabolic foundation, then attempt fasting once the foundation is stable.
+The patients who genuinely cannot tolerate day 3 even with proper preparation are usually patients with severe HPA dysfunction (cortisol surge absent), and the protocol for these patients, once fasting has been tried and keeps making them worse, is to start with T3 first to rebuild the metabolic foundation, then attempt fasting once the foundation is stable; hGH is not part of that first step.
 
 ## When to Do Dry Fasting at a Retreat vs at Home
 

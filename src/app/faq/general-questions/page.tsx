@@ -20,7 +20,7 @@ const faqItems = [
   },
   {
     question: "Why do I need T3 therapy?",
-    answer: "Many people with chronic illness have a low-power metabolism; their body is in hibernation mode. T3 therapy helps restart the body's heater and gives cells the energy they need to heal. Without it, some people find they do not get better even with fasting.",
+    answer: "Not everyone does. T3 is for the person who comes out of the fast with a metabolic slowdown: cold, weight that will not come off, the old symptoms still there. Many people with chronic illness have that low-power, hibernation-mode metabolism, and T3 restarts the heater so cells have the energy to heal. If you run hot, hold your weight and feel great after the fast, you skip it. The long-term sufferer who has done many fasts and seen many doctors runs fast then T3 at least once to test the water, and weans off if it does little.",
   },
   {
     question: "What is \"Tissue-Level Resistance\"?",
@@ -40,7 +40,7 @@ const faqItems = [
   },
   {
     question: "Why do I need hGH therapy?",
-    answer: "Growth Hormone (hGH) is the signal that tells your body to rebuild. It helps build new, healthy cells and improves the immune system. hGH therapy is not necessary for everyone, but it can be extremely helpful because many chronic illnesses are associated with low hGH pituitary secretion. hGH is the preferred base (it is the actual hormone, so it needs nothing from your body, puts the least strain on the system, and gives the most benefit). If hGH is hard to access, CJC-1295 and Ipamorelin can be tried to help wake up your own pituitary, as an awakening aid rather than a full replacement.",
+    answer: "Growth Hormone (hGH) is the signal that tells your body to rebuild. It helps build new, healthy cells and improves the immune system. hGH therapy is not necessary for everyone. It enters around the third cycle, as an add-on to T3, when two cycles of fasting plus T3 were not enough (insulin resistance where food is not tolerated, extreme muscle loss, very bad sleep), and once started it runs for at least three to six months. Many chronic illnesses are associated with low hGH pituitary secretion. hGH is the preferred base (it is the actual hormone, so it needs nothing from your body, puts the least strain on the system, and gives the most benefit). If hGH is hard to access, CJC-1295 and Ipamorelin can be tried to help wake up your own pituitary, as an awakening aid rather than a full replacement.",
   },
   {
     question: "Can I drink water during a dry fast?",
@@ -52,7 +52,7 @@ const faqItems = [
   },
   {
     question: "How long does the whole protocol take?",
-    answer: "The fast may only last a few days, but full recovery including refeeding, metabolic reconstruction, and hormone therapy can take 6 to 12 months. Healing deep, chronic issues is a marathon, not a sprint. Sometimes symptoms may indicate that additional fasting blocks are necessary.",
+    answer: "The fast may only last a few days, but full recovery including refeeding, metabolic reconstruction, and hormone therapy can take 6 to 12 months. Healing deep, chronic issues is a marathon, not a sprint. The unit is the cycle: a fast, a refeed and a 30-day T3 course, with the next fast opening seven days after the T3 course ends. Sometimes symptoms may indicate that additional cycles are necessary.",
   },
   {
     question: "Where do I get slow-release T3, peptides, or hGH?",
@@ -82,11 +82,16 @@ export default function GeneralQuestionsPage() {
 
         <h3>2. Why do I need T3 therapy?</h3>
         <p>
-          Many people with chronic illness have a &ldquo;low-power&rdquo;
-          metabolism. Their body is in hibernation mode. T3 therapy helps
-          &ldquo;restart&rdquo; your body&rsquo;s heater and gives your cells
-          the energy they need to heal. Without it, some people find they
-          don&rsquo;t get better even with fasting.
+          Not everyone does. T3 is for the person who comes out of the fast
+          with a metabolic slowdown: cold, weight that will not come off, the
+          old symptoms still there. Many people with chronic illness have that
+          &ldquo;low-power,&rdquo; hibernation-mode metabolism, and T3 helps
+          &ldquo;restart&rdquo; the body&rsquo;s heater and gives your cells
+          the energy they need to heal. If you run hot, hold your weight and
+          feel great after the fast, you skip it. If you are the long-term
+          sufferer who has done many fasts and seen many doctors, run fast then
+          T3 at least once to test the water; if it does little, wean off and
+          you bounce back.
         </p>
 
         <h3>3. What is &ldquo;Tissue-Level Resistance&rdquo;?</h3>
@@ -136,10 +141,13 @@ export default function GeneralQuestionsPage() {
         <p>
           Growth Hormone (hGH) is the signal that tells your body to
           &ldquo;rebuild.&rdquo; hGH helps build new, healthy cells and
-          improves your immune system. It&rsquo;s the final step in the
-          advanced regeneration process. hGH therapy is not necessary for
-          everyone, but it can be extremely helpful considering many chronic
-          illnesses are associated with low hGH pituitary secretion.
+          improves your immune system. hGH therapy is not necessary for
+          everyone. It enters around the third cycle, as an add-on to T3, when
+          two cycles of fasting plus T3 were not enough: insulin resistance
+          where food is not tolerated, extreme muscle loss, very bad sleep.
+          Once started it runs for at least three to six months, and it can be
+          extremely helpful considering many chronic illnesses are associated
+          with low hGH pituitary secretion.
         </p>
         <HghAccessNote />
 
@@ -174,8 +182,10 @@ export default function GeneralQuestionsPage() {
           The fast may only last a few days, but the full
           recovery (including refeeding, metabolic reconstruction, and
           hormone therapy) can take <strong>6 to 12 months</strong>. Healing
-          deep, chronic issues is a marathon, not a sprint. Sometimes your
-          symptoms may indicate extra fasts being necessary.
+          deep, chronic issues is a marathon, not a sprint. The unit is the
+          cycle: a fast, a refeed and a 30-day T3 course, with the next fast
+          opening seven days after the T3 course ends. Sometimes your symptoms
+          may indicate extra cycles being necessary.
         </p>
 
         <h3>11. Where do I get slow-release T3, peptides, or hGH?</h3>

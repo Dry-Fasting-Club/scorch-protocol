@@ -96,9 +96,9 @@ The full Scorch Protocol recovery sequence for the post-2020 cohort is:
 
 **Step 2: Slow-release T3 reconstruction (the electricity).** Restore cellular ability to use carbohydrates, raise body temperature back to 98.6°F, restore enzymatic function across the body. Slow-release T3 (rather than standard T3) is used because the slow-release profile avoids the cortisol-spike-then-crash pattern that fast-release T3 produces in adrenal-fatigued patients. Read more at [the T3 therapy protocol page](/t3-therapy).
 
-**Step 3: Human growth hormone layered on the restored foundation (the rebuild).** Once carbohydrate tolerance has returned and the metabolic foundation is holding, hGH directs nutritional inputs into mitochondrial density rebuild, tissue repair, and cellular regeneration capacity. Read more at [the hGH therapy page](/hgh-therapy).
+**Step 3: Human growth hormone, only when the cycles are not enough (the rebuild).** Around the third cycle, if fasting and T3 have not done enough, especially with insulin resistance so deep that food is not tolerated, extreme muscle loss, or very poor sleep, hGH directs nutritional inputs into mitochondrial density rebuild, tissue repair, and cellular regeneration capacity. Read more at [the hGH therapy page](/hgh-therapy).
 
-**Step 4: Rotate.** Cycle back into dry fasting for cleanup, then back into T3 and hGH for rebuild. The rotation cadence is a clinical judgment, not a fixed schedule.
+**Step 4: Rotate.** A cycle is the fast, the refeed, and the 30-day T3 course when the fast leaves a metabolic slowdown behind. Finish the course, wait seven days, and go back into the next fast. People who come out running hot, holding their weight and feeling great skip the T3 course.
 
 The reason the Filonov tradition does not include T3 and hGH is not a clinical disagreement. It is a historical artifact: the Russian fasting medical infrastructure was codified before clinical T3 therapy (particularly slow-release T3) and before hGH therapy were standard tools in the chronic illness recovery toolkit. The foundational protocol is older than the additions required to make it work for the post-2020 cohort.
 
@@ -110,9 +110,9 @@ This is the honest part, because it is genuinely the right call for one specific
 
 **Green light, go to the retreat.** Basal body temperature 96°F or higher, extremely sick, Herxing strongly on shorter fasts, financial and logistical capacity. This patient has the metabolic reserve to complete recovery on the dry fasting layer alone. The retreat infrastructure makes the 9-day fast safer than attempting it at home, and the dry fasting tradition was built specifically for this profile. The Scorch Protocol routes this patient to the retreat in its own decision tree, no modification.
 
-**Yellow light, T3 first.** Basal body temperature 95°F to 96°F. This patient is borderline. The clinical recommendation is to start with T3 therapy first, raise the temperature, stabilize the metabolic foundation, then consider going to a retreat once temperature has come up. Attempting an extended fast at this baseline temperature risks triggering symptoms without producing the recovery effect, because the cellular machinery needed to respond to the fast is too suppressed.
+**Yellow light, watch the fast.** Basal body temperature 95°F to 96°F. This patient is borderline. The default is still fast first, tracked closely. If this patient has already been fasting, pushing through, and getting worse each time, the order flips: T3 first, raise the temperature, stabilize the metabolic foundation, then consider a retreat once temperature has come up. In Yannick's experience that is the patient whose cellular machinery is too suppressed to respond to the fast.
 
-**Red light, wrong tool.** Basal body temperature below 95°F. This is the "over-adapted" or "lost-cause fasting" threshold. The metabolic state is severe enough that dry fasting alone will not finish recovery for this patient, and may produce symptoms without producing therapeutic benefit. T3 reconstruction is mandatory first. Dry fasting can be reintroduced later, once temperature has stabilized in the high 97s, as part of the rotation phase of the protocol.
+**Red light, wrong tool.** Basal body temperature below 95°F. This is the "over-adapted" or "lost-cause fasting" threshold. The metabolic state is severe enough that dry fasting alone will not finish recovery for this patient, and may produce symptoms without producing therapeutic benefit. If this patient has already been fasting and getting worse, T3 reconstruction comes first; the failed-fasting history with metabolic signs is what flips the order. Dry fasting can be reintroduced later, once temperature has stabilized in the high 97s, as part of the rotation phase of the protocol.
 
 The pattern is straightforward: the right protocol depends on what is broken, not on which tradition you found first.
 
@@ -129,7 +129,7 @@ A practical diagnostic checklist before starting the rebuild:
 - Have symptoms gradually returned?
 - Is your basal body temperature now below 97°F?
 
-If yes to most of those, you are in the post-fast rebuild cohort, not the beginner cohort, and your protocol entry point is T3 reconstruction. The full execution is in [the T3 therapy protocol page](/t3-therapy), but the principle is: start slow-release T3 with careful titration, do not re-fast until temperature rises and stabilizes, layer growth hormone once carbohydrate tolerance returns and weight is rebuilt, then resume dry fasting cycles on a structured cadence once the foundation is in place.
+If yes to most of those, you are in the post-fast rebuild cohort, and your protocol entry point is the 30-day T3 course: you have fasted, the metabolic slowdown is showing, and that is exactly what the course is for. The full execution is in [the T3 therapy protocol page](/t3-therapy), but the principle is: run the T3 course with careful titration, finish it, wait seven days, and go back into the next fast. Growth hormone is an add-on around the third cycle, only if the cycles have not done enough.
 
 The mistake to avoid: do not push back into another long fast on a depleted base. The first fast worked because there was enough metabolic reserve to respond. A second fast on a depleted base will not produce the same effect and may worsen the metabolic state. The rebuild step is the prerequisite for any further fasting in this cohort.
 

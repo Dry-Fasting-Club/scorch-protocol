@@ -107,7 +107,7 @@ For immune support during the protocol, yes. For structural thymic rebuild, no. 
 
 ### How long does the hGH thymic rebuild take?
 
-The TRIIM trial used a one-year intervention. The Scorch Protocol typically uses cycled hGH (3-6 month cycles with off-cycles) over the rebuild phase, which covers approximately months 4-18 of the overall protocol. Substantial rebuild typically takes 9-18 months of cycled hGH use.
+The TRIIM trial used a one-year intervention. In the Scorch Protocol, hGH is an add-on that comes in around the third cycle, only if fasting and T3 have not done enough, and then runs for three to six months before weaning off; your own production takes about 30 days to come back. Some people need a second run later; the cycles decide it, not the calendar.
 
 ### Is the thymic regeneration permanent?
 

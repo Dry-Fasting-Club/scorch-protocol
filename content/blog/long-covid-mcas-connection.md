@@ -87,7 +87,7 @@ MCAS symptoms typically reduce progressively as the metabolic floor rises:
 
 - **Months 0-3** (pre-protocol stabilization + first fast): baseline reactivity managed by medication; first fast often produces a transient improvement window post-fast as inflammatory load drops
 - **Months 3-6** (T3 phase): cellular energy restoration begins reducing reactivity; many patients can begin tapering antihistamine doses
-- **Months 6-12** (refeeding + hGH): reactivity continues to fall as gut barrier integrity restores and regulatory mechanisms come back online
+- **Months 6-12** (refeeding and further cycles; hGH only if the cycles have not done enough): reactivity continues to fall as gut barrier integrity restores and regulatory mechanisms come back online
 - **Months 12-24** (consolidation): substantial MCAS resolution in most patients, allowing reintroduction of previously trigger foods, normal histamine tolerance, and discontinuation of mast cell medication
 
 The pattern is variable. Some patients clear MCAS completely; some retain a baseline reactivity that requires ongoing low-dose management.

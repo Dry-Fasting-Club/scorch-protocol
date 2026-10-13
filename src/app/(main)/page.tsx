@@ -158,7 +158,10 @@ export default function HomePage() {
             electrifying the body. We send a short, structured electrical signal
             flood of abundance and shock to the cells, convincing them to let T3
             back in and radically increase insulin sensitivity. This speeds up
-            healing that would normally take years.
+            healing that would normally take years. It is not for everyone who
+            fasts: if you come out of the fast running hot, holding your weight
+            and feeling great, you skip it. It is for the post-fast metabolic
+            slowdown.
           </p>
           <p className="pillar-outcome">
             <em>
@@ -176,7 +179,10 @@ export default function HomePage() {
             building flood.&rdquo; This phase focuses on a massive influx of
             calories and energy to signal abundance and regeneration. It can
             take months or even years, sometimes requiring much higher caloric
-            intake than ever before to force tissue rebuilding.
+            intake than ever before to force tissue rebuilding. It comes in
+            around the third cycle, on top of T3, when two cycles of fasting
+            plus T3 were not enough, and once started it runs for at least
+            three to six months.
           </p>
           <p className="pillar-outcome">
             <em>
@@ -520,7 +526,7 @@ export default function HomePage() {
       {/* ── HOW TO USE ── */}
       <h2>How to Use This System</h2>
       <p>
-        The sidebar is your navigation spine — each entry is a phase or topic
+        The sidebar is your navigation spine: each entry is a phase or topic
         with its own page of steps, safety checkpoints, and{" "}
         <strong>Guiding Questions</strong> to assess your readiness before
         moving forward. If you are unsure where to begin, start with the{" "}
@@ -528,9 +534,12 @@ export default function HomePage() {
         level (beginner, intermediate, or advanced) based on your current
         symptoms and history. Then move to{" "}
         <Link href="/preparation">Phase 1: Preparation</Link> and work through
-        each phase in order. Do not skip the preparation phase — the baseline
-        blood tests and supplement loading it requires directly affect how safe
-        and effective the fasting phases will be.
+        each phase in order. Fast first, always; T3 before the fast is only for
+        the person fasting has already failed. A cycle is a fast, a refeed and
+        a 30-day T3 course, and the next fast opens seven days after the T3
+        course ends. Do not skip the preparation phase: the baseline blood
+        tests and supplement loading it requires directly affect how safe and
+        effective the fasting phases will be.
       </p>
 
       <RefeedPlanPromo source="home" />

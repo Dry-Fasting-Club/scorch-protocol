@@ -5,6 +5,7 @@ import MermaidCharts from "@/components/MermaidCharts";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import JsonLd from "@/components/JsonLd";
+import ReferencesSection from "@/components/ReferencesSection";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
@@ -18,15 +19,15 @@ const chart0 = `graph TD
   Start["Start: Protocol Selection"] --> Q1{"I have recently been feeling ill for the past few
   months<br />and/or I am still fairly functional,<br />aka I can still work out"}
 
-  Q1 -->|Yes| Beginner["You fall under the Beginner Scorch Protocol<br />Focus: Phase 1, 2, 3"]
+  Q1 -->|Yes| Beginner["Beginner Scorch Protocol<br />Phases 1, 2, 3: prepare, fast, refeed<br />Then judge the refeed: running hot, holding your weight,<br />feeling great = no T3 this cycle<br />Metabolic slowdown after the fast = add Phase 4"]
   Q1 -->|No| Q2{"I have been sick for over 6 months<br />and it is affecting my daily life
   significantly<br />but I can still manage it with tons of supplements or medication.<br />I get PEM after exercise."}
 
-  Q2 -->|Yes| Intermediate["You fall under the intermediate Scorch Protocol<br />Focus: Phase 1, 2, 3, 4"]
+  Q2 -->|Yes| Intermediate["Intermediate Scorch Protocol<br />Phases 1, 2, 3, then 4<br />Fast first; the 30-day T3 course follows the refeed<br />if the slowdown shows"]
   Q2 -->|No| Q3{"I have been sick for well over a year,<br />I have tried tons of therapies and only kept
   getting worse.<br />I am not functional."}
 
-  Q3 -->|Yes| Advanced["Focus on the Advanced Scorch Protocol<br />Focus: Phase 1, 2, 3, 4, 5"]
+  Q3 -->|Yes| Advanced["Advanced Scorch Protocol<br />Phases 1 to 4 as the standing cycle:<br />fast, then T3, at least once to test the water<br />Phase 5 (hGH) around cycle three,<br />if two cycles were not enough"]
   Q3 -->|No| Consult["Further Assessment Needed<br />Run your numbers past me"]
 
   style Beginner fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
@@ -34,17 +35,19 @@ const chart0 = `graph TD
   style Advanced fill:#7f1d1d,stroke:#ef4444,stroke-width:2px,color:#fca5a5`;
 
 const chartTemp = `graph TD
-  Start["Measure Baseline Temperature<br />(Morning, on waking + 30 min post-breakfast)"] --> Check{"Resting Body Temperature"}
+  Start["Log your waking temperature<br />(before getting out of bed, basal thermometer)<br />It is the dial T3 is dosed to after the fast"] --> History{"Has fasting already failed you?<br />Pushed through fasts, kept getting worse,<br />with signs of metabolic trouble<br />(cold, weight that will not move, worse after each attempt)"}
 
-  Check -->|"&ge;98.6&deg;F / 37.0&deg;C"| Safe["Safe to Fast First<br />Standard protocol applies"]
-  Check -->|"97.8-98.5&deg;F / 36.6-36.9&deg;C"| Monitor["Can Fast, Monitor Closely<br />Consider T3 support"]
-  Check -->|"&lt;97.8&deg;F / &lt;36.6&deg;C"| T3First["T3 Therapy Should Precede<br />Dry Fasting"]
-  Check -->|"95-96&deg;F / 35.0-35.6&deg;C"| Severe["Severe Metabolic Suppression<br />T3 + High Calories MANDATORY<br />before any fasting attempt"]
+  History -->|No| FastFirst["Fast First<br />The standard order: prepare, fast, refeed,<br />then judge whether this cycle needs T3"]
+  History -->|Yes| T3First["T3 First, as a Jump Start<br />Rebuild the metabolism on a T3 course,<br />then come back to the fast<br />Run your numbers past me before you start"]
 
-  style Safe fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
-  style Monitor fill:#713f12,stroke:#eab308,stroke-width:2px,color:#fde047
-  style T3First fill:#7c2d12,stroke:#f97316,stroke-width:2px,color:#fdba74
-  style Severe fill:#7f1d1d,stroke:#ef4444,stroke-width:4px,color:#fca5a5`;
+  FastFirst --> Refeed{"How did the fast leave you?"}
+  Refeed -->|"Running hot, holding weight, feeling great"| NoT3["No T3 this cycle"]
+  Refeed -->|"Cold, weight stuck, old symptoms back"| T3["30-day T3 course after refeed day 7<br />Next fast opens 7 days after it ends"]
+
+  style FastFirst fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
+  style NoT3 fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
+  style T3 fill:#713f12,stroke:#eab308,stroke-width:2px,color:#fde047
+  style T3First fill:#7c2d12,stroke:#f97316,stroke-width:2px,color:#fdba74`;
 
 const chartStop = `graph TD
   Start["Monitor Vital Signs & Status"] --> Hemo{"1. Hemodynamic Signals<br />(BP / HR / Orthostasis)"}
@@ -90,14 +93,17 @@ const chart1 = `graph TD
   Proceed -->|Path A| Phase1A["Phase 1A: Gradual Carb Reintroduction<br />The goal here is to carefully reintroduce carbs<br />and bridge the metabolic gap with the scorch protocol"]
   Proceed -->|Path B| Phase1B["Phase 1B: Figure out weight loss issue:<br />• Is it high metabolism?<br />• Is it insulin resistance (diabetes)?<br />• Is it high FGF21?<br />• Try and fix to put on weight."]
 
-  Phase1A --> Converge["Phase 3: Liver Therapy & Bioenergetics<br />• Restore energy production<br />• Target 98.6F / 80-85 bpm"]
+  Phase1A --> Converge["Prep, continued: Liver Therapy & Bioenergetics<br />• Restore energy production<br />• Target 98.6F / 80-85 bpm"]
   Phase1B --> Converge
 
-  Converge --> T3["Phase 4: Introduce T3 Therapy<br />• If Low Temps + Poor Conversion<br />• Start low/slow"]
+  Converge --> Failed{"Has fasting already failed you?<br />Pushed through, kept getting worse,<br />signs of metabolic trouble"}
 
-  T3 --> Scorch["Phase 5: Scorch Protocol (Dry Fasting)<br />• When metabolism stable<br />• Build: 36h -> 72h -> 5-day<br />• Goal: Stem Cell Activation"]
+  Failed -->|No| Scorch["The Dry Fast<br />• Fast first, always<br />• Build: 36h -> 72h -> 5-day<br />• T3 judged after the refeed"]
+  Failed -->|Yes| T3["T3 First, as a Jump Start<br />• Wilson's-style course to the temperature target<br />• Then return to the fast"]
 
-  Scorch --> Maintain["Ongoing: Cycle & Maintain"]
+  T3 --> Scorch
+
+  Scorch --> Maintain["Ongoing: Cycle & Maintain<br />A cycle = fast, refeed, 30-day T3 course if needed<br />Next fast opens 7 days after the T3 course ends"]
 
   style PathA fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
   style PathB fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
@@ -160,9 +166,10 @@ export default function DecisionTreePage() {
       <h1>Protocol Decision Logic Tree</h1>
 
       <KeyTakeaways points={[
-        "Use Part 0 to find your starting level: Beginner, Intermediate, or Advanced, based on how long you have been sick and how much your daily life is affected.",
-        "Check your morning body temperature before fasting. Below 97.8F means you need T3 therapy first. Below 96F means T3 and high calories are mandatory before any fasting attempt.",
-        "Stop the fast immediately if your heart rate goes above 120 bpm, you stop urinating for more than 24 hours, you develop a fever above 100.4F, or you feel confused or delirious.",
+        "Use Part 0 to find your starting level: Beginner, Intermediate, or Advanced, based on how long you have been sick and how much your daily life is affected. Everyone fasts first. Whether you run T3 is decided by how the fast leaves you.",
+        "Fast first, always. T3 first is the exception, and it is for the person who has struggled with fasting, pushed through, kept getting worse with signs of metabolic trouble, and needs a jump start. Log your waking temperature from day one because it is the dial T3 is dosed to later.",
+        "T3 is for the post-fast metabolic slowdown, not for everyone. Run hot, hold your weight and feel great after the fast, and you skip it. The long-term sufferer who has tried everything runs fast then T3 at least once to test the water, and weans off if it does little. hGH enters around the third cycle, only when two cycles of fasting plus T3 were not enough.",
+        "Stop the fast immediately if your heart rate goes above 120 bpm, you stop urinating for more than 24 hours, you develop a fever above 100.4F, or you feel confused or delirious. Short of that, feeling worse is a reason to walk, massage and move the system, and to break the fast if it feels really bad or the pain is excruciating.",
         "Your diet history (carnivore vs. high-carb) and your thyroid panel each have their own decision branch: follow the chart that matches your situation.",
       ]} />
 
@@ -186,7 +193,7 @@ export default function DecisionTreePage() {
           </li>
           <li>
             <a href="#baselinetemp">
-              Baseline Temperature: Can You Fast at All?
+              Fast First or T3 First? (And What Your Temperature Is For)
             </a>
           </li>
           <li>
@@ -215,14 +222,34 @@ export default function DecisionTreePage() {
 
       <hr style={{ margin: "3rem 0", border: 0, borderTop: "1px solid rgba(255,255,255,0.1)" }} />
 
-      <h2 id="baselinetemp">Baseline Temperature: Can You Fast at All?</h2>
+      <h2 id="baselinetemp">Fast First or T3 First? (And What Your Temperature Is For)</h2>
       <p>
-        Your starting temperature determines whether dry fasting is safe to
-        attempt at all. Long Covid and ME/CFS patients commonly run cold
-        (96-97&deg;F) because viral persistence has already suppressed the
-        thyroid axis. Fasting on top of that suppression can push you too deep.
-        Measure your morning resting temperature (on waking) <em>and</em> 30
-        minutes post-breakfast before planning any fast.
+        The order is fast first. Always. T3 first is the exception, and the
+        trigger is not a number on the thermometer, it is history: you have
+        struggled with fasting, pushed through it, kept getting worse, fasting
+        is plainly not working for you, there are signs of metabolic trouble,
+        and you need a jump start before the fast can do its job. That is the
+        person I put on a T3 course before the fast. Everyone else fasts first.
+      </p>
+      <p>
+        <em>
+          What the evidence says: that trigger, and the judgement of who needs
+          T3 after the fast, are my clinical rules. The literature has no
+          published criterion for who needs T3 after a fast; the nearest
+          objective candidate is the low free T3 and high reverse T3 pattern
+          measured in chronic fatigue patients (Ruiz-Nunez 2018), which is a
+          blood test, not the history-and-temperature screen I use.
+        </em>
+      </p>
+      <p>
+        Your waking temperature still matters, for a different reason. Long
+        Covid and ME/CFS patients commonly run cold (96 to 97&deg;F) because
+        viral persistence has suppressed the thyroid axis, and that reading is
+        the dial the T3 course is dosed to after the fast. A low reading is also
+        the main sign you will come out of the fast needing that course. Measure
+        it every morning (on waking, before getting out of bed) <em>and</em> 30
+        minutes after breakfast, starting now, so the trend is in hand when the
+        decision arrives.
       </p>
       <MermaidCharts charts={[chartTemp]} />
 
@@ -246,9 +273,9 @@ export default function DecisionTreePage() {
             &ge;98.6&deg;F (37.0&deg;C)
           </h4>
           <p style={{ marginBottom: 0 }}>
-            <strong>Safe to fast first.</strong> Standard protocol applies.
-            Your thyroid axis is intact enough to handle the controlled
-            downregulation of a dry fast.
+            <strong>Running warm.</strong> Fast first, standard protocol. If
+            you also hold your weight and feel great coming out of the fast,
+            you are the person who does not need the T3 cycle at all.
           </p>
         </div>
         <div
@@ -263,9 +290,10 @@ export default function DecisionTreePage() {
             97.8-98.5&deg;F (36.6-36.9&deg;C)
           </h4>
           <p style={{ marginBottom: 0 }}>
-            <strong>Can fast, but monitor closely.</strong> Consider T3
-            support during the building phase. Track temperature daily during
-            the fast.
+            <strong>Mildly low.</strong> Fast first, and track temperature
+            daily through the fast and refeed. If the slowdown shows up after
+            the fast (cold, weight stuck, old symptoms back), the 30-day T3
+            course follows refeed day 7.
           </p>
         </div>
         <div
@@ -280,9 +308,11 @@ export default function DecisionTreePage() {
             &lt;97.8&deg;F (&lt;36.6&deg;C)
           </h4>
           <p style={{ marginBottom: 0 }}>
-            <strong>T3 therapy should precede dry fasting.</strong> Restore
-            metabolic rate first. Wait until morning temperature consistently
-            sits at or above 98.6&deg;F before attempting your first fast.
+            <strong>Low.</strong> The main sign of a slow metabolism, and the
+            picture that most often needs the T3 course after the fast. The
+            order is still fast first unless the failed-fasting history above
+            applies to you. Expect to dose T3 against this number once the
+            refeed is done.
           </p>
         </div>
         <div
@@ -297,10 +327,12 @@ export default function DecisionTreePage() {
             95-96&deg;F (35.0-35.6&deg;C)
           </h4>
           <p style={{ marginBottom: 0 }}>
-            <strong>Severe metabolic suppression.</strong> T3 + high calories
-            mandatory before any fasting attempt. A cortisol-inversion pattern
-            (temperature <em>drops</em> after eating) means cortisol is the
-            only thing holding metabolism up, a major red flag.
+            <strong>Severe metabolic suppression.</strong> A cortisol-inversion
+            pattern (temperature <em>drops</em> after eating) means cortisol is
+            the only thing holding metabolism up, a major red flag. Run this
+            picture past me with your numbers before you plan anything.
+            Whether a reading this low on its own changes the order is a call I
+            make case by case, not a rule I publish.
           </p>
         </div>
       </div>
@@ -312,7 +344,11 @@ export default function DecisionTreePage() {
       </h2>
       <p>
         Strict criteria for potentially dangerous complications requiring fast
-        termination.
+        termination. Short of these, feeling worse mid-fast is the normal
+        texture of the work: go on walks, do massages, move the whole system.
+        If it starts to feel really bad, or the pain is excruciating, break the
+        fast. While heart rate, temperature, blood pressure and urination look
+        fine, you can continue.
       </p>
       <MermaidCharts charts={[chartStop]} />
 
@@ -452,8 +488,8 @@ export default function DecisionTreePage() {
             eradicating viral reservoirs through autophagy (fasting).
           </li>
           <li>
-            <strong>Maintenance:</strong> In cohorts, pulsing maintains 70-80%
-            of gains long-term while avoiding tolerance.
+            <strong>Maintenance:</strong> Pulsing holds most of the gains
+            long-term while avoiding tolerance.
           </li>
         </ul>
       </div>
@@ -461,6 +497,17 @@ export default function DecisionTreePage() {
       <RefeedPlanPromo source="decision-tree" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="decision-tree" sectionTitle="Decision Logic Tree" />
+
+      <ReferencesSection
+        refs={[
+          {
+            citation:
+              "Ruiz-Nunez B, Tarasse R, Vogelaar EF, Janneke Dijck-Brouwer DA, Muskiet FAJ. Higher Prevalence of \"Low T3 Syndrome\" in Patients With Chronic Fatigue Syndrome: A Case-Control Study. Front Endocrinol (Lausanne), 2018;9:97. PMID 29615976. DOI 10.3389/fendo.2018.00097.",
+            href: "https://doi.org/10.3389/fendo.2018.00097",
+            note: "the nearest thing to a published criterion for who might need T3 after a fast: chronic fatigue patients carried lower free T3 and total T3 and more reverse T3 than matched controls at a similar TSH; a blood pattern, not the history-and-temperature screen used here",
+          },
+        ]}
+      />
     </>
   );
 }

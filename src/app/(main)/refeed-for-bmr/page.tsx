@@ -215,9 +215,9 @@ export default function RefeedForBmrPage() {
           <text x="173" y="88" textAnchor="middle" fill="#fca5a5" fontSize="11" fontWeight="bold" fontFamily="sans-serif">SURVIVAL PHASE</text>
           <text x="173" y="103" textAnchor="middle" fill="#fca5a5" fontSize="10" fontFamily="sans-serif">Stabilize, no fasting</text>
           <text x="400" y="88" textAnchor="middle" fill="#fbbf24" fontSize="11" fontWeight="bold" fontFamily="sans-serif">REPAIR PHASE</text>
-          <text x="400" y="103" textAnchor="middle" fill="#fbbf24" fontSize="10" fontFamily="sans-serif">T3 cycles if needed</text>
+          <text x="400" y="103" textAnchor="middle" fill="#fbbf24" fontSize="10" fontFamily="sans-serif">Fast and T3 cycles as needed</text>
           <text x="626" y="88" textAnchor="middle" fill="#86efac" fontSize="11" fontWeight="bold" fontFamily="sans-serif">RESTORATION PHASE</text>
-          <text x="626" y="103" textAnchor="middle" fill="#86efac" fontSize="10" fontFamily="sans-serif">hGH support, full rebuild</text>
+          <text x="626" y="103" textAnchor="middle" fill="#86efac" fontSize="10" fontFamily="sans-serif">Rebuild locks in; hGH add-on from cycle 3 if needed</text>
 
           <polyline
             points="60,340 135,330 211,310 286,275 362,225 438,180 513,140 589,108 664,85 740,72"
@@ -239,7 +239,7 @@ export default function RefeedForBmrPage() {
           <text x="740" y="62" textAnchor="end" fill="#86efac" fontSize="11" fontWeight="bold" fontFamily="sans-serif">100% restored</text>
         </svg>
         <p style={{ fontSize: "0.85rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic", maxWidth: "700px", marginLeft: "auto", marginRight: "auto" }}>
-          A typical 9-month BMR reconstruction. The Scorch Protocol can compress the Survival Phase from 3 months to roughly 1 month when applied correctly &mdash; the rest of the curve still requires its own biological time.
+          A typical 9-month BMR reconstruction, drawn from the Minnesota data. The Scorch Protocol can compress the Survival Phase from 3 months to roughly 1 month when applied correctly; the rest of the curve still requires its own biological time. The phase labels are a map, not a timetable for hGH: hGH enters around the third cycle, and only when two cycles of fasting plus T3 were not enough.
         </p>
       </div>
 
@@ -269,8 +269,9 @@ export default function RefeedForBmrPage() {
 
       <h3>Phase II: The &ldquo;Fat Buffer&rdquo; Phase (Months 3–6)</h3>
       <p>
-        The Scorch Protocol uses T3, hGH, and specific foods to help you move
-        through this phase faster and avoid too much fat gain.
+        The Scorch Protocol uses T3, specific foods and, for the cases where two
+        cycles of fasting plus T3 were not enough, hGH on top of the T3 cycle
+        to help you move through this phase faster and avoid too much fat gain.
       </p>
       <div className="guiding-questions box-info">
         <h4>Goal: Build an &ldquo;emergency fund&rdquo; of energy.</h4>

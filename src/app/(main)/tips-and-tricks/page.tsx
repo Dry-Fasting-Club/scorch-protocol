@@ -7,6 +7,7 @@ import PaidContentBlock from "@/components/PaidContentBlock";
 import FaithBlock from "@/components/FaithBlock";
 import Image from "next/image";
 import KeyTakeaways from "@/components/KeyTakeaways";
+import ReferencesSection from "@/components/ReferencesSection";
 
 export const metadata: Metadata = {
   title: "Tips and Tricks",
@@ -72,8 +73,18 @@ export default function TipsAndTricksPage() {
         <ul>
           <li>
             <strong>Hydrate Properly:</strong> In the 24-48 hours before your
-            fast, drink plenty of water with electrolytes. Avoid overhydration
-            immediately before starting, as this can cause discomfort.
+            fast, drink plenty of water with electrolytes, and make the last day
+            juice only (fresh, no pulp) so you go in hydrated with as little as
+            possible left in the colon. Avoid overhydration immediately before
+            starting, as this can cause discomfort.
+          </li>
+          <li>
+            <strong>Eat Light Into It:</strong> For the last one to two days,
+            no oils, no meat, nothing hard to digest. Magnesium citrate at a
+            higher dose runs daily through the final week to keep the bowel
+            moving and lower the kidney-stone risk. No enemas, no colonics, and
+            no liver flush unless motility has truly failed: flushing is a
+            stressor of its own, and the protocol does not need it.
           </li>
           <li>
             <strong>Follow Your Prep Path:</strong> What you eat in the days
@@ -137,9 +148,37 @@ export default function TipsAndTricksPage() {
             responding.
           </li>
           <li>
-            <strong>Trust the Process:</strong> Discomfort is normal, especially
-            during the acidosis crisis (24-72h). This is when the deepest
-            healing occurs. Stay calm and trust your body.
+            <strong>Trust the Process, Within Limits:</strong> Discomfort is
+            normal, especially during the acidosis crisis (24-72h). This is when
+            the deepest healing occurs. When you feel worse, walk, massage, move
+            the whole system (see the next item). As long as heart rate,
+            temperature, blood pressure and urination look fine, you can
+            continue. If it starts to feel really bad, or the pain is
+            excruciating, break the fast. That is the rule, not a failure.
+            <br />
+            <em>
+              What the evidence says: the fasting clinics track the same
+              readings daily, and their stop rules are concrete: the German
+              fasting guideline stops for a higher-grade arrhythmia, for
+              potassium below 3.0 or sodium below 125 mmol/L, or for
+              circulatory depression lasting two days, and otherwise treats a
+              fasting crisis as a possible healing crisis (&Auml;GHE 2002); in
+              the Buchinger cohort of 1,422 supervised fasts, heart rate did
+              not rise and serious events were rare (Wilhelmi de Toledo 2019).
+              Urine colour is a weak guide in a dry fast, because dark,
+              concentrated urine is the expected state and the colour charts
+              were validated on hydrated athletes (Armstrong 1994); the kidney
+              guideline counts no urine for 12 hours as stage 3 kidney injury
+              (KDIGO 2012). The reading the clinics use that is not in my four
+              is a standing check: a rise of 30 beats or a systolic drop of
+              more than 20 mmHg on standing is the standard early sign of low
+              blood volume (Freeman 2011; Sheldon 2015). Walking has support from the
+              water-fasting trials, where daily low-intensity movement
+              preserved strength (Laurens 2021); massage has no trial evidence
+              in fasting of any kind, so count it as comfort. Marked caveat:
+              all of this was collected on water fasts with fluids; nobody has
+              published stopping criteria for a dry fast.
+            </em>
           </li>
           <li>
             <strong>Organ Massage &amp; Movement:</strong> Massaging the liver
@@ -207,6 +246,13 @@ export default function TipsAndTricksPage() {
             Build tolerance with 36h, then 72h, then longer durations.
           </li>
           <li>
+            <strong>How Deep:</strong> Five days dry is the cap because five
+            days is still safe to do at home. Once it is very comfortable you
+            can extend a little; some people get their best results from seven
+            to nine days, and the deeper fast is the more aggressive immune
+            reset. An extension you earn, not a target you set.
+          </li>
+          <li>
             <strong>Timing Matters:</strong> Many people find it easier to start
             a fast in the evening after dinner. This way, you sleep through the
             first 8-12 hours.
@@ -226,9 +272,11 @@ export default function TipsAndTricksPage() {
             cell activation kicking in.
           </li>
           <li>
-            <strong>Frequency:</strong> For chronic illness, some practitioners
-            recommend fasting cycles (e.g., 5-day fast every 4-6 weeks) until
-            symptoms improve. Always allow full recovery between fasts.
+            <strong>Frequency:</strong> My cycle is a fast, a refeed and, when
+            the refeed shows a metabolic slowdown, a 30-day T3 course. The next
+            fast opens seven days after the T3 course ends. Full recovery
+            between fasts is not optional, and the rare fast is the powerful
+            fast.
           </li>
         </ul>
       </div>
@@ -921,6 +969,53 @@ export default function TipsAndTricksPage() {
       <RefeedPlanPromo source="tips-and-tricks" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="tips-and-tricks" sectionTitle="Tips and Tricks" />
+
+      <ReferencesSection
+        refs={[
+          {
+            citation:
+              "Ärztegesellschaft Heilfasten und Ernährung (ÄGHE). Leitlinien zur Fastentherapie. Forschende Komplementärmedizin und Klassische Naturheilkunde, 2002;9:189-198.",
+            href: "https://karger.com/fkm/article-pdf/9/3/189/4207114/000064270.pdf",
+            note: "the only published numeric stop list for fasting: higher-grade arrhythmia, potassium below 3.0 or sodium below 125 mmol/L, circulatory depression for two days; daily gentle movement recommended, fasting crises treated as possible healing crises",
+          },
+          {
+            citation:
+              "Wilhelmi de Toledo F, Grundler F, Bergouignan A, Drinda S, Michalsen A. Safety, health improvement and well-being during a 4 to 21-day fasting period in an observational study including 1422 subjects. PLoS One, 2019;14(1):e0209353. PMID 30601864. DOI 10.1371/journal.pone.0209353.",
+            href: "https://doi.org/10.1371/journal.pone.0209353",
+            note: "the Buchinger cohort: daily blood pressure and pulse, heart rate unchanged, serious events rare, daily walks part of the programme; water-type fasting with about three litres of fluid a day",
+          },
+          {
+            citation:
+              "Armstrong LE, Maresh CM, Castellani JW, et al. Urinary indices of hydration status. Int J Sport Nutr, 1994;4(3):265-279. PMID 7987361. DOI 10.1123/ijsn.4.3.265.",
+            href: "https://doi.org/10.1123/ijsn.4.3.265",
+            note: "the urine colour chart was validated in hydrated athletes; in a dry fast dark urine is the expected state, so colour cannot separate safe concentration from failing kidneys",
+          },
+          {
+            citation:
+              "Kidney Disease: Improving Global Outcomes (KDIGO) Acute Kidney Injury Work Group. KDIGO Clinical Practice Guideline for Acute Kidney Injury. Kidney International Supplements, 2012;2(1):1-138.",
+            href: "https://kdigo.org/wp-content/uploads/2016/10/KDIGO-2012-AKI-Guideline-English.pdf",
+            note: "no urine for 12 hours is stage 3 acute kidney injury; dry-fasting urine output sits at the oliguria line by design, so no urine at all is the signal",
+          },
+          {
+            citation:
+              "Sheldon RS, Grubb BP 2nd, Olshansky B, et al. 2015 Heart Rhythm Society expert consensus statement on the diagnosis and treatment of postural tachycardia syndrome, inappropriate sinus tachycardia, and vasovagal syncope. Heart Rhythm, 2015;12(6):e41-e63. PMID 25980576. DOI 10.1016/j.hrthm.2015.03.029.",
+            href: "https://doi.org/10.1016/j.hrthm.2015.03.029",
+            note: "restates the orthostatic definitions: a heart-rate rise of 30 beats or more on standing, a systolic fall of more than 20 mmHg; earlier signs of low blood volume than a resting reading",
+          },
+          {
+            citation:
+              "Freeman R, Wieling W, Axelrod FB, et al. Consensus statement on the definition of orthostatic hypotension, neurally mediated syncope and the postural tachycardia syndrome. Clin Auton Res, 2011;21(2):69-72. PMID 21431947.",
+            href: "https://pubmed.ncbi.nlm.nih.gov/21431947/",
+            note: "the consensus definitions: orthostatic hypotension is a systolic fall of more than 20 mmHg on standing, postural tachycardia a rise of 30 beats or more",
+          },
+          {
+            citation:
+              "Laurens C, Grundler F, Damiot A, et al. Is muscle and protein loss relevant in long-term fasting in healthy men? A prospective trial on physiological adaptations. J Cachexia Sarcopenia Muscle, 2021;12(6):1690-1703. PMID 34668663. DOI 10.1002/jcsm.12766.",
+            href: "https://doi.org/10.1002/jcsm.12766",
+            note: "sixteen healthy men through ten Buchinger fasting days with daily low-intensity exercise kept their strength; the support for walking during a fast, with no equivalent trial for massage",
+          },
+        ]}
+      />
     </>
   );
 }

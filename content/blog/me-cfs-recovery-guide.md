@@ -90,7 +90,7 @@ The Scorch Protocol addresses ME/CFS through the same three-phase sequence used 
 
 ### Phase 1: Dry Fasting (the Reset)
 
-Extended dry fasting (5-9 days under proper preparation and progression) activates a depth of autophagy and immune clearance no other intervention reaches. The mechanism is detailed in [the dry fasting complete guide](/blog/dry-fasting-complete-guide). For ME/CFS patients with long illness duration (5+ years), the 5-day fast is frequently insufficient and the 7-day to 9-day range is required, but only after building tolerance through shorter fasts.
+Extended dry fasting (five days under proper preparation and progression; the protocol is capped there because five days dry is still safe at home) activates a depth of autophagy and immune clearance no other intervention reaches. The mechanism is detailed in [the dry fasting complete guide](/blog/dry-fasting-complete-guide). For ME/CFS patients with long illness duration (5+ years), Yannick's experience is that the best results often come from the 7-day to 9-day range, but only once five days is very comfortable.
 
 The NK cell surge during the fast is particularly relevant for the ME/CFS cohort because the NK cell deficit is one of the most consistent biological signatures of the disease and one of the most direct mechanisms by which the viral burden is maintained.
 
@@ -114,13 +114,13 @@ For a patient ill 1-3 years:
 
 - **Months 0-1** (preparation): dietary preparation, baseline labs, sourcing materials, beginning shorter fasts
 - **Months 1-3** (first significant fast + T3 initiation): 5-7 day fast, T3 begun, initial symptom reduction
-- **Months 3-6** (refeeding + hGH): metabolic foundation restored, body temperature normalizes, cognitive symptoms begin to clear
+- **Months 3-6** (refeeding and further cycles): metabolic foundation restored, body temperature normalizes, cognitive symptoms begin to clear
 - **Months 6-12** (consolidation): full functional recovery in most cases
 
 For a patient ill 5-10 years:
 
 - **Months 0-3** (preparation + first fast): longer preparation window, often 7-day fast required
-- **Months 3-9** (T3 + refeeding + hGH): multiple T3 cycles may be needed; refeeding phase extended
+- **Months 3-9** (T3 + refeeding; hGH from the third cycle only if needed): multiple cycles may be needed; refeeding phase extended
 - **Months 9-18** (consolidation): full functional recovery typical
 - **Months 18-24** (long-duration cognitive recovery): residual cognitive symptoms continue to clear
 
@@ -159,7 +159,7 @@ These usually reflect the metabolic state and improve substantially as the metab
 
 ### Can I do this if I have severe PEM and can barely function?
 
-Yes, with extreme care in the preparation phase. Severe PEM patients often need to start with very short fasts (24-48 hours) to test tolerance, may need to begin T3 before any fasting, and need to plan the protocol around their PEM windows. The implementation is slower but feasible.
+Yes, with extreme care in the preparation phase. Severe PEM patients often need to start with very short fasts (24-48 hours) to test tolerance, may need to begin T3 before any fasting if those fasts keep making them worse, and need to plan the protocol around their PEM windows. The implementation is slower but feasible.
 
 ### How is this different from the "ME/CFS is forever" framing I have been told?
 

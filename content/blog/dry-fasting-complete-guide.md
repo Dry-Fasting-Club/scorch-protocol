@@ -54,7 +54,7 @@ The "1 day of dry fasting equals 3 days of water fasting" heuristic is not a pre
 
 This compression is what makes extended dry fasting *clinically usable*. A 30-day water fast carries enormous logistical, social, and physiological burdens. A 9-day or 11-day dry fast accesses comparable autophagic depth in a window short enough for an actual sick patient to complete with appropriate supervision.
 
-The compression has limits. Danger from dry fasting rises exponentially with duration, not linearly: a 9-day dry fast is dramatically harder on the body than two 5-day dry fasts spaced apart. This is why the protocol uses a progression (3-day → 5-day → 7-day → 9-day) and almost never recommends going past 9 days for any patient, regardless of severity.
+The compression has limits. Danger from dry fasting rises exponentially with duration, not linearly: a 9-day dry fast is dramatically harder on the body than two 5-day dry fasts spaced apart. This is why the protocol builds up to five days and caps there, because five days dry is still safe at home; seven to nine days is an extension for those very comfortable at five, and nothing past 9 days is recommended for any patient, regardless of severity.
 
 ## The Cellular Mechanism: Hyperosmotic Autophagy and Virophagy
 
@@ -72,15 +72,17 @@ For context on why this matters specifically for post-viral chronic illness: 66.
 
 ## Why Illness Duration Determines the Depth of Dry Fast You Need
 
-There is a clinically observable threshold around five years of illness that determines which fast length will work.
+There is a clinically observable threshold around five years of illness that shapes which fast length tends to work.
+
+**Update, October 2026.** There used to be more emphasis here on nine-day fasts as the standard for long-standing illness. The Scorch Protocol is capped at five days, because five days dry is still safe to do at home. Once five is very comfortable you can extend a little, and in my experience some people get their best results from seven to nine days: the deeper the fast, the more aggressive the immune reset, and the more it seems to clear the allergic and autoimmune layer that drives chronic illness. The depth is earned, never the starting point.
 
 Patients ill for under a year frequently complete recovery with a single 5-day dry fast, often combined with one cycle of T3 therapy. The cascade has not had time to entrench. The immune system, when freed from the inflammatory load, can re-establish surveillance.
 
 Patients ill for five years or longer almost never recover from a 5-day dry fast alone. By the time chronic illness has run for half a decade, the latent viral burden (HSV-1, EBV, HHV-6, CMV) has replicated extensively, the immune system has been chronically suppressed long enough for fungal overgrowth to become entrenched, and the metabolic cascade has reached a self-reinforcing equilibrium that does not yield to surface-level cleanup.
 
-For this cohort, 7-day to 9-day dry fasts, often more than one, are typically required. The deeper hyperosmotic autophagy is the mechanistic difference that breaks the cascade. NK cell cytotoxicity remains chronically suppressed at roughly 50% of normal in ME/CFS patients across the literature ([Baraniuk et al., 2024 — CD8 T-cell exhaustion and persistent NK cell deficits in ME/CFS](https://pubmed.ncbi.nlm.nih.gov/39483457/), *Frontiers in Immunology*), and the NK cell surge that occurs during the deeper days of an extended dry fast is one of the most direct mechanisms available to reverse that deficit.
+For this cohort, Yannick's experience is that the best results often come from 7-day to 9-day dry fasts, often more than one, once five days is very comfortable. The deeper hyperosmotic autophagy is the mechanistic difference that breaks the cascade. NK cell cytotoxicity remains chronically suppressed at roughly 50% of normal in ME/CFS patients across the literature ([Baraniuk et al., 2024 — CD8 T-cell exhaustion and persistent NK cell deficits in ME/CFS](https://pubmed.ncbi.nlm.nih.gov/39483457/), *Frontiers in Immunology*), and the NK cell surge that occurs during the deeper days of an extended dry fast is one of the most direct mechanisms available to reverse that deficit.
 
-There is an important caveat embedded in this framing: 9-day dry fasts are not appropriate for the newly initiated, are not recommended for everyone, and require deliberate progression through shorter fasts before being attempted. The discussion of which patient profile is a candidate for extended fasting is in [the dry fasting protocol page](/dry-fasting) and is also covered in [the comparison between the Filonov tradition and the Scorch Protocol](/blog/starving-to-heal-vs-scorch-protocol).
+There is an important caveat embedded in this framing: the Scorch Protocol is capped at five days, because five days dry is still safe to do at home. Seven-to-nine-day fasts are an extension for people who are already very comfortable at five, not the standard, and never where anyone starts. The discussion of which patient profile is a candidate for extended fasting is in [the dry fasting protocol page](/dry-fasting) and is also covered in [the comparison between the Filonov tradition and the Scorch Protocol](/blog/starving-to-heal-vs-scorch-protocol).
 
 ## What Dry Fasting Alone Cannot Do
 
@@ -106,11 +108,11 @@ The full Scorch Protocol recovery arc is a four-step sequence. Each step has a s
 
 **Step 2: T3 therapy (the electricity).** Restore cellular glucose utilization in cells that lost the ability to use carbohydrates during the metabolic collapse. Without this step, the calories you eat after the fast cannot be used for repair and end up stored as fat. Read more at [the T3 therapy protocol page](/t3-therapy).
 
-**Step 3: High calories plus hGH (the rebuild).** Once the metabolic foundation is restored, flood the system with caloric intake and growth hormone signaling to direct nutrition into tissue and organ repair rather than fat storage. Read more at [the hGH therapy page](/hgh-therapy) and [the refeeding protocol](/refeeding).
+**Step 3: High calories, plus hGH when needed (the rebuild).** Once the metabolic foundation is restored, flood the system with caloric intake, and add growth hormone signaling only when the first two cycles have not done enough, to direct nutrition into tissue and organ repair rather than fat storage. Read more at [the hGH therapy page](/hgh-therapy) and [the refeeding protocol](/refeeding).
 
-**Step 4: Rotate.** Cycle back into dry fasting plus T3 (with vigilance for muscle wasting) on a careful cadence. The rotation timing is a clinical judgment, not a fixed schedule.
+**Step 4: Rotate.** A cycle is a fast, a refeed, and the 30-day T3 course when the fast leaves a metabolic slowdown behind. Finish the T3 course, wait seven days, and go back into the next fast, with vigilance for muscle wasting. People who come out of a fast running hot, holding their weight and feeling great skip the T3 course and simply cycle fasts and refeeds.
 
-Without T3 to restore glucose utilization first, the high-calorie phase gets misdirected into fat storage rather than tissue rebuilding. Without hGH, the high-calorie phase lacks the anabolic signaling to direct nutrition toward organ and muscle repair. Without dry fasting, the underlying viral and inflammatory load that initiated the cascade never gets cleared.
+When the fast leaves glucose utilization impaired and T3 is skipped, the high-calorie phase gets misdirected into fat storage rather than tissue rebuilding. When fasting and T3 cycles are still not enough, usually insulin resistance so deep that food is not tolerated, extreme muscle loss, or very poor sleep, hGH supplies the anabolic signaling that directs nutrition toward organ and muscle repair; it is added around the third cycle, not run by default. Without dry fasting, the underlying viral and inflammatory load that initiated the cascade never gets cleared.
 
 This is the protocol the Khoroshilov and Filonov tradition does not cover. It is also the protocol the conventional medical system does not offer. For the patient population that needs all four steps, every other approach falls short.
 
@@ -145,7 +147,7 @@ Dry fasting is not a wellness experiment. Done correctly in appropriate patients
 
 ### How long is a "dry fast" supposed to be?
 
-Standard protocol progression: 24 hours → 48 hours → 72 hours → 5 days → 7 days → 9 days. The 5-day fast is the workhorse for moderately ill patients. The 9-day fast is reserved for severely treatment-resistant cases with multi-year illness duration and is not appropriate for beginners.
+The Scorch Protocol is capped at five days: 24 hours → 48 hours → 72 hours → 5 days. Five days dry is still safe to do at home, and it does get a bit difficult. Once you are very comfortable with it you can extend a little; some people get their best results from seven to nine days, and the deeper you go the more aggressive the immune reset. Nine days is never for beginners.
 
 ### Can I drink water if I get really thirsty?
 
@@ -165,7 +167,7 @@ Around days 3-5 of an extended dry fast, ketone production exceeds the body's bu
 
 ### Is dry fasting safe to do at home?
 
-Shorter dry fasts (24-72 hours) in appropriate patients with proper preparation can be done at home. Five-day dry fasts require careful self-monitoring and ideally a buddy system. Seven to nine day dry fasts in severely chronically ill patients should be done in a clinical retreat setting (Filonov-tradition retreats in Russia or Della Dewey-tradition retreats elsewhere) because the medical infrastructure makes the physiological transitions substantially safer.
+Dry fasts up to five days in appropriate patients with proper preparation can be done at home; the five-day cap exists because five days dry is still safe at home, with careful self-monitoring and ideally a buddy system. Seven to nine day dry fasts in severely chronically ill patients should be done in a clinical retreat setting (Filonov-tradition retreats in Russia or Della Dewey-tradition retreats elsewhere) because the medical infrastructure makes the physiological transitions substantially safer.
 
 ### How is this different from intermittent fasting or one-meal-a-day eating?
 

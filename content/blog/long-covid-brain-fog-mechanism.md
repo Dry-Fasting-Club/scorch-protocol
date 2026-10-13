@@ -75,7 +75,7 @@ For the subset of patients with severe long-duration illness where the structura
 Cognitive symptoms are typically among the last symptoms to fully resolve on the Scorch Protocol. The general arc:
 
 - **Months 1-3** (initial fast + T3 begun): the worst of the brain fog usually lifts noticeably within 2-4 weeks of T3 reaching therapeutic effect. Processing speed picks up. Word-finding improves.
-- **Months 3-6** (refeeding + hGH): sustained improvement. The day-to-day experience of cognition begins to resemble pre-illness function.
+- **Months 3-6** (refeeding and further cycles): sustained improvement. The day-to-day experience of cognition begins to resemble pre-illness function.
 - **Months 6-12** (consolidation): residual fog episodes become rare. New memory formation is sharper. Complex sustained focus returns.
 - **Months 12-18+** (severe long-duration cases): structural neuroplasticity phase if needed. Full return of capacity in the majority of cases.
 

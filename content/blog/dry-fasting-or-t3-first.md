@@ -21,7 +21,9 @@ excerpt: "The single most common sequencing question in the Scorch Protocol is w
 
 ## The Short Answer
 
-The basal body temperature threshold that determines the protocol entry order is 96°F. Patients with basal body temperature 96°F or higher start with the standard sequence (dry fasting first, then T3 therapy). Patients with basal body temperature below 96°F start with the modified sequence (T3 therapy first, then dry fasting after temperature stabilizes). Patients below 95°F especially require T3 first; attempting an extended fast at this baseline is more likely to produce symptoms than therapeutic benefit. The 96°F threshold is a clinical heuristic from patient outcomes; it captures the practical reality that the metabolic machinery has to be capable of responding productively to the hyperosmotic stress of the fast before the fast is worth doing.
+The default order in the Scorch Protocol is fast first. In Yannick's experience, T3 first is reserved for the person who has already been fasting, pushing through it, and getting worse each time: fasting is just not working, there are signs of metabolic trouble, and the system needs a jump start before it can respond to a fast. Otherwise, always fast first. A very low basal body temperature (below 96°F, and especially below 95°F) is one of the metabolic signs that makes this question live, and the temperature paths below map who tends to struggle; it is the failed-fasting history with those signs that flips the order.
+
+**Update, October 2026.** Earlier versions of this article made the 96°F threshold the entry rule on its own. Over time the data showed that the people who truly need T3 before a fast are the ones who have already tried fasting and kept getting worse, so the rule is now stated that way. The temperature sections are kept because they still describe who is most likely to end up in that group.
 
 ## Why Sequencing Matters
 
@@ -62,13 +64,13 @@ The pattern of attempting standard sequence dry fasting at sub-96°F baseline is
 
 **The 2-6 month follow-up.** Some patients gradually recover to roughly their pre-protocol baseline. Some patients do not fully recover and are now operating below their pre-protocol baseline. Either way, the protocol has not advanced; the patient has lost ground.
 
-This is not the protocol failing. It is the protocol being run in the wrong order for the patient's specific baseline. The same patient, starting with T3 therapy first, raising basal body temperature above 96°F, then attempting the standard sequence, gets a different result.
+This is the pattern that earns T3 first: fasting tried, pushed through, and worse each time, with metabolic signs on top. The same patient, starting with T3 therapy first, raising basal body temperature above 96°F, then attempting the standard sequence, gets a different result.
 
 The frustration in this pattern is that the patients who experience it often conclude the protocol does not work for them. The protocol works; the sequence was wrong.
 
 ## The Modified Sequence for Sub-96°F Patients
 
-For patients with baseline body temperature below 96°F, the modified entry sequence:
+For the patient whose fasts have kept failing with a baseline body temperature below 96°F, the modified entry sequence:
 
 **Days 0-14: Baseline establishment.** Daily basal body temperature tracking, resting heart rate tracking, symptom inventory. Confirm the sub-96°F baseline; a single low reading is not enough; the 14-day average is what drives the decision.
 
@@ -102,13 +104,13 @@ A few specific situations where the temperature threshold needs additional consi
 
 For patients at 95.5-96°F baseline, the decision is genuinely borderline. Several considerations:
 
-**Conservative approach: T3 first.** If the patient profile suggests significant depletion (severe symptoms, MCAS, POTS, severe brain fog, severe PEM), starting with T3 first is the conservative choice. The downside of starting with T3 unnecessarily is minimal; the downside of attempting an extended fast on a too-suppressed base is substantial.
+**T3 first, when fasting has already failed.** If the patient has already been fasting, pushing through, and getting worse, with the depletion markers on top (severe symptoms, MCAS, POTS, severe brain fog, severe PEM), T3 first is the right call. The downside of a T3 course that turns out unnecessary is small; you wean off and bounce back.
 
 **Standard approach: Short fast first, observe.** A 48-hour water fast as a tolerance test before committing to either path is reasonable for borderline patients. If the 48-hour fast is tolerated well with appropriate response, the standard sequence may be appropriate. If the 48-hour fast produces disproportionate symptoms or post-fast crash, the modified sequence is appropriate.
 
 **Aggressive approach: Standard sequence with extra preparation.** For motivated patients in the borderline range who have done substantial preparation work, the standard sequence with extended preparation (1-2 months of dietary optimization, sleep optimization, gentle exercise as tolerated, multiple shorter water fasts) before the first 5-day dry fast can work. This is for the highly motivated and well-supported subset; it is not the default recommendation.
 
-For most borderline patients, the conservative T3-first approach produces a better outcome.
+For borderline patients who have never fasted, fast first and watch the response; for those whose fasts have already made them worse, T3 first.
 
 ## Frequently Asked Questions
 
@@ -122,11 +124,11 @@ If basal body temperature does not respond to gradually escalating SR-T3 doses u
 
 ### Can I start with both T3 and dry fasting at the same time?
 
-For sub-96°F patients, no. The T3 needs to establish a foundation before fasting is productive. For above-96°F patients, the standard sequence (fast first, then T3) is the proven order.
+No. The order is fast first, then the 30-day T3 course after the refeed if the fast leaves a metabolic slowdown behind; or, for the person whose fasts have kept failing, T3 first to establish a foundation, then the fast. The two are not run together.
 
 ### How long do I have to wait between dry fast cycles?
 
-Typical spacing is 4-12 weeks depending on patient response and severity. The body needs time to refeed, rebuild, and reset before the next cleanup cycle. Shorter spacing risks cumulative damage; longer spacing is fine.
+A cycle is the fast, the refeed, and the 30-day T3 course if you needed it. Finish the T3 course, wait seven days, and go back into the next fast. If you came out of the fast running hot, holding your weight and feeling great, you skip the T3 course, and when the next fast opens on that path is set case by case. Shorter spacing risks cumulative damage; longer spacing is fine.
 
 ### What if I am in the over-adapted profile (below 95°F)?
 

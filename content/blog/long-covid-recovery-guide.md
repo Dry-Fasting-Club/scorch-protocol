@@ -120,7 +120,7 @@ The Scorch Protocol is a three-phase metabolic recovery sequence designed specif
 
 ### Phase 1: Dry Fasting, the Reset
 
-Dry fasting (no food, no water) for 5 to 9 days under proper preparation triggers a level of autophagy and immune activation that no other intervention reaches.
+Dry fasting (no food, no water) for five days under proper preparation, longer only once five is very comfortable, triggers a level of autophagy and immune activation that no other intervention reaches.
 
 What happens during a properly executed dry fast:
 
@@ -130,7 +130,7 @@ What happens during a properly executed dry fast:
 - **Gut healing**: villi temporarily retract and damaged epithelial cells slough off, while protected stem cell crypts (Lieberkühn crypts) prepare for regeneration. Post-fast, villi regrow longer and healthier.
 - **Spike protein clearance**: this is theoretical at the protocol's level of rigor, but autophagy is the only documented cellular process capable of digesting accumulated viral proteins from deep tissue.
 
-For severely ill patients, a 5-day fast is insufficient. It can trigger a Herxheimer-like flare without completing the immune cycle that would have resolved it. These patients require a 9-day fast, but only after building tolerance through shorter fasts (3-day → 5-day → 7-day → 9-day progression). For most Long Covid patients, the 5-day to 7-day range is the working zone.
+For some severely ill patients a 5-day fast is not enough, and in Yannick's experience the best results then come from a 7-to-9-day fast, but only once five days is very comfortable. The deeper the fast, the more aggressive the immune reset. For most Long Covid patients, five days is the working zone, and feeling worse mid-fast is a cue to walk, get a massage and move the system, and to break the fast if it starts to feel really bad, not to grit through a flare.
 
 The deeper mechanism (why dry fasting activates a second autophagy pathway that water fasting cannot reach, and why this matters for clearing the viral reservoirs Long Covid sets up in tissue) is covered in [the complete dry fasting guide](/blog/dry-fasting-complete-guide). If you have already done extended dry fasting at a Filonov-tradition retreat and your symptoms came back after six to twelve months, the gap that needs to be closed next is covered in [Starving to Heal vs the Scorch Protocol](/blog/starving-to-heal-vs-scorch-protocol).
 
@@ -177,7 +177,7 @@ A typical course for a moderate-severity patient:
 
 - **Months 0-1 (preparation)**: dietary preparation, lab work where accessible, sourcing protocol materials, beginning shorter fasts to build tolerance.
 - **Months 1-3 (first significant fasts, T3 initiation)**: the first 5-day to 7-day fast under proper preparation; T3 therapy begun; initial symptom reduction; often a Herxheimer-like detox window in weeks 1-2 post-fast as viral debris clears.
-- **Months 3-6 (refeeding and hGH phase)**: gradual caloric ascent under T3 support; hGH layered in; body temperature begins normalizing; cognitive symptoms among the last to fully resolve.
+- **Months 3-6 (refeeding and further cycles)**: gradual caloric ascent under T3 support; hGH considered around the third cycle only if the first two have not done enough; body temperature begins normalizing; cognitive symptoms among the last to fully resolve.
 - **Months 6-12 (consolidation)**: additional fasts if needed for severe viral cases; full caloric and metabolic restoration; energy floor sustainably elevated; the climb is essentially complete.
 
 Cognitive symptoms (brain fog, processing speed, working memory) are typically among the last to fully resolve. This is consistent with the underlying neurological recovery mechanism: the brain's structural recovery (BDNF-driven dendritic spine regrowth) trails its energetic recovery. For severe long-duration cases, this is the phase where adjuncts like psilocybin-assisted neuroplasticity become relevant, which is covered in a separate guide.
@@ -214,7 +214,7 @@ For T3 therapy and hGH therapy, yes. Dry fasting can be self-directed with prope
 
 ### Is dry fasting safe?
 
-Properly prepared dry fasting in appropriate patients is well-tolerated. Improperly prepared, or in inappropriate patients, it can be dangerous. The protocol's progression (3-day → 5-day → 7-day → 9-day) exists to build tolerance and identify the minimum effective dose before extending. The [tips and tricks page](/tips-and-tricks) covers the practical preparation in detail.
+Properly prepared dry fasting in appropriate patients is well-tolerated. Improperly prepared, or in inappropriate patients, it can be dangerous. The protocol's progression (3-day → 5-day, capped at five days, longer only once five is very comfortable) exists to build tolerance and identify the minimum effective dose before extending. The [tips and tricks page](/tips-and-tricks) covers the practical preparation in detail.
 
 ### How long does the full protocol take?
 

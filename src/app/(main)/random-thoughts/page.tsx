@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import GuidanceBox from "@/components/GuidanceBox";
 import PaidContentBlock from "@/components/PaidContentBlock";
+import ReferencesSection from "@/components/ReferencesSection";
 
 export const metadata: Metadata = {
   title: "Random Thoughts",
@@ -448,9 +449,12 @@ export default function RandomThoughtsPage() {
               </li>
               <li>
                 <strong>The &ldquo;Speed-Run&rdquo;:</strong> If pathogens are
-                the problem, sometimes you have to do a longer (7–9 day) fast to
-                beat them back once and for all. Shorter fasts might not be
-                enough to kill them off.
+                the problem, sometimes a longer fast (seven to nine days) is
+                what beats them back once and for all; some people get their
+                best results there, and the deeper fast is the more aggressive
+                immune reset. That extension is earned once five days is very
+                comfortable, because five days is the cap that is still safe
+                at home.
               </li>
             </ul>
           </div>
@@ -623,7 +627,7 @@ export default function RandomThoughtsPage() {
           <p>
             That deeper acidification is where the real nuclear-option
             magic happens. The acidic environment{" "}
-            <strong>literally melts biofilms</strong> &mdash; the
+            <strong>literally melts biofilms</strong>, the
             protective shells that shelter Lyme co-infections from immune
             attack and standard antibiotics. It dramatically{" "}
             <strong>accelerates autophagy</strong> beyond what the Day 3
@@ -641,9 +645,14 @@ export default function RandomThoughtsPage() {
         <div className="guiding-questions box-warning">
           <h3>The Nuclear Option: When Extended Dry Fasts Are Justified</h3>
           <p>
-            Extended dry fasts past the 5-day threshold are NOT for
-            wellness. They are for the cases where you genuinely need a
-            nuclear option:
+            Five days is where I cap the protocol, because five days dry is
+            still safe to do at home. Once you are very comfortable with five
+            you can extend a little, and some people get their best results
+            from seven to nine days: the deeper you go, the more aggressive the
+            immune reset, and in my observation the more of the allergic and
+            autoimmune load it clears. But extended dry fasts past five days
+            are not a wellness move. The cases that justify going there are the
+            ones that genuinely need a nuclear option:
           </p>
           <ul>
             <li>
@@ -688,6 +697,24 @@ export default function RandomThoughtsPage() {
             produced and seed additional viral reactivation. The bar for
             refeed discipline rises sharply with fast length.
           </p>
+          <p>
+            <em>
+              What the evidence says: the measured dry-fasting literature stops
+              at day five. The two Athens five-day studies ran in healthy,
+              unmedicated adults with a physician checking bloods daily, and
+              their authors call supervision obligatory (Papagiannopoulos 2013;
+              Papagiannopoulos-Vatopaidinos 2020); Khoroshilov&rsquo;s thesis
+              covers 68 hours and his method is a dry start of one to three
+              days by tolerance (Khoroshilov 1994), so &ldquo;safe at
+              home&rdquo; at five days is my judgement, not theirs. No human
+              study goes past day five without water, nothing compares five
+              against seven to nine days on any endpoint, and the one published
+              harm report is kidney failure on day four, alone (Philip 2026).
+              The deeper immune reset is my
+              observation; the regeneration science behind it is water-type
+              fasting work, mostly in mice (Cheng 2014).
+            </em>
+          </p>
         </div>
 
         <div className="guiding-questions box-info">
@@ -696,22 +723,24 @@ export default function RandomThoughtsPage() {
             For someone that is literally looking at improvements to their
             body, metabolism, and constitution, and who is{" "}
             <strong>not</strong> suffering with chronic illness severe
-            enough to make them consider suicide,{" "}
-            <strong>dry fasts over 5 days are usually not worth it</strong>.
+            enough to make them consider suicide, a clean five-day dry fast
+            is the protocol. Extending a little past five is a choice you make
+            once five days is very comfortable, not a target you set from the
+            start.
           </p>
           <p>
             The diminishing returns on stem cell regeneration hit hard past
-            Day 5. The refeed gets more dangerous. The marginal benefit
-            does not justify the marginal risk for non-critical cases. Run
-            a clean 5-day dry fast, refeed correctly, and let the body do
-            its work in the weeks that follow.
+            Day 5. The refeed gets more dangerous. For non-critical cases the
+            marginal benefit rarely justifies the marginal risk. Run a clean
+            5-day dry fast, refeed correctly, and let the body do its work in
+            the weeks that follow.
           </p>
           <p>
-            This same principle &mdash; <em>rare and powerful beats long
-            and frequent</em> &mdash; generalizes to T3 cycles and hGH
-            cycles as well. The body responds to hormesis. A rare, sharp
-            intervention produces a stronger response than a long, ground-down
-            intervention. Use the tools sparingly so they keep their power.
+            This same principle, <em>rare and powerful beats long and
+            frequent</em>, generalizes to T3 cycles and hGH cycles as well.
+            The body responds to hormesis. A rare, sharp intervention produces
+            a stronger response than a long, ground-down intervention. Use the
+            tools sparingly so they keep their power.
           </p>
         </div>
       </section>
@@ -848,6 +877,40 @@ export default function RandomThoughtsPage() {
 
       <GuidanceBox />
       <PaidContentBlock sectionSlug="random-thoughts" sectionTitle="Random Thoughts" />
+
+      <ReferencesSection
+        refs={[
+          {
+            citation:
+              "Papagiannopoulos IA, Sideris VI, Boschmann M, Koutsoni OS, Dotsika EN. Anthropometric, Hemodynamic, Metabolic, and Renal Responses during 5 Days of Food and Water Deprivation. Forsch Komplementmed, 2013;20(6):427-433. PMID 24434757. DOI 10.1159/000357718.",
+            href: "https://doi.org/10.1159/000357718",
+            note: "ten healthy adults through five dry days with a physician and daily bloods: blood pressure, heart rate and oxygen saturation stable, creatinine clearance up; a pilot in healthy people with normal kidneys",
+          },
+          {
+            citation:
+              "Papagiannopoulos-Vatopaidinos IE, Papagiannopoulou M, Sideris V. Dry fasting physiology: responses to hypovolemia and hypertonicity. Complement Med Res, 2020;27(4):242-251. PMID 31958788. DOI 10.1159/000505201.",
+            href: "https://doi.org/10.1159/000505201",
+            note: "ten healthy, unmedicated adults through five dry days under daily medical measurement; the authors' own statement that supervision is obligatory and the method is limited to a few days",
+          },
+          {
+            citation:
+              "Khoroshilov IE. Clinical and hygienic aspects of absolute (dry) fasting. Author's abstract of a Candidate of Medical Sciences thesis, Military Medical Academy, St Petersburg, 1994 (abridged English translation, Siberika Publishing, 2020).",
+            note: "six healthy men fasted 68 hours without food or water; the author's own method is a dry start of one to three days by individual tolerance, then water fasting, and nothing in it measures a fourth day",
+          },
+          {
+            citation:
+              "Philip R, Shahid R, Rehman S, Jussa M, Rao HS, Philip M. Severe dialysis disequilibrium following an extreme dry fast: hypernatremic dehydration and rhabdomyolysis leading to multiorgan failure. Am J Respir Crit Care Med, 2026;212(Suppl 1), ATS conference abstract A51-43. DOI 10.1093/ajrccm/aamag162.4785.",
+            href: "https://academic.oup.com/ajrccm/article/212/Supplement_1/aamag162.4785/8684721",
+            note: "the one published harm report from a multi-day dry fast: oliguric kidney injury with rhabdomyolysis after four days alone; a single conference abstract with unknown confounders",
+          },
+          {
+            citation:
+              "Cheng CW, Adams GB, Perin L, et al. Prolonged fasting reduces IGF-1/PKA to promote hematopoietic-stem-cell-based regeneration and reverse immunosuppression. Cell Stem Cell, 2014;14(6):810-823. PMID 24905167. DOI 10.1016/j.stem.2014.04.014.",
+            href: "https://doi.org/10.1016/j.stem.2014.04.014",
+            note: "the immune-regeneration finding behind the 'immune reset' idea: 48 to 72 hour fasting cycles in mice drove stem-cell self-renewal; water-type fasting, mostly in mice, with no comparison of dry-fast depth",
+          },
+        ]}
+      />
     </>
   );
 }

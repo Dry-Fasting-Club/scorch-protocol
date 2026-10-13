@@ -107,7 +107,9 @@ Standard protocol range:
 - Cycled in 3-6 month phases with off-cycles to maintain endogenous production
 - Combined with adequate carbohydrate intake (GH is anabolic in the presence of carbs, more lipolytic in their absence)
 
-The hGH should be started after the metabolic foundation is stabilized: T3 cycle complete or in progress, basal body temperature trending toward 98.6°F, carbohydrate tolerance returning, MCAS reactivity reduced. Starting hGH on a fully depleted base without these foundations produces minimal benefit because the body cannot convert the GH signal into tissue rebuild without the underlying energy supply.
+hGH is an add-on, not a phase everyone reaches. It comes in around the third cycle, and only if the first two cycles of fasting and T3 have not done enough: insulin resistance so deep that food is still not tolerated, extreme muscle loss, really bad sleep. It runs alongside the T3 as a supercharge of the cycle, for three to six months, after which you wean off and give your own production about 30 days to come back. It should be started after the metabolic foundation is stabilized: T3 course complete or in progress, basal body temperature trending toward 98.6°F, carbohydrate tolerance returning, MCAS reactivity reduced.
+
+**Update, October 2026.** This guide used to place hGH on a fixed calendar, months 1-3 for the first cycle and 6-9 for the second. Over time the data showed that fasting and T3 cycles finish the job for many people, so hGH now waits for the cycles to show it is needed. While on it you either stop fasting and focus on regeneration with continuous calories, or keep cycling fasts, in which case the hGH dosing pattern has to change to account for the suppression of your own production, and that pattern is worked out case by case with me, not from a page. Nothing published has tested fasting on hGH beyond one 1971 study of growth hormone across a multi-week fast, which found worse ketosis and no protein sparing, so this mode is my practice and I treat it that way. Starting hGH on a fully depleted base without these foundations produces minimal benefit because the body cannot convert the GH signal into tissue rebuild without the underlying energy supply.
 
 Sourcing: hGH is a prescription medication. The [hGH therapy protocol page](/hgh-therapy) covers the practical sourcing and prescribing considerations. The [list of pharmacies page](/list-of-pharmacies) lists compounding pharmacies and telehealth services experienced with the protocol.
 
@@ -129,15 +131,15 @@ The Scorch Protocol sequencing: the rebuild emphasis on biome does not start in 
 
 The integrated rebuild phase across a full year:
 
-**Months 1-3 (early refeeding plus first hGH cycle if appropriate):** Caloric ascent from baseline to 2,000-2,500 kcal/day. T3 continues from Phase 2. First hGH cycle may begin if foundation is stable. Body temperature continuing to climb toward 98.6°F average. MCAS reactivity reducing. Initial cognitive and energy improvements consolidating.
+**Months 1-3 (early refeeding):** Caloric ascent from baseline to 2,000-2,500 kcal/day. The T3 course runs after the first week of refeeding if the fast left a slowdown behind. No hGH yet; the first cycles have to show whether it is needed. Body temperature continuing to climb toward 98.6°F average. MCAS reactivity reducing. Initial cognitive and energy improvements consolidating.
 
-**Months 3-6 (mid-rebuild plus active hGH):** Caloric ascent to 3,000-3,500 kcal/day. hGH driving tissue rebuild visible in muscle mass return, body composition shift (lean gain rather than fat gain), measurable strength improvement. Body temperature stable at 98.6°F+ on T3. Brain fog substantially resolved. POTS symptoms (if present) largely reduced.
+**Months 3-6 (mid-rebuild, second cycle):** Caloric ascent to 3,000-3,500 kcal/day. Tissue rebuild visible in muscle mass return, body composition shift (lean gain rather than fat gain), measurable strength improvement. Body temperature stable at 98.6°F+ on T3. Brain fog substantially resolved. POTS symptoms (if present) largely reduced.
 
-**Months 6-9 (late-rebuild plus second hGH cycle):** Caloric ascent to 4,000+ kcal/day for severely depleted patients. Off-cycle from hGH followed by second cycle. Continued tissue rebuild, mitochondrial density restoration, thymic regeneration. Immune competence measurably improving (fewer infections, faster recovery from minor illness, MCAS reactivity continuing to fall).
+**Months 6-9 (late-rebuild, hGH if warranted):** Caloric ascent to 4,000+ kcal/day for severely depleted patients. Around the third cycle, if fasting and T3 have not done enough, hGH is added for three to six months, then weaned. Continued tissue rebuild, mitochondrial density restoration, thymic regeneration. Immune competence measurably improving (fewer infections, faster recovery from minor illness, MCAS reactivity continuing to fall).
 
 **Months 9-12 (consolidation):** Caloric intake at maintenance for new restored baseline (typically 2,500-3,500 kcal/day for sustained maintenance after the active rebuild ramp). Energy floor stable at substantially higher level than at protocol entry. Patient is recognizably themselves again in function and capacity. Final residual symptoms (sometimes cognitive subtleties in severe long-duration cases) continue to clear.
 
-The protocol's rotation phase begins around month 9-12: cycling back into dry fasting plus T3 maintenance with periodic refeed and hGH cycles, balancing cleanup and rebuild on an ongoing cadence.
+The cycles continue throughout: a fast, a refeed, the 30-day T3 course when the fast leaves a slowdown behind, seven days off, the next fast. Anyone on hGH who keeps cycling fasts doses it through the day, at least four times, so the fast still works under it.
 
 ## Frequently Asked Questions
 

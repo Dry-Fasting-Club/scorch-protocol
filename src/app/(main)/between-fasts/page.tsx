@@ -25,7 +25,7 @@ const betweenFastsFaq = [
   {
     question: "Do you stay on antivirals between fasts?",
     answer:
-      "Yes. Valacyclovir is a standing backbone, not a short course you stop once the refeed ends. It never runs during the fast, dry or water, because it is renally cleared and a water fast still leaves the body systemically dehydrated (the kidneys keep purging water, and electrolytes help but do not fix that). It starts on refeed day 3 at the earliest, after at least two days of eating with heavy rehydration, and from there it keeps running through the refeed, the T3 phase and the long gap before the next cycle. L-lysine from water day 1, and monolaurin and olive leaf from the first meal, are the cover until it starts. Ivermectin runs alongside it as a secondary supportive antiviral and the primary antiparasitic, and some patients keep it as a crash-only medication rather than a daily one, since the same calming effect that supports it as an antiviral is also the reason it is reached for during a PEM crash. If a prodrome starts, the loading dose is an escalation layered on top of the standing course, not a replacement for it.",
+      "Yes. Valacyclovir is a standing backbone, not a short course you stop once the refeed ends. It never runs during the fast, dry or water, because it is renally cleared and a water fast still leaves the body systemically dehydrated (the kidneys keep purging water, and electrolytes help but do not fix that). It starts on refeed day 3 at the earliest, after at least two days of eating with heavy rehydration, and from there it keeps running through the refeed, the T3 phase and the stretch before the next cycle (a cycle being a fast, a refeed and a 30-day T3 course, with the next fast seven days after the T3 course ends). L-lysine from water day 1, and monolaurin and olive leaf from the first meal, are the cover until it starts. Ivermectin runs alongside it as a secondary supportive antiviral and the primary antiparasitic, and some patients keep it as a crash-only medication rather than a daily one, since the same calming effect that supports it as an antiviral is also the reason it is reached for during a PEM crash. If a prodrome starts, the loading dose is an escalation layered on top of the standing course, not a replacement for it.",
   },
   {
     question: "What can you take during a PEM crash?",
@@ -68,7 +68,7 @@ export default function BetweenFastsPage() {
 
       <KeyTakeaways
         points={[
-          "This is the standing daily stack for the long gap between protocol cycles: the months after one fast and refeed have finished, and before the next fast begins. It is not a pre-fast shopping list.",
+          "A cycle is a fast, a refeed and a 30-day T3 course, and the next fast opens seven days after the T3 course ends. This is the standing daily stack for the eating weeks inside and between cycles: from the first days of the refeed, through the T3 course, to the seven days before the next fast, and across any longer rebuild stretch when fasting pauses. It is not a pre-fast shopping list.",
           "Valacyclovir is the standing antiviral backbone. It never runs during the fast, dry or water, because it is renally cleared and a water fast still leaves the body dehydrated. It starts on refeed day 3 at the earliest, after two days of eating with heavy rehydration, and then keeps running for months. L-lysine from water day 1, and monolaurin with olive leaf from the first meal, cover the gap. Ivermectin is a secondary supportive antiviral and the primary antiparasitic.",
           "During a PEM crash, the standing stack keeps running and dosing changes on two items already in it: ivermectin, raised for its calming effect on the nervous system and inflammation, and, for patients already established on T3 therapy, a temporary acute increase set with a clinician. Artemisinin is not a crash tool.",
           "Almost everything here is daily. Artemisinin is the one exception in the standing stack: an optional extra antiviral, added only when stacking against a strongly suspected viral reactivation, and marginal to the protocol outside that situation. Psilocybin microdosing is the other non-daily item, an optional extra never part of the baseline.",
@@ -80,13 +80,16 @@ export default function BetweenFastsPage() {
 
       <p>
         Most of the protocol is written around the fast. The preparation, the
-        fast itself, the water bridge, the refeed, T3, hGH: all of it is
-        scheduled around a few intense weeks. Then the cycle ends and you are
-        left with a long quiet gap, sometimes several months, before the next
-        one. That gap is where this page lives.
+        fast itself, the water bridge, the refeed, T3: all of it is scheduled
+        around a few intense weeks. A cycle, as I run it, is a fast, a refeed
+        and a 30-day T3 course, and the next fast opens seven days after the T3
+        course ends. Between the first days of the refeed and that next fast
+        there is a stretch of eating weeks, and when fasting pauses for a
+        longer rebuild (a regeneration run on hGH, for example) that stretch
+        becomes months. This page lives in that stretch.
       </p>
       <p>
-        The gap is not a break. It is the period when viral load quietly
+        The stretch is not a break. It is the period when viral load quietly
         rebuilds, when microclots reform, and when the immune system is doing
         the slow work of consolidating what the fast cleared. Running nothing
         through it is how people arrive at cycle two no better than they arrived
@@ -141,8 +144,9 @@ export default function BetweenFastsPage() {
               <strong>This page</strong>
             </td>
             <td>
-              The long gap after a cycle has finished and before the next one
-              starts. The standing daily maintenance stack.
+              The eating weeks inside and between cycles: the refeed, the T3
+              course, the seven days before the next fast, and any longer
+              rebuild stretch. The standing daily maintenance stack.
             </td>
           </tr>
         </tbody>

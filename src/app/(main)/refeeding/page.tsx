@@ -295,10 +295,15 @@ export default function RefeedingPage() {
           mitochondrial support has had a week to work.
         </p>
         <p>
-          After those seven days, the T3 protocol starts and the climb, hold,
-          and taper run exactly as laid out on the{" "}
-          <a href="/t3-therapy">T3 Therapy</a> page. Starting T3 earlier, on top
-          of a gut and a metabolism that are still coming back online, is the
+          After those seven days you decide whether this cycle needs T3 at all.
+          If the fast left you running hot, holding your weight and feeling
+          great, you skip it. If you came out cold, with your weight stuck and
+          the old symptoms still there, that is the metabolic slowdown T3 is
+          for, and the 30-day course runs on the Wilson&rsquo;s pattern (ramp,
+          hold, taper) as laid out on the{" "}
+          <a href="/t3-therapy">T3 Therapy</a> page. Seven days after the
+          course ends, the next fast opens. Starting T3 earlier, on top of a
+          gut and a metabolism that are still coming back online, is the
           mistake this sequence is built to prevent.
         </p>
       </div>

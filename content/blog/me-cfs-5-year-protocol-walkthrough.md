@@ -24,6 +24,8 @@ excerpt: "What does the first 90 days of the Scorch Protocol look like for a 5-y
 
 This is a **scenario-based clinical decision walkthrough**, not an individual patient case. It describes how the Scorch Protocol approaches a specific patient profile that is common enough in the chronic illness population to warrant focused walkthrough content. The decisions described reflect the protocol's standard approach to this profile. The framing is "if this is your situation, here is what the first 90 days look like." Individual variation is expected; the framework is consistent.
 
+**Update, October 2026.** This walkthrough was written when a basal temperature below 96°F was the trigger for T3 first on its own. The rule is now narrower: the default is fast first, and T3 first is for the person who has already been fasting, pushing through it, and getting worse each time, with metabolic signs such as this profile's temperature on top. Read the 90-day sequence below as the path for that person. hGH is also no longer a standard phase; it comes in around the third cycle, only if the first two cycles have not done enough.
+
 ## The Patient Profile
 
 The walkthrough below applies to a patient with the following profile at protocol entry:
@@ -45,7 +47,7 @@ The standard Scorch Protocol sequence for most chronic illness patients is: prep
 
 For the patient profile described above, this sequence is modified because the baseline temperature below 96°F and the severity of MCAS reactivity put the patient in the "lost-cause fasting" cohort where attempting an extended fast at the current baseline is more likely to produce symptoms than therapeutic benefit. The hyperosmotic stress of the fast on a metabolism this depleted is more than the system can productively respond to.
 
-The modified sequence for this profile: extended preparation → T3 therapy first → tolerance-building with short fasts → first 5-day fast only after temperature has stabilized above 96°F → standard protocol from there.
+The modified sequence for this profile, for the patient whose fasts have already failed: extended preparation → T3 therapy first → tolerance-building with short fasts → first 5-day fast only after temperature has stabilized above 96°F → standard protocol from there.
 
 The first 90 days for this patient are about establishing the metabolic foundation that makes extended fasting safe and productive, not about doing the fast itself.
 
@@ -69,7 +71,7 @@ The first two weeks are entirely about establishing baseline and preparation, wi
 
 ## Days 14-30: T3 Therapy Initiation
 
-For the sub-96°F patient profile, T3 begins before any extended fasting attempt. The reasoning: the cellular machinery is too suppressed to respond productively to the hyperosmotic stress of an extended fast at the current baseline. Restoring the cellular machinery first makes the fast both safer and more productive when it is eventually undertaken.
+For the sub-96°F patient whose fasts have already failed, T3 begins before any extended fasting attempt. The reasoning: the cellular machinery is too suppressed to respond productively to the hyperosmotic stress of an extended fast at the current baseline. Restoring the cellular machinery first makes the fast both safer and more productive when it is eventually undertaken.
 
 **T3 prescription.** Slow-release T3 (SR-T3) from a compounding pharmacy familiar with the protocol. The [list of pharmacies page](/list-of-pharmacies) covers practical sourcing.
 
@@ -111,7 +113,7 @@ With the metabolic foundation established by 8 weeks of T3 therapy, the first sh
 
 **Week 11: 72-hour water fast.** This is the threshold beyond which the deeper therapeutic effects of fasting begin. Should produce noticeable post-fast improvement: clearer thinking for 1-2 weeks, energy improvement, MCAS reactivity reduction.
 
-**Week 12: 24-hour dry fast.** First introduction to the dry fasting pathway. Brief enough to be tolerable, long enough to begin activating the hyperosmotic stress response. Pre-fast colon cleanse and liver flush completed in days prior.
+**Week 12: 24-hour dry fast.** First introduction to the dry fasting pathway. Brief enough to be tolerable, long enough to begin activating the hyperosmotic stress response. Pre-fast preparation is eating light: no oils or meat for the two days before, juicing only on the last day, magnesium citrate through the week.
 
 **End of week 13 (day 90):** the patient is ready for the first 5-day dry fast. Basal body temperature averaging 97.5°F+ on T3, MCAS reactivity substantially reduced, dietary tolerance reasonable, PEM threshold significantly wider, multiple short fasts tolerated.
 
@@ -119,7 +121,7 @@ The first 5-day dry fast at this point will produce a substantively different re
 
 ## What This 90-Day Window Buys
 
-For this patient profile, the 90-day modification of the standard protocol order is what makes the protocol work at all. Attempting the standard sequence (dry fasting first, then T3) at a baseline temperature below 96°F is more likely to produce flares without therapeutic benefit than to produce sustainable recovery.
+For this patient profile, the 90-day modification of the standard protocol order is what makes the protocol work at all. For the patient whose earlier fasts at a baseline below 96°F produced flares without benefit, repeating the standard sequence (dry fasting first, then T3) is more likely to repeat the flare than to produce sustainable recovery.
 
 The 90-day window:
 
@@ -135,10 +137,10 @@ Patients who attempt the standard sequence in this profile typically describe a 
 The protocol from day 90 onward follows the standard sequence:
 
 - **Days 90-100:** First 5-day dry fast with proper preparation
-- **Days 100-130:** Refeed and T3 cycle continuation
-- **Days 130-160:** Second T3 cycle if needed, hGH discussion with prescriber
-- **Days 160-200:** First hGH cycle begin (if T3 foundation stable)
-- **Days 200-365:** Rebuild phase with continued T3 and hGH, biome rebuild, gradual return to pre-illness function
+- **Days 100-130:** Refeed, then the 30-day T3 course if the fast leaves a metabolic slowdown behind
+- **Days 130-160:** Seven days after the T3 course ends, the second fast; second cycle
+- **Days 160-200:** Third cycle; hGH discussion with prescriber only if the first two cycles have not done enough
+- **Days 200-365:** Rebuild phase, with hGH for three to six months where warranted, biome rebuild, gradual return to pre-illness function
 
 The total timeline for this patient profile is typically 12-18 months from protocol entry to substantial functional recovery, longer than the standard 9-12 month timeline because of the extended preparation window.
 

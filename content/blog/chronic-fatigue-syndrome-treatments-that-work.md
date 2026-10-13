@@ -82,7 +82,7 @@ For the POTS-overlap subgroup, sodium loading and aggressive hydration produce m
 
 ## Treatments That Actually Address the Mechanism
 
-### Extended Dry Fasting (5-9 Days)
+### Extended Dry Fasting (5 Days, Longer Once Comfortable)
 
 Dry fasting activates a depth of autophagy that no other intervention reaches, surges NK cell cytotoxicity (the exact immune deficit found in CFS at ~50% of normal), shifts cytokines from pro-inflammatory to anti-inflammatory, and clears latent viral reservoirs through virophagy. The clinical validation is the Khoroshilov body of work, which documented EBV DNA reductions averaging 64% at Day 30 post-fast, CMV IgM antibodies down 42%, and 75% of HSV patients reporting no recurrence for 6+ months.
 
@@ -109,10 +109,10 @@ The treatments listed above are not interchangeable. They have to be applied in 
 The full sequence:
 
 1. **Pre-protocol stabilization.** Establish baseline (manage acute symptoms, address any contraindications, build to short fasts).
-2. **Phase 1: Dry fasting** (5-day to 9-day, depending on severity and tolerance, progressing from shorter fasts).
+2. **Phase 1: Dry fasting** (5-day, progressing from shorter fasts; 7 to 9 days only once five is very comfortable).
 3. **Phase 2: T3 therapy initiation** (slow-release T3, temperature-guided titration to 98.6°F average).
-4. **Phase 3: Refeeding with hGH** (gradual caloric reintroduction, hGH layered in once carbohydrate tolerance returns).
-5. **Phase 4: Rotation** (cycle back into dry fasting and T3, manage muscle waste vigilance).
+4. **Phase 3: Refeeding** (gradual caloric reintroduction; hGH added only around the third cycle, if fasting and T3 have not done enough).
+5. **Phase 4: Rotation** (finish the T3 course, wait seven days, next fast; manage muscle waste vigilance).
 6. **Adjuncts as needed** (psilocybin neuroplasticity for severe cognitive residuals, targeted antimicrobials for ongoing pathogen load).
 
 The protocol takes months to years depending on illness duration. The conservative estimate is approximately 2x speedup relative to natural unassisted recovery, with additional speedup possible with the full stack.
@@ -121,7 +121,7 @@ The protocol takes months to years depending on illness duration. The conservati
 
 ### What if I can barely tolerate any movement, let alone a fast?
 
-Severe PEM patients often need to start with very short fasts (24-48 hours) to test tolerance, may need to begin T3 before any extended fasting, and need to plan the protocol around their PEM windows. The implementation is slower but feasible. The [tips and tricks page](/tips-and-tricks) covers practical management.
+Severe PEM patients often need to start with very short fasts (24-48 hours) to test tolerance, may need to begin T3 before any extended fasting if those fasts keep making them worse, and need to plan the protocol around their PEM windows. The implementation is slower but feasible. The [tips and tricks page](/tips-and-tricks) covers practical management.
 
 ### Why slow-release T3 instead of standard T3 or T4?
 

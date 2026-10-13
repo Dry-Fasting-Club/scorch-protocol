@@ -344,10 +344,13 @@ export default function MCASAndDryFastingPage() {
           system responds to the released material. This can feel like a histamine
           flare: flushing, skin reactions, itching, energy crash, and mood shifts.
           This is a Herxheimer (die-off) reaction, not a sign that fasting is
-          making MCAS worse. It is uncomfortable but expected and generally safe to
-          push through, provided your vital signs are stable (resting heart rate
-          below 120 bpm, no 24-hour urination loss, core temp in the safe range,
-          no severe confusion or fainting). See the{" "}
+          making MCAS worse. It is uncomfortable but expected. My rule for it:
+          go on walks, do massages, move the whole system. As long as your
+          vital signs are stable (resting heart rate below 120 bpm, no 24-hour
+          urination loss, core temp in the safe range, no severe confusion or
+          fainting) and the discomfort is bearable, you can continue. If it
+          starts to feel really bad, or the pain is excruciating, break the
+          fast. See the{" "}
           <Link href="/symptom-management">Symptom Management</Link> page for the
           full triage decision tree.
         </div>

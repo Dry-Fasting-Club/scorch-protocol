@@ -72,16 +72,21 @@ export default function SuccessRateDataPage() {
           normal.
         </div>
         <div className="question-item">
-          <span className="question-label">Many never needed T3 or hGH</span>
-          The largest group stopped after the fasting block and the refeed,
-          because they already felt healed. That group skewed toward the less
-          severe cases: people whose metabolism had not yet been ground all the
-          way down.
+          <span className="question-label">Not everyone needed T3 or hGH</span>
+          A large group stopped after the fasting block and the refeed because
+          they came out of the fast running hot, holding their weight and
+          feeling great. That is the person who does not need the T3 cycle,
+          and the group skewed toward the less severe cases: people whose
+          metabolism had not yet been ground all the way down. The long-term
+          sufferer who has done many fasts and seen many doctors is a different
+          case: they run fast then T3 at least once to test the water, and wean
+          off if it does little.
         </div>
         <div className="question-item">
           <span className="question-label">The stack does what the pieces cannot</span>
-          For the people who go all the way, dry fasting, T3, and hGH in
-          sequence produce something none of them produce on their own. That
+          For the people who go all the way, dry fasting, the T3 course and,
+          where two cycles were not enough, hGH layered on top of the cycle
+          produce something none of them produce on their own. That
           combination, not any single lever, is what the protocol is actually
           about.
         </div>
@@ -170,10 +175,11 @@ export default function SuccessRateDataPage() {
           put them at real risk.
         </div>
         <div className="question-item">
-          <span className="question-label">Redirected to metabolic therapy</span>
-          Some were advised to focus on metabolic therapy first rather than
-          fasting, as the safer and more appropriate starting point for their
-          situation.
+          <span className="question-label">Sent to a T3 jump start first</span>
+          The order is fast first, always, with one exception. A few had
+          already struggled through fasts, pushed on, kept getting worse and
+          showed clear signs of metabolic trouble. They were put on a T3 course
+          first as a jump start, and came back to the fast afterwards.
         </div>
         <div className="question-item">
           <span className="question-label">Mindset and readiness</span>
@@ -324,10 +330,14 @@ export default function SuccessRateDataPage() {
           regeneration)
         </li>
         <li>
-          <strong>T3 Therapy</strong> (metabolic reset and energy restoration)
+          <strong>T3 Therapy</strong> (metabolic reset and energy restoration,
+          for those whose refeed shows the slowdown; a cycle is the fast, the
+          refeed and the 30-day T3 course, with the next fast seven days after
+          the course ends)
         </li>
         <li>
-          <strong>hGH Therapy</strong> (for those who continue: directs the
+          <strong>hGH Therapy</strong> (around the third cycle, on top of T3,
+          when two cycles of fasting plus T3 were not enough: directs the
           released stem cells into tissue rebuilding), plus symptom-specific
           add-ons where needed
         </li>

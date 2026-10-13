@@ -4,6 +4,7 @@ import GuidanceBox from "@/components/GuidanceBox";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import JsonLd from "@/components/JsonLd";
+import ReferencesSection from "@/components/ReferencesSection";
 import { medicalWebPageLd, faqPageLd } from "@/lib/structured-data";
 
 const PAGE_DESCRIPTION =
@@ -286,9 +287,11 @@ export default function DryFastingVsWaterFastingPage() {
         </li>
         <li>
           <strong>It can be sustained longer.</strong> Medically supervised
-          water fasts of 7 to 21 days have been conducted safely. Extended dry
-          fasts (beyond 5 days) carry compounding risks that most people should
-          not approach without direct clinical support.
+          water fasts of 7 to 21 days have been conducted safely. I cap the dry
+          fast at five days because five days is still safe to do at home. Once
+          it is very comfortable you can extend a little, and some people get
+          their best results from seven to nine days, but the margin narrows
+          with every day past five and the refeed discipline rises with it.
         </li>
         <li>
           <strong>It lets L-lysine return.</strong> You cannot safely take
@@ -388,31 +391,47 @@ export default function DryFastingVsWaterFastingPage() {
         more powerful.
       </p>
       <p>
-        The most important variable is your baseline morning body temperature.
-        Long Covid and ME/CFS patients commonly run cold (96 to 97&deg;F)
-        because viral persistence has already suppressed the thyroid axis. Dry
-        fasting on top of that suppression can push the body too deep. The
+        The order is fast first, always, and the one exception is not a
+        temperature reading but a history. Long Covid and ME/CFS patients
+        commonly run cold (96 to 97&deg;F) because viral persistence has
+        already suppressed the thyroid axis, and that reading matters: it is
+        the dial the T3 course is dosed to after the fast, and a low reading is
+        the main sign you will come out of the fast needing that course. The
         decision tree maps out the full logic:
       </p>
       <ul>
         <li>
-          If your morning temperature is at or above 98.6&deg;F (37.0&deg;C):
-          the standard protocol applies. Build up with 36 hours, then 72 hours,
-          then 5 days.
+          Fast first: the standard order is prepare, fast, refeed. Build up
+          with 36 hours, then 72 hours, then 5 days, and log your waking
+          temperature from day one.
         </li>
         <li>
-          If your morning temperature is between 97.8 and 98.5&deg;F: you can
-          fast but should monitor closely and consider T3 support.
+          Then judge the refeed: running hot, holding your weight and feeling
+          great means no T3 this cycle. Cold, weight stuck and the old symptoms
+          back means the 30-day T3 course after refeed day 7.
         </li>
         <li>
-          If your morning temperature is below 97.8&deg;F: T3 therapy should
-          come before dry fasting.
+          T3 first, as a jump start, only if fasting has already failed you:
+          you pushed through fasts, kept getting worse, and show signs of
+          metabolic trouble. That is a decision to make with me, not from a
+          chart.
         </li>
         <li>
-          If your morning temperature is 95 to 96&deg;F: T3 therapy and high
-          calories are mandatory before any fasting attempt.
+          A very low waking temperature is a reason to bring your numbers to me
+          before you plan anything; it is not, on its own, a rule I publish
+          either way.
         </li>
       </ul>
+      <p>
+        <em>
+          What the evidence says: the T3-first exception, and the judgement of
+          who needs T3 after the fast, are my clinical rules. The literature
+          has no published criterion for who needs T3 after a fast; the nearest
+          objective candidate is the low free T3 and high reverse T3 pattern
+          measured in chronic fatigue patients (Ruiz-Nunez 2018), which is a
+          blood test, not the history-and-temperature screen I use.
+        </em>
+      </p>
 
       <div className="guiding-questions box-info">
         <h3>Do Not Jump Straight to 5 Days</h3>
@@ -475,6 +494,17 @@ export default function DryFastingVsWaterFastingPage() {
 
       <RefeedPlanPromo source="dry-fasting-vs-water-fasting" />
       <GuidanceBox />
+
+      <ReferencesSection
+        refs={[
+          {
+            citation:
+              "Ruiz-Nunez B, Tarasse R, Vogelaar EF, Janneke Dijck-Brouwer DA, Muskiet FAJ. Higher Prevalence of \"Low T3 Syndrome\" in Patients With Chronic Fatigue Syndrome: A Case-Control Study. Front Endocrinol (Lausanne), 2018;9:97. PMID 29615976. DOI 10.3389/fendo.2018.00097.",
+            href: "https://doi.org/10.3389/fendo.2018.00097",
+            note: "the nearest thing to a published criterion for who might need T3 after a fast: chronic fatigue patients carried lower free T3 and total T3 and more reverse T3 than matched controls at a similar TSH; a blood pattern, not the history-and-temperature screen used here",
+          },
+        ]}
+      />
     </>
   );
 }

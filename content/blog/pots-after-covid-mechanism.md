@@ -84,7 +84,7 @@ The clinical validation comes from temperature-guided SR-T3 work in CFS, the pat
 POTS symptoms typically reduce progressively as the metabolic floor rises:
 
 - **Months 0-3** (initial fast + T3 begun): symptomatic POTS treatment continues; first noticeable reduction in resting heart rate and orthostatic intolerance often appears in weeks 4-8 as T3 reaches therapeutic effect
-- **Months 3-6** (refeeding + hGH): meaningful reduction in tachycardia response to standing; many patients can begin tapering POTS medications
+- **Months 3-6** (refeeding and further cycles): meaningful reduction in tachycardia response to standing; many patients can begin tapering POTS medications
 - **Months 6-12** (consolidation): substantial POTS resolution in most patients; orthostatic vitals normalize
 - **Months 12-18+** (severe long-duration cases): structural circulatory and autonomic recovery completes
 

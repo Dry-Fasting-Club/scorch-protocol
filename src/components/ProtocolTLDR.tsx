@@ -27,21 +27,27 @@ export default function ProtocolTLDR() {
           while your body comes back online.
         </li>
         <li>
-          <strong>Restart your metabolism with T3.</strong> Once you are eating again,
-          after that first week of refeeding, slow-release T3 switches your cellular
-          energy back on so your body finally has the power to heal.{" "}
+          <strong>Restart your metabolism with T3, if the fast shows you need it.</strong>{" "}
+          Once you are eating again, after that first week of refeeding, slow-release
+          T3 switches your cellular energy back on so your body finally has the power
+          to heal. Run hot, hold your weight and feel great after the fast, and you
+          skip it this cycle; come out cold with your weight stuck, and the 30-day
+          course is for you.{" "}
           <Link href="/list-of-pharmacies#t3-sourcing">where to get it</Link>
         </li>
         <li>
-          <strong>Rebuild with calories and hGH.</strong> Feed the system and add hGH
-          to turn everything the fast freed up into new, healthy tissue. This is where
-          the recovery locks in.
+          <strong>Rebuild with calories, and hGH when two cycles were not enough.</strong>{" "}
+          Feed the system. If two cycles of fasting plus T3 have not done it, hGH
+          comes in around the third cycle, on top of T3, for at least three to six
+          months, to turn everything the fast freed up into new, healthy tissue.
+          This is where the recovery locks in.
         </li>
       </ol>
       <p className="protocol-tldr-close">
-        Clear, support, restart, rebuild. Everything else on this site is just the
-        detail behind these four steps. You do not need to master the science to
-        begin. You just need to start.
+        Clear, support, restart, rebuild. A cycle is a fast, a refeed and a 30-day
+        T3 course, and the next fast opens seven days after the T3 course ends.
+        Everything else on this site is just the detail behind these four steps.
+        You do not need to master the science to begin. You just need to start.
       </p>
       <p className="protocol-tldr-note">
         These are real therapies. Do them with proper guidance.

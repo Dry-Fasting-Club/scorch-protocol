@@ -53,11 +53,13 @@ export default function T3TherapyPage() {
       <StarterKitCallout />
 
       <KeyTakeaways points={[
-        "T3 therapy is for people with low waking temperature (below 36.5C / 97.7F) and low resting heart rate (below 72 bpm). Normal blood tests do not rule it out, because the problem is cells not responding to T3, not T3 being absent.",
-        "The 30-day cycle climbs 15 mcg per day for 10 days, holds at the peak, then tapers slowly over 20 days. Use Slow-Release T3, not instant-release.",
+        "T3 is for the post-fast metabolic slowdown, not for everyone. If you come out of the fast cold, with weight that will not move and the old symptoms still there, you run the course. If you run hot, hold your weight and feel great after the fast, you skip it. The long-term sufferer who has done many fasts and seen many doctors runs fast then T3 at least once to test the water, and weans off if it does little.",
+        "The signs I look for: a low waking temperature (below 36.5C / 97.7F) and a low resting heart rate (below 72 bpm). Normal blood tests do not rule it out, because the problem is cells not responding to T3, not T3 being absent.",
+        "The 30-day course follows Wilson's Temperature Syndrome cycling: ramp to your temperature target, hold, taper off, and let your own thyroid come back. The dose numbers on this page are a worked example of that shape, not a schedule to copy. Use slow-release T3, not instant-release.",
+        "If you are already on thyroid medication, the taper is much harder: your own thyroid has been asleep, and asking it to reboot as the T3 comes off puts you in a trough that is really rough. Plan that stretch with me.",
         "Stop increasing your dose if your resting heart rate goes above 100 bpm. If it goes above 90 bpm before you even start, resolve that first.",
         "T3 must be paired with enough calories and some physical movement. Without sufficient fuel, T3 burns muscle instead of fat.",
-        "In the Scorch Protocol, T3 does not run during the fast. You finish the entire fast (dry fast then water fast) with no T3, continue your antiviral coverage through the refeed, and start T3 only after the first 7 days of refeeding.",
+        "In the Scorch Protocol, T3 does not run during the fast. You finish the entire fast (dry fast then water fast) with no T3, continue your antiviral coverage through the refeed, and start T3 only after the first 7 days of refeeding. A cycle is a fast, a refeed and this 30-day course, and the next fast opens seven days after the course ends.",
       ]} />
 
       <div className="guiding-questions box-danger">
@@ -108,7 +110,22 @@ export default function T3TherapyPage() {
       <div className="guiding-questions">
         <h3>Is This Therapy Right for You?</h3>
 
-        <h4>Main Requirements (You must have these)</h4>
+        <h4>First Gate: How Did the Fast Leave You?</h4>
+        <div className="question-item">
+          <span className="question-label">Not everyone who fasts runs T3.</span>
+          Some people come out of the fast running hot, holding their weight
+          and feeling great. They do not have the metabolic problem this phase
+          treats, and they skip the T3 cycle. T3 is for the person who gets out
+          of the fast and feels the metabolic slowdown: cannot lose the weight,
+          runs cold, and continues to have the same issues. For them it is a
+          reboot. If you are the serious chronic-illness sufferer who has done
+          many fasts, been to tons of doctors and had nothing work, assume you
+          run the Scorch Protocol as written: fast, then T3, at least once to
+          test the water. Sometimes the T3 does not do much; then you wean off
+          it and bounce back, and that result is itself an answer.
+        </div>
+
+        <h4>The Signs I Look For</h4>
         <div className="question-item">
           <span className="question-label">1. Low Waking Temperature:</span>
           Is your temperature consistently{" "}
@@ -147,13 +164,21 @@ export default function T3TherapyPage() {
         <h4>Quick Check:</h4>
         <p>
           <strong>
-            Low Morning Temp + Low Pulse + 3 or more symptoms
+            Metabolic slowdown after the fast + Low Morning Temp + Low Pulse + 3 or more symptoms
           </strong>{" "}
           <span className="action-arrow">&rarr;</span> You may be a good
           candidate for T3 therapy.
         </p>
         <p>
           <em>Track your temp and pulse for one week to be sure.</em>
+        </p>
+        <p>
+          <em>
+            Order note: fast first, always. T3 before the fast is only for the
+            person who has struggled with fasting, pushed through it,
+            kept getting worse with signs of metabolic trouble, and needs a jump
+            start. That is a decision to make with me, not from a chart.
+          </em>
         </p>
 
       </div>
@@ -332,8 +357,8 @@ export default function T3TherapyPage() {
           <li>
             <strong>IdeaLabs Tyronene (T3) or Tyromix (T3 plus T4)</strong> as
             the third option. Both are immediate-release, so they are dosed
-            more often through the day, and the fast 10-day climb on this page
-            is written for slow-release only.
+            more often through the day, and the stepwise ramp on this page is
+            written for slow-release only.
           </li>
         </ol>
         <p>
@@ -468,15 +493,26 @@ export default function T3TherapyPage() {
           never a generic number pulled off a webpage.
         </div>
         <div className="question-item">
+          <span className="question-label">Day 7 Is Also the Decision Point: Do You Need This Cycle At All?</span>
+          A week into the refeed you know how the fast left you. Running hot,
+          holding your weight, feeling great: you do not need the T3 cycle, and
+          you skip it. Cold, weight that will not move, the old symptoms still
+          there: that is the metabolic slowdown T3 is for, and the course
+          begins. If you are the long-term sufferer who has tried everything,
+          run it at least once to test the water; if it does little, wean off
+          and you bounce back.
+        </div>
+        <div className="question-item">
           <span className="question-label">Then T3 Starts: After Day 7 of the Refeed</span>
           Once you have 7 days of refeeding behind you, with fuel flowing and
-          the mitochondria supported, T3 begins. From there the 30-day cycle
-          below runs exactly as written: the 15 mcg/day climb, the short hold at
-          the peak, and the slow 20-day taper. Starting T3 after the refeed is
-          established, instead of mid-fast, means you never ask a metabolic
-          accelerant to run on an empty tank. The calories are already there,
-          the antivirals have held the line, and the mitochondrial support has
-          done its prep work.
+          the mitochondria supported, T3 begins. From there the 30-day course
+          below runs on the Wilson&rsquo;s pattern: ramp to your temperature
+          target, hold, taper off, and let your own thyroid come back. Starting
+          T3 after the refeed is established, instead of mid-fast, means you
+          never ask a metabolic accelerant to run on an empty tank. The calories
+          are already there, the antivirals have held the line, and the
+          mitochondrial support has done its prep work. Seven days after the
+          course ends, the next fast opens: that is one full cycle.
         </div>
         <div className="question-item">
           <span className="question-label">Adjust for Body Composition:</span>
@@ -497,12 +533,49 @@ export default function T3TherapyPage() {
         </div>
       </div>
 
-      <h2>The 30-Day T3 Cycle</h2>
+      <h2>The 30-Day T3 Course</h2>
       <p>
-        This plan is designed to wake up your body&rsquo;s metabolism. It
-        involves a 10-day &ldquo;climb&rdquo; followed by a 20-day
-        &ldquo;descend.&rdquo;
+        This course is designed to wake up your body&rsquo;s metabolism, and
+        its shape is not mine. The pattern comes from Wilson&rsquo;s
+        Temperature Syndrome protocol: you ramp the dose until your waking
+        temperature reaches the target, you hold it there, you taper off, and
+        you allow your own system to come back. I will be straight about what
+        stands behind it. The published evidence for Wilson&rsquo;s protocol
+        itself is a single uncontrolled series of eleven patients (Friedman
+        2006), and mainstream endocrinology does not recognise the syndrome
+        (the American Thyroid Association statement; McDermott 2024). The
+        stronger ground for using T3 in people like us is the low-T3 pattern
+        measured in chronic fatigue patients against matched controls
+        (Ruiz-Nunez 2018) and the muscle changes after weight loss that T3
+        repletion reversed (Rosenbaum 2018). The shape is the rule. The
+        increments, the length of the hold and the pace of the taper are set
+        per case against your waking temperature and resting heart rate, so
+        treat the example below as one way a slow-release ramp can look, not
+        as a schedule to copy.
       </p>
+
+      <div className="guiding-questions box-info">
+        <h3>What the Evidence Says About This Course</h3>
+        <p>
+          The one controlled trial that gave T3 around a fast, restoring it to
+          the normal range over the last three days of a ten-day fast, did not
+          raise metabolic rate (Byerley and Heber 1996), and in an earlier
+          80-hour fast T3 replacement increased urea loss, which the authors
+          read as the low-T3 state of fasting protecting muscle (Gardner 1979).
+          Nobody has tested T3 at these doses after a refeed, so the course is
+          my clinical practice, not a tested protocol. The taper is the part
+          that needs the most care: when thyroid hormone is withdrawn, the
+          pituitary stays quiet for about two weeks, the T3 response takes
+          about three weeks to normalise, and after longer suppression T4 took
+          at least four weeks to return (Krugman 1975; Vagenakis 1975). That
+          lag is why the taper is slow and why I watch the trough, and it runs
+          longest in anyone already on thyroid medication (see Safety First
+          below). Marked caveat: those withdrawal studies were done at
+          replacement-scale doses in people whose axis was structurally
+          normal; nobody has published the recovery curve after a course like
+          this one.
+        </p>
+      </div>
 
       <table>
         <thead>
@@ -515,41 +588,45 @@ export default function T3TherapyPage() {
         <tbody>
           <tr>
             <td>
-              <strong>The Climb</strong>
+              <strong>The Ramp</strong>
             </td>
-            <td>10 Days</td>
+            <td>Until your waking temperature reaches target</td>
             <td>
-              <strong>The Hike Up:</strong> Increase your total daily dose by
-              about <strong>15 mcg every single day</strong>.
+              <strong>The Hike Up:</strong> Raise the total daily dose in
+              steps until your waking temperature sits in the{" "}
+              <strong>36.5 to 37.0&deg;C (97.7 to 98.6&deg;F)</strong> band.
               <br />
-              <em>Example:</em> Day 1 = 15mcg, Day 2 = 30mcg, Day 3 = 45mcg...
+              <em>Example only:</em> a slow-release ramp in 15 mcg steps, split
+              morning and evening, is one shape this can take.
               <br />
-              <strong>Note:</strong> Split your total dose into two
-              parts: one in the morning and one in the evening.
+              <strong>Stop climbing</strong> the moment resting heart rate
+              passes 100 bpm, whatever the dose.
             </td>
           </tr>
           <tr>
             <td>
-              <strong>The Peak</strong>
+              <strong>The Hold</strong>
             </td>
-            <td>1&ndash;3 Days</td>
+            <td>Until the temperature holds</td>
             <td>
-              Stay at your highest dose for a few days to &ldquo;break&rdquo;
+              Stay at the dose that holds the target to &ldquo;break&rdquo;
               your metabolism&rsquo;s resistance. If your heart races or you
-              feel anxious, stop increasing.
+              feel anxious, you have gone past your dose; come back down a
+              step.
             </td>
           </tr>
           <tr>
             <td>
               <strong>The Taper</strong>
             </td>
-            <td>20 Days</td>
+            <td>Set per case</td>
             <td>
-              <strong>The Hike Down:</strong> Slowly lower your dose back to
-              zero.
+              <strong>The Hike Down:</strong> Step the dose down to zero.
               <br />
-              This lets your thyroid start making its own hormones again without
-              a crash.
+              This lets your thyroid start making its own hormones again
+              without a crash. Watch the taper trough: it is where people who
+              were already on thyroid medication struggle most (see Safety
+              First below).
             </td>
           </tr>
         </tbody>
@@ -570,7 +647,11 @@ export default function T3TherapyPage() {
           }}
         />
         <p style={{ fontSize: "0.9rem", color: "#666", marginTop: "0.5rem" }}>
-          <em>Figure 1: Simplified T3 Protocol Dosing &amp; Tracking Chart</em>
+          <em>
+            Figure 1: a worked example of one ramp, hold and taper. The
+            Wilson&rsquo;s shape is the rule; the day counts and doses in the
+            chart are not.
+          </em>
         </p>
       </div>
 
@@ -587,10 +668,32 @@ export default function T3TherapyPage() {
         <div className="question-item">
           <span className="question-label">Are you using &ldquo;Instant&rdquo; T3?</span>
           <span className="action-arrow">&rarr;</span>{" "}
-          <strong>WARNING:</strong> This fast 10-day climb is only for{" "}
+          <strong>WARNING:</strong> This stepwise ramp is only for{" "}
           <strong>Slow-Release T3</strong>. Do not try this with regular
           &ldquo;instant&rdquo; T3 unless you are very careful and take many
           small doses throughout the day.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Already on thyroid medication?</span>
+          <span className="action-arrow">&rarr;</span> The taper is much harder
+          for you. Your own thyroid has been asleep under replacement, so
+          coming off the T3 and asking it to reboot puts you in a trough that
+          is really rough; that is my experience with every case like this.
+          The T4 bridge below is where it matters most, and this is a stretch I
+          want to be in the loop for before you start the descent.
+          <br />
+          <em>
+            What the evidence says: the axis-recovery studies ran longest in
+            people who were hypothyroid before treatment, with the pituitary
+            taking roughly a month to respond fully (Krugman 1975), and a 2021
+            systematic review of patients taken off thyroid hormone found that
+            those with a prior diagnosis of overt hypothyroidism were markedly
+            less likely to stay euthyroid off it than those who had only
+            subclinical hypothyroidism (Burgos 2021). My experience of
+            this trough runs the same direction as that evidence. Marked
+            caveat: the review grades its own evidence as low quality, and none
+            of it was collected after a T3 course like this one.
+          </em>
         </div>
         <div className="question-item">
           <span className="question-label">Having trouble stopping?</span>
@@ -660,6 +763,15 @@ export default function T3TherapyPage() {
           temperature should stay between{" "}
           <strong>36.5&deg;C and 37.0&deg;C (97.7&deg;F - 98.6&deg;F)</strong>{" "}
           without any medicine.
+        </li>
+        <li>
+          <strong>What comes next:</strong> A cycle is a fast, a refeed and
+          this 30-day course. Seven days after the course ends, the next fast
+          opens. If the course did little for you, wean off and you bounce
+          back; that result tells me something too. hGH is not the next step
+          by default: it enters around the third cycle, on top of T3, only when
+          two cycles of fasting plus T3 have not done enough. See the{" "}
+          <a href="/hgh-therapy">hGH Therapy</a> page.
         </li>
       </ul>
 
@@ -849,6 +961,9 @@ export default function T3TherapyPage() {
               <strong>hGH:</strong> directly shifts the body toward
               anabolism and preferential fat use, reducing the rate at which
               muscle is burned for fuel even when calories are temporarily low.
+              It is an add-on to the T3 cycle, normally from around the third
+              cycle, once two cycles of fasting plus T3 have shown they are not
+              enough on their own.
             </li>
             <li>
               <strong>Retatrutide:</strong> a GLP-1/GIP/glucagon triple
@@ -906,6 +1021,66 @@ export default function T3TherapyPage() {
           {
             citation: "Influence of absolute (dry) fasting on metabolic processes and organ function.",
             note: "profound insulin suppression and improved insulin sensitivity (HOMA-IR) during fasting",
+          },
+          {
+            citation:
+              "Friedman M, Miranda-Massari JR, Gonzalez MJ. Supraphysiological cyclic dosing of sustained release T3 in order to reset low basal body temperature. P R Health Sci J, 2006;25(1):23-29. PMID 16883675.",
+            href: "https://prhsj.rcm.upr.edu/index.php/prhsj/article/view/329",
+            note: "the only published clinical study of the Wilson's T3 protocol: eleven chronic fatigue patients, no control group, no blinding; the entire published base for the cycling pattern this course borrows",
+          },
+          {
+            citation:
+              "American Thyroid Association. Statement on \"Wilson's Syndrome.\" Updated 24 May 2005.",
+            href: "https://www.thyroid.org/american-thyroid-association-statement-on-wilsons-syndrome/",
+            note: "the mainstream position: the syndrome is not recognised and T3 given this way can raise blood T3 to abnormal levels with potential effects on heart and bone",
+          },
+          {
+            citation:
+              "McDermott MT. Pseudo-endocrine Disorders: Recognition, Management, and Action. J Endocr Soc, 2024;9(1):bvae226. PMID 39749108. DOI 10.1210/jendso/bvae226.",
+            href: "https://doi.org/10.1210/jendso/bvae226",
+            note: "a 2024 endocrine review that classes Wilson's syndrome among pseudo-endocrine disorders and names high-dose T3 as the hazard",
+          },
+          {
+            citation:
+              "Ruiz-Nunez B, Tarasse R, Vogelaar EF, Janneke Dijck-Brouwer DA, Muskiet FAJ. Higher Prevalence of \"Low T3 Syndrome\" in Patients With Chronic Fatigue Syndrome: A Case-Control Study. Front Endocrinol (Lausanne), 2018;9:97. PMID 29615976. DOI 10.3389/fendo.2018.00097.",
+            href: "https://doi.org/10.3389/fendo.2018.00097",
+            note: "chronic fatigue patients against matched controls: similar TSH, lower free T3 and total T3, more reverse T3; the authors call for trials of T3",
+          },
+          {
+            citation:
+              "Rosenbaum M, Goldsmith RL, Haddad F, et al. Triiodothyronine and leptin repletion in humans similarly reverse weight-loss-induced changes in skeletal muscle. Am J Physiol Endocrinol Metab, 2018;315(5):E771-E779. PMID 29920214. DOI 10.1152/ajpendo.00116.2018.",
+            href: "https://doi.org/10.1152/ajpendo.00116.2018",
+            note: "T3 repletion reversed the skeletal muscle efficiency changes that follow weight loss, at replacement scale",
+          },
+          {
+            citation:
+              "Byerley LO, Heber D. Metabolic effects of triiodothyronine replacement during fasting in obese subjects. J Clin Endocrinol Metab, 1996;81(3):968-976. PMID 8772559. DOI 10.1210/jcem.81.3.8772559.",
+            href: "https://doi.org/10.1210/jcem.81.3.8772559",
+            note: "T3 restored to the normal range over the last three days of a ten-day fast did not raise metabolic rate; replacement dosing during the fast, not this protocol's post-refeed timing, which nobody has tested",
+          },
+          {
+            citation:
+              "Gardner DF, Kaplan MM, Stanley CA, Utiger RD. Effect of tri-iodothyronine replacement on the metabolic and pituitary responses to starvation. N Engl J Med, 1979;300(11):579-584. PMID 105290. DOI 10.1056/NEJM197903153001102.",
+            href: "https://doi.org/10.1056/NEJM197903153001102",
+            note: "in an 80-hour fast, T3 replacement raised urea excretion; the authors read the low-T3 state of fasting as protecting muscle protein",
+          },
+          {
+            citation:
+              "Krugman LG, Hershman JM, Chopra IJ, et al. Patterns of recovery of the hypothalamic-pituitary-thyroid axis in patients taken off chronic thyroid therapy. J Clin Endocrinol Metab, 1975;41(1):70-80. PMID 807596. DOI 10.1210/jcem-41-1-70.",
+            href: "https://doi.org/10.1210/jcem-41-1-70",
+            note: "after withdrawal, TSH stayed suppressed about two weeks and the T3 response normalised at about three weeks; previously hypothyroid patients took about a month",
+          },
+          {
+            citation:
+              "Vagenakis AG, Braverman LE, Azizi F, Portnay GI, Ingbar SH. Recovery of pituitary thyrotropic function after withdrawal of prolonged thyroid-suppression therapy. N Engl J Med, 1975;293(14):681-684. PMID 808728. DOI 10.1056/NEJM197510022931402.",
+            href: "https://doi.org/10.1056/NEJM197510022931402",
+            note: "after prolonged suppression, TSH returned at two to three weeks and serum T4 normalised at four weeks or more",
+          },
+          {
+            citation:
+              "Burgos N, Toloza FJK, Singh Ospina NM, et al. Clinical Outcomes After Discontinuation of Thyroid Hormone Replacement: A Systematic Review and Meta-Analysis. Thyroid, 2021;31(5):740-751. PMID 33161885. DOI 10.1089/thy.2020.0679.",
+            href: "https://doi.org/10.1089/thy.2020.0679",
+            note: "patients with a prior diagnosis of overt hypothyroidism were markedly less likely to remain euthyroid off treatment than those with subclinical hypothyroidism; low-quality evidence by the authors' own grading",
           },
         ]}
       />

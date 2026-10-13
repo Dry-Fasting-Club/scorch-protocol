@@ -7,6 +7,7 @@ import PaidContentBlock from "@/components/PaidContentBlock";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import EmailCapture from "@/components/EmailCapture";
 import JsonLd from "@/components/JsonLd";
+import ReferencesSection from "@/components/ReferencesSection";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
@@ -25,7 +26,8 @@ export default function PreparationPage() {
       <KeyTakeaways points={[
         "Get baseline blood tests (thyroid, CBC, metabolic panel, Vitamin D, B12, iron, cortisol) and fix critical deficiencies before fasting.",
         "Choose between two preparation paths: plant-based (gold standard, highest healing ceiling) or ketogenic (safer fallback, more forgiving for sicker or more medicated patients).",
-        "Do one single magnesium citrate clear-out 2 days before the fast, then spend that window rehydrating with water, juice, and electrolytes only.",
+        "Eat light into the fast. Magnesium citrate at a higher dose runs through the final week (it also lowers the kidney-stone risk), oils, meat and anything hard to digest come out for the last one to two days, and the last day is juice only. No enemas, no colonics; a liver flush only if your gut motility has truly failed.",
+        "Fast first, always. T3 before the fast is only for the person who has struggled with fasting, pushed through, kept getting worse with signs of metabolic trouble, and needs a jump start.",
         "Do not change or stop prescription medications on your own; medication tapering is selective and worked out individually, so bring your list to me before you touch anything.",
       ]} />
 
@@ -51,9 +53,11 @@ export default function PreparationPage() {
         <div className="question-item">
           <span className="question-label">Body Temperature:</span>
           Is your waking body temperature (taken before getting out of bed)
-          below 36.5&deg;C (98&deg;F)? If yes, you almost certainly need T3
-          therapy as part of your preparation. (Please see body temp chart
-          under T3 therapy section)
+          below 36.5&deg;C (97.7&deg;F)? Log it from now on. It is the dial the
+          T3 course is dosed to after the fast, and a low reading is the main
+          sign you will come out of the fast needing that course. If it is very
+          low, bring the numbers to me before you plan the fast. (Please see
+          the body temp section on the T3 therapy page.)
         </div>
         <div className="question-item">
           <span className="question-label">Liver Health:</span>
@@ -216,16 +220,27 @@ export default function PreparationPage() {
               baseline on the rehydrate day below.
             </li>
             <li>
+              <strong>The final week:</strong> Magnesium citrate at a higher
+              dose, daily, with plenty of water (see Step 5). It keeps the
+              bowel moving as the food gets lighter and lowers the kidney-stone
+              risk going into a dry fast.
+            </li>
+            <li>
               <strong>5 to 3 days out:</strong> Raw fruit, raw vegetables, and
               steamed vegetables only. No grains, beans, nuts, or heavy starches.
               This low-residue step is the real cleanse, clearing fiber out gently
               through food instead of through harsh laxatives.
             </li>
             <li>
-              <strong>2 days out:</strong> The single magnesium citrate clear-out
-              (see Step 5), followed by a 1 to 2 day window of water, juice,
-              broth, and electrolytes only, with no fiber, fat, or protein. This
-              is where you reload electrolytes to baseline before going in.
+              <strong>2 to 1 days out:</strong> No oils, no meat, nothing hard
+              to digest. Light plant food only, cooked soft where that helps.
+              This is also where you bring electrolytes back up to a safe
+              baseline before going in.
+            </li>
+            <li>
+              <strong>The last day:</strong> Juice only, fresh fruit and
+              vegetable juice with no pulp, so there is as little as possible
+              left in the colon when the fast begins.
             </li>
             <li>
               <strong>Day 0:</strong> Begin the dry fast.
@@ -284,12 +299,24 @@ export default function PreparationPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Neither, yet:</span>
-          If you are over-adapted (many months of low-carb with weight loss
-          stalled at the same calories that used to work) or your waking
-          temperature is under 96&deg;F, fasting is not your entry point. You need
-          T3 therapy to rebuild your metabolism first. See the T3 therapy section
-          before preparing to fast.
+          The order is fast first, always, with one exception. If fasting has
+          already failed you, meaning you have pushed through fasts, kept
+          getting worse, and show signs of metabolic trouble (cold, weight that
+          will not move, worse after each attempt), fasting is not your entry
+          point. You need a T3 jump start to rebuild the metabolism first, and
+          then you come back to the fast. Over-adaptation (many months of
+          low-carb with weight loss stalled at the same calories that used to
+          work) is the usual picture here. See the T3 therapy section, and run
+          your numbers past me, before preparing to fast.
         </div>
+        <p style={{ marginTop: "0.75rem", fontStyle: "italic" }}>
+          What the evidence says: that exception, and the judgement of who
+          needs T3 after the fast, are my clinical rules. The literature has no
+          published criterion for who needs T3 after a fast; the nearest
+          objective candidate is the low free T3 and high reverse T3 pattern
+          measured in chronic fatigue patients (Ruiz-Nunez 2018), which is a
+          blood test, not the history-and-temperature screen I use.
+        </p>
       </div>
 
       <h2>Step 4: Mental Preparation</h2>
@@ -344,26 +371,54 @@ export default function PreparationPage() {
 
       <h2>Step 5: The Cleanse and the Final Days</h2>
       <div className="guiding-questions box-info">
-        <h3>One Clean-Out, Not a Cascade of Cleanses</h3>
+        <h3>Eat Light, Flush Gently, Skip the Enemas</h3>
         <p>
           Going into the fast with an empty colon means your body is not dealing
           with rotting material in a sealed, waterless environment, which is
           extra toxin load at exactly the time you want nothing pulling your
-          immune system the wrong way. But more is not better here. Repeated
-          laxatives, enemas, colonics, saltwater flushes, and herbal colon
-          cleanses irritate the bowel lining and strip out potassium right before
-          a fast that already stresses your electrolytes. We do not do them. The
-          plant-based taper (or the keto prep) already does most of the work of
-          emptying you out gently through food. One single, gentle clear-out
-          finishes the job.
+          immune system the wrong way. But more is not better here. The Scorch
+          Protocol focuses on eating light, not on overdoing the enemas and
+          flushing, because that flushing is itself a big stressor on the body.
+          Enemas, colonics, saltwater flushes and herbal colon cleanses irritate
+          the bowel lining and strip out potassium right before a fast that
+          already stresses your electrolytes. Enemas are not necessary in this
+          protocol, and I do not use them. The plant-based taper (or the keto
+          prep) does most of the work of emptying you out gently through food.
+          Magnesium citrate finishes the job.
         </p>
         <p>
-          The one exception we keep is magnesium citrate, the least stressful of
-          all the options. A dry fast is not a multi-day water flush of the colon,
-          so a single clear-out beforehand plays a specific role it would not in a
-          water fast. Once you are in the fast, autophagy and fat burning handle
-          the real cellular clearance from the inside. There is nothing left to
-          &ldquo;flush.&rdquo;
+          Magnesium citrate is the tool I keep, and I run it at a higher dose
+          than a maintenance supplement, daily through the final week, rather
+          than as one big purge. It keeps the bowel moving as the food gets
+          lighter, and in my experience it minimises the chance of a kidney
+          stone forming once you go dry. Once you are in the fast, autophagy and
+          fat burning handle the real cellular clearance from the inside. There
+          is nothing left to &ldquo;flush.&rdquo;
+        </p>
+        <p>
+          <em>
+            What the evidence says: the light days match what the German
+            fasting clinics call a relief day, a vegetarian day under about
+            1,000 kcal before the fast (&Auml;GHE 2002; Wilhelmi de Toledo
+            2019). Citrate is a real stone inhibitor: in the pooled trials,
+            recurrent stone formers on citrate salts formed markedly fewer new
+            stones than on placebo (Phillips 2015), and five dry days doubled
+            serum uric acid and concentrated the urine
+            (Papagiannopoulos-Vatopaidinos 2020), which is where citrate helps.
+            Marked caveat: those trials used modest daily doses for years, not
+            a week of laxative doses; at laxative doses magnesium pulls water
+            and electrolytes out of you right before a week without water, and
+            magnesium toxicity is documented when the kidneys could not clear
+            it (Khairi 2014; Bokhari 2018), so the week at a higher dose is my
+            practice with no trial behind it. Skipping enemas sides with the
+            gastroenterology evidence, which found no supporting trials and
+            documented harm from colon cleansing (Acosta and Cash 2009), and
+            against the tradition: every dry-fasting school empties the bowel
+            once before the fast, by enema or laxative, though none uses enemas
+            during the dry days (Khoroshilov 1994). On the liver flush, the
+            &ldquo;stones&rdquo; people pass after an olive-oil flush were
+            analysed and were soap made from the oil (Sies and Brooker 2005).
+          </em>
         </p>
 
         <div style={{ margin: "1.5rem 0", textAlign: "center" }}>
@@ -387,50 +442,51 @@ export default function PreparationPage() {
 
         <div className="question-item">
           <span className="question-label">What to Use:</span>
-          A standard magnesium citrate laxative, the kind sold at CVS for
-          colonoscopy prep. One bottle of the liquid is the typical dose.
-          Magnesium citrate pills also work but you will need a significant
-          number of them (follow the label for equivalent dosing). Either way,
-          take every dose with a large amount of water.
+          Magnesium citrate, liquid or capsules, the standard product sold at
+          any pharmacy. The dose is higher than you would take as a daily
+          supplement and lower than a colonoscopy purge: enough to keep you
+          emptying comfortably each day. I do not print an amount here because
+          it is set against your bowel response and your kidney history. Either
+          form, take every dose with a large amount of water.
         </div>
         <div className="question-item">
           <span className="question-label">How to Do It:</span>
-          Follow the same protocol used for colonoscopy preparation. Take your
-          magnesium citrate dose with a full glass of water, then keep drinking
-          water throughout. The goal is to fully flush the colon, which
-          typically takes several hours. Do not fight the process; let your
-          body clear everything out.
+          Take it daily through the final week, with a full glass of water each
+          time and plenty more through the day. You are not trying to blast the
+          colon empty in one afternoon. You are keeping it moving as the food
+          gets lighter, so that by day 0 there is very little left in it and
+          nothing violent had to happen to get there.
         </div>
         <div className="question-item">
-          <span className="question-label">Timing: 2 Days Before the Fast</span>
-          Start the cleanse <strong>2 days before you begin the fast</strong>.
-          This gives you the following day to rehydrate and replenish
-          electrolytes before entering the dry fast. Magnesium citrate is
-          aggressively dehydrating, so do not go straight from the cleanse
-          into a dry fast without this recovery window.
+          <span className="question-label">Timing: The Final Week</span>
+          Run the magnesium citrate through the <strong>last seven days
+          before the fast</strong>, not as a single clear-out two days out.
+          Magnesium citrate pulls water, so keep drinking all week, and let the
+          juice-only last day be where you top up before going in. Do not go
+          into a dry fast dehydrated by the very thing meant to prepare you.
         </div>
         <div className="question-item">
-          <span className="question-label">The 2-Day Window: Rehydrate and Replenish</span>
-          After taking the laxative, spend the next 1 to 2 days drinking water,
-          fresh juices, and electrolytes. <strong>No fiber, fat, or
-          protein</strong> during this period. Stick to water, juice (no
-          pulp), broths, and electrolyte drinks only. You want your colon
-          to remain empty and your body to be well-hydrated going into the
-          fast. Think of it as a juice fast bridging you into the dry fast.
-          If you came through the plant-based path salt, oil, and sugar free,
-          this is the window where you bring electrolytes back up to a safe
-          baseline. You shed the excess earlier so the fast starts gently;
-          you do not want to walk in actually depleted.
+          <span className="question-label">The Last Two Days: No Oils, No Meat</span>
+          One to two days before the fast, drop oils, meat and anything else
+          that is hard to digest. Light plant food, cooked soft where that
+          helps, is the menu. On the last day, juice only: fresh fruit and
+          vegetable juice with no pulp, nothing else, so that there is as
+          little as possible sitting in the colon when you go dry. If you came
+          through the plant-based path salt, oil, and sugar free, these two days
+          are also where you bring electrolytes back up to a safe baseline. You
+          shed the excess earlier so the fast starts gently; you do not want to
+          walk in actually depleted.
         </div>
         <div className="question-item">
           <span className="question-label">Best Pre-Fast Hydration: Carb Juicing</span>
           Real hydration is more than water. The carbohydrates in fresh juice
           help your body actually hold onto water and carry minerals and
           vitamins into the cells, so carb juicing (fresh fruit and vegetable
-          juice, no pulp) is the ideal way to hydrate going into the fast. The
-          one exception is the ketogenic path: if you have been specifically
-          cleared for a keto prep, stay on water and electrolytes and skip the
-          juice so you do not break ketosis before Day 0.
+          juice, no pulp) is the ideal way to hydrate going into the fast, and
+          it is why the last day is juice and nothing else. The one exception
+          is the ketogenic path: if you have been specifically cleared for a
+          keto prep, stay on water and electrolytes and skip the juice so you
+          do not break ketosis before Day 0.
         </div>
         <div className="question-item">
           <span className="question-label">Why It Matters:</span>
@@ -443,7 +499,10 @@ export default function PreparationPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Liver Support: TUDCA Over Liver Flushing</span>
-          I prefer several weeks of TUDCA supplementation over liver flushing
+          Liver flushing is still not recommended. The one case where it makes
+          sense is a motility failure so severe that you cannot push food out
+          at all; short of that it is one more stressor with no job to do. I
+          prefer several weeks of TUDCA supplementation over liver flushing
           protocols. TUDCA supports bile flow and liver cell integrity, and the
           extended window allows long-persisting medications and their active
           metabolites to begin clearing before the fast begins. This matters
@@ -473,6 +532,70 @@ export default function PreparationPage() {
       <RefeedPlanPromo source="preparation" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="preparation" sectionTitle="Phase 1: Preparation" />
+
+      <ReferencesSection
+        refs={[
+          {
+            citation:
+              "Ärztegesellschaft Heilfasten und Ernährung (ÄGHE). Leitlinien zur Fastentherapie. Forschende Komplementärmedizin und Klassische Naturheilkunde, 2002;9:189-198.",
+            href: "https://karger.com/fkm/article-pdf/9/3/189/4207114/000064270.pdf",
+            note: "the German fasting-therapy guideline: a vegetarian relief day under about 1,000 kcal before the fast; magnesium sulphate used as a laxative for its water-drawing effect",
+          },
+          {
+            citation:
+              "Wilhelmi de Toledo F, Grundler F, Bergouignan A, Drinda S, Michalsen A. Safety, health improvement and well-being during a 4 to 21-day fasting period in an observational study including 1422 subjects. PLoS One, 2019;14(1):e0209353. PMID 30601864. DOI 10.1371/journal.pone.0209353.",
+            href: "https://doi.org/10.1371/journal.pone.0209353",
+            note: "the Buchinger cohort used a 600 kcal vegetarian day before the fast and a laxative on the first morning of a fast that includes about three litres of fluid a day",
+          },
+          {
+            citation:
+              "Phillips R, Hanchanale VS, Myatt A, Somani B, Nabi G, Biyani CS. Citrate salts for preventing and treating calcium containing kidney stones in adults. Cochrane Database Syst Rev, 2015;(10):CD010057. PMID 26439475. DOI 10.1002/14651858.CD010057.pub2.",
+            href: "https://doi.org/10.1002/14651858.CD010057.pub2",
+            note: "pooled trials of citrate salts in recurrent stone formers: markedly fewer new stones than placebo over one to four years at modest daily doses; upper gastrointestinal upset the commonest side effect",
+          },
+          {
+            citation:
+              "Papagiannopoulos-Vatopaidinos IE, Papagiannopoulou M, Sideris V. Dry fasting physiology: responses to hypovolemia and hypertonicity. Complement Med Res, 2020;27(4):242-251. PMID 31958788. DOI 10.1159/000505201.",
+            href: "https://doi.org/10.1159/000505201",
+            note: "five dry days in healthy adults doubled serum uric acid and concentrated the urine, the setting in which citrate is protective",
+          },
+          {
+            citation:
+              "Khairi T, Amer S, Spitalewitz S, Sharon D, et al. Severe symptomatic hypermagnesemia associated with over-the-counter laxatives in a patient with renal failure and sigmoid volvulus. Case Rep Nephrol, 2014;2014:560746. PMID 24563801. DOI 10.1155/2014/560746.",
+            href: "https://doi.org/10.1155/2014/560746",
+            note: "magnesium toxicity from over-the-counter magnesium laxatives when the kidneys could not clear it",
+          },
+          {
+            citation:
+              "Bokhari SR, Siriki R, Teran FJ, Batuman V. Fatal hypermagnesemia due to laxative use. Am J Med Sci, 2018;355(4):390-395. PMID 29661354. DOI 10.1016/j.amjms.2017.08.013.",
+            href: "https://doi.org/10.1016/j.amjms.2017.08.013",
+            note: "a death from magnesium laxative use in a woman with normal kidney function, serum magnesium climbing within two days",
+          },
+          {
+            citation:
+              "Acosta RD, Cash BD. Clinical effects of colonic cleansing for general health promotion: a systematic review. Am J Gastroenterol, 2009;104(11):2830-2836. PMID 19724266. DOI 10.1038/ajg.2009.494.",
+            href: "https://doi.org/10.1038/ajg.2009.494",
+            note: "no methodologically rigorous trials support colonic cleansing for health, multiple case series of harm; the gastroenterology basis for skipping enemas and colonics",
+          },
+          {
+            citation:
+              "Khoroshilov IE. Clinical and hygienic aspects of absolute (dry) fasting. Author's abstract of a Candidate of Medical Sciences thesis, Military Medical Academy, St Petersburg, 1994 (abridged English translation, Siberika Publishing, 2020).",
+            note: "the Russian dry-fasting method used a single siphon enema before the dry days and no enemas, baths or laxatives during them; the tradition empties the bowel first, which this protocol does through food and citrate instead",
+          },
+          {
+            citation:
+              "Sies CW, Brooker J. Could these be gallstones? Lancet, 2005;365(9468):1388. PMID 15836886. DOI 10.1016/S0140-6736(05)66373-8.",
+            href: "https://doi.org/10.1016/S0140-6736(05)66373-8",
+            note: "the 'stones' passed after an olive-oil and lemon-juice liver flush were analysed and were saponified fatty acids, not gallstones",
+          },
+          {
+            citation:
+              "Ruiz-Nunez B, Tarasse R, Vogelaar EF, Janneke Dijck-Brouwer DA, Muskiet FAJ. Higher Prevalence of \"Low T3 Syndrome\" in Patients With Chronic Fatigue Syndrome: A Case-Control Study. Front Endocrinol (Lausanne), 2018;9:97. PMID 29615976. DOI 10.3389/fendo.2018.00097.",
+            href: "https://doi.org/10.3389/fendo.2018.00097",
+            note: "the nearest thing to a published criterion for who might need T3 after a fast: chronic fatigue patients carried lower free T3 and total T3 and more reverse T3 than matched controls at a similar TSH; a blood pattern, not the history-and-temperature screen used here",
+          },
+        ]}
+      />
     </>
   );
 }

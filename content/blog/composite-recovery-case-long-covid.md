@@ -23,6 +23,8 @@ excerpt: "What does a year of Long Covid recovery actually look like on the Scor
 
 This is a **composite case**, not a single real patient. The walkthrough below is drawn from the patient patterns we consistently see in severe Long Covid recovery on the Scorch Protocol. The specific timeline, symptom progression, and milestones reflect the typical course for a moderately-to-severely affected patient in the post-2020 cohort. The composite framing is explicit because fabricating individual patient testimonials would be both an E-E-A-T violation and inconsistent with the editorial standards of this site. The patterns are real. The specific person is an archetype.
 
+**Update, October 2026.** This composite was written to the protocol as it stood in early 2026. Two things have moved since. hGH is no longer a scheduled phase: it comes in around the third cycle, only if fasting and T3 have not done enough, and runs three to six months. And the T3 course follows Wilson's Temperature Syndrome cycling, titrated to temperature, so the specific peak and taper numbers below are this composite's, not targets. Read the arc for its shape.
+
 For the readers seeking "is this the path that fits my situation," composite cases serve a different purpose than individual testimonials. They show you what the typical course looks like at each stage so you can calibrate your expectations and recognize where you are in the arc.
 
 ## The Archetype
@@ -57,7 +59,7 @@ End of month 1: tolerance for short fasts established. T3 ready to begin. The fi
 
 ## Month 2: First 5-Day Dry Fast and T3 Initiation
 
-The first 5-day dry fast at home with buddy system. Pre-fast colon cleanse and liver flush completed in days prior. Fast went largely as expected: day 1 mild thirst, day 2 noticeable thirst with stable energy, day 3 the energy-switching transition (difficult but manageable, the cortisol surge was present and provided the expected energy edge), day 4 stable difficulty with substantially clearer mental state, day 5 the deeper therapeutic window with peak mental clarity.
+The first 5-day dry fast at home with buddy system. Pre-fast preparation was eating light: no oils or meat for two days, juicing only on the last day, magnesium citrate through the week. Fast went largely as expected: day 1 mild thirst, day 2 noticeable thirst with stable energy, day 3 the energy-switching transition (difficult but manageable, the cortisol surge was present and provided the expected energy edge), day 4 stable difficulty with substantially clearer mental state, day 5 the deeper therapeutic window with peak mental clarity.
 
 Refeeding initiated carefully: 300 mL room-temperature water over the first hour, then electrolytes, then easily digestible food (broth, mashed fruit) over the next 12 hours. Daily caloric intake at refeed start: approximately 1,400 kcal.
 

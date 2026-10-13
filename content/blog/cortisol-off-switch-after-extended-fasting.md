@@ -103,7 +103,7 @@ This is why generic refeeding advice ("just eat normally after your fast") fails
 
 The MCAS and POTS overlap subgroups (common in Long Covid and ME/CFS) are particularly vulnerable to this enzyme stuck state and require the slower refeed pace ([Long Covid and MCAS](/blog/long-covid-mcas-connection), [POTS After Covid](/blog/pots-after-covid-mechanism)). The cytokine load is higher in these patients, and the inflammatory drag on 11β-HSD2 is correspondingly stronger.
 
-Patients with very low basal body temperature (sub-95°F) often need T3 first to clear the enzyme stuck state before extended fasting becomes productive at all ([Should I Start with Dry Fasting or T3 Therapy First?](/blog/dry-fasting-or-t3-first)). The full sequencing logic is in [the Scorch Protocol decision tree](/blog/scorch-protocol-decision-tree).
+Patients with very low basal body temperature (sub-95°F) whose fasts have already been making them worse often need T3 first to clear the enzyme stuck state before extended fasting becomes productive at all; otherwise the order stays fast first ([Should I Start with Dry Fasting or T3 Therapy First?](/blog/dry-fasting-or-t3-first)). The full sequencing logic is in [the Scorch Protocol decision tree](/blog/scorch-protocol-decision-tree).
 
 ## Frequently Asked Questions
 
