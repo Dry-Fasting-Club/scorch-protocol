@@ -160,11 +160,11 @@ Reassurance from the safety data: a 30-day study at supraphysiologic T3 levels (
 
 ## Sourcing SR-T3
 
-Slow-release T3 is compounded by specialized pharmacies. It is not a standard pharmacy stock medication. The [list of pharmacies page](/list-of-pharmacies) covers sourcing options. The general considerations:
+Slow-release T3 is compounded by specialized pharmacies. It is not a standard pharmacy stock medication. The [list of pharmacies page](/list-of-pharmacies) covers sourcing options. The order I recommend:
 
-- Compounding pharmacies experienced with SR-T3 (chronic-illness.st is the most established source for the Scorch Protocol's specific formulation)
-- Prescription required (T3 is a controlled medication in most jurisdictions)
-- Common prescriber types: integrative medicine physicians, Wilson's Temperature Syndrome-familiar endocrinologists, telehealth services specializing in optimization medicine
+1. A prescription first. A doctor who will write for T3, ideally compounded slow-release T3, is the first choice. T3 is a controlled medication in most jurisdictions. Common prescriber types: integrative medicine physicians, Wilson's Temperature Syndrome-familiar endocrinologists, telehealth services specializing in optimization medicine.
+2. chronic-illness.st for slow-release T3 when the prescription route is closed. It is the most established source for the Scorch Protocol's specific formulation and ships internationally.
+3. IdeaLabs Tyronene (T3) or Tyromix (T3 plus T4) as the third option. Both are immediate-release, so they are dosed more often through the day; the fast 10-day climb is written for slow-release only.
 
 The prescribing physician relationship matters substantially. T3 dosing differs from standard endocrinology practice (most endocrinologists are trained to suppress TSH only, not to titrate to temperature). A physician unfamiliar with the temperature-guided framework may not feel comfortable with the protocol dosing range.
 

@@ -306,22 +306,36 @@ export default function T3TherapyPage() {
 
       <div className="guiding-questions box-info">
         <h3>Where to Get T3</h3>
-        <p>
-          One trusted source for Slow-Release T3 is{" "}
-          <strong>
-            <a
-              href="https://chronic-illness.st"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              chronic-illness.st
-            </a>
-          </strong>
-          . They specialize in this medication and can ship to many places.{" "}
-          <em style={{ fontSize: "0.9em", opacity: 0.75 }}>
-            (Previously chronic-illness.ca, the site has recently migrated.)
-          </em>
-        </p>
+        <p>My recommendations, in this order:</p>
+        <ol>
+          <li>
+            <strong>A prescription first.</strong> A doctor who will write for
+            T3, ideally compounded slow-release T3, is the first choice. Most
+            doctors will not, so if yours will, take that route.
+          </li>
+          <li>
+            <strong>
+              <a
+                href="https://chronic-illness.st"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                chronic-illness.st
+              </a>
+            </strong>{" "}
+            for slow-release T3 when the prescription route is closed. They
+            specialize in this medication and can ship to many places.{" "}
+            <em style={{ fontSize: "0.9em", opacity: 0.75 }}>
+              (Previously chronic-illness.ca, the site has recently migrated.)
+            </em>
+          </li>
+          <li>
+            <strong>IdeaLabs Tyronene (T3) or Tyromix (T3 plus T4)</strong> as
+            the third option. Both are immediate-release, so they are dosed
+            more often through the day, and the fast 10-day climb on this page
+            is written for slow-release only.
+          </li>
+        </ol>
         <p>
           <em>
             If you have trouble getting your medication, I can help you

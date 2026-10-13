@@ -241,7 +241,9 @@ export default function SuccessRateDataPage() {
           exists, to help patients access the medications the protocol needs.{" "}
           <em style={{ fontSize: "0.9em", opacity: 0.75 }}>
             (Previously chronic-illness.ca, the site has recently migrated.)
-          </em>
+          </em>{" "}
+          Today my order is a prescription first, then chronic-illness.st for
+          slow-release T3, then IdeaLabs Tyronene or Tyromix.
         </div>
       </div>
 

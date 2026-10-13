@@ -56,7 +56,7 @@ const faqItems = [
   },
   {
     question: "Where do I get slow-release T3, peptides, or hGH?",
-    answer: "This is the single most common question, and it is the hardest part of the whole protocol. No doctor will prescribe slow-release T3, and the peptide and hGH markets are full of fakes. The public list of pharmacies on this site will get you standard liothyronine and the basics. The verified, current supplier contacts for slow-release T3, peptides, hGH, and cyproheptadine, plus exactly what to order and how to dose it, are part of 1-on-1 coaching. They are kept private on purpose, because good sources stop working the moment they are posted publicly.",
+    answer: "This is the single most common question, and it is the hardest part of the whole protocol. Most doctors will not prescribe slow-release T3, so if yours will, take that route first. When the prescription route is closed, chronic-illness.st is my source for slow-release T3, and IdeaLabs Tyronene or Tyromix is the third option. The peptide and hGH markets are full of fakes. The public list of pharmacies on this site carries that order plus standard liothyronine and the basics. The verified, current supplier contacts for slow-release T3, peptides, hGH, and cyproheptadine, plus exactly what to order and how to dose it, are part of 1-on-1 coaching. They are kept private on purpose, because good sources stop working the moment they are posted publicly.",
   },
 ];
 
@@ -181,10 +181,13 @@ export default function GeneralQuestionsPage() {
         <h3>11. Where do I get slow-release T3, peptides, or hGH?</h3>
         <p>
           This is the single most common question, and it is the hardest part of
-          the whole protocol. No doctor will prescribe slow-release T3, and the
-          peptide and hGH markets are full of fakes. The public{" "}
-          <Link href="/list-of-pharmacies">list of pharmacies</Link> will get you
-          standard liothyronine and the basics. The verified, current supplier
+          the whole protocol. Most doctors will not prescribe slow-release T3,
+          so if yours will, take that route first. When the prescription route
+          is closed, chronic-illness.st is my source for slow-release T3, and
+          IdeaLabs Tyronene or Tyromix is the third option. The peptide and hGH
+          markets are full of fakes. The public{" "}
+          <Link href="/list-of-pharmacies">list of pharmacies</Link> carries that
+          order plus standard liothyronine and the basics. The verified, current supplier
           contacts for slow-release T3, peptides, hGH, and cyproheptadine, plus
           exactly what to order and how to dose it, are shared when we{" "}
           <Link href="/membership">work together directly</Link>. They are kept private on

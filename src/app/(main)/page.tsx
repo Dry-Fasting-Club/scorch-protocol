@@ -488,11 +488,12 @@ export default function HomePage() {
             Do I need a prescription for T3 or hGH?
           </p>
           <p className="faq-inline-a">
-            T3 (liothyronine) is available through a number of compounding
-            pharmacies, some without prescription depending on your country. See
-            the{" "}
-            <Link href="/list-of-pharmacies">List of Pharmacies</Link> for
-            country-specific sourcing options. The{" "}
+            A prescription is my first choice: a doctor who will write for T3,
+            ideally compounded slow-release T3. When that route is closed,
+            chronic-illness.st is my source for slow-release T3, and IdeaLabs
+            Tyronene or Tyromix is the third option. See the{" "}
+            <Link href="/list-of-pharmacies">List of Pharmacies</Link> for the
+            full order and country-specific options. The{" "}
             <a
               href="https://dryfastingclub.com"
               target="_blank"

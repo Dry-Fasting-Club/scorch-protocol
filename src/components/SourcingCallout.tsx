@@ -18,8 +18,9 @@ export default function SourcingCallout({
     >
       <h3>{heading}</h3>
       <p>
-        This is the wall almost everyone hits. No doctor will prescribe slow-release T3,
-        and the peptide and hGH markets are full of fakes. Inside the members portal I
+        This is the wall almost everyone hits. Most doctors will not prescribe slow-release
+        T3, so if yours will, take that route first. The peptide and hGH markets are full of
+        fakes. Inside the members portal I
         share my current, personally verified supplier contacts for slow-release T3,
         peptides, hGH, and cyproheptadine, plus exactly what to order and how to dose it,
         worked out with you directly.

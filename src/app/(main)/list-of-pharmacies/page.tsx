@@ -21,35 +21,49 @@ export default function ListOfPharmaciesPage() {
       <h1>Popular and Reliable Prescription-Free Pharmacies</h1>
 
       <KeyTakeaways points={[
-        "For slow-release T3 (the specific form used in the protocol), chronic-illness.st is the recommended source; the general pharmacies in the table below carry standard liothyronine only.",
+        "For T3 the order is: a prescription first, then chronic-illness.st for slow-release T3, then IdeaLabs Tyronene or Tyromix. The general pharmacies in the table below carry standard liothyronine only.",
         "The table lists 17 long-established no-prescription pharmacies organized by country and shipping time, useful for sourcing hGH, peptides, and the rest of the protocol stack.",
         "All listed pharmacies are prescription-free in practice even if their sites say otherwise; the notes section explains how to navigate checkout at each one.",
       ]} />
 
-      <div className="guiding-questions box-info">
-        <h3>Recommended Source for Slow-Release T3 (SR-T3)</h3>
+      <div className="guiding-questions box-info" id="t3-sourcing">
+        <h3>Where to Get T3, in the Order I Recommend</h3>
+        <ol>
+          <li>
+            <strong>A prescription first.</strong> A doctor who will write for
+            T3, ideally compounded <strong>slow-release T3 (SR-T3)</strong>, the
+            exact form used throughout The Scorch Protocol, is the first choice.
+            Most doctors will not, so if yours will, take that route.
+          </li>
+          <li>
+            <strong>
+              <a
+                href="https://chronic-illness.st"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                chronic-illness.st
+              </a>
+            </strong>{" "}
+            for slow-release T3 when the prescription route is closed. The
+            general no-prescription pharmacies listed in the table below carry
+            standard liothyronine, but reliable slow-release formulations are
+            very difficult to source elsewhere. chronic-illness.st specialises
+            in this medication, ships internationally, and was set up
+            specifically to help chronically ill patients access what
+            conventional channels will not provide.
+          </li>
+          <li>
+            <strong>IdeaLabs Tyronene (T3) or Tyromix (T3 plus T4)</strong> as
+            the third option. Both are immediate-release, so they are dosed
+            more often through the day; the fast 10-day climb on the T3 page is
+            written for slow-release only.
+          </li>
+        </ol>
         <p>
-          <strong>
-            <a
-              href="https://chronic-illness.st"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              chronic-illness.st
-            </a>
-          </strong>{" "}
-          is the recommended pharmacy for{" "}
-          <strong>slow-release T3 (SR-T3)</strong>, the exact form of T3 used
-          throughout The Scorch Protocol. The general no-prescription pharmacies
-          listed in the table below carry standard liothyronine, but reliable
-          slow-release formulations are very difficult to source elsewhere.
-          chronic-illness.st specialises in this medication, ships
-          internationally, and was set up specifically to help chronically ill
-          patients access what conventional channels will not provide.
-        </p>
-        <p>
-          If you hit a shipping issue or your country is not in their default
-          dropdown, email them or use the contact form on the site directly.
+          If you hit a shipping issue with chronic-illness.st or your country is
+          not in their default dropdown, email them or use the contact form on
+          the site directly.
           They are responsive and accustomed to working with chronic illness
           patients on edge cases.{" "}
           <em style={{ fontSize: "0.9em", opacity: 0.75 }}>
@@ -404,17 +418,17 @@ export default function ListOfPharmaciesPage() {
         <p>
           <em>
             These pharmacies have been used on numerous occasions over the years
-            successfully, by many people with chronic illnesses. For
-            slow-release T3 specifically, see the recommended source at the top
-            of this page (
+            successfully, by many people with chronic illnesses. For T3
+            specifically, follow the order at the top of this page: a
+            prescription first, then{" "}
             <a
               href="https://chronic-illness.st"
               target="_blank"
               rel="noopener noreferrer"
             >
               chronic-illness.st
-            </a>
-            ).
+            </a>{" "}
+            for slow-release T3, then IdeaLabs Tyronene or Tyromix.
           </em>
         </p>
       </div>

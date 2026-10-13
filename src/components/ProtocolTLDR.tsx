@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 /**
  * The "fast version" of the whole protocol in four steps. A simplified, motivational
  * TLDR for people who want the gist before the deep dive. Placed high on the home page.
@@ -28,9 +30,7 @@ export default function ProtocolTLDR() {
           <strong>Restart your metabolism with T3.</strong> Once you are eating again,
           after that first week of refeeding, slow-release T3 switches your cellular
           energy back on so your body finally has the power to heal.{" "}
-          <a href="https://chronic-illness.st" target="_blank" rel="noopener noreferrer">
-            where to get it
-          </a>
+          <Link href="/list-of-pharmacies#t3-sourcing">where to get it</Link>
         </li>
         <li>
           <strong>Rebuild with calories and hGH.</strong> Feed the system and add hGH
