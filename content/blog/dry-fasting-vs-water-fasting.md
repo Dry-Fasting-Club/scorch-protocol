@@ -95,7 +95,8 @@ The right fast depends on your goal:
 - Long Covid: dry fasting in the Scorch Protocol framework. See [the Long Covid Recovery guide](/blog/long-covid-recovery-guide).
 - ME/CFS: same. See [the ME/CFS Recovery guide](/blog/me-cfs-recovery-guide).
 - Chronic Lyme: dry fasting plus targeted antimicrobial layering. See [the chronic Lyme recovery guide](/blog/chronic-lyme-recovery-guide).
-- Cancer recovery, neurodegenerative disease, autoimmune conditions: the autophagy depth required generally favors dry fasting, but the implementation requires specialized clinical input beyond the scope of this article.
+- Cancer: active cancer rules out any multi-day dry fast. A short dry fast, or a longer water fast during treatment where your oncology team allows it, is case by case with me, and every cancer history, however long ago, is a conversation with me first. (Update, October 2026: this line used to group cancer recovery with neurodegenerative and autoimmune conditions and say the autophagy depth it needs generally favors dry fasting. I no longer say that about cancer. The human studies of fasting alongside cancer treatment used water-only fasts or fasting-mimicking diets, not multi-day dry fasts, and a dry fast stacks dehydration on top of what treatment already asks of the kidneys.)
+- Neurodegenerative disease, autoimmune conditions: the autophagy depth required generally favors dry fasting, but the implementation requires specialized clinical input beyond the scope of this article.
 
 ## What Both Fasts Have in Common
 

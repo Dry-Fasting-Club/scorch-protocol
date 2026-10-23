@@ -169,7 +169,9 @@ At physiologic replacement doses used in the Scorch Protocol (typically 1-2 IU/d
 
 ### What about IGF-1 and cancer risk?
 
-This is a real concern in the hGH literature. The Scorch Protocol's approach is to use physiologic replacement doses (which produce IGF-1 levels in the upper-normal range rather than supraphysiologic), cycle the therapy, and screen for active malignancy before initiation. Patients with active cancer or recent cancer history should not initiate hGH without specialized oncology input.
+This is a real concern in the hGH literature. The Scorch Protocol's approach is to use physiologic replacement doses (which produce IGF-1 levels in the upper-normal range rather than supraphysiologic), cycle the therapy, and screen for active malignancy before initiation. Active cancer rules hGH out. Every cancer history, however long ago, is a conversation with me first, with your oncology history in front of us, and a past cancer is never an automatic yes.
+
+**Update, October 2026:** with any cancer history, no growth-promoting add-on (hGH, BPC-157, CJC-1295 with Ipamorelin, retatrutide) starts before refeed day 14, and the calorie ramp runs a week slower than standard. In mice, the first day of refeeding after a 24-hour fast was a burst of stem-cell division, and knocking out a tumor-suppressor gene during that burst produced more tumors. Nobody has measured this in people, so I treat it as a precaution, not a proven risk.
 
 ### Where do I start?
 

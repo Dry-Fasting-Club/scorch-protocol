@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 const faqItems = [
   {
     question: "Is dry fasting safe?",
-    answer: "Dry fasting is a powerful tool but must be done carefully. For most healthy people, short supervised fasts are safe. However, if you have severe kidney disease, severe heart problems, or are pregnant, you should not dry fast. Always follow the preparation and refeeding rules to stay safe.",
+    answer: "Dry fasting is a powerful tool but must be done carefully. For most healthy people, short supervised fasts are safe. However, if you have severe kidney disease, severe heart problems, or are pregnant, you should not dry fast, and active cancer rules out any multi-day dry fast. Always follow the preparation and refeeding rules to stay safe.",
   },
   {
     question: "Why do I need T3 therapy?",
@@ -76,7 +76,8 @@ export default function GeneralQuestionsPage() {
           Dry fasting is a powerful tool, but it must be done carefully. For
           most healthy people, short supervised fasts are safe. However, if you
           have kidney disease (severe), heart problems (severe), or are
-          pregnant, you should <strong>not</strong> dry fast. Always follow the
+          pregnant, you should <strong>not</strong> dry fast, and active
+          cancer rules out any multi-day dry fast. Always follow the
           preparation and refeeding rules to stay safe.
         </p>
 

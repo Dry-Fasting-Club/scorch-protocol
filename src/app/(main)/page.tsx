@@ -341,14 +341,23 @@ export default function HomePage() {
         </ul>
         <p>
           <strong>What about cancer and other serious or rare diseases?</strong>{" "}
-          Every illness, at its root, is a metabolic and immune problem. The body
-          lost the energy or the immune capacity to keep something in check. That
-          principle does not stop at the list above. Complex and serious
-          conditions, including cancer and rarer diseases, may respond to a{" "}
-          <em>modified</em> version of the protocol. But these are exactly the
-          cases where a generic template is not enough. The real work is figuring
-          out what went wrong for <em>you</em> and reshaping the protocol to
-          match.
+          Cancer first, because it is the exception: the protocol makes no
+          cancer claims, and I do not offer dry fasting as a cancer therapy.
+          Active cancer is a hard stop for any multi-day dry fast. Short dry
+          fasts, or longer water fasts during therapy where your oncology team
+          allows them, are case by case with me, and any cancer history,
+          however old, is a conversation with me before you start (the full
+          rules are on the{" "}
+          <Link href="/contraindications">contraindications page</Link>).
+        </p>
+        <p>
+          For other serious and rarer diseases, the principle behind the list
+          above still holds: at the root sits a metabolic and immune problem, a
+          body that lost the energy or the immune capacity to keep something in
+          check. Those conditions may respond to a <em>modified</em> version of
+          the protocol. But these are exactly the cases where a generic template
+          is not enough. The real work is figuring out what went wrong for{" "}
+          <em>you</em> and reshaping the protocol to match.
         </p>
         <p>
           That is detective work, and it is hardest to do alone. The fastest path
@@ -356,9 +365,8 @@ export default function HomePage() {
           directly. The next best is the{" "}
           <Link href="/membership">members portal</Link>: dissect your own
           numbers, ask the right questions, and get me on the case.
-          For a serious diagnosis like cancer, the goal is to
-          find and fix the root cause alongside your medical care, not in place
-          of it.
+          For those diagnoses, the goal is to find and fix the root cause
+          alongside your medical care, not in place of it.
         </p>
         <p>
           <strong>The Final Goal:</strong> Your immune system becomes so strong

@@ -38,7 +38,7 @@ const faqItems = [
   },
   {
     question: "Why do I have to wait 5-7 days for meat/eggs?",
-    answer: "Two reasons: First, protein (amino acids) shuts down autophagy instantly. A slow taper preserves more of the healing benefits. Second, your stomach has stopped producing pepsin (the protein-digesting enzyme). If you eat meat too soon, it ferments rather than digests properly.",
+    answer: "Three reasons. First, protein (amino acids) shuts down autophagy instantly; a slow taper preserves more of the healing benefits. Second, your stomach has stopped producing pepsin (the protein-digesting enzyme); if you eat meat too soon, it ferments rather than digests properly. Third, protein and insulin are what switch the body's growth signal (mTOR) back on, and a 2024 mouse study found that the first day of refeeding after a fast is a burst of stem-cell growth in the gut, in which a deleted tumour-suppressor gene produced more tumours. Nobody has measured that in people, but it is why days 1 to 3 carry no protein powders, no leucine or BCAA supplements, and no steak.",
   },
   {
     question: "I felt great fasting, but now I feel tired and achy after eating. Why?",
@@ -54,7 +54,7 @@ const faqItems = [
   },
   {
     question: "When can I go back to \"normal\" eating?",
-    answer: "The Khoroshilov standard is: refeed length equals fast length. In the Scorch Protocol the full fasting block is 10 days (5 dry + 5 water), so be strict for at least 10 days. After that you are biologically safe, but for maximum tissue remodeling the protocol recommends extending the High Carb/Low Fat phase for 2 to 4 weeks to maximize stem cell differentiation and thyroid restoration.",
+    answer: "The Khoroshilov standard is: refeed length equals fast length. In the Scorch Protocol the full fasting block is 10 days (5 dry + 5 water), so be strict for at least 10 days. After that you are biologically safe, but for maximum tissue remodeling the protocol recommends extending the High Carb/Low Fat phase for 2 to 4 weeks to maximize stem cell differentiation and thyroid restoration. Whatever you eat in those first two weeks, refeed days 1 to 14 are also a mutagen holiday: no alcohol, nicotine, smoked, charred or processed meat, mouldy food, sunburn, elective scans or new drugs you do not need. That rule rests on one mouse study and has not been measured in people; it costs nothing to keep.",
   },
 ];
 
@@ -209,7 +209,7 @@ export default function RefeedingFaqPage() {
           <h3>7. Why do I have to wait 5-7 days for meat/eggs?</h3>
           <div className="answer-text">
             <p>
-              Two reasons:
+              Three reasons:
               <br />
               1. <strong>Autophagy braking:</strong> Protein (Amino Acids) shuts
               down autophagy instantly. We want a &ldquo;soft landing&rdquo;
@@ -218,6 +218,16 @@ export default function RefeedingFaqPage() {
               2. <strong>Enzymes:</strong> Your stomach has stopped producing
               Pepsin (protein-digesting enzyme). If you eat meat now, it will
               rot/ferment rather than digest.
+              <br />
+              3. <strong>Growth signal:</strong> Protein and insulin switch
+              mTOR, the body&rsquo;s master growth switch, back on. A 2024
+              mouse study found that the first day of refeeding after a fast is
+              a burst of stem-cell growth in the gut, and a tumour-suppressor
+              gene deleted during that burst produced more tumours (Imada
+              2024). Nobody has measured this in people, but it is why days 1
+              to 3 carry no protein powders, no leucine or BCAA supplements,
+              and no steak. More on the{" "}
+              <a href="/refeeding#mutagen-holiday">Refeed page</a>.
             </p>
           </div>
         </div>
@@ -302,6 +312,15 @@ export default function RefeedingFaqPage() {
               remodeling, the Scorch Protocol recommends extending the &ldquo;High
               Carb/Low Fat&rdquo; phase for 2–4 weeks to maximize stem cell
               differentiation and thyroid restoration.
+            </p>
+            <p>
+              Whatever you eat in those first two weeks, refeed days 1 to 14
+              are also a <strong>mutagen holiday</strong>: no alcohol,
+              nicotine, smoked, charred or processed meat, mouldy food,
+              sunburn, elective scans or new drugs you do not need. The rule
+              rests on one mouse study and has not been measured in people; it
+              costs nothing to keep. The reasoning is on the{" "}
+              <a href="/refeeding#mutagen-holiday">Refeed page</a>.
             </p>
           </div>
         </div>

@@ -347,8 +347,15 @@ export default function HghTherapyPage() {
           2020). In the largest long-term surveillance of adults on
           replacement doses, new cancer incidence matched the general
           population (Johannsson 2022), but that is replacement dosing, lower
-          than what I use, so a past cancer is a case-by-case conversation
-          with your oncology history in front of me, never an automatic yes.
+          than what I use, so a past cancer is never an automatic yes. The
+          routing is the same as on the{" "}
+          <a href="/contraindications">contraindications page</a>: active
+          cancer rules out hGH and any multi-day dry fast; every cancer history
+          is a conversation with me first, with your oncology history in front
+          of us, and I publish no tiers by cancer type or years in remission;
+          and with any cancer history, no growth-promoting add-on, hGH
+          included, starts before refeed day 14, and the calorie ramp runs a
+          week slower.
         </p>
       </div>
 

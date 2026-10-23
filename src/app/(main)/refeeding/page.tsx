@@ -43,6 +43,7 @@ export default function RefeedingPage() {
         "The refeed is as important as the fast: how you eat in the days after determines how much healing you keep.",
         "Never break a dry fast with solid food. Start with plain water, about a cup an hour for the first four hours, then kompot once you are urinating normally. Coconut water waits for day 2.",
         "Refeeding syndrome is a real danger. Do not eat solid proteins on day 1, avoid caffeine for at least 7 days, and do not combine high-fat and high-carb foods in the first few days.",
+        "Refeed days 1 to 14 are a mutagen holiday: no alcohol, nicotine, smoked, charred or processed meat, mouldy food, sunburn, elective scans or new drugs you do not need. It rests on one mouse study and nobody has measured it in people, but it costs nothing, so I keep it.",
         "After the first week, ramp calories gradually, targeting 3,000 or more per day to complete the metabolic reset.",
         "Antivirals keep running across the whole first week, mitochondrial support (methylene blue, and in some cases ethyl pyruvate) is added case by case with no fixed dose, and T3 therapy does not begin until after 7 full days of refeeding.",
         "Watch for a stuck-cortisol pattern after the fast (puffiness, elevated blood pressure, belly fat rebound) and see the dedicated cortisol section if it appears.",
@@ -176,6 +177,120 @@ export default function RefeedingPage() {
           </tr>
         </tbody>
       </table>
+
+      <h2 id="mutagen-holiday">Refeed Days 1 to 14: The Mutagen Holiday</h2>
+      <p>
+        The first two weeks of eating after a fast are when the body rebuilds
+        fastest. I treat that stretch as a window to protect, not a threat to
+        fear, and the protection is simple: for refeed days 1 to 14, keep clear
+        of the common, avoidable things that can damage DNA, and of anything
+        new you do not need. My rule:
+      </p>
+
+      <div className="guiding-questions box-warning">
+        <h3>For Refeed Days 1 to 14, Keep Clear Of</h3>
+        <ul>
+          <li>
+            <strong>Alcohol</strong>, in any amount.
+          </li>
+          <li>
+            <strong>Tobacco and nicotine</strong> in any form: cigarettes,
+            vapes, pouches, gum.
+          </li>
+          <li>
+            <strong>Smoked, charred or processed meat</strong>: bacon, ham,
+            salami, sausages, anything blackened on a grill. When protein comes
+            back from day 5, make it fresh and gently cooked.
+          </li>
+          <li>
+            <strong>Mouldy or aflatoxin-prone food</strong>: old nuts, poorly
+            stored grains, anything with visible mould.
+          </li>
+          <li>
+            <strong>Sunburn</strong>: cover up or stay in the shade rather than
+            burn.
+          </li>
+          <li>
+            <strong>Elective X-rays and CT scans</strong>: if a scan can wait
+            two weeks, let it wait.
+          </li>
+          <li>
+            <strong>New drugs you do not need</strong>: the stack the protocol
+            schedules is the stack. This is not the fortnight to try something
+            extra.
+          </li>
+        </ul>
+        <p>
+          <em>
+            Medical caveat: anything you actually need goes ahead. A scan your
+            doctor orders or a medicine you are prescribed is not what this
+            rule is about; the holiday covers the optional exposures, not
+            medical care.
+          </em>
+        </p>
+      </div>
+
+      <div className="guiding-questions box-info">
+        <h3>Why: The Honest Basis</h3>
+        <p>
+          A 2024 study in mice found that the first day of eating after a
+          24-hour fast is a burst of growth in the gut: stem-cell division and
+          protein building peaked at the end of that first day, above the
+          level in mice that had never fasted. When the researchers deleted a
+          tumour-suppressor gene in the gut&rsquo;s stem cells during that
+          burst, the refed mice grew more tumours than mice that kept eating
+          normally or stayed fasted (Imada 2024). The burst ran on insulin
+          switching mTOR back on, the body&rsquo;s master growth switch, with
+          polyamines and protein synthesis climbing behind it, and blocking
+          that growth signal (with rapamycin, or by blocking polyamine
+          production or protein synthesis) took the extra tumours away.
+        </p>
+        <p>
+          <em>
+            What the evidence says: this is one mouse study on a 24-hour fast,
+            not a multi-day dry fast. No chemical mutagen was given; the hit
+            was a gene deleted on cue, in what the commentary on the paper
+            calls a strong tumour-induction model, and the word mutagen in that
+            commentary&rsquo;s title is an analogy (Brunner 2024). Nobody has
+            measured any of this in people, and the authors say so. I carry it
+            as a precaution, not as a finding about you: a mutation landing in
+            the burst is the one thing the mouse data says to avoid, and
+            staying clear of the common mutagens for two weeks costs nothing.
+          </em>
+        </p>
+      </div>
+
+      <div className="guiding-questions box-info">
+        <h3>Why Days 1 to 3 Stay Low in Growth Signal</h3>
+        <p>
+          The same study is the clearest reason the first three days carry
+          almost no protein. What drove the extra tumours in those mice was the
+          growth signal itself, and the slowed ladder above keeps that signal
+          low on purpose: water, kompot, coconut water and unsalted broth, then
+          cooked fruit and vegetables, with light protein coming back from day
+          5. So for days 1 to 3, my rule:
+        </p>
+        <ul>
+          <li>
+            <strong>No protein powders or shakes.</strong>
+          </li>
+          <li>
+            <strong>No leucine or BCAA supplements.</strong> Leucine is the
+            amino acid best known for switching mTOR on, and BCAA products are
+            built around it.
+          </li>
+          <li>
+            <strong>No breaking the fast with steak</strong>, or with any other
+            heavy protein meal.
+          </li>
+        </ul>
+        <p>
+          The digestive reasons for going slow (an offline gut, low stomach
+          acid, the refeeding syndrome rules above) stand on their own. This one
+          is the cancer-caution reason, and it rests on the same mouse study
+          with the same caveat.
+        </p>
+      </div>
 
       <h2>The First 7 Days: What Runs Alongside the Food</h2>
       <p>
@@ -336,6 +451,12 @@ export default function RefeedingPage() {
               <strong>3,000 calories per day</strong>
             </li>
           </ul>
+        </div>
+        <div className="question-item">
+          <span className="question-label">With Any Cancer History: A Week Slower</span>
+          If you have any history of cancer, this ramp runs a week slower, and
+          no growth-promoting add-on starts before refeed day 14. The exact
+          shape is set with me, case by case, before the fast.
         </div>
         <div className="question-item">
           <span className="question-label">Expect Some Weight Gain: Do Not Panic</span>
@@ -620,6 +741,15 @@ export default function RefeedingPage() {
           way and the gut is beginning to wake up. Continue
           for 4–8 weeks through the refeed and rebuild phase.
         </div>
+        <div className="question-item">
+          <span className="question-label">If You Have Any Cancer History:</span>
+          BPC-157 waits. With any cancer history, no growth-promoting add-on
+          (BPC-157, CJC-1295 and Ipamorelin, retatrutide or hGH) starts before
+          refeed day 14, and the calorie ramp above runs a week slower. Every
+          cancer history is a conversation with me before the fast, not after
+          it; see the{" "}
+          <Link href="/contraindications">contraindications page</Link>.
+        </div>
         <p>
           <em>
             You&rsquo;re already doing something powerful. BPC-157 is a small
@@ -697,15 +827,18 @@ export default function RefeedingPage() {
       </div>
 
       <div className="guiding-questions box-danger">
-        <h3>The T3 Cycle Off-Ramp Is Another High-Risk Window</h3>
+        <h3>The Refeed Is One of Five Reactivation Windows</h3>
         <p>
-          Viral reactivation risk does not end with the refeed. When you
-          step off a T3 cycle, your metabolic rate temporarily dips as
-          the thyroid takes time to restart its own output. This creates
-          the same energetic trough that triggers reactivation during the
-          fast-to-refeed transition. Continue antiviral coverage during
-          any T3 wind-down until your waking body temperature has returned
-          to your pre-T3 baseline for at least 5&ndash;7 consecutive days.
+          Viral reactivation risk does not end with the refeed. I watch five
+          windows: fast days 1 to 3, this refeed dead zone, the T3 ramp (where
+          I have seen herpes flare many times), the T3 taper and the trough
+          after it, and the hGH wean. The next one to plan for is the end of
+          the T3 course: from the first taper step to a week after the last T3
+          dose, everyone runs the full antiviral stack, L-lysine, monolaurin
+          and valacyclovir, whatever their viral history. The prodrome
+          checklist and the rule at each window are on the{" "}
+          <a href="/viral-reactivation#five-windows">Viral Reactivation</a>{" "}
+          page.
         </p>
       </div>
 
@@ -922,6 +1055,18 @@ export default function RefeedingPage() {
               "Papagiannopoulos IA, Sideris VI, Boschmann M, Koutsoni OS, Dotsika EN. Anthropometric, Hemodynamic, Metabolic, and Renal Responses during 5 Days of Food and Water Deprivation. Forsch Komplementmed, 2013;20(6):427–433.",
             href: "https://doi.org/10.1159/000357718",
             note: "renal filtration rises sharply during the fast and settles afterward, the basis for a gradual, monitored refeed",
+          },
+          {
+            citation:
+              "Imada S, Khawaled S, Shin H, et al. Short-term post-fast refeeding enhances intestinal stemness via polyamines. Nature, 2024;633(8031):895-904. PMID 39169180. DOI 10.1038/s41586-024-07840-z.",
+            href: "https://doi.org/10.1038/s41586-024-07840-z",
+            note: "in mice after a 24-hour fast, the first day of refeeding was a peak of intestinal stem-cell proliferation driven by mTORC1 and polyamines, and deleting a tumour suppressor in that window produced more tumours; blocking the growth signal removed the excess; no human data; the basis for the mutagen holiday and the low-growth-signal first days",
+          },
+          {
+            citation:
+              "Brunner S, Janssen KP, Ecker J. Post-fast refeeding: rise of intestinal stemness and mutagen-induced cancer risk through polyamine metabolism. Signal Transduct Target Ther, 2024;9:317. PMID 39528467. DOI 10.1038/s41392-024-02038-1.",
+            href: "https://doi.org/10.1038/s41392-024-02038-1",
+            note: "the commentary on Imada 2024: a strong tumour-induction model in mice, the word mutagen an analogy for an engineered gene deletion, and in humans the scenario is more complicated and further studies are needed",
           },
         ]}
       />

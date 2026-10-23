@@ -509,7 +509,10 @@ export default function BetweenFastsPage() {
           <span className="question-label">The second tried strategy</span>
           For someone already established on T3 therapy, a temporary, acute
           increase in the T3 dose is the other strategy I have seen work
-          to beat back a crash quickly. This applies only to patients already
+          to beat back a crash quickly; a step up is a mini-ramp, so it gets
+          the same prodrome watch as the start of the course (see the{" "}
+          <Link href="/viral-reactivation#five-windows">five windows</Link>).
+          This applies only to patients already
           running T3. It is not a reason to start T3 early, or to begin it
           because a crash hit.
         </div>

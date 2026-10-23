@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import GuidanceBox from "@/components/GuidanceBox";
 import KeyTakeaways from "@/components/KeyTakeaways";
+import ReferencesSection from "@/components/ReferencesSection";
 import JsonLd from "@/components/JsonLd";
 import { medicalWebPageLd } from "@/lib/structured-data";
 
@@ -21,8 +22,9 @@ export default function ContraindicationsPage() {
       <KeyTakeaways
         points={[
           "Deep dry fasting and T3 therapy are powerful and not safe for everyone. Some conditions are hard stops.",
-          "Do not attempt the fasting protocol if you are pregnant or breastfeeding, type 1 diabetic, underweight (BMI under 18), have active heart or kidney disease, an active infection, or are under 18.",
+          "Do not attempt the fasting protocol if you are pregnant or breastfeeding, type 1 diabetic, underweight (BMI under 18), have active heart or kidney disease, an active infection, or are under 18. Active cancer rules out any multi-day dry fast.",
           "Other situations (certain medications, type 2 diabetes, POTS, arrhythmia or osteoporosis history) are not automatic no's. They are get-the-prep-right-first situations, doable when you build in properly.",
+          "Every cancer history is a conversation with me first, and I publish no tiers by cancer type or years in remission. With any cancer history, no growth-promoting add-on starts before refeed day 14 and the calorie ramp runs a week slower.",
           "A large number of people who came to me were assessed and advised not to attempt this. Careful screening is part of why the reported outcomes look the way they do.",
           "If you are unsure where you fall, do not guess. Run your numbers past me before you start.",
         ]}
@@ -78,6 +80,16 @@ export default function ContraindicationsPage() {
           recovered before considering a fast.
         </div>
         <div className="question-item">
+          <span className="question-label">Active cancer</span>
+          No multi-day dry fast while a cancer is active. A dry fast of several
+          days stacks dehydration on top of everything the cancer and its
+          treatment already ask of the body, and that is not a load I will add.
+          Short dry fasts, or longer water fasts alongside treatment where your
+          oncology team allows them, are case by case with me. hGH is out
+          entirely while a cancer is active (see the{" "}
+          <Link href="/hgh-therapy">hGH page</Link>).
+        </div>
+        <div className="question-item">
           <span className="question-label">Under 18</span>
           Disrupting metabolism during developmental years carries risks that are
           not worth taking.
@@ -126,6 +138,22 @@ export default function ContraindicationsPage() {
           before you build in.
         </div>
         <div className="question-item">
+          <span className="question-label">Any history of cancer</span>
+          Every cancer history, whatever the type and however long ago, is a
+          conversation with me before anything is planned. I do not publish
+          tiers by cancer type or by years in remission; your history is read
+          case by case. Two rules hold for everyone with a cancer history: no
+          growth-promoting add-on (BPC-157, CJC-1295 and Ipamorelin,
+          retatrutide or hGH) before refeed day 14, and the calorie ramp runs
+          a week slower. The reason is the refeed itself: in mice, the first
+          day of eating after a fast is a burst of growth signalling, and
+          blocking that signal is what took away the extra tumours a mutation
+          caused in that window (Imada 2024). Nobody has measured this in
+          people. The{" "}
+          <Link href="/refeeding#mutagen-holiday">mutagen holiday</Link> on
+          the refeed page applies to everyone, and it matters most here.
+        </div>
+        <div className="question-item">
           <span className="question-label">A heavy medication load, or you are not in the right headspace</span>
           A complex medication picture, or a mindset that is not ready, can make
           deep fasting too risky to rush. Sort this out first.
@@ -141,6 +169,17 @@ export default function ContraindicationsPage() {
       </p>
 
       <GuidanceBox />
+
+      <ReferencesSection
+        refs={[
+          {
+            citation:
+              "Imada S, Khawaled S, Shin H, et al. Short-term post-fast refeeding enhances intestinal stemness via polyamines. Nature, 2024;633(8031):895-904. PMID 39169180. DOI 10.1038/s41586-024-07840-z.",
+            href: "https://doi.org/10.1038/s41586-024-07840-z",
+            note: "in mice, the first day of refeeding after a 24-hour fast was a burst of intestinal stem-cell growth, a tumour-suppressor deletion in that window produced more tumours, and blocking the growth signal removed the excess; no human data; the basis for holding growth-promoting add-ons to refeed day 14 after any cancer",
+          },
+        ]}
+      />
     </>
   );
 }

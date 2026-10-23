@@ -8,6 +8,7 @@ import PaidContentBlock from "@/components/PaidContentBlock";
 import MermaidCharts from "@/components/MermaidCharts";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
+import ReferencesSection from "@/components/ReferencesSection";
 
 export const metadata: Metadata = {
   title: "Viral Reactivation",
@@ -73,6 +74,8 @@ export default function ViralReactivationPage() {
         "The bridge strategy (dry fast to water fast to protected refeed) puts the natural antiviral stack in place before food: L-lysine from water day 1, monolaurin and olive leaf with the first meal. Valacyclovir joins on refeed day 3 at the earliest and then runs daily for months. T3 is deliberately held until after Day 7 of refeeding, so antivirals, not T3, are what close the vulnerability window.",
         "Stop and escalate antivirals immediately if you feel tingling at a previous outbreak site, new nerve-territory pain, or a sudden return of pre-protocol fatigue.",
         "If that tingling arrives while you are still fasting, dry or water, the response is different: convert to water with electrolytes, take L-lysine at once, break the fast once you are rehydrated, and bring valacyclovir in on the standing rule (refeed day 3 at the earliest), because it is renally cleared and a fasting body, even a water-fasting one, cannot clear it.",
+        "Reactivation has five windows, not one: fast days 1 to 3, the refeed dead zone, the T3 ramp, the T3 taper and the trough after it, and the hGH wean. The same prodrome checklist runs at every one, each window has its own rule, and you keep logging your readings whether or not you feel anything.",
+        "From the first T3 taper step to a week after the last T3 dose, everyone runs the full antiviral stack: L-lysine, monolaurin and valacyclovir. I have seen the T3 ramp trigger HSV in many cases, while the published cell work points at the hormone drop, so both ends of the course are covered.",
       ]} />
       <p>
         <strong>
@@ -244,10 +247,12 @@ export default function ViralReactivationPage() {
           Free T3 drops about 25% by Day 3 of an absolute fast (Khoroshilov
           fasting study). Reverse T3 rises 56%. T3 directly potentiates Type I
           interferon signalling and NK cell killing capacity (De Vito et al.,
-          2011, <em>Thyroid</em>). The interferon response is the immune arm
-          that controls latent viruses specifically, and it depends on T3 to
-          run at full strength. Low T3 = blunted antiviral response, exactly
-          when you need it most.
+          2011, <em>Thyroid</em>). In my model, the interferon response is the
+          immune arm that controls latent viruses specifically, and it depends
+          on T3 to run at full strength. Low T3 = blunted antiviral response,
+          exactly when you need it most, though raising T3 again is no
+          all-clear: the T3 ramp is itself a watch window (see{" "}
+          <a href="#five-windows">Five Windows, One Watch</a>).
         </div>
       </div>
 
@@ -661,8 +666,9 @@ export default function ViralReactivationPage() {
           Classic EBV/CMV reactivation pattern. Pull bloodwork (EBV early
           antigen IgG, viral capsid IgM) to confirm. Reinforce the standing
           valacyclovir course (running by this point, or due to start on
-          refeed day 3), even though coverage of EBV is partial. Combined with T3 and monolaurin, it
-          provides meaningful pressure.
+          refeed day 3), even though coverage of EBV is partial. Combined with
+          L-lysine and monolaurin, it provides meaningful pressure. T3 is not
+          part of this window: it starts only after refeed day 7.
         </div>
         <div className="question-item">
           <span className="question-label">New pain in nerve territories that weren&rsquo;t previously affected</span>
@@ -674,7 +680,7 @@ export default function ViralReactivationPage() {
         </div>
       </div>
 
-      <h2>If a Prodrome Hits During the Fast Itself</h2>
+      <h2 id="prodrome-in-fast">If a Prodrome Hits During the Fast Itself</h2>
       <p>
         Everything above assumes the standing antiviral course is running or
         about to start. During the fast it is not, and it cannot be.
@@ -801,16 +807,118 @@ export default function ViralReactivationPage() {
         illness recoveries before they finish.
       </p>
 
-      <h2>The T3 Cycle Off-Ramp Is the Other High-Risk Window</h2>
+      <h2 id="five-windows">Five Windows, One Watch</h2>
       <p>
-        Reactivation risk does not end with the refeed. When you taper off a
-        T3 cycle, your metabolic rate temporarily dips while the thyroid
-        re-establishes its own production. This dip recreates the energetic
-        trough that triggers reactivation during the fast-to-refeed
-        transition. Continue antiviral coverage through any T3 wind-down
-        until your waking body temperature has been at your pre-T3 baseline
-        for 5–7 consecutive days.
+        The refeed is the biggest reactivation window, not the only one. In my
+        experience, the moments the body changes direction, into a fast, out
+        of it, onto a hormone or off one, are when latent herpesviruses take
+        their chance. I do not treat that as a certainty; I treat it as a
+        watch: five windows, the same prodrome checklist at each one, and a
+        rule attached to each.
       </p>
+
+      <div className="guiding-questions box-warning">
+        <h3>The Prodrome Checklist (the Same at Every Window)</h3>
+        <ul>
+          <li>Tingling, burning or itching at an old outbreak site, or a cold sore</li>
+          <li>A sore throat with no cold or infection behind it</li>
+          <li>Swollen or tender lymph nodes</li>
+          <li>A low fever: check the thermometer rather than guess</li>
+          <li>
+            A crash out of proportion: the old fatigue, brain fog or
+            post-exertional malaise coming back heavier than the day explains
+          </li>
+          <li>New pain in a nerve territory that was never affected before</li>
+        </ul>
+        <p>
+          Reactivation does not always announce itself: herpesviruses can
+          reactivate and shed without any symptom you would notice. So keep
+          logging your readings through every window, temperature above all,
+          whether or not you feel anything. A low fever on the thermometer can
+          be the only sign you get.
+        </p>
+      </div>
+
+      <div className="guiding-questions box-danger">
+        <h3>The Five Windows and the Rule at Each</h3>
+        <div className="question-item">
+          <span className="question-label">1. Fast days 1 to 3</span>
+          The switch into the fasted state, before the defences described at
+          the top of this page are fully up. The rule: a prodrome here, or
+          anywhere in the fast, ends the fast in the order set out{" "}
+          <a href="#prodrome-in-fast">above</a>: convert to water with
+          electrolytes, L-lysine at once, break the fast once you are
+          rehydrated, and valacyclovir on the standing rule. Valacyclovir
+          never goes into a fasting body.
+        </div>
+        <div className="question-item">
+          <span className="question-label">2. The refeed dead zone</span>
+          The first days of eating, when the five defences collapse at once.
+          The rule: the natural stack from water day 1 and the first meal, the
+          standing valacyclovir course from refeed day 3, and a loading dose on
+          top at the first prodrome once that course is running (on refeed day
+          1 or 2, starting early is your decision). New nerve-territory pain
+          stops the refeed from advancing and takes coverage to its maximum.
+        </div>
+        <div className="question-item">
+          <span className="question-label">3. The T3 ramp</span>
+          The start of the 30-day course, while the dose climbs. I have seen
+          the ramp trigger HSV in many cases; that is my clinical experience,
+          not a published finding (see below). The rule: the standing course
+          is already running, a prodrome gets the loading dose on top, and the
+          dose takes no further step up until we have talked.
+        </div>
+        <div className="question-item">
+          <span className="question-label">4. The T3 taper and the trough after it</span>
+          The dose stepping down, and the stretch after the last dose while
+          your own thyroid restarts. This is the window the published work
+          points at. The rule, for everyone, whatever your viral history: the
+          full antiviral stack, L-lysine, monolaurin and valacyclovir, runs
+          from the first taper step to a week after the last T3 dose, with the
+          loading dose on top at any prodrome. If you were on thyroid
+          medication before the course, your trough runs longer and harder, so
+          plan its coverage with me.
+        </div>
+        <div className="question-item">
+          <span className="question-label">5. The hGH wean</span>
+          Coming off hGH is a hormone drop of its own: your own production
+          takes about a month to come back, which is why no fast runs in that
+          window. The rule: the standing course keeps running, the checklist
+          runs through the whole wean, and a prodrome gets the loading dose on
+          top and a message to me.
+        </div>
+      </div>
+
+      <div className="guiding-questions box-info">
+        <h3>Why Both Ends of the T3 Course Are Covered</h3>
+        <p>
+          I have seen the T3 ramp trigger HSV in many cases, which is why the
+          ramp is on the list. The published work points the other way. In
+          neuron-like cells, thyroid hormone bound to its receptor represses
+          HSV-1&rsquo;s lytic genes, the ones it needs to replicate, and
+          withdrawing the hormone releases that repression and lets replication
+          start again (Hsia 2011; Figliozzi 2017). If thyroid hormone matters
+          to HSV-1 at all, that work makes the drop the risky moment, not the
+          high level, which puts the taper and the trough in the window the
+          literature supports. I do not have to choose between my experience
+          and the papers: both windows are covered.
+        </p>
+        <p>
+          <em>
+            What the evidence says: it is thin. The direct work is cell culture
+            in neuron-like lines; the human side is case reports and one
+            retrospective records study that found herpes and thyroid
+            diagnoses travelling together without showing which way the link
+            runs (Hsia 2014); and there is no controlled human study of thyroid
+            hormone and herpes reactivation in either direction. None of it
+            transfers to EBV: no thyroid hormone response element has been
+            published in the switch EBV uses to leave latency, and nothing
+            shows thyroid status changing it. EBV is on the same watch because
+            it is a herpesvirus that reactivates in this population, not
+            because of any thyroid mechanism.
+          </em>
+        </p>
+      </div>
 
       <h2>Bottom Line for Anyone With Chronic Illness</h2>
       <div className="guiding-questions box-info">
@@ -826,6 +934,12 @@ export default function ViralReactivationPage() {
           that structure and viral reactivation becomes manageable. Skip it and
           you can undo every gain the fast produced, ending up more broadly
           infected than when you started.
+        </p>
+        <p>
+          The same watch then runs at the four other windows (fast days 1 to
+          3, the T3 ramp, the T3 taper and trough, and the hGH wean), each with
+          its own rule, as set out in{" "}
+          <a href="#five-windows">Five Windows, One Watch</a>.
         </p>
         <p>
           For deeper context on the refeed itself, see the{" "}
@@ -849,6 +963,29 @@ export default function ViralReactivationPage() {
       <PaidContentBlock
         sectionSlug="viral-reactivation"
         sectionTitle="Viral Reactivation"
+      />
+
+      <ReferencesSection
+        refs={[
+          {
+            citation:
+              "Hsia SC, Bedadala GR, Balish MD. Effects of thyroid hormone on HSV-1 gene regulation: implications in the control of viral latency and reactivation. Cell Biosci, 2011;1:24. PMID 21756309. DOI 10.1186/2045-3701-1-24.",
+            href: "https://doi.org/10.1186/2045-3701-1-24",
+            note: "in neuron-like cells, thyroid hormone bound to its receptor repressed HSV-1 lytic transcription and blocked replication, and removing the hormone reversed the block; cell culture, no controlled human study",
+          },
+          {
+            citation:
+              "Figliozzi RW, Chen F, Hsia SV. New insights on thyroid hormone mediated regulation of herpesvirus infections. Cell Biosci, 2017;7:13. PMID 28344765. DOI 10.1186/s13578-017-0140-z.",
+            href: "https://doi.org/10.1186/s13578-017-0140-z",
+            note: "the same repression reproduced in a second, differentiated cell line: thyroid hormone present represses HSV-1, thyroid hormone withdrawn permits it",
+          },
+          {
+            citation:
+              "Hsia SH, Hsia SV. A cohort historical analysis of the relationship between thyroid hormone malady and alpha-human herpesvirus activation. J Steroids Horm Sci, 2014;5(2):133. PMID 25838972. DOI 10.4172/2157-7536.1000133.",
+            href: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4380329/",
+            note: "a retrospective claims-database association between alpha-herpesvirus and thyroid disorder diagnoses; it cannot separate low thyroid from high or show direction, and the authors call for controlled studies",
+          },
+        ]}
       />
     </>
   );

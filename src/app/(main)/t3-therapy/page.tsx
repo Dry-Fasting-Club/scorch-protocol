@@ -57,6 +57,7 @@ export default function T3TherapyPage() {
         "The signs I look for: a low waking temperature (below 36.5C / 97.7F) and a low resting heart rate (below 72 bpm). Normal blood tests do not rule it out, because the problem is cells not responding to T3, not T3 being absent.",
         "The 30-day course follows Wilson's Temperature Syndrome cycling: ramp to your temperature target, hold, taper off, and let your own thyroid come back. The dose numbers on this page are a worked example of that shape, not a schedule to copy. Use slow-release T3, not instant-release.",
         "If you are already on thyroid medication, the taper is much harder: your own thyroid has been asleep, and asking it to reboot as the T3 comes off puts you in a trough that is really rough. Plan that stretch with me.",
+        "From the first taper step to a week after the last dose, everyone runs the full antiviral stack: L-lysine, monolaurin and valacyclovir. The taper and the trough are where the published cell work points; the ramp is watched too, because I have seen it trigger HSV in many cases.",
         "Stop increasing your dose if your resting heart rate goes above 100 bpm. If it goes above 90 bpm before you even start, resolve that first.",
         "T3 must be paired with enough calories and some physical movement. Without sufficient fuel, T3 burns muscle instead of fat.",
         "In the Scorch Protocol, T3 does not run during the fast. You finish the entire fast (dry fast then water fast) with no T3, continue your antiviral coverage through the refeed, and start T3 only after the first 7 days of refeeding. A cycle is a fast, a refeed and this 30-day course, and the next fast opens seven days after the course ends.",
@@ -524,12 +525,31 @@ export default function T3TherapyPage() {
           is a timing call worth confirming with me directly.
         </div>
         <div className="question-item">
-          <span className="question-label">The Taper Is Also a High-Risk Window for Viral Reactivation:</span>
-          When a T3 cycle ends and the dose tapers down, your metabolic rate
-          temporarily dips. That dip is the same energetic trough that lets
-          herpesviruses flare during the fast-to-refeed transition. Keep
-          antiviral coverage running through the T3 wind-down until your waking
-          temperature has held at your baseline for 5 to 7 consecutive days.
+          <span className="question-label">Both Ends of the Course Are Reactivation Windows:</span>
+          The coverage rule, for everyone, whatever your viral history: the
+          full antiviral stack, L-lysine, monolaurin and valacyclovir, runs
+          from the first taper step to a week after the last T3 dose. If you
+          keep the standing stack going between fasts it is already on; this
+          is the stretch where it must not lapse, with a valacyclovir loading
+          dose on top at the first prodrome. Two windows sit inside the course,
+          and they stand on different ground. The ramp is on the list from my
+          experience: I have seen it trigger HSV in many cases. The taper and
+          the trough after it are on the list from the literature: in
+          neuron-like cells, thyroid hormone bound to its receptor holds
+          HSV-1&rsquo;s lytic genes down, and withdrawing it lets them restart
+          (Hsia 2011; Figliozzi 2017). If you were already on thyroid
+          medication, your trough runs longer, so plan its coverage with me.
+          The prodrome checklist and the rule at each window are on the{" "}
+          <a href="/viral-reactivation#five-windows">Viral Reactivation</a>{" "}
+          page.
+          <br />
+          <em>
+            What the evidence says: the thyroid and HSV-1 work is cell culture
+            plus thin human reporting, with no controlled human study in
+            either direction, and nothing comparable exists for EBV. It is
+            enough to point the coverage at the hormone drop, not enough to
+            call that proven.
+          </em>
         </div>
       </div>
 
@@ -627,6 +647,9 @@ export default function T3TherapyPage() {
               without a crash. Watch the taper trough: it is where people who
               were already on thyroid medication struggle most (see Safety
               First below).
+              <br />
+              The full antiviral stack (L-lysine, monolaurin, valacyclovir)
+              runs from the first step down to a week after the last dose.
             </td>
           </tr>
         </tbody>
@@ -1081,6 +1104,18 @@ export default function T3TherapyPage() {
               "Burgos N, Toloza FJK, Singh Ospina NM, et al. Clinical Outcomes After Discontinuation of Thyroid Hormone Replacement: A Systematic Review and Meta-Analysis. Thyroid, 2021;31(5):740-751. PMID 33161885. DOI 10.1089/thy.2020.0679.",
             href: "https://doi.org/10.1089/thy.2020.0679",
             note: "patients with a prior diagnosis of overt hypothyroidism were markedly less likely to remain euthyroid off treatment than those with subclinical hypothyroidism; low-quality evidence by the authors' own grading",
+          },
+          {
+            citation:
+              "Hsia SC, Bedadala GR, Balish MD. Effects of thyroid hormone on HSV-1 gene regulation: implications in the control of viral latency and reactivation. Cell Biosci, 2011;1:24. PMID 21756309. DOI 10.1186/2045-3701-1-24.",
+            href: "https://doi.org/10.1186/2045-3701-1-24",
+            note: "in neuron-like cells, thyroid hormone bound to its receptor repressed HSV-1 lytic transcription and removing the hormone reversed it; the published reason the taper and the trough carry full antiviral coverage; cell culture, no controlled human study",
+          },
+          {
+            citation:
+              "Figliozzi RW, Chen F, Hsia SV. New insights on thyroid hormone mediated regulation of herpesvirus infections. Cell Biosci, 2017;7:13. PMID 28344765. DOI 10.1186/s13578-017-0140-z.",
+            href: "https://doi.org/10.1186/s13578-017-0140-z",
+            note: "the same direction in a second cell line: thyroid hormone present represses HSV-1, thyroid hormone withdrawn permits it",
           },
         ]}
       />

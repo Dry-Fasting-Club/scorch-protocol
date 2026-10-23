@@ -25,7 +25,7 @@ const faqItems = [
   {
     question: "Is dry fasting more dangerous than water fasting?",
     answer:
-      "Dry fasting carries a higher risk profile than water fasting, particularly for anyone with kidney disease, gout, heart disease, active infection, or low body weight. The absolute contraindications (pregnancy, kidney disease, heart disease, BMI under 18, active acute infection, diuretic medications) all apply with greater urgency. For a prepared, healthy adult who builds up gradually starting with 36 hours then 72 hours, the clinical data shows 100% of participants in 3-day supervised dry fasts maintained safe renal function throughout. The key is preparation and the build-up sequence: never jump straight to a 5-day fast.",
+      "Dry fasting carries a higher risk profile than water fasting, particularly for anyone with kidney disease, gout, heart disease, active infection, or low body weight. The absolute contraindications (pregnancy, active cancer, kidney disease, heart disease, BMI under 18, active acute infection, diuretic medications) all apply with greater urgency. For a prepared, healthy adult who builds up gradually starting with 36 hours then 72 hours, the clinical data shows 100% of participants in 3-day supervised dry fasts maintained safe renal function throughout. The key is preparation and the build-up sequence: never jump straight to a 5-day fast.",
   },
   {
     question: "Can you do both dry and water fasting?",
@@ -263,9 +263,12 @@ export default function DryFastingVsWaterFastingPage() {
       <div className="guiding-questions box-warning">
         <h3>Dry Fasting Is Not Safe for Everyone</h3>
         <p>
-          Do not dry fast if you are pregnant, have active kidney or heart
-          disease, are underweight (BMI under 18), have a current acute
-          infection, or are on diuretics. These are absolute contraindications.
+          Do not dry fast if you are pregnant, have active cancer, active
+          kidney or heart disease, are underweight (BMI under 18), have a
+          current acute infection, or are on diuretics. These are absolute
+          contraindications. With active cancer, any multi-day dry fast is
+          out; short dry fasts, or water fasts alongside treatment where your
+          oncology team allows them, are case by case with me.
           Advanced kidney disease (baseline creatinine above 120 micromol/L or
           GFR below 60) and a history of gout are also hard stops. The kidneys
           must have enough functional reserve to handle the concentrated toxin
@@ -471,8 +474,9 @@ export default function DryFastingVsWaterFastingPage() {
           <h3>Is dry fasting more dangerous than water fasting?</h3>
           <p>
             Yes, dry fasting carries a higher risk profile. The absolute
-            contraindications (pregnancy, kidney disease, heart disease, BMI
-            under 18, active acute infection, diuretics) apply with greater
+            contraindications (pregnancy, active cancer, kidney disease, heart
+            disease, BMI under 18, active acute infection, diuretics) apply
+            with greater
             urgency. For a prepared adult who builds up gradually, the clinical
             data shows that 100% of participants in supervised 3-day dry fasts
             maintained safe renal function throughout. The key is the build-up

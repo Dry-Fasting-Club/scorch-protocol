@@ -86,8 +86,8 @@ const chart1 = `graph TD
   PathA --> Bloodwork["Full Bloodwork + Symptom Check"]
   PathB --> Bloodwork
 
-  Bloodwork --> Urgent{"Any Urgent Issues?<br />Gallstones, Tumors, Organ Dysfunction"}
-  Urgent -->|Yes| Medical["Address Medically First<br />STOP HERE"]
+  Bloodwork --> Urgent{"Any Urgent Issues?<br />Gallstones, Tumors, Active Cancer,<br />Organ Dysfunction"}
+  Urgent -->|Yes| Medical["Address Medically First<br />STOP HERE<br />Active cancer: no multi-day dry fast<br />Any cancer history: talk to me first"]
   Urgent -->|No| Proceed["Proceed on Your Path"]
 
   Proceed -->|Path A| Phase1A["Phase 1A: Gradual Carb Reintroduction<br />The goal here is to carefully reintroduce carbs<br />and bridge the metabolic gap with the scorch protocol"]
@@ -170,6 +170,7 @@ export default function DecisionTreePage() {
         "Fast first, always. T3 first is the exception, and it is for the person who has struggled with fasting, pushed through, kept getting worse with signs of metabolic trouble, and needs a jump start. Log your waking temperature from day one because it is the dial T3 is dosed to later.",
         "T3 is for the post-fast metabolic slowdown, not for everyone. Run hot, hold your weight and feel great after the fast, and you skip it. The long-term sufferer who has tried everything runs fast then T3 at least once to test the water, and weans off if it does little. hGH enters around the third cycle, only when two cycles of fasting plus T3 were not enough.",
         "Stop the fast immediately if your heart rate goes above 120 bpm, you stop urinating for more than 24 hours, you develop a fever above 100.4F, or you feel confused or delirious. Short of that, feeling worse is a reason to walk, massage and move the system, and to break the fast if it feels really bad or the pain is excruciating.",
+        "Active cancer rules out any multi-day dry fast, and any cancer history is a conversation with me before you start. The full rules are on the contraindications page.",
         "Your diet history (carnivore vs. high-carb) and your thyroid panel each have their own decision branch: follow the chart that matches your situation.",
       ]} />
 
@@ -451,6 +452,14 @@ export default function DecisionTreePage() {
         vs. High Carb).
       </p>
       <MermaidCharts charts={[chart1]} />
+      <p>
+        One stop on that chart needs words. Active cancer rules out any
+        multi-day dry fast; short dry fasts, or water fasts alongside
+        treatment where your oncology team allows them, are case by case with
+        me. Any cancer history, however old, is a conversation with me before
+        you start, and the full rules are on the{" "}
+        <a href="/contraindications">contraindications page</a>.
+      </p>
 
       <hr style={{ margin: "3rem 0", border: 0, borderTop: "1px solid rgba(255,255,255,0.1)" }} />
 

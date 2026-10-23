@@ -21,7 +21,7 @@ excerpt: "Roughly 17% of the general population may meet MCAS criteria; in Long 
 
 ## The Short Answer
 
-Long Covid and MCAS come together because they share an upstream mechanism: the cellular metabolic collapse that produces Long Covid also reduces the immune system's regulatory capacity over mast cells. Mast cells that were previously quiet become hair-trigger reactive to foods, smells, temperatures, and stressors. Antihistamines and mast cell stabilizers manage the downstream reactivity but do not address why the regulatory capacity collapsed. The protocol that restores the regulatory capacity is the same protocol that addresses the rest of the Long Covid cascade.
+My working model (a hypothesis; the allergy specialist bodies have not endorsed it) is that Long Covid and MCAS come together because they share an upstream mechanism: the cellular metabolic collapse that produces Long Covid also reduces the immune system's regulatory capacity over mast cells. Mast cells that were previously quiet become hair-trigger reactive to foods, smells, temperatures, and stressors. Antihistamines and mast cell stabilizers manage the downstream reactivity but do not address why the regulatory capacity collapsed. The protocol that restores the regulatory capacity is the same protocol that addresses the rest of the Long Covid cascade.
 
 ## What MCAS Actually Is
 
@@ -36,9 +36,9 @@ Mast Cell Activation Syndrome (MCAS) is a condition where mast cells (immune cel
 - Respiratory reactivity (post-nasal drip, throat tightening, mild wheezing)
 - Worsening with stress, infection, hormonal shifts, or temperature change
 
-A study of 136 Long Covid patients compared to 80 MCAS patients found virtually identical symptom patterns ([Weinstock et al., 2021 — mast cell activation symptoms were prevalent in Long Covid; Long Covid and MCAS produce overlapping symptom signatures](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8459548/), *International Journal of Infectious Diseases*). The estimate that MCAS affects ~17% of the general population is debated, but it is uncontroversial that the rate in Long Covid is substantially higher.
+A study of 136 Long Covid patients compared to 80 MCAS patients found virtually identical symptom patterns ([Weinstock et al., 2021 — mast cell activation symptoms were prevalent in Long Covid; Long Covid and MCAS produce overlapping symptom signatures](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8459548/), *International Journal of Infectious Diseases*). The estimate that MCAS affects ~17% of the general population is debated, and so is the Long Covid link: the symptom overlap is documented, but whether mast cell activation drives it is unproven, and the allergy specialist bodies have not endorsed MCAS as part of Long Covid.
 
-This overlap is not coincidence. It reflects a shared mechanism.
+I read this overlap as a shared mechanism rather than coincidence. That is my hypothesis, not settled science, and the mechanism below is my model of it.
 
 ## Why Long Covid Produces MCAS
 
@@ -71,7 +71,9 @@ The Scorch Protocol addresses MCAS by addressing the upstream cellular energy co
 
 The execution requires careful sequencing because aggressive intervention in an MCAS patient can trigger flares. The standard protocol order:
 
-**Pre-protocol stabilization.** Before starting the protocol, MCAS patients usually need to be on baseline antihistamine and mast cell stabilization therapy. Cromolyn sodium (oral) is one of the most useful agents because it stabilizes mast cells throughout the digestive tract specifically. Quercetin (a natural mast cell stabilizer with antiviral properties) is often added. Carnivore or low-histamine diet may be needed temporarily to reduce trigger exposure. This is not the protocol; this is the floor that makes the protocol survivable.
+**Pre-protocol stabilization.** Before starting the protocol, MCAS patients usually need mast cell stabilization. Cromolyn sodium (oral) is one of the most useful agents because it stabilizes mast cells throughout the digestive tract specifically. Quercetin (a natural mast cell stabilizer with antiviral properties) is often added. Carnivore or low-histamine diet may be needed temporarily to reduce trigger exposure. This is not the protocol; this is the floor that makes the protocol survivable.
+
+**Update, October 2026:** this paragraph used to say MCAS patients need a baseline antihistamine before starting. There is no antihistamine rule in the protocol. Cyproheptadine, itself an H1 antihistamine, runs in the T3 cycle, and it is the only antihistamine the protocol adds. An H2 blocker such as famotidine might also help with histamine symptoms in a flare, as symptom relief only: the evidence is weak, the benefit faded once people stopped, and no antihistamine does anything to the virus.
 
 **Phase 1: Dry fasting.** Done in MCAS patients with extra care. The fast itself is generally well-tolerated and often reduces reactivity (no food = no food triggers; the fast also clears the latent viral load that is partially driving the regulatory failure). The refeeding phase is where the danger sits, and the protocol uses a slower-than-default refeeding schedule for MCAS patients specifically.
 
@@ -96,7 +98,7 @@ The pattern is variable. Some patients clear MCAS completely; some retain a base
 
 ### Can I do the Scorch Protocol if I am severely MCAS?
 
-Yes, but the implementation requires extra care. Pre-protocol stabilization (antihistamines, mast cell stabilizers, low-histamine diet) is usually necessary before the first dry fast. The refeeding schedule must be slow (70-100 calories per week). Discuss the timing with someone experienced in both protocols.
+Yes, but the implementation requires extra care. Pre-protocol stabilization (mast cell stabilizers, low-histamine diet) is usually necessary before the first dry fast. There is no antihistamine rule: cyproheptadine in the T3 cycle is the only antihistamine the protocol adds, and an H2 blocker might also help with histamine symptoms in a flare. The refeeding schedule must be slow (70-100 calories per week). Discuss the timing with someone experienced in both protocols.
 
 ### What about acyclovir or valacyclovir for the herpesvirus burden?
 
@@ -116,7 +118,7 @@ These three conditions overlap heavily because they share the same upstream meta
 
 ### Where do I start?
 
-If MCAS is moderate or severe and you are not yet stabilized on antihistamines and mast cell medications, that is the first step. Once a baseline is established, begin with [the Long Covid Recovery guide](/blog/long-covid-recovery-guide) for the protocol overview and [the T3 therapy page](/t3-therapy) for the cellular energy restoration that drives the reactivity reduction.
+If MCAS is moderate or severe and your mast cells are not yet stabilized, that is the first step. No antihistamine is required for it: the protocol has no antihistamine rule. Once a baseline is established, begin with [the Long Covid Recovery guide](/blog/long-covid-recovery-guide) for the protocol overview and [the T3 therapy page](/t3-therapy) for the cellular energy restoration that drives the reactivity reduction.
 
 ## Where to Start
 

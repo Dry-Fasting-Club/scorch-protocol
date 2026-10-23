@@ -123,8 +123,9 @@ export default function EbvChronicFatiguePage() {
         </div>
         <div className="question-item">
           <span className="question-label">Low T3</span>
-          Free T3 directly potentiates Type I interferon signalling and NK cell
-          killing capacity. Low T3 (which is extremely common in chronic illness
+          In my model, free T3 directly potentiates Type I interferon
+          signalling and NK cell killing capacity. Low T3 (which is extremely
+          common in chronic illness
           and gets worse during a fast) means blunted antiviral immune signalling
           exactly when you need it most.
         </div>
@@ -257,8 +258,9 @@ export default function EbvChronicFatiguePage() {
         </div>
         <div className="question-item">
           <span className="question-label">5. T3 has crashed, and antiviral immune signalling is blunted</span>
-          Free T3 drops measurably during an extended fast. T3 directly
-          potentiates Type I interferon signalling and NK cell cytotoxicity.
+          Free T3 drops measurably during an extended fast. In my model, T3
+          directly potentiates Type I interferon signalling and NK cell
+          cytotoxicity.
           The interferon response is the arm of the immune system that
           specifically controls latent viruses, and it depends on T3 to run at
           full strength. Low T3 means blunted antiviral response, exactly
@@ -333,9 +335,11 @@ export default function EbvChronicFatiguePage() {
         layer using thymic peptides runs in parallel to accelerate the return of
         T-cell function. T3 itself is deliberately held until you have scaled
         food for a full seven days of refeed, so through this window it is the
-        antiviral stack, not T3, that holds the line. Once T3 begins after refeed
-        day 7, it restores the Type I interferon signalling that keeps latent
-        viruses suppressed for the long term.
+        antiviral stack, not T3, that holds the line. In my model, once T3
+        begins after refeed day 7, it restores the Type I interferon signalling
+        that keeps latent viruses suppressed for the long term, though the T3
+        ramp is itself one of the{" "}
+        <Link href="/viral-reactivation#five-windows">reactivation watch windows</Link>.
       </p>
       <p>
         Doses and the finer timing calls are kept at the high level here

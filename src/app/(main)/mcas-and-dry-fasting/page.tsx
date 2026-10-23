@@ -3,6 +3,7 @@ import Link from "next/link";
 import GuidanceBox from "@/components/GuidanceBox";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import KeyTakeaways from "@/components/KeyTakeaways";
+import ReferencesSection from "@/components/ReferencesSection";
 import JsonLd from "@/components/JsonLd";
 import { medicalWebPageLd, faqPageLd } from "@/lib/structured-data";
 
@@ -20,7 +21,7 @@ const mcasFaq = [
   {
     question: "Can you fast with MCAS?",
     answer:
-      "Many people with MCAS do fast, but it requires preparation. During the dry fast itself, autophagy and ketosis create an environment that is generally hostile to the inflammatory cascade mast cells drive. The higher-risk moment is the refeed, when food and mTOR reactivation can trigger a histamine surge. Having H1 and H2 blockers in place before you break the fast, and following a gentle water-then-kompot refeed schedule, reduces that risk significantly.",
+      "Many people with MCAS do fast, but it requires preparation. During the dry fast itself, autophagy and ketosis create an environment that is generally hostile to the inflammatory cascade mast cells drive. The higher-risk moment is the refeed, when food and mTOR reactivation can trigger a histamine surge. Following a gentle water-then-kompot refeed schedule reduces that risk, and having H1 and H2 blockers in place before you break the fast gives symptom relief if a surge comes.",
   },
   {
     question: "Does fasting help MCAS?",
@@ -54,7 +55,7 @@ export default function MCASAndDryFastingPage() {
 
       <KeyTakeaways
         points={[
-          "MCAS (Mast Cell Activation Syndrome) is a recognized driver of Long Covid: chronically overactive mast cells flood the body with histamine, causing flares, food sensitivities, racing heart after meals, and insomnia that no standard sleep aid can touch.",
+          "MCAS (Mast Cell Activation Syndrome) as a driver of Long Covid is a hypothesis the allergy bodies have not endorsed, which matches what I see in some members: chronically overactive mast cells flood the body with histamine, causing flares, food sensitivities, racing heart after meals, and insomnia that no standard sleep aid can touch.",
           "The cascade starts upstream: viral persistence and chronic immune activation prime mast cells, which then release histamine continuously, locking patients in a high-inflammation loop.",
           "The calming stack centers on cyproheptadine or ketotifen (H1 antihistamines with serotonin activity), backed by an H1 blocker and an H2 blocker for daytime symptom control.",
           "MCAS-driven insomnia is biochemical, not behavioral. It requires an antihistamine that also acts on serotonin receptors, not a sedative or standard sleep hygiene advice.",
@@ -114,13 +115,14 @@ export default function MCASAndDryFastingPage() {
       <div className="guiding-questions box-info">
         <h3>MCAS in Long Covid: Not a Coincidence</h3>
         <p>
-          MCAS is not a separate diagnosis that happens to coexist with Long Covid.
-          It is a direct consequence of the same upstream drivers. The
-          Long Covid cascade primes mast cells specifically: Th2 immune dominance,
-          chronic immune activation from viral persistence, and autonomic
-          dysregulation all push mast cells toward a hair-trigger state. If you
-          have Long Covid, you almost certainly have some degree of mast cell
-          overactivation, even if a formal MCAS diagnosis has never been made.
+          In my model, MCAS is not a separate diagnosis that happens to coexist
+          with Long Covid. It is a direct consequence of the same upstream
+          drivers. The Long Covid cascade primes mast cells specifically: Th2
+          immune dominance, chronic immune activation from viral persistence,
+          and autonomic dysregulation all push mast cells toward a hair-trigger
+          state. In some Long Covid members I see a degree of mast cell
+          overactivation even where a formal MCAS diagnosis has never been
+          made.
         </p>
       </div>
 
@@ -185,6 +187,25 @@ export default function MCASAndDryFastingPage() {
           released rather than just blocking its effects.
         </div>
       </div>
+
+      <p>
+        <em>
+          Where the protocol stands, and what the evidence says: inside the
+          Scorch cycle itself, cyproheptadine is the antihistamine I build in,
+          for appetite and sleep on T3, and it is itself an H1 antihistamine,
+          so anyone running it already has H1 cover. Beyond that, the protocol
+          has no antihistamine rule for members without histamine symptoms;
+          the stack on this page is my MCAS-specific practice for those who
+          have them. An H2 blocker such as
+          famotidine might also help with histamine symptoms in a flare. Treat
+          it as symptom relief only: the evidence is weak and the benefit
+          transient. In STIMULATE-ICP, an open-label trial of 778
+          non-hospitalised adults with long Covid, famotidine plus loratadine
+          gave a small fatigue benefit at 12 weeks that was gone 12 weeks after
+          stopping. No antihistamine is an antiviral; it does nothing to the
+          virus itself.
+        </em>
+      </p>
 
       <p>
         For severe insomnia or when the daytime stack is not enough, a different
@@ -406,6 +427,16 @@ export default function MCASAndDryFastingPage() {
 
       <RefeedPlanPromo source="mcas-and-dry-fasting" />
       <GuidanceBox />
+
+      <ReferencesSection
+        refs={[
+          {
+            citation:
+              "STIMULATE-ICP trial, drug arms (colchicine, rivaroxaban, famotidine plus loratadine). The Lancet Infectious Diseases, published 8 July 2026.",
+            note: "778 non-hospitalised adults with long Covid across 12 NHS clinics, open-label: famotidine plus loratadine gave a small fatigue reduction at 12 weeks that disappeared 12 weeks after stopping; the trial concludes that current evidence does not support routine repurposed drug therapy",
+          },
+        ]}
+      />
     </>
   );
 }

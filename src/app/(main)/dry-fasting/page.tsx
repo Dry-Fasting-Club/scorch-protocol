@@ -59,10 +59,15 @@ export default function DryFastingPage() {
         <h3>Pre-Fast Checklist</h3>
         <div className="question-item">
           <span className="question-label">Hard Stops:</span>
-          Do <strong>NOT</strong> start if you are pregnant, have active kidney
-          or heart disease, are underweight (BMI under 18), have a current
-          acute infection, or are on diuretics. These are absolute
-          contraindications, not suggestions.
+          Do <strong>NOT</strong> start if you are pregnant, have active
+          cancer, active kidney or heart disease, are underweight (BMI under
+          18), have a current acute infection, or are on diuretics. These are
+          absolute contraindications, not suggestions. With active cancer,
+          any multi-day dry fast is out; short dry fasts, or water fasts
+          alongside treatment where your oncology team allows them, are case
+          by case with me. Any cancer history, however old, is a
+          conversation with me before you start (see the{" "}
+          <a href="/contraindications">contraindications page</a>).
         </div>
         <div className="question-item">
           <span className="question-label">Support Team:</span>

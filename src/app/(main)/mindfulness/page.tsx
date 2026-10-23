@@ -143,13 +143,13 @@ export default function MindfulnessPage() {
             This improvement in cellular fuel use mirrors what researchers
             observe in CBD oil users. High-dose cannabidiol improves glucose
             metabolism, reduces systemic inflammation, and restores mitochondrial
-            function. The dramatic cancer recoveries associated with Rick Simpson
-            Oil are largely driven by this mechanism combined with the selective
-            fuel starvation of cancer cells. Meditation does not replicate
-            everything CBD does, but it activates many of the same metabolic
-            pathways. Combined with a quality diet, it is one of the most
-            powerful free tools available to anyone recovering from chronic
-            illness.
+            function. Meditation does not replicate everything CBD does, but it
+            activates many of the same metabolic pathways. Combined with a
+            quality diet, it is one of the most powerful free tools available to
+            anyone recovering from chronic illness. I make no cancer claims for
+            CBD oil or for the protocol: active cancer is a hard stop for any
+            multi-day dry fast, and short dry fasts, or longer water fasts
+            during therapy, are case by case with me.
           </p>
         </div>
         <div className="question-item">

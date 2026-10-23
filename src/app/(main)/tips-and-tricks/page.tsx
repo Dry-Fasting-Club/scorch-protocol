@@ -565,11 +565,15 @@ export default function TipsAndTricksPage() {
         </p>
         <ul>
           <li>
-            <strong>The B-Vitamin Catalyst:</strong> When paired with{" "}
-            <strong>high-dose B-vitamins</strong>, Aspirin has shown profound
-            effects even in complex conditions like cancer. This is because
-            B-vitamins act as the &ldquo;spark plugs&rdquo; for the glucose
-            engine that Aspirin helps to keep running.
+            <strong>The B-Vitamin Catalyst:</strong> In my experience, Aspirin
+            works better when paired with{" "}
+            <strong>high-dose B-vitamins</strong>, because B-vitamins act as
+            the &ldquo;spark plugs&rdquo; for the glucose engine that Aspirin
+            helps to keep running. I make no cancer claims for this pairing or
+            for the protocol: active cancer is a hard stop for any multi-day
+            dry fast, and short dry fasts, or longer water fasts during
+            therapy, are case by case with me (see the{" "}
+            <a href="/contraindications">contraindications page</a>).
           </li>
           <li>
             <strong>The Verdict:</strong> These are bioenergetic tools. They

@@ -455,6 +455,67 @@ const FASTING_SAFETY: Ref[] = [
   },
 ];
 
+const REFEED_WINDOW: Ref[] = [
+  {
+    title: "Short-term post-fast refeeding enhances intestinal stemness via polyamines",
+    authors: "Imada S, Khawaled S, Shin H, et al.",
+    source: "Nature, 2024;633(8031):895-904. PMID 39169180",
+    href: "https://doi.org/10.1038/s41586-024-07840-z",
+    shows:
+      "In mice after a 24-hour fast, intestinal stem-cell proliferation and protein synthesis peaked at the end of the first day of refeeding, above mice that never fasted, driven by insulin, mTORC1 and polyamine synthesis. Deleting a tumour-suppressor gene in that window produced more tumours than in mice that kept eating or stayed fasted, and blocking the growth signal (rapamycin, a polyamine-synthesis inhibitor or a protein-synthesis blocker) removed the excess. No chemical mutagen was used and there are no human data. The whole basis for the refeed's mutagen holiday, carried as a precaution, for keeping the first three days low in growth signal, and for holding growth-promoting add-ons to refeed day 14 after any cancer.",
+    phase: { label: "Refeeding", href: "/refeeding" },
+  },
+  {
+    title:
+      "Post-fast refeeding: rise of intestinal stemness and mutagen-induced cancer risk through polyamine metabolism",
+    authors: "Brunner S, Janssen KP, Ecker J",
+    source: "Signal Transduction and Targeted Therapy, 2024;9:317. PMID 39528467",
+    href: "https://doi.org/10.1038/s41392-024-02038-1",
+    shows:
+      "The commentary on the paper above. It calls the experiment a strong tumour-induction model, uses the word mutagen as an analogy for the engineered gene deletion, and says that in humans the scenario is more complicated than in mice and further studies are needed. Cited so the limits travel with the rule.",
+    phase: { label: "Refeeding", href: "/refeeding" },
+  },
+];
+
+const REACTIVATION: Ref[] = [
+  {
+    title:
+      "Effects of thyroid hormone on HSV-1 gene regulation: implications in the control of viral latency and reactivation",
+    authors: "Hsia SC, Bedadala GR, Balish MD",
+    source: "Cell & Bioscience, 2011;1:24. PMID 21756309",
+    href: "https://doi.org/10.1186/2045-3701-1-24",
+    shows:
+      "In neuron-like cells, thyroid hormone bound to its receptor repressed HSV-1 lytic transcription and blocked replication, and removing the hormone reversed the block and let replication restart. The work used a mouse neuroblastoma line engineered to carry extra thyroid receptor, the authors report the effect did not appear in two non-neuronal lines, and there is no animal reactivation experiment and no controlled human study. It points the risk at the hormone drop, which is why the T3 taper and trough carry full antiviral coverage.",
+    phase: { label: "Viral Reactivation", href: "/viral-reactivation" },
+  },
+  {
+    title: "New insights on thyroid hormone mediated regulation of herpesvirus infections",
+    authors: "Figliozzi RW, Chen F, Hsia SV",
+    source: "Cell & Bioscience, 2017;7:13. PMID 28344765",
+    href: "https://doi.org/10.1186/s13578-017-0140-z",
+    shows:
+      "Reproduces the repression in a second, differentiated cell line and traces it through PI3K and casein kinase 2. Same direction: thyroid hormone present represses HSV-1, thyroid hormone withdrawn permits it. Still cell culture.",
+    phase: { label: "T3 Therapy", href: "/t3-therapy" },
+  },
+  {
+    title:
+      "A cohort historical analysis of the relationship between thyroid hormone malady and alpha-human herpesvirus activation",
+    authors: "Hsia SH, Hsia SV",
+    source: "Journal of Steroids & Hormonal Science, 2014;5(2):133. PMID 25838972",
+    href: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4380329/",
+    shows:
+      "A retrospective claims-database study: patients with alpha-herpesvirus diagnoses were more likely to carry a thyroid disorder diagnosis over twelve years. Diagnosis codes only; it cannot separate low thyroid from high or show which way the link runs, and the authors call for controlled studies. The thinnest layer of the human evidence, cited so its weight is visible.",
+    phase: { label: "Viral Reactivation", href: "/viral-reactivation" },
+  },
+  {
+    title: "STIMULATE-ICP (drug arms)",
+    source: "The Lancet Infectious Diseases, published 8 July 2026",
+    shows:
+      "The one properly powered test of an antihistamine in long Covid: 778 non-hospitalised adults across 12 NHS clinics, open-label, with arms of colchicine, rivaroxaban, famotidine plus loratadine, or no drug for 12 weeks. Famotidine plus loratadine gave a small fatigue reduction at 12 weeks that disappeared 12 weeks after stopping, and the trial concludes that current evidence does not support routine repurposed drug therapy. Why the famotidine mention on the MCAS page is symptom relief only.",
+    phase: { label: "MCAS and Dry Fasting", href: "/mcas-and-dry-fasting" },
+  },
+];
+
 function RefList({ refs }: { refs: Ref[] }) {
   return (
     <ul className="research-list">
@@ -563,6 +624,26 @@ export default function ResearchPage() {
         looser than those sources, the protocol pages say so.
       </p>
       <RefList refs={FASTING_SAFETY} />
+
+      <h2>The refeed window and cancer caution</h2>
+      <p>
+        One mouse study stands behind the refeed&rsquo;s mutagen holiday and
+        the cancer-history rules, and I want its size visible: a 24-hour fast,
+        an engineered gene deletion, no chemical mutagen and no human data. I
+        carry it as a precaution that costs nothing, not as a finding about
+        people.
+      </p>
+      <RefList refs={REFEED_WINDOW} />
+
+      <h2>Thyroid hormone, herpesviruses and antihistamines</h2>
+      <p>
+        I have seen the T3 ramp trigger HSV in many cases; the published work
+        below points at the hormone drop instead, and it is thin, so both
+        windows are covered. The antihistamine trial is here because it is the
+        best test there is, and the benefit it found was small and faded once
+        the drug stopped.
+      </p>
+      <RefList refs={REACTIVATION} />
 
       <h2>Have a correction?</h2>
       <p>

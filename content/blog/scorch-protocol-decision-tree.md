@@ -144,7 +144,9 @@ The carbohydrate transition is uncomfortable and often produces frightening live
 
 Some conditions are absolute contraindications to the protocol or to specific phases:
 
-**Absolute contraindications to dry fasting:** pregnancy, breastfeeding, type 1 diabetes, severe kidney disease, severe heart disease, active eating disorder, active GI bleeding. See [Is Dry Fasting Safe?](/blog/is-dry-fasting-safe) for the full list and the relative contraindications.
+**Absolute contraindications to dry fasting:** pregnancy, breastfeeding, type 1 diabetes, severe kidney disease, severe heart disease, active eating disorder, active GI bleeding, and active cancer (for any multi-day dry fast). See [Is Dry Fasting Safe?](/blog/is-dry-fasting-safe) for the full list and the relative contraindications.
+
+**Update, October 2026:** active cancer is new on this list. It rules out any multi-day dry fast. A short dry fast, or a longer water fast during treatment where your oncology team allows it, is case by case with me, and every cancer history, however long ago, is a conversation with me first.
 
 **Absolute contraindications to hGH therapy:** active malignancy, recent cancer history, certain pituitary conditions, severe diabetic retinopathy.
 
