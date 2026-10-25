@@ -80,11 +80,15 @@ export default function TipsAndTricksPage() {
           </li>
           <li>
             <strong>Eat Light Into It:</strong> For the last one to two days,
-            no oils, no meat, nothing hard to digest. Magnesium citrate at a
-            higher dose runs daily through the final week to keep the bowel
-            moving and lower the kidney-stone risk. No enemas, no colonics, and
-            no liver flush unless motility has truly failed: flushing is a
-            stressor of its own, and the protocol does not need it.
+            no oils, no meat, nothing hard to digest. Everyone does a colon
+            cleanse, set with me: a few days of pulp-free juice at the gentle
+            end, a week of higher-dose magnesium citrate at the strong end (it
+            keeps the bowel moving and lowers the kidney-stone risk). No
+            enemas, no colonics: flushing the bowel is a stressor of its own,
+            and the protocol does not need it. A liver flush is case by case,
+            my call with no trial behind it: worth it after a long history on
+            liver-intensive, fat-soluble medications or when motility has truly
+            failed; on few or no medications, skip it.
           </li>
           <li>
             <strong>Follow Your Prep Path:</strong> What you eat in the days

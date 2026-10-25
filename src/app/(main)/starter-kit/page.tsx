@@ -104,16 +104,22 @@ export default function StarterKitPage() {
           <span className="question-label">Magnesium citrate<Tag>OTC</Tag></span>
           At a higher dose than a daily supplement, every day through the final
           week, with plenty of water. It keeps the bowel moving as the food gets
-          lighter and lowers the kidney-stone risk going dry. No enemas, no
-          colonics, and no liver flush unless your motility has truly failed.{" "}
+          lighter and lowers the kidney-stone risk going dry. This is the strong
+          end of the colon cleanse everyone does; the gentle end is a few days
+          of pulp-free juice, and I set which end you need. No enemas, no
+          colonics. A liver flush is case by case, for a long history on
+          liver-intensive, fat-soluble medications or motility that has truly
+          failed; on few or no medications, skip it.{" "}
           <em>
             What the evidence says: citrate salts cut stone recurrence in
             trials that used modest daily doses for years (Phillips 2015); at
             laxative doses magnesium pulls water and electrolytes, and toxicity
             is documented when the kidneys could not clear it (Bokhari 2018).
-            Colon cleansing has no supporting trials and documented harms
-            (Acosta and Cash 2009). The week at a higher dose is my practice,
-            not a trial result.
+            Colon cleansing for general health has no supporting trials and
+            documented harms (Acosta and Cash 2009). The week at a higher dose
+            is my practice, not a trial result, and so is the case-by-case
+            liver flush: no trial tests a flush for drug clearance or fasting
+            safety.
           </em>
         </div>
         <div className="question-item">

@@ -26,7 +26,7 @@ export default function PreparationPage() {
       <KeyTakeaways points={[
         "Get baseline blood tests (thyroid, CBC, metabolic panel, Vitamin D, B12, iron, cortisol) and fix critical deficiencies before fasting.",
         "Choose between two preparation paths: plant-based (gold standard, highest healing ceiling) or ketogenic (safer fallback, more forgiving for sicker or more medicated patients).",
-        "Eat light into the fast. Magnesium citrate at a higher dose runs through the final week (it also lowers the kidney-stone risk), oils, meat and anything hard to digest come out for the last one to two days, and the last day is juice only. No enemas, no colonics; a liver flush only if your gut motility has truly failed.",
+        "Eat light into the fast: oils, meat and anything hard to digest come out for the last one to two days, and the last day is juice only. Everyone also does a colon cleanse, set with me, from a few days of pulp-free juice at the gentle end to a week of higher-dose magnesium citrate (which also lowers the kidney-stone risk) at the strong end. No enemas, no colonics. A liver flush is case by case: for a long history on liver-intensive, fat-soluble medications, or gut motility that has truly failed; on few or no medications, skip it.",
         "Fast first, always. T3 before the fast is only for the person who has struggled with fasting, pushed through, kept getting worse with signs of metabolic trouble, and needs a jump start.",
         "Do not change or stop prescription medications on your own; medication tapering is selective and worked out individually, so bring your list to me before you touch anything.",
       ]} />
@@ -220,8 +220,10 @@ export default function PreparationPage() {
               baseline on the rehydrate day below.
             </li>
             <li>
-              <strong>The final week:</strong> Magnesium citrate at a higher
-              dose, daily, with plenty of water (see Step 5). It keeps the
+              <strong>The final week:</strong> Your colon cleanse (see Step 5),
+              set with me: anywhere from a few days of fresh juice with no pulp
+              at the gentle end to magnesium citrate at a higher dose, daily,
+              with plenty of water, at the strong end. The citrate keeps the
               bowel moving as the food gets lighter and lowers the kidney-stone
               risk going into a dry fast.
             </li>
@@ -371,29 +373,34 @@ export default function PreparationPage() {
 
       <h2>Step 5: The Cleanse and the Final Days</h2>
       <div className="guiding-questions box-info">
-        <h3>Eat Light, Flush Gently, Skip the Enemas</h3>
+        <h3>Eat Light, Cleanse the Colon, Skip the Enemas</h3>
         <p>
           Going into the fast with an empty colon means your body is not dealing
           with rotting material in a sealed, waterless environment, which is
           extra toxin load at exactly the time you want nothing pulling your
-          immune system the wrong way. But more is not better here. The Scorch
-          Protocol focuses on eating light, not on overdoing the enemas and
-          flushing, because that flushing is itself a big stressor on the body.
-          Enemas, colonics, saltwater flushes and herbal colon cleanses irritate
-          the bowel lining and strip out potassium right before a fast that
-          already stresses your electrolytes. Enemas are not necessary in this
-          protocol, and I do not use them. The plant-based taper (or the keto
-          prep) does most of the work of emptying you out gently through food.
-          Magnesium citrate finishes the job.
+          immune system the wrong way. That is why I have everyone do some
+          form of colon cleanse before a dry fast. But more is not better here.
+          The Scorch Protocol focuses on eating light, not on overdoing the
+          enemas and flushing, because that flushing is itself a big stressor
+          on the body. Enemas, colonics, saltwater flushes and herbal colon
+          cleanses irritate the bowel lining and strip out potassium right
+          before a fast that already stresses your electrolytes. Enemas are not
+          necessary in this protocol, and I do not use them. The plant-based
+          taper (or the keto prep) does most of the work of emptying you out
+          gently through food. The cleanse finishes the job.
         </p>
         <p>
-          Magnesium citrate is the tool I keep, and I run it at a higher dose
-          than a maintenance supplement, daily through the final week, rather
-          than as one big purge. It keeps the bowel moving as the food gets
-          lighter, and in my experience it minimises the chance of a kidney
-          stone forming once you go dry. Once you are in the fast, autophagy and
-          fat burning handle the real cellular clearance from the inside. There
-          is nothing left to &ldquo;flush.&rdquo;
+          The cleanse runs on a spectrum, and where you sit on it is something
+          I set with you. The gentle end is simply a few days of fresh juice
+          with no pulp. The strong end is magnesium citrate, the tool I keep: I
+          run it at a higher dose than a maintenance supplement, daily through
+          the final week, rather than as one big purge. It keeps the bowel
+          moving as the food gets lighter, and in my experience it minimises
+          the chance of a kidney stone forming once you go dry. Once you are in
+          the fast, autophagy and fat burning handle the real cellular
+          clearance from the inside. There is nothing left to
+          &ldquo;flush.&rdquo; A liver flush before the fast is a separate,
+          case-by-case question, covered under Liver Support below.
         </p>
         <p>
           <em>
@@ -415,9 +422,18 @@ export default function PreparationPage() {
             documented harm from colon cleansing (Acosta and Cash 2009), and
             against the tradition: every dry-fasting school empties the bowel
             once before the fast, by enema or laxative, though none uses enemas
-            during the dry days (Khoroshilov 1994). On the liver flush, the
-            &ldquo;stones&rdquo; people pass after an olive-oil flush were
-            analysed and were soap made from the oil (Sies and Brooker 2005).
+            during the dry days (Khoroshilov 1994). Acosta and Cash looked at
+            cleansing for general health, not preparation for a fast, and no
+            study tests any pre-fast preparation against a dry-fast outcome, so
+            a cleanse for everyone, juice or citrate, is my practice and my
+            experience. On the liver flush, the &ldquo;stones&rdquo; people
+            pass after an olive-oil flush were analysed and were soap made from
+            the oil (Sies and Brooker 2005), so the stones are no sign that a
+            flush cleared anything. It is documented that compounds stored in
+            fat, pollutants among them, rise in the blood during fasting and
+            weight loss, but no trial tests any liver flush for drug clearance
+            or for fasting safety: the case-by-case flush below is my reasoning
+            and my experience, not a trial result.
           </em>
         </p>
 
@@ -441,7 +457,7 @@ export default function PreparationPage() {
         </div>
 
         <div className="question-item">
-          <span className="question-label">What to Use:</span>
+          <span className="question-label">What to Use at the Strong End:</span>
           Magnesium citrate, liquid or capsules, the standard product sold at
           any pharmacy. The dose is higher than you would take as a daily
           supplement and lower than a colonoscopy purge: enough to keep you
@@ -498,12 +514,9 @@ export default function PreparationPage() {
           accomplish.
         </div>
         <div className="question-item">
-          <span className="question-label">Liver Support: TUDCA Over Liver Flushing</span>
-          Liver flushing is still not recommended. The one case where it makes
-          sense is a motility failure so severe that you cannot push food out
-          at all; short of that it is one more stressor with no job to do. I
-          prefer several weeks of TUDCA supplementation over liver flushing
-          protocols. TUDCA supports bile flow and liver cell integrity, and the
+          <span className="question-label">Liver Support: TUDCA as the Base, a Liver Flush Case by Case</span>
+          My standing liver support is several weeks of TUDCA
+          supplementation. TUDCA supports bile flow and liver cell integrity, and the
           extended window allows long-persisting medications and their active
           metabolites to begin clearing before the fast begins. This matters
           because drugs processed via the liver&rsquo;s CYP450 enzyme system
@@ -516,6 +529,22 @@ export default function PreparationPage() {
           all fall into this category. Starting TUDCA weeks in advance, not
           days, gives your liver a meaningful head start before the added
           metabolic demands of fasting arrive.
+          <br /><br />
+          A liver flush is a case-by-case step on top of TUDCA, not a
+          replacement for it. If you have spent a long time on
+          liver-intensive, fat-soluble medications like these, a flush before
+          the fast can be the right call. My reasoning, from what I have seen:
+          what is stored in your fat comes back out as the fat burns, so
+          clearing out as much of it as aggressively as possible beforehand
+          makes the dry fast safer. If you are on few or no medications, skip
+          it: there is little or nothing for it to clear, and it adds
+          unnecessary stress to your system right before the fast. The other
+          case where a flush makes sense is a motility failure so severe that
+          you cannot push food out at all. Whether you need one, which flush
+          and when it runs are set with me; I do not publish a flush recipe.
+          Marked caveat: no trial has tested a flush for drug clearance or
+          fasting safety, so this is my reasoning and my experience, not a
+          trial result.
         </div>
         <div className="question-item">
           <span className="question-label">Stop Exercising, Rest Into It:</span>
@@ -580,7 +609,7 @@ export default function PreparationPage() {
           {
             citation:
               "Khoroshilov IE. Clinical and hygienic aspects of absolute (dry) fasting. Author's abstract of a Candidate of Medical Sciences thesis, Military Medical Academy, St Petersburg, 1994 (abridged English translation, Siberika Publishing, 2020).",
-            note: "the Russian dry-fasting method used a single siphon enema before the dry days and no enemas, baths or laxatives during them; the tradition empties the bowel first, which this protocol does through food and citrate instead",
+            note: "the Russian dry-fasting method used a single siphon enema before the dry days and no enemas, baths or laxatives during them; the tradition empties the bowel first, which this protocol does through food and a juice or citrate cleanse instead",
           },
           {
             citation:

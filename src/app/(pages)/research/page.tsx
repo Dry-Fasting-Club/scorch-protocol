@@ -450,7 +450,7 @@ const FASTING_SAFETY: Ref[] = [
     source: "Lancet, 2005;365(9468):1388. PMID 15836886",
     href: "https://doi.org/10.1016/S0140-6736(05)66373-8",
     shows:
-      "The 'stones' a patient passed after an olive-oil and lemon-juice liver flush were analysed: saponified fatty acids, soap, not cholesterol or bile pigment. Why the liver flush is not part of the preparation.",
+      "The 'stones' a patient passed after an olive-oil and lemon-juice liver flush were analysed: saponified fatty acids, soap, not cholesterol or bile pigment. Why the stones are not the point of a flush, and why the flush is a case-by-case call rather than a routine step.",
     phase: { label: "Preparation", href: "/preparation" },
   },
 ];
