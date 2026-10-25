@@ -523,9 +523,9 @@ export default function PreparationPage() {
           are often fat-soluble and accumulate in fatty tissues, and as you
           burn fat during the fast, those residues re-enter the bloodstream.
           Long-acting benzodiazepines (Diazepam, Librium), SSRIs like Prozac
-          (whose norfluoxetine metabolite takes up to 5 weeks to wash out),
-          antipsychotics like Vraylar (active metabolites persist 1&ndash;3 weeks),
-          and cardiovascular drugs like Amiodarone (half-life up to 78 days)
+          (whose norfluoxetine metabolite takes at least five weeks to wash out),
+          antipsychotics like Vraylar (whose active metabolites can still be detected up to twelve weeks after stopping),
+          and cardiovascular drugs like Amiodarone (half-life of weeks to months, as long as 107 days)
           all fall into this category. Starting TUDCA weeks in advance, not
           days, gives your liver a meaningful head start before the added
           metabolic demands of fasting arrive.
