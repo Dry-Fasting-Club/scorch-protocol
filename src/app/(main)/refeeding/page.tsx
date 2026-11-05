@@ -34,7 +34,7 @@ export default function RefeedingPage() {
         },
         {
           question: "Who actually needs deliberate biome rebuild?",
-          answer: "The standard protocol path (a 5-day dry fast followed by the standing valacyclovir antiviral backbone, started on refeed day 3 at the earliest and run daily through the months between fasts) carries a mandatory gut-rebuild rider: kefir first, then kombucha, run alongside the standing course for as long as it runs, paying down the microbiome cost on purpose rather than leaving antiviral coverage weaker to avoid it. Patients who complete long dry fasts of 7 or more days, especially 9 or more days, need rebuild work for a second, independent reason: at those durations the biome itself starts eating the gut lining and mucosal lining."
+          answer: "The standard protocol path (a 5-day dry fast followed by the standing valacyclovir antiviral backbone, never run during a fast, started on refeed day 3 at the earliest and run daily through the months between fasts) carries a mandatory gut-rebuild rider: kefir first, then kombucha, run alongside the standing course for as long as it runs, paying down the microbiome cost on purpose rather than leaving antiviral coverage weaker to avoid it. If you have any trouble with dairy, skip kefir and use a different probiotic. Patients who complete long dry fasts of 7 or more days, especially 9 or more days, need rebuild work for a second, independent reason: at those durations the biome itself starts eating the gut lining and mucosal lining."
         }
       ])} />
       <h1>Phase 3: The Refeed</h1>
@@ -43,16 +43,20 @@ export default function RefeedingPage() {
         "The refeed is as important as the fast: how you eat in the days after determines how much healing you keep.",
         "Never break a dry fast with solid food. Start with plain water, about a cup an hour for the first four hours, then kompot once you are urinating normally. Coconut water waits for day 2.",
         "Refeeding syndrome is a real danger. Do not eat solid proteins on day 1, avoid caffeine for at least 7 days, and do not combine high-fat and high-carb foods in the first few days.",
-        "Refeed days 1 to 14 are a mutagen holiday: no alcohol, nicotine, smoked, charred or processed meat, mouldy food, sunburn, elective scans or new drugs you do not need. It rests on one mouse study and nobody has measured it in people, but it costs nothing, so I keep it.",
-        "After the first week, ramp calories gradually, targeting 3,000 or more per day to complete the metabolic reset.",
+        "Refeed days 1 to 14 are the consolidation window, and its mutagen rules are: no alcohol, nicotine, smoked, charred or processed meat, mouldy food, sunburn, elective scans or new drugs you do not need. It rests on one mouse study and nobody has measured it in people, but it costs nothing, so I keep it.",
+        "After the first week, ramp calories gradually, building toward the calorie target on the Metabolism Repair Plan page to complete the metabolic reset.",
         "Antivirals keep running across the whole first week, mitochondrial support (methylene blue, and in some cases ethyl pyruvate) is added case by case with no fixed dose, and T3 therapy does not begin until after 7 full days of refeeding.",
         "Watch for a stuck-cortisol pattern after the fast (puffiness, elevated blood pressure, belly fat rebound) and see the dedicated cortisol section if it appears.",
       ]} />
       <p>
-        The refeed is just as important as the fast itself. How you eat after
-        the fast determines how much healing you keep, and whether you trigger
-        the stem cell activation that makes this protocol so powerful. Do not
-        rush this phase.
+        The refeed is the most vulnerable stage of{" "}
+        <Link href="/healing-cycle">the whole cycle</Link>. The fast pushed your
+        cells out of their defensive state; for the next two weeks, the
+        consolidation window, the new cells are settling in and reconnecting,
+        and any fresh danger signal (too much food too fast, a protein or
+        insulin spike, an infection, a stressful week, a cold room, broken
+        sleep, caffeine, alcohol) can lock them straight back in. Every rule on
+        this page exists to keep that signal off.
       </p>
 
       <div className="guiding-questions box-danger">
@@ -97,10 +101,20 @@ export default function RefeedingPage() {
         </div>
       </div>
 
+      <div className="guiding-questions box-warning">
+        <h3>Refeed days 1 to 14: keep the alarm off</h3>
+        <p>
+          Stay warm, sleep long and dark, keep the diary light and the company
+          easy, walk rather than train (light weights come back around day 12),
+          keep away from sick people where you can, and treat any new symptom
+          as a reason to slow the ladder, not to push through.
+        </p>
+      </div>
+
       <h2>The Refeed Schedule</h2>
       <p>
-        This schedule is designed to maximize stem cell activation and minimize
-        the risk of refeeding syndrome. Follow it as closely as possible.
+        This schedule is designed to keep what the fast opened and to keep
+        refeeding syndrome off the table. Follow it as closely as possible.
       </p>
 
       <table>
@@ -156,7 +170,7 @@ export default function RefeedingPage() {
             </td>
           </tr>
           <tr>
-            <td><strong>Day 5–7</strong></td>
+            <td><strong>Days 5 to 7</strong></td>
             <td>
               You can now slowly add back light proteins: a soft-boiled egg,
               some fish, or legumes. Keep fat intake very low. This is when the
@@ -168,17 +182,16 @@ export default function RefeedingPage() {
             <td>
               Gradually return to a normal, whole-foods diet. Start increasing
               calories deliberately. Return to your regular calorie baseline
-              first, then increase by 100 calories per week. For metabolism
-              recovery, eventually target 3,000–4,000+ calories per day (see
-              the{" "}
-              <a href="/refeed-for-bmr">9-Month BMR Reconstruction</a> page).
-              You are building up slowly.
+              first, then increase by 100 calories per week. The calorie
+              target for the months after the refeed is set on the{" "}
+              <a href="/refeed-for-bmr">Metabolism Repair Plan</a> page. You
+              are building up slowly.
             </td>
           </tr>
         </tbody>
       </table>
 
-      <h2 id="mutagen-holiday">Refeed Days 1 to 14: The Mutagen Holiday</h2>
+      <h2 id="mutagen-holiday">Refeed Days 1 to 14: The Consolidation Window and Its Mutagen Rules</h2>
       <p>
         The first two weeks of eating after a fast are when the body rebuilds
         fastest. I treat that stretch as a window to protect, not a threat to
@@ -224,8 +237,8 @@ export default function RefeedingPage() {
           <em>
             Medical caveat: anything you actually need goes ahead. A scan your
             doctor orders or a medicine you are prescribed is not what this
-            rule is about; the holiday covers the optional exposures, not
-            medical care.
+            rule is about; the consolidation window&rsquo;s mutagen rules
+            cover the optional exposures, not medical care.
           </em>
         </p>
       </div>
@@ -300,7 +313,7 @@ export default function RefeedingPage() {
         protocol has a clean foundation to build on.
       </p>
 
-      <div className="guiding-questions box-warning">
+      <div className="guiding-questions box-warning" id="antiviral-coverage">
         <h3>Keep the Antiviral Coverage Running the Whole Week</h3>
         <p>
           The viral reactivation window does not close when you take your first
@@ -405,9 +418,11 @@ export default function RefeedingPage() {
           then the water fast, with no T3 on board. You do not start T3 during
           the fast, and you do not start it in the first week of refeeding. T3
           therapy begins only after you have completed seven full days of
-          refeeding: once the food is back in, once the antiviral coverage has
-          carried you through the reactivation window, and once the
-          mitochondrial support has had a week to work.
+          refeeding, and not into an unsettled refeed: a new symptom, a stalled
+          ladder or an infection means T3 waits. It begins once the food is
+          back in, once the antiviral coverage has carried you through the
+          reactivation window, and once the mitochondrial support has had a
+          week to work.
         </p>
         <p>
           After those seven days you decide whether this cycle needs T3 at all.
@@ -434,7 +449,7 @@ export default function RefeedingPage() {
           <span className="question-label">Day 8: Return to Your Pre-Fast Baseline</span>
           Resume eating roughly the same number of calories you were eating
           before the fast. For most people this is around{" "}
-          <strong>1,800–2,000 calories per day</strong>. Do not jump above this
+          <strong>1,800 to 2,000 calories per day</strong>. Do not jump above this
           yet. Your digestive system needs a few days to handle regular food
           volumes again.
         </div>
@@ -447,8 +462,8 @@ export default function RefeedingPage() {
             <li>Week 3: ~2,200 cal/day</li>
             <li>Week 4: ~2,300 cal/day</li>
             <li>
-              Continue until you reach at least{" "}
-              <strong>3,000 calories per day</strong>
+              Continue until you reach the floor: the floor is set on the{" "}
+              <a href="/refeed-for-bmr">Metabolism Repair Plan</a> page
             </li>
           </ul>
         </div>
@@ -463,19 +478,19 @@ export default function RefeedingPage() {
           Almost every starvation recovery study documents significant weight
           gain during the rebuilding phase. This is normal, expected, and
           necessary. Your body has been in survival mode and will prioritize
-          restoring reserves. If you follow the full Scorch Protocol (T3
-          therapy, hGH, BPC-157, proper sleep), you will minimize fat gain and
-          direct more of those calories into muscle and tissue repair. But do
-          not fear the scale. Resisting this phase slows healing significantly.
+          restoring reserves. If you follow the full Scorch Protocol (proper
+          sleep, and T3 or hGH where your case calls for them), you will
+          minimize fat gain and direct more of those calories into muscle and
+          tissue repair. But do not fear the scale. Resisting this phase slows
+          healing significantly.
         </div>
         <div className="question-item">
-          <span className="question-label">The Goal Is 3,000+ Cal/Day</span>
+          <span className="question-label">The Goal Is Abundance</span>
           Many people with chronic illness have been eating too little for
           years, which is part of what got them here. The metabolic reset only
-          completes when the body feels safe in abundance. 3,000 is the floor
-          for most, and some will need to go higher. See the{" "}
-          <a href="/refeed-for-bmr">9-Month BMR Reconstruction</a> page for
-          the full long-term calorie strategy.
+          completes when the body feels safe in abundance. The floor is set on
+          the <a href="/refeed-for-bmr">Metabolism Repair Plan</a> page, with
+          the full long-term calorie strategy, and some will need to go higher.
         </div>
       </div>
 
@@ -489,7 +504,8 @@ export default function RefeedingPage() {
           <strong>Cronometer</strong> offer this. Pay for the subscription
           and use the photo upload feature so you can point your phone at a
           meal and get an automatic breakdown. It removes the friction of
-          logging and makes hitting 2,000–3,000+ calories per day achievable
+          logging and makes hitting your calorie target (set on the{" "}
+          <a href="/refeed-for-bmr">Metabolism Repair Plan</a> page) achievable
           without obsessing over every ingredient.
         </p>
         <div className="question-item">
@@ -544,27 +560,16 @@ export default function RefeedingPage() {
           energy, but calibrated so fat accumulation stays manageable.
           This balance is what allows the T3 therapy phase to work at its
           best: a well-fueled body on T3 rebuilds tissue; an underfueled
-          body on T3 just burns faster. Because a long-starved appetite fills up fast, the calories have to be dense: load oils, full-fat dairy, eggs, fatty fish and meat, and starchy carbs so you actually cover the window instead of leaving it half-filled and wasting muscle. Peptides like Retatrutide and BPC-157 can further optimize the
+          body on T3 just burns faster. Because a long-starved appetite fills up fast, the calories have to be dense: load oils, full-fat dairy, eggs, fatty fish and meat, and starchy carbs so you actually cover the window instead of leaving it half-filled and wasting muscle. Retatrutide can further optimize the
           energy-to-composition ratio for people who need additional help here.
           (L-carnitine is no longer used: it works against the peripheral
           thyroid effect the protocol depends on.)
         </div>
         <div className="question-item">
           <span className="question-label">Cyproheptadine: the first-cycle eating-window lever</span>
-          When suppressed appetite or a hypersensitive gut is the bottleneck
-          in the first T3 cycle,{" "}
-          <strong>cyproheptadine</strong> is the primary tool. Its job is to
-          drive you to eat dramatically more food so you fill the wider
-          metabolic eating window T3 opens: an underfueled body on T3 just
-          burns muscle. It also calms the brain-gut nerves that make large
-          meals nauseating (the same action behind its established use for
-          cyclic vomiting and abdominal migraine in children), so eating more becomes tolerable
-          even when the gut is not ready. It also improves sleep and lowers
-          the serotonin-driven cortisol surge T3 can provoke.
-          Dose is 1 to 4 mg in the evening, set in your consult.
-          For the full mechanism, and why cyproheptadine can continue into the
-          hGH cycle (injected hGH bypasses the pituitary signal cyproheptadine
-          blunts), see the{" "}
+          When a suppressed appetite or a hypersensitive gut keeps you from
+          filling the eating window in the first T3 cycle, cyproheptadine is
+          the primary tool, and it is set out in the co-factor stack on the{" "}
           <a href="/t3-therapy#cyproheptadine-caveat">T3 Therapy page</a>.
         </div>
       </div>
@@ -584,8 +589,8 @@ export default function RefeedingPage() {
         <div className="question-item">
           <span className="question-label">Signs To Watch For:</span>
           Facial or abdominal puffiness, sustained elevated blood pressure
-          (10–20 mmHg above your baseline), wired-but-tired anxiety,
-          early-morning waking around 3–5 AM, post-fast weight rebound
+          (10 to 20 mmHg above your baseline), wired-but-tired anxiety,
+          early-morning waking around 3 to 5 AM, post-fast weight rebound
           concentrated in visceral fat.
         </div>
         <div className="question-item">
@@ -711,331 +716,99 @@ export default function RefeedingPage() {
         </div>
       </div>
 
-      <h2>BPC-157: Doubling Your Stem Cell Regeneration</h2>
-      <div className="guiding-questions box-success">
-        <h3>The Most Overlooked Upgrade to the Refeed</h3>
+      <h2>Per-Case Add-Ons</h2>
+      <div className="guiding-questions box-info">
         <p>
-          You&rsquo;ve already done something incredible by dry fasting, and your
-          body has mobilized stem cells and cleared cellular debris. BPC-157
-          (Body Protection Compound) is a peptide that can dramatically amplify
-          what happens next.
+          BPC-157, Thymalin and the growth-hormone peptides are special cases
+          I set with people individually, never a general recommendation, and
+          never before refeed day 8.
         </p>
-        <div className="question-item">
-          <span className="question-label">Stem Cell Synergy:</span>
-          Stem cell clinics around the world have observed that pairing
-          BPC-157 with stem cell therapy produces significantly better
-          distribution and acceptance of new cells. The same principle applies
-          here: the stem cells your fast has mobilized integrate more
-          effectively into damaged tissues when BPC-157 is present during the
-          refeed window.
-        </div>
-        <div className="question-item">
-          <span className="question-label">Gut Repair:</span>
-          BPC-157 is particularly effective at healing the gut lining, exactly
-          the tissue that takes the most stress during a dry fast and needs to
-          come back online cleanly during the refeed.
-        </div>
-        <div className="question-item">
-          <span className="question-label">When to Take It:</span>
-          Begin BPC-157 from Day 2–3 of the refeed, once rehydration is under
-          way and the gut is beginning to wake up. Continue
-          for 4–8 weeks through the refeed and rebuild phase.
-        </div>
         <div className="question-item">
           <span className="question-label">If You Have Any Cancer History:</span>
-          BPC-157 waits. With any cancer history, no growth-promoting add-on
-          (BPC-157, CJC-1295 and Ipamorelin, retatrutide or hGH) starts before
-          refeed day 14, and the calorie ramp above runs a week slower. Every
-          cancer history is a conversation with me before the fast, not after
-          it; see the{" "}
+          The wait is longer. With any cancer history, no growth-promoting
+          add-on (BPC-157, CJC-1295 and Ipamorelin, retatrutide or hGH) starts
+          before refeed day 14, and the calorie ramp above runs a week slower.
+          Every cancer history is a conversation with me before the fast, not
+          after it; see the{" "}
           <Link href="/contraindications">contraindications page</Link>.
         </div>
-        <p>
-          <em>
-            You&rsquo;re already doing something powerful. BPC-157 is a small
-            addition that can double its effect for a fraction of the cost of
-            any other intervention.
-          </em>
-        </p>
       </div>
 
-      <h2>Viral Reactivation During the Refeed (Quick Reference)</h2>
+      <h2>Viral Reactivation During the Refeed</h2>
       <p>
-        The refeed is the most dangerous moment in chronic illness recovery,
-        and it is not because of food itself. It is the energetic trough
-        between the fasted state (when your immune system is biologically
-        hostile to viral replication) and the fully refed state (when your
-        immune system has rebuilt). For the few days inside that gap, latent
-        herpesviruses (HSV-1, HSV-2, EBV, HHV-6, and the rest of the nine
-        human herpesviruses) get an open window to reactivate. This is the
-        single most important reason the refeed must be planned, not
-        improvised.
+        The refeed is the biggest of the five windows where latent
+        herpesviruses wake up. Its plan is above, under{" "}
+        <a href="#antiviral-coverage">
+          Keep the Antiviral Coverage Running the Whole Week
+        </a>
+        : valacyclovir from refeed day 3 at the earliest, never during a fast,
+        and arginine-rich foods kept out through week 2. All five windows, with
+        the prodrome checklist, are on the{" "}
+        <a href="/viral-reactivation#five-windows">Viral Reactivation</a> page.
       </p>
-
-      <div className="guiding-questions box-danger">
-        <h3>Read the Full Deep Dive Before You Refeed</h3>
-        <p>
-          The mechanism, the studies, the full list of nine human
-          herpesviruses with symptom profiles, the pharmacological stack
-          with all dosing logic, the HSV-containment biology, and the
-          safety protocol all live on the dedicated{" "}
-          <strong>
-            <a href="/viral-reactivation">Viral Reactivation</a>
-          </strong>{" "}
-          page. If you have any history of cold sores, mono, shingles,
-          or unexplained chronic fatigue, do not begin the refeed without
-          reading it first. The summary below covers only the practical
-          refeed actions.
-        </p>
-      </div>
-
-      <div className="guiding-questions box-warning">
-        <h3>The Refeed-Day Action Checklist</h3>
-        <p>
-          Three things to have in place by the time you take your first
-          calories, and to keep running across the whole first week, not just
-          on day one. The reactivation window stays open through the entire
-          fast-to-refeed transition and the first seven days of refeeding. All
-          three are explained in full mechanistic detail on the Viral
-          Reactivation page; this is the action shortlist.
-        </p>
-        <div className="question-item">
-          <span className="question-label">L-Lysine from Refeed Day 1, Monolaurin from the first cooked food</span>
-          Lysine competes with arginine for the amino acid transporter
-          herpesviruses depend on. Monolaurin disrupts the lipid envelope
-          of every human herpesvirus. Lysine goes in your water from day 1 (empty stomach); monolaurin joins with the first cooked food on day 3.
-        </div>
-        <div className="question-item">
-          <span className="question-label">Avoid Arginine-Rich Foods for the First Two Weeks</span>
-          Nuts, seeds, chocolate, peanut butter. These spike free
-          arginine and undo the work lysine is doing.
-        </div>
-        <div className="question-item">
-          <span className="question-label">Have Valacyclovir (Standing Backbone) and Ivermectin (Supportive) On Hand BEFORE Breaking the Fast</span>
-          Valacyclovir is the standing antiviral backbone: off for the whole
-          fast, dry and water, then started on refeed day 3 at the earliest,
-          after two days of eating with heavy rehydration, and held through
-          the calorie ramp, into maintenance and through the months between
-          fasts. Ivermectin runs alongside
-          it through the window (better gut microbiome compatibility during
-          refeed and double duty as the primary antiparasitic, with
-          supportive antiviral value on top). Both need to be in your
-          possession before the fast ends, not after, and a prodrome
-          loading dose of valacyclovir sits ready as an escalation on top
-          of the standing course if tingling shows up.
-        </div>
-      </div>
-
-      <div className="guiding-questions box-danger">
-        <h3>The Refeed Is One of Five Reactivation Windows</h3>
-        <p>
-          Viral reactivation risk does not end with the refeed. I watch five
-          windows: fast days 1 to 3, this refeed dead zone, the T3 ramp (where
-          I have seen herpes flare many times), the T3 taper and the trough
-          after it, and the hGH wean. The next one to plan for is the end of
-          the T3 course: from the first taper step to a week after the last T3
-          dose, everyone runs the full antiviral stack, L-lysine, monolaurin
-          and valacyclovir, whatever their viral history. The prodrome
-          checklist and the rule at each window are on the{" "}
-          <a href="/viral-reactivation#five-windows">Viral Reactivation</a>{" "}
-          page.
-        </p>
-      </div>
 
       <h2>Rebuilding the Gut Microbiome (and the Virome You Didn&rsquo;t Know You Had)</h2>
       <p>
-        Most people walking into a fasting protocol think about their{" "}
-        <strong>bacterial</strong> microbiome. Almost nobody thinks about
-        their <strong>virome</strong> &ndash; the beneficial viral biome
-        of bacteriophages and commensal viruses that lives alongside the
-        bacteria. Both of them take collateral damage during the protocol,
-        but only in specific scenarios. Most patients don&rsquo;t need
-        aggressive rebuild work. Some absolutely do.
+        Your gut carries two biomes: the bacteria, and a virome of
+        bacteriophages and commensal viruses that keeps the bacterial side in
+        check. Both take damage in two situations.
       </p>
 
       <div className="guiding-questions box-info">
         <h3>Who Actually Needs Deliberate Biome Rebuild?</h3>
-        <p>
-          The standard protocol path is a 5-day dry fast followed by the
-          standing valacyclovir antiviral backbone, started on refeed day 3
-          at the earliest and run daily through the months between fasts.
-          Because that course runs long enough to
-          take real damage to both the bacterial biome and the virome, the
-          gut-rebuild rider is mandatory for it, not optional. This is the
-          default population now, not an edge case.
-        </p>
         <div className="question-item">
           <span className="question-label">The standing valacyclovir course:</span>
-          Kefir first, then kombucha, run alongside the standing course for
-          as long as it runs, paying down the microbiome cost on purpose
-          instead of leaving the antiviral coverage weaker to avoid it.
+          It starts on refeed day 3 at the earliest, never during a fast, and
+          runs through the months between fasts, long enough to damage both
+          biomes. There is no established way to rebuild the virome; it
+          recovers on its own once the antiviral pressure stops. So the course
+          carries a mandatory gut-rebuild rider: kefir first, from about refeed
+          day 4, then kombucha once the kefir sits well, for as long as the
+          course runs. If you have any trouble with dairy, skip kefir and use a
+          different probiotic. The tradeoff is deliberate: stronger antiviral
+          coverage, with the biome cost paid down on purpose. Ivermectin runs
+          alongside for its gentler gut profile, but it does not stand in for
+          valacyclovir.
         </div>
         <div className="question-item">
-          <span className="question-label">Long dry fasts (7+ days, especially 9+):</span>
-          A second, independent reason to rebuild: at those durations the
-          biome itself starts eating your gut lining and mucosal lining.
-          For some patients this is therapeutic &ndash; it trims back
-          negative bacterial populations and clears space for
-          repopulation with beneficial cultures. But it does mean the
-          rebuild step is not optional here either.
+          <span className="question-label">Long dry fasts (7 days and more, especially 9 and more):</span>
+          A second, independent reason: at those lengths the biome starts
+          eating the gut lining and the mucosal lining. For some that is
+          therapeutic, but the rebuild is not optional here either.
         </div>
       </div>
 
       <div className="guiding-questions box-info">
-        <h3>The Sequencing Inside the Scorch Protocol</h3>
+        <h3>The Full Rebuild: The Trinity</h3>
         <p>
-          Biome rebuild is not a Day-1-of-refeed activity for most patients.
-          The Scorch Protocol enters phases where it becomes critical, and
-          phases where it would actively get in the way:
+          Deliberate repopulation comes later: after the second round of
+          cycles, or sooner when antivirals or antifungals are part of your
+          path. I set the timing case by case. The stack is three raw fermented
+          foods:
         </p>
-        <div className="question-item">
-          <span className="question-label">Early protocol (first cycles):</span>
-          Focus is dry fast stem cell regeneration, autophagy, and
-          metabolic foundation (T3). I am setting the main structure
-          up. Aggressive probiotic loading here is not the priority.
-        </div>
-        <div className="question-item">
-          <span className="question-label">Repopulation phase:</span>
-          Deliberate rebuild work starts after the second round of cycles,
-          or when antiviral / antifungal use has been identified as part
-          of the patient&rsquo;s specific protocol path. Everyone is a
-          little different, and the timing differs.
-        </div>
+        <ul>
+          <li>
+            <strong>Kefir:</strong> dairy kefir or water kefir. If you have any
+            trouble with dairy, skip kefir and use a different probiotic.
+          </li>
+          <li>
+            <strong>Kombucha:</strong> most commercial kombuchas carry live
+            cultures; check the label.
+          </li>
+          <li>
+            <strong>Kimchi or sauerkraut:</strong> the jar must say{" "}
+            <strong>raw</strong> or <strong>unpasteurized</strong>.
+            Shelf-stable sauerkraut and pasteurized kimchi are functionally
+            inactive.
+          </li>
+        </ul>
         <p>
-          It is genuinely difficult to nail this timing without individual
-          assessment, and doing it wrong can set a patient back. This is
-          one of the moments where working with me directly is the
-          difference between a clean recovery and a frustrating one. The
-          Scorch Protocol is closer to having a fasting detective on your
-          team than following a generic checklist.
+          Run it daily for about four weeks; a depleted gut colonizes faster.
         </p>
         <p>
           <Link href="/membership?ref=refeed-timing">
             Get Yannick&rsquo;s direct guidance on your refeed &rarr;
           </Link>
-        </p>
-      </div>
-
-      <div className="guiding-questions box-info">
-        <h3>The Rebuild Stack: The Trinity</h3>
-        <p>
-          When repopulation time comes, the foundational stack is three
-          fermented foods. I call it the trinity:
-        </p>
-        <ul>
-          <li>
-            <strong>Kefir</strong> &ndash; live bacterial cultures
-            naturally present. Both dairy kefir and water kefir work.
-          </li>
-          <li>
-            <strong>Kombucha</strong> &ndash; most commercial kombuchas
-            contain live cultures. Check the label.
-          </li>
-          <li>
-            <strong>Kimchi or sauerkraut</strong> &ndash; this one is
-            where most people get it wrong. The jar <em>must</em> say{" "}
-            <strong>raw</strong> or <strong>unpasteurized</strong> to
-            contain live bacteria. Shelf-stable supermarket sauerkraut
-            and pasteurized kimchi are functionally inactive.
-          </li>
-        </ul>
-        <p>
-          In Filonov&rsquo;s Russian dry fasting tradition, the same role
-          is played by a sour cream / sour cultured water drink. The
-          principle is identical: deliver live cultures to a depleted
-          gut at the moment it is most receptive to colonization.
-        </p>
-      </div>
-
-      <div className="guiding-questions box-info">
-        <h3>Timing: How Long Until It Actually Shifts</h3>
-        <div className="question-item">
-          <span className="question-label">For regular people:</span>
-          About <strong>four weeks</strong> of continuous daily
-          consumption to produce a meaningful, lasting shift in the
-          biome.
-        </div>
-        <div className="question-item">
-          <span className="question-label">For depleted patients (post-long-fast or post-long-antiviral):</span>
-          Faster. The empty territory in a depleted gut allows new
-          cultures to colonize quicker than they would in a fully
-          populated baseline gut. The exact compression of the timeline
-          varies per patient.
-        </div>
-      </div>
-
-      <div className="guiding-questions box-info">
-        <h3>The Bacterial Exception: Lyme, Babesia, Bartonella</h3>
-        <p>
-          The Scorch Protocol targets fungal, parasitic, and viral
-          pathogens. <strong>Bacterial is its own category</strong>, and
-          it requires its own approach.
-        </p>
-        <p>
-          Bacterial infections in chronic illness usually mean Lyme
-          disease and its co-infections (babesia and bartonella). These
-          typically require antibiotics, and that is the one place
-          antibiotics are recommended in this protocol. Otherwise,
-          antibiotic use is avoided because of the collateral damage
-          to the biome.
-        </p>
-        <p>
-          A common pattern: patients complete an antibiotic course for
-          Lyme, eventually test negative for the bacteria, but their
-          chronic illness symptoms stay the same or get worse. The
-          Scorch Protocol picks up at exactly that point &ndash; the
-          residual mitochondrial, immune, and metabolic damage that
-          antibiotics cannot reach. Continue any active Lyme protocol
-          (herbal or antibiotic) alongside Scorch. Do not stop one to
-          start the other.
-        </p>
-        <p>
-          For repairing the biome damage antibiotics cause, live
-          fermented cultures during early refeed work better than
-          capsule probiotics. At Filonov&rsquo;s dry fasting retreats,
-          participants are given a sour cream cultured probiotic drink
-          at the start of refeed. When a retreat occasionally runs out
-          or forgets to prepare it, I&rsquo;ve heard from participants
-          who simply bought a few jugs of kefir from a local store and
-          used that as a substitute, with similar reported results. The
-          principle is the same either way: live cultures, in volume,
-          delivered when the gut is most receptive.
-        </p>
-      </div>
-
-      <div className="guiding-questions box-info">
-        <h3>The Virome: The Biome You Were Never Told About</h3>
-        <p>
-          The bacterial microbiome gets all the attention. The virome
-          gets none. But you have one &ndash; trillions of beneficial
-          bacteriophages and commensal viruses that regulate the
-          bacterial side, train your immune system, and maintain
-          equilibrium with your tissues.
-        </p>
-        <p>
-          Suppressive antiviral therapy doesn&rsquo;t just kill the
-          herpesviruses it&rsquo;s aimed at. It nukes the beneficial
-          virome alongside. There is currently no established way to
-          deliberately rebuild the virome the way kefir rebuilds the
-          bacterial side. Phage therapy exists experimentally but is
-          not yet a protocol component. The pragmatic position: once
-          you stop the antiviral pressure, the virome auto-recovers
-          on its own.
-        </p>
-        <p>
-          This cost is exactly why valacyclovir, now run as the standing
-          antiviral backbone (started on refeed day 3 at the earliest, never
-          during the fast in either form, and held through the calorie ramp,
-          into maintenance and through the months between fasts),
-          carries a mandatory gut-rebuild rider alongside it: kefir first,
-          then kombucha. This is a deliberate tradeoff, not an oversight.
-          The standing course gives you the stronger, more reliable
-          antiviral coverage across the whole refeed, and the rider pays
-          the biome cost down on purpose instead of leaving that coverage
-          weaker to avoid the cost. Ivermectin still runs alongside the
-          standing course for its gentler gut profile and its double duty
-          as the primary antiparasitic, but it no longer stands in for
-          valacyclovir&rsquo;s job.
         </p>
       </div>
 
@@ -1052,7 +825,7 @@ export default function RefeedingPage() {
         refs={[
           {
             citation:
-              "Papagiannopoulos IA, Sideris VI, Boschmann M, Koutsoni OS, Dotsika EN. Anthropometric, Hemodynamic, Metabolic, and Renal Responses during 5 Days of Food and Water Deprivation. Forsch Komplementmed, 2013;20(6):427–433.",
+              "Papagiannopoulos IA, Sideris VI, Boschmann M, Koutsoni OS, Dotsika EN. Anthropometric, Hemodynamic, Metabolic, and Renal Responses during 5 Days of Food and Water Deprivation. Forsch Komplementmed, 2013;20(6):427-433.",
             href: "https://doi.org/10.1159/000357718",
             note: "renal filtration rises sharply during the fast and settles afterward, the basis for a gradual, monitored refeed",
           },
@@ -1060,7 +833,7 @@ export default function RefeedingPage() {
             citation:
               "Imada S, Khawaled S, Shin H, et al. Short-term post-fast refeeding enhances intestinal stemness via polyamines. Nature, 2024;633(8031):895-904. PMID 39169180. DOI 10.1038/s41586-024-07840-z.",
             href: "https://doi.org/10.1038/s41586-024-07840-z",
-            note: "in mice after a 24-hour fast, the first day of refeeding was a peak of intestinal stem-cell proliferation driven by mTORC1 and polyamines, and deleting a tumour suppressor in that window produced more tumours; blocking the growth signal removed the excess; no human data; the basis for the mutagen holiday and the low-growth-signal first days",
+            note: "in mice after a 24-hour fast, the first day of refeeding was a peak of intestinal stem-cell proliferation driven by mTORC1 and polyamines, and deleting a tumour suppressor in that window produced more tumours; blocking the growth signal removed the excess; no human data; the basis for the consolidation window's mutagen rules and the low-growth-signal first days",
           },
           {
             citation:

@@ -55,7 +55,7 @@ export default function T3TherapyPage() {
       <KeyTakeaways points={[
         "T3 is for the post-fast metabolic slowdown, not for everyone. If you come out of the fast cold, with weight that will not move and the old symptoms still there, you run the course. If you run hot, hold your weight and feel great after the fast, you skip it. The long-term sufferer who has done many fasts and seen many doctors runs fast then T3 at least once to test the water, and weans off if it does little.",
         "The signs I look for: a low waking temperature (below 36.5C / 97.7F) and a low resting heart rate (below 72 bpm). Normal blood tests do not rule it out, because the problem is cells not responding to T3, not T3 being absent.",
-        "The 30-day course follows Wilson's Temperature Syndrome cycling: ramp to your temperature target, hold, taper off, and let your own thyroid come back. The dose numbers on this page are a worked example of that shape, not a schedule to copy. Use slow-release T3, not instant-release.",
+        "The 30-day course follows Wilson's Temperature Syndrome cycling: ramp to your temperature target, hold, taper off, and let your own thyroid come back. The steps and the amounts are set case by case. Use slow-release T3, not instant-release.",
         "If you are already on thyroid medication, the taper is much harder: your own thyroid has been asleep, and asking it to reboot as the T3 comes off puts you in a trough that is really rough. Plan that stretch with me.",
         "From the first taper step to a week after the last dose, everyone runs the full antiviral stack: L-lysine, monolaurin and valacyclovir. The taper and the trough are where the published cell work points; the ramp is watched too, because I have seen it trigger HSV in many cases.",
         "Stop increasing your dose if your resting heart rate goes above 100 bpm. If it goes above 90 bpm before you even start, resolve that first.",
@@ -147,7 +147,7 @@ export default function T3TherapyPage() {
         <h4>Other Common Symptoms</h4>
         <p>
           <em>
-            (Check how many you have &ndash; the more you have, the more likely
+            (Check how many you have: the more you have, the more likely
             you need this)
           </em>
         </p>
@@ -429,15 +429,18 @@ export default function T3TherapyPage() {
           </li>
         </ul>
         <p>
-          T3 therapy is used to &ldquo;electrify&rdquo; the body, sending a
-          structured &ldquo;electrical signal flood&rdquo; of abundance and
-          shock to finally force those jammed locks open and wake your body up.
-          This convinces the cells that T3 can enter again and radically
-          increases insulin sensitivity. Depending on the case, this may require
-          a mix of T4 and high T3, or just T3, but the concept of a short,
-          powerful energy burst remains the same. Do not forget to understand
-          the critical co-factors required for T3 therapy to be safe and
-          effective.
+          Not everyone needs T3. It is for the person who comes out of the fast
+          and the refeed still cold, with whole-body and brain fatigue that does
+          not lift. For them the 30-day course is a reboot: it brings the
+          metabolism up to speed, lets the body use the calories, and then hands
+          the job back to your own thyroid. Some people do better on a milder
+          mix of T4 and T3; which, and how much, is set case by case. If the
+          course does little, that is an answer too: wean off rather than
+          climb. And one exception runs the other way: if you have lived for
+          years on very low carbohydrate with a low waking temperature, fasting
+          can push you deeper into{" "}
+          <a href="/healing-cycle">the stuck state</a>; for you the metabolism
+          comes up first, and T3 may come before any fast, set with me.
         </p>
         <p>
           <strong>The Role of Genetics:</strong> In some cases, your genetics
@@ -616,8 +619,9 @@ export default function T3TherapyPage() {
               steps until your waking temperature sits in the{" "}
               <strong>36.5 to 37.0&deg;C (97.7 to 98.6&deg;F)</strong> band.
               <br />
-              <em>Example only:</em> a slow-release ramp in 15 mcg steps, split
-              morning and evening, is one shape this can take.
+              <em>Example only:</em> a slow ramp in small steps, a hold at the
+              temperature target, then a taper two to three times as long as
+              the climb; the steps and the amounts are set case by case.
               <br />
               <strong>Stop climbing</strong> the moment resting heart rate
               passes 100 bpm, whatever the dose.
@@ -654,29 +658,6 @@ export default function T3TherapyPage() {
           </tr>
         </tbody>
       </table>
-
-      <div style={{ margin: "2rem 0", textAlign: "center" }}>
-        <Image
-          src="/assets/t3-protocol-chart.png"
-          alt="Simplified T3 Protocol Chart"
-          width={900}
-          height={500}
-          style={{
-            maxWidth: "100%",
-            height: "auto",
-            border: "1px solid #ddd",
-            borderRadius: "8px",
-            boxShadow: "0 4px 6px rgba(0,0,0,0.1)",
-          }}
-        />
-        <p style={{ fontSize: "0.9rem", color: "#666", marginTop: "0.5rem" }}>
-          <em>
-            Figure 1: a worked example of one ramp, hold and taper. The
-            Wilson&rsquo;s shape is the rule; the day counts and doses in the
-            chart are not.
-          </em>
-        </p>
-      </div>
 
       <div className="guiding-questions box-danger">
         <h3>Safety First</h3>
@@ -725,11 +706,12 @@ export default function T3TherapyPage() {
           means your own T4 is gone, so nothing is buffering the dropping T3.
           The fix is to add a little T4 back on top of the T3 you are still
           lowering:{" "}
-          <strong>50 to 100 mcg of T4 every other day</strong>. T4 has a long
-          half-life, so every-other-day dosing holds a steady floor (slow-release
-          T4 is available from chronic-illness.st or other sources). Desiccated
-          thyroid (30 to 60 mg) is the accessible fallback if you cannot get a
-          formulation. This is the kind of adjustment worth running past me.
+          <strong>T4 every other day, the amount set case by case</strong>. T4
+          has a long half-life, so every-other-day dosing holds a steady floor
+          (slow-release T4 is available from chronic-illness.st or other
+          sources). Desiccated thyroid, its amount also set case by case, is
+          the accessible fallback if you cannot get a formulation. This is the
+          kind of adjustment worth running past me.
         </div>
         <div className="question-item">
           <span className="question-label">
@@ -737,9 +719,9 @@ export default function T3TherapyPage() {
             itself?
           </span>
           <span className="action-arrow">&rarr;</span> Some people do better on
-          a custom <strong>T4/T3 ratio</strong> for the next round. Find your
-          full thyroid replacement rate and run about half of it through the
-          fast.{" "}
+          a custom <strong>T4/T3 mix</strong> for the next round, with part of
+          a full replacement amount running through the fast; the mix and the
+          amount are set case by case.{" "}
           <em>
             Medical caveat: this is the one per-case exception to the rule that
             T3 does not run during the fast, never the default.
@@ -784,7 +766,7 @@ export default function T3TherapyPage() {
         <li>
           <strong>Success:</strong> When you are finished, your waking
           temperature should stay between{" "}
-          <strong>36.5&deg;C and 37.0&deg;C (97.7&deg;F - 98.6&deg;F)</strong>{" "}
+          <strong>36.5&deg;C and 37.0&deg;C (97.7&deg;F and 98.6&deg;F)</strong>{" "}
           without any medicine.
         </li>
         <li>
@@ -827,8 +809,8 @@ export default function T3TherapyPage() {
           uncoupling: the mitochondria burn fuel to produce heat, which raises
           body temperature and metabolic rate, directly supporting what T3 is
           driving. And it is T3-sparing: some patients who barely respond to T3
-          are tempted to push the dose above the roughly 150 mcg/day Wilson&rsquo;s
-          protocol ceiling, which carries more cardiac and adrenal risk.
+          are tempted to push the dose past the ceiling I set, which carries
+          more cardiac and adrenal risk.
           Adding cyproheptadine often lets the existing T3 dose reach the
           target temperature instead, avoiding that escalation.
           Dose is 1 to 4 mg in the evening, set individually in your consult.
@@ -862,9 +844,28 @@ export default function T3TherapyPage() {
         <div className="question-item">
           <span className="question-label">Low-dose aspirin (inflammation, cortisol, insulin sensitivity):</span>
           Lowers the inflammatory drag and peripheral cortisol conversion that
-          keep cells resistant to T3. See the{" "}
-          <a href="/tips-and-tricks#co-factors">Tips &amp; Tricks</a> aspirin
-          section for dosing and safety.
+          keep cells resistant to T3. Aspirin earns its place because it is one
+          of the very few molecules that hits three switches at once: it blunts
+          inflammation through the COX pathway, it lowers the cortisol your
+          tissues make for themselves, and it improves insulin sensitivity. The
+          middle one is the key for T3. Its metabolite, salicylate, turns down
+          an enzyme called 11&beta;-HSD1 that regenerates active cortisol inside
+          fat tissue. In chronic illness that enzyme runs high, so the tissues
+          sit in a local stress state even when blood cortisol looks normal,
+          and that local stress blocks the conversion of T4 into active T3.
+          Turning it down is the most effective over-the-counter way I know to
+          break that loop. It works best on a steady supply of carbohydrate,
+          not in deep ketosis. Take it with a substantial meal, never on an
+          empty stomach, add DGL (deglycyrrhizinated licorice) if your stomach
+          complains, take the K2 below alongside it, and check your ferritin
+          now and then so a slow iron drift is caught early.
+          <br />
+          <em>
+            Medical caveat: aspirin thins the blood. If you are on an
+            anticoagulant, have a bleeding disorder, or are pregnant or trying
+            to conceive, run it past me first, and stop it several days before
+            any surgery or dental work.
+          </em>
         </div>
         <div className="question-item">
           <span className="question-label">Vitamin K2 (vascular protection):</span>
@@ -902,7 +903,7 @@ export default function T3TherapyPage() {
         />
         <p style={{ fontSize: "0.9rem", color: "#666", marginTop: "0.5rem" }}>
           <em>
-            Figure 2: The ideal body temperature curve of a healthy person,
+            Figure 1: The ideal body temperature curve of a healthy person,
             rising through the day and peaking in the late afternoon. If your
             T3 therapy works, your temperature pattern should begin to match
             this curve.
@@ -925,11 +926,11 @@ export default function T3TherapyPage() {
         />
         <p style={{ fontSize: "0.9rem", color: "#666", marginTop: "0.5rem" }}>
           <em>
-            Figure 3: Real-world thermoregulation data across five cycles of
+            Figure 2: Real-world thermoregulation data across five cycles of
             slow-release T3 in a 51-year-old woman. Each cycle progressively
             lifts the waking temperature baseline toward the healthy
-            36.5 to 37.0°C range shown in Figure 2, the pattern most
-            participants follow when the protocol is working.
+            36.5 to 37.0°C range shown in Figure 1, the shape of a course that
+            is working.
           </em>
         </p>
       </div>

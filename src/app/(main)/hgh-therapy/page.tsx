@@ -27,7 +27,7 @@ export default function HghTherapyPage() {
       <StarterKitCallout />
 
       <KeyTakeaways points={[
-        "hGH is the rebuild signal. Dry fasting clears damaged cells, T3 restores metabolic power, and hGH tells your body to build new healthy muscle and immune tissue from what was freed.",
+        "hGH is the rebuild signal. Dry fasting clears damaged cells, T3 restores metabolic power, and hGH tells your body to build new healthy muscle and immune tissue from what was freed. It belongs to the last stage of the healing cycle, which is why it waits until two full cycles have cleared the way.",
         "hGH is not a phase everyone reaches. It enters around the third cycle, when two cycles of fasting plus T3 have not done enough: insulin resistance where food is not tolerated, extreme muscle loss, really bad sleep. It is an add-on to the T3 cycle, a supercharging of it, not something that waits until all T3 is finished.",
         "Once you are on hGH, stay on it for at least three to six months. Two ways to run it: regeneration with continuous calories and no fasting, or keep cycling the fasts, in which case the hGH dosing pattern has to change because exogenous hGH suppresses your own output, and that pattern is set with me case by case, not from this page. At the end you wean off and allow about 30 days for your own production to come back before any fast.",
         "Cyproheptadine and hGH work together. Injected hGH bypasses the pituitary signal cyproheptadine blunts, so you do not need to stop cyproheptadine before starting hGH.",
@@ -106,12 +106,12 @@ export default function HghTherapyPage() {
         <h3>How hGH Helps You Heal</h3>
         <p>
           <strong>
-            Fixing Your Immune System: The Calorie &amp; Building Flood.
+            Fixing Your Immune System: The Calorie &amp; Building Surge.
           </strong>
           <br />
           Dry fasting cleans out the &ldquo;trash,&rdquo; and hGH sends the
           signal to &ldquo;rebuild&rdquo; through a massive calorie and building
-          flood. This phase focuses on flooding the body with energy to signal
+          surge. This phase focuses on filling the body with energy to signal
           abundance and regeneration. Some may need to eat significantly more
           calories than they ever have to force this process, which can take
           months to years. While weight gain is a common concern (see the
@@ -280,7 +280,7 @@ export default function HghTherapyPage() {
           <span className="question-label">At least three to six months:</span>
           Once you are on hGH you stay on it for at least three to six months.
           Short runs do not rebuild anything. This is the stretch where the
-          calorie flood described above has to be real.
+          calorie surge described above has to be real.
         </div>
       </div>
 
@@ -429,9 +429,7 @@ export default function HghTherapyPage() {
           repair of the gut lining, tendons, nerves, and vascular tissue.
           For people with a damaged gut (leaky gut, SIBO, chronic
           inflammation), BPC-157 can be a critical bridge that allows
-          nutrients to actually absorb during the rebuild phase. Also shows
-          strong synergy with stem cell activity post-fast (see Refeeding
-          page).
+          nutrients to actually absorb during the rebuild phase.
         </div>
         <div className="question-item">
           <span className="question-label">Retatrutide (GLP-1/GIP/Glucagon Triple Agonist):</span>

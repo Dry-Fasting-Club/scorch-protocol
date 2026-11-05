@@ -94,7 +94,11 @@ export default function BetweenFastsPage() {
         the slow work of consolidating what the fast cleared. Running nothing
         through it is how people arrive at cycle two no better than they arrived
         at cycle one. The standing stack below is what holds the ground the fast
-        took.
+        took. In <Link href="/healing-cycle">healing-cycle</Link> terms, these
+        are the weeks the new cells either settle into normal life or get
+        pulled back into defence, so this stack is built to keep viral,
+        inflammatory and nervous-system alarms low while the metabolism comes
+        back.
       </p>
 
       <h2>Which Page You Actually Need</h2>

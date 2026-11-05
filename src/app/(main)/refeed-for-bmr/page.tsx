@@ -28,7 +28,7 @@ export default function RefeedForBmrPage() {
       ]} />
       <p>
         This plan uses data from the{" "}
-        <strong>Minnesota Starvation Experiment (1944–1945)</strong> to help
+        <strong>Minnesota Starvation Experiment (1944 to 1945)</strong> to help
         you fix a slowed-down metabolism. It explains how your body shuts down
         certain parts to save energy and how to &ldquo;rebuild&rdquo; your
         health after a long illness or fasting.
@@ -54,7 +54,10 @@ export default function RefeedForBmrPage() {
           <span className="question-label">The 9-Month Goal:</span>
           After about 9 months, your body finally feels &ldquo;safe.&rdquo; The
           survival alarm in your brain turns off, and your metabolism (BMR) goes
-          back to normal.
+          back to normal. That alarm is the whole-body face of the danger
+          response on the <a href="/healing-cycle">healing cycle page</a>: the
+          metabolism only comes back once the body stops sensing danger, which
+          is why calories come first and why it takes months.
         </div>
       </div>
 
@@ -243,7 +246,7 @@ export default function RefeedForBmrPage() {
         </p>
       </div>
 
-      <h3>Phase I: The Survival Phase (Months 1–3)</h3>
+      <h3>Phase I: The Survival Phase (Months 1 to 3)</h3>
       <p>This phase is cut down to 1 month if you use the Scorch Protocol correctly.</p>
       <div className="guiding-questions box-info">
         <h4>Goal: Stabilize the heart and stay safe.</h4>
@@ -267,7 +270,7 @@ export default function RefeedForBmrPage() {
         </div>
       </div>
 
-      <h3>Phase II: The &ldquo;Fat Buffer&rdquo; Phase (Months 3–6)</h3>
+      <h3>Phase II: The &ldquo;Fat Buffer&rdquo; Phase (Months 3 to 6)</h3>
       <p>
         The Scorch Protocol uses T3, specific foods and, for the cases where two
         cycles of fasting plus T3 were not enough, hGH on top of the T3 cycle
@@ -300,12 +303,13 @@ export default function RefeedForBmrPage() {
         <div className="question-item">
           <span className="question-label">The 10-Pound Rule:</span>
           Stop fasting at least 10 lbs before you reach an underweight state,
-          because T3 therapy and the post-refeed period can remove another
-          10 lbs even after you stop.
+          because the post-refeed period and a T3 course, for the person who
+          needs one after the refeed, can remove another 10 lbs even after you
+          stop.
         </div>
       </div>
 
-      <h3>Phase III: Rebuilding Muscle (Months 6–9+)</h3>
+      <h3>Phase III: Rebuilding Muscle (Months 6 to 9+)</h3>
       <div className="guiding-questions box-success">
         <h4>Goal: Build muscle and return to normal.</h4>
         <div className="question-item">
@@ -385,7 +389,7 @@ export default function RefeedForBmrPage() {
             <td>
               <strong>Phase I</strong>
               <br />
-              (Months 1–3)
+              (Months 1 to 3)
             </td>
             <td>Dry skin, thinning hair, slow pulse</td>
             <td>
@@ -396,7 +400,7 @@ export default function RefeedForBmrPage() {
             <td>
               <strong>Phase II</strong>
               <br />
-              (Months 3–6)
+              (Months 3 to 6)
             </td>
             <td>Weight gain around your middle.</td>
             <td>
@@ -408,7 +412,7 @@ export default function RefeedForBmrPage() {
             <td>
               <strong>Phase III</strong>
               <br />
-              (Months 6–9+)
+              (Months 6 to 9+)
             </td>
             <td>Skin oils return, libido returns, you feel social.</td>
             <td>
@@ -445,7 +449,7 @@ export default function RefeedForBmrPage() {
         </ul>
       </div>
 
-      {/* FaithBlock hidden for now — to restore, remove the `false && (` wrapper and matching `)` */}
+      {/* FaithBlock hidden for now: to restore, remove the `false && (` wrapper and matching `)` */}
       {false && (
       <FaithBlock
         title="Let Perseverance Finish Its Work"
