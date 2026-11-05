@@ -96,7 +96,7 @@ Before running `blog:publish`, verify:
 - [ ] An H2 named "Frequently Asked Questions" with at least 4 H3 questions (boosts AI Overview / FAQ snippet pickup)
 - [ ] An H2 named "Next Steps" or equivalent at the bottom with a clear CTA to a protocol page or email signup
 - [ ] Citations are clickable with the paper finding inside the parens (see "Citation format" below)
-- [ ] No em dashes (project style rule — use commas, parens, colons, or sentence breaks instead)
+- [ ] No em dashes (project style rule: use commas, parens, colons, or sentence breaks instead)
 - [ ] No emojis (project style rule)
 
 ## Two post archetypes
@@ -108,16 +108,16 @@ Every post fits one of these patterns. Mix them deliberately, not randomly.
 The hub of a topic cluster. One per major topic vertical. Mechanism-heavy, comprehensive.
 
 **Structural template:**
-1. **Intro (~150 words)** — hook + authority statement + bulleted "what you will learn" list + skip-to link for impatient readers
-2. **H2: What [topic] actually is** — mechanism reframe, contrarian angle
-3. **H2: Why standard testing/treatment misses it** — addresses the gaslighting experience
-4. **H2: The three (or N) reinforcing loops / pillars / mechanisms** — heavy mechanism content with H3 sub-sections
-5. **H2: Why most [topic] treatments fail** — competitor teardown, positions the protocol
-6. **H2: The Scorch Protocol framework** — phased breakdown with H3 per phase, each phase linking to its `/main` protocol page
-7. **H2: What recovery actually looks like** — timeline, expected outcomes, links to `/success-rate-data`
-8. **H2: Who this protocol is and is not for** — qualification + disqualification list (builds trust + filters bad-fit readers)
-9. **H2: Frequently Asked Questions** — 5-8 H3 questions; answer in 1-3 sentences each
-10. **H2: Next Steps** — clear primary CTA (protocol page) + secondary CTA (email signup)
+1. **Intro (~150 words)**: hook + authority statement + bulleted "what you will learn" list + skip-to link for impatient readers
+2. **H2: What [topic] actually is**: mechanism reframe, contrarian angle
+3. **H2: Why standard testing/treatment misses it**: addresses the gaslighting experience
+4. **H2: The three (or N) reinforcing loops / pillars / mechanisms**: heavy mechanism content with H3 sub-sections
+5. **H2: Why most [topic] treatments fail**: competitor teardown, positions the protocol
+6. **H2: The Scorch Protocol framework**: phased breakdown with H3 per phase, each phase linking to its `/main` protocol page
+7. **H2: What recovery actually looks like**: the timeline in plain terms and who responds best (no outcome numbers or rates), links to `/success-rate-data`
+8. **H2: Who this protocol is and is not for**: qualification + disqualification list (builds trust + filters bad-fit readers)
+9. **H2: Frequently Asked Questions**: 5-8 H3 questions; answer in 1-3 sentences each
+10. **H2: Next Steps**: clear primary CTA (protocol page) + secondary CTA (email signup)
 
 **Featured: true** for the current best pillar (shown as hero on `/blog`).
 
@@ -126,12 +126,12 @@ The hub of a topic cluster. One per major topic vertical. Mechanism-heavy, compr
 Long-tail post answering a specific question. 10-15 per pillar. Routes traffic up to the pillar.
 
 **Structural template:**
-1. **H2: The Short Answer** — answer the title question in 50-100 words at the top (voice search + featured snippet + AI Overview optimization)
-2. **H2: 3-5 focused sections** — the supporting depth, mechanism, common patterns
-3. **H2: Common Co-Symptoms / Common Mistakes / Common Misconceptions** — list-format content (good for rich result triggers)
-4. **H2: What actually works** — short summary + link UP to the pillar post
-5. **H2: Frequently Asked Questions** — 3-5 H3 questions
-6. **H2: Where to Start** — CTA back to pillar + protocol page + email
+1. **H2: The Short Answer**: answer the title question in 50-100 words at the top (voice search + featured snippet + AI Overview optimization)
+2. **H2: 3-5 focused sections**: the supporting depth, mechanism, common patterns
+3. **H2: Common Co-Symptoms / Common Mistakes / Common Misconceptions**: list-format content (good for rich result triggers)
+4. **H2: What actually works**: short summary + link UP to the pillar post
+5. **H2: Frequently Asked Questions**: 3-5 H3 questions
+6. **H2: Where to Start**: CTA back to pillar + protocol page + email
 
 **Featured: false** always for cluster posts.
 
@@ -157,10 +157,10 @@ Every claim that references a study or paper should be a clickable citation with
 **Format:**
 
 ```markdown
-...claim text... ([Author et al., Year — short description of the finding](URL), *Journal Name*).
+...claim text... ([Author et al., Year: short description of the finding](URL), *Journal Name*).
 ```
 
-**Renders as:** *...claim text... ([Author et al., Year — short description of the finding](#), Journal Name).*
+**Renders as:** *...claim text... ([Author et al., Year: short description of the finding](#), Journal Name).*
 
 **URL preference order:**
 
@@ -171,7 +171,7 @@ Every claim that references a study or paper should be a clickable citation with
 
 **Source the URLs from:**
 
-- The "Corroborating Research" section of each Data-hoard knowledge block — most papers already have PMIDs or PMCIDs listed
+- The "Corroborating Research" section of each Data-hoard knowledge block, where most papers already have PMIDs or PMCIDs listed
 - For papers without confirmed URLs in Data-hoard, leave the citation as plain text with the journal name and finding descriptor: `(Author, Year, *Journal*, on finding)`. Better no link than a wrong one. E-E-A-T is more damaged by a broken or wrong link than by a missing one.
 
 **Bad (legacy format, do not use for new posts):**
@@ -184,10 +184,10 @@ A 1°C drop in body temperature reduces every enzyme-catalyzed reaction in your 
 
 ```
 A 1°C drop in body temperature reduces every enzyme-catalyzed reaction in your body
-([Clarke, 2004 — Functional Ecology study on temperature-dependent enzyme kinetics](URL)).
+([Clarke, 2004: Functional Ecology study on temperature-dependent enzyme kinetics](URL)).
 ```
 
-The link text should contain the descriptive finding, not just the citation — this is the anchor text Google reads and is the most important SEO signal in the citation.
+The link text should contain the descriptive finding, not just the citation: this is the anchor text Google reads and is the most important SEO signal in the citation.
 
 ## Tone and voice
 

@@ -18,7 +18,12 @@
  *
  * dryfastingclub.com pages cache for 24 hours; after an --apply there, revalidate
  * each changed post through the site's admin route (PATCH /api/admin/blog/<id>
- * with an empty body; see the ledger).
+ * with an empty body, on the www host: the apex redirects and the cookie is
+ * dropped on the way; see the ledger).
+ *
+ * Fix round 1 (2026-11-05, after review) widened the scan terms and added or
+ * revised rules; revised rules carry `was` (the first pass's text) so the live
+ * rows and a replay from the pre-sweep backup end in the same place.
  *
  * --apply updates only the body column (`content`) and `updated_at`. It never
  * touches title, slug, published_at or any other column. Every rule names the
@@ -99,12 +104,20 @@ const EM = String.fromCharCode(0x2014);
 const EN = String.fromCharCode(0x2013);
 const ALPHA = String.fromCharCode(0x3b1);
 const NBSP = String.fromCharCode(0xa0);
+// A dash written as an HTML entity renders like the character itself.
+const DASH_SOURCE = "[" + EM + EN + "]|&#821[12];|&[nm]dash;|&#x201[34];";
+const isEnDash = (s) => s === EN || /^&(?:#8211|ndash|#x2013);$/i.test(s);
 
 // ─── Scan terms ────────────────────────────────────────────────
 // Each term finds candidate positions; `near` keeps only hits with a second
-// pattern within 60 characters (or `nearWindow`); `paragraphCheck` reports
-// whether the hit's paragraph carries the refeed caveat. Every hit is judged
-// by hand in the ledger; the scan never edits anything.
+// pattern within 60 characters (or `nearWindow`), unless the text at the hit
+// matches `alwaysIf`; `paragraphCheck` reports whether the hit's paragraph
+// carries the refeed caveat. Every hit is judged by hand in the ledger; the
+// scan never edits anything. Fix round 1 (2026-11-05) widened the flood
+// window to 200 characters and made "flood the system" a hit anywhere, let
+// the T3-for-everyone gap hold a markdown link of any length, added the
+// thymus peptides and the other named peptides, the HTML-entity dashes, and
+// percentages "of people" (outcome rates).
 const NEAR = 60;
 const T3_NEAR = /\bT3\b|liothyronine|cytomel|thyroid hormone/i;
 const T3T4_NEAR = /\bT[34]\b|thyroid/i;
@@ -116,7 +129,7 @@ const DOSE_SUBSTANCE = new RegExp(
 
 const TERMS = [
   { id: "stem-cell", label: '"maximize stem cell activation"', re: /maximi[sz]\w*\s+(?:the\s+)?stem[- ]cell/gi },
-  { id: "flood-t3", label: '"flood" within 60 characters of T3', re: /flood\w*/gi, near: T3_NEAR },
+  { id: "flood-t3", label: '"flood" within 200 characters of T3, and "flood the system" anywhere (judged: T3, or calories and stress hormones)', re: /flood\w*/gi, near: T3_NEAR, nearWindow: 200, alwaysIf: /^flood\w*\s+(?:the|your)\s+(?:system|body|cells?)\b/i },
   { id: "hibernation", label: '"hibernation" or "torpor" (judged: the explanation, or a passing mention)', re: /hibernat\w*|torpor/gi },
   { id: "multiplier", label: '"10 times", "100 times", "10x", "100x", "2x", "-fold"', re: /\b(?:10|100|ten|a hundred|one hundred)(?:\s+times\b|x\b|[- ]?fold\b)|\b2x\b/gi },
   { id: "label-mutagen", label: '"mutagen holiday" as a label', re: /mutagen holiday/gi },
@@ -125,17 +138,36 @@ const TERMS = [
   { id: "consolidation", label: '"consolidation" (the one name for refeed days 1 to 14; any other period clashes)', re: /consolidat\w*/gi },
   { id: "deeper", label: '"deeper" claims (paragraph checked for the refeed caveat)', re: /\bdeeper\b/gi, paragraphCheck: /refeed/i },
   { id: "depth-days", label: "seven-to-nine-day and nine-day fasts (depth claims; paragraph checked for the refeed caveat)", re: new RegExp("\\b(?:7|seven)(?:-day)?\\s*(?:to|-|" + EN + ")\\s*(?:9|nine)(?:-day)?\\b|\\bnine[- ]day\\b|\\b9[- ]day\\b", "gi"), paragraphCheck: /refeed/i },
-  { id: "peptide", label: "BPC-157, CJC-1295, Ipamorelin, Thymalin (schedule and framing judged)", re: /BPC[- ]?157|CJC[- ]?1295|ipamorelin|thymalin/gi },
+  {
+    id: "peptide",
+    label: "BPC-157, CJC-1295, Ipamorelin, Thymalin, Thymulin, Thymosin and Thymosin alpha-1, thymus peptides, TB-500, Tesamorelin, Sermorelin, KPV, GHK, Epitalon, MOTS-c, LL-37, Selank, Semax, secretagogues (schedule and framing judged)",
+    re: new RegExp(
+      "BPC[- ]?157|CJC[- ]?1295|ipamorelin|thymalin|thymulin|thymosin|thymus[- ]peptides?|T(?:&#945;|" + ALPHA + ")1|\\bTA-?1\\b|TB[- ]?500|" +
+        "tesamorelin|sermorelin|\\bKPV\\b|\\bGHK\\b|epitha?lon|MOTS-?c\\b|\\bLL-?37\\b|selank|semax|secretagogues?",
+      "gi",
+    ),
+  },
   { id: "rate", label: '"most patients", "most participants" (up to two words between), "1-on-1", "one-on-one", "worked directly with"', re: /\bmost (?:[\w'/-]+ ){0,2}(?:patients|participants)\b|1[- ]on[- ]1|one[- ]on[- ]one|worked directly with/gi },
   { id: "count-claim", label: '"hundreds of patients" and similar head counts', re: /\b(?:hundreds|dozens|thousands) of (?:patients|people|participants|clients|cases|members)\b/gi },
-  { id: "dash", label: "em and en dashes", re: new RegExp("[" + EM + EN + "]", "g") },
+  { id: "dash", label: "em and en dashes, as characters or as HTML entities (&#8211; &#8212; &ndash; &mdash;)", re: new RegExp(DASH_SOURCE, "gi") },
   { id: "ratio", label: '"2:1" near T3 or T4', re: /\b2\s*:\s*1\b/g, near: T3T4_NEAR },
   { id: "dose", label: "mcg, mg, IU or grain figures near T3, T4, desiccated, hGH, peptides, methylene blue, aspirin, ivermectin (within 120 characters)", re: /\d[\d.,]*\s*(?:-|to)?\s*\d*[\d.,]*\s*(?:mcg|µg|μg|mg|IU|grains?)\b|\b(?:half|one|two)[- ]grain\b/gi, near: DOSE_SUBSTANCE, nearWindow: 120 },
   { id: "iu", label: "any IU figure (hGH is dosed in IU; vitamin D figures are allowed)", re: /\d[\d.,]*\s*(?:-|to)?\s*\d*[\d.,]*\s*IU\b/g },
   { id: "retired-link", label: "links to /weight-loss or /random-thoughts", re: /\/(?:weight-loss|random-thoughts)(?![\w-])/g },
   { id: "naming", label: '"Naviaux" or "cell danger response" (never named in blog posts)', re: /naviaux|cell danger/gi },
   { id: "retired-number", label: "retired outcome numbers (97%, 141, 117, over 100, 30 of 32)", re: /\b97\s?%|\b141\b|\b117\b|over 100 (?:people|patients|participants|clients|cases)|30 of 32/gi },
-  { id: "t3-everyone", label: "T3 said to be for everyone (or not optional)", re: /\b(?:everyone|everybody|anyone|every patient|all patients)\b[^.\n]{0,80}\bT3\b|\bT3\b[^.\n]{0,80}\b(?:everyone|everybody|anyone|every patient|all patients|not optional|mandatory for)\b/gi },
+  {
+    id: "outcome-percent",
+    label: 'a percentage "of people", "of patients" and the like, or "works for" a percentage (outcome rates judged; study and population figures stay)',
+    re: /\b\d{1,3}(?:\.\d+)?\s?(?:%|percent)\s+of\s+(?:people|patients|participants|clients|cases|members|those|you|users|subscribers|respondents)\b|\bwork(?:s|ed)?\s+for\s+\d{1,3}\s?%/gi,
+  },
+  // The gap between the words stays inside one sentence (no full stop, no line
+  // break) and counts a markdown link's "](url)" as one step, whatever its length.
+  {
+    id: "t3-everyone",
+    label: "T3 said to be for everyone (or not optional), with a markdown link of any length allowed between the words",
+    re: /\b(?:everyone|everybody|anyone|every patient|all patients)\b(?:\]\([^)\n]*\)|[^.\n]){0,80}\bT3\b|\bT3\b(?:\]\([^)\n]*\)|[^.\n]){0,80}\b(?:everyone|everybody|anyone|every patient|all patients|not optional|mandatory for)\b/gi,
+  },
   { id: "bad-batch", label: '"bad batch" (never on a public page)', re: /bad batch/gi },
 ];
 
@@ -183,7 +215,7 @@ function scanPost(post) {
     let m;
     while ((m = term.re.exec(c)) !== null) {
       const idx = m.index;
-      if (term.near) {
+      if (term.near && !(term.alwaysIf && term.alwaysIf.test(c.slice(idx, idx + 60)))) {
         const w = term.nearWindow ?? NEAR;
         const win = c.slice(Math.max(0, idx - w), idx + m[0].length + w);
         if (!term.near.test(win)) continue;
@@ -203,7 +235,8 @@ function scanPost(post) {
 // before a word that continues the sentence, commas (or brackets, when the
 // aside holds a comma) around a paired aside, and nothing at the start of a
 // line. The dry run prints every change; cases the fixer reads wrongly are
-// handled first by exact rules in RULES.
+// handled first by exact rules in RULES. A dash written as an HTML entity is
+// read the same way (fix round 1), and its ranges are written out with "to".
 const COMMA_WORDS = new Set(
   ("and but or nor so yet which who whom whose where when while not because even especially including like such " +
     "whether if then plus without with though although as for from to in on at of by than until unless since after " +
@@ -212,21 +245,23 @@ const COMMA_WORDS = new Set(
 );
 const PUNCT_DASH = new RegExp("[" + EM + EN + "]");
 
-function isRange(text, l, r, i) {
+// `len` is the dash's length in the text: 1 for the character, more for an
+// HTML entity ("&#8211;"). A degree sign before the dash may be an entity too.
+function isRange(text, l, r, i, len = 1) {
   const left = text.slice(Math.max(0, l - 12), l);
   const right = text.slice(r, r + 12);
-  const numL = /[\d%]$/.test(left) || /\d\s?°[FC]?$/.test(left);
+  const numL = /[\d%]$/.test(left) || /\d\s?(?:°|&#176;|&deg;)[FC]?$/.test(left);
   const numR = /^[~$£€]?\d/.test(right);
   if (!numL || !numR) return false;
   // An en dash between numbers is a range; a spaced em dash between numbers is punctuation.
-  return text[i] === EN || (l === i && r === i + 1);
+  return isEnDash(text.slice(i, i + len)) || (l === i && r === i + len);
 }
 
-function dashSpan(text, i) {
+function dashSpan(text, i, len = 1) {
   let l = i;
   while (l > 0 && (text[l - 1] === " " || text[l - 1] === NBSP)) l--;
-  let r = i + 1;
-  while (r < text.length && (text[r] === EM || text[r] === "-" && text[r - 1] === EM)) r++;
+  let r = i + len;
+  if (len === 1) while (r < text.length && (text[r] === EM || text[r] === "-" && text[r - 1] === EM)) r++;
   while (r < text.length && (text[r] === " " || text[r] === NBSP)) r++;
   return [l, r];
 }
@@ -249,13 +284,14 @@ function sentenceAround(text, i) {
 
 function fixDashes(text) {
   const spots = [];
-  const re = new RegExp("[" + EM + EN + "]", "g");
+  const re = new RegExp(DASH_SOURCE, "gi");
   let m;
   while ((m = re.exec(text)) !== null) {
     const where = locate(text, m.index);
     if (where === "html-comment" || where === "svg-attr" || where === "html-attr") continue;
-    const [l, r] = dashSpan(text, m.index);
-    spots.push({ i: m.index, l, r, where });
+    const len = m[0].length;
+    const [l, r] = dashSpan(text, m.index, len);
+    spots.push({ i: m.index, l, r, where, len, entity: len > 1 });
     re.lastIndex = Math.max(re.lastIndex, r);
   }
   const plan = new Map();
@@ -269,14 +305,16 @@ function fixDashes(text) {
   for (let k = 0; k < spots.length; k++) {
     const s = spots[k];
     if (plan.has(s.i)) continue;
-    const { i, l, r, where } = s;
+    const { i, l, r, where, len, entity } = s;
     const before = text[l - 1];
     const after = text[r];
-    if (isRange(text, l, r, i)) {
-      plan.set(i, { l, r, put: where === "svg-text" ? "-" : " to " });
+    if (isRange(text, l, r, i, len)) {
+      // A figure label's range takes a hyphen where space is tight; a range
+      // written with an entity dash (fix round 1) is written out with "to".
+      plan.set(i, { l, r, put: where === "svg-text" && !entity ? "-" : " to " });
       continue;
     }
-    if (text[i] === EN && l === i && r === i + 1 && /[A-Za-z]/.test(before ?? "") && /[A-Za-z]/.test(after ?? "")) {
+    if (isEnDash(text.slice(i, i + len)) && l === i && r === i + len && /[A-Za-z]/.test(before ?? "") && /[A-Za-z]/.test(after ?? "")) {
       plan.set(i, { l, r, put: "-" });
       continue;
     }
@@ -313,7 +351,7 @@ function fixDashes(text) {
       continue;
     }
     if (isTimeLabel(l) || isBoldLabel(l)) {
-      plan.set(i, { l, r, put: (after === "*" || after === "_") && r === i + 1 ? ":" : ": " });
+      plan.set(i, { l, r, put: (after === "*" || after === "_") && r === i + len ? ":" : ": " });
       continue;
     }
     const headingLine = text[text.lastIndexOf("\n", i) + 1] === "#";
@@ -329,7 +367,7 @@ function fixDashes(text) {
       .find(
         (o) =>
           o.i < sEnd &&
-          !isRange(text, o.l, o.r, o.i) &&
+          !isRange(text, o.l, o.r, o.i, o.len) &&
           !plan.has(o.i) &&
           !inLinkText(text, o.i) &&
           !isTimeLabel(o.l) &&
@@ -354,7 +392,7 @@ function fixDashes(text) {
     if (!isHeading && (COMMA_WORDS.has(nextWord) || sentenceHasColon)) put = ", ";
     // A dash glued to closing emphasis ("**Note" + dash + "**") keeps the bold
     // tight, and a dash ending a figure's text line leaves no trailing space.
-    if (((after === "*" || after === "_") && r === i + 1) || after === "<") put = put.trimEnd();
+    if (((after === "*" || after === "_") && r === i + len) || after === "<") put = put.trimEnd();
     plan.set(i, { l, r, put });
   }
   const changes = [];
@@ -371,10 +409,13 @@ function fixDashes(text) {
 }
 
 // ─── Replacement rules (reviewed; see the ledger) ──────────────
-// { id, slug, find, replace, count = 1, why } or { id, slug, removeBlock: [start, end], why }.
+// { id, slug, find, replace, count = 1, why, was } or { id, slug, removeBlock: [start, end], why }.
 // `find` must occur exactly `count` times in the post's current body or the
 // post is skipped; `removeBlock` cuts an inline figure from its start marker
-// through its end marker.
+// through its end marker; `was` (fix round 1) names the text the first pass
+// wrote, so a revised rule also updates rows that already carry it. A rule
+// whose `find` is the first pass's text and whose `replace` is the original
+// takes a first-pass change back out (a replay from the backup skips it).
 const HC = "Why the order matters is on [the healing cycle page](/healing-cycle).";
 const HC_FULL = "Why the order matters is on [the healing cycle page](https://scorchprotocol.com/healing-cycle).";
 const DEPTH = "Deeper fasts go deeper and may bring results faster, but they demand a stricter refeed and more care; how far is set with me.";
@@ -396,7 +437,30 @@ const W = {
   link: "retired /weight-loss link replaced with the Metabolism Repair Plan",
   flood: "\"flood\" never used for T3",
   count: "head-count claim removed",
+  // Fix round 1 (2026-11-05)
+  depthOnce: "depth caveat kept once per post, at the main depth claim; this mention shortened to \"set with me\" (John: do not oversaturate)",
+  course: "the 30-day course wording of posts 6 and 11 (a full course run to the temperature target, read at day 30, then weaned)",
+  dz: "the house names: the defenses dip is the dead zone (refeed days 1 to 3), the whole period the consolidation window (refeed days 1 to 14); no new name",
+  hcMove: "the healing-cycle sentence moved off a sign-off or a quote, into the part of the post that explains why the fast works",
 };
+// The two caption lines of the rebuild figure (posts 18 and 29).
+const CAPTION_RULES = [
+  {
+    find: ">Thymus peptides are bridges. They support immune function</text>",
+    replace: ">Thymus peptides are per-case add-ons, never before refeed day 8.</text>",
+    why: `${W.pep} (figure caption)`,
+  },
+  {
+    find: ">during cleanup and energy phases. They do not substitute for hGH.</text>",
+    replace: ">They support immune function. They do not substitute for hGH.</text>",
+    why: `${W.pep} (figure caption)`,
+  },
+];
+// The cellular-resistance paragraph shared by Scorch 33 and DFC 202.
+const FLOOD_FIND =
+  "In my clinical experience, even when reverse T3 is not elevated, aggressively restoring T3 still fixes these patients. It is almost as if the cell membrane itself thickens, like a biofilm coating the cell wall, and you have to flood the system to push through it.";
+const FLOOD_REPLACE =
+  "In my clinical experience, even when reverse T3 is not elevated, restoring T3 still fixes these patients. It is almost as if the cell membrane itself thickens, like a biofilm coating the cell wall, and it takes a full 30-day T3 course to push through it: run to the temperature target, read at day 30, then weaned.";
 
 const SCORCH_RULES = {
   "1 long-covid-recovery-guide": [
@@ -431,13 +495,15 @@ const SCORCH_RULES = {
     },
     {
       find: "For this cohort, Yannick's experience is that the best results often come from 7-day to 9-day dry fasts, often more than one, once five days is very comfortable.",
-      replace: "For this cohort, my experience is that the best results often come from 7-day to 9-day dry fasts, often more than one, once five days is very comfortable, and always with the stricter refeed and extra care those fasts demand.",
-      why: `${W.depth}; ${W.voice}`,
+      replace: "For this cohort, my experience is that the best results often come from 7-day to 9-day dry fasts, often more than one, once five days is very comfortable, set with me.",
+      was: "For this cohort, my experience is that the best results often come from 7-day to 9-day dry fasts, often more than one, once five days is very comfortable, and always with the stricter refeed and extra care those fasts demand.",
+      why: `${W.depthOnce}; ${W.voice}`,
     },
     {
       find: "Once you are very comfortable with it you can extend a little; some people get their best results from seven to nine days, and the deeper you go the more aggressive the immune reset.",
-      replace: `Once you are very comfortable with it you can extend a little; some people get their best results from seven to nine days. ${DEPTH}`,
-      why: W.depth,
+      replace: "Once you are very comfortable with it you can extend a little; some people get their best results from seven to nine days, set with me.",
+      was: `Once you are very comfortable with it you can extend a little; some people get their best results from seven to nine days. ${DEPTH}`,
+      why: W.depthOnce,
     },
     {
       find: "is one of the reasons the protocol caps most patients at 5-7 days.",
@@ -894,6 +960,8 @@ const SCORCH_RULES = {
       replace: "Thymalin can provide useful immune-modulatory support during chronic illness recovery, as a per-case add-on; I no longer use T" + ALPHA + "1. Neither is the structural",
       why: `${W.pep}; ${W.ta1}`,
     },
+    // Fix round 1: the rebuild figure's caption, as in post 18.
+    ...CAPTION_RULES,
   ],
   "30 cortisol-off-switch-after-extended-fasting": [
     {
@@ -926,6 +994,10 @@ const SCORCH_RULES = {
       why: W.hc,
     },
   ],
+  "33 thyroid-labs-normal-but-still-hypothyroid": [
+    // Fix round 1
+    { find: FLOOD_FIND, replace: FLOOD_REPLACE, why: `${W.flood}; ${W.course}` },
+  ],
   "43 chronic-lyme-after-antibiotics-what-to-try": [
     {
       find: "That sequencing, knowing what to do and when, is the entire protocol.",
@@ -946,13 +1018,15 @@ const SCORCH_RULES = {
     },
     {
       find: "For these cases, some people get their best results from a seven-to-nine-day dry fast.",
-      replace: "For these cases, some people get their best results from a seven-to-nine-day dry fast, set with me and followed by a stricter refeed.",
-      why: W.depth,
+      replace: "For these cases, some people get their best results from a seven-to-nine-day dry fast, set with me.",
+      was: "For these cases, some people get their best results from a seven-to-nine-day dry fast, set with me and followed by a stricter refeed.",
+      why: W.depthOnce,
     },
     {
       find: "The deeper, longer fasts that severe viral cases need are done at specialized retreats",
-      replace: "The deeper, longer fasts that severe viral cases need demand a stricter refeed and more care: they are done at specialized retreats",
-      why: W.depth,
+      replace: "The deeper, longer fasts that severe viral cases need are set with me and done at specialized retreats",
+      was: "The deeper, longer fasts that severe viral cases need demand a stricter refeed and more care: they are done at specialized retreats",
+      why: W.depthOnce,
     },
   ],
   "50 post-viral-fatigue-recovery-roadmap": [
@@ -1022,8 +1096,9 @@ const DFC_RULES = {
     },
     {
       find: "you want to be able to reach past day 3 and the acidotic crisis, where deeper healing mechanisms are activated.",
-      replace: `you want to be able to reach past day 3 and the acidotic crisis, where deeper healing mechanisms are activated. ${DFC_DEPTH.replace(".", "; five days dry is the cap at home.")}`,
-      why: W.depth,
+      replace: "you want to be able to reach past day 3 and the acidotic crisis, where deeper healing mechanisms are activated; how far you go is set with me.",
+      was: `you want to be able to reach past day 3 and the acidotic crisis, where deeper healing mechanisms are activated. ${DFC_DEPTH.replace(".", "; five days dry is the cap at home.")}`,
+      why: `${W.depthOnce} (the full caveat sits at the day-11 claim just above)`,
     },
   ],
   "53 is-dry-fasting-dangerous-dangers-explained": [
@@ -1045,7 +1120,14 @@ const DFC_RULES = {
     },
   ],
   "73 dry-fasting-benefits-explained": [
-    { find: "\n\n## The Benefits of Dry Fasting", replace: `\n\n${HC_FULL}\n\n## The Benefits of Dry Fasting`, why: W.hc },
+    // Fix round 1: the first pass put the sentence after the NHS quote; it now
+    // closes the "How Does Dry Fasting Work?" explanation.
+    { find: `\n\n${HC_FULL}\n\n## The Benefits of Dry Fasting`, replace: "\n\n## The Benefits of Dry Fasting", why: W.hcMove },
+    {
+      find: "It may also improve **blood sugar levels, blood pressure, and insulin sensitivity**.",
+      replace: `It may also improve **blood sugar levels, blood pressure, and insulin sensitivity**.\n\n${HC_FULL}`,
+      why: W.hcMove,
+    },
   ],
   "78 healing-long-covid-yannicks-story-part-2": [
     { find: "I ordered about 200x 12mg ivermectin tablets and 500x hydroxychloroquine.", replace: "I ordered about 200 ivermectin tablets and 500 hydroxychloroquine tablets.", why: W.dose },
@@ -1084,20 +1166,27 @@ const DFC_RULES = {
       replace: `If you're looking for miraculous healing benefits, you will need to dive much deeper into dry fasting. ${DFC_DEPTH} Good luck.`,
       why: W.depth,
     },
-    { find: "\n\n## The Spiritual Significance of Ramadan Fasting", replace: `\n\n${HC_FULL}\n\n## The Spiritual Significance of Ramadan Fasting`, why: W.hc },
+    // Fix round 1: the first pass put the sentence after "Good luck."; it now
+    // follows the paragraph on why sunrise-to-sunset fasting works.
+    { find: `\n\n${HC_FULL}\n\n## The Spiritual Significance of Ramadan Fasting`, replace: "\n\n## The Spiritual Significance of Ramadan Fasting", why: W.hcMove },
+    { find: "which eventually get turned into ketones).", replace: `which eventually get turned into ketones).\n\n${HC_FULL}`, why: W.hcMove },
   ],
   "104 everything-you-wanted-to-know-about-cortisol-adrenal-fatigue-and-dry-fasting": [
     {
       find: "however, this is also why the 'vulnerability window' is so critical (read about it more in the scorch protocol).",
-      replace: "however, this is also why the consolidation window after the fast, refeed days 1 to 14, is so critical (read about it more in the scorch protocol).",
-      why: "\"vulnerability window\" label replaced with the consolidation window",
+      replace: "however, this is also why the dead zone after the fast, refeed days 1 to 3, is so critical (read about it more in the scorch protocol).",
+      was: "however, this is also why the consolidation window after the fast, refeed days 1 to 14, is so critical (read about it more in the scorch protocol).",
+      why: `"vulnerability window" label replaced: the next paragraph's 72-hour immune dip is the dead zone; ${W.dz}`,
     },
   ],
   "113 do-you-absorb-water-through-the-skin-during-fasting": [
+    // Fix round 1: the first pass also gave this sentence the caveat; the
+    // full caveat sits at the nine-day comparison a paragraph later, so this
+    // one is taken back out.
     {
-      find: "leading to discussions about 7 to 9-day dry fasts as more effective for ultimate healing.",
-      replace: "leading to discussions about 7 to 9-day dry fasts as more effective for ultimate healing, with the stricter refeed they demand.",
-      why: W.depth,
+      find: "leading to discussions about 7 to 9-day dry fasts as more effective for ultimate healing, with the stricter refeed they demand.",
+      replace: "leading to discussions about 7 to 9-day dry fasts as more effective for ultimate healing.",
+      why: `${W.depthOnce}: the first-pass caveat here taken out, the full one kept a paragraph later`,
     },
     {
       find: "and how quickly you want to progress while maintaining safety.",
@@ -1111,7 +1200,23 @@ const DFC_RULES = {
       replace: "The longer ones are for speeding up healing and addressing deeper issues that may require things like acidotic crises; they demand a stricter refeed and more care, and how far you go is set with me.",
       why: W.depth,
     },
-    { find: "\n\n## Some quick Questions that come to mind", replace: `\n\n${HC_FULL}\n\n## Some quick Questions that come to mind`, why: W.hc },
+    // Fix round 1: the first pass put the sentence after "Good luck!"; it now
+    // follows the paragraph on why dehydration and no food work together.
+    { find: `\n\n${HC_FULL}\n\n## Some quick Questions that come to mind`, replace: "\n\n## Some quick Questions that come to mind", why: W.hcMove },
+    { find: "is one of the leading factors in its autophagy? Crazy.", replace: `is one of the leading factors in its autophagy? Crazy.\n\n${HC_FULL}`, why: W.hcMove },
+  ],
+  "122 simplified-scorch-protocol-2024": [
+    // Fix round 1 (the new outcome-percent term): a success rate in Yannick's voice, and a rate in the figure note.
+    {
+      find: "compressed everything into a protocol that should work for 95% of people.",
+      replace: "compressed everything into a single protocol.",
+      why: "outcome rate removed (95% of people); outcome numbers are retired",
+    },
+    {
+      find: "Most people need 3-6 cycles over 12-18 months.</text>",
+      replace: "How many cycles is set case by case.</text>",
+      why: `${W.rate} (figure note)`,
+    },
   ],
   "127 can-dry-fasting-too-much-exhaust-stem-cells-comprehensive-guide": [
     { find: "## What would you eat after dry fasting to maximize stem cell benefit?", replace: "## What would you eat after dry fasting to keep what the fast opened?", why: "\"maximize stem cell\" replaced (the refeed page wording, B3)" },
@@ -1129,22 +1234,39 @@ const DFC_RULES = {
       why: W.depth,
     },
     { find: "dry fasting is 100x more potent and (IMO) safer.", replace: "dry fasting is far more potent and (IMO) safer.", why: W.mult },
+    // Fix round 1: the first pass put the sentence after the closing paragraph;
+    // it now follows the figure that lays out the three steps in order.
     {
-      find: "\n\n## What does this mean for healing and hypertonic conditions?",
-      replace: `\n\n${HC_FULL}\n\n## What does this mean for healing and hypertonic conditions?`,
-      why: W.hc,
+      find: `\n\n${HC_FULL}\n\n## What does this mean for healing and hypertonic conditions?`,
+      replace: "\n\n## What does this mean for healing and hypertonic conditions?",
+      why: W.hcMove,
     },
+    { find: "<!-- svg:dfc-09-renovation-light end -->", replace: `<!-- svg:dfc-09-renovation-light end -->\n\n${HC_FULL}`, why: W.hcMove },
   ],
   "136 hippocrates-kykeon-eleusinian-mysteries-psilocybin-and-dry-fasting-insights": [
+    // Fix round 1: "low-defense window" was a new name; the dip is the dead
+    // zone (refeed days 1 to 3) inside the consolidation window (days 1 to 14),
+    // and the figure, which draws the dip during the fast, says what it is.
     {
       find: "In my protocols, and especially the scorch protocol I talk a lot about the 'vulnerability window'. In this case, we see this window in action.",
-      replace: "In my protocols, and especially the scorch protocol, I talk a lot about the consolidation window, refeed days 1 to 14, when the defenses the fast built are down. In this case, we see that low-defense state in action.",
-      why: "\"vulnerability window\" label replaced with the consolidation window",
+      replace: "In my protocols, and especially the scorch protocol, I talk a lot about the dead zone: refeed days 1 to 3, when the immune defenses are at their lowest, at the start of the consolidation window (refeed days 1 to 14). In this case, we see that dip in action.",
+      was: "In my protocols, and especially the scorch protocol, I talk a lot about the consolidation window, refeed days 1 to 14, when the defenses the fast built are down. In this case, we see that low-defense state in action.",
+      why: `"vulnerability window" label replaced; ${W.dz}`,
     },
-    { find: "The vulnerability window: immune state during a dry fast</title>", replace: "The low-defense window: immune state during a dry fast</title>", why: "\"vulnerability window\" label renamed (figure title)" },
-    { find: "lymphocytes drop, creating a vulnerability window.", replace: "lymphocytes drop, creating a low-defense window.", why: "\"vulnerability window\" label renamed (figure description)" },
-    { find: ">THE VULNERABILITY WINDOW</text>", replace: ">THE LOW-DEFENSE WINDOW</text>", why: "\"vulnerability window\" label renamed (figure label)" },
-    { find: ">VULNERABILITY WINDOW</text>", replace: ">LOW-DEFENSE WINDOW</text>", why: "\"vulnerability window\" label renamed (figure label)" },
+    {
+      find: "The vulnerability window: immune state during a dry fast</title>",
+      replace: "When defenses dip: immune state during a dry fast</title>",
+      was: "The low-defense window: immune state during a dry fast</title>",
+      why: `"vulnerability window" label replaced (figure title); ${W.dz}`,
+    },
+    {
+      find: "lymphocytes drop, creating a vulnerability window. Exiting the fast during this window while still ill stops the autophagy mechanism and leaves the immune system suppressed, causing relapse.",
+      replace: "lymphocytes drop and defenses dip. Exiting the fast during this dip while still ill stops the autophagy mechanism and carries the suppressed immune system into the dead zone, refeed days 1 to 3, causing relapse.",
+      was: "lymphocytes drop, creating a low-defense window. Exiting the fast during this window while still ill stops the autophagy mechanism and leaves the immune system suppressed, causing relapse.",
+      why: `"vulnerability window" label replaced (figure description); ${W.dz}`,
+    },
+    { find: ">THE VULNERABILITY WINDOW</text>", replace: ">WHEN DEFENSES DIP</text>", was: ">THE LOW-DEFENSE WINDOW</text>", why: `"vulnerability window" label replaced (figure label); ${W.dz}` },
+    { find: ">VULNERABILITY WINDOW</text>", replace: ">DEFENSES DIP</text>", was: ">LOW-DEFENSE WINDOW</text>", why: `"vulnerability window" label replaced (figure label); ${W.dz}` },
   ],
   "150 healing-long-covid-update-may-2024": [
     {
@@ -1159,8 +1281,9 @@ const DFC_RULES = {
   "157 why-exercise-makes-long-covid-and-cfs-symptoms-worse-and-how-to-fix-it-2": [
     {
       find: "Supplementing during the vulnerability window between exercise-induced IgG suppression and immune recovery is crucial.",
-      replace: "Supplementing during the low-defense window between exercise-induced IgG suppression and immune recovery is crucial.",
-      why: "\"vulnerability window\" label renamed",
+      replace: "Supplementing in the gap after exercise, while IgG is suppressed and before the immune system recovers, is crucial.",
+      was: "Supplementing during the low-defense window between exercise-induced IgG suppression and immune recovery is crucial.",
+      why: "\"vulnerability window\" label replaced with a plain description (an exercise dip, not the refeed, so neither house name; no new name)",
     },
     {
       find: "nutritional support, and careful monitoring of immune function/pacing.",
@@ -1170,6 +1293,12 @@ const DFC_RULES = {
   ],
   "170 the-heart-thyroid-connection-through-dry-fasting": [
     { find: "can flood a depleted system and worsen symptoms.</desc>", replace: "can overwhelm a depleted system and worsen symptoms.</desc>", why: `${W.flood} (figure description)` },
+    // Fix round 1 (the widened peptide list found Thymulin recommended to all readers).
+    {
+      find: "I've played and researched a bit with peptides such as thymulin. I recommend you look into it. If you work with me, we can go deeper on this too.",
+      replace: "I've played and researched a bit with peptides such as thymulin. I recommend you look into it. If you work with me, we can go deeper on this too. (Update, November 2026: Thymalin is the only thymus peptide I use now, and only as a per-case add-on I set with people individually, never before refeed day 8.)",
+      why: `${W.pep}; Thymalin is the only thymus peptide (dated update note on the older recommendation)`,
+    },
   ],
   "174 cancer-risk-and-dry-fasting-what-are-mutagens": [
     {
@@ -1179,15 +1308,17 @@ const DFC_RULES = {
     },
     {
       find: "This correlates to my 72 hour vulnerability window theory as a MINIMUM.",
-      replace: "This correlates with my theory that the low-defense window after a fast lasts at least 72 hours.",
-      why: "\"vulnerability window\" label renamed",
+      replace: "This correlates with my theory that the immune dip after a fast, the dead zone of refeed days 1 to 3, lasts at least 72 hours.",
+      was: "This correlates with my theory that the low-defense window after a fast lasts at least 72 hours.",
+      why: `"vulnerability window" label replaced; ${W.dz}`,
     },
   ],
   "175 long-covid-dry-fasting-update-dec-2024": [
     {
       find: "You've probably heard of things like BPC157, but it's important to remember that fasting triggers HSCs and lots of growth.",
-      replace: "You've probably heard of things like BPC157, but it's important to remember that fasting triggers HSCs and lots of growth. (Update, November 2026: thymus peptides and BPC-157 are now per-case add-ons I set with people individually, never a general recommendation, and never before refeed day 8. I no longer use thymosin alpha 1: in my research and experience it can hypersensitize immune cells and backfire into new allergies.)",
-      why: `${W.pep}; ${W.ta1}`,
+      replace: "You've probably heard of things like BPC157, but it's important to remember that fasting triggers HSCs and lots of growth. (Update, November 2026: Thymalin is the only thymus peptide I use now. It and BPC-157 are per-case add-ons I set with people individually, never a general recommendation, and never before refeed day 8. I no longer use thymosin alpha 1: in my research and experience it can hypersensitize immune cells and backfire into new allergies.)",
+      was: "You've probably heard of things like BPC157, but it's important to remember that fasting triggers HSCs and lots of growth. (Update, November 2026: thymus peptides and BPC-157 are now per-case add-ons I set with people individually, never a general recommendation, and never before refeed day 8. I no longer use thymosin alpha 1: in my research and experience it can hypersensitize immune cells and backfire into new allergies.)",
+      why: `${W.pep}; ${W.ta1} (fix round 1: the note names Thymalin, since the section recommends Thymulin)`,
     },
   ],
   "176 dry-fasting-club-2025-dos-and-donts": [
@@ -1198,6 +1329,20 @@ const DFC_RULES = {
   ],
   "182 may-2025-update-chronic-illness-conquered": [
     { find: "it's been spent helping people in one-on-ones more than anything else.", replace: "it's been spent helping people in consultations more than anything else.", why: W_ONE },
+    // Fix round 1
+    {
+      find: "Thymus peptides/organ (T-Cell maturation/immunity),",
+      replace: "Thymus peptides/organ (T-Cell maturation/immunity; the peptides per case, set with me),",
+      why: W.pep,
+    },
+  ],
+  "183 start-of-the-dry-fasting-club-2-0": [
+    // Fix round 1
+    {
+      find: "However, it also means that 9-day dry fasts come with their own set of complications and problems that are not currently adequately addressed.",
+      replace: `However, it also means that 9-day dry fasts come with their own set of complications and problems that are not currently adequately addressed. ${DFC_DEPTH.replace("Deeper fasts", "Deeper fasts like these")}`,
+      why: W.depth,
+    },
   ],
   "185 is-growth-hormone-release-stronger-with-dry-fasting-compared-to-water-fasting": [
     {
@@ -1236,8 +1381,9 @@ const DFC_RULES = {
   "193 the-data-behind-fatigue-brain-fog-insomnia-dry-fasting-and-the-scorch-protocol": [
     {
       find: "Only one (1) patient did not experience a significant improvement after T3 therapy (97% did). I did not monitor them under clinical settings,",
-      replace: "Nearly everyone who reached T3 therapy reported a significant improvement. For the few who did not, I did not monitor them under clinical settings,",
-      why: "the retired 97% said qualitatively",
+      replace: "The people who reached the T3 course were the ones who most often described a real change. For those who did not, I did not monitor them under clinical settings,",
+      was: "Nearly everyone who reached T3 therapy reported a significant improvement. For the few who did not, I did not monitor them under clinical settings,",
+      why: "the retired 97% removed: who responds, not how many (fix round 1: \"nearly everyone\" restated the rate in words)",
     },
     {
       find: "Strategies for continuation include peptide therapy, human growth hormone, and additional T3 therapy, ensuring it is slow-release.",
@@ -1255,10 +1401,28 @@ const DFC_RULES = {
     { find: "<!-- Key stat: 97% -->", replace: "<!-- Key stat -->", why: "the retired 97% removed from the figure's source comment" },
   ],
   "194 refeed-scorch-protocol-advanced": [
+    // Fix round 1 (the widened peptide list): a thymus peptide from refeed day 7, and the retired Thymosin Alpha-1.
+    {
+      find: "-   Thymosin Alpha-1 or Thymulin peptides (if available)",
+      replace: "-   Thymalin, only where your case calls for it: a per-case add-on set with me, never before refeed day 8 (I no longer use Thymosin Alpha-1)",
+      why: `${W.pep}; ${W.ta1}`,
+    },
     { find: ">5" + EN + "10 mcg<", replace: ">Low, set case by case<", why: `${W.dose} (T3 table)` },
     { find: ">10" + EN + "15 mcg<", replace: ">Small step up, set case by case<", why: `${W.dose} (T3 table)` },
     { find: ">15" + EN + "25 mcg<", replace: ">Further small steps, set case by case<", why: `${W.dose} (T3 table)` },
     { find: ">81" + EN + "325 mg + 300", replace: ">Aspirin dose set case by case + 300", why: `${W.dose} (supplement table)` },
+  ],
+  "197 a-sample-meeting-with-yannick-a-i-overview-scorch-protocol": [
+    // Fix round 1: a verbatim quote stays; a dated note follows it.
+    {
+      find: "\n\nThey described T3 therapy as:",
+      replace: "\n\n(Update, November 2026: not everyone needs T3; it is the reboot for the person still cold and exhausted after the refeed, set case by case.)\n\nThey described T3 therapy as:",
+      why: `${W.t3} (dated update note after the verbatim "recommend it to everybody" quote)`,
+    },
+  ],
+  "202 cellular-hypothyroidism-and-t3-therapy": [
+    // Fix round 1
+    { find: FLOOD_FIND, replace: FLOOD_REPLACE, why: `${W.flood}; ${W.course}` },
   ],
   "203 dry-fasting-autophagy-and-regeneration": [
     {
@@ -1284,6 +1448,14 @@ const DFC_RULES = {
       why: `${W.pep}; ${W.bridge}`,
     },
     { find: "That is the whole logic.\n\n## The honest shape of recovery", replace: `That is the whole logic.\n\n${HC_FULL}\n\n## The honest shape of recovery`, why: W.hc },
+  ],
+  "209 dry-fasting-for-women": [
+    // Fix round 1 (the widened T3-for-everyone pattern: a link sat between the words).
+    {
+      find: "This is why the [T3 and the growth hormone rebuild layers](/dry-fasting-autophagy-and-regeneration) are not optional add-ons for a woman. They are often the main event, and the fast is what opens the window for them.",
+      replace: "This is why the [T3 and the growth hormone rebuild layers](/dry-fasting-autophagy-and-regeneration) matter so much for a woman who needs them, and the fast is what opens the window for them. T3 is for the woman who comes out of the refeed still cold and exhausted, set case by case; hGH enters around the third cycle, when two were not enough.",
+      why: `${W.t3}; hGH around the third cycle`,
+    },
   ],
 };
 
@@ -1392,6 +1564,15 @@ const DFC_DASH_RULES = {
       why: W_DASH,
     },
   ],
+  "164 review-of-the-most-popular-strategies-for-healing-long-covid-and-autoimmune-diseases-in-2024": [
+    // Fix round 1: the fixer's comma made a comma splice.
+    {
+      find: "nearly as good as a long dry fast" + EM + "when I talk about this",
+      replace: "nearly as good as a long dry fast. When I talk about this",
+      was: "nearly as good as a long dry fast, when I talk about this",
+      why: W_DASH,
+    },
+  ],
   "210 dry-fasting-and-medications": [
     { find: "flag three things for each one " + EM + " whether your kidneys", replace: "flag three things for each one: whether your kidneys", why: W_DASH },
   ],
@@ -1432,6 +1613,17 @@ function transform(body, rules, { loose = false } = {}) {
       const end = e + endMark.length;
       changes.push({ why: rule.why, before: context(body, s, end - s).slice(0, 220) + "...", after: "(figure removed)" });
       body = body.slice(0, s).replace(/\s+$/, "") + "\n\n" + body.slice(end).replace(/^\s+/, "");
+      continue;
+    }
+    // Revised in fix round 1: `was` holds the text the first pass put in. Where
+    // that text is still in the body, it is replaced by the revised text; a
+    // replay from the pre-sweep backup goes straight from `find` to `replace`.
+    const old = rule.was && !body.includes(rule.replace) ? [].concat(rule.was).find((w) => body.includes(w)) : null;
+    if (old) {
+      const at = body.indexOf(old);
+      const before = context(body, at, old.length);
+      body = body.split(old).join(rule.replace);
+      changes.push({ why: `${rule.why} (revised in fix round 1)`, before, after: context(body, at, rule.replace.length) });
       continue;
     }
     const want = rule.count ?? 1;

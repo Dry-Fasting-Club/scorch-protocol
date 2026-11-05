@@ -80,7 +80,7 @@ Patients ill for under a year frequently complete recovery with a single 5-day d
 
 Patients ill for five years or longer almost never recover from a 5-day dry fast alone. By the time chronic illness has run for half a decade, the latent viral burden (HSV-1, EBV, HHV-6, CMV) has replicated extensively, the immune system has been chronically suppressed long enough for fungal overgrowth to become entrenched, and the metabolic cascade has reached a self-reinforcing equilibrium that does not yield to surface-level cleanup.
 
-For this cohort, my experience is that the best results often come from 7-day to 9-day dry fasts, often more than one, once five days is very comfortable, and always with the stricter refeed and extra care those fasts demand. The deeper hyperosmotic autophagy is the mechanistic difference that breaks the cascade. NK cell cytotoxicity remains chronically suppressed at roughly 50% of normal in ME/CFS patients across the literature ([Baraniuk et al., 2024: CD8 T-cell exhaustion and persistent NK cell deficits in ME/CFS](https://pubmed.ncbi.nlm.nih.gov/39483457/), *Frontiers in Immunology*), and the NK cell surge that occurs during the deeper days of an extended dry fast is one of the most direct mechanisms available to reverse that deficit.
+For this cohort, my experience is that the best results often come from 7-day to 9-day dry fasts, often more than one, once five days is very comfortable, set with me. The deeper hyperosmotic autophagy is the mechanistic difference that breaks the cascade. NK cell cytotoxicity remains chronically suppressed at roughly 50% of normal in ME/CFS patients across the literature ([Baraniuk et al., 2024: CD8 T-cell exhaustion and persistent NK cell deficits in ME/CFS](https://pubmed.ncbi.nlm.nih.gov/39483457/), *Frontiers in Immunology*), and the NK cell surge that occurs during the deeper days of an extended dry fast is one of the most direct mechanisms available to reverse that deficit.
 
 There is an important caveat embedded in this framing: the Scorch Protocol is capped at five days, because five days dry is still safe to do at home. Seven-to-nine-day fasts are an extension for people who are already very comfortable at five, not the standard, and never where anyone starts. The discussion of which patient profile is a candidate for extended fasting is in [the dry fasting protocol page](/dry-fasting) and is also covered in [the comparison between the Filonov tradition and the Scorch Protocol](/blog/starving-to-heal-vs-scorch-protocol).
 
@@ -149,7 +149,7 @@ Dry fasting is not a wellness experiment. Done correctly in appropriate patients
 
 ### How long is a "dry fast" supposed to be?
 
-The Scorch Protocol is capped at five days: 24 hours → 48 hours → 72 hours → 5 days. Five days dry is still safe to do at home, and it does get a bit difficult. Once you are very comfortable with it you can extend a little; some people get their best results from seven to nine days. Deeper fasts go deeper and may bring results faster, but they demand a stricter refeed and more care; how far is set with me. Nine days is never for beginners.
+The Scorch Protocol is capped at five days: 24 hours → 48 hours → 72 hours → 5 days. Five days dry is still safe to do at home, and it does get a bit difficult. Once you are very comfortable with it you can extend a little; some people get their best results from seven to nine days, set with me. Nine days is never for beginners.
 
 ### Can I drink water if I get really thirsty?
 
