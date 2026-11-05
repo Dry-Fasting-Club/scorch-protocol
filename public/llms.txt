@@ -16,7 +16,7 @@ The protocol runs in phases: a supported preparation period, a deep dry fast (th
 - [Dry Fasting vs Water Fasting](https://scorchprotocol.com/dry-fasting-vs-water-fasting): How dry and water fasting compare (mechanism, kidney/electrolyte data, autophagy depth, safety) and why the protocol uses 5 days dry then 5 days water.
 - [Refeeding](https://scorchprotocol.com/refeeding): How to break a dry fast safely, refeeding-syndrome rules, coconut water first, and gut repopulation.
 - [Phase 4: T3 Therapy](https://scorchprotocol.com/t3-therapy): Wilson's T3 protocol to restart suppressed metabolism, dosing ramp, co-factors, and safety.
-- [Phase 5: hGH Therapy](https://scorchprotocol.com/hgh-therapy): Growth hormone and peptides for the rebuilding phase.
+- [Phase 5: hGH Therapy](https://scorchprotocol.com/hgh-therapy): Growth hormone and peptides for the rebuilding phase, the last lever, case by case.
 - [Viral Reactivation](https://scorchprotocol.com/viral-reactivation): Why the refeed window can reactivate latent viruses (EBV, HSV) and how to cover it.
 
 ## Conditions and supportive care

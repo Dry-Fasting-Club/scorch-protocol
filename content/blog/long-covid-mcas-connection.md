@@ -79,7 +79,7 @@ The execution requires careful sequencing because aggressive intervention in an 
 
 **Phase 2: T3 therapy.** Restores cellular energy supply, which restores DAO activity, regulatory T cell function, and the basic signaling that maintains mast cell thresholds. In my experience T3 is usually well tolerated in MCAS; some people report transient reactivity in the first week of titration that resolves as the body adapts. Slow-release T3 is preferred because the steadier curve produces less reactivity than the spike-crash of immediate-release T3.
 
-**Phase 3: Refeeding plus hGH.** This is the highest-risk phase for MCAS patients and requires the slowest implementation. The 70-100 calories per week ascent is specifically calibrated to avoid MCAS flares; aggressive caloric reintroduction (which would be appropriate for a non-MCAS patient) is dangerous in this cohort. hGH is added once the foundation is stable and is generally well-tolerated.
+**Phase 3: Refeeding and Regeneration.** This is the highest-risk phase for MCAS patients and requires the slowest implementation. The 70-100 calories per week ascent is specifically calibrated to avoid MCAS flares; aggressive caloric reintroduction (which would be appropriate for a non-MCAS patient) is dangerous in this cohort. hGH comes in only as the last step, when the body cannot rebuild on its own, and is generally well-tolerated.
 
 The full protocol applied to Long Covid (with the MCAS overlap noted) is in [the Long Covid recovery guide](/blog/long-covid-recovery-guide).
 

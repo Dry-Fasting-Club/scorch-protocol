@@ -153,7 +153,7 @@ In adrenal-fatigued patients (which describes most of the post-2020 cohort), sta
 
 ### What about hGH safety?
 
-hGH at physiologic replacement doses (not bodybuilding doses) in a monitored protocol is well-tolerated and is the specific mechanism that prevents the weight-gain-then-panic spiral that derails most natural recovery attempts. The risk profile is meaningfully different from the supraphysiological doses that get hGH its reputation. The [hGH therapy page](/hgh-therapy) covers the safety considerations.
+hGH at physiologic replacement doses (not bodybuilding doses) in a monitored protocol is well-tolerated and is the last lever, used only when the body cannot rebuild on its own. The risk profile is meaningfully different from the supraphysiological doses that get hGH its reputation. The [hGH therapy page](/hgh-therapy) covers the safety considerations.
 
 ### How long does the rebuild step take?
 

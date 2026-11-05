@@ -16,8 +16,9 @@
  *   add --slug=<slug> to limit any mode to one post
  *   add --from-json=<dump> to scan or dry-run a JSON backup of blog_posts (no database)
  *   add --triad to run only the pillar-line pass (TRIAD_RULES, no other rule and
- *     no dash fixer; John's review, 2026-11-05; see TRIAD below), or --round2 to
- *     run only the round 2 pass the same way (ROUND2_TABLE; John's review, round 2)
+ *     no dash fixer; John's review, 2026-11-05; see TRIAD below), or --round2 or
+ *     --round3 to run only that round's pass the same way (ROUND2_TABLE,
+ *     ROUND3_TABLE; John's review, rounds 2 and 3)
  *
  * dryfastingclub.com pages cache for 24 hours; after an --apply there, revalidate
  * each changed post through the site's admin route (PATCH /api/admin/blog/<id>
@@ -1706,12 +1707,47 @@ const ROUND2_TABLE = {
   dfc: {},
 };
 
+// ─── The round 3 pass (John's review, round 3, 2026-11-05) ─────
+// The last of the old hGH framing in two posts: post 8's Phase 3 label and its
+// clause, and the starving-to-heal sentence that called hGH the mechanism
+// against the weight-gain-then-panic spiral. `--round3` runs it alone, as above.
+const ROUND3_TERMS = [
+  { id: "r3-phase3-label", label: '"Refeeding plus hGH"', re: /Refeeding plus hGH/g },
+  { id: "r3-added-clause", label: '"hGH is added once the foundation is stable"', re: /hGH is added once the foundation is stable/g },
+  { id: "r3-mechanism", label: '"is the specific mechanism that prevents the weight-gain-then-panic spiral"', re: /is the specific mechanism that prevents the weight-gain-then-panic spiral/g },
+];
+const ROUND3_TABLE = {
+  scorch: {
+    "4 starving-to-heal-vs-scorch-protocol": [
+      {
+        find: "in a monitored protocol is well-tolerated and is the specific mechanism that prevents the weight-gain-then-panic spiral that derails most natural recovery attempts.",
+        replace: "in a monitored protocol is well-tolerated and is the last lever, used only when the body cannot rebuild on its own.",
+        why: W_R2_HGH.replace("round 2", "round 3"),
+      },
+    ],
+    "8 long-covid-mcas-connection": [
+      {
+        find: "**Phase 3: Refeeding plus hGH.**",
+        replace: "**Phase 3: Refeeding and Regeneration.**",
+        why: W_R2_HGH.replace("round 2", "round 3"),
+      },
+      {
+        find: "hGH is added once the foundation is stable and is generally well-tolerated.",
+        replace: "hGH comes in only as the last step, when the body cannot rebuild on its own, and is generally well-tolerated.",
+        why: W_R2_HGH.replace("round 2", "round 3"),
+      },
+    ],
+  },
+  dfc: {},
+};
+
 // The passes that run alone, by flag.
 const PASSES = {
   triad: { terms: TRIAD_TERMS, rules: TRIAD_RULES, held: TRIAD_HELD },
   round2: { terms: ROUND2_TERMS, rules: { scorch: expand(ROUND2_TABLE.scorch), dfc: expand(ROUND2_TABLE.dfc) }, held: { scorch: [], dfc: [] } },
+  round3: { terms: ROUND3_TERMS, rules: { scorch: expand(ROUND3_TABLE.scorch), dfc: expand(ROUND3_TABLE.dfc) }, held: { scorch: [], dfc: [] } },
 };
-const PASS_NAME = TRIAD ? "triad" : flag("round2") ? "round2" : null;
+const PASS_NAME = TRIAD ? "triad" : flag("round2") ? "round2" : flag("round3") ? "round3" : null;
 const PASS = PASS_NAME ? PASSES[PASS_NAME] : null;
 
 // Every hit of the running pass in a body, with its disposition: inside one of
@@ -1745,7 +1781,7 @@ function countOf(body, find) {
 
 // Apply a post's rules in order, then the dash fixer. `loose` (the markdown
 // mirror) applies a rule wherever its text occurs and skips it otherwise;
-// `dashes: false` (a pass run alone: --triad, --round2) leaves the dash fixer out.
+// `dashes: false` (a pass run alone: --triad, --round2, --round3) leaves the dash fixer out.
 function transform(body, rules, { loose = false, dashes = true } = {}) {
   const changes = [];
   const problems = [];
