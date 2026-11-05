@@ -48,6 +48,10 @@ export default function ProtocolTLDR() {
         T3 course, and the next fast opens seven days after the T3 course ends.
         Everything else on this site is just the detail behind these four steps.
         You do not need to master the science to begin. You just need to start.
+        Behind the four moves is one idea,{" "}
+        <Link href="/healing-cycle">the healing cycle</Link>: a sick body is
+        stuck in its own danger response, the fast pushes it out, and the refeed
+        decides whether it stays out.
       </p>
       <p className="protocol-tldr-note">
         These are real therapies. Do them with proper guidance.

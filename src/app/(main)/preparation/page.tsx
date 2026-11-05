@@ -24,6 +24,7 @@ export default function PreparationPage() {
       <h1>Phase 1: Preparation</h1>
 
       <KeyTakeaways points={[
+        "Preparation lowers the danger load before the push. The fewer alarms your body is already answering (a loaded gut, drugs to clear, a known deficiency), the further the fast can carry you. Why the order matters is on the healing cycle page.",
         "Get baseline blood tests (thyroid, CBC, metabolic panel, Vitamin D, B12, iron, cortisol) and fix critical deficiencies before fasting.",
         "Choose between two preparation paths: plant-based (gold standard, highest healing ceiling) or ketogenic (safer fallback, more forgiving for sicker or more medicated patients).",
         "Eat light into the fast: oils, meat and anything hard to digest come out for the last one to two days, and the last day is juice only. Everyone also does a colon cleanse, set with me, from a few days of pulp-free juice at the gentle end to a week of higher-dose magnesium citrate (which also lowers the kidney-stone risk) at the strong end. No enemas, no colonics. A liver flush is case by case: for a long history on liver-intensive, fat-soluble medications, or gut motility that has truly failed; on few or no medications, skip it.",
@@ -48,7 +49,7 @@ export default function PreparationPage() {
           Count (CBC), Metabolic Panel, Vitamin D, B12, Iron, Ferritin, and
           Cortisol? This tells you what you are working with. (It is not
           required for all these tests, in fact with most people we go off of
-          symptoms only &mdash; not everyone has access to tests).
+          symptoms only: not everyone has access to tests).
         </div>
         <div className="question-item">
           <span className="question-label">Body Temperature:</span>
@@ -301,24 +302,11 @@ export default function PreparationPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Neither, yet:</span>
-          The order is fast first, always, with one exception. If fasting has
-          already failed you, meaning you have pushed through fasts, kept
-          getting worse, and show signs of metabolic trouble (cold, weight that
-          will not move, worse after each attempt), fasting is not your entry
-          point. You need a T3 jump start to rebuild the metabolism first, and
-          then you come back to the fast. Over-adaptation (many months of
-          low-carb with weight loss stalled at the same calories that used to
-          work) is the usual picture here. See the T3 therapy section, and run
-          your numbers past me, before preparing to fast.
+          Fast first, always; T3 first only for the person who has struggled
+          with fasting and kept getting worse; the reasoning and the evidence
+          are on the{" "}
+          <Link href="/decision-tree#baselinetemp">decision tree</Link>.
         </div>
-        <p style={{ marginTop: "0.75rem", fontStyle: "italic" }}>
-          What the evidence says: that exception, and the judgement of who
-          needs T3 after the fast, are my clinical rules. The literature has no
-          published criterion for who needs T3 after a fast; the nearest
-          objective candidate is the low free T3 and high reverse T3 pattern
-          measured in chronic fatigue patients (Ruiz-Nunez 2018), which is a
-          blood test, not the history-and-temperature screen I use.
-        </p>
       </div>
 
       <h2>Step 4: Mental Preparation</h2>
@@ -346,28 +334,6 @@ export default function PreparationPage() {
           apples, apricots), coconut water for day 2, and soft foods for the
           days after. Prepare a cool, comfortable space to rest. Remove
           temptations.
-        </div>
-        <div className="question-item">
-          <span className="question-label">Pray or Meditate Deep Into the Fast:</span>
-          This one matters more than most people realize, so do not sleep on
-          it. A dry fast pushes you into a depth of ketosis you have likely
-          never been in before. Carnivore eating does not reach this depth.
-          Even long water fasting does not reach it. Something happens to
-          the brain in that state that no amount of normal meditation
-          practice reproduces: the mental noise drops away, the body
-          settles, and you can hold a focused inner state that meditation
-          teachers spend decades training toward. People who have never
-          meditated a day in their life will sit down on day 3 or 4 of a
-          dry fast and feel what a thirty-year practitioner feels. The fast
-          hands you a state that is otherwise reached only through years of
-          training. You do not have to earn it. It is a gift of the
-          protocol.
-          <br /><br />
-          A contemplative or prayer practice helps many people settle into and
-          hold this state once they reach it on day 3 or 4. If that appeals to
-          you, the{" "}
-          <Link href="/mindfulness">Mindfulness &amp; Neurology</Link> page
-          covers specific approaches that work well in the deep-fast window.
         </div>
       </div>
 
@@ -616,12 +582,6 @@ export default function PreparationPage() {
               "Sies CW, Brooker J. Could these be gallstones? Lancet, 2005;365(9468):1388. PMID 15836886. DOI 10.1016/S0140-6736(05)66373-8.",
             href: "https://doi.org/10.1016/S0140-6736(05)66373-8",
             note: "the 'stones' passed after an olive-oil and lemon-juice liver flush were analysed and were saponified fatty acids, not gallstones",
-          },
-          {
-            citation:
-              "Ruiz-Nunez B, Tarasse R, Vogelaar EF, Janneke Dijck-Brouwer DA, Muskiet FAJ. Higher Prevalence of \"Low T3 Syndrome\" in Patients With Chronic Fatigue Syndrome: A Case-Control Study. Front Endocrinol (Lausanne), 2018;9:97. PMID 29615976. DOI 10.3389/fendo.2018.00097.",
-            href: "https://doi.org/10.3389/fendo.2018.00097",
-            note: "the nearest thing to a published criterion for who might need T3 after a fast: chronic fatigue patients carried lower free T3 and total T3 and more reverse T3 than matched controls at a similar TSH; a blood pattern, not the history-and-temperature screen used here",
           },
         ]}
       />

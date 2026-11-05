@@ -41,12 +41,13 @@ export default function DryFastingPage() {
       <StarterKitCallout />
 
       <KeyTakeaways points={[
+        "The fast is the push out of the stuck state: a short, deliberate stress that clears damaged cells and mitochondria and takes away the growth signal that keeps sick cells defending. Deeper fasts go deeper and may bring results faster, but they demand a stricter refeed and more care; five days dry is the cap at home.",
         "Build up gradually: start with 36 hours, then 72 hours, then 5 days dry. Do not jump straight to a long fast.",
         "The full protocol is 5 days dry followed by 5 days water (not food). Never reverse that order.",
-        "Five days dry is the cap because five days is still safe to do at home. Once you are very comfortable with it you can extend a little; some people get their best results from seven to nine days. The deeper the fast, the more aggressive the immune reset, and in my observation the more allergic and autoimmune clearing.",
+        "Five days dry is the cap because five days is still safe to do at home. Once you are very comfortable with it you can extend a little; some people get their best results from seven to nine days.",
         "Day 3 is the hard wall (acidotic crisis). Days 4 to 5 are where deep repair and stem cell activity happen.",
         "Feeling worse mid-fast: go on walks, do massages, move the whole system. If it starts to feel really bad, or the pain is excruciating, break the fast. While heart rate, temperature, blood pressure and urination look fine, you can continue.",
-        "Stop immediately if your resting heart rate goes above 120 bpm, you stop urinating for more than 12 hours, you feel confused or get blurry vision, or you develop kidney pain or leg swelling.",
+        "Stop immediately if your resting heart rate stays above 120 bpm, you have had no urine for 24 hours, you faint or nearly faint, you feel confused or get blurry vision, or you develop kidney pain or leg swelling; a fever around 38.0°C (100.4°F) means stop and assess, not an automatic end.",
         "A cycle is a fast, a refeed and, if the refeed shows a metabolic slowdown, a 30-day T3 course. The next fast opens seven days after the T3 course ends. Fast first, always; T3 before the fast is only for the person fasting has already failed.",
         "Refeeding starts with plain water, about a cup an hour for the first four hours, then kompot. Coconut water waits for day 2. Eating too much too fast is dangerous.",
         "No T3 during the fast. You finish the dry and water fast clean, keep antiviral coverage running through the refeed, and T3 therapy only begins after the first 7 days of refeeding.",
@@ -163,9 +164,9 @@ export default function DryFastingPage() {
           safe to do at home, and it does get a bit difficult by then. Once you
           are very comfortable with five, you can try to extend it a little
           longer. Some people get their best results from a seven-to-nine-day
-          fast. The deeper you go, the more aggressive the immune reset, and in
-          my observation the deeper fasts clear more of the allergic and
-          autoimmune load that drives so much chronic illness. The margin
+          fast. In my observation the deeper fasts clear more of the allergic
+          and autoimmune load, and they demand a stricter refeed and more care;
+          how far you go is set with me. The margin
           narrows with every day past five, so this is an extension you earn
           with comfortable five-day fasts behind you, not a target you set from
           the start.
@@ -211,17 +212,17 @@ export default function DryFastingPage() {
 
       <ul>
         <li>
-          <strong>Burning Sugar (0–24h):</strong> Your body uses up its sugar
+          <strong>Burning Sugar (0 to 24h):</strong> Your body uses up its sugar
           stores. You will feel hungry, but thirst is usually okay.
         </li>
         <li>
-          <strong>The Acidosis Stage (24–72h):</strong> Your body switches to
+          <strong>The Acidosis Stage (24 to 72h):</strong> Your body switches to
           burning fat. This creates a mild &ldquo;acid&rdquo; state that
           triggers a massive &ldquo;deep clean&rdquo; (The Scorch). You might
           feel heat inside your body.
         </li>
         <li>
-          <strong>The Peak Stage (Day 4–5):</strong> This is the deepest repair
+          <strong>The Peak Stage (Days 4 to 5):</strong> This is the deepest repair
           phase. You might feel a &ldquo;healing fever.&rdquo; You will pee
           less, and your energy might dip before you feel clear-headed.
         </li>
@@ -242,7 +243,7 @@ export default function DryFastingPage() {
           brushing, and light stretching.
         </li>
         <li>
-          <strong>Tracking:</strong> Watch your weight (you will lose 1–2 lbs
+          <strong>Tracking:</strong> Watch your weight (you will lose 1 to 2 lbs
           per day), heart rate, and the coating on your tongue.
         </li>
       </ul>
@@ -266,16 +267,24 @@ export default function DryFastingPage() {
       <div className="guiding-questions box-danger">
         <h3>When to Stop Immediately (Red Flags)</h3>
         <ul>
-          <li>Heart rate stays over 120 bpm while resting</li>
+          <li>Resting heart rate sustained above 120 bpm</li>
           <li>Feeling very dizzy or fainting</li>
           <li>Strong pain in your kidneys</li>
           <li>Feeling confused or having blurry vision</li>
           <li>Swelling in your legs or hands</li>
-          <li>Not peeing for more than 12 hours</li>
+          <li>No urine for 24 hours</li>
         </ul>
+        <p>
+          A fever around 38.0&deg;C (100.4&deg;F) means stop and assess, not
+          an automatic end: read the trend of temperature, blood pressure and
+          heart rate, then decide (37.5&deg;C is the normal acidotic fire).
+          Waking with no urine at all is a red flag: stop and assess. The full
+          triage is on the <a href="/symptom-management">Symptom Management</a>{" "}
+          page, under Herxheimer vs Warning Sign.
+        </p>
       </div>
 
-      <h2>Step 3B: The Water Fast (Days 6–10)</h2>
+      <h2>Step 3B: The Water Fast (Days 6 to 10)</h2>
       <p>
         After completing the 5-day dry fast, you do <strong>not</strong> break
         the fast with food. You transition directly into a 5-day water fast.
@@ -340,63 +349,25 @@ export default function DryFastingPage() {
 
       <h3>No T3 During the Fast</h3>
       <p>
-        Earlier versions of this protocol started T3 during the water fast. That
-        is no longer how it is done. You finish the entire fast, dry first and
-        then water, with no T3 at all. Adding a metabolism accelerator while the
-        body is still deep in fasting scarcity works against the fast instead of
-        with it. The fast has one job, which is to clear the system as deeply as
-        possible. Let it finish that job clean.
-      </p>
-      <p>
-        What does carry through the transition is your antiviral coverage. The
-        fast clears out the viral reservoirs, and the moment they are most
-        likely to try to re-seed is when food comes back, not during the fast
-        itself. So the viral reactivation protocol stays in place straight
-        through the fast-to-refeed handoff and across the whole refeed:
-        L-lysine back on water day 1, monolaurin and olive leaf with the first
-        meal, valacyclovir as the standing antiviral backbone from refeed day
-        3 at the earliest (never during the fast, dry or water, because a
-        water fast still leaves the body dehydrated and the drug is renally
-        cleared), ivermectin alongside it as supportive coverage plus the
-        primary antiparasitic, and a valacyclovir loading dose on top at the
-        first sign of a prodrome, once that standing course is actually
-        running. A prodrome that arrives while you are still fasting is the
-        exception: there is no standing course to escalate and no rehydrated
-        body to clear the drug with, so that case converts to water with
-        electrolytes, takes L-lysine at once, breaks the fast once rehydrated,
-        and brings valacyclovir in on the standing rule. The{" "}
+        You finish the whole fast, dry first and then water, with no T3 in it:
+        a metabolism accelerator added while the body is deep in the fast works
+        against it, so let the fast finish its job clean. What carries through
+        the handoff is your antiviral coverage: L-lysine from water day 1,
+        monolaurin and olive leaf with the first meal, and valacyclovir from
+        refeed day 3 at the earliest, never during the fast, dry or water. The{" "}
         <a href="/viral-reactivation">Viral Reactivation</a> page has the full
-        stack.
+        stack, including what to do if a prodrome hits mid-fast. Methylene blue
+        (and for some, ethyl pyruvate) joins case by case through the first 7
+        days of refeeding. T3 waits until after refeed day 7, and not everyone
+        needs it. It is for the person who comes out of the fast and the refeed
+        still cold, with whole-body and brain fatigue that does not lift. When
+        and how it starts is on the <a href="/t3-therapy">T3 Therapy</a> page,
+        under When to Start T3.
       </p>
       <p>
-        During the first 7 days of refeeding we also add targeted mitochondrial
-        and metabolic support: methylene blue, and in some cases ethyl pyruvate.
-        This is decided case by case with each person, against their own history
-        and lab numbers, so no fixed amount is published here. It is worked out
-        directly in a consult. Its job is to help the mitochondria come back
-        online as calories return, before any T3 is layered on top.
-      </p>
-      <p>
-        T3 therapy does not start until{" "}
-        <strong>after the first 7 days of refeeding</strong>. The body needs to
-        be eating again, rehydrated, and metabolically back online before you
-        add the T3 signal. That first week is also when you learn whether this
-        cycle needs T3 at all. Running hot, holding your weight and feeling
-        great: you skip it. Cold, weight stuck, the old symptoms still there:
-        that is the metabolic slowdown T3 is for, and the 30-day course runs on
-        the Wilson&rsquo;s pattern (ramp, hold, taper) as laid out on the{" "}
-        <a href="/t3-therapy">T3 Therapy</a> page. Seven days after the course
-        ends, the next fast opens.
-      </p>
-      <p>
-        <em>
-          What the evidence says: the judgement of who needs T3 after the fast,
-          and the T3-first exception, are my clinical rules. The literature has
-          no published criterion for who needs T3 after a fast; the nearest
-          objective candidate is the low free T3 and high reverse T3 pattern
-          measured in chronic fatigue patients (Ruiz-Nunez 2018), which is a
-          blood test, not the screen I use.
-        </em>
+        Fast first, always; T3 first only for the person who has struggled with
+        fasting and kept getting worse; the reasoning and the evidence are on
+        the <a href="/decision-tree#baselinetemp">decision tree</a>.
       </p>
 
       <h2>Step 4: Breaking the Fast (Refeeding)</h2>
@@ -488,7 +459,7 @@ export default function DryFastingPage() {
         </li>
       </ul>
 
-      {/* FaithBlock hidden for now — to restore, remove the `false && (` wrapper and matching `)` */}
+      {/* FaithBlock hidden for now: to restore, remove the `false && (` wrapper and matching `)` */}
       {false && (
       <FaithBlock
         title="Jesus on Fasting: What is Done in Secret, God Rewards"
@@ -497,7 +468,7 @@ export default function DryFastingPage() {
           <strong>Matthew 6:17-18: &ldquo;But when you fast, put oil on your head and wash your face, so that it will not be obvious to others that you are fasting, but only to your Father, who is unseen; and your Father, who sees what is done in secret, will reward you.&rdquo;</strong>
         </p>
         <p>
-          Jesus did not debate whether fasting was valid. He assumed you would do it, and told you how. The dry fast is one of the most private things a person can do: no food, no water, no performance. Just you and God and the silence. In that silence, old grief surfaces and old fears dissolve. I found that the fast was also a confrontation with truth: the named, specific kind. The Epstein files document what powerful men did to children with impunity. The suffering in Gaza is real. <em>Evil propagates when good men look away.</em> The fast is a recommitment to looking directly at what is true, in your body, your spirit, and the world.
+          Jesus did not debate whether fasting was valid. He assumed you would do it, and told you how. The dry fast is one of the most private things a person can do: no food, no water, no performance. Just you and God and the silence. In that silence, old grief surfaces and old fears dissolve. I found that the fast was also a confrontation with truth: the named, specific kind. <em>Evil propagates when good men look away.</em> The fast is a recommitment to looking directly at what is true, in your body, your spirit, and the world.
         </p>
         <p>
           <strong>Your Father sees what is done in secret. He will reward you.</strong>
@@ -514,7 +485,7 @@ export default function DryFastingPage() {
         refs={[
           {
             citation:
-              "Papagiannopoulos IA, Sideris VI, Boschmann M, Koutsoni OS, Dotsika EN. Anthropometric, Hemodynamic, Metabolic, and Renal Responses during 5 Days of Food and Water Deprivation. Forsch Komplementmed, 2013;20(6):427–433.",
+              "Papagiannopoulos IA, Sideris VI, Boschmann M, Koutsoni OS, Dotsika EN. Anthropometric, Hemodynamic, Metabolic, and Renal Responses during 5 Days of Food and Water Deprivation. Forsch Komplementmed, 2013;20(6):427-433.",
             href: "https://doi.org/10.1159/000357718",
             note: "5 days of total food and water deprivation was hemodynamically stable in healthy adults (~1.4 kg/day weight loss)",
           },
@@ -528,7 +499,7 @@ export default function DryFastingPage() {
           },
           {
             citation: "Absolute fasting: the effect of the complete absence of food and water on the human body (Khoroshilov).",
-            note: "metabolic-water production (~0.5–0.8 L/day) from fat and glycogen oxidation",
+            note: "metabolic-water production (about 0.5 to 0.8 L a day) from fat and glycogen oxidation",
           },
           {
             citation: "Cahill GF Jr. Starvation in Man. New England Journal of Medicine, 1970.",
@@ -556,12 +527,6 @@ export default function DryFastingPage() {
               "Cheng CW, Adams GB, Perin L, et al. Prolonged fasting reduces IGF-1/PKA to promote hematopoietic-stem-cell-based regeneration and reverse immunosuppression. Cell Stem Cell, 2014;14(6):810-823. PMID 24905167. DOI 10.1016/j.stem.2014.04.014.",
             href: "https://doi.org/10.1016/j.stem.2014.04.014",
             note: "the immune-regeneration finding behind the 'immune reset' idea: 48 to 72 hour fasting cycles in mice drove stem-cell self-renewal; water-type fasting, mostly in mice, with no comparison of dry-fast depth",
-          },
-          {
-            citation:
-              "Ruiz-Nunez B, Tarasse R, Vogelaar EF, Janneke Dijck-Brouwer DA, Muskiet FAJ. Higher Prevalence of \"Low T3 Syndrome\" in Patients With Chronic Fatigue Syndrome: A Case-Control Study. Front Endocrinol (Lausanne), 2018;9:97. PMID 29615976. DOI 10.3389/fendo.2018.00097.",
-            href: "https://doi.org/10.3389/fendo.2018.00097",
-            note: "the nearest thing to a published criterion for who might need T3 after a fast: chronic fatigue patients carried lower free T3 and total T3 and more reverse T3 than matched controls at a similar TSH; a blood pattern, not the screen used here",
           },
         ]}
       />

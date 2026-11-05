@@ -29,7 +29,7 @@ const cascadeCollapse = `graph TD
 
   Energy --> Thyroid["T3 cannot enter cells<br/>(tissue-level resistance)"]
   Auto --> POTS["POTS<br/>(baroreceptor failure)"]
-  Latent --> MCAS["MCAS<br/>+ histamine flood"]
+  Latent --> MCAS["MCAS<br/>+ histamine surges"]
 
   Thyroid --> Sym["The chronic state you live in"]
   POTS --> Sym
@@ -104,7 +104,11 @@ export default function LongCovidBasicsPage() {
         Before reaching for any supplement or medication, it helps to see
         the chain. Long Covid is not a single problem you can hit with a
         single tool. It is a cascade collapse with multiple parallel paths,
-        all running from the same upstream source.
+        all running from the same upstream source. This cascade is the Long
+        Covid face of a broader pattern, cells stuck in their own danger
+        response, and the{" "}
+        <Link href="/healing-cycle">healing cycle page</Link> explains why that
+        sets the order of the protocol.
       </p>
 
       <div style={{ margin: "1.5rem 0" }}>
@@ -116,8 +120,8 @@ export default function LongCovidBasicsPage() {
 
       <h2>First-Line Daily Foundations</h2>
       <p>
-        These are the items most patients with Long Covid benefit from
-        starting first. They are well-tolerated, broadly anti-inflammatory,
+        These are the items worth starting first for Long Covid. They are
+        well-tolerated, broadly anti-inflammatory,
         and address the three main mechanical drivers (immune
         dysregulation, micro-clotting, oxidative stress).
       </p>
@@ -132,21 +136,23 @@ export default function LongCovidBasicsPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Ivermectin</span>
-          0.2 to 0.3 mg/kg daily, taken with a fatty meal for absorption.
+          The dose is set with your prescriber; take it with a fatty meal for
+          absorption.
           Binds spike protein and aids in its clearance. Independently
           anti-inflammatory. Many patients require chronic daily dosing
           rather than short courses.
         </div>
         <div className="question-item">
           <span className="question-label">Low-Dose Naltrexone (LDN)</span>
-          1 to 4.5 mg daily, taken at night. Anti-inflammatory,
+          The dose is set with your prescriber and taken at night.
+          Anti-inflammatory,
           neuromodulating, and pain-modulating. Often improves sleep on its
           own. Requires a compounding pharmacy and a prescriber willing to
           script off-label.
         </div>
         <div className="question-item">
           <span className="question-label">Nattokinase</span>
-          100 to 200 mg (2,000 to 4,000 FU) once daily, on an empty
+          Once daily, on an empty
           stomach. A fibrinolytic enzyme that breaks down the abnormal
           micro-clots and viral biofilms associated with spike protein
           persistence. Taken with food, the enzyme is spent digesting meal
@@ -155,20 +161,19 @@ export default function LongCovidBasicsPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Melatonin</span>
-          1 to 5 mg before bed (some protocols use higher slow-release
-          doses up to 20 mg). Strong antioxidant, anti-inflammatory, and
+          Taken before bed. Strong antioxidant, anti-inflammatory, and
           sleep-restoring. Slow-release form is preferred for sustained
           overnight effect.
         </div>
         <div className="question-item">
           <span className="question-label">Magnesium</span>
-          200 to 400 mg daily. Glycinate or threonate forms have the best
+          Daily. Glycinate or threonate forms have the best
           tolerability and brain penetration. Stabilizes the nervous
           system, supports sleep, reduces muscle tension.
         </div>
         <div className="question-item">
           <span className="question-label">Vitamin D + K2</span>
-          Vitamin D 5,000 IU per day, K2 (MK-7) 100 to 200 mcg per day.
+          Vitamin D daily, with K2 (MK-7).
           Modulates immune function and supports calcium handling. Test
           25-OH vitamin D every 3 months and target 60 to 80 ng/mL.
         </div>
@@ -180,10 +185,9 @@ export default function LongCovidBasicsPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Resveratrol or Combination Flavonoid</span>
-          250 to 500 mg per day for resveratrol. Anti-inflammatory and
-          sirtuin-supportive. If substituting a quercetin combination
-          (often with bromelain), quercetin follows its own dosing: 500 mg
-          twice daily, not this resveratrol range.
+          Daily. Anti-inflammatory and sirtuin-supportive. If substituting a
+          quercetin combination (often with bromelain), quercetin follows its
+          own dosing, not resveratrol&rsquo;s.
         </div>
         <div className="question-item">
           <span className="question-label">Probiotics + Prebiotics</span>
@@ -209,7 +213,7 @@ export default function LongCovidBasicsPage() {
       <h2>Symptom-Specific Add-Ons</h2>
       <p>
         Layer these on top of the daily stack based on which symptoms are
-        dominant for you. Most patients have several of these clusters
+        dominant for you. It is common to have several of these clusters
         active at once.
       </p>
 
@@ -217,21 +221,22 @@ export default function LongCovidBasicsPage() {
         <h3>Targeted Support by Symptom</h3>
         <div className="question-item">
           <span className="question-label">Mast Cell Activation / Histamine Flares</span>
-          H1 blocker (cetirizine 10 mg or loratadine 10 mg daily), H2
-          blocker (famotidine 20 to 40 mg twice daily), quercetin 500 mg
-          twice daily, luteolin if available. Trial a low-histamine diet
+          H1 blocker (cetirizine or loratadine daily), H2 blocker
+          (famotidine twice daily), quercetin twice daily, luteolin if
+          available, with the amounts set with your prescriber. Trial a
+          low-histamine diet
           for 2 to 4 weeks. Symptoms include flushing, hives, food
           sensitivities, racing heart after meals.
         </div>
         <div className="question-item">
           <span className="question-label">Micro-clots / Hypercoagulability</span>
-          Nattokinase (already in daily stack) plus bromelain 500 mg twice
-          daily. Lumbrokinase is an alternative if nattokinase causes
-          stomach upset. Add omega-3 (EPA/DHA) 2 to 4 g per day.
+          Nattokinase (already in daily stack) plus bromelain twice daily.
+          Lumbrokinase is an alternative if nattokinase causes stomach upset.
+          Add omega-3 (EPA/DHA).
         </div>
         <div className="question-item">
           <span className="question-label">POTS / Dysautonomia</span>
-          Salt loading (3 to 5 g extra daily), oral electrolytes,
+          Salt loading, oral electrolytes,
           compression garments to mid-thigh, slow position changes (sit on
           edge of bed for 60 seconds before standing). Gentle vagal
           exercises (humming, gargling, cold face splash). If tachycardia
@@ -243,15 +248,15 @@ export default function LongCovidBasicsPage() {
         <div className="question-item">
           <span className="question-label">Brain Fog / Cognitive Symptoms</span>
           Low-dose methylene blue (already in stack), Lion&rsquo;s Mane
-          mushroom 1 to 3 g per day, omega-3 at higher doses (3 to 4 g
-          EPA/DHA). Hyperbaric oxygen if available (third-line tier
+          mushroom daily, omega-3 (EPA/DHA) at higher doses. Hyperbaric
+          oxygen if available (third-line tier
           below). Sleep quality matters more than any nootropic.
         </div>
         <div className="question-item">
           <span className="question-label">Fatigue / Post-Exertional Malaise</span>
           Pacing with strict heart-rate cap is the most powerful
-          intervention. Add CoQ10 100 to 200 mg per day (ubiquinol form
-          preferred), magnesium (already in stack), and a daily fasting
+          intervention. Add CoQ10 (ubiquinol form preferred), magnesium
+          (already in stack), and a daily fasting
           window. Resist the urge to push through good days.
         </div>
         <div className="question-item">
@@ -280,13 +285,13 @@ export default function LongCovidBasicsPage() {
         <h3>Adjuncts for Stalled Progress</h3>
         <div className="question-item">
           <span className="question-label">N-Acetylcysteine (NAC)</span>
-          600 to 1,800 mg per day. Glutathione precursor, mucolytic,
+          Daily. Glutathione precursor, mucolytic,
           anti-inflammatory. Useful when oxidative stress markers are
           elevated or persistent respiratory symptoms remain.
         </div>
         <div className="question-item">
           <span className="question-label">Omega-3 Fatty Acids (Higher Dose)</span>
-          2 to 4 g EPA/DHA per day. Anti-inflammatory baseline. If already
+          EPA/DHA daily. Anti-inflammatory baseline. If already
           on for micro-clots, this is the same dose, not additive.
         </div>
         <div className="question-item">
@@ -303,17 +308,17 @@ export default function LongCovidBasicsPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Vitamin C</span>
-          1 to 3 g per day oral, divided doses. IV vitamin C in severe
+          Oral, in divided doses through the day. IV vitamin C in severe
           cases via specialist clinic.
         </div>
         <div className="question-item">
           <span className="question-label">Spermidine</span>
-          250 mg per day, or wheat germ as a dietary source. Supports
+          Daily as a supplement, or wheat germ as a dietary source. Supports
           autophagy at a low daily level.
         </div>
         <div className="question-item">
           <span className="question-label">Black Seed Oil (Nigella sativa)</span>
-          500 mg twice daily. Broad anti-inflammatory and mild antiviral
+          Twice daily. Broad anti-inflammatory and mild antiviral
           activity.
         </div>
         <div className="question-item">
@@ -336,22 +341,24 @@ export default function LongCovidBasicsPage() {
         <h3>Refractory-Case Tier</h3>
         <div className="question-item">
           <span className="question-label">Hyperbaric Oxygen Therapy (HBOT)</span>
-          40 sessions at 2.0 ATA. Best evidence for brain fog, fatigue,
+          A course of sessions, set by the treating clinic. Best evidence
+          for brain fog, fatigue,
           and microvascular healing. Time and cost intensive. Worth
           considering when cognitive symptoms dominate.
         </div>
         <div className="question-item">
           <span className="question-label">Low-Dose Corticosteroids</span>
-          Prednisolone or methylprednisolone 10 mg per day for 6 weeks if
-          an organizing pneumonia or persistent inflammatory pattern is
+          Prednisolone or methylprednisolone, the dose and the length set
+          with your prescriber, if an organizing pneumonia or persistent
+          inflammatory pattern is
           present on imaging or bloodwork. Short courses only. Not a
           long-term strategy.
         </div>
         <div className="question-item">
           <span className="question-label">Hydroxychloroquine</span>
           Reserved for refractory inflammatory phenotype, prescriber
-          managed, eye exam at baseline and annually. Not first-line for
-          most patients.
+          managed, eye exam at baseline and annually. Not a first-line
+          option.
         </div>
         <div className="question-item">
           <span className="question-label">Non-Invasive Brain Stimulation (tDCS / TMS)</span>
@@ -383,8 +390,8 @@ export default function LongCovidBasicsPage() {
           </li>
           <li>
             The <a href="/refeeding">water fast bridge and controlled
-            refeed</a> close the vulnerability window so the cleared
-            reservoirs do not get re-seeded.
+            refeed</a> guard the consolidation window, refeed days 1 to 14,
+            so the cleared reservoirs do not get re-seeded.
           </li>
           <li>
             <a href="/viral-reactivation">Antiviral coverage</a> holds the line
@@ -409,9 +416,9 @@ export default function LongCovidBasicsPage() {
         <p>
           If you start with the basics on this page, you are doing the
           right thing. Just understand the ceiling. When you are stable
-          enough, the protocol is the next step. Most patients who
-          complete it taper off the entire daily medication stack within
-          6 to 12 months. That is the difference between management and
+          enough, the protocol is the next step. The goal is to taper the
+          daily medication stack off over the months after the cycles, with
+          your prescriber. That is the difference between management and
           recovery.
         </p>
         <p>

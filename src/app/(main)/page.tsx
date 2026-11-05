@@ -104,9 +104,8 @@ export default function HomePage() {
             malaise)
           </li>
           <li>
-            <strong>European ancestry</strong>: 45–60% chance of carrying the
-            DIO2 gene variant that blocks T3 conversion and makes this protocol
-            especially important
+            <strong>A common gene variant (DIO2)</strong> that blunts T3
+            conversion, which makes this protocol especially important
           </li>
           <li>
             <strong>Active viral load</strong>: EBV, HSV, spike protein
@@ -154,14 +153,12 @@ export default function HomePage() {
           </h3>
           <p>
             Chronic illness often puts your body into a state of
-            &ldquo;hibernation.&rdquo; T3 therapy acts as a bridge by
-            electrifying the body. We send a short, structured electrical signal
-            flood of abundance and shock to the cells, convincing them to let T3
-            back in and radically increase insulin sensitivity. This speeds up
-            healing that would normally take years. It is not for everyone who
-            fasts: if you come out of the fast running hot, holding your weight
-            and feeling great, you skip it. It is for the post-fast metabolic
-            slowdown.
+            &ldquo;hibernation.&rdquo; Not everyone needs T3. It is the reboot
+            for the person who comes out of the fast and the refeed still cold,
+            with whole-body and brain fatigue that does not lift: a short course
+            that brings the metabolism up to speed and then hands the job back
+            to your own thyroid, set case by case. If you come out of the fast
+            running hot, holding your weight and feeling great, you skip it.
           </p>
           <p className="pillar-outcome">
             <em>
@@ -176,7 +173,7 @@ export default function HomePage() {
           </h3>
           <p>
             While dry fasting clears the junk, hGH acts as a &ldquo;calorie and
-            building flood.&rdquo; This phase focuses on a massive influx of
+            building surge.&rdquo; This phase focuses on a massive influx of
             calories and energy to signal abundance and regeneration. It can
             take months or even years, sometimes requiring much higher caloric
             intake than ever before to force tissue rebuilding. It comes in
@@ -193,29 +190,22 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* ── THE SCORCH ADVANTAGE + VIDEO ── */}
+      {/* ── WHY IT WORKS: THE HEALING CYCLE + VIDEO ── */}
       <div className="guiding-questions box-info">
-        <h3>The Double Advantage: Metabolism &amp; Cleaning</h3>
+        <h3>Why it works: the healing cycle</h3>
         <p>
-          Healing chronic illness requires two things:{" "}
-          <strong>Fixing Metabolism</strong> and{" "}
-          <strong>Clearing Out Junk</strong> (like viral fragments).
+          Every infection, injury or toxin sets off the same defensive program
+          in your cells, and healing is meant to move through it in stages:
+          lock down and clean up, rebuild, reconnect, back to normal life.
+          Chronic illness is what happens when cells get stuck partway, still
+          defending against a threat that has passed. The dry fast is a short,
+          deliberate stress that clears the blockages and pushes the cells out
+          of that stuck state. The refeed is the moment they are most fragile,
+          when any new danger signal can lock them back in. Restoring the
+          metabolism afterwards is what keeps them out. That is the order of
+          this protocol, and the full model is on the{" "}
+          <Link href="/healing-cycle">healing cycle page</Link>.
         </p>
-        <div className="question-item">
-          <span className="question-label">The Cleaning Limit:</span>
-          While dry fasting is the best tool for cleaning your body, it only
-          works as well as your metabolism allows. If your metabolism is
-          &ldquo;shut down,&rdquo; your body doesn&rsquo;t have the energy to
-          make the fast fully productive.
-        </div>
-        <div className="question-item">
-          <span className="question-label">The Scorch Advantage:</span>
-          By using <strong>T3 and hGH therapies</strong>, we put your body into
-          an &ldquo;artificially healthy&rdquo; state. This gives your body a
-          surge of energy that makes dry fasting{" "}
-          <strong>10 times more effective</strong>. It allows the body to reach
-          hidden pockets of disease that it would normally miss.
-        </div>
 
         <div style={{ margin: "2rem 0" }}>
           <div
@@ -250,93 +240,35 @@ export default function HomePage() {
         </div>
       </div>
 
-      {/* ── ENERGY ABUNDANCE PRINCIPLE ── */}
-      <div className="guiding-questions box-info">
-        <h3>The Other Half of Healing: Energy Abundance</h3>
-        <p>
-          You are already here because you believe in fasting. You believe in
-          autophagy. You believe the body has an innate, incredible ability to
-          heal itself when you strip everything away and let it clean house.
-          That belief is correct, and it is one half of the equation.
-        </p>
-        <p>
-          <strong>Here is what most people in the fasting world miss:</strong>{" "}
-          the body has an equally powerful, equally innate ability to heal
-          itself when you flood it with energy. Not empty calories, but real
-          energy abundance, delivered with the right hormonal signal. Given
-          enough fuel and enough time, the body will repair damage that fasting
-          alone cannot reach.
-        </p>
-        <div className="question-item">
-          <span className="question-label">Scarcity Mode vs. Abundance Mode:</span>
-          Fasting triggers <strong>scarcity mode</strong>: autophagy, cellular
-          cleanup, pathogen clearance, stem cell mobilization. This is
-          irreplaceable. But once that window closes, the body needs to switch
-          into <strong>abundance mode</strong> to actually build the new tissue,
-          restore the nervous system, and lock in what the fast started. Without
-          deliberately entering abundance mode, many people clean the slate and
-          then write the same broken story back onto it.
-        </div>
-        <div className="question-item">
-          <span className="question-label">This Is What T3, hGH, and Calories Are For:</span>
-          T3 therapy restores the metabolic signal that tells every cell it is
-          safe to burn energy again. hGH gives the command to rebuild: muscle,
-          nerves, immune tissue. And calories are the raw material that makes it
-          possible. All three together create a hormonal and energetic
-          environment where the body can finally complete repairs it has been
-          deferring for years.
-        </div>
-        <div className="question-item">
-          <span className="question-label">Expand Your Model:</span>
-          Think of it this way: a construction crew cannot rebuild a city by
-          only demolishing old buildings. The demolition phase (fasting) is
-          essential, but so is the rebuild phase (energy abundance). The Scorch
-          Protocol is one of the only protocols that takes both seriously, in
-          the right order, with the right tools.
-        </div>
-      </div>
-
       {/* ── CONDITIONS ── */}
       <div className="guiding-questions box-info">
         <h3>Conditions That Respond to The Scorch Protocol</h3>
         <p>
-          This protocol is effective at reaching hidden pathogens, viral
-          fragments, and metabolic dysfunction underlying these conditions:
+          These are the improvements people report on the protocol; the full
+          list is on the <Link href="/success-rate-data">Results page</Link>:
         </p>
         <ul>
           <li>
-            <strong>Long Covid &amp; Chronic Fatigue (ME/CFS)</strong>: spike
-            protein clearance, mitochondrial reboot, POTS resolution
+            <strong>Long Covid &amp; Chronic Fatigue (ME/CFS)</strong>: fatigue,
+            brain fog, insomnia, post-exertional malaise, POTS
           </li>
           <li>
-            <strong>Lyme Disease</strong>: biofilm disruption, intracellular
-            pathogen elimination, brain detox
+            <strong>Herpes &amp; Cold Sores</strong>: fewer recurrences, or none
           </li>
           <li>
-            <strong>Herpes (HSV 1 &amp; 2) &amp; Epstein-Barr (EBV)</strong>:
-            viral suppression through deep immune reset
+            <strong>Thyroid &amp; Metabolism</strong>: cold hands and feet, heat
+            and cold intolerance, stubborn weight, hair loss
           </li>
           <li>
-            <strong>Autoimmune Disorders</strong>: Arthritis, MS, and
-            conditions where the body attacks itself
+            <strong>Mood &amp; Headaches</strong>: anxiety, depression, panic
+            attacks, migraines
           </li>
           <li>
-            <strong>Thyroid &amp; Metabolism Failure</strong>: low body
-            temperature, stubborn weight gain, brain fog, hair loss
+            <strong>Gut</strong>: IBS and constipation
           </li>
           <li>
-            <strong>Nerve &amp; Bone Issues</strong>: spine disc regeneration
-            using released stem cells
-          </li>
-          <li>
-            <strong>Cysts &amp; Growths</strong>: shrinkage of non-cancerous
-            growths like fibroids
-          </li>
-          <li>
-            <strong>Lung &amp; Skin Issues</strong>: Asthma, Bronchitis, Eczema
-          </li>
-          <li>
-            <strong>Liver Issues</strong>: Fatty Liver and other liver problems
+            <strong>Lungs, Skin &amp; Joints</strong>: asthma, shortness of
+            breath, dry skin, arthritis and joint aches, allergies
           </li>
         </ul>
         <p>
@@ -360,18 +292,16 @@ export default function HomePage() {
           <em>you</em> and reshaping the protocol to match.
         </p>
         <p>
-          That is detective work, and it is hardest to do alone. The fastest path
-          is a 1-on-1, where your full history and lab numbers get worked through
-          directly. The next best is the{" "}
-          <Link href="/membership">members portal</Link>: dissect your own
-          numbers, ask the right questions, and get me on the case.
+          That is detective work, and it is hardest to do alone. The{" "}
+          <Link href="/membership">members portal</Link> is built for it:
+          dissect your own numbers, ask the right questions, and get me on the
+          case.
           For those diagnoses, the goal is to find and fix the root cause
           alongside your medical care, not in place of it.
         </p>
         <p>
           <strong>The Final Goal:</strong> Your immune system becomes so strong
-          that it keeps hidden viruses quiet forever, not just suppressed, but
-          replaced with a new immune system built from fresh stem cells.
+          that it keeps hidden viruses quiet forever, not just suppressed.
         </p>
       </div>
 
@@ -456,7 +386,7 @@ export default function HomePage() {
             <h4>3. Brain Healing</h4>
             <p>
               Brain scans show that it takes time for the brain to recover
-              after a virus. You might start seeing some improvement in 1–2
+              after a virus. You might start seeing some improvement in 1 to 2
               months, but full recovery often takes{" "}
               <strong>9 to 12 months</strong>.
             </p>
@@ -507,26 +437,17 @@ export default function HomePage() {
             chronic-illness.st is my source for slow-release T3, and IdeaLabs
             Tyronene or Tyromix is the third option. See the{" "}
             <Link href="/list-of-pharmacies">List of Pharmacies</Link> for the
-            full order and country-specific options. The{" "}
-            <a
-              href="https://dryfastingclub.com"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Dry Fasting Club
-            </a>{" "}
-            coaching service also provides personal help with medication
-            acquisition.
+            full order and country-specific options.
           </p>
         </div>
         <div className="faq-inline-item">
           <p className="faq-inline-q">How long before I see results?</p>
           <p className="faq-inline-a">
-            Most participants notice energy improvements within 2–4 weeks of
-            completing Phase 2 (the dry fast). Significant symptom reduction
-            typically follows the T3 therapy phase. Full recovery takes 6–12
-            months, but you will feel the clock moving in the right direction
-            far sooner.
+            Energy usually returns in the weeks after the refeed, once the
+            metabolism is fed; how fast varies with how long someone has been
+            ill. Significant symptom reduction typically follows the T3 therapy
+            phase. Full recovery takes 6 to 12 months, but you will feel the
+            clock moving in the right direction far sooner.
           </p>
         </div>
       </div>

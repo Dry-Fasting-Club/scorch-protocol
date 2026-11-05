@@ -58,19 +58,20 @@ const chartStop = `graph TD
   Fluid -->|Abnormal| STOP
 
   Fluid -->|Normal| Thermo{"3. Thermoregulation<br />(Sustained Fever)"}
-  Thermo -->|Abnormal| STOP
+  Thermo -->|"Fever around 38.0°C"| AssessFever["STOP AND ASSESS<br />Read the trend of temperature,<br />blood pressure and heart rate,<br />then decide"]
 
   Thermo -->|Normal| Neuro{"4. Neurological Status<br />(Confusion / Delirium)"}
   Neuro -->|Abnormal| STOP
 
   Neuro -->|Normal| Cont["Continue Fast &<br />Monitor Regularly"]
 
-  Hemo --- H_Note["BP: <80 or >180<br />HR: >120 or <40<br />Syncope"]
+  Hemo --- H_Note["BP: <80 or >180<br />Resting HR: >120 sustained, or <40<br />Syncope"]
   Fluid --- F_Note["Weight Loss: >5-7% / 24h<br />Urine: 0ml / 24h"]
-  Thermo --- T_Note["Fever: >38.0°C (100.4°F)"]
+  Thermo --- T_Note["Fever around 38.0°C (100.4°F):<br />stop and assess<br />37.5°C is the normal acidotic fire"]
   Neuro --- N_Note["Confusion / Delirium<br />Inability to obey commands"]
 
   style STOP fill:#7f1d1d,stroke:#ef4444,stroke-width:4px,color:#fca5a5
+  style AssessFever fill:#7c2d12,stroke:#f97316,stroke-width:2px,color:#fdba74
   style Cont fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
   style H_Note fill:#0f172a,stroke:#334155,stroke-dasharray: 5 5,color:#94a3b8
   style F_Note fill:#0f172a,stroke:#334155,stroke-dasharray: 5 5,color:#94a3b8
@@ -110,55 +111,6 @@ const chart1 = `graph TD
   style Urgent fill:#7f1d1d,stroke:#ef4444,stroke-width:2px,color:#fca5a5
   style Scorch fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac`;
 
-const chart2 = `graph TD
-  Start[Start: Analyzing Blood Work] --> Thyroid{Evaluate Thyroid Panel}
-
-  Thyroid -->|High TSH + Low T4/T3| Primary[Primary Hypothyroidism Detected<br />Consider Standard T4/T3 Meds<br />Re-assess in 3 months]
-  Thyroid -->|Normal TSH + Fatigue and Low temps| Chronic[Euthyroid + Chronic Fatigue Profile]
-  Thyroid -->|Low TSH Under 1| Hyper[Hyperthyroidism Detected - Need to Address with Fasting]
-
-  Chronic --> Markers{Check Key Markers:<br />Cholesterol, eGFR, Insulin Resistance}
-
-  Markers -->|Low Cholesterol| Preg[Protocol: T3 Therapy + Pregnenolone]
-  Markers -->|High Cholesterol OR<br />Low eGFR OR<br />Insulin Resistance| Strong[Strong Rec: T3 Therapy Only]
-  Markers -->|None Elevated| Mild[Milder T3 Therapy<br />Monitor/Optional]
-
-  Preg --> Liver{Check Liver Enzymes<br />ALT/AST}
-  Strong --> Liver
-  Mild --> Liver
-
-  Liver -->|High ALT/AST| Tudca[Add TUDCA + NAC]
-  Liver -->|Normal| Standard[Continue Standard Protocol]
-
-  style Strong fill:#7f1d1d,stroke:#ef4444,stroke-width:2px,color:#fca5a5
-  style Preg fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
-  style Tudca fill:#1e3a5f,stroke:#3b82f6,stroke-width:2px,color:#93c5fd
-  style Primary fill:#1e293b,stroke:#64748b,stroke-width:2px,stroke-dasharray: 5 5,color:#cbd5e1`;
-
-const chart3 = `graph TD
-  Start["Start: Patient w/ Long COVID Symptoms<br />(Brain Fog, Fatigue, Suspected IR)"] --> Assess{"Assess Baseline:<br />Check IR Markers (HOMA-IR >3)<br />& Liver Function"}
-
-  Assess -->|IR Confirmed| Trial["Initiate Ivermectin Trial<br />(e.g., 12mg/day for 4-6 weeks)<br />Rationale: Reset FXR, Reduce IR"]
-  Assess -->|IR NOT Confirmed| Mock["Rule out other drivers (e.g. Neuro-inflammation).<br />Still consider trial (Low Dose)"]
-
-  Mock --> Trial
-
-  Trial --> Result?{"Result after 4-6 weeks"}
-
-  Result? -->|Improved| Sust{"Monitor Sustainability<br />(3 months)"}
-  Result? -->|No Improvement| Pivot["Pivot Strategy<br />Reassess non-FXR drivers"]
-
-  Pivot --> Alternate["Root Cause First<br />(Fasting / Autophagy)"]
-
-  Sust -->|Stable| Taper["Taper to PRN<br />(Path 1: Reset / Epigenetic Shift)"]
-  Sust -->|Relapse| Maint["Switch to Maintenance Pulse<br />(e.g., 12mg 3-5 days biweekly)"]
-
-  Maint --> Root["Address Root Cause:<br />Fasting / Autophagy Protocols<br />(Clear Viral Reservoirs)"]
-
-  style Trial fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
-  style Pivot fill:#7f1d1d,stroke:#ef4444,stroke-width:2px,color:#fca5a5
-  style Root fill:#713f12,stroke:#eab308,stroke-width:2px,color:#fde047`;
-
 export default function DecisionTreePage() {
   return (
     <>
@@ -169,9 +121,9 @@ export default function DecisionTreePage() {
         "Use Part 0 to find your starting level: Beginner, Intermediate, or Advanced, based on how long you have been sick and how much your daily life is affected. Everyone fasts first. Whether you run T3 is decided by how the fast leaves you.",
         "Fast first, always. T3 first is the exception, and it is for the person who has struggled with fasting, pushed through, kept getting worse with signs of metabolic trouble, and needs a jump start. Log your waking temperature from day one because it is the dial T3 is dosed to later.",
         "T3 is for the post-fast metabolic slowdown, not for everyone. Run hot, hold your weight and feel great after the fast, and you skip it. The long-term sufferer who has tried everything runs fast then T3 at least once to test the water, and weans off if it does little. hGH enters around the third cycle, only when two cycles of fasting plus T3 were not enough.",
-        "Stop the fast immediately if your heart rate goes above 120 bpm, you stop urinating for more than 24 hours, you develop a fever above 100.4F, or you feel confused or delirious. Short of that, feeling worse is a reason to walk, massage and move the system, and to break the fast if it feels really bad or the pain is excruciating.",
+        "Stop the fast immediately if your resting heart rate stays above 120 bpm, you have had no urine for 24 hours, you faint or nearly faint, you become confused or delirious, or your vision blurs; a fever around 38.0°C (100.4°F) means stop and assess, not an automatic end. Short of that, feeling worse is a reason to walk, massage and move the system, and to break the fast if it feels really bad or the pain is excruciating.",
         "Active cancer rules out any multi-day dry fast, and any cancer history is a conversation with me before you start. The full rules are on the contraindications page.",
-        "Your diet history (carnivore vs. high-carb) and your thyroid panel each have their own decision branch: follow the chart that matches your situation.",
+        "Your diet history (carnivore vs. high-carb) has its own decision branch: follow the path that matches your situation.",
       ]} />
 
       <div
@@ -205,12 +157,6 @@ export default function DecisionTreePage() {
           <li>
             <a href="#part1">Part 1: Diet History &amp; Carb Approach</a>
           </li>
-          <li>
-            <a href="#part2">Part 2: T3 Thyroid Assessment</a>
-          </li>
-          <li>
-            <a href="#part3">Part 3: Long COVID, Insulin Resistance (IR) &amp; Ivermectin</a>
-          </li>
         </ul>
       </div>
 
@@ -230,7 +176,11 @@ export default function DecisionTreePage() {
         struggled with fasting, pushed through it, kept getting worse, fasting
         is plainly not working for you, there are signs of metabolic trouble,
         and you need a jump start before the fast can do its job. That is the
-        person I put on a T3 course before the fast. Everyone else fasts first.
+        person I put on a T3 course before the fast. In{" "}
+        <a href="/healing-cycle">healing-cycle</a> terms, that is the person
+        whose body is too far down to get through the fast: the T3 course comes
+        first as a jump start, set with me case by case, and a milder mix of T4
+        and T3 is sometimes the gentler start. Everyone else fasts first.
       </p>
       <p>
         <em>
@@ -349,7 +299,9 @@ export default function DecisionTreePage() {
         texture of the work: go on walks, do massages, move the whole system.
         If it starts to feel really bad, or the pain is excruciating, break the
         fast. While heart rate, temperature, blood pressure and urination look
-        fine, you can continue.
+        fine, you can continue. The full triage is on the{" "}
+        <a href="/symptom-management">Symptom Management</a> page, under
+        Herxheimer vs Warning Sign.
       </p>
       <MermaidCharts charts={[chartStop]} />
 
@@ -377,7 +329,8 @@ export default function DecisionTreePage() {
               <strong>Systolic BP:</strong> &lt; 80 or &gt; 180 mmHg
             </li>
             <li>
-              <strong>Heart Rate:</strong> &gt; 120 or &lt; 40 bpm
+              <strong>Resting Heart Rate:</strong> &gt; 120 bpm sustained, or
+              &lt; 40 bpm
             </li>
             <li>
               <strong>Orthostasis:</strong> Syncope or &gt;30 mmHg systolic drop
@@ -402,6 +355,9 @@ export default function DecisionTreePage() {
             <li>
               <strong>Urine:</strong> 0 ml for &gt; 24h
             </li>
+            <li>
+              <strong>No urine on waking:</strong> a red flag, stop and assess
+            </li>
             <li style={{ fontSize: "0.85em", listStyleType: "none" }}>
               <em>Note: 200-300ml is normal low output.</em>
             </li>
@@ -420,7 +376,9 @@ export default function DecisionTreePage() {
           </h4>
           <ul style={{ marginBottom: 0, paddingLeft: "20px" }}>
             <li>
-              <strong>Sustained Fever:</strong> &gt; 38.0&deg;C (100.4&deg;F)
+              <strong>Fever around 38.0&deg;C (100.4&deg;F):</strong> stop and
+              assess, not an automatic end: read the trend of temperature,
+              blood pressure and heart rate, then decide
             </li>
             <li style={{ fontSize: "0.85em", listStyleType: "none" }}>
               <em>Note: 37.5&deg;C is normal &ldquo;acidotic fire.&rdquo;</em>
@@ -463,45 +421,18 @@ export default function DecisionTreePage() {
 
       <hr style={{ margin: "3rem 0", border: 0, borderTop: "1px solid rgba(255,255,255,0.1)" }} />
 
-      <h2 id="part2">Part 2: T3 Thyroid Assessment</h2>
-      <p>How to evaluate T3 thyroid status.</p>
-      <MermaidCharts charts={[chart2]} />
-
-      <hr style={{ margin: "3rem 0", border: 0, borderTop: "1px solid rgba(255,255,255,0.1)" }} />
-
-      <h2 id="part3">
-        Part 3: Long COVID, Insulin Resistance (IR) &amp; Ivermectin
-      </h2>
-
       <p>
-        <strong>
-          Model for Long covid therapeutics like Ivermectin, Ketotifen, etc.
-        </strong>
+        Not everyone needs T3, and a thyroid panel alone does not decide who
+        does. It is for the person who comes out of the fast and the refeed
+        still cold, with whole-body and brain fatigue that does not lift; who
+        needs it, and when it starts, is set out on the{" "}
+        <a href="/t3-therapy">T3 Therapy</a> page.
       </p>
       <p>
-        There are a few supplements around calming the immune system and
-        reducing inflammation that can be used to treat long covid symptoms. One
-        of the more powerful and consistent helpers is Ivermectin
+        Ivermectin sits in this protocol as a supportive antiviral and the
+        primary antiparasitic; how it fits is on the{" "}
+        <a href="/viral-reactivation">Viral Reactivation</a> page.
       </p>
-      <MermaidCharts charts={[chart3]} />
-
-      <div className="guiding-questions" style={{ marginTop: "2rem" }}>
-        <h3>Key Takeaways</h3>
-        <ul>
-          <li>
-            <strong>The Bridge:</strong> Ivermectin acts as a metabolic bridge,
-            offering quick wins via liver/IR optimization.
-          </li>
-          <li>
-            <strong>Durability:</strong> Long-term success often hinges on
-            eradicating viral reservoirs through autophagy (fasting).
-          </li>
-          <li>
-            <strong>Maintenance:</strong> Pulsing holds most of the gains
-            long-term while avoiding tolerance.
-          </li>
-        </ul>
-      </div>
 
       <RefeedPlanPromo source="decision-tree" />
       <GuidanceBox />
