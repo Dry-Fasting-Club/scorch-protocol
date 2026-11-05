@@ -46,11 +46,11 @@ const faqItems = [
   },
   {
     question: "How do I wake up my kidneys safely?",
-    answer: "Do not chug water. Your kidneys have been in hibernate mode (high ADH) and are tightly constricted. Flooding them suddenly with liter-sized volumes can cause washout shock, cramping, and potential cellular damage. Sip 100 mL (3-4 oz) per hour for the first 4-6 hours. The first urine may take 4-8 hours to appear as the body sponges up the first liter to rehydrate blood and brain before allowing urination.",
+    answer: "Do not chug water. Your kidneys have been in hibernate mode (high ADH) and are tightly constricted. Hitting them suddenly with liter-sized volumes can cause washout shock, cramping, and potential cellular damage. Start with plain water, room temperature, in small sips: about a cup (200 to 250 ml) an hour, 1 litre at most over the first 4 hours. Once you are urinating normally, kompot (a weak unsweetened fruit infusion) joins at the same pace; coconut water waits for day 2. The first urine may take 4 to 8 hours to appear as the body sponges up the first litre to rehydrate blood and brain before allowing urination.",
   },
   {
     question: "Will dehydration cause kidney stones?",
-    answer: "Chronic dehydration causes stones. Acute therapeutic dehydration (dry fasting) usually does not, provided you refeed correctly. The study observed 0 cases of acute stone formation in 3-day dry fasts. However, the high acidity (acidotic crisis) could theoretically precipitate uric acid stones in susceptible individuals. The flush phase during the refeed (citrus juices, baking soda water) is critical to alkalize the urine and dissolve any potential sediment.",
+    answer: "Chronic dehydration causes stones. Acute therapeutic dehydration (dry fasting) usually does not, provided you refeed correctly. The study observed 0 cases of acute stone formation in 3-day dry fasts. However, the high acidity (acidotic crisis) could theoretically precipitate uric acid stones in susceptible individuals. What protects you is the refeed ladder: plain water first, about a cup an hour and 1 litre at most over the first 4 hours, then kompot once you are urinating normally, so the urine is flowing again before anything heavier goes in.",
   },
 ];
 
@@ -330,18 +330,24 @@ export default function KidneysPage() {
             <p>
               <strong>DO NOT chug water.</strong> Your kidneys have been in
               &ldquo;Hibernate Mode&rdquo; (High ADH) and are tightly
-              constricted to save water. Flooding them suddenly with liter-sized
+              constricted to save water. Hitting them suddenly with liter-sized
               volumes can cause &ldquo;washout&rdquo; shock, cramping, and
               potential cellular damage.
             </p>
           </div>
           <div className="faq-data-box faq-data-blue">
             <strong>🧪 The Protocol:</strong>
-            <br />- <strong>Rate:</strong> Sip 100mL (3-4 oz) per hour for the
-            first 4-6 hours.
-            <br />- <strong>First Urine:</strong> May take 4-8 hours to appear.
-            This is normal. The body sponges up the first liter of water to
-            rehydrate the blood and brain before it lets you pee.
+            <br />- <strong>What goes in:</strong> Plain water first, room
+            temperature, in small sips. Once you are urinating normally, kompot
+            (a weak unsweetened fruit infusion) joins at the same pace. Coconut
+            water waits for day 2.
+            <br />- <strong>Rate:</strong> About a cup (200 to 250 ml) an hour,
+            1 litre at most over the first 4 hours. No gulping.
+            <br />- <strong>First Urine:</strong> May take 4 to 8 hours to
+            appear. This is normal. The body sponges up the first litre of water
+            to rehydrate the blood and brain before it lets you pee.
+            <br />
+            The full day-1 ladder is on the <a href="/refeeding">Refeed</a> page.
           </div>
         </div>
 
@@ -362,9 +368,10 @@ export default function KidneysPage() {
             The study observed <strong>0</strong> cases of acute stone
             formation in 3-day dry fasts. However, the high acidity (Acidotic
             Crisis) could theoretically precipitate uric acid stones in
-            susceptible individuals. The &ldquo;flush&rdquo; phase during the
-            refeed (citrus juices, baking soda water) is critical to alkalize
-            the urine and dissolve any potential sediment.
+            susceptible individuals. What protects you is the refeed ladder:
+            plain water first, about a cup an hour and 1 litre at most over the
+            first 4 hours, then kompot once you are urinating normally, so the
+            urine is flowing again before anything heavier goes in.
           </div>
         </div>
 

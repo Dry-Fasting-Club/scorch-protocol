@@ -99,10 +99,12 @@ export default function EbvChronicFatiguePage() {
         Long Covid disease model: SARS-CoV-2 spike protein persisting in tissue
         drives chronic immune activation, and that immune dysregulation repeatedly
         stresses the latent virus into reactivation. EBV reactivation then feeds
-        back into the same cascade, adding mast cell activation, histamine floods,
+        back into the same cascade, adding mast cell activation, histamine surges,
         and lymph node inflammation on top of the underlying Long Covid biology.
         The result is a patient who is stuck in a loop: the virus drives the
-        immune dysfunction, and the immune dysfunction drives the virus.
+        immune dysfunction, and the immune dysfunction drives the virus; the{" "}
+        <Link href="/healing-cycle">healing cycle page</Link> explains why
+        that loop is so hard to break from outside.
       </p>
       <p>
         HHV-6 and HSV are part of the same family and follow the same pattern.
@@ -155,50 +157,6 @@ export default function EbvChronicFatiguePage() {
         inhospitable environment for EBV replication your body can produce.
       </p>
 
-      <div className="guiding-questions box-success">
-        <h3>The Four Antiviral Mechanisms Active During the Dry Fast</h3>
-        <div className="question-item">
-          <span className="question-label">1. Autophagy clears the cells EBV hides in</span>
-          Autophagy is the body&rsquo;s cellular recycling program. It reaches
-          inside cells and digests damaged or virus-occupied machinery, including
-          the B cells where EBV sits latent. This is the mechanism that gets
-          EBV out of hiding. Beth Levine&rsquo;s landmark work established
-          autophagy as a primary innate antiviral defence (Levine et al., 2011,{" "}
-          <em>Nature</em>). Dry fasting drives autophagy harder than any other
-          known intervention because it removes both the food signal and the
-          water signal at the same time, sending a maximal clean-house
-          instruction to every cell.
-        </div>
-        <div className="question-item">
-          <span className="question-label">2. Ketones starve viral metabolism</span>
-          By Day 2 of a dry fast, the body has shifted to burning
-          beta-hydroxybutyrate (a ketone body) rather than glucose. Most
-          pathogenic viruses depend on glycolytic pathways that glucose
-          metabolism feeds. Ketone metabolism does not supply those pathways
-          at the same level. Beta-hydroxybutyrate also has direct signalling
-          effects that suppress the NLRP3 inflammasome and shift the cellular
-          environment in ways unfavourable to viral protein synthesis.
-        </div>
-        <div className="question-item">
-          <span className="question-label">3. mTOR suppression removes the replication signal</span>
-          EBV cannot make its own protein synthesis machinery. It hijacks the
-          host cell&rsquo;s cap-dependent translation system, and the master
-          switch for that system is mTOR. Fasting, especially dry fasting,
-          suppresses mTOR profoundly. Without mTOR activation, viral proteins
-          cannot be efficiently assembled. The fasted body becomes a free,
-          system-wide mTOR blocker.
-        </div>
-        <div className="question-item">
-          <span className="question-label">4. NK cells become more active, and the immune system renews from stem cells</span>
-          Cheng et al. (2014, <em>Cell Stem Cell</em>) showed that prolonged
-          fasting triggers haematopoietic stem cell self-renewal: the body
-          begins rebuilding the immune system from scratch. Natural Killer (NK)
-          cells, which destroy virus-infected cells before adaptive immunity is
-          even involved, become more active relative to the ambient viral load.
-          The fasted immune system is not weakened. It is being restructured.
-        </div>
-      </div>
-
       <p>
         The result is that most people with a chronic EBV burden get through a
         dry fast without any viral flare, even if they have had monthly
@@ -206,6 +164,26 @@ export default function EbvChronicFatiguePage() {
         environment your body is capable of producing without pharmaceutical
         intervention.
       </p>
+
+      <div className="guiding-questions box-info">
+        <h3>The Mechanisms in Brief</h3>
+        <p>
+          During the dry fast four defences work against EBV at once:
+          autophagy clears the B cells it hides in, ketones starve viral
+          metabolism, mTOR suppression removes the replication signal, and NK
+          cells grow more active while the immune system renews. In the first
+          24 to 72 hours of the refeed those defences come down together and
+          five vulnerabilities open: mTOR switches back on, autophagy shuts
+          off, T cells are still in the bone marrow, cortisol is still high,
+          and T3 has crashed. The water fast bridge holds the fasted state
+          while the organs rehydrate, lets L-lysine return on water day 1, and
+          gives cortisol time to fall and the T cells time to start coming
+          back. Valacyclovir never goes in during a fast, dry or water: it
+          starts on refeed day 3 at the earliest. Each mechanism, with the
+          research behind it, is on the{" "}
+          <Link href="/viral-reactivation">Viral Reactivation</Link> page.
+        </p>
+      </div>
 
       <h2>The Danger: EBV Reactivation in the Refeed Window</h2>
       <p>
@@ -221,52 +199,6 @@ export default function EbvChronicFatiguePage() {
         body has near-zero antiviral capacity at precisely the moment viral
         particles are being released from autophagically cleared cells.
       </p>
-
-      <div className="guiding-questions box-danger">
-        <h3>The Five Vulnerabilities That Open When the Refeed Begins</h3>
-        <div className="question-item">
-          <span className="question-label">1. mTOR switches back on within hours of the first meal</span>
-          The first calories (even kompot or coconut water) send an insulin
-          and amino acid signal that reactivates mTOR. Cap-dependent translation resumes. Viral protein
-          synthesis resumes on the same cellular machinery, at the same time as
-          your own. Any latent EBV now has the green light to replicate.
-        </div>
-        <div className="question-item">
-          <span className="question-label">2. Autophagy shuts down as soon as calories return</span>
-          The signal that drove autophagy was nutrient absence. The moment
-          calories return, autophagy is downregulated within hours. Newly
-          emerging viral particles are no longer being cleared at the cellular
-          level.
-        </div>
-        <div className="question-item">
-          <span className="question-label">3. Circulating T-cells have not yet returned to the bloodstream</span>
-          Research documented on the Viral Reactivation page (Nagai et al.,
-          2019, <em>Immunity</em>) showed that fasting relocates memory T-cells
-          from circulation into the bone marrow. The CD8+ T-cells that normally
-          contain herpesvirus reactivation within 12 to 24 hours take days to
-          fully redistribute back to the blood after refeeding starts. During
-          that lag, the surveillance system is physically not where it needs to be.
-        </div>
-        <div className="question-item">
-          <span className="question-label">4. Cortisol is still at its peak, which is the canonical herpesvirus trigger</span>
-          Cortisol peaks late in a dry fast and stays elevated for days into the
-          refeed. The research cited on the Viral Reactivation page established
-          that a glucocorticoid spike alone is sufficient to trigger HSV-1
-          reactivation, and that adrenalectomy abolished the effect. The exact
-          biological signal that tells latent herpesviruses including EBV to
-          wake up is at its highest concentration during the refeed window.
-        </div>
-        <div className="question-item">
-          <span className="question-label">5. T3 has crashed, and antiviral immune signalling is blunted</span>
-          Free T3 drops measurably during an extended fast. In my model, T3
-          directly potentiates Type I interferon signalling and NK cell
-          cytotoxicity.
-          The interferon response is the arm of the immune system that
-          specifically controls latent viruses, and it depends on T3 to run at
-          full strength. Low T3 means blunted antiviral response, exactly
-          when the refeed vulnerability window is open.
-        </div>
-      </div>
 
       <p>
         What makes this particularly dangerous for someone with a high chronic
@@ -294,34 +226,6 @@ export default function EbvChronicFatiguePage() {
         separates itself from every recreational fasting program.
       </p>
 
-      <div className="guiding-questions box-info">
-        <h3>What the Water Fast Bridge Accomplishes</h3>
-        <div className="question-item">
-          <span className="question-label">Rehydrates organs while preserving the antiviral state</span>
-          Plain water rehydrates the kidneys, liver, and intestines so they can
-          metabolise oral medications. But because there are still no calories,
-          mTOR stays suppressed, autophagy stays active, and ketones stay
-          elevated. The protective fasted state continues. You just have working
-          organs again.
-        </div>
-        <div className="question-item">
-          <span className="question-label">Lets L-lysine return before food does</span>
-          You cannot safely take oral T3 or antiviral agents during a dry fast.
-          Without renal water flow, dosing and clearance kinetics are wrong.
-          The water bridge rehydrates the organs while preserving the antiviral
-          metabolic state, and L-lysine comes back on water day 1. Prescription
-          antivirals wait for the refeed: water fasting still purges water
-          through the kidneys, so the body stays dehydrated on the water days,
-          and valacyclovir starts on refeed day 3 at the earliest.
-        </div>
-        <div className="question-item">
-          <span className="question-label">Cortisol begins to descend</span>
-          Water intake reduces the perceived stress signal. Cortisol begins its
-          descent from peak. The herpesvirus reactivation trigger weakens before
-          the refeed even starts.
-        </div>
-      </div>
-
       <p>
         On top of the water fast bridge, the protocol builds an antiviral stack
         in two stages. The natural layer is in place before the first calorie
@@ -331,9 +235,10 @@ export default function EbvChronicFatiguePage() {
         other herpesviruses depend on to enter new cells. Valacyclovir, the
         standing prescription backbone, joins on refeed day 3 at the earliest,
         after two days of eating with heavy rehydration, and then runs daily
-        through the months between fasts. An immune-rebuilding
-        layer using thymic peptides runs in parallel to accelerate the return of
-        T-cell function. T3 itself is deliberately held until you have scaled
+        through the months between fasts. An immune-rebuilding thymic
+        peptide, to speed the return of T-cell function, is a special case I
+        set with people individually, never before refeed day 8. T3 itself is
+        deliberately held until you have scaled
         food for a full seven days of refeed, so through this window it is the
         antiviral stack, not T3, that holds the line. In my model, once T3
         begins after refeed day 7, it restores the Type I interferon signalling
@@ -354,10 +259,11 @@ export default function EbvChronicFatiguePage() {
       <p>
         Multiple cycles compound this effect. The first cycle reduces the EBV
         reservoir. Each subsequent cycle, managed correctly, reduces it further.
-        By cycle three or four, most patients report dramatically reduced
-        reactivation symptoms even with a less aggressive antiviral stack. The
-        goal is not indefinite suppression; it is progressive reduction of the
-        total viral burden over the course of repeated, well-managed cycles.
+        By cycle three or four, people who cover the refeed report far fewer
+        reactivation symptoms than those who do not; that is my experience,
+        not a measured rate. The goal is not indefinite suppression; it is
+        progressive reduction of the total viral burden over the course of
+        repeated, well-managed cycles.
       </p>
 
       <div className="guiding-questions box-danger">
@@ -416,16 +322,6 @@ export default function EbvChronicFatiguePage() {
             citation: "Gold JE, Okyay RA, Licht WE, Hurley DJ. Investigation of Long COVID Prevalence and Its Relationship to Epstein-Barr Virus Reactivation. Pathogens, 2021;10(6):763.",
             href: "https://doi.org/10.3390/pathogens10060763",
             note: "66% of Long Covid patients showed active EBV reactivation",
-          },
-          {
-            citation: "Levine B, Mizushima N, Virgin HW. Autophagy in immunity and inflammation. Nature, 2011;469(7330):323–335.",
-            href: "https://doi.org/10.1038/nature09782",
-            note: "autophagy as a primary innate antiviral defense",
-          },
-          {
-            citation: "Cheng CW, Adams GB, Perin L, et al. Prolonged Fasting Reduces IGF-1/PKA to Promote Hematopoietic-Stem-Cell-Based Regeneration and Reverse Immunosuppression. Cell Stem Cell, 2014;14(6):810–823.",
-            href: "https://doi.org/10.1016/j.stem.2014.04.014",
-            note: "prolonged fasting regenerates the immune system from hematopoietic stem cells",
           },
         ]}
       />

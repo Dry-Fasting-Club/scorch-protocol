@@ -81,17 +81,17 @@ export default function MembershipPage() {
         <div className="pillar-item" style={{ borderLeftColor: "#27ae60" }}>
           <h3>Member</h3>
           <p>
-            Everything in Starter, plus more questions each month, progress
-            photos, and the therapy-timing layer added to your refeed plan: when
-            to bring in T3, gut repopulation, antivirals, and the rest.
+            Everything in Starter, plus more questions each month and the
+            therapy-timing layer added to your refeed plan: when to bring in T3,
+            gut repopulation, antivirals, and the rest.
           </p>
         </div>
         <div className="pillar-item" style={{ borderLeftColor: "#8e44ad" }}>
           <h3>Inner Circle</h3>
           <p>
             Everything in Member, plus the most questions each month, priority on
-            your answers, and direct 1-on-1 help: your exact doses worked out
-            with me, and my verified, current supplier contacts for
+            your answers, and direct help: your exact doses worked out with me,
+            and my verified, current supplier contacts for
             slow-release T3, peptides, hGH, and cyproheptadine.
           </p>
         </div>

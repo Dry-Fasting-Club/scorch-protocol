@@ -4,7 +4,6 @@ import GuidanceBox from "@/components/GuidanceBox";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import JsonLd from "@/components/JsonLd";
-import ReferencesSection from "@/components/ReferencesSection";
 import { medicalWebPageLd, faqPageLd } from "@/lib/structured-data";
 
 export const metadata: Metadata = {
@@ -103,7 +102,9 @@ export default function DryFastingForPotsPage() {
         depends on reliable vascular signaling. When the endothelium is damaged, the
         baroreceptors that tell the heart how fast to beat when you stand up start failing.
         The result is POTS: a racing heart on standing, dizziness, and the whole set of
-        dysautonomia symptoms.
+        dysautonomia symptoms. In the <Link href="/healing-cycle">healing-cycle</Link> model,
+        the vagal signalling that steadies your heart when you stand is one of the last things
+        to come back, which is one reason POTS can linger after the infection has gone.
       </p>
 
       <p>
@@ -176,10 +177,10 @@ export default function DryFastingForPotsPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Orthostatic stress</span>
-          The stop-signals for any Scorch Protocol fast include sustained heart rate above 120
-          bpm, blood pressure below 80 or above 180 mmHg, and syncope or an orthostatic drop of
-          more than 30 mmHg systolic. POTS patients are closer to those thresholds on a baseline
-          day, let alone during a fast.
+          The stop signals for any Scorch Protocol fast include a resting heart rate sustained
+          above 120 bpm, systolic blood pressure under 80 or over 180 mmHg, and fainting or a
+          standing drop of more than 30 mmHg. POTS patients are closer to those thresholds on a
+          baseline day, let alone during a fast.
         </div>
       </div>
 
@@ -251,21 +252,10 @@ export default function DryFastingForPotsPage() {
           you begin anything. That gives you a real baseline to compare against during and after.
         </div>
         <div className="question-item">
-          <span className="question-label">Check baseline temperature</span>
-          The <Link href="/decision-tree">Decision Logic Tree</Link> asks for a logged waking
-          temperature before fasting. Long Covid and ME/CFS patients often run cold because the
-          thyroid axis is suppressed, and that reading is the dial the T3 course is dosed to
-          after the fast. The order is still fast first. T3 before the fast is only for the
-          person who has already struggled through fasts, kept getting worse and shows signs of
-          metabolic trouble; with POTS on top, that history is a case to run past me with your
-          numbers before you plan anything.
-          <br />
-          <em>
-            What the evidence says: that history is my clinical rule. The literature has no
-            published criterion for who needs T3 after a fast; the nearest objective candidate
-            is the low free T3 and high reverse T3 pattern measured in chronic fatigue patients
-            (Ruiz-Nunez 2018), which is a blood test, not a screen.
-          </em>
+          <span className="question-label">Log your waking temperature, and fast first</span>
+          Fast first, always; T3 first only for the person who has struggled with fasting and
+          kept getting worse; the reasoning and the evidence are on the{" "}
+          <Link href="/decision-tree#baselinetemp">decision tree</Link>.
         </div>
         <div className="question-item">
           <span className="question-label">Build gradually, starting shorter</span>
@@ -276,12 +266,15 @@ export default function DryFastingForPotsPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Know your stop signals</span>
-          The protocol&rsquo;s stop signals include: resting heart rate sustained above 120 bpm,
-          systolic blood pressure below 80 or above 180 mmHg, syncope or an orthostatic drop of
-          more than 30 mmHg, no urination for 24 hours, sustained fever above 38.0&deg;C, or
-          severe confusion. With POTS, heart rate and orthostatic thresholds deserve extra
-          vigilance. Break the fast immediately if any signal is met. See the full
-          <Link href="/decision-tree"> Decision Logic Tree</Link> for the complete triage chart.
+          Break the fast if your resting heart rate stays above 120 bpm or falls under 40, your
+          systolic blood pressure stays under 80 or goes over 180 mmHg or drops more than 30
+          mmHg when you stand, you faint or nearly faint, you become confused or your vision
+          blurs, you lose more than 5 to 7 percent of your weight in 24 hours, your core
+          temperature falls below 35&deg;C, or you have had no urine for 24 hours; a fever
+          around 38.0&deg;C (100.4&deg;F), or waking with no urine at all, means stop and
+          assess. With POTS, the heart rate and standing thresholds deserve extra vigilance.
+          The full list is on the <Link href="/symptom-management#stop-rules">Symptom Management</Link>{" "}
+          page, under Herxheimer vs Warning Sign.
         </div>
         <div className="question-item">
           <span className="question-label">Rehydrate slowly</span>
@@ -328,8 +321,8 @@ export default function DryFastingForPotsPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Blood volume support</span>
-          The mindfulness and neurology page notes that chronic illness frequently comes with low
-          blood volume, contributing to lightheadedness and brain fog. Restoring blood volume is
+          Chronic illness frequently comes with low blood volume, contributing to
+          lightheadedness and brain fog. Restoring blood volume is
           a prerequisite for proper tissue and brain perfusion. Adequate hydration and sodium
           intake on non-fasting days matter here.
         </div>
@@ -380,17 +373,6 @@ export default function DryFastingForPotsPage() {
 
       <RefeedPlanPromo source="dry-fasting-for-pots" />
       <GuidanceBox />
-
-      <ReferencesSection
-        refs={[
-          {
-            citation:
-              "Ruiz-Nunez B, Tarasse R, Vogelaar EF, Janneke Dijck-Brouwer DA, Muskiet FAJ. Higher Prevalence of \"Low T3 Syndrome\" in Patients With Chronic Fatigue Syndrome: A Case-Control Study. Front Endocrinol (Lausanne), 2018;9:97. PMID 29615976. DOI 10.3389/fendo.2018.00097.",
-            href: "https://doi.org/10.3389/fendo.2018.00097",
-            note: "the nearest thing to a published criterion for who might need T3 after a fast: chronic fatigue patients carried lower free T3 and total T3 and more reverse T3 than matched controls at a similar TSH; a blood pattern, not the history-and-temperature screen used here",
-          },
-        ]}
-      />
     </>
   );
 }

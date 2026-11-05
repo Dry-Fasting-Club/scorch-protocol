@@ -36,7 +36,7 @@ const faqItems = [
   },
   {
     question: "What if I lose too much weight?",
-    answer: "Weight loss is normal during a fast, but much of it is water. Most people gain some weight back during the refeed. The 9-Month BMR Reconstruction plan shows that most participants regained weight after a prolonged period of reduced intake, indicating the metabolism slows after a fast. If you do not have a pancreatic insulin problem, you will regain weight after a fast when eating enough calories.",
+    answer: "Weight loss is normal during a fast, but much of it is water. Most people gain some weight back during the refeed. The 9-Month BMR Reconstruction plan shows that people regained weight after a prolonged period of reduced intake, indicating the metabolism slows after a fast. If you do not have a pancreatic insulin problem, you will regain weight after a fast when eating enough calories.",
   },
   {
     question: "Why do I need hGH therapy?",
@@ -48,7 +48,7 @@ const faqItems = [
   },
   {
     question: "What should I do if my heart races?",
-    answer: "If your resting heart rate goes above 100 beats per minute during T3 therapy or fasting, stop increasing your dose or consider breaking the fast. Always prioritize safety and listen to your body's warning signs. A resting heart rate above 100 bpm is the key threshold for both T3 therapy and fasting.",
+    answer: "The rule depends on what you are doing. On T3, a resting heart rate sustained above 100 bpm means stop increasing the dose, then hold or lower it. During a fast, a resting heart rate sustained above 120 bpm breaks the fast. Both are read at rest. Always prioritize safety and listen to your body's warning signs.",
   },
   {
     question: "How long does the whole protocol take?",
@@ -56,7 +56,7 @@ const faqItems = [
   },
   {
     question: "Where do I get slow-release T3, peptides, or hGH?",
-    answer: "This is the single most common question, and it is the hardest part of the whole protocol. Most doctors will not prescribe slow-release T3, so if yours will, take that route first. When the prescription route is closed, chronic-illness.st is my source for slow-release T3, and IdeaLabs Tyronene or Tyromix is the third option. The peptide and hGH markets are full of fakes. The public list of pharmacies on this site carries that order plus standard liothyronine and the basics. The verified, current supplier contacts for slow-release T3, peptides, hGH, and cyproheptadine, plus exactly what to order and how to dose it, are part of 1-on-1 coaching. They are kept private on purpose, because good sources stop working the moment they are posted publicly.",
+    answer: "This is the single most common question, and it is the hardest part of the whole protocol. Most doctors will not prescribe slow-release T3, so if yours will, take that route first. When the prescription route is closed, chronic-illness.st is my source for slow-release T3, and IdeaLabs Tyronene or Tyromix is the third option. The peptide and hGH markets are full of fakes. The public list of pharmacies on this site carries that order plus standard liothyronine and the basics. The verified, current supplier contacts for slow-release T3, peptides, hGH, and cyproheptadine, plus exactly what to order and how to dose it, are shared when we work together directly. They are kept private on purpose, because good sources stop working the moment they are posted publicly.",
   },
 ];
 
@@ -129,8 +129,8 @@ export default function GeneralQuestionsPage() {
         <p>
           Weight loss is normal during a fast, but much of it is water. Most
           people gain some weight back during the refeed. The 9-Month BMR
-          Reconstruction plan is designed to show you that most participants
-          regained much more weight after a long period of starvation,
+          Reconstruction plan is designed to show you that people regained
+          much more weight after a long period of starvation,
           indicating that your metabolism slows down significantly after a fast
           (probably not as much compared to a restrictive diet which is more
           indicative of starvation). Point being, if you don&rsquo;t have a
@@ -170,12 +170,14 @@ export default function GeneralQuestionsPage() {
 
         <h3>9. What should I do if my heart races?</h3>
         <p>
-          If your resting heart rate goes above 100 beats per minute during T3
-          therapy or fasting, <strong>stop increasing</strong> your dose or
-          consider breaking the fast. Always prioritize safety and listen to
-          your body&rsquo;s warning signs. For T3 over 100 beats during rest is
-          indicative of going too high. For fasting, it is also tracked during
-          rest.
+          The rule depends on what you are doing. On T3, a resting heart rate
+          sustained above 100 bpm means <strong>stop increasing</strong> the
+          dose, then hold or lower it. During a fast, a resting heart rate
+          sustained above 120 bpm breaks the fast. Both are read at rest.
+          Always prioritize safety and listen to your body&rsquo;s warning
+          signs; the full stop rules for the fast are on the{" "}
+          <Link href="/symptom-management#stop-rules">Symptom Management</Link>{" "}
+          page.
         </p>
 
         <h3>10. How long does the whole protocol take?</h3>

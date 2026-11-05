@@ -54,7 +54,7 @@ const faqItems = [
   },
   {
     question: "When can I go back to \"normal\" eating?",
-    answer: "The Khoroshilov standard is: refeed length equals fast length. In the Scorch Protocol the full fasting block is 10 days (5 dry + 5 water), so be strict for at least 10 days. After that you are biologically safe, but for maximum tissue remodeling the protocol recommends extending the High Carb/Low Fat phase for 2 to 4 weeks to maximize stem cell differentiation and thyroid restoration. Whatever you eat in those first two weeks, refeed days 1 to 14 are also a mutagen holiday: no alcohol, nicotine, smoked, charred or processed meat, mouldy food, sunburn, elective scans or new drugs you do not need. That rule rests on one mouse study and has not been measured in people; it costs nothing to keep.",
+    answer: "The Khoroshilov standard is: refeed length equals fast length. In the Scorch Protocol the full fasting block is 10 days (5 dry + 5 water), so be strict for at least 10 days. After that you are biologically safe, but for maximum tissue remodeling the protocol recommends extending the High Carb/Low Fat phase for 2 to 4 weeks so the new cells can settle in and the thyroid can recover. Whatever you eat in those first two weeks, the consolidation window's mutagen rules hold for refeed days 1 to 14: no alcohol, nicotine, smoked, charred or processed meat, mouldy food, sunburn, elective scans or new drugs you do not need. The rules rest on one mouse study and have not been measured in people; they cost nothing to keep.",
   },
 ];
 
@@ -310,16 +310,17 @@ export default function RefeedingFaqPage() {
               + 5 water), so be strict for at least 10 days. After that, you
               are biologically &ldquo;safe,&rdquo; but for maximum tissue
               remodeling, the Scorch Protocol recommends extending the &ldquo;High
-              Carb/Low Fat&rdquo; phase for 2–4 weeks to maximize stem cell
-              differentiation and thyroid restoration.
+              Carb/Low Fat&rdquo; phase for 2 to 4 weeks so the new cells can
+              settle in and the thyroid can recover.
             </p>
             <p>
-              Whatever you eat in those first two weeks, refeed days 1 to 14
-              are also a <strong>mutagen holiday</strong>: no alcohol,
+              Whatever you eat in those first two weeks,{" "}
+              <strong>the consolidation window&rsquo;s mutagen rules</strong>{" "}
+              hold for refeed days 1 to 14: no alcohol,
               nicotine, smoked, charred or processed meat, mouldy food,
-              sunburn, elective scans or new drugs you do not need. The rule
-              rests on one mouse study and has not been measured in people; it
-              costs nothing to keep. The reasoning is on the{" "}
+              sunburn, elective scans or new drugs you do not need. The rules
+              rest on one mouse study and have not been measured in people; they
+              cost nothing to keep. The reasoning is on the{" "}
               <a href="/refeeding#mutagen-holiday">Refeed page</a>.
             </p>
           </div>
@@ -327,7 +328,7 @@ export default function RefeedingFaqPage() {
 
       </div>
 
-      {/* FaithBlock hidden for now — to restore, remove the `false && (` wrapper and matching `)` */}
+      {/* FaithBlock hidden for now: to restore, remove the `false && (` wrapper and matching `)` */}
       {false && (
       <FaithBlock
         title="At the Proper Time We Will Reap if We Do Not Give Up"
@@ -336,7 +337,7 @@ export default function RefeedingFaqPage() {
           <strong>Galatians 6:9: &ldquo;Let us not become weary in doing good, for at the proper time we will reap a harvest if we do not give up.&rdquo;</strong>
         </p>
         <p>
-          The refeeding phase demands patience in a culture that has none. I have worked directly with dozens of people through this phase, and seen many more report their outcomes through surveys. The ones who healed most fully were not the ones who rushed. They were the ones who finally, after years of fighting their own body, learned to cooperate with it. Every question on this page is ultimately a question about trust. <strong>At the proper time you will reap. Do not give up.</strong>
+          The refeeding phase demands patience in a culture that has none. The people who healed most fully were not the ones who rushed. They were the ones who finally, after years of fighting their own body, learned to cooperate with it. Every question on this page is ultimately a question about trust. <strong>At the proper time you will reap. Do not give up.</strong>
         </p>
       </FaithBlock>
       )}

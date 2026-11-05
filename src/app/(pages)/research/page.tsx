@@ -25,7 +25,7 @@ const MODERN: Ref[] = [
     title:
       "Anthropometric, Hemodynamic, Metabolic, and Renal Responses during 5 Days of Food and Water Deprivation",
     authors: "Papagiannopoulos IA, Sideris VI, Boschmann M, Koutsoni OS, Dotsika EN",
-    source: "Forschende Komplementärmedizin (Research in Complementary Medicine), 2013; 20(6):427–433",
+    source: "Forschende Komplementärmedizin (Research in Complementary Medicine), 2013; 20(6):427-433",
     href: "https://doi.org/10.1159/000357718",
     shows:
       "In healthy adults, five days of total food and water deprivation was hemodynamically stable (blood pressure and heart rate steady, no arrhythmias, no clinical dehydration), with mean weight loss ~1.4 kg/day. Kidney filtration (GFR) rose rather than fell. This is the clinical backbone for the safety framing of a supervised dry fast.",
@@ -36,7 +36,7 @@ const MODERN: Ref[] = [
     authors: "Cahill GF Jr.",
     source: "New England Journal of Medicine, 1970 (foundational review)",
     shows:
-      "The classic map of fasting metabolism: glycogen depletion in the first 24 hours, gluconeogenesis breaking down muscle protein in the 24–72 hour window, then the brain shifting to ketones (glucose demand falling from ~100 g/day to <40 g/day) and muscle breakdown sparing once ketosis is established. Underpins the day-by-day physiology and the case for pairing T3 with adequate fuel.",
+      "The classic map of fasting metabolism: glycogen depletion in the first 24 hours, gluconeogenesis breaking down muscle protein in the 24 to 72 hour window, then the brain shifting to ketones (glucose demand falling from ~100 g/day to <40 g/day) and muscle breakdown sparing once ketosis is established. Underpins the day-by-day physiology and the case for pairing T3 with adequate fuel.",
     phase: { label: "T3 Therapy", href: "/t3-therapy" },
   },
 ];
@@ -60,7 +60,7 @@ const MECHANISM: Ref[] = [
     title: "Kinetics of osmotic stress regulate a cell-fate switch",
     source: "Osmotic-stress cell-biology literature",
     shows:
-      "How the timing and intensity of osmotic stress push cells toward adaptation versus clearance — relevant to why dry-fast duration and refeed timing matter.",
+      "How the timing and intensity of osmotic stress push cells toward adaptation versus clearance, relevant to why dry-fast duration and refeed timing matter.",
     phase: { label: "Refeeding", href: "/refeeding" },
   },
 ];
@@ -87,7 +87,7 @@ const DRY_FASTING_SERIES: Ref[] = [
   {
     title: "Influence of absolute (dry) fasting on metabolic processes and organ function",
     shows:
-      "Profound insulin suppression and a large improvement in insulin sensitivity (HOMA-IR) during dry fasting — the metabolic reset the protocol builds on.",
+      "Profound insulin suppression and a large improvement in insulin sensitivity (HOMA-IR) during dry fasting: the metabolic reset the protocol builds on.",
     phase: { label: "T3 Therapy", href: "/t3-therapy" },
   },
   {
@@ -99,7 +99,7 @@ const DRY_FASTING_SERIES: Ref[] = [
   {
     title: "Absolute fasting: the effect of the complete absence of food and water on the human body",
     shows:
-      "Metabolic-water production (~0.5–0.8 L/day) from the oxidation of fat and glycogen, the mechanism by which the body 'drinks' its own fat during a dry fast.",
+      "Metabolic-water production (~0.5 to 0.8 L/day) from the oxidation of fat and glycogen, the mechanism by which the body 'drinks' its own fat during a dry fast.",
     phase: { label: "Dry Fasting", href: "/dry-fasting" },
   },
 ];
@@ -462,7 +462,7 @@ const REFEED_WINDOW: Ref[] = [
     source: "Nature, 2024;633(8031):895-904. PMID 39169180",
     href: "https://doi.org/10.1038/s41586-024-07840-z",
     shows:
-      "In mice after a 24-hour fast, intestinal stem-cell proliferation and protein synthesis peaked at the end of the first day of refeeding, above mice that never fasted, driven by insulin, mTORC1 and polyamine synthesis. Deleting a tumour-suppressor gene in that window produced more tumours than in mice that kept eating or stayed fasted, and blocking the growth signal (rapamycin, a polyamine-synthesis inhibitor or a protein-synthesis blocker) removed the excess. No chemical mutagen was used and there are no human data. The whole basis for the refeed's mutagen holiday, carried as a precaution, for keeping the first three days low in growth signal, and for holding growth-promoting add-ons to refeed day 14 after any cancer.",
+      "In mice after a 24-hour fast, intestinal stem-cell proliferation and protein synthesis peaked at the end of the first day of refeeding, above mice that never fasted, driven by insulin, mTORC1 and polyamine synthesis. Deleting a tumour-suppressor gene in that window produced more tumours than in mice that kept eating or stayed fasted, and blocking the growth signal (rapamycin, a polyamine-synthesis inhibitor or a protein-synthesis blocker) removed the excess. No chemical mutagen was used and there are no human data. The whole basis for the consolidation window's mutagen rules, carried as a precaution, for keeping the first three days low in growth signal, and for holding growth-promoting add-ons to refeed day 14 after any cancer.",
     phase: { label: "Refeeding", href: "/refeeding" },
   },
   {
@@ -627,8 +627,8 @@ export default function ResearchPage() {
 
       <h2>The refeed window and cancer caution</h2>
       <p>
-        One mouse study stands behind the refeed&rsquo;s mutagen holiday and
-        the cancer-history rules, and I want its size visible: a 24-hour fast,
+        One mouse study stands behind the consolidation window&rsquo;s mutagen
+        rules and the cancer-history rules, and I want its size visible: a 24-hour fast,
         an engineered gene deletion, no chemical mutagen and no human data. I
         carry it as a precaution that costs nothing, not as a finding about
         people.

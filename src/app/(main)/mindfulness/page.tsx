@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import GuidanceBox from "@/components/GuidanceBox";
 import JsonLd from "@/components/JsonLd";
 import { medicalWebPageLd } from "@/lib/structured-data";
@@ -23,8 +24,6 @@ export default function MindfulnessPage() {
         "Chronic illness, depression, and brain fog often share a metabolic root cause: low cellular energy and a suppressed metabolism.",
         "Meditation reduces the energy drain of a ruminating mind and induces a healing biochemical state similar to nutritional ketosis.",
         "Fix your metabolism first (body temperature, diet, the protocol) before relying on meditation or other tools to amplify it.",
-        "The post-fast refeeding window is a key window for neuroregeneration, with surges in BDNF, stem cell activity, and autophagy.",
-        "Tools like BPC-157 and psilocybin are covered here as targeted neurological recovery aids, not recreational shortcuts.",
       ]} />
 
       <p>
@@ -66,7 +65,7 @@ export default function MindfulnessPage() {
 
       <p>
         The modern food supply works against this. Decades of cheap industrial
-        food have flooded the diet with seed oils, refined carbohydrates, and
+        food have filled the diet with seed oils, refined carbohydrates, and
         chemical additives that suppress thyroid function, disrupt mitochondria,
         and leave people tired and inflamed. This is well documented in the
         research on ultra-processed food and metabolic disease. You do not have
@@ -138,21 +137,6 @@ export default function MindfulnessPage() {
           </p>
         </div>
         <div className="question-item">
-          <span className="question-label">The CBD Oil Parallel</span>
-          <p>
-            This improvement in cellular fuel use mirrors what researchers
-            observe in CBD oil users. High-dose cannabidiol improves glucose
-            metabolism, reduces systemic inflammation, and restores mitochondrial
-            function. Meditation does not replicate everything CBD does, but it
-            activates many of the same metabolic pathways. Combined with a
-            quality diet, it is one of the most powerful free tools available to
-            anyone recovering from chronic illness. I make no cancer claims for
-            CBD oil or for the protocol: active cancer is a hard stop for any
-            multi-day dry fast, and short dry fasts, or longer water fasts
-            during therapy, are case by case with me.
-          </p>
-        </div>
-        <div className="question-item">
           <span className="question-label">Advanced Tools for This Window</span>
           <p>
             For those deep in the recovery process, specific tools can accelerate
@@ -163,82 +147,6 @@ export default function MindfulnessPage() {
             including products like Ketone-IQ, are hard on the liver and
             disrupt the body&apos;s own energy regulation. They are not worth it.
             Salts only.
-          </p>
-        </div>
-      </div>
-
-      <h2>Psychedelics and Brain Recovery</h2>
-
-      <p>
-        The longer you have been sick, the more the brain has adapted by pruning
-        unused neural pathways. This is not damage in the traditional sense. The
-        brain is a survival organ. When energy is chronically scarce, it cuts
-        connections that are not being used regularly to reduce overhead. This is
-        entirely reversible. The pruned pathways can be rebuilt.
-      </p>
-
-      <p>
-        Psilocybin mushrooms are one of the most powerful neuroregeneration tools
-        we currently have access to. They stimulate the production of
-        Brain-Derived Neurotrophic Factor (BDNF), which is essentially fertilizer
-        for neurons. They promote neurogenesis (growth of new neurons) and
-        synaptogenesis (formation of new connections between neurons). They also
-        have a well-documented ability to disrupt entrenched, rigid patterns of
-        thought that characterize depression, anxiety, and trauma responses. The
-        clinical research on this is extensive and consistent. The brain does not
-        just feel better after psilocybin. It physically rewires toward healthier
-        patterns.
-      </p>
-
-      <p>
-        The full toolkit for rebuilding a brain that has been compromised by
-        chronic illness looks like this:
-      </p>
-
-      <div className="guiding-questions box-info">
-        <div className="question-item">
-          <span className="question-label">Improve Blood Flow</span>
-          <p>
-            The brain needs oxygen and nutrients delivered consistently. Poor
-            circulation is a direct bottleneck to neuroregeneration. T3 therapy,
-            dry fasting refeeds, and cardiovascular health all contribute here.
-          </p>
-        </div>
-        <div className="question-item">
-          <span className="question-label">Increase Blood Volume</span>
-          <p>
-            Chronic illness frequently comes with low blood volume, which
-            contributes to the lightheadedness, fatigue, and brain fog that
-            patients experience. Restoring blood volume is a prerequisite for
-            proper brain perfusion.
-          </p>
-        </div>
-        <div className="question-item">
-          <span className="question-label">Post-Fast Regeneration</span>
-          <p>
-            The refeeding window after a dry fast is one of the most potent
-            regenerative states the human body can enter. Stem cell activity
-            surges, autophagy clears cellular debris, and BDNF levels spike.
-            This is when the brain does a significant portion of its repair work.
-          </p>
-        </div>
-        <div className="question-item">
-          <span className="question-label">BPC-157</span>
-          <p>
-            Body Protection Compound 157 is a synthetic peptide with a strong
-            track record for tissue repair, nerve regeneration, and
-            neuroprotection. It crosses the blood-brain barrier and has shown
-            consistent results in accelerating neurological recovery. It is one
-            of the most useful peptides in this stack.
-          </p>
-        </div>
-        <div className="question-item">
-          <span className="question-label">Psilocybin</span>
-          <p>
-            Used intentionally and at appropriate doses, psilocybin mushrooms
-            activate neuroplasticity, stimulate BDNF, and help the brain form
-            new connections where old ones were pruned. This is not recreational
-            use. This is targeted neurological rehabilitation.
           </p>
         </div>
       </div>
@@ -295,10 +203,12 @@ export default function MindfulnessPage() {
         <div className="pillar-item" style={{ borderLeftColor: "#8e44ad" }}>
           <h3>Use the Tools</h3>
           <p>
-            Ketone salts, BPC-157, and psilocybin are legitimate, research-backed
-            recovery tools. Know what you are using and why you are using it.
-            These are not shortcuts. They are accelerants for a system that is
-            already moving in the right direction.
+            Ketone salts are a legitimate tool for bridging fat and
+            carbohydrate fuel, and the optional extras sit on the{" "}
+            <Link href="/between-fasts">Between Fasts</Link> page. Know what
+            you are using and why you are using it. These are not shortcuts.
+            They are accelerants for a system that is already moving in the
+            right direction.
           </p>
         </div>
       </div>

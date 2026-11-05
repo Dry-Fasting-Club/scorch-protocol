@@ -30,13 +30,13 @@ const reactivationCascade = `graph TD
   Vuln --> V4["Cortisol still elevated<br/>(herpes trigger active)"]
   Vuln --> V5["T3 still crashed<br/>(antiviral interferon weakened)"]
 
-  V1 --> Choice{"Antiviral stack<br/>in place before refeed?"}
+  V1 --> Choice{"Antiviral stack<br/>covering the whole refeed?"}
   V2 --> Choice
   V3 --> Choice
   V4 --> Choice
   V5 --> Choice
 
-  Choice -->|YES: valacyclovir + ivermectin + lysine + monolaurin| Safe["Window closed safely<br/>Gains locked in"]
+  Choice -->|YES: lysine and monolaurin, valacyclovir from refeed day 3, ivermectin| Safe["Window closed safely<br/>Gains locked in"]
   Choice -->|NO: unprotected refeed| Bad["Virus reactivates AND EXPANDS<br/>Seeds new ganglia and tissue<br/>Patient ends MORE broadly infected<br/>than starting baseline"]
 
   style Defenses fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
@@ -52,9 +52,9 @@ const pathogenStack = `graph TB
 
   Core -.->|runs in parallel with| AF["ANTIFUNGAL LAYER<br/>If fungal-focused patient<br/><br/>PRIMARY: Fluconazole<br/>REJECTED: Itraconazole (too strong)<br/>REJECTED: Natural antifungals (too weak)"]
 
-  Core -.->|runs in parallel with| AP["ANTIPARASITIC LAYER<br/>Default for most patients<br/><br/>PRIMARY: Ivermectin (double duty)<br/>SYNERGY: Ivermectin + Dry Fasting<br/>REJECTED: Natural antiparasitics (too weak)"]
+  Core -.->|runs in parallel with| AP["ANTIPARASITIC LAYER<br/>Default in most cases<br/><br/>PRIMARY: Ivermectin (double duty)<br/>SYNERGY: Ivermectin + Dry Fasting<br/>REJECTED: Natural antiparasitics (too weak)"]
 
-  Core -.->|runs in parallel with| IR["IMMUNE REBUILD LAYER<br/>Distinct from pathogen kill<br/><br/>REFEED: Thymalin<br/>(Tα1 retired: in my experience<br/>it can hypersensitize immune cells)"]
+  Core -.->|runs in parallel with| IR["IMMUNE REBUILD LAYER<br/>Distinct from pathogen kill<br/><br/>PER CASE, NEVER BEFORE<br/>REFEED DAY 8: Thymalin<br/>(Tα1 retired: in my experience<br/>it can hypersensitize immune cells)"]
 
   style Core fill:#7c2d12,stroke:#e85d04,stroke-width:3px,color:#fdba74
   style AV fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
@@ -69,7 +69,7 @@ export default function ViralReactivationPage() {
       <h1>Viral Reactivation</h1>
       <KeyTakeaways points={[
         "The dry fast is actually the safest period for your immune system: autophagy, ketones, mTOR suppression, and NK cell activity all work against viral replication.",
-        "The danger window is the refeed, not the fast. Five defenses collapse at once in the first 24 to 72 hours after breaking the fast.",
+        "The danger window is the refeed, not the fast. In the first 24 to 72 hours after breaking the fast, the four defenses come down and five vulnerabilities open at once.",
         "An unprotected refeed can leave you more broadly infected than when you started, because cleared viral reservoirs get re-seeded in new nerve tissue.",
         "The bridge strategy (dry fast to water fast to protected refeed) puts the natural antiviral stack in place before food: L-lysine from water day 1, monolaurin and olive leaf with the first meal. Valacyclovir joins on refeed day 3 at the earliest and then runs daily for months. T3 is deliberately held until after Day 7 of refeeding, so antivirals, not T3, are what close the vulnerability window.",
         "Stop and escalate antivirals immediately if you feel tingling at a previous outbreak site, new nerve-territory pain, or a sudden return of pre-protocol fatigue.",
@@ -195,7 +195,7 @@ export default function ViralReactivationPage() {
       <p>
         The dry fast suppressed the virus. The refeed un-suppresses it,
         catastrophically and quickly, while the immune system is still
-        rebuilding. Five things happen in parallel during the first 24–72
+        rebuilding. Five things happen in parallel during the first 24 to 72
         hours after breaking the fast, and each of them, on its own, would be
         a viral reactivation risk. Together they create a window of near-zero
         antiviral capacity.
@@ -225,7 +225,7 @@ export default function ViralReactivationPage() {
           Nagai et al. (2019, <em>Immunity</em>) demonstrated that fasting
           relocates memory T cells out of circulation and into the bone
           marrow. CD8+ T cells (the patrols that contain herpes virus
-          reactivation in healthy people within 12–24 hours) take days to
+          reactivation in healthy people within 12 to 24 hours) take days to
           fully redistribute back into the blood after refeeding starts.
           During that lag, the surveillance system is physically not where
           it needs to be.
@@ -260,7 +260,7 @@ export default function ViralReactivationPage() {
       <p>
         Most people have had a cold sore. Most people don&rsquo;t panic about
         them because in a healthy person the immune system contains the
-        outbreak in 12–24 hours, the lesion stays small, and the viral pool in
+        outbreak in 12 to 24 hours, the lesion stays small, and the viral pool in
         the ganglion gets topped back up but doesn&rsquo;t expand. What
         happens during a refeed reactivation is fundamentally different, and
         much more dangerous in a chronically ill body.
@@ -309,7 +309,7 @@ export default function ViralReactivationPage() {
         </div>
       </div>
 
-      <h2>The Bridge Strategy: Dry Fast → Water Fast → Protected Refeed</h2>
+      <h2 id="bridge">The Bridge Strategy: Dry Fast → Water Fast → Protected Refeed</h2>
       <p>
         The Scorch Protocol does not exit the dry fast directly into eating.
         It bridges through a water fast specifically to close the
@@ -360,34 +360,31 @@ export default function ViralReactivationPage() {
 
       <h2>The Pharmacological Stack for the Refeed Vulnerability Window</h2>
       <p>
-        Nothing oral runs during the dry fast itself. Without renal water
-        flow, dosing and clearance kinetics are wrong and concentrated
-        toxicity becomes a real risk. The water fast bridge rehydrates the
-        organs and lets L-lysine return on water day 1, but it does not clear
-        the way for a renally cleared drug: water fasting still purges water
-        through the kidneys, so the body stays systemically dehydrated on the
-        water days too, and electrolytes help without fixing that. So you
-        build your defensive walls in stages and keep them standing through
-        the whole refeed, not just on day one. The first wall is antiviral
-        pressure, and it goes up in two steps: L-lysine from water day 1,
-        monolaurin and olive leaf with the first meal, then valacyclovir as
-        the standing backbone from refeed day 3 at the earliest, after at
-        least two days of eating with heavy rehydration, held through the
-        calorie ramp, into maintenance and through the months between fasts,
-        and never during the fast in either form. Ivermectin
+        Nothing oral runs during the dry fast itself, and the water bridge
+        brings back only L-lysine; why a renally cleared drug still has to
+        wait is set out under <a href="#bridge">the bridge strategy</a>{" "}
+        above. So you build your defensive walls in stages and keep them
+        standing through the whole refeed, not just on day one. The first
+        wall is antiviral pressure, and it goes up in two steps: L-lysine
+        from water day 1, monolaurin and olive leaf with the first meal, then
+        valacyclovir as the standing backbone (never during a fast, dry or
+        water; earliest refeed day 3), held through the calorie ramp, into
+        maintenance and through the months between fasts. Ivermectin
         runs alongside it as a supportive antiviral (it calms the nervous
         system and inflammation and may mildly inhibit viral entry) and,
         more importantly, as the primary antiparasitic, working in synergy
-        with the fast itself. The second wall is active immune rebuilding
-        via thymic peptides (Thymalin early in the refeed; Thymus Alpha-1
-        has been retired from the protocol, see the note below). Through
+        with the fast itself. The second wall, immune rebuilding with a
+        thymic peptide (Thymalin), is a special case I set with people
+        individually, never a general recommendation and never before refeed
+        day 8 (Thymus Alpha-1 has been retired from the protocol, see the
+        note below). Through
         the first seven days of refeeding you also add a case-by-case
         metabolic layer, methylene blue and in selected cases ethyl
         pyruvate, to support the mitochondria while food scales back in. T3
         is deliberately held until you have scaled food for a full seven
         days: the antiviral stack, not T3, is what closes the vulnerability
-        window. This stack is not optional for anyone with Long Covid,
-        ME/CFS, recurring herpesvirus history, or unexplained chronic
+        window. The antiviral wall is not optional for anyone with Long
+        Covid, ME/CFS, recurring herpesvirus history, or unexplained chronic
         illness. Each component blocks, rebuilds, or supports a different
         stage of the cascade.
       </p>
@@ -447,7 +444,7 @@ export default function ViralReactivationPage() {
                 [2]
               </a>
               ). Ivermectin runs in the second seat here, alongside the
-              standing valacyclovir course, chosen for its gentler gut
+              standing valacyclovir course (from refeed day 3 at the earliest), chosen for its gentler gut
               profile and its double duty as an antiparasitic. Treat
               it as a supportive antiviral (it calms the nervous system and
               inflammation and may mildly inhibit viral entry) rather than a
@@ -473,12 +470,10 @@ export default function ViralReactivationPage() {
             <td>
               Inhibits viral DNA polymerase. Covers HSV-1, HSV-2, VZV
               completely; partial coverage of EBV and CMV. This is now the
-              standing backbone of the antiviral layer: never run during
-              the fast in either form, since a water fast still purges water
-              through the kidneys and the dosing and clearance kinetics stay
-              wrong, but started on refeed day 3 at the earliest and then
-              run daily to lower the burden of reactivated EBV, HSV and
-              shingles through the months of refeeding and regeneration. A
+              standing backbone of the antiviral layer: from refeed day 3 at
+              the earliest, run daily to lower the burden of reactivated EBV,
+              HSV and shingles through the months of refeeding and
+              regeneration. A
               prodrome loading dose, the tingling, itching, or burning at a
               previous outbreak site that signals an oncoming HSV
               reactivation, is layered on top of that standing course as an
@@ -518,15 +513,16 @@ export default function ViralReactivationPage() {
           </tr>
           <tr>
             <td>
-              <strong>Thymalin (immune rebuild: early)</strong>
+              <strong>Thymalin (immune rebuild: per case)</strong>
             </td>
-            <td>Early refeed</td>
+            <td>Per case, never before refeed day 8</td>
             <td>
               Thymic peptide used clinically in Russia and Eastern Europe as
               an immunomodulator. Strengthens the thymus, body peptides, and
-              overall immune system after the fasting demolition. Pairs with
-              BPC-157 in the broader rebuild phase (see the{" "}
-              <a href="/t3-therapy">T3 Therapy</a> page).
+              overall immune system after the fasting demolition. A special
+              case I set with people individually, never a general
+              recommendation (see the per-case note on the{" "}
+              <a href="/refeeding">Refeed</a> page).
             </td>
           </tr>
           <tr>
@@ -578,7 +574,7 @@ export default function ViralReactivationPage() {
       <div style={{ margin: "2rem 0" }}>
         <MermaidCharts charts={[pathogenStack]} />
         <p style={{ fontSize: "0.9rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic", textAlign: "center" }}>
-          The Scorch Protocol runs four parallel layers, not a single linear protocol. Pathogen targeting (antiviral, antifungal, antiparasitic) and immune rebuild (thymic peptides) all run alongside the core fasting + T3 + hGH work.
+          The Scorch Protocol runs four parallel layers, not a single linear protocol. Pathogen targeting (antiviral, antifungal, antiparasitic) and immune rebuild (thymic peptides, per case) all run alongside the core fasting + T3 + hGH work.
         </p>
       </div>
 
@@ -683,15 +679,13 @@ export default function ViralReactivationPage() {
       <h2 id="prodrome-in-fast">If a Prodrome Hits During the Fast Itself</h2>
       <p>
         Everything above assumes the standing antiviral course is running or
-        about to start. During the fast it is not, and it cannot be.
-        Valacyclovir is renally cleared. A dry-fasted body has no renal water
-        flow to clear it with, and a water-fasted body is not much better:
-        water fasting still purges water through the kidneys, so the body
-        stays systemically dehydrated on the water days, electrolytes or not.
-        Dosing kinetics go wrong, concentration builds, and you risk a kidney
-        injury on top of the outbreak you were trying to stop. This is the
-        same boundary that holds the standing course back until refeed day 3,
-        and it does not bend because a tingle showed up early.
+        about to start. During the fast it is not, and it cannot be:
+        valacyclovir never goes in during a fast, dry or water, for the
+        renal reason set out under <a href="#bridge">the bridge strategy</a>,
+        and pushing it in risks a kidney injury on top of the outbreak you
+        were trying to stop. This is the same boundary that holds the
+        standing course back until refeed day 3, and it does not bend
+        because a tingle showed up early.
       </p>
       <p>
         So the answer is not to push a rescue dose into a dehydrated body, and
@@ -794,10 +788,11 @@ export default function ViralReactivationPage() {
         Reactivation is most likely in the first one or two protocol cycles
         when total body viral load is at its highest. Each completed cycle,
         if managed correctly, reduces the reservoir. By cycle three or four,
-        most patients report dramatically reduced reactivation symptoms even
-        with a less aggressive antiviral stack. By cycle five or six, the
-        herpes pattern that ran their lives for years is often gone entirely.
-        This is the long-term goal and it is achievable.
+        people who cover the refeed report far fewer reactivation symptoms
+        than those who do not; that is my experience, not a measured rate.
+        By cycle five or six, the herpes pattern that ran their lives for
+        years is often gone entirely. This is the long-term goal and it is
+        achievable.
       </p>
       <p>
         The non-negotiable rule: do not chase faster cycles in pursuit of
@@ -853,7 +848,8 @@ export default function ViralReactivationPage() {
         </div>
         <div className="question-item">
           <span className="question-label">2. The refeed dead zone</span>
-          The first days of eating, when the five defences collapse at once.
+          The first days of eating, when the four defences come down and five
+          vulnerabilities open at once.
           The rule: the natural stack from water day 1 and the first meal, the
           standing valacyclovir course from refeed day 3, and a loading dose on
           top at the first prodrome once that course is running (on refeed day
@@ -926,7 +922,11 @@ export default function ViralReactivationPage() {
         <p>
           The dry fast is the safest period your immune system experiences
           all year. The refeed is the most dangerous. Your job is not to fear
-          the fast. It is to fear the transition. The Scorch Protocol&rsquo;s
+          the fast. It is to fear the transition. In{" "}
+          <Link href="/healing-cycle">healing-cycle</Link> terms, a virus
+          waking up in the refeed is the textbook danger signal: it drags the
+          cells the fast just freed back into the first, defensive stage. The
+          Scorch Protocol&rsquo;s
           structure (dry fast → water fast bridge → controlled refeed with the
           antiviral stack already on board and running straight through it)
           exists specifically to close the vulnerability window before food can

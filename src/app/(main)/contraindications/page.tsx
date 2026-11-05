@@ -150,8 +150,8 @@ export default function ContraindicationsPage() {
           blocking that signal is what took away the extra tumours a mutation
           caused in that window (Imada 2024). Nobody has measured this in
           people. The{" "}
-          <Link href="/refeeding#mutagen-holiday">mutagen holiday</Link> on
-          the refeed page applies to everyone, and it matters most here.
+          <Link href="/refeeding#mutagen-holiday">consolidation window&rsquo;s mutagen rules</Link>{" "}
+          on the refeed page apply to everyone, and they matter most here.
         </div>
         <div className="question-item">
           <span className="question-label">A heavy medication load, or you are not in the right headspace</span>

@@ -4,7 +4,6 @@ import GuidanceBox from "@/components/GuidanceBox";
 import RefeedPlanPromo from "@/components/RefeedPlanPromo";
 import KeyTakeaways from "@/components/KeyTakeaways";
 import JsonLd from "@/components/JsonLd";
-import ReferencesSection from "@/components/ReferencesSection";
 import { medicalWebPageLd, faqPageLd } from "@/lib/structured-data";
 
 const PAGE_DESCRIPTION =
@@ -187,7 +186,7 @@ export default function DryFastingVsWaterFastingPage() {
           begins rebuilding from scratch. The deep dehydration also concentrates
           antimicrobial peptides in the tissues. This is why the dry fast
           itself is not the dangerous period for someone with chronic viral
-          illness. The danger is the refeed, when all five of these defenses
+          illness. The danger is the refeed, when all four of these defenses
           collapse at once. See the{" "}
           <Link href="/viral-reactivation">Viral Reactivation</Link> page for
           the full breakdown.
@@ -394,46 +393,9 @@ export default function DryFastingVsWaterFastingPage() {
         more powerful.
       </p>
       <p>
-        The order is fast first, always, and the one exception is not a
-        temperature reading but a history. Long Covid and ME/CFS patients
-        commonly run cold (96 to 97&deg;F) because viral persistence has
-        already suppressed the thyroid axis, and that reading matters: it is
-        the dial the T3 course is dosed to after the fast, and a low reading is
-        the main sign you will come out of the fast needing that course. The
-        decision tree maps out the full logic:
-      </p>
-      <ul>
-        <li>
-          Fast first: the standard order is prepare, fast, refeed. Build up
-          with 36 hours, then 72 hours, then 5 days, and log your waking
-          temperature from day one.
-        </li>
-        <li>
-          Then judge the refeed: running hot, holding your weight and feeling
-          great means no T3 this cycle. Cold, weight stuck and the old symptoms
-          back means the 30-day T3 course after refeed day 7.
-        </li>
-        <li>
-          T3 first, as a jump start, only if fasting has already failed you:
-          you pushed through fasts, kept getting worse, and show signs of
-          metabolic trouble. That is a decision to make with me, not from a
-          chart.
-        </li>
-        <li>
-          A very low waking temperature is a reason to bring your numbers to me
-          before you plan anything; it is not, on its own, a rule I publish
-          either way.
-        </li>
-      </ul>
-      <p>
-        <em>
-          What the evidence says: the T3-first exception, and the judgement of
-          who needs T3 after the fast, are my clinical rules. The literature
-          has no published criterion for who needs T3 after a fast; the nearest
-          objective candidate is the low free T3 and high reverse T3 pattern
-          measured in chronic fatigue patients (Ruiz-Nunez 2018), which is a
-          blood test, not the history-and-temperature screen I use.
-        </em>
+        Fast first, always; T3 first only for the person who has struggled with
+        fasting and kept getting worse; the reasoning and the evidence are on
+        the <Link href="/decision-tree#baselinetemp">decision tree</Link>.
       </p>
 
       <div className="guiding-questions box-info">
@@ -449,7 +411,7 @@ export default function DryFastingVsWaterFastingPage() {
 
       <p>
         For the full decision logic based on your current health status, how
-        long you have been sick, diet history, and thyroid panel, see the{" "}
+        long you have been sick and your diet history, see the{" "}
         <Link href="/decision-tree">Protocol Decision Tree</Link>.
       </p>
 
@@ -498,17 +460,6 @@ export default function DryFastingVsWaterFastingPage() {
 
       <RefeedPlanPromo source="dry-fasting-vs-water-fasting" />
       <GuidanceBox />
-
-      <ReferencesSection
-        refs={[
-          {
-            citation:
-              "Ruiz-Nunez B, Tarasse R, Vogelaar EF, Janneke Dijck-Brouwer DA, Muskiet FAJ. Higher Prevalence of \"Low T3 Syndrome\" in Patients With Chronic Fatigue Syndrome: A Case-Control Study. Front Endocrinol (Lausanne), 2018;9:97. PMID 29615976. DOI 10.3389/fendo.2018.00097.",
-            href: "https://doi.org/10.3389/fendo.2018.00097",
-            note: "the nearest thing to a published criterion for who might need T3 after a fast: chronic fatigue patients carried lower free T3 and total T3 and more reverse T3 than matched controls at a similar TSH; a blood pattern, not the history-and-temperature screen used here",
-          },
-        ]}
-      />
     </>
   );
 }

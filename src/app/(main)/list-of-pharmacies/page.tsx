@@ -433,7 +433,7 @@ export default function ListOfPharmaciesPage() {
         </p>
       </div>
 
-      <SourcingCallout heading="The verified slow-release T3, peptide, and hGH sources are inside the 1-on-1." />
+      <SourcingCallout heading="The verified slow-release T3, peptide, and hGH sources are set with me." />
       <RefeedPlanPromo source="list-of-pharmacies" />
       <GuidanceBox />
       <PaidContentBlock sectionSlug="list-of-pharmacies" sectionTitle="List of Pharmacies" />

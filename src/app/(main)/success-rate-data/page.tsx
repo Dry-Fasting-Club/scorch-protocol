@@ -349,7 +349,7 @@ export default function SuccessRateDataPage() {
         whole reason this page talks about profiles instead of percentages.
       </p>
 
-      {/* FaithBlock hidden for now — to restore, remove the `false && (` wrapper and matching `)` */}
+      {/* FaithBlock hidden for now: to restore, remove the `false && (` wrapper and matching `)` */}
       {false && (
       <FaithBlock
         title="The Prayer of Faith Will Make the Sick Person Well"
@@ -358,7 +358,7 @@ export default function SuccessRateDataPage() {
           <strong>James 5:15: &ldquo;And the prayer offered in faith will make the sick person well; the Lord will raise them up.&rdquo;</strong>
         </p>
         <p>
-          I do not present any of this as a marketing number, which is exactly why you will not find one on this page. I present it as testimony. I was one of the sick people first. I know what it is to sit at a 2 or 3 on the fatigue scale, barely functional, watching life happen behind glass. I also know what it is to come back. The people who have run this saw something medicine does not yet have the framework to fully explain. <em>Evil propagates when good men look away,</em> and one of the evils done to chronically ill people is the systematic dismissal of their suffering. Refusing to be silent about that is the point. <strong>The Lord will raise them up.</strong> That promise is for you too.
+          I do not present any of this as a marketing number, which is exactly why you will not find one on this page. I present it as testimony. I was one of the sick people first. I know what it is to sit at a 2 or 3 on the fatigue scale, barely functional, watching life happen behind glass. I also know what it is to come back. The people who have run this saw something medicine does not yet have the framework to fully explain. One of the evils done to chronically ill people is the systematic dismissal of their suffering. Refusing to be silent about that is the point. <strong>The Lord will raise them up.</strong> That promise is for you too.
         </p>
       </FaithBlock>
       )}

@@ -55,8 +55,8 @@ export default function MCASAndDryFastingPage() {
 
       <KeyTakeaways
         points={[
-          "MCAS (Mast Cell Activation Syndrome) as a driver of Long Covid is a hypothesis the allergy bodies have not endorsed, which matches what I see in some members: chronically overactive mast cells flood the body with histamine, causing flares, food sensitivities, racing heart after meals, and insomnia that no standard sleep aid can touch.",
-          "The cascade starts upstream: viral persistence and chronic immune activation prime mast cells, which then release histamine continuously, locking patients in a high-inflammation loop.",
+          "MCAS (Mast Cell Activation Syndrome) as a driver of Long Covid is a hypothesis the allergy bodies have not endorsed, which matches what I see in some members: chronically overactive mast cells pour histamine into the body, causing flares, food sensitivities, racing heart after meals, and insomnia that no standard sleep aid can touch.",
+          "The cascade starts upstream: viral persistence and chronic immune activation prime mast cells, which then release histamine continuously, locking patients in a high-inflammation loop (the first, defensive stage of the healing cycle, stuck on).",
           "The calming stack centers on cyproheptadine or ketotifen (H1 antihistamines with serotonin activity), backed by an H1 blocker and an H2 blocker for daytime symptom control.",
           "MCAS-driven insomnia is biochemical, not behavioral. It requires an antihistamine that also acts on serotonin receptors, not a sedative or standard sleep hygiene advice.",
           "Dry fasting targets the upstream drivers of mast cell priming. The calming stack manages symptoms while the protocol addresses the root cause.",
@@ -139,7 +139,7 @@ export default function MCASAndDryFastingPage() {
         Latent virus reactivation adds a second layer. Viruses like EBV and
         HHV-6, which are already present in most chronic illness patients, become
         more active in the context of Long Covid immune dysregulation. Their
-        activity further stimulates mast cells and amplifies the histamine flood.
+        activity further stimulates mast cells and amplifies the histamine surges.
         The result is MCAS sitting at the bottom of a cascade that started at
         the top with viral persistence, with every intermediate step feeding it.
       </p>
@@ -270,7 +270,7 @@ export default function MCASAndDryFastingPage() {
         increase until you have tested that dose for several nights.
       </p>
 
-      <h2>MCAS-Driven Insomnia: The Part Standard Sleep Aids Miss</h2>
+      <h2 id="insomnia">MCAS-Driven Insomnia: The Part Standard Sleep Aids Miss</h2>
       <p>
         In the early stages of chronic illness, insomnia is usually driven by a
         hyperactive nervous system and elevated cortisol. As the condition
@@ -349,8 +349,8 @@ export default function MCASAndDryFastingPage() {
       <p>
         During the fast itself, the combination of ketosis, mTOR suppression, and
         autophagy creates an environment that is hostile to the viral and immune
-        drivers of MCAS. Most patients tolerate the fast without significant
-        histamine flares.
+        drivers of MCAS. In my experience, significant histamine flares during
+        the fast itself are uncommon.
       </p>
 
       <div className="guiding-questions box-warning">
@@ -367,9 +367,9 @@ export default function MCASAndDryFastingPage() {
           This is a Herxheimer (die-off) reaction, not a sign that fasting is
           making MCAS worse. It is uncomfortable but expected. My rule for it:
           go on walks, do massages, move the whole system. As long as your
-          vital signs are stable (resting heart rate below 120 bpm, no 24-hour
-          urination loss, core temp in the safe range, no severe confusion or
-          fainting) and the discomfort is bearable, you can continue. If it
+          heart rate, temperature, blood pressure and urination look fine (the
+          thresholds are in the box below) and the discomfort is bearable, you
+          can continue. If it
           starts to feel really bad, or the pain is excruciating, break the
           fast. See the{" "}
           <Link href="/symptom-management">Symptom Management</Link> page for the
@@ -396,14 +396,19 @@ export default function MCASAndDryFastingPage() {
       </div>
 
       <div className="guiding-questions box-danger">
-        <h3>Break the Fast Immediately If:</h3>
+        <h3>When to Stop the Fast</h3>
         <p>
-          Resting heart rate exceeds 120 bpm sustained, you have had no urination
-          for 24 hours, core temperature is below 35&deg;C or above 38.5&deg;C,
-          or you have severe confusion, fainting, or vision changes. These are not
-          Herxheimer reactions and are not histamine flares. They are true
-          emergencies. See the{" "}
-          <Link href="/symptom-management">Symptom Management</Link> page.
+          Break the fast if your resting heart rate stays above 120 bpm or
+          falls under 40, your systolic blood pressure stays under 80 or goes
+          over 180 mmHg or drops more than 30 mmHg when you stand, you faint or
+          nearly faint, you become confused or your vision blurs, you lose more
+          than 5 to 7 percent of your weight in 24 hours, your core temperature
+          falls below 35&deg;C, or you have had no urine for 24 hours; a fever
+          around 38.0&deg;C (100.4&deg;F), or waking with no urine at all,
+          means stop and assess. None of these is a Herxheimer reaction or a
+          histamine flare. The full list is on the{" "}
+          <Link href="/symptom-management#stop-rules">Symptom Management</Link> page,
+          under Herxheimer vs Warning Sign.
         </p>
       </div>
 
