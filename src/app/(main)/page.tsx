@@ -12,7 +12,7 @@ import Image from "next/image";
 export const metadata: Metadata = {
   title: { absolute: "The Scorch Protocol | Reverse Long Covid, ME/CFS & Chronic Illness" },
   description:
-    "The Scorch Protocol combines dry fasting, T3 therapy, and hGH to reverse Long Covid, ME/CFS, and autoimmune disease, for people whose labs read normal but who are still exhausted.",
+    "The Scorch Protocol combines dry fasting, T3 therapy, and regeneration bioenergetics to reverse Long Covid, ME/CFS, and autoimmune disease, for people whose labs read normal but who are still exhausted.",
   alternates: { canonical: "https://scorchprotocol.com/" },
 };
 
@@ -21,7 +21,7 @@ const homeLd = {
   "@type": "MedicalWebPage",
   name: "The Scorch Protocol",
   description:
-    "A protocol for reversing Long Covid and ME/CFS using dry fasting, T3 therapy, and hGH.",
+    "A protocol for reversing Long Covid and ME/CFS using dry fasting, T3 therapy, and regeneration bioenergetics.",
   url: "https://scorchprotocol.com/",
   inLanguage: "en",
   isPartOf: { "@type": "WebSite", name: "The Scorch Protocol", url: "https://scorchprotocol.com" },
@@ -43,8 +43,9 @@ export default function HomePage() {
           Still Exhausted After Trying Everything for Long Covid?
         </h1>
         <p className="hero-sub">
-          The Scorch Protocol combines dry fasting, T3 therapy, and hGH to
-          reset your immune system at the root, not just manage symptoms.
+          The Scorch Protocol combines dry fasting, T3 therapy, and
+          regeneration bioenergetics to reset your immune system at the root,
+          not just manage symptoms.
           Sometimes the orders change and sometimes fasting may not even be
           advisable. There is no one identical chronic illness sufferer. I built
           this protocol after recovering from severe ME/CFS and Long Covid.
@@ -169,17 +170,16 @@ export default function HomePage() {
         </div>
         <div className="pillar-item">
           <h3>
-            <span style={{ opacity: 0.3 }}>03.</span> hGH Therapy: The Rebuilding Signal
+            <span style={{ opacity: 0.3 }}>03.</span> Regeneration Bioenergetics: The Rebuild
           </h3>
           <p>
-            While dry fasting clears the junk, hGH acts as a &ldquo;calorie and
-            building surge.&rdquo; This phase focuses on a massive influx of
-            calories and energy to signal abundance and regeneration. It can
-            take months or even years, sometimes requiring much higher caloric
-            intake than ever before to force tissue rebuilding. It comes in
-            around the third cycle, on top of T3, when two cycles of fasting
-            plus T3 were not enough, and once started it runs for at least
-            three to six months.
+            Once the fasts have cleared the damage and the T3 course, where it
+            was needed, has restored the energy, your body rebuilds on its own
+            with food, sleep, sunlight and time. hGH is the last step, not a
+            standard one: I reach for it only when someone is really struggling
+            and the body cannot enter regeneration at all, around the third
+            cycle at the earliest. It is hard to get and controversial, so
+            otherwise we avoid it.
           </p>
           <p className="pillar-outcome">
             <em>

@@ -6,7 +6,7 @@ const SITE_URL = "https://scorchprotocol.com";
 export const metadata: Metadata = {
   title: "Medical Disclaimer",
   description:
-    "The Scorch Protocol is educational information, not medical advice. Read the full disclaimer, including the risks of fasting, T3, and hGH.",
+    "The Scorch Protocol is educational information, not medical advice. Read the full disclaimer, including the risks of fasting, T3, and, where it is used, hGH.",
   alternates: { canonical: `${SITE_URL}/medical-disclaimer` },
 };
 

@@ -57,7 +57,7 @@ export default function MCASAndDryFastingPage() {
         points={[
           "MCAS (Mast Cell Activation Syndrome) as a driver of Long Covid is a hypothesis the allergy bodies have not endorsed, which matches what I see in some members: chronically overactive mast cells pour histamine into the body, causing flares, food sensitivities, racing heart after meals, and insomnia that no standard sleep aid can touch.",
           "The cascade starts upstream: viral persistence and chronic immune activation prime mast cells, which then release histamine continuously, locking patients in a high-inflammation loop (the first, defensive stage of the healing cycle, stuck on).",
-          "The calming stack centers on cyproheptadine or ketotifen (H1 antihistamines with serotonin activity), backed by an H1 blocker and an H2 blocker for daytime symptom control.",
+          "The calming stack centers on cyproheptadine, my first choice (some prefer ketotifen, I do not); if you cannot get it, cetirizine or another over-the-counter H1 is the fallback, with an H2 blocker for daytime symptom control.",
           "MCAS-driven insomnia is biochemical, not behavioral. It requires an antihistamine that also acts on serotonin receptors, not a sedative or standard sleep hygiene advice.",
           "Dry fasting targets the upstream drivers of mast cell priming. The calming stack manages symptoms while the protocol addresses the root cause.",
         ]}
@@ -165,8 +165,11 @@ export default function MCASAndDryFastingPage() {
       <div className="guiding-questions box-info">
         <h3>Daytime H1 and H2 Support</h3>
         <div className="question-item">
-          <span className="question-label">H1 Blocker (Daytime):</span>
-          Cetirizine 10 mg or loratadine 10 mg daily. These are non-sedating H1
+          <span className="question-label">H1 Blocker (Daytime, and the Fallback):</span>
+          Cetirizine 10 mg or loratadine 10 mg daily. This is what I reach for
+          when cyproheptadine cannot be obtained: cetirizine (Zyrtec) or another
+          over-the-counter H1 antihistamine helps a lot of people who cannot eat
+          anything without symptoms. These are non-sedating H1
           antihistamines that reduce histamine-driven flushing, itching, food
           reactions, and racing heart. They do not address serotonin dysregulation
           and are not sufficient on their own for severe insomnia.
@@ -226,7 +229,8 @@ export default function MCASAndDryFastingPage() {
           migraine in children), and dampens the serotonin-driven cortisol surge
           that keeps the nervous system wired. It is slightly more sedating than
           ketotifen, but for most people that is a feature: the deeper sedation is
-          what finally breaks MCAS-driven insomnia. Dose in the evening; the range
+          what finally breaks MCAS-driven insomnia, and the sedation goes away
+          after a few weeks. Dose in the evening; the range
           is 1 to 4 mg, set individually. Always use the lowest dose that works.
           <br />
           <br />
@@ -245,7 +249,9 @@ export default function MCASAndDryFastingPage() {
           cyproheptadine and less of the cognitive blunting some describe as a
           &ldquo;zombie effect,&rdquo; making it a reasonable choice when
           cyproheptadine&rsquo;s sedation is too strong or when you need to stay
-          sharp the next morning. Start at 1 mg before bed to test your response.
+          sharp the next morning. Some people prefer ketotifen; I do not.
+          Cyproheptadine&rsquo;s sedation goes away after a few weeks. Start at
+          1 mg before bed to test your response.
           The effective range for sleep is typically 1 to 4 mg. It also helps
           directly with MCAS-driven digestive problems, a useful secondary benefit.
           Always use the lowest dose that works and titrate up slowly.

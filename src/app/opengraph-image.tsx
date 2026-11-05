@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const alt =
-  "The Scorch Protocol: reverse Long Covid and ME/CFS with dry fasting, T3, and hGH";
+  "The Scorch Protocol: reverse Long Covid and ME/CFS with dry fasting, T3 therapy, and regeneration bioenergetics";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -57,7 +57,7 @@ export default function OgImage() {
             Reverse Long Covid and ME/CFS
           </div>
           <div style={{ color: "#94a3b8", fontSize: 34, display: "flex" }}>
-            Dry fasting · T3 therapy · hGH
+            Dry fasting · T3 therapy · Regeneration bioenergetics
           </div>
         </div>
 

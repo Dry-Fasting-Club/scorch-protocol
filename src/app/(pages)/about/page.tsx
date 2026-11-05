@@ -18,7 +18,7 @@ const personLd = {
   name: "Yannick Wolfe",
   url: `${SITE_URL}/about`,
   description:
-    "Founder of The Scorch Protocol. Recovered from severe ME/CFS and Long Covid and now an independent researcher documenting a dry-fasting, T3, and hGH recovery protocol.",
+    "Founder of The Scorch Protocol. Recovered from severe ME/CFS and Long Covid and now an independent researcher documenting a recovery protocol built on dry fasting, T3 therapy, and regeneration bioenergetics.",
   knowsAbout: [
     "ME/CFS",
     "Long Covid",

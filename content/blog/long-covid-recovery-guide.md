@@ -30,7 +30,7 @@ This is a deep-dive guide. You will learn:
 - Why your blood tests look normal even while your life is falling apart
 - The three self-reinforcing loops keeping you stuck, and which one has to be broken first
 - Why most Long Covid recovery protocols fail at the second-to-last step
-- The Scorch Protocol's three-phase framework: dry fasting, T3 therapy, and hGH-supported refeeding
+- The Scorch Protocol's three-phase framework: dry fasting, T3 therapy, and regeneration bioenergetics
 - What recovery actually looks like, on what timeline, and who it works for
 
 The guide is long because the mechanism is real, and the half-explanations that dominate online do not work. If you want the short version, skip to [What recovery actually looks like](#what-recovery-actually-looks-like). If you want to understand why the protocol works, keep reading.

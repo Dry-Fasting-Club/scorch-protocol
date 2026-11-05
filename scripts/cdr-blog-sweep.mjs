@@ -15,6 +15,8 @@
  *   add --env=<path> to read DATABASE_URL from another env file
  *   add --slug=<slug> to limit any mode to one post
  *   add --from-json=<dump> to scan or dry-run a JSON backup of blog_posts (no database)
+ *   add --triad to run only the pillar-line pass (TRIAD_RULES, no other rule and
+ *     no dash fixer; John's review, 2026-11-05; see TRIAD below)
  *
  * dryfastingclub.com pages cache for 24 hours; after an --apply there, revalidate
  * each changed post through the site's admin route (PATCH /api/admin/blog/<id>
@@ -1590,14 +1592,100 @@ function expand(table) {
 }
 const RULES = { scorch: expand(SCORCH_RULES), dfc: expand(DFC_RULES).concat(expand(DFC_DASH_RULES)) };
 
+// ─── The triad pass (John's review, 2026-11-05) ────────────────
+// John's pillar call: the protocol is "built on dry fasting, T3 therapy, and
+// regeneration bioenergetics"; hGH is the last step, not a standard one, for
+// the person whose body cannot enter regeneration at all. `--triad` runs this
+// pass alone: `--scan --triad` lists every triad phrase in the published rows
+// with its disposition; the dry run and `--apply --triad` apply TRIAD_RULES
+// only (no other rule, no dash fixer), one transaction per post as above, and
+// list what is left. A hit whose sentence the replacement would not read in
+// (a figure whose drawn labels still name hGH, a risk statement) is held for
+// John in TRIAD_HELD instead of being forced. Report:
+// docs/superpowers/research/2026-11-03-cdr/sdd/2026-11-05-johns-review-report.md (scorch-knowledge).
+const TRIAD = flag("triad");
+const TRIAD_TERMS = [
+  { id: "triad-t3-therapy", label: '"T3 therapy, and hGH"', re: /T3 therapy,\s+and\s+hGH/gi },
+  { id: "triad-t3", label: '"T3, and hGH"', re: /T3,\s+and\s+hGH/gi },
+  { id: "triad-layering", label: '"T3 therapy and hGH layering"', re: /T3 therapy\s+and\s+hGH\s+layering/gi },
+  { id: "triad-refeeding", label: '"hGH-supported refeeding"', re: /hGH-supported\s+refeeding/gi },
+];
+const W_TRIAD = "the pillar line (John, 2026-11-05): dry fasting, T3 therapy, and regeneration bioenergetics; hGH the last step, not a pillar";
+const TRIAD_TABLE = {
+  scorch: {
+    "1 long-covid-recovery-guide": [
+      {
+        find: "The Scorch Protocol's three-phase framework: dry fasting, T3 therapy, and hGH-supported refeeding",
+        replace: "The Scorch Protocol's three-phase framework: dry fasting, T3 therapy, and regeneration bioenergetics",
+        why: W_TRIAD,
+      },
+    ],
+    "19 dry-fasting-for-weight-loss": [
+      {
+        find: "comes from the T3 therapy and hGH layering, not from the fasting itself.",
+        replace: "comes from the T3 course and the regeneration phase that follow it, not from the fasting itself.",
+        why: W_TRIAD,
+      },
+    ],
+  },
+  dfc: {},
+};
+const TRIAD_RULES = { scorch: expand(TRIAD_TABLE.scorch), dfc: expand(TRIAD_TABLE.dfc) };
+const TRIAD_HELD = {
+  scorch: [
+    {
+      ids: [1, 3, 4, 5, 6, 18],
+      text: "Three pillars of the Scorch Protocol: autophagy, T3, and hGH",
+      why: "the title of the three-pillars figure (svg:scorch-lcguide-05-three-pillars in post 1, svg:scorch-rebuild-03-three-pillars in the others); its drawn labels and description still make hGH pillar three, \"Phase 3 (longest)\", so the title alone cannot change; the figure needs a redraw",
+    },
+    {
+      ids: [5],
+      text: "including dry fasting, T3 therapy, and hGH refeeding",
+      why: "the description of the treatment-tiers figure (svg:scorch-cfstreat-01-three-tier-table), whose drawn label reads \"hGH + Structured Refeed\"; the description alone cannot change",
+    },
+  ],
+  dfc: [
+    {
+      ids: [197],
+      text: "especially dry fasting, T3, and HGH use without standard medical oversight",
+      why: "a risk statement in the AI meeting recap: hGH is named as a risk there, as on the medical disclaimer, and the replacement would not read",
+    },
+  ],
+};
+
+// Every triad hit in a body, with its disposition: inside a TRIAD rule's text,
+// held for John, or UNJUDGED (a new hit nobody has read).
+function triadHits(post, body) {
+  const out = [];
+  const inside = (idx, text) => {
+    for (let at = body.indexOf(text); at !== -1; at = body.indexOf(text, at + 1)) {
+      if (idx >= at && idx < at + text.length) return true;
+    }
+    return false;
+  };
+  for (const term of TRIAD_TERMS) {
+    term.re.lastIndex = 0;
+    let m;
+    while ((m = term.re.exec(body)) !== null) {
+      const idx = m.index;
+      const rule = TRIAD_RULES[SITE].find((r) => r.id === post.id && inside(idx, r.find));
+      const held = rule ? null : TRIAD_HELD[SITE].find((h) => h.ids.includes(post.id) && inside(idx, h.text));
+      const disposition = rule ? "rule" : held ? `held for John: ${held.why}` : "UNJUDGED";
+      out.push({ term: term.id, idx, match: m[0], where: locate(body, idx), context: context(body, idx, m[0].length), disposition });
+    }
+  }
+  return out.sort((a, b) => a.idx - b.idx);
+}
+
 // ─── Engine ────────────────────────────────────────────────────
 function countOf(body, find) {
   return body.split(find).length - 1;
 }
 
 // Apply a post's rules in order, then the dash fixer. `loose` (the markdown
-// mirror) applies a rule wherever its text occurs and skips it otherwise.
-function transform(body, rules, { loose = false } = {}) {
+// mirror) applies a rule wherever its text occurs and skips it otherwise;
+// `dashes: false` (the triad pass) leaves the dash fixer out.
+function transform(body, rules, { loose = false, dashes = true } = {}) {
   const changes = [];
   const problems = [];
   for (const rule of rules) {
@@ -1641,12 +1729,12 @@ function transform(body, rules, { loose = false } = {}) {
     body = body.split(rule.find).join(rule.replace);
     changes.push({ why: rule.why, before, after: context(body, at, rule.replace.length) });
   }
-  const dashes = fixDashes(body);
-  return { body: dashes.body, changes, dashChanges: dashes.changes, problems };
+  const fixed = dashes ? fixDashes(body) : { body, changes: [] };
+  return { body: fixed.body, changes, dashChanges: fixed.changes, problems };
 }
 
 // ─── Markdown mirror (scorch only) ─────────────────────────────
-function mirrorMarkdown(slug, rules) {
+function mirrorMarkdown(slug, rules, opts = {}) {
   const file = join(CONTENT_DIR, `${slug}.md`);
   if (SITE !== "scorch" || !existsSync(file)) return null;
   const raw = readFileSync(file, "utf-8");
@@ -1654,7 +1742,7 @@ function mirrorMarkdown(slug, rules) {
   if (!m) return { file, error: "no frontmatter" };
   const crlf = m[2].includes("\r\n");
   const body = crlf ? m[2].replace(/\r\n/g, "\n") : m[2];
-  const res = transform(body, rules, { loose: true });
+  const res = transform(body, rules, { loose: true, ...opts });
   const newBody = crlf ? res.body.replace(/\n/g, "\r\n") : res.body;
   return { file, changed: newBody !== m[2], text: m[1] + newBody, res };
 }
@@ -1677,7 +1765,26 @@ try {
     ? await sql`SELECT id, slug, title, content, updated_at FROM blog_posts WHERE status = 'published' AND slug = ${ONLY_SLUG} ORDER BY id`
     : await sql`SELECT id, slug, title, content, updated_at FROM blog_posts WHERE status = 'published' ORDER BY id`;
 
-  if (MODE === "scan") {
+  if (MODE === "scan" && TRIAD) {
+    const totals = {};
+    let postsWithHits = 0;
+    console.log(`\n=== CDR blog sweep: triad scan (${SITE}, ${posts.length} published rows) ===\n`);
+    for (const post of posts) {
+      const hits = triadHits(post, post.content ?? "");
+      if (hits.length === 0) continue;
+      postsWithHits++;
+      console.log(`## ${post.id} ${post.slug}`);
+      for (const h of hits) {
+        const kind = h.disposition.startsWith("held") ? "held" : h.disposition;
+        totals[kind] = (totals[kind] ?? 0) + 1;
+        console.log(`  - ${h.term} [${h.where}] @${h.idx} "${h.match}": ${h.disposition}`);
+        console.log(`    ...${h.context}...`);
+      }
+      console.log("");
+    }
+    console.log(`=== ${postsWithHits} of ${posts.length} posts with triad hits ===`);
+    for (const [k, n] of Object.entries(totals).sort()) console.log(`  ${k}: ${n}`);
+  } else if (MODE === "scan") {
     const totals = {};
     let postsWithHits = 0;
     console.log(`\n=== CDR blog sweep: scan (${SITE}, ${posts.length} published rows) ===\n`);
@@ -1697,24 +1804,35 @@ try {
     console.log(`=== ${postsWithHits} of ${posts.length} posts with hits ===`);
     for (const [k, n] of Object.entries(totals).sort()) console.log(`  ${k}: ${n}`);
   } else {
-    const rules = RULES[SITE].filter((r) => !ONLY_SLUG || r.slug === ONLY_SLUG);
+    const rules = (TRIAD ? TRIAD_RULES : RULES)[SITE].filter((r) => !ONLY_SLUG || r.slug === ONLY_SLUG);
     const known = new Map(posts.map((p) => [p.id, p.slug]));
     for (const r of rules) {
       if (known.get(r.id) !== r.slug && !ONLY_SLUG) console.log(`  WARNING: rule for ${r.id} ${r.slug} matches no published row`);
     }
-    console.log(`\n=== CDR blog sweep: ${MODE === "apply" ? "APPLY" : "dry run"} (${SITE}, ${rules.length} rules, ${posts.length} published rows) ===\n`);
+    console.log(`\n=== CDR blog sweep${TRIAD ? " (triad pass)" : ""}: ${MODE === "apply" ? "APPLY" : "dry run"} (${SITE}, ${rules.length} rules, ${posts.length} published rows) ===\n`);
     let changed = 0;
     let skipped = 0;
     let dashTotal = 0;
     let mdChanged = 0;
+    let heldTotal = 0;
+    let unjudgedTotal = 0;
     for (const post of posts) {
       const postRules = rules.filter((r) => r.id === post.id);
       if (postRules.some((r) => r.slug !== post.slug)) throw new Error(`rules for id ${post.id} name another slug`);
-      const res = transform(post.content, postRules);
+      const res = transform(post.content, postRules, { dashes: !TRIAD });
       if (res.problems.length) {
         skipped++;
         console.log(`  SKIP ${post.id} ${post.slug}: ${res.problems.join("; ")}`);
         continue;
+      }
+      // The triad pass lists what is left after its rules: every hit held for
+      // John, and any hit nobody has judged yet.
+      if (TRIAD) {
+        for (const h of triadHits(post, res.body)) {
+          if (h.disposition === "UNJUDGED") unjudgedTotal++;
+          else heldTotal++;
+          console.log(`  = ${post.id} ${post.slug} [${h.where}] "${h.match}": ${h.disposition}`);
+        }
       }
       if (res.body === post.content) continue;
       if (MODE === "apply") {
@@ -1743,7 +1861,7 @@ try {
         console.log(`  ~ dash: ...${ch.before}...`);
         console.log(`       => ...${ch.after}...`);
       }
-      const md = mirrorMarkdown(post.slug, postRules);
+      const md = mirrorMarkdown(post.slug, postRules, { dashes: !TRIAD });
       if (md) {
         if (md.error) console.log(`  md: ${md.file}: ${md.error}`);
         else if (md.changed) {
@@ -1755,6 +1873,7 @@ try {
       console.log("");
     }
     console.log(`=== ${MODE === "apply" ? "Applied" : "Would change"}: ${changed} post(s), ${dashTotal} dash fix(es), ${mdChanged} markdown source(s); skipped: ${skipped} ===`);
+    if (TRIAD) console.log(`=== Triad hits left after the rules: ${heldTotal} held for John, ${unjudgedTotal} unjudged ===`);
   }
 } finally {
   await sql.end();

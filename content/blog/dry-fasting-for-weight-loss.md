@@ -99,7 +99,7 @@ A few specific claims worth addressing:
 
 **"Dry fasting for 24 hours produces 4 pounds of fat loss."** Mathematically impossible. 4 pounds of fat oxidation produces approximately 14,000 kcal of energy. Daily energy expenditure during a sedentary dry fast is roughly 1,500-2,500 kcal. The math does not support 4 pounds of fat loss in 24 hours; what is being measured is total scale weight (mostly water and bowel content).
 
-**"Dry fasting boosts metabolism long-term."** Sustained dry fasting practice actually risks lowering metabolism through cumulative cortisol stress. The metabolic "boost" associated with the Scorch Protocol comes from the T3 therapy and hGH layering, not from the fasting itself.
+**"Dry fasting boosts metabolism long-term."** Sustained dry fasting practice actually risks lowering metabolism through cumulative cortisol stress. The metabolic "boost" associated with the Scorch Protocol comes from the T3 course and the regeneration phase that follow it, not from the fasting itself.
 
 **"Dry fasting cures cellulite."** No. Cellulite is structural; fasting addresses adipose tissue mass but does not change the structural patterns that produce cellulite appearance.
 

@@ -28,7 +28,7 @@ export default function HghTherapyPage() {
 
       <KeyTakeaways points={[
         "hGH is the rebuild signal. Dry fasting clears damaged cells, T3 restores metabolic power, and hGH tells your body to build new healthy muscle and immune tissue from what was freed. It belongs to the last stage of the healing cycle, which is why it waits until two full cycles have cleared the way.",
-        "hGH is not a phase everyone reaches. It enters around the third cycle, when two cycles of fasting plus T3 have not done enough: insulin resistance where food is not tolerated, extreme muscle loss, really bad sleep. It is an add-on to the T3 cycle, a supercharging of it, not something that waits until all T3 is finished.",
+        "hGH is the last step, not a standard one, and not a phase everyone reaches. I reach for it only when someone is really struggling and the body cannot enter regeneration at all; it is hard to get and controversial, so otherwise we avoid it. It enters around the third cycle at the earliest, when two cycles of fasting plus T3 have not done enough: insulin resistance where food is not tolerated, extreme muscle loss, really bad sleep. It is an add-on to the T3 cycle, a supercharging of it, not something that waits until all T3 is finished.",
         "Once you are on hGH, stay on it for at least three to six months. Two ways to run it: regeneration with continuous calories and no fasting, or keep cycling the fasts, in which case the hGH dosing pattern has to change because exogenous hGH suppresses your own output, and that pattern is set with me case by case, not from this page. At the end you wean off and allow about 30 days for your own production to come back before any fast.",
         "Cyproheptadine and hGH work together. Injected hGH bypasses the pituitary signal cyproheptadine blunts, so you do not need to stop cyproheptadine before starting hGH.",
         "Some people need to eat significantly more calories than they ever have during this phase. Without enough fuel, the rebuild cannot happen. In the growth-hormone-deficiency research, around nine months of treatment is often needed before people feel substantial results.",
@@ -123,12 +123,13 @@ export default function HghTherapyPage() {
 
         <p>
           <strong>
-            The &ldquo;Big Three&rdquo;: Fasting, T3, and hGH working together
+            The three pillars: fasting, T3, and regeneration working together, with hGH as the last lever
           </strong>
           <br />
           For many people, using hGH by itself doesn&rsquo;t work. To truly
           heal, you need all three parts of the Scorch Protocol to work
-          together:
+          together, and the third, regeneration, runs without hGH unless the
+          body cannot enter it at all:
         </p>
         <ul>
           <li>
@@ -142,10 +143,14 @@ export default function HghTherapyPage() {
             you don&rsquo;t have enough energy (ATP) to do the work.
           </li>
           <li>
-            <strong>The Rebuild (hGH):</strong> Once the fast has cleared the
-            ground and T3 has the power on, hGH gives the command to build new,
-            healthy cells and &ldquo;power plants&rdquo; (mitochondria). In
-            practice it rides on top of a T3 cycle as an add-on; it does not
+            <strong>The Rebuild (Regeneration):</strong> Once the fast has
+            cleared the ground and T3 has the power on, your body rebuilds on
+            its own with food, sleep, sunlight and time. hGH is the last lever,
+            not a standard step: when someone is really struggling and the body
+            cannot enter regeneration at all, hGH gives the command to build
+            new, healthy cells and &ldquo;power plants&rdquo; (mitochondria).
+            It is hard to get and controversial, so otherwise we avoid it. When
+            it is used, it rides on top of a T3 cycle as an add-on; it does not
             wait until every T3 course is finished. See the timing section
             below for when it enters.
           </li>

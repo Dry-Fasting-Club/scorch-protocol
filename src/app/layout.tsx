@@ -5,7 +5,7 @@ import AttributionCarry from "@/components/AttributionCarry";
 
 const SITE_URL = "https://scorchprotocol.com";
 const DESCRIPTION =
-  "A metabolic-recovery protocol for ME/CFS and Long Covid built on dry fasting, T3 therapy, and hGH, for people whose labs read normal but who are still exhausted.";
+  "A metabolic-recovery protocol for ME/CFS and Long Covid built on dry fasting, T3 therapy, and regeneration bioenergetics, for people whose labs read normal but who are still exhausted.";
 
 export const metadata: Metadata = {
   title: {

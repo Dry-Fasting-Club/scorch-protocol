@@ -14,8 +14,8 @@ export default function Footer() {
           <span className="site-footer-name">The Scorch Protocol</span>
           <p>
             A data-driven metabolic recovery protocol for ME/CFS and Long Covid,
-            built on dry fasting, T3 therapy, and hGH. Educational information,
-            not medical advice.
+            built on dry fasting, T3 therapy, and regeneration bioenergetics.
+            Educational information, not medical advice.
           </p>
         </div>
         <nav className="site-footer-nav" aria-label="Footer">
