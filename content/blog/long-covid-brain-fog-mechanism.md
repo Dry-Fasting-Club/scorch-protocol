@@ -27,7 +27,7 @@ Long Covid brain fog is your brain being rationed. The same metabolic collapse t
 
 Most patients describe Long Covid brain fog the same way: word-finding difficulty, slower processing speed, working memory gaps, difficulty concentrating, a sense that thinking takes more effort than it should. Most physicians treat it as either a vague subjective complaint or a side effect of depression that will resolve when mood improves.
 
-The clinical research tells a different story. ME/CFS patients (the population mechanistically closest to Long Covid) show measurably reduced cognitive processing speed and working memory, and the deficit pattern is consistent with reduced cerebral metabolic rate, not structural brain damage ([Mäkinen et al., 2017 — reduced cognitive processing speed in ME/CFS consistent with reduced cerebral metabolic rate](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5628799/), *PLOS ONE*). The brain is not damaged. The brain is being run on reduced fuel.
+The clinical research tells a different story. ME/CFS patients (the population mechanistically closest to Long Covid) show measurably reduced cognitive processing speed and working memory, and the deficit pattern is consistent with reduced cerebral metabolic rate, not structural brain damage ([Mäkinen et al., 2017: reduced cognitive processing speed in ME/CFS consistent with reduced cerebral metabolic rate](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5628799/), *PLOS ONE*). The brain is not damaged. The brain is being run on reduced fuel.
 
 The mechanism is the same one driving the rest of your symptoms, applied specifically to neural tissue. Your body has dropped to a lower energy state. Brain activity is one of the most expensive things the body does, so it is among the first things rationed when the energy supply contracts. Full cognitive activation requires substantial ATP per second of neural firing, and the body has decided that level of ATP expenditure cannot be sustained at current supply. So firing rate is reduced, synaptic activation is dialed back, the working memory buffer is smaller, the processing pipeline is slower.
 
@@ -39,7 +39,7 @@ This is the part that matters most for prognosis.
 
 A subset of patients in this position assume the brain fog represents permanent neurological damage. Some imaging studies do show reduced gray matter volume and changes in white matter integrity in severe Long Covid, but most patients are not in that category, and even patients who are can recover substantially with appropriate intervention.
 
-The reason most patients recover is that neurons are remarkably resilient under energy stress. Under chronic glucose limitation, neurons activate a secondary metabolic pathway: the astrocyte-neuron lactate shuttle. Astrocytes convert glycogen to lactate and shuttle it directly to neurons, which oxidize the lactate via the TCA cycle to produce ATP. This is not a desperation backup; it is an active neuroprotective mechanism. Existing synaptic connections are maintained even at reduced firing rates. The structural memory traces (long-term potentiation) that were laid down before the illness are preserved.
+The reason recovery is possible is that neurons are remarkably resilient under energy stress. Under chronic glucose limitation, neurons activate a secondary metabolic pathway: the astrocyte-neuron lactate shuttle. Astrocytes convert glycogen to lactate and shuttle it directly to neurons, which oxidize the lactate via the TCA cycle to produce ATP. This is not a desperation backup; it is an active neuroprotective mechanism. Existing synaptic connections are maintained even at reduced firing rates. The structural memory traces (long-term potentiation) that were laid down before the illness are preserved.
 
 This is the mechanistic explanation for the pattern most Long Covid patients with brain fog report: their pre-illness long-term memories are largely intact, while the memories of the illness period itself are vague and fragmentary. Long-term memory formation requires ATP-expensive long-term potentiation, and during the energy crisis, that process is interrupted. Memories from the illness period were never structurally encoded. Memories from before the illness were encoded then, and the structure persists despite the energy crisis.
 
@@ -62,7 +62,7 @@ Brain fog reverses on the Scorch Protocol because the protocol addresses the ups
 
 T3 therapy is the primary intervention. T3 is the master regulator of mitochondrial output across all tissues, including brain. When tissue-level T3 activity is restored (which standard thyroid replacement with T4 alone does not accomplish in patients with metabolic collapse), mitochondrial supercomplex organization improves, ATP synthesis efficiency rises, and the cellular energy supply that the brain has been rationing reopens.
 
-The clinical validation comes from temperature-guided SR-T3 work in CFS, the patient population most clinically adjacent to Long Covid brain fog ([Friedman et al., 2006 — 11 CFS patients treated with temperature-guided SR-T3 all showed clinical improvement](https://pubmed.ncbi.nlm.nih.gov/16883675/)). The endpoint is basal body temperature normalization (98.6°F average), which is the functional readout of cellular T3 activity reaching the tissue level.
+The clinical validation comes from temperature-guided SR-T3 work in CFS, the patient population most clinically adjacent to Long Covid brain fog ([Friedman et al., 2006: 11 CFS patients treated with temperature-guided SR-T3 all showed clinical improvement](https://pubmed.ncbi.nlm.nih.gov/16883675/)). The endpoint is basal body temperature normalization (98.6°F average), which is the functional readout of cellular T3 activity reaching the tissue level.
 
 Dry fasting addresses the deeper layer that T3 alone cannot reach: the viral reservoirs and inflammatory load that are generating the signals that suppressed the thyroid set-point in the first place. The mechanism (hyperosmotic autophagy, virophagy, NK cell surge) is detailed in [the dry fasting complete guide](/blog/dry-fasting-complete-guide).
 
@@ -76,8 +76,8 @@ Cognitive symptoms are typically among the last symptoms to fully resolve on the
 
 - **Months 1-3** (initial fast + T3 begun): the worst of the brain fog usually lifts noticeably within 2-4 weeks of T3 reaching therapeutic effect. Processing speed picks up. Word-finding improves.
 - **Months 3-6** (refeeding and further cycles): sustained improvement. The day-to-day experience of cognition begins to resemble pre-illness function.
-- **Months 6-12** (consolidation): residual fog episodes become rare. New memory formation is sharper. Complex sustained focus returns.
-- **Months 12-18+** (severe long-duration cases): structural neuroplasticity phase if needed. Full return of capacity in the majority of cases.
+- **Months 6-12** (banking the gains): residual fog episodes become rare. New memory formation is sharper. Complex sustained focus returns.
+- **Months 12-18+** (severe long-duration cases): structural neuroplasticity phase if needed. The aim is a full return of capacity.
 
 The pattern is not linear. There will be cognitive flare days that feel like setbacks, particularly around fasting cycles and Herxheimer windows. The direction over months is what matters.
 
@@ -85,7 +85,7 @@ The pattern is not linear. There will be cognitive flare days that feel like set
 
 ### How fast does brain fog typically clear?
 
-Most patients notice meaningful improvement within 2-4 weeks of T3 reaching therapeutic effect. Substantial improvement typically takes 3-6 months. Complete resolution in severe long-duration cases can take 12-18 months.
+In my experience the fog starts to lift once the metabolism is fed and warm again, in the weeks after the refeed, with the T3 course for those who need it. How fast varies with how long someone has been ill; severe, long-duration cases take the longest.
 
 ### Can I take supplements while I wait for the full protocol to work?
 

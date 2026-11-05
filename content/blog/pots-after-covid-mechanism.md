@@ -49,7 +49,7 @@ The patient population that develops POTS after Covid is overwhelmingly the same
 
 **Mast cell activation.** Most Long Covid patients have meaningful mast cell activation (covered in [Long Covid and MCAS](/blog/long-covid-mcas-connection)), which produces vasodilation and contributes to the orthostatic intolerance.
 
-**Endothelial dysfunction.** Persistent SARS-CoV-2 spike RNA has been found in tissue years after infection ([Peluso et al., 2024 — tissue-based evidence of persistent SARS-CoV-2 RNA and replication in post-acute sequelae](https://pubmed.ncbi.nlm.nih.gov/38959327/), *Science Translational Medicine*). The mechanism by which spike protein produces vascular endothelial dysfunction and microclot formation contributes to the circulatory compromise that POTS reflects.
+**Endothelial dysfunction.** Persistent SARS-CoV-2 spike RNA has been found in tissue years after infection ([Peluso et al., 2024: tissue-based evidence of persistent SARS-CoV-2 RNA and replication in post-acute sequelae](https://pubmed.ncbi.nlm.nih.gov/38959327/), *Science Translational Medicine*). The mechanism by which spike protein produces vascular endothelial dysfunction and microclot formation contributes to the circulatory compromise that POTS reflects.
 
 **Cellular energy deficit.** Underneath all of these is the cellular energy state. Maintaining upright posture costs more ATP than lying down. In a body operating at reduced cellular ATP supply, the cost of standing exceeds the easily available supply, and the body either reaches for tachycardia to compensate or the patient feels overwhelming need to sit down. Most do both.
 
@@ -73,7 +73,7 @@ The Scorch Protocol addresses POTS by addressing the upstream cellular energy co
 
 **T3 therapy** is the primary intervention. Restoring tissue-level T3 activity raises cellular ATP supply across all tissues, including cardiac muscle, skeletal muscle, and the autonomic ganglia. As ATP supply normalizes, the cost of upright posture becomes affordable again, and the tachycardia compensation reduces because it is no longer required. Resting heart rate falls. Heart rate variability rises. Vagal tone normalizes.
 
-The clinical validation comes from temperature-guided SR-T3 work in CFS, the patient population most clinically adjacent to post-Covid POTS ([Friedman et al., 2006 — temperature-guided SR-T3 produced clinical improvement in CFS](https://pubmed.ncbi.nlm.nih.gov/16883675/)). The protocol endpoint is basal body temperature normalization to 98.6°F, which corresponds to restored cellular T3 activity across tissues.
+The clinical validation comes from temperature-guided SR-T3 work in CFS, the patient population most clinically adjacent to post-Covid POTS ([Friedman et al., 2006: temperature-guided SR-T3 produced clinical improvement in CFS](https://pubmed.ncbi.nlm.nih.gov/16883675/)). The protocol endpoint is basal body temperature normalization to 98.6°F, which corresponds to restored cellular T3 activity across tissues.
 
 **Dry fasting** addresses the deeper pathology: the persistent spike RNA, the latent viral reservoirs, the inflammation generating the signals that are keeping the metabolic floor pressed down. The mechanism (hyperosmotic autophagy, virophagy, NK cell surge) is detailed in [the dry fasting complete guide](/blog/dry-fasting-complete-guide).
 
@@ -85,7 +85,7 @@ POTS symptoms typically reduce progressively as the metabolic floor rises:
 
 - **Months 0-3** (initial fast + T3 begun): symptomatic POTS treatment continues; first noticeable reduction in resting heart rate and orthostatic intolerance often appears in weeks 4-8 as T3 reaches therapeutic effect
 - **Months 3-6** (refeeding and further cycles): meaningful reduction in tachycardia response to standing; many patients can begin tapering POTS medications
-- **Months 6-12** (consolidation): substantial POTS resolution in most patients; orthostatic vitals normalize
+- **Months 6-12** (banking the gains): substantial POTS resolution is the aim, with orthostatic vitals normalizing
 - **Months 12-18+** (severe long-duration cases): structural circulatory and autonomic recovery completes
 
 The pattern is not linear. POTS symptoms tend to flare during fasting windows and Herxheimer reactions and to reduce most noticeably during steady-state phases.
@@ -118,7 +118,7 @@ These are appropriate for autoimmune-dominant POTS subtypes. They can be sequenc
 
 ### Will dry fasting make my POTS worse?
 
-During the fast itself, often yes (dehydration is additive to orthostatic intolerance). After the fast, no; most patients see a net reduction in POTS symptoms 2-4 weeks post-fast. The post-fast window is where the benefit accrues.
+During the fast itself, often yes (dehydration is additive to orthostatic intolerance). After the fast, no; in my experience POTS symptoms usually ease in the weeks after the fast. The post-fast window is where the benefit accrues.
 
 ### What is the connection between POTS, MCAS, and Long Covid?
 

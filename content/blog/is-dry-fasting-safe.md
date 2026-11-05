@@ -95,7 +95,7 @@ The following are stop signals, not push-through signals. If any of these occur,
 - **Severe chest pain or new arrhythmia symptoms.** Stop immediately.
 - **Signs of refeeding syndrome during the refeed** (severe muscle weakness, edema, confusion, arrhythmias). This is a medical emergency.
 
-Stop signals are not the same as discomfort. Headache, fatigue, mild nausea, hunger, irritability, mild emotional volatility are normal fast symptoms. Most patients tolerate a 5-day dry fast with predictable discomfort and no actual warning signs.
+Stop signals are not the same as discomfort. Headache, fatigue, mild nausea, hunger, irritability, mild emotional volatility are normal fast symptoms. A 5-day dry fast usually brings predictable discomfort and no actual warning signs.
 
 ## Day 3: The Real Story
 

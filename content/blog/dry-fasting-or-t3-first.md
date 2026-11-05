@@ -74,9 +74,9 @@ For the patient whose fasts have kept failing with a baseline body temperature b
 
 **Days 0-14: Baseline establishment.** Daily basal body temperature tracking, resting heart rate tracking, symptom inventory. Confirm the sub-96°F baseline; a single low reading is not enough; the 14-day average is what drives the decision.
 
-**Days 14-30: T3 initiation.** Slow-release T3 starting at 12.5 mcg twice daily. Climb by 12.5 mcg every 3-5 days based on temperature response. Continue tracking daily.
+**Days 14-30: T3 initiation.** Slow-release T3 starting at a low dose twice daily, climbing in small steps every few days based on temperature response; the dose is set case by case. Continue tracking daily.
 
-**Days 30-60: T3 climb continues.** Dose climbs as temperature responds. Most patients reach 60-100 mcg/day during this window with temperature climbing 0.1-0.2°F per week.
+**Days 30-60: T3 climb continues.** Dose climbs as temperature responds, with temperature usually climbing 0.1-0.2°F per week.
 
 **Days 60-90: Tolerance building with short fasts.** With basal body temperature now climbing above 96°F, short fasts (24-hour, 48-hour, 72-hour water fasts) become productive. Tolerance for the metabolic transitions is being built progressively.
 
@@ -116,11 +116,11 @@ For borderline patients who have never fasted, fast first and watch the response
 
 ### How long until my temperature rises on T3?
 
-Most patients see initial temperature movement within 2-4 weeks of T3 reaching therapeutic effect. Substantial temperature climb (from sub-96°F to above 96°F) typically takes 6-10 weeks of T3 therapy with appropriate dose titration.
+Temperature usually starts to move within a few weeks of T3 reaching its working level. The substantial climb (from sub-96°F to above 96°F) takes longer, and how long varies with the person.
 
 ### What if my temperature does not rise on T3?
 
-If basal body temperature does not respond to gradually escalating SR-T3 doses up to 150 mcg by week 10, the issue is likely beyond simple thyroid resistance. Other mechanisms (severe metabolic collapse, untreated chronic infection, advanced HPT axis dysfunction) may be involved. Further medical evaluation is appropriate.
+If basal body temperature does not respond to a gradually escalating SR-T3 course, wean off rather than climb further: the issue is likely beyond simple thyroid resistance. Other mechanisms (severe metabolic collapse, untreated chronic infection, advanced HPT axis dysfunction) may be involved. Further medical evaluation is appropriate.
 
 ### Can I start with both T3 and dry fasting at the same time?
 

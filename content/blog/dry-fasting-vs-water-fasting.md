@@ -41,6 +41,8 @@ The full mechanism of the second pathway is in [Autophagy Science Explained](/bl
 
 The practical consequence: dry fasting reaches *types* of cellular damage that water fasting does not reach efficiently. Specifically, intracellular viral reservoirs, persister-form bacterial populations, aggregated protein deposits, and other deeply-internal compartments are accessible to the second pathway in ways they are not to the first.
 
+Why the order matters is on [the healing cycle page](/healing-cycle).
+
 ## The Second Difference: Compressed Timeline
 
 Khoroshilov's clinical work on dry fasting documents that metabolic and ketone milestones a water faster reaches at day 7-9 are reached at day 3 of a dry fast. The compression is roughly 3:1 in autophagic depth: 1 day of dry fasting ≈ 3 days of water fasting; 3 days of dry fasting ≈ 9 days of water fasting; 9 days of dry fasting ≈ 27 days of water fasting.
@@ -88,7 +90,7 @@ The right fast depends on your goal:
 
 **For mild chronic illness without significant viral or pathogen reservoirs:** a 3-day to 5-day water fast may be appropriate, possibly combined with T3 therapy in the Scorch Protocol framework.
 
-**For moderate to severe chronic illness with significant viral reactivation, persister-form pathogen burden, or persistent tissue damage:** extended dry fasting is what reaches the damage other interventions cannot. Five days is the working window; some people get their best results from seven to nine days once five is very comfortable. Progression matters; do not start with extended dry fasts.
+**For moderate to severe chronic illness with significant viral reactivation, persister-form pathogen burden, or persistent tissue damage:** extended dry fasting is what reaches the damage other interventions cannot. Five days is the working window; some people get their best results from seven to nine days once five is very comfortable. Deeper fasts go deeper and may bring results faster, but they demand a stricter refeed and more care; how far is set with me. Progression matters; do not start with extended dry fasts.
 
 **For specific clinical conditions:**
 

@@ -63,21 +63,21 @@ The first 5-day dry fast at home with buddy system. Pre-fast preparation was eat
 
 Refeeding initiated carefully: 300 mL room-temperature water over the first hour, then electrolytes, then easily digestible food (broth, mashed fruit) over the next 12 hours. Daily caloric intake at refeed start: approximately 1,400 kcal.
 
-T3 begun in week 3 of month 2 at 12.5 mcg SR-T3 twice daily. Climbed by 12.5 mcg every 4 days over the following weeks.
+T3 begun in week 3 of month 2 at a low dose of SR-T3 twice daily, climbing in small steps every few days over the following weeks.
 
 End of month 2: substantial subjective improvement. Brain fog noticeably reduced. Resting heart rate 72 (down from 78). Basal body temperature 97.4°F (up from 96.8°F at protocol entry). MCAS reactivity reducing; able to reintroduce one previously trigger food without flare.
 
 ## Month 3: T3 Cycle Mid-Phase
 
-T3 dose climbing through the gradual climb phase. By mid-month, at 75 mcg SR-T3 daily, basal body temperature climbing to 97.9°F average. Energy substantially improved. Brain fog continues to clear. Caloric tolerance opening: patient now consuming 1,800-2,000 kcal/day without MCAS flares or weight gain.
+T3 dose climbing through the gradual climb phase. By mid-month, basal body temperature climbing to 97.9°F average. Energy substantially improved. Brain fog continues to clear. Caloric tolerance opening: patient now consuming 1,800-2,000 kcal/day without MCAS flares or weight gain.
 
 Mid-month POTS reassessment: standing heart rate increase reduced from 45 bpm to 28 bpm. Cromolyn sodium dose reduced to half (was 200 mg four times daily, now 100 mg four times daily). Compression garments wearing less often.
 
-End of month 3: T3 dose at 100 mcg/day, basal body temperature averaging 98.1°F. Patient describes feeling "human again" for the first time in over two years.
+End of month 3: basal body temperature averaging 98.1°F. Patient describes feeling "human again" for the first time in over two years.
 
 ## Month 4: T3 Peak Hold and First hGH Cycle Discussion
 
-T3 dose reached 125 mcg/day, basal body temperature stabilized at 98.5°F average. Holding the dose through the peak phase. Substantial energy improvement consolidating. Cognitive symptoms substantially resolved; able to read and engage with complex work content sustainably. POTS symptoms minimal; standing heart rate increase 18 bpm (below POTS threshold). Cromolyn sodium tapered further to 100 mg twice daily.
+T3 dose reached the level where basal body temperature stabilized at 98.5°F average. Holding the dose through the peak phase. Substantial energy improvement consolidating. Cognitive symptoms substantially resolved; able to read and engage with complex work content sustainably. POTS symptoms minimal; standing heart rate increase 18 bpm (below POTS threshold). Cromolyn sodium tapered further to 100 mg twice daily.
 
 Discussion with prescriber about hGH therapy for the rebuild phase. Baseline IGF-1 measured: 142 ng/mL (low end of normal range for age). Pre-hGH cardiovascular evaluation cleared. First hGH prescription obtained; planned to begin in month 5 after T3 taper begins.
 
@@ -85,9 +85,9 @@ End of month 4: caloric intake 2,400 kcal/day with steady weight (no significant
 
 ## Month 5: T3 Taper, First hGH Begin
 
-T3 taper begun: 12.5 mcg reduction every 4 days. Desiccated thyroid bridge initiated at half-grain (30 mg) daily during the taper to smooth the HPT recovery. Taper completed over weeks 2-3.
+T3 taper begun in small steps every few days. A desiccated thyroid bridge was added during the taper to smooth the HPT recovery. Taper completed over weeks 2-3.
 
-hGH initiated at 1 IU subcutaneous in the evening. Tolerated well; no significant side effects. Energy continuing to improve. Body composition shift noticeable: lean mass return, fat mass stable.
+hGH initiated at a low dose, subcutaneous in the evening. Tolerated well; no significant side effects. Energy continuing to improve. Body composition shift noticeable: lean mass return, fat mass stable.
 
 Caloric intake climbing to 2,700 kcal/day with continued steady body composition.
 
@@ -95,7 +95,7 @@ End of month 5: completed first full T3 cycle. hGH cycle in progress. Body tempe
 
 ## Month 6: Continued Refeed and hGH
 
-hGH dose increased to 2 IU. Refeed continuing at 70-100 cal/week ascent rate. Caloric intake at 3,000 kcal/day by end of month. Patient returned to recreational running (slowly, half-distance from pre-illness, completed without post-exertional malaise).
+hGH dose stepped up. Refeed continuing at 70-100 cal/week ascent rate. Caloric intake at 3,000 kcal/day by end of month. Patient returned to recreational running (slowly, half-distance from pre-illness, completed without post-exertional malaise).
 
 Biome rebuild work begun: introduced raw kefir, raw kombucha, and raw unpasteurized kimchi (the trinity) as daily dietary components. Within 4 weeks, noticeable digestive improvement.
 
@@ -111,13 +111,13 @@ End of month 7: substantial functional recovery. Patient describes "back to myse
 
 ## Months 8-9: Maintenance and Second Dry Fast Cycle
 
-Patient resumed protocol cycle: second 5-day dry fast in month 8. Notably easier than the first; no Herxheimer reaction, mild fatigue post-fast resolving within 3 days. Refeed straightforward. T3 cycle initiated again at lower starting dose (25 mcg/day) and lower peak (75 mcg/day); body temperature held at 98.6°F average through the cycle.
+Patient resumed protocol cycle: second 5-day dry fast in month 8. Notably easier than the first; no Herxheimer reaction, mild fatigue post-fast resolving within 3 days. Refeed straightforward. T3 cycle initiated again at a lower starting dose and a lower peak; body temperature held at 98.6°F average through the cycle.
 
 End of month 9: deep cleanup completed, energy floor sustainably elevated.
 
-## Months 10-12: Consolidation and Second hGH Cycle
+## Months 10-12: Banking the Gains and a Second hGH Cycle
 
-Second hGH cycle begun at 1.5 IU/day for 3 months. Body composition continues to improve. Strength and endurance climbing toward pre-illness levels. Cognitive function fully restored.
+Second hGH cycle begun for 3 months. Body composition continues to improve. Strength and endurance climbing toward pre-illness levels. Cognitive function fully restored.
 
 By month 12, the patient's metrics:
 
@@ -137,7 +137,7 @@ This is a typical course for the composite patient described. Real patients vary
 
 - Some respond faster, particularly patients with shorter illness duration or fewer overlapping conditions (MCAS, POTS) at protocol entry
 - Some take longer, particularly long-duration cases (5+ years), patients with severe initial symptoms, or patients with significant co-infection burden requiring antimicrobial layering
-- The specific medications and dosing differ; the T3 dose range (60-150 mcg) is what most patients require, but outliers exist
+- The specific medications and dosing differ, and every dose is set case by case
 - The hGH cycle timing and dose differ; some patients require longer hGH cycles, some require shorter
 
 The arc is consistent: cleanup → energy restoration → rebuild, in that order, taking 9-18 months for substantial recovery in the moderately-severe Long Covid cohort, longer for severe and long-duration cases.

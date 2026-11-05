@@ -36,7 +36,7 @@ Mast Cell Activation Syndrome (MCAS) is a condition where mast cells (immune cel
 - Respiratory reactivity (post-nasal drip, throat tightening, mild wheezing)
 - Worsening with stress, infection, hormonal shifts, or temperature change
 
-A study of 136 Long Covid patients compared to 80 MCAS patients found virtually identical symptom patterns ([Weinstock et al., 2021 — mast cell activation symptoms were prevalent in Long Covid; Long Covid and MCAS produce overlapping symptom signatures](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8459548/), *International Journal of Infectious Diseases*). The estimate that MCAS affects ~17% of the general population is debated, and so is the Long Covid link: the symptom overlap is documented, but whether mast cell activation drives it is unproven, and the allergy specialist bodies have not endorsed MCAS as part of Long Covid.
+A study of 136 Long Covid patients compared to 80 MCAS patients found virtually identical symptom patterns ([Weinstock et al., 2021: mast cell activation symptoms were prevalent in Long Covid; Long Covid and MCAS produce overlapping symptom signatures](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8459548/), *International Journal of Infectious Diseases*). The estimate that MCAS affects ~17% of the general population is debated, and so is the Long Covid link: the symptom overlap is documented, but whether mast cell activation drives it is unproven, and the allergy specialist bodies have not endorsed MCAS as part of Long Covid.
 
 I read this overlap as a shared mechanism rather than coincidence. That is my hypothesis, not settled science, and the mechanism below is my model of it.
 
@@ -77,7 +77,7 @@ The execution requires careful sequencing because aggressive intervention in an 
 
 **Phase 1: Dry fasting.** Done in MCAS patients with extra care. The fast itself is generally well-tolerated and often reduces reactivity (no food = no food triggers; the fast also clears the latent viral load that is partially driving the regulatory failure). The refeeding phase is where the danger sits, and the protocol uses a slower-than-default refeeding schedule for MCAS patients specifically.
 
-**Phase 2: T3 therapy.** Restores cellular energy supply, which restores DAO activity, regulatory T cell function, and the basic signaling that maintains mast cell thresholds. T3 specifically is well-tolerated in most MCAS patients; some report transient reactivity in the first week of titration that resolves as the body adapts. Slow-release T3 is preferred because the steadier curve produces less reactivity than the spike-crash of immediate-release T3.
+**Phase 2: T3 therapy.** Restores cellular energy supply, which restores DAO activity, regulatory T cell function, and the basic signaling that maintains mast cell thresholds. In my experience T3 is usually well tolerated in MCAS; some people report transient reactivity in the first week of titration that resolves as the body adapts. Slow-release T3 is preferred because the steadier curve produces less reactivity than the spike-crash of immediate-release T3.
 
 **Phase 3: Refeeding plus hGH.** This is the highest-risk phase for MCAS patients and requires the slowest implementation. The 70-100 calories per week ascent is specifically calibrated to avoid MCAS flares; aggressive caloric reintroduction (which would be appropriate for a non-MCAS patient) is dangerous in this cohort. hGH is added once the foundation is stable and is generally well-tolerated.
 
@@ -90,7 +90,7 @@ MCAS symptoms typically reduce progressively as the metabolic floor rises:
 - **Months 0-3** (pre-protocol stabilization + first fast): baseline reactivity managed by medication; first fast often produces a transient improvement window post-fast as inflammatory load drops
 - **Months 3-6** (T3 phase): cellular energy restoration begins reducing reactivity; many patients can begin tapering antihistamine doses
 - **Months 6-12** (refeeding and further cycles; hGH only if the cycles have not done enough): reactivity continues to fall as gut barrier integrity restores and regulatory mechanisms come back online
-- **Months 12-24** (consolidation): substantial MCAS resolution in most patients, allowing reintroduction of previously trigger foods, normal histamine tolerance, and discontinuation of mast cell medication
+- **Months 12-24** (banking the gains): substantial MCAS resolution is the aim, allowing reintroduction of previously trigger foods, normal histamine tolerance, and discontinuation of mast cell medication
 
 The pattern is variable. Some patients clear MCAS completely; some retain a baseline reactivity that requires ongoing low-dose management.
 
@@ -110,7 +110,7 @@ This is the typical pattern. New-onset MCAS after a viral illness reflects the r
 
 ### Do I have to stay on antihistamines forever?
 
-Most patients on the Scorch Protocol are able to taper antihistamine and mast cell stabilizer use substantially or completely as the protocol progresses. The taper is usually phased over months and should not be done abruptly.
+In my experience, people on the Scorch Protocol can usually taper antihistamine and mast cell stabilizer use substantially, sometimes completely, as the protocol progresses. The taper is usually phased over months and should not be done abruptly.
 
 ### What is the connection between Long Covid, MCAS, and POTS?
 

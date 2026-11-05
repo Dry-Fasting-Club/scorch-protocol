@@ -39,7 +39,7 @@ You will learn:
 
 The reason the rebuild phase takes as long as it does is not arbitrary. It is anchored in one of the most thoroughly documented human metabolic experiments ever conducted.
 
-The Minnesota Starvation Experiment ran from 1944 to 1945 under Ancel Keys at the University of Minnesota. Thirty-six healthy male conscientious objectors agreed to undergo 24 weeks of semi-starvation (1,600 kcal/day average, ~50% caloric reduction from baseline) followed by 20 weeks of controlled rehabilitation. The published data fills 1,385 pages and remains the most comprehensive study of human starvation and recovery ever conducted ([Kalm & Semba, 2005 — retrospective analysis of the Minnesota experiment's lasting influence on fasting and recovery science](https://pubmed.ncbi.nlm.nih.gov/15930441/), *Journal of Nutrition*).
+The Minnesota Starvation Experiment ran from 1944 to 1945 under Ancel Keys at the University of Minnesota. Thirty-six healthy male conscientious objectors agreed to undergo 24 weeks of semi-starvation (1,600 kcal/day average, ~50% caloric reduction from baseline) followed by 20 weeks of controlled rehabilitation. The published data fills 1,385 pages and remains the most comprehensive study of human starvation and recovery ever conducted ([Kalm & Semba, 2005: retrospective analysis of the Minnesota experiment's lasting influence on fasting and recovery science](https://pubmed.ncbi.nlm.nih.gov/15930441/), *Journal of Nutrition*).
 
 The findings relevant to the rebuild phase:
 
@@ -48,7 +48,7 @@ The findings relevant to the rebuild phase:
 - Subjects developed bradycardia (heart rates in the low 30s bpm), profound fatigue, cold intolerance, edema, hair loss, and the same phenotype seen in chronically ill patients today
 - Psychological effects included obsessive food preoccupation, depression, emotional instability, social withdrawal, and loss of libido, all of which overlap heavily with the symptom profile of severe ME/CFS and Long Covid
 - During rehabilitation, subjects entered a hyperphagia phase, spontaneously consuming 5,000-10,000 kcal per day
-- Full restoration of body weight, muscle mass, strength, and psychological normality required 9-12 months of sustained high caloric intake, not weeks ([Tucker, 2010 — documents the post-rehabilitation weight overshoot and prolonged metabolic normalization](https://pubmed.ncbi.nlm.nih.gov/20461077/), *American Journal of Clinical Nutrition*)
+- Full restoration of body weight, muscle mass, strength, and psychological normality required 9-12 months of sustained high caloric intake, not weeks ([Tucker, 2010: documents the post-rehabilitation weight overshoot and prolonged metabolic normalization](https://pubmed.ncbi.nlm.nih.gov/20461077/), *American Journal of Clinical Nutrition*)
 
 The critical implication for chronic illness recovery: those subjects were healthy young men with no pre-existing viral burden, no thyroid damage, no insulin resistance, no cascaded immune dysfunction. They started from a high metabolic baseline and still needed 9-12 months. Chronically ill patients enter the rebuild phase from a far lower baseline. The 9-month timeline is a floor, not an average.
 
@@ -88,9 +88,9 @@ The argument for "arguably most important" is that the cleanup phase produces st
 
 The specific role of hGH:
 
-**hGH is the only intervention that actually rebuilds the thymus.** This is the strongest claim in the rebuild phase literature. Thymus peptides (Thymalin, Thymosin α1) and thymus supplements provide temporary immune-modulatory support while being supplemented, but they do not produce morphological thymic tissue regeneration. The TRIIM trial ([Fahy et al., 2019 — recombinant hGH plus metformin plus DHEA for one year produced measurable thymic regeneration on MRI plus epigenetic age regression of ~2.5 years on the Horvath clock](https://onlinelibrary.wiley.com/doi/10.1111/acel.13028), *Aging Cell*) is the published evidence for hGH-driven structural thymic rebuild.
+**hGH is the only intervention that actually rebuilds the thymus.** This is the strongest claim in the rebuild phase literature. Thymus peptides (Thymalin, Thymosin α1) and thymus supplements provide temporary immune-modulatory support while being supplemented, but they do not produce morphological thymic tissue regeneration. The TRIIM trial ([Fahy et al., 2019: recombinant hGH plus metformin plus DHEA for one year produced measurable thymic regeneration on MRI plus epigenetic age regression of ~2.5 years on the Horvath clock](https://onlinelibrary.wiley.com/doi/10.1111/acel.13028), *Aging Cell*) is the published evidence for hGH-driven structural thymic rebuild.
 
-The thymus is where T-cells are produced and trained. In chronically ill patients with years of immune dysfunction, the thymus has often atrophied and the body's immune training capacity has been substantially reduced. Rebuilding it is not optional for full immune competence to return. Thymus peptides are useful as bridges during the cleanup and energy phases of the protocol; they are not a substitute for the structural rebuild that requires hGH.
+The thymus is where T-cells are produced and trained. In chronically ill patients with years of immune dysfunction, the thymus has often atrophied and the body's immune training capacity has been substantially reduced. Rebuilding it is not optional for full immune competence to return. Thymus peptides are per-case add-ons I set with people individually, never before refeed day 8; they are not a substitute for the structural rebuild that requires hGH.
 
 **hGH directs stem cell fate.** Stem cells released during prior dry fasting cycles (through the second acidotic crisis around day 7-9 of extended fasts) are the substrate for tissue rebuild. hGH and the IGF-1 it stimulates are the signals that direct those stem cells toward useful lineages (muscle, organ tissue, neural) rather than defaulting toward adipocyte (fat) under the body's "next famine" protective response. Without the hGH signal during the rebuild phase, much of the stem cell potential released during the fasting phase is wasted.
 
@@ -98,11 +98,11 @@ The thymus is where T-cells are produced and trained. In chronically ill patient
 
 ## hGH Dosing and Sourcing
 
-hGH at physiologic replacement doses is well-tolerated in monitored protocols. The reputation hGH carries comes from supraphysiologic doses used in bodybuilding and longevity biohacking contexts, which are 5-10x the doses used in the Scorch Protocol's rebuild phase.
+hGH at physiologic replacement doses is well-tolerated in monitored protocols. The reputation hGH carries comes from supraphysiologic doses used in bodybuilding and longevity biohacking contexts, which are many times the doses used in the Scorch Protocol's rebuild phase.
 
-Standard protocol range:
+How it is used:
 
-- 1-2 IU per day for most patients, occasionally up to 4 IU for severely depleted long-duration cases
+- A low, physiologic dose set case by case, higher only for severely depleted long-duration cases
 - Typically subcutaneous injection in the evening (matches natural GH pulse rhythm)
 - Cycled in 3-6 month phases with off-cycles to maintain endogenous production
 - Combined with adequate carbohydrate intake (GH is anabolic in the presence of carbs, more lipolytic in their absence)
@@ -121,7 +121,7 @@ Most patients on shorter dry fasts (3-day to 5-day) do not need a deliberate bio
 
 The foundational rebuild stack is the trinity of raw kefir, raw kombucha, and raw unpasteurized kimchi (or sauerkraut). The "raw" and "unpasteurized" qualifiers are non-negotiable: pasteurized kombucha, pasteurized kimchi, and shelf-stable supermarket sauerkraut are functionally inactive for the rebuild purpose because the bacterial cultures have been killed.
 
-Research support: a 10-week intervention in healthy adults with 6 servings/day of fermented foods increased microbiome diversity and decreased inflammatory markers ([Wastyk et al., 2021 — gut-microbiota-targeted diets modulate human immune status](https://www.cell.com/cell/fulltext/S0092-8674(21)00754-6), *Cell*). The mechanism is direct ecological repopulation plus inflammatory modulation.
+Research support: a 10-week intervention in healthy adults with 6 servings/day of fermented foods increased microbiome diversity and decreased inflammatory markers ([Wastyk et al., 2021: gut-microbiota-targeted diets modulate human immune status](https://www.cell.com/cell/fulltext/S0092-8674(21)00754-6), *Cell*). The mechanism is direct ecological repopulation plus inflammatory modulation.
 
 Timeline: in regular populations, meaningful biome shifts take approximately 4 weeks of continuous consumption. In depleted patients (post-extended-fast or post-long-antiviral), the shift is often faster because the empty territory accelerates colonization.
 
@@ -137,7 +137,7 @@ The integrated rebuild phase across a full year:
 
 **Months 6-9 (late-rebuild, hGH if warranted):** Caloric ascent to 4,000+ kcal/day for severely depleted patients. Around the third cycle, if fasting and T3 have not done enough, hGH is added for three to six months, then weaned. Continued tissue rebuild, mitochondrial density restoration, thymic regeneration. Immune competence measurably improving (fewer infections, faster recovery from minor illness, MCAS reactivity continuing to fall).
 
-**Months 9-12 (consolidation):** Caloric intake at maintenance for new restored baseline (typically 2,500-3,500 kcal/day for sustained maintenance after the active rebuild ramp). Energy floor stable at substantially higher level than at protocol entry. Patient is recognizably themselves again in function and capacity. Final residual symptoms (sometimes cognitive subtleties in severe long-duration cases) continue to clear.
+**Months 9-12 (banking the gains):** Caloric intake at maintenance for new restored baseline (typically 2,500-3,500 kcal/day for sustained maintenance after the active rebuild ramp). Energy floor stable at substantially higher level than at protocol entry. Patient is recognizably themselves again in function and capacity. Final residual symptoms (sometimes cognitive subtleties in severe long-duration cases) continue to clear.
 
 The cycles continue throughout: a fast, a refeed, the 30-day T3 course when the fast leaves a slowdown behind, seven days off, the next fast. Anyone on hGH who keeps cycling fasts doses it through the day, at least four times, so the fast still works under it.
 
@@ -165,7 +165,7 @@ Transient improvement in insulin resistance markers is expected during the rebui
 
 ### Is hGH dangerous?
 
-At physiologic replacement doses used in the Scorch Protocol (typically 1-2 IU/day), the safety profile is meaningfully different from the supraphysiologic bodybuilding doses (10-20+ IU/day) that produce most of the hGH risk reputation. The TRIIM trial supports the safety of structured one-year hGH protocols when monitored. Standard contraindications (active malignancy, certain pituitary conditions) still apply.
+At the physiologic replacement doses used in the Scorch Protocol, the safety profile is meaningfully different from the supraphysiologic bodybuilding doses that produce most of the hGH risk reputation. The TRIIM trial supports the safety of structured one-year hGH protocols when monitored. Standard contraindications (active malignancy, certain pituitary conditions) still apply.
 
 ### What about IGF-1 and cancer risk?
 

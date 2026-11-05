@@ -31,7 +31,7 @@ In healthy children and adolescents, the thymus is large and highly active. T-ce
 
 Through adulthood, the thymus progressively involutes: tissue mass decreases, the active T-cell-producing regions are replaced by fat tissue, and T-cell output declines substantially. By middle age, the thymus has lost much of its original capacity.
 
-In chronically ill patients, this involution accelerates. Years of immune dysfunction, chronic inflammation, sustained cortisol stress, and the metabolic depletion of severe chronic illness all push thymic involution past what age alone would produce. The patient's T-cell repertoire becomes increasingly populated by exhausted cells (the PD-1 and CTLA-4 markers documented in ME/CFS patients, [Baraniuk et al., 2024 — CD8 T-cell exhaustion and persistent NK cell deficits in ME/CFS](https://pubmed.ncbi.nlm.nih.gov/39483457/), *Frontiers in Immunology*) that the depleted thymus can no longer replace at adequate rate.
+In chronically ill patients, this involution accelerates. Years of immune dysfunction, chronic inflammation, sustained cortisol stress, and the metabolic depletion of severe chronic illness all push thymic involution past what age alone would produce. The patient's T-cell repertoire becomes increasingly populated by exhausted cells (the PD-1 and CTLA-4 markers documented in ME/CFS patients, [Baraniuk et al., 2024: CD8 T-cell exhaustion and persistent NK cell deficits in ME/CFS](https://pubmed.ncbi.nlm.nih.gov/39483457/), *Frontiers in Immunology*) that the depleted thymus can no longer replace at adequate rate.
 
 This is the immune state that matters for chronic illness recovery: not just the count of immune cells but the capacity to produce new ones. Restoring that capacity requires restoring the thymic tissue that produces them.
 
@@ -59,7 +59,7 @@ The peptide literature shows useful effects on immune output and function. It do
 - Increased tissue mass is a structural change that persists after the intervention because the tissue itself has been rebuilt
 - Chronically ill patients need both, but the structural component is what they cannot get from peptide therapy alone
 
-This is the central distinction underlying Yannick's framing: peptides are bridges and supports during the protocol. hGH is the rebuild itself.
+This is the central distinction in how I use them: peptides are per-case add-ons I set with people individually, never a general recommendation, and never before refeed day 8. hGH is the rebuild itself.
 
 ## Why hGH Works When Peptides Do Not
 
@@ -85,7 +85,7 @@ For chronically ill patients with significant immune exhaustion, the structural 
 
 **For severe long-duration chronic illness, this is the difference between "managed" and "recovered."** Patients who stabilize on peptides can live functional lives; this is not nothing. Patients who complete the structural rebuild can return to pre-illness function in ways that peptides alone do not produce.
 
-This is why the Scorch Protocol's "regeneration is the longest and most important phase" framing places hGH at the center of the rebuild. The cleanup (dry fasting) is necessary. The energy restoration (T3) is necessary. The structural rebuild (hGH) is what closes the gap between "no longer acutely sick" and "actually rebuilt."
+This is why the Scorch Protocol's "regeneration is the longest and most important phase" framing places hGH at the center of the rebuild. The cleanup (dry fasting) is necessary. Restoring the metabolism is necessary, with a T3 course for the person who stays cold after the refeed. The structural rebuild (hGH) is what closes the gap between "no longer acutely sick" and "actually rebuilt."
 
 ## What This Means for Patients Who Cannot Use hGH
 
@@ -103,7 +103,7 @@ This is information patients need to make informed decisions. The Scorch Protoco
 
 ### Can I take Thymalin instead of hGH?
 
-For immune support during the protocol, yes. For structural thymic rebuild, no. The peptide does not produce the same effect as hGH. The distinction is in [Thymalin and Thymus Peptides Explained](/blog/thymalin-thymus-peptides-explained).
+For immune support, sometimes, as a per-case add-on I set with people individually, never before refeed day 8. For structural thymic rebuild, no. The peptide does not produce the same effect as hGH. The distinction is in [Thymalin and Thymus Peptides Explained](/blog/thymalin-thymus-peptides-explained).
 
 ### How long does the hGH thymic rebuild take?
 
@@ -119,7 +119,7 @@ These are not supported by the published peptide literature. The peptides produc
 
 ### Is the TRIIM trial enough evidence to base treatment on?
 
-It is one trial with nine participants. The effect was meaningful enough that larger trials are warranted, and the mechanism is biologically plausible. Clinical decisions are informed by the published evidence plus the protocol experience over hundreds of patients; the TRIIM trial is the published anchor for the mechanism, not the totality of the evidence.
+It is one trial with nine participants. The effect was meaningful enough that larger trials are warranted, and the mechanism is biologically plausible. Clinical decisions are informed by the published evidence plus the protocol experience; the TRIIM trial is the published anchor for the mechanism, not the totality of the evidence.
 
 ### Where do I start?
 

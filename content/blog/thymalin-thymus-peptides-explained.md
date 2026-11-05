@@ -21,7 +21,7 @@ excerpt: "Thymus peptides (Thymalin, Thymosin alpha-1) are increasingly marketed
 
 ## The Short Answer
 
-Thymalin and Thymosin alpha-1 (Tα1) are peptide extracts derived from thymic tissue with documented immune-modulatory effects: T-cell maturation support, cytokine modulation, response in viral and inflammatory conditions. They are useful in the cleanup and energy phases of the Scorch Protocol as bridges supporting immune function during a vulnerable window. They are not, however, the structural thymus regeneration they are sometimes marketed as. The peptide literature shows immune-modulatory effects; it does not show morphological thymic tissue regeneration of the kind documented for hGH in the TRIIM trial. The distinction matters because patients who substitute thymus peptides for hGH expecting structural rebuild will not get it.
+Thymalin and Thymosin alpha-1 (Tα1) are peptide extracts derived from thymic tissue with documented immune-modulatory effects: T-cell maturation support, cytokine modulation, response in viral and inflammatory conditions. In the Scorch Protocol, Thymalin is the only one I still use, and only as a per-case add-on I set with people individually, never a general recommendation, and never before refeed day 8. I retired Tα1: in my research and experience it can hypersensitize immune cells and backfire into new allergies. Neither is the structural thymus regeneration they are sometimes marketed as. The peptide literature shows immune-modulatory effects; it does not show morphological thymic tissue regeneration of the kind documented for hGH in the TRIIM trial. The distinction matters because patients who substitute thymus peptides for hGH expecting structural rebuild will not get it.
 
 ## What the Thymus Actually Is
 
@@ -61,7 +61,7 @@ Like Thymalin, Tα1 does not produce structural thymic regeneration. It supports
 
 ## What hGH Does That Peptides Do Not
 
-The TRIIM trial ([Fahy et al., 2019 — recombinant hGH plus metformin plus DHEA for one year produced measurable thymic regeneration on MRI plus epigenetic age regression of ~2.5 years on the Horvath clock](https://onlinelibrary.wiley.com/doi/10.1111/acel.13028), *Aging Cell*) documented something that the peptide literature has not documented: actual morphological thymic tissue regeneration visible on MRI imaging.
+The TRIIM trial ([Fahy et al., 2019: recombinant hGH plus metformin plus DHEA for one year produced measurable thymic regeneration on MRI plus epigenetic age regression of ~2.5 years on the Horvath clock](https://onlinelibrary.wiley.com/doi/10.1111/acel.13028), *Aging Cell*) documented something that the peptide literature has not documented: actual morphological thymic tissue regeneration visible on MRI imaging.
 
 Nine adults received recombinant hGH plus metformin plus DHEA for one year. Outcomes:
 
@@ -71,21 +71,19 @@ Nine adults received recombinant hGH plus metformin plus DHEA for one year. Outc
 
 This is structural rebuild, not signaling support. The hGH-driven mechanism produces new thymic tissue mass, which produces the capacity for new T-cell production, which is what the chronic illness population needs to restore full immune competence.
 
-Thymus peptides do useful immune-modulatory work during the cleanup and energy phases of the protocol. They do not substitute for the structural rebuild that requires hGH. The mechanism distinction is in [Why Only hGH Rebuilds the Thymus](/blog/why-hgh-rebuilds-thymus).
+Thymus peptides can do useful immune-modulatory work as a per-case add-on, never before refeed day 8. They do not substitute for the structural rebuild that requires hGH. The mechanism distinction is in [Why Only hGH Rebuilds the Thymus](/blog/why-hgh-rebuilds-thymus).
 
-## Where Thymalin and Tα1 Fit in the Scorch Protocol
+## Where Thymalin Fits in the Scorch Protocol
 
-The protocol uses thymus peptides as bridges during specific windows:
+Thymalin is not a standard step. It is a per-case add-on I set with people individually, never a general recommendation:
 
-**Pre-fast and during fast (if appropriate).** For patients with significant immune compromise, Thymalin or Tα1 in the weeks before and during the first extended dry fast can support immune function during the vulnerable window when the body is undergoing major cellular cleanup. This is supportive, not curative.
+**Never before refeed day 8.** Refeed days 1 to 14 are the consolidation window. Where a case calls for Thymalin, it starts on refeed day 8 at the earliest, later in the refeed or in the rebuild.
 
-**During T3 cycle.** Immune function is undergoing reorganization as cellular ATP supply restores. Thymus peptide support can smooth this transition.
+**During refeed and rebuild.** For the person who needs it, Thymalin supports immune function while hGH (if appropriate for the patient) does the underlying structural rebuild.
 
-**During refeed and rebuild.** Peptides continue to support immune function while hGH (if appropriate for the patient) does the underlying structural rebuild.
+**For patients not using hGH.** Some patients have contraindications to hGH or choose not to use it. Thymalin then provides the best available immune-modulatory support, with the explicit understanding that the structural rebuild will be slower and less complete than the hGH-supported version.
 
-**For patients not using hGH.** Some patients have contraindications to hGH or choose not to use it. Thymus peptides provide the best available immune-modulatory support in this case, with the explicit understanding that the structural rebuild will be slower and less complete than the hGH-supported version.
-
-Dosing varies by formulation and indication. Thymalin is typically administered intramuscularly at doses ranging from 5-30 mg per cycle (depending on the source preparation). Tα1 is typically administered subcutaneously at 1.6 mg twice weekly for 4-8 week cycles. The compounding pharmacy and prescribing physician relationship matters substantially for both.
+The dose varies by formulation and is set case by case. The compounding pharmacy and prescribing physician relationship matters substantially.
 
 ## Why the Marketing Confusion Exists
 
@@ -93,13 +91,13 @@ The "thymus regeneration" framing that some marketing of these peptides uses com
 
 The confusion is consequential because patients who choose thymus peptides over hGH expecting structural rebuild will not get the structural rebuild. They will get useful immune-modulatory support, which is valuable, but it is not the same thing. For severely chronically ill patients whose immune systems have been depleted to the point where new T-cell production capacity matters substantially, the distinction matters.
 
-This is the version Yannick has been clear about in clinical practice: peptides are bridges and supports during the protocol. They are not the rebuild itself.
+This is the version I hold to in practice: peptides are per-case add-ons, never a general recommendation, and never before refeed day 8. They are not the rebuild itself.
 
 ## Frequently Asked Questions
 
 ### Can I use Thymalin instead of hGH?
 
-For immune support during the protocol, Thymalin is a reasonable component. For structural thymic rebuild, no, the peptide does not produce that effect. If you have a contraindication to hGH, Thymalin and Tα1 are the best available immune-modulatory adjuncts; the rebuild will be slower and less complete than with hGH.
+For immune support, sometimes, as a per-case add-on I set with people individually, never before refeed day 8. For structural thymic rebuild, no, the peptide does not produce that effect. If you have a contraindication to hGH, Thymalin is the best available immune-modulatory adjunct; the rebuild will be slower and less complete than with hGH.
 
 ### What about TB-500 or other peptides for immune support?
 
@@ -107,7 +105,7 @@ TB-500 (a peptide derived from Thymosin beta-4) has different mechanisms (more f
 
 ### Which is better, Thymalin or Tα1?
 
-Both have documented immune-modulatory effects. Tα1 has more characterized Western clinical research and is approved for specific indications. Thymalin has longer history in Russian clinical practice. The choice often depends on availability, prescribing physician familiarity, and cost.
+Both have documented immune-modulatory effects, and Tα1 has more characterized Western clinical research and is approved for specific indications. I no longer use Tα1: in my research and experience it can hypersensitize immune cells and backfire into new allergies instead of balancing the immune system. Thymalin, with its longer history in Russian clinical practice, is the only thymus peptide I use, and only per case.
 
 ### Can I use both at the same time?
 
@@ -123,8 +121,8 @@ Typical cycles are 4-8 weeks on, with cycling because the body adapts to sustain
 
 ### Where do I start?
 
-For chronic illness patients in the Scorch Protocol, thymus peptides fit into the cleanup and energy phases as immune-modulatory support. They do not substitute for the structural rebuild in the hGH phase. Read [the Rebuild Phase complete guide](/blog/rebuild-phase-complete-guide) for the full context.
+In the Scorch Protocol, Thymalin is a per-case add-on for immune support, set with me and never before refeed day 8. It does not substitute for the structural rebuild in the hGH phase. Read [the Rebuild Phase complete guide](/blog/rebuild-phase-complete-guide) for the full context.
 
 ## Where to Start
 
-Thymalin and Tα1 provide useful immune-modulatory support during chronic illness recovery. They are not the structural thymic regeneration tool that the marketing sometimes presents. For the structural rebuild, read [Why Only hGH Rebuilds the Thymus](/blog/why-hgh-rebuilds-thymus). For the full protocol context, read [the Rebuild Phase complete guide](/blog/rebuild-phase-complete-guide).
+Thymalin can provide useful immune-modulatory support during chronic illness recovery, as a per-case add-on; I no longer use Tα1. Neither is the structural thymic regeneration tool that the marketing sometimes presents. For the structural rebuild, read [Why Only hGH Rebuilds the Thymus](/blog/why-hgh-rebuilds-thymus). For the full protocol context, read [the Rebuild Phase complete guide](/blog/rebuild-phase-complete-guide).

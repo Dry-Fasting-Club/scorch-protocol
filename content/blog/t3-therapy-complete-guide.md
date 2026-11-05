@@ -39,7 +39,7 @@ This guide focuses on T3 therapy specifically. The full Scorch Protocol context 
 
 ## What T3 Actually Does
 
-T3 (triiodothyronine) is the active form of thyroid hormone. It binds to nuclear thyroid hormone receptors on virtually every cell in the body and to dedicated receptors on the mitochondrial inner membrane, where it directly regulates mitochondrial supercomplex organization and ATP synthesis efficiency ([Cioffi et al., 2022 — T3 enhances mitochondrial supercomplex organization and ATP synthesis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8947633/), *Cells*). T3 is the master regulator of cellular metabolic rate.
+T3 (triiodothyronine) is the active form of thyroid hormone. It binds to nuclear thyroid hormone receptors on virtually every cell in the body and to dedicated receptors on the mitochondrial inner membrane, where it directly regulates mitochondrial supercomplex organization and ATP synthesis efficiency ([Cioffi et al., 2022: T3 enhances mitochondrial supercomplex organization and ATP synthesis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8947633/), *Cells*). T3 is the master regulator of cellular metabolic rate.
 
 T4 (thyroxine) is a storage form. T4 itself has minimal direct cellular activity; it must be converted to T3 by the DIO2 enzyme (primarily in the liver and locally in other tissues) before it can drive cellular metabolism. The TSH and free T4 levels that standard thyroid testing measures reflect the availability of T4 in the bloodstream, which is necessary but not sufficient for adequate cellular T3 activity.
 
@@ -60,13 +60,13 @@ A chronically ill patient can have "normal" TSH and "normal" free T3 and still b
 
 **DIO2 impaired conversion.** The DIO2 Thr92Ala genetic variant impairs peripheral T4-to-T3 conversion. Carriers can appear "normal" on standard labs while peripheral tissues are functionally T3-deficient. A 300-patient randomized controlled trial in *The Lancet* (Panicker et al., 2009) showed that T4+T3 combination therapy produced significantly better cognitive outcomes than T4 alone, with effect concentrated in DIO2 variant carriers.
 
-**Metabolic diversion to reverse T3.** Under metabolic stress, T4 is preferentially diverted toward reverse T3 (rT3) production rather than active T3. rT3 does *not* function as a competitive receptor blocker (the old "rT3 blocks the receptor" framing is mechanistically incorrect, per [Halsall & Oddy, 2021 — rT3 has 200-fold lower nuclear receptor binding affinity than T3 and functions as metabolic diversion rather than receptor blockade](https://pubmed.ncbi.nlm.nih.gov/33040575/), *Annals of Clinical Biochemistry*). The mechanism is that T4 is being shunted away from T3 production, starving the cell.
+**Metabolic diversion to reverse T3.** Under metabolic stress, T4 is preferentially diverted toward reverse T3 (rT3) production rather than active T3. rT3 does *not* function as a competitive receptor blocker (the old "rT3 blocks the receptor" framing is mechanistically incorrect, per [Halsall & Oddy, 2021: rT3 has 200-fold lower nuclear receptor binding affinity than T3 and functions as metabolic diversion rather than receptor blockade](https://pubmed.ncbi.nlm.nih.gov/33040575/), *Annals of Clinical Biochemistry*). The mechanism is that T4 is being shunted away from T3 production, starving the cell.
 
 **Transporter dysfunction.** The MCT8 and MCT10 transporters carry T3 across the cell membrane. Genetic variants and acquired transporter dysfunction reduce intracellular T3 delivery even when blood T3 levels are adequate.
 
 **Receptor downregulation.** Chronic inflammation downregulates thyroid receptor sensitivity. Cells stop responding even when T3 is present.
 
-**The "biofilm-like" cellular wall resistance.** Beyond the well-characterized mechanisms, severely chronically ill patients clinically respond to aggressive T3 flooding even when none of the above is the dominant explanation. The mechanism is not fully mapped by current science but appears to be a membrane-level resistance that requires cellular T3 supply to be elevated substantially above standard physiological levels to overcome.
+**The resistance the labs cannot see.** Beyond the well-characterized mechanisms, some chronically ill people stay cold and exhausted even when none of the above is the dominant explanation. Not everyone needs T3. It is for the person who comes out of the fast and the refeed still cold, with whole-body and brain fatigue that does not lift. For that person the 30-day course is a reboot: it brings the metabolism up to speed, lets the body use the calories, and then hands the job back to their own thyroid, set case by case.
 
 ## Why T4 Supplementation Can Make You Worse
 
@@ -82,9 +82,9 @@ The patient is not misattributing. The medication is producing exactly the metab
 
 Slow-release T3 (SR-T3) bypasses the conversion problem entirely. The medication is liothyronine (T3) compounded in a sustained-release formulation that delivers a steady, gradually rising tissue T3 level rather than the sharp peak-and-crash of immediate-release T3.
 
-Immediate-release T3 has a half-life of approximately 1-1.4 days ([Colucci et al., 2013 — liothyronine half-life 1.0-1.4 days versus T4 half-life 6-7 days](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6193522/)). Standard immediate-release dosing produces a peak at 2-4 hours followed by a decline. In adrenal-fatigued patients (which describes most of the chronic illness cohort), this peak-and-crash pattern triggers cortisol spikes followed by adrenaline crashes that make the medication difficult to tolerate at therapeutic doses.
+Immediate-release T3 has a half-life of approximately 1-1.4 days ([Colucci et al., 2013: liothyronine half-life 1.0-1.4 days versus T4 half-life 6-7 days](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6193522/)). Standard immediate-release dosing produces a peak at 2-4 hours followed by a decline. In adrenal-fatigued patients (which describes most of the chronic illness cohort), this peak-and-crash pattern triggers cortisol spikes followed by adrenaline crashes that make the medication difficult to tolerate at therapeutic doses.
 
-SR-T3 produces a flat pharmacokinetic curve with Tmax at approximately 4.4 hours and minimal serum T3 variation between doses ([Mehran et al., 2023 — SR-T3 produces flat pharmacokinetic curve vs immediate-release T3 sharp peak then rapid decline](https://pubmed.ncbi.nlm.nih.gov/37641049/)). The steady tissue exposure is what makes high therapeutic doses tolerable in patients who would crash on immediate-release T3 at the same total daily dose.
+SR-T3 produces a flat pharmacokinetic curve with Tmax at approximately 4.4 hours and minimal serum T3 variation between doses ([Mehran et al., 2023: SR-T3 produces flat pharmacokinetic curve vs immediate-release T3 sharp peak then rapid decline](https://pubmed.ncbi.nlm.nih.gov/37641049/)). The steady tissue exposure is what makes high therapeutic doses tolerable in patients who would crash on immediate-release T3 at the same total daily dose.
 
 ## T3 as the "Relaxation Molecule"
 
@@ -96,7 +96,7 @@ In chronic illness, this mechanism operates at a lower intensity but across ever
 
 T3 drives mitochondrial ATP production. Restoring tissue-level T3 activity restores cellular ATP supply, which restores SERCA function, which restores muscle relaxation. The patient feels their body unclench in ways that meditation, CBD, and other relaxation modalities have not produced because the underlying problem was energy supply, not nervous system dysregulation.
 
-This framing also explains why T3 opens the appetite window: increased cellular energy allows the body to relax, which allows appetite to return ([Ishii et al., 2008 — T3 injection increased food intake within 2 hours via 169-278% increase in hypothalamic AMPK activity](https://pubmed.ncbi.nlm.nih.gov/18708095/)). For chronically ill patients with suppressed appetite, this opens the caloric window required for the refeeding phase of the protocol.
+This framing also explains why T3 opens the appetite window: increased cellular energy allows the body to relax, which allows appetite to return ([Ishii et al., 2008: T3 injection increased food intake within 2 hours via 169-278% increase in hypothalamic AMPK activity](https://pubmed.ncbi.nlm.nih.gov/18708095/)). For chronically ill patients with suppressed appetite, this opens the caloric window required for the refeeding phase of the protocol.
 
 ## The 30-Day T3 Cycle Protocol
 
@@ -106,11 +106,11 @@ The standard T3 course in the Scorch Protocol runs approximately 30 days and fol
 
 ### Gradual Climb (Days 1-15)
 
-Start at a low dose (typically 12.5-25 mcg SR-T3 daily, split into morning and afternoon doses) and increase by 12.5-25 mcg every 3-5 days, tracking basal body temperature, resting heart rate, and symptom response at each step.
+Start at a low dose of SR-T3, split into morning and afternoon doses, and step it up every few days, tracking basal body temperature, resting heart rate, and symptom response at each step. The starting dose and the size of each step are set case by case.
 
 The climb is gradual for two reasons: safety (rapid T3 elevation stresses the cardiovascular system) and calibration (the therapeutic dose is unknowable in advance and can only be found by titrating to temperature response).
 
-There is no fixed "therapeutic dose." The endpoint is average basal body temperature stabilizing at or above 98.6°F. Different patients reach this at different doses. The typical range is 60-150 mcg SR-T3 per day, with some patients requiring up to 250 mcg.
+There is no fixed "therapeutic dose." The endpoint is average basal body temperature stabilizing at or above 98.6°F. Different patients reach this at different doses, which is why the dose is set case by case.
 
 ### Peak Hold (Days 15-25)
 
@@ -118,9 +118,9 @@ Once basal body temperature is at or above 98.6°F average, hold the dose for 7-
 
 ### Mandatory Taper (Days 25-30+)
 
-T3 has a short half-life. Dropping it abruptly leaves the patient with near-zero circulating thyroid hormone until the pituitary recovers (TSH recovery typically takes 12 ± 4 days, full HPT axis 16 ± 5 days; [Jonklaas et al., 2015 — quantifies post-cessation HPT recovery timeline](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5167556/)).
+T3 has a short half-life. Dropping it abruptly leaves the patient with near-zero circulating thyroid hormone until the pituitary recovers (TSH recovery typically takes 12 ± 4 days, full HPT axis 16 ± 5 days; [Jonklaas et al., 2015: quantifies post-cessation HPT recovery timeline](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5167556/)).
 
-Taper by 12.5-25 mcg every 3-5 days. Many patients add a desiccated thyroid bridge (Armour Thyroid, NP Thyroid) during the taper to provide a gradual T4 source as the HPT axis reboots, smoothing the transition. Desiccated thyroid contains both T3 and T4 in physiologic ratios and is generally better tolerated than levothyroxine alone in this transition.
+Taper in steps every few days, set case by case. Some people add a little T4 on top of the tapering T3 as a short bridge while the HPT axis reboots, smoothing the transition; desiccated thyroid (Armour Thyroid, NP Thyroid), which contains both T3 and T4, is the fallback when T4 is not an option. Which, and how much, is set case by case.
 
 After a successful cycle, the patient should have measurable improvement in basal body temperature, reduced fatigue, and a higher caloric tolerance window. Different patients push to different levels per cycle; multiple cycles are expected for severely depleted patients.
 
@@ -140,23 +140,23 @@ T3 therapy at the doses used in the Scorch Protocol is generally well-tolerated 
 
 **Absolute contraindications:**
 
-- Untreated adrenal insufficiency (Addison's disease) — T3 increases cortisol demand
+- Untreated adrenal insufficiency (Addison's disease): T3 increases cortisol demand
 - Recent myocardial infarction or unstable angina
 - Untreated hyperthyroidism
 - Severe untreated arrhythmias
 
 **Relative contraindications and required precautions:**
 
-- Atrial fibrillation history (T3 can increase AFib risk; [Gluvic et al., 2021 — AFib risk up to 15% in overt hyperthyroidism, dose-dependent](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8600254/)). Cardiac monitoring is recommended above 150 mcg/day.
-- Osteoporosis risk in postmenopausal women — long-term high-dose T3 can accelerate bone loss
-- Pregnancy and breastfeeding — discuss with prescribing physician
+- Atrial fibrillation history (T3 can increase AFib risk; [Gluvic et al., 2021: AFib risk up to 15% in overt hyperthyroidism, dose-dependent](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8600254/)). Cardiac monitoring is recommended at higher doses.
+- Osteoporosis risk in postmenopausal women: long-term high-dose T3 can accelerate bone loss
+- Pregnancy and breastfeeding: discuss with prescribing physician
 
 **Monitoring during the cycle:**
 
 - Daily morning basal body temperature (oral, before getting out of bed)
 - Daily resting heart rate
 - Weekly check-in on symptoms and functional capacity
-- Above 150 mcg/day: more frequent cardiovascular monitoring (consider periodic ECG if AFib history)
+- At higher doses: more frequent cardiovascular monitoring (consider periodic ECG if AFib history)
 
 Reassurance from the safety data: a 30-day study at supraphysiologic T3 levels (serum T3 421 ng/dL) in healthy volunteers showed no acute cardiovascular changes ([Chen et al., 2022](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8919711/)). The cardiac concerns are dose-dependent and concentrated at much higher doses than the typical therapeutic range.
 
@@ -172,14 +172,14 @@ The prescribing physician relationship matters substantially. T3 dosing differs 
 
 ## Where T3 Fits in the Full Scorch Protocol Arc
 
-T3 therapy is Phase 2 of the four-phase Scorch Protocol recovery sequence:
+A Scorch cycle is a fast, a refeed, and then, for the person who needs it, the 30-day T3 course:
 
-1. **Phase 1: Dry fasting** clears the viral and inflammatory load that suppressed the thyroid set-point in the first place
-2. **Phase 2: T3 therapy** restores cellular electricity and reopens the caloric window
-3. **Phase 3: Refeeding plus hGH** rebuilds what years of low energy depleted
-4. **Phase 4: Rotation** cycles back into dry fasting plus T3 maintenance
+1. **The dry fast** clears the viral and inflammatory load that suppressed the thyroid set-point in the first place
+2. **The refeed** brings food back slowly; refeed days 1 to 14 are the consolidation window
+3. **The 30-day T3 course** starts after refeed day 7, once the refeed has settled, and reopens the caloric window for the person who comes out of the refeed still cold
+4. **The next fast** comes seven days after the course ends; hGH is an add-on around the third cycle, only if the first two have not done enough
 
-T3 is not optional in this protocol because the caloric window for Phase 3 cannot open without it. You can eat all the food you want, but if your cells cannot receive and use it because the metabolic machinery is down, the calories will be stored as fat without producing the energy or repair you need. T3 is what makes the cellular machinery available.
+Not everyone needs T3. It is for the person who comes out of the fast and the refeed still cold, with whole-body and brain fatigue that does not lift. For that person, the caloric window cannot open without it. You can eat all the food you want, but if your cells cannot receive and use it because the metabolic machinery is down, the calories will be stored as fat without producing the energy or repair you need. T3 is what makes the cellular machinery available.
 
 T3 is also not sufficient on its own for most chronically ill patients. The full protocol arc is what produces sustained recovery.
 

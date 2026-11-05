@@ -75,35 +75,35 @@ For the sub-96°F patient whose fasts have already failed, T3 begins before any 
 
 **T3 prescription.** Slow-release T3 (SR-T3) from a compounding pharmacy familiar with the protocol. The [list of pharmacies page](/list-of-pharmacies) covers practical sourcing.
 
-**Starting dose:** 12.5 mcg SR-T3 twice daily (morning and afternoon). Lower than the standard starting dose because severe MCAS patients are often more reactive to medication introduction.
+**Starting dose:** a low dose of SR-T3 twice daily (morning and afternoon), set case by case and lower than the usual start, because severe MCAS patients are often more reactive to medication introduction.
 
 **MCAS management during T3 initiation.** Continue all current MCAS medications. Some patients experience transient reactivity in the first week of T3 introduction; this typically resolves as the body adapts. If reactivity is severe or sustained, the T3 should be held for 3-5 days and restarted at a lower dose.
 
 **Tracking:** continue daily basal body temperature and resting heart rate tracking. The T3 endpoint is gradual temperature rise.
 
-**End of week 4:** T3 at 25-37.5 mcg/day, basal body temperature should be showing initial upward movement (0.2-0.5°F above baseline). If no movement, the dose climbs faster; if substantial movement, hold the current dose and observe.
+**End of week 4:** basal body temperature should be showing initial upward movement (0.2-0.5°F above baseline). If no movement, the dose climbs faster; if substantial movement, hold the current dose and observe.
 
 ## Days 30-60: T3 Climb
 
 The T3 climb continues through weeks 5-8. The pace is determined by temperature response:
 
 - If temperature is climbing 0.1°F per week, the climb pace is appropriate
-- If temperature is flat after 2 weeks at a given dose, increase by 12.5-25 mcg
+- If temperature is flat after 2 weeks at a given dose, step up by one small increment, set case by case
 - If temperature is climbing faster than 0.2°F per week, hold the dose and observe
 
-By end of week 8, the typical patient in this profile is at 60-100 mcg SR-T3 daily and basal body temperature has climbed from sub-96°F baseline to 96.8-97.4°F average.
+By end of week 8, basal body temperature in this profile has usually climbed from a sub-96°F baseline to a 96.8-97.4°F average.
 
-**MCAS reactivity reduction.** As cellular ATP supply restores, the regulatory mechanisms that hold MCAS in check come back online. Most patients in this profile begin reducing antihistamine and mast cell stabilizer doses during this window. The taper should be gradual (one medication at a time, half-dose reduction every 1-2 weeks).
+**MCAS reactivity reduction.** As cellular ATP supply restores, the regulatory mechanisms that hold MCAS in check come back online. Many people in this profile begin reducing antihistamine and mast cell stabilizer doses during this window. The taper should be gradual (one medication at a time, half-dose reduction every 1-2 weeks).
 
 **Carbohydrate tolerance opening.** The patient's restricted diet can begin expanding. Reintroduce one previously trigger food per week, with adequate gap to identify reactions. Carbohydrates specifically should be prioritized because they provide substrate for DIO2 conversion to endogenous T3 and signal abundance to the hypothalamus.
 
-**Energy improvement.** Most patients in this profile experience first substantial energy improvement during weeks 5-8 of T3 therapy. This is the cellular ATP supply restoration translating into subjective energy.
+**Energy improvement.** In this profile the first substantial energy improvement usually comes during the T3 phase. This is the cellular ATP supply restoration translating into subjective energy.
 
 **PEM threshold widening.** The activity level that triggers a PEM crash should be expanding. The patient should not push to test this; the widening will be observed as activities that previously crashed are no longer crashing.
 
 **End of week 8:** T3 dose stable at temperature endpoint, basal body temperature averaging 97°F+, MCAS reactivity meaningfully reduced, dietary tolerance expanded, energy improved.
 
-## Days 60-90: First Short Fasts and Foundation Consolidation
+## Days 60-90: First Short Fasts and a Firmer Foundation
 
 With the metabolic foundation established by 8 weeks of T3 therapy, the first short fasts can be attempted.
 
@@ -148,7 +148,7 @@ The total timeline for this patient profile is typically 12-18 months from proto
 
 The walkthrough above describes the typical course. Several decision points commonly arise:
 
-**What if temperature does not rise on T3?** If basal body temperature does not respond to gradually escalating SR-T3 doses up to 150 mcg by week 10, the issue is likely beyond Wilson's-style tissue thyroid resistance alone. Other mechanisms (severe metabolic collapse, untreated chronic infection, advanced HPT axis dysfunction) may be involved and warrant further medical evaluation.
+**What if temperature does not rise on T3?** If basal body temperature does not respond to a gradually escalating SR-T3 course, wean off rather than climb further: the issue is likely beyond Wilson's-style tissue thyroid resistance alone. Other mechanisms (severe metabolic collapse, untreated chronic infection, advanced HPT axis dysfunction) may be involved and warrant further medical evaluation.
 
 **What if MCAS reactivity does not reduce on T3?** Some patients have MCAS driven primarily by other mechanisms (mast cell mutations, primary autoimmune drivers) that are not fully addressed by metabolic restoration alone. Continued MCAS management is appropriate in parallel; the protocol does not require MCAS resolution to proceed.
 

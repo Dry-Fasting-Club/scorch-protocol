@@ -32,7 +32,7 @@ The framework has been controversial in mainstream endocrinology because the dia
 - DIO2 enzyme variants impairing peripheral T4-to-T3 conversion
 - MCT8 and MCT10 transporter dysfunction limiting T3 entry into cells
 - Receptor downregulation in chronic inflammation
-- Reverse T3 (rT3) elevation as metabolic diversion under stress ([Halsall & Oddy, 2021 — rT3 functions as metabolic diversion rather than receptor blocker](https://pubmed.ncbi.nlm.nih.gov/33040575/), *Annals of Clinical Biochemistry*)
+- Reverse T3 (rT3) elevation as metabolic diversion under stress ([Halsall & Oddy, 2021: rT3 functions as metabolic diversion rather than receptor blocker](https://pubmed.ncbi.nlm.nih.gov/33040575/), *Annals of Clinical Biochemistry*)
 
 The Panicker et al. 300-patient randomized controlled trial published in *The Lancet* (2009) showed that T4+T3 combination therapy produced significantly better cognitive outcomes than T4 alone, with the effect concentrated in DIO2 variant carriers. The clinical pattern Wilson described, T3 supplementation producing improvement that T4 alone did not, has been replicated in formal research.
 
@@ -73,9 +73,9 @@ The Wilson's framework treats the condition with slow-release T3 (SR-T3), titrat
 
 ### The Gradual Climb
 
-Start at a low dose (typically 12.5-25 mcg SR-T3 twice daily) and increase by 12.5-25 mcg every 3-5 days, tracking basal body temperature daily.
+Start at a low dose of SR-T3 twice daily and step it up every few days, tracking basal body temperature daily. The starting dose and the size of each step are set case by case.
 
-The climb is gradual for safety and calibration. The therapeutic dose for any given patient is unknowable in advance; it must be found by titrating to temperature response. Patients reach the temperature endpoint at different doses; the typical range is 60-150 mcg per day with some requiring up to 250 mcg.
+The climb is gradual for safety and calibration. The therapeutic dose for any given patient is unknowable in advance; it must be found by titrating to temperature response. Patients reach the temperature endpoint at different doses, which is why the dose is set case by case.
 
 ### Peak Hold
 
@@ -85,17 +85,17 @@ Once average basal body temperature reaches 98.6°F or above, hold the dose for 
 
 T3 has a half-life of 1.0-1.4 days ([Colucci et al., 2013](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6193522/)). Dropping it abruptly leaves the patient with near-zero circulating thyroid hormone until the pituitary recovers (TSH recovery 12 ± 4 days, full HPT axis 16 ± 5 days; [Jonklaas et al., 2015](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5167556/)).
 
-Taper by 12.5-25 mcg every 3-5 days. Many patients add a desiccated thyroid bridge (Armour Thyroid, NP Thyroid) during the taper to provide a gradual T4 source as the HPT axis reboots.
+Taper in steps every few days, set case by case. Some people add a little T4 on top of the tapering T3 as a short bridge while the HPT axis reboots; desiccated thyroid (Armour Thyroid, NP Thyroid) is the fallback when T4 is not an option.
 
 ### After the Cycle
 
-A successful cycle leaves the patient with measurably higher basal body temperature, reduced fatigue, and improved symptom profile. Most Wilson's patients require multiple cycles for full restoration; the typical course is 2-4 cycles spaced 30-60 days apart.
+A successful cycle leaves the patient with measurably higher basal body temperature, reduced fatigue, and improved symptom profile. Wilson's patients usually need multiple cycles for full restoration; how many, and how far apart, is set case by case.
 
 ## Why Slow-Release, Not Immediate-Release
 
 Immediate-release T3 produces a sharp peak at 2-4 hours followed by rapid decline. This pattern triggers cortisol spikes followed by adrenaline crashes in adrenal-fatigued patients (which describes most of the Wilson's cohort) and makes therapeutic doses difficult to tolerate.
 
-Slow-release T3 produces a flat pharmacokinetic curve with minimal serum T3 variation between doses ([Mehran et al., 2023 — SR-T3 produces flat pharmacokinetic curve vs immediate-release T3 sharp peak then rapid decline](https://pubmed.ncbi.nlm.nih.gov/37641049/)). The steady tissue exposure is what makes high therapeutic doses tolerable in patients who would crash on immediate-release at the same total daily dose.
+Slow-release T3 produces a flat pharmacokinetic curve with minimal serum T3 variation between doses ([Mehran et al., 2023: SR-T3 produces flat pharmacokinetic curve vs immediate-release T3 sharp peak then rapid decline](https://pubmed.ncbi.nlm.nih.gov/37641049/)). The steady tissue exposure is what makes high therapeutic doses tolerable in patients who would crash on immediate-release at the same total daily dose.
 
 The clinical validation comes from CFS-specific work (the patient population most clinically adjacent to Wilson's Temperature Syndrome): 11 CFS patients treated with temperature-guided SR-T3 all showed clinical improvement ([Friedman et al., 2006](https://pubmed.ncbi.nlm.nih.gov/16883675/)).
 
@@ -109,7 +109,7 @@ Most Wilson's Temperature Syndrome patients see meaningful symptom improvement w
 - Week 4-6 (taper): managed gradual return to baseline T3 production; desiccated thyroid bridge smooths the transition
 - Post-cycle: stable improvement compared to pre-cycle baseline; symptoms that did not fully resolve are addressed in successive cycles
 
-Most patients require multiple cycles for full restoration. The conservative timeline is 2-3 cycles over 6-12 months for substantial recovery in classic Wilson's presentations.
+Multiple cycles are usually needed for full restoration; how many varies with the case.
 
 ## Limitations of the Wilson's Framework Alone
 
@@ -140,7 +140,7 @@ Compounded SR-T3 is usually not covered by standard insurance, though some plans
 
 ### What if my temperature does not rise on SR-T3?
 
-If basal body temperature does not respond to gradually escalating SR-T3 doses up to 150 mcg, the issue is likely beyond Wilson's Temperature Syndrome alone. Other mechanisms (severe metabolic collapse, untreated chronic infection, advanced HPT axis dysfunction) may be involved. The full Scorch Protocol or further medical evaluation is appropriate.
+If basal body temperature does not respond over the course, wean off rather than climb: the issue is likely beyond Wilson's Temperature Syndrome alone. Other mechanisms (severe metabolic collapse, untreated chronic infection, advanced HPT axis dysfunction) may be involved. The full Scorch Protocol or further medical evaluation is appropriate.
 
 ### What about combination T4+T3 instead of SR-T3 alone?
 

@@ -43,7 +43,7 @@ The clinical proof that 11β-HSD2 is real and consequential: a genetic deficienc
 
 During an extended fast, your body reads the situation as a survival emergency. To keep you alert enough to find food, sustain blood sugar through gluconeogenesis, and mobilize fat for energy, the body deliberately keeps cortisol in its active state in as many tissues as possible.
 
-The mechanism: 11β-HSD2 (the off-switch) is suppressed, and 11β-HSD1 (the on-switch) is maintained or upregulated. The result is a sustained shift in the free cortisol-to-cortisone ratio toward the active form. Clinical studies of caloric restriction and extended fasting confirm this shift directly ([Tomlinson et al. — Examining the effects of fasting and overfeeding on free cortisol and mechanisms for increasing free cortisol relative to total cortisol](https://pubmed.ncbi.nlm.nih.gov/), NIH).
+The mechanism: 11β-HSD2 (the off-switch) is suppressed, and 11β-HSD1 (the on-switch) is maintained or upregulated. The result is a sustained shift in the free cortisol-to-cortisone ratio toward the active form. Clinical studies of caloric restriction and extended fasting confirm this shift directly ([Tomlinson et al.: Examining the effects of fasting and overfeeding on free cortisol and mechanisms for increasing free cortisol relative to total cortisol](https://pubmed.ncbi.nlm.nih.gov/), NIH).
 
 This shift is appropriate during the fast. It is what keeps you functional through the survival emergency. The problem is what happens when the fast ends.
 
@@ -109,7 +109,7 @@ Patients with very low basal body temperature (sub-95°F) whose fasts have alrea
 
 ### How long does the stuck state typically take to reset?
 
-For most patients on the Scorch refeed stack, the visible symptoms (puffiness, blood pressure, anxiety) reduce substantially within 2-3 weeks of beginning the refeed. Full enzyme normalization to pre-fast baseline can take 4-12 weeks depending on individual variation and severity. Severely chronically ill patients with sustained inflammation may take longer.
+In my experience, on the Scorch refeed stack the visible symptoms (puffiness, blood pressure, anxiety) usually ease within a few weeks of beginning the refeed. Full enzyme normalization to the pre-fast baseline takes longer and varies with the person and the severity; severely chronically ill people with sustained inflammation may take longer still.
 
 ### Can I test for the stuck state directly?
 

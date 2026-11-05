@@ -78,8 +78,8 @@ Any `(main)` route group page slug. Common ones:
 
 `long-covid-basics`, `dry-fasting`, `t3-therapy`, `hgh-therapy`, `refeeding`,
 `preparation`, `viral-reactivation`, `symptom-management`, `tips-and-tricks`,
-`success-rate-data`, `genetic-polymorphisms`, `weight-loss`, `mindfulness`,
-`refeed-for-bmr`, `decision-tree`, `list-of-pharmacies`, `random-thoughts`.
+`success-rate-data`, `genetic-polymorphisms`, `mindfulness`,
+`refeed-for-bmr`, `decision-tree`, `list-of-pharmacies`, `healing-cycle`.
 
 ## SEO checklist for every post
 

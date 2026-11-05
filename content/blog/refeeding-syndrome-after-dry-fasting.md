@@ -89,7 +89,7 @@ For higher-risk patients, prophylactic electrolyte supplementation is appropriat
 
 - **Phosphate:** the most commonly overlooked. Potassium phosphate or sodium phosphate solutions, or specifically chosen electrolyte powders that include phosphate. Standard dose ranges from 250-500 mg of phosphate daily during the refeed window for moderate-risk patients.
 - **Potassium:** typically supplemented through diet (potatoes, bananas, leafy greens once tolerated) and electrolyte solutions. Severe cases may require prescription potassium supplementation under medical supervision.
-- **Magnesium:** magnesium glycinate or magnesium malate at 200-400 mg daily during the refeed window. Most patients tolerate this well.
+- **Magnesium:** magnesium glycinate or magnesium malate at 200-400 mg daily during the refeed window. It is usually well tolerated.
 - **Thiamine (vitamin B1):** depleted during fasting and consumed rapidly as carbohydrate metabolism resumes. 100 mg daily for the first 7 days of refeed.
 
 The above is general guidance. For severely depleted patients or those with significant comorbidities, the specific supplementation protocol should be reviewed with a prescribing physician familiar with the protocol.

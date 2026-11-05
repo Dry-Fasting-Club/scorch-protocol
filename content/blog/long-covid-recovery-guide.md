@@ -41,7 +41,7 @@ Long Covid is not primarily a viral disease. It is the end-state of a metabolic 
 
 When those two axes fail together, the body drops to a lower energy state. Picture an electron falling from a higher orbital to a lower one: the same atom, but locked into a state with much less available energy. The body treats this lower state as the new normal and economizes every system to fit within it. Immune surveillance is rationed. Organ output is throttled. Cognitive activation is reduced. Body temperature falls. You do not feel "ill" in a traditional sense. You feel diminished. Smaller. As if you are running on a fraction of your previous bandwidth.
 
-This is not metaphor. It is a measurable phenomenon: ME/CFS patients show reduced cerebral metabolic rate matching their cognitive symptoms exactly, with no structural brain damage to explain the deficit ([Mäkinen et al., 2017 — reduced cognitive processing speed in ME/CFS consistent with reduced cerebral metabolic rate](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5628799/), *PLOS ONE*). Their brains have not been damaged. Their brains have been rationed.
+This is not metaphor. It is a measurable phenomenon: ME/CFS patients show reduced cerebral metabolic rate matching their cognitive symptoms exactly, with no structural brain damage to explain the deficit ([Mäkinen et al., 2017: reduced cognitive processing speed in ME/CFS consistent with reduced cerebral metabolic rate](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5628799/), *PLOS ONE*). Their brains have not been damaged. Their brains have been rationed.
 
 The COVID infection is not the cause. It is the trigger. The cause is the accumulation of metabolic stressors that put your system in a position where a viral hit could break it. People who develop Long Covid almost universally share a stressor profile:
 
@@ -75,7 +75,7 @@ Once the metabolic system drops to a lower state, three loops form. Each of them
 
 The immune system is one of the most energy-expensive systems in the body. When the body decides to ration energy, immune surveillance is among the first things rationed. Latent viruses (Epstein-Barr, HHV-6, HSV, CMV) wake up. They were always there, kept dormant by an active immune system. Now they are not dormant.
 
-Once these viruses reactivate, they consume additional energy and generate inflammatory signals that further lower the body's energy set point, which suppresses immune function further, which allows the viruses to replicate more. The Long Covid statistics back this up: 66.7% of Long Covid patients show active EBV reactivation versus ~10% in controls ([Gold et al., 2021 — investigation of Long Haul COVID-19 reveals reactivated EBV in most cases](https://pubmed.ncbi.nlm.nih.gov/34204243/), *Pathogens*). Tissue biopsies have found SARS-CoV-2 spike RNA persisting in gut wall for up to 676 days post-infection ([Peluso et al., 2024 — tissue-based evidence of persistent SARS-CoV-2 RNA and replication in post-acute sequelae](https://pubmed.ncbi.nlm.nih.gov/38959327/), *Science Translational Medicine*).
+Once these viruses reactivate, they consume additional energy and generate inflammatory signals that further lower the body's energy set point, which suppresses immune function further, which allows the viruses to replicate more. The Long Covid statistics back this up: 66.7% of Long Covid patients show active EBV reactivation versus ~10% in controls ([Gold et al., 2021: investigation of Long Haul COVID-19 reveals reactivated EBV in most cases](https://pubmed.ncbi.nlm.nih.gov/34204243/), *Pathogens*). Tissue biopsies have found SARS-CoV-2 spike RNA persisting in gut wall for up to 676 days post-infection ([Peluso et al., 2024: tissue-based evidence of persistent SARS-CoV-2 RNA and replication in post-acute sequelae](https://pubmed.ncbi.nlm.nih.gov/38959327/), *Science Translational Medicine*).
 
 This is why "Long Covid is mostly resolved" headlines do not match patient experience. The virus is still there. It is hiding in tissue where blood antibody tests cannot find it.
 
@@ -125,14 +125,16 @@ Dry fasting (no food, no water) for five days under proper preparation, longer o
 What happens during a properly executed dry fast:
 
 - **Autophagy**: cells digest their own damaged components, including viral proteins and intracellular pathogen reservoirs that are otherwise unreachable.
-- **NK cell surge**: natural killer cell activity rises significantly (Khoroshilov, *Dry Fasting and the Immune System*, on leukocyte redistribution and NK activation during fasting). NK cells are the "special forces" of the immune system, and they are exactly the cells suppressed by Long Covid: running at ~50% of normal in ME/CFS patients across 28 studies ([Baraniuk et al., 2024 — CD8 T-cell exhaustion and persistent NK cell deficits in ME/CFS](https://pubmed.ncbi.nlm.nih.gov/39483457/), *Frontiers in Immunology*).
+- **NK cell surge**: natural killer cell activity rises significantly (Khoroshilov, *Dry Fasting and the Immune System*, on leukocyte redistribution and NK activation during fasting). NK cells are the "special forces" of the immune system, and they are exactly the cells suppressed by Long Covid: running at ~50% of normal in ME/CFS patients across 28 studies ([Baraniuk et al., 2024: CD8 T-cell exhaustion and persistent NK cell deficits in ME/CFS](https://pubmed.ncbi.nlm.nih.gov/39483457/), *Frontiers in Immunology*).
 - **Cytokine shift**: pro-inflammatory cytokines (IL-6, TNF-α) drop, anti-inflammatory IL-10 rises. The chronic inflammation that drives much of the Long Covid symptom profile is interrupted.
 - **Gut healing**: villi temporarily retract and damaged epithelial cells slough off, while protected stem cell crypts (Lieberkühn crypts) prepare for regeneration. Post-fast, villi regrow longer and healthier.
 - **Spike protein clearance**: this is theoretical at the protocol's level of rigor, but autophagy is the only documented cellular process capable of digesting accumulated viral proteins from deep tissue.
 
-For some severely ill patients a 5-day fast is not enough, and in Yannick's experience the best results then come from a 7-to-9-day fast, but only once five days is very comfortable. The deeper the fast, the more aggressive the immune reset. For most Long Covid patients, five days is the working zone, and feeling worse mid-fast is a cue to walk, get a massage and move the system, and to break the fast if it starts to feel really bad, not to grit through a flare.
+For some severely ill patients a 5-day fast is not enough, and in my experience the best results then come from a 7-to-9-day fast, but only once five days is very comfortable. Deeper fasts go deeper and may bring results faster, but they demand a stricter refeed and more care; how far is set with me, and five days dry is the cap at home. For most Long Covid patients, five days is the working zone, and feeling worse mid-fast is a cue to walk, get a massage and move the system, and to break the fast if it starts to feel really bad, not to grit through a flare.
 
 The deeper mechanism (why dry fasting activates a second autophagy pathway that water fasting cannot reach, and why this matters for clearing the viral reservoirs Long Covid sets up in tissue) is covered in [the complete dry fasting guide](/blog/dry-fasting-complete-guide). If you have already done extended dry fasting at a Filonov-tradition retreat and your symptoms came back after six to twelve months, the gap that needs to be closed next is covered in [Starving to Heal vs the Scorch Protocol](/blog/starving-to-heal-vs-scorch-protocol).
+
+Why the order matters is on [the healing cycle page](/healing-cycle).
 
 Read the practical protocol: [Dry Fasting](/dry-fasting).
 
@@ -142,9 +144,9 @@ T3 (triiodothyronine) is the active form of thyroid hormone. It is what actually
 
 This is why your TSH and free T4 can be "normal" while you are functionally hypothyroid at the cellular level. You have plenty of T4 in storage. You cannot convert it.
 
-The Scorch Protocol recommends T3 therapy for anyone undertaking the protocol. The reasoning is risk-reward: when used correctly with proper preparation and dose calibration, T3 has a low downside (mild stimulation, manageable side effects) and a transformative upside (cellular metabolic restart, body temperature normalization, restoration of enzyme-dependent processes, opening of the caloric window required for Phase 3).
+Not everyone needs T3. It is for the person who comes out of the fast and the refeed still cold, with whole-body and brain fatigue that does not lift. For that person the 30-day course is a reboot, set case by case and started after refeed day 7. Used correctly, with proper preparation, T3 has a low downside (mild stimulation, manageable side effects) and a transformative upside (cellular metabolic restart, body temperature normalization, restoration of enzyme-dependent processes, opening of the caloric window required for Phase 3), and then it hands the job back to your own thyroid.
 
-T3 is not optional in the protocol because *the caloric window cannot open without it*. You can eat all the food you want, but if your cells cannot receive and use it because the metabolic machinery is down, the calories will be stored as fat without producing the energy or repair you need. T3 is what makes the cellular machinery available.
+For that person, *the caloric window cannot open without it*. You can eat all the food you want, but if your cells cannot receive and use it because the metabolic machinery is down, the calories will be stored as fat without producing the energy or repair you need. T3 is what makes the cellular machinery available.
 
 Read the full protocol: [T3 Therapy](/t3-therapy).
 
@@ -178,7 +180,7 @@ A typical course for a moderate-severity patient:
 - **Months 0-1 (preparation)**: dietary preparation, lab work where accessible, sourcing protocol materials, beginning shorter fasts to build tolerance.
 - **Months 1-3 (first significant fasts, T3 initiation)**: the first 5-day to 7-day fast under proper preparation; T3 therapy begun; initial symptom reduction; often a Herxheimer-like detox window in weeks 1-2 post-fast as viral debris clears.
 - **Months 3-6 (refeeding and further cycles)**: gradual caloric ascent under T3 support; hGH considered around the third cycle only if the first two have not done enough; body temperature begins normalizing; cognitive symptoms among the last to fully resolve.
-- **Months 6-12 (consolidation)**: additional fasts if needed for severe viral cases; full caloric and metabolic restoration; energy floor sustainably elevated; the climb is essentially complete.
+- **Months 6-12 (banking the gains)**: additional fasts if needed for severe viral cases; full caloric and metabolic restoration; energy floor sustainably elevated; the climb is essentially complete.
 
 Cognitive symptoms (brain fog, processing speed, working memory) are typically among the last to fully resolve. This is consistent with the underlying neurological recovery mechanism: the brain's structural recovery (BDNF-driven dendritic spine regrowth) trails its energetic recovery. For severe long-duration cases, this is the phase where adjuncts like psilocybin-assisted neuroplasticity become relevant, which is covered in a separate guide.
 
@@ -218,7 +220,7 @@ Properly prepared dry fasting in appropriate patients is well-tolerated. Imprope
 
 ### How long does the full protocol take?
 
-Most patients reach significant functional recovery within 6-12 months. Complete recovery in severe long-duration cases can take 12-24 months including the neuroplasticity phase.
+It is measured in months, not weeks. How many depends on how long someone has been ill and how deep the damage goes; severe, long-duration cases take the longest, including the neuroplasticity phase.
 
 ### What if I have MCAS?
 

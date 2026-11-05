@@ -68,19 +68,19 @@ The targeted clearance of viral material specifically is called virophagy. Virop
 
 The direct evidence comes from Khoroshilov's immune system work on dry fasting (*Dry Fasting and the Immune System*, local study, on EBV DNA reduction averaging 64% at Day 30 post-fast, CMV IgM antibodies down 42%, 75% of HSV patients reporting no recurrence for 6+ months, NK cell cytotoxicity up 54% at Day 3). These are not theoretical effects. They are measurable reductions in viral burden of exactly the herpesviruses (EBV, HHV-6, CMV, HSV) implicated in the Long Covid and ME/CFS cascade.
 
-For context on why this matters specifically for post-viral chronic illness: 66.7% of Long Covid patients show active EBV reactivation versus ~10% in controls ([Gold et al., 2021 — investigation of Long Haul COVID-19 reveals reactivated EBV in most cases](https://pubmed.ncbi.nlm.nih.gov/34204243/), *Pathogens*), and SARS-CoV-2 spike RNA has been found persisting in gut wall tissue for up to 676 days post-infection ([Peluso et al., 2024 — tissue-based evidence of persistent SARS-CoV-2 RNA and replication in post-acute sequelae](https://pubmed.ncbi.nlm.nih.gov/38959327/), *Science Translational Medicine*). The reservoirs antibodies cannot see are exactly what virophagy is designed to reach.
+For context on why this matters specifically for post-viral chronic illness: 66.7% of Long Covid patients show active EBV reactivation versus ~10% in controls ([Gold et al., 2021: investigation of Long Haul COVID-19 reveals reactivated EBV in most cases](https://pubmed.ncbi.nlm.nih.gov/34204243/), *Pathogens*), and SARS-CoV-2 spike RNA has been found persisting in gut wall tissue for up to 676 days post-infection ([Peluso et al., 2024: tissue-based evidence of persistent SARS-CoV-2 RNA and replication in post-acute sequelae](https://pubmed.ncbi.nlm.nih.gov/38959327/), *Science Translational Medicine*). The reservoirs antibodies cannot see are exactly what virophagy is designed to reach.
 
 ## Why Illness Duration Determines the Depth of Dry Fast You Need
 
 There is a clinically observable threshold around five years of illness that shapes which fast length tends to work.
 
-**Update, October 2026.** There used to be more emphasis here on nine-day fasts as the standard for long-standing illness. The Scorch Protocol is capped at five days, because five days dry is still safe to do at home. Once five is very comfortable you can extend a little, and in my experience some people get their best results from seven to nine days: the deeper the fast, the more aggressive the immune reset, and the more it seems to clear the allergic and autoimmune layer that drives chronic illness. The depth is earned, never the starting point.
+**Update, October 2026.** There used to be more emphasis here on nine-day fasts as the standard for long-standing illness. The Scorch Protocol is capped at five days, because five days dry is still safe to do at home. Once five is very comfortable you can extend a little, and in my experience some people get their best results from seven to nine days. Deeper fasts go deeper and may bring results faster, and they seem to clear more of the allergic and autoimmune layer that drives chronic illness, but they demand a stricter refeed and more care; how far is set with me. The depth is earned, never the starting point.
 
 Patients ill for under a year frequently complete recovery with a single 5-day dry fast, often combined with one cycle of T3 therapy. The cascade has not had time to entrench. The immune system, when freed from the inflammatory load, can re-establish surveillance.
 
 Patients ill for five years or longer almost never recover from a 5-day dry fast alone. By the time chronic illness has run for half a decade, the latent viral burden (HSV-1, EBV, HHV-6, CMV) has replicated extensively, the immune system has been chronically suppressed long enough for fungal overgrowth to become entrenched, and the metabolic cascade has reached a self-reinforcing equilibrium that does not yield to surface-level cleanup.
 
-For this cohort, Yannick's experience is that the best results often come from 7-day to 9-day dry fasts, often more than one, once five days is very comfortable. The deeper hyperosmotic autophagy is the mechanistic difference that breaks the cascade. NK cell cytotoxicity remains chronically suppressed at roughly 50% of normal in ME/CFS patients across the literature ([Baraniuk et al., 2024 — CD8 T-cell exhaustion and persistent NK cell deficits in ME/CFS](https://pubmed.ncbi.nlm.nih.gov/39483457/), *Frontiers in Immunology*), and the NK cell surge that occurs during the deeper days of an extended dry fast is one of the most direct mechanisms available to reverse that deficit.
+For this cohort, my experience is that the best results often come from 7-day to 9-day dry fasts, often more than one, once five days is very comfortable, and always with the stricter refeed and extra care those fasts demand. The deeper hyperosmotic autophagy is the mechanistic difference that breaks the cascade. NK cell cytotoxicity remains chronically suppressed at roughly 50% of normal in ME/CFS patients across the literature ([Baraniuk et al., 2024: CD8 T-cell exhaustion and persistent NK cell deficits in ME/CFS](https://pubmed.ncbi.nlm.nih.gov/39483457/), *Frontiers in Immunology*), and the NK cell surge that occurs during the deeper days of an extended dry fast is one of the most direct mechanisms available to reverse that deficit.
 
 There is an important caveat embedded in this framing: the Scorch Protocol is capped at five days, because five days dry is still safe to do at home. Seven-to-nine-day fasts are an extension for people who are already very comfortable at five, not the standard, and never where anyone starts. The discussion of which patient profile is a candidate for extended fasting is in [the dry fasting protocol page](/dry-fasting) and is also covered in [the comparison between the Filonov tradition and the Scorch Protocol](/blog/starving-to-heal-vs-scorch-protocol).
 
@@ -116,6 +116,8 @@ When the fast leaves glucose utilization impaired and T3 is skipped, the high-ca
 
 This is the protocol the Khoroshilov and Filonov tradition does not cover. It is also the protocol the conventional medical system does not offer. For the patient population that needs all four steps, every other approach falls short.
 
+Why the order matters is on [the healing cycle page](/healing-cycle).
+
 ## Safety, Preparation, and Who Should Not Dry Fast
 
 Dry fasting is not a wellness experiment. Done correctly in appropriate patients, it is extraordinarily therapeutic. Done incorrectly, or in inappropriate patients, it is genuinely dangerous.
@@ -147,7 +149,7 @@ Dry fasting is not a wellness experiment. Done correctly in appropriate patients
 
 ### How long is a "dry fast" supposed to be?
 
-The Scorch Protocol is capped at five days: 24 hours → 48 hours → 72 hours → 5 days. Five days dry is still safe to do at home, and it does get a bit difficult. Once you are very comfortable with it you can extend a little; some people get their best results from seven to nine days, and the deeper you go the more aggressive the immune reset. Nine days is never for beginners.
+The Scorch Protocol is capped at five days: 24 hours → 48 hours → 72 hours → 5 days. Five days dry is still safe to do at home, and it does get a bit difficult. Once you are very comfortable with it you can extend a little; some people get their best results from seven to nine days. Deeper fasts go deeper and may bring results faster, but they demand a stricter refeed and more care; how far is set with me. Nine days is never for beginners.
 
 ### Can I drink water if I get really thirsty?
 
@@ -159,7 +161,7 @@ Two reasons. First, the autophagic depth at day 9 of dry fasting roughly matches
 
 ### Will I lose muscle mass?
 
-Most muscle loss during a properly executed dry fast is functional water weight and recovers during refeeding. Real lean tissue loss is possible during very extended fasts and is one of the reasons the protocol caps most patients at 5-7 days. Layered hGH therapy during refeeding (Step 3 in the recovery arc) is what specifically directs the rebuild into muscle and organ rather than fat.
+Most muscle loss during a properly executed dry fast is functional water weight and recovers during refeeding. Real lean tissue loss is possible during very extended fasts and is one of the reasons the protocol caps the fast at five days at home. Layered hGH therapy during refeeding (Step 3 in the recovery arc) is what specifically directs the rebuild into muscle and organ rather than fat.
 
 ### What happens during the acidotic crisis?
 

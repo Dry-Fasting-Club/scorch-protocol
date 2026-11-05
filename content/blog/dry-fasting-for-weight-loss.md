@@ -89,7 +89,7 @@ For patients who do complete extended dry fasts as part of the Scorch Protocol, 
 
 **Mid-rebuild (months 1-6).** Steady caloric ascent under T3 plus hGH support. Lean mass increasing, fat mass stable or decreasing. Scale often plateaus or rises slightly as muscle rebuilds; body composition is improving.
 
-**Late-rebuild and consolidation (months 6-12).** Caloric ascent reaches maintenance level for restored metabolic baseline. Body composition stabilizes at substantially better ratio than pre-protocol. Scale weight at this point reflects the new healthy baseline.
+**Late rebuild and banking the gains (months 6-12).** Caloric ascent reaches maintenance level for restored metabolic baseline. Body composition stabilizes at substantially better ratio than pre-protocol. Scale weight at this point reflects the new healthy baseline.
 
 The patient who starts the protocol at 200 pounds with severe metabolic dysfunction may end the year at 185-190 pounds with substantially better body composition, restored function, and a metabolic capacity that maintains the new weight without restrictive eating. The first month of refeeding looked like weight regain; the year looked like restoration.
 
@@ -129,7 +129,7 @@ These produce mild caloric deficit with some autophagy activation. They are less
 
 ### Where do I start?
 
-If your interest is cosmetic weight loss in a healthy body, dry fasting is probably not the right tool. Look at sustainable caloric deficit, intermittent fasting, or time-restricted eating instead. If you are chronically ill and weight management is one of several symptoms you want to address, read [the Long Covid Recovery guide](/blog/long-covid-recovery-guide), [the ME/CFS Recovery guide](/blog/me-cfs-recovery-guide), or the [weight loss page](/weight-loss) for the full clinical context.
+If your interest is cosmetic weight loss in a healthy body, dry fasting is probably not the right tool. Look at sustainable caloric deficit, intermittent fasting, or time-restricted eating instead. If you are chronically ill and weight management is one of several symptoms you want to address, read [the Long Covid Recovery guide](/blog/long-covid-recovery-guide), [the ME/CFS Recovery guide](/blog/me-cfs-recovery-guide), or [the Metabolism Repair Plan](/refeed-for-bmr) for the full clinical context.
 
 ## Where to Start
 

@@ -33,7 +33,7 @@ The protocol:
 - **Phase 2: Semi-starvation (24 weeks).** Caloric intake was reduced to approximately 1,600 kcal/day (a ~50% reduction). Subjects were expected to lose approximately 25% of body weight over this phase.
 - **Phase 3: Controlled rehabilitation (20 weeks).** Caloric intake was systematically increased under structured monitoring, with subjects divided into subgroups receiving different caloric levels and macronutrient compositions to determine optimal refeeding strategies.
 
-The published data fills 1,385 pages and remains, more than 75 years later, the most comprehensive study of human starvation and recovery ever conducted ([Kalm & Semba, 2005 — retrospective analysis of the Minnesota experiment's lasting influence on fasting and recovery science](https://pubmed.ncbi.nlm.nih.gov/15930441/), *Journal of Nutrition*).
+The published data fills 1,385 pages and remains, more than 75 years later, the most comprehensive study of human starvation and recovery ever conducted ([Kalm & Semba, 2005: retrospective analysis of the Minnesota experiment's lasting influence on fasting and recovery science](https://pubmed.ncbi.nlm.nih.gov/15930441/), *Journal of Nutrition*).
 
 ## What the Subjects Looked Like After Semi-Starvation
 
@@ -137,7 +137,7 @@ Ethics review boards today would not approve a study that semi-starved healthy v
 
 ### Does the rebuild phase need to be 9-12 months even with T3 and hGH?
 
-T3 and hGH compress the rebuild timeline somewhat (conservatively 2x speedup, potentially more with full protocol stack) but do not eliminate the biological time required for tissue rebuild. The 9-12 month floor applies; with accelerants, the realistic timeline for severely chronically ill patients is 12-18 months for substantial rebuild.
+T3 and hGH, where they are needed, compress the rebuild timeline somewhat but do not eliminate the biological time required for tissue rebuild. The 9-12 month floor applies, and for severely chronically ill patients the realistic timeline runs past it.
 
 ### What if I cannot eat 5,000 kcal per day?
 

@@ -106,7 +106,7 @@ The right entry point is the chronic illness guide most matching your symptom pr
 
 ### 5-10 years
 
-The longer-duration cohort. Multiple dry fast cycles often required; some in this cohort get their best results from 7-day or 9-day fasts once five days is very comfortable. The rebuild phase is longer; where hGH is warranted it runs three to six months before weaning off.
+The longer-duration cohort. Multiple dry fast cycles often required; some in this cohort get their best results from 7-day or 9-day fasts once five days is very comfortable, with the stricter refeed and extra care those fasts demand. The rebuild phase is longer; where hGH is warranted it runs three to six months before weaning off.
 
 The right entry point is [the ME/CFS Recovery guide](/blog/me-cfs-recovery-guide) (the framing best matches long-duration cases), the [5-year ME/CFS protocol walkthrough](/blog/me-cfs-5-year-protocol-walkthrough), and the standard protocol sequence with extended timeline expectations.
 

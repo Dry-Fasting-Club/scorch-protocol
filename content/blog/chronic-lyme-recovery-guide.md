@@ -62,13 +62,13 @@ Once the metabolic collapse from chronic Lyme has set in, three self-reinforcing
 
 ### Loop 1: The Co-Infection and Latent Virus Loop
 
-Borrelia is rarely alone. Most chronic Lyme patients have at least one co-infection (Babesia, Bartonella, Ehrlichia) and almost universally have reactivated herpesviruses by the time chronic illness sets in. 66.7% of Long Covid patients show active EBV reactivation versus ~10% in controls ([Gold et al., 2021 — investigation of Long Haul COVID-19 reveals reactivated EBV in most cases](https://pubmed.ncbi.nlm.nih.gov/34204243/), *Pathogens*); the underlying mechanism (immune suppression from sustained illness leading to latent virus reactivation) is the same in chronic Lyme.
+Borrelia is rarely alone. Most chronic Lyme patients have at least one co-infection (Babesia, Bartonella, Ehrlichia) and almost universally have reactivated herpesviruses by the time chronic illness sets in. 66.7% of Long Covid patients show active EBV reactivation versus ~10% in controls ([Gold et al., 2021: investigation of Long Haul COVID-19 reveals reactivated EBV in most cases](https://pubmed.ncbi.nlm.nih.gov/34204243/), *Pathogens*); the underlying mechanism (immune suppression from sustained illness leading to latent virus reactivation) is the same in chronic Lyme.
 
 These reactivated viruses consume additional energy and generate inflammatory signals that further lower the energy set point, which suppresses immune function further, which allows the viruses to replicate more. Lyme antibiotic protocols do nothing for the herpesvirus burden. The herpesvirus burden keeps the energy floor pressed down even after Lyme treatment.
 
 ### Loop 2: Tissue-Level Thyroid Resistance
 
-Chronic illness produces tissue-level resistance to thyroid hormone signaling that is not visible on standard labs. The mechanism is partly receptor downregulation, partly transporter dysfunction (MCT8/MCT10), partly metabolic diversion (T4 shunted toward reverse T3 instead of active T3) ([Halsall & Oddy, 2021 — rT3 functions as metabolic diversion rather than receptor blocker](https://pubmed.ncbi.nlm.nih.gov/33040575/), *Annals of Clinical Biochemistry*), and partly something less well characterized that responds clinically to aggressive T3 flooding even when rT3 is not the primary issue.
+Chronic illness produces tissue-level resistance to thyroid hormone signaling that is not visible on standard labs. The mechanism is partly receptor downregulation, partly transporter dysfunction (MCT8/MCT10), partly metabolic diversion (T4 shunted toward reverse T3 instead of active T3) ([Halsall & Oddy, 2021: rT3 functions as metabolic diversion rather than receptor blocker](https://pubmed.ncbi.nlm.nih.gov/33040575/), *Annals of Clinical Biochemistry*), and partly something less well characterized that responds clinically to a short, structured T3 course, set case by case, even when rT3 is not the primary issue.
 
 When tissue T3 activity is suppressed, basal body temperature drops, every enzyme in your body slows down (enzyme rates are temperature-dependent), digestion impairs, detoxification capacity falls, and cellular ATP production drops further. The system is downregulated. Standard thyroid replacement (levothyroxine, T4) often makes this worse because it increases the rT3 pool rather than restoring active T3 utilization.
 
@@ -99,19 +99,21 @@ The Scorch Protocol is a three-phase metabolic recovery sequence that targets al
 Extended dry fasting (five days under proper preparation and progression, longer only once five is very comfortable) triggers a depth of autophagy and immune activation that no other intervention reaches. The mechanism is covered in detail in [the dry fasting complete guide](/blog/dry-fasting-complete-guide), but the relevant effects for chronic Lyme are:
 
 - Activation of *virophagy* through the hyperosmotic autophagy pathway that reaches intracellular viral reservoirs and persister forms of pathogens
-- NK cell cytotoxicity surge that targets exactly the immune deficit found across ME/CFS, Long Covid, and chronic Lyme populations ([Baraniuk et al., 2024 — CD8 T-cell exhaustion and persistent NK cell deficits in ME/CFS](https://pubmed.ncbi.nlm.nih.gov/39483457/), *Frontiers in Immunology*)
+- NK cell cytotoxicity surge that targets exactly the immune deficit found across ME/CFS, Long Covid, and chronic Lyme populations ([Baraniuk et al., 2024: CD8 T-cell exhaustion and persistent NK cell deficits in ME/CFS](https://pubmed.ncbi.nlm.nih.gov/39483457/), *Frontiers in Immunology*)
 - Cytokine shift from pro-inflammatory (IL-6, TNF-α) to anti-inflammatory (IL-10)
 - Gut healing through epithelial sloughing and protected stem cell crypt regeneration
 
-For chronic Lyme patients with multi-year illness duration and high co-infection burden, a 5-day fast is sometimes not enough, and in Yannick's experience the best results then come from the 7-day to 9-day range, but only once five days is very comfortable. The protocol itself is capped at five.
+For chronic Lyme patients with multi-year illness duration and high co-infection burden, a 5-day fast is sometimes not enough, and in my experience the best results then come from the 7-day to 9-day range, but only once five days is very comfortable. Those deeper fasts demand a stricter refeed and more care, and how far is set with me. The protocol itself is capped at five.
+
+Why the order matters is on [the healing cycle page](/healing-cycle).
 
 ### Phase 2: T3 Therapy (the Cellular Restart)
 
-Slow-release T3 therapy restores cellular ability to use carbohydrates, raises basal body temperature back toward 98.6°F, and reactivates every enzyme-dependent process in the body. Slow-release T3 (rather than standard T3) is used because the slow-release profile avoids the cortisol-spike-then-crash pattern that immediate-release T3 produces in adrenal-fatigued patients ([Mehran et al., 2023 — SR-T3 produces flat pharmacokinetic curve vs immediate-release T3 sharp peak](https://pubmed.ncbi.nlm.nih.gov/37641049/)).
+Slow-release T3 therapy restores cellular ability to use carbohydrates, raises basal body temperature back toward 98.6°F, and reactivates every enzyme-dependent process in the body. Slow-release T3 (rather than standard T3) is used because the slow-release profile avoids the cortisol-spike-then-crash pattern that immediate-release T3 produces in adrenal-fatigued patients ([Mehran et al., 2023: SR-T3 produces flat pharmacokinetic curve vs immediate-release T3 sharp peak](https://pubmed.ncbi.nlm.nih.gov/37641049/)).
 
-Dosing is titrated to temperature response rather than to lab values, with the therapeutic endpoint being average basal body temperature stabilizing at or above 98.6°F. The clinical validation comes from work specifically done in CFS, the patient population most clinically adjacent to chronic Lyme: 11 CFS patients treated with temperature-guided SR-T3 all showed clinical improvement ([Friedman et al., 2006 — temperature as therapeutic endpoint validated prospectively in CFS](https://pubmed.ncbi.nlm.nih.gov/16883675/)).
+Dosing is titrated to temperature response rather than to lab values, with the therapeutic endpoint being average basal body temperature stabilizing at or above 98.6°F. The clinical validation comes from work specifically done in CFS, the patient population most clinically adjacent to chronic Lyme: 11 CFS patients treated with temperature-guided SR-T3 all showed clinical improvement ([Friedman et al., 2006: temperature as therapeutic endpoint validated prospectively in CFS](https://pubmed.ncbi.nlm.nih.gov/16883675/)).
 
-T3 is not optional in this protocol. The caloric window for Phase 3 cannot open without it. Read more at [the T3 therapy protocol page](/t3-therapy).
+Not everyone needs T3. It is for the person who comes out of the fast and the refeed still cold, with whole-body and brain fatigue that does not lift; for that person the caloric window for Phase 3 cannot open without it. Read more at [the T3 therapy protocol page](/t3-therapy).
 
 ### Phase 3: Refeeding + hGH (the Rebuild)
 
@@ -131,10 +133,10 @@ Chronic Lyme recovery on the Scorch Protocol follows the same general arc as Lon
 - **Months 0-1** (preparation): dietary preparation, baseline labs, sourcing protocol materials, beginning shorter fasts to build tolerance, addressing acute Lyme markers if present
 - **Months 1-3** (first significant fasts + T3 initiation): the first 5-7 day fast under proper preparation, T3 therapy begun, initial symptom reduction, common Herxheimer window in weeks 1-2 post-fast as co-infection and viral debris clear
 - **Months 3-6** (refeeding and further cycles): gradual caloric ascent under T3 support, hGH considered around the third cycle only if the first two have not done enough, body temperature begins normalizing, joint and migrating pain often among the first to fully resolve
-- **Months 6-12** (consolidation): additional fasts if needed for severe co-infection burden, full caloric and metabolic restoration, energy floor sustainably elevated
+- **Months 6-12** (banking the gains): additional fasts if needed for severe co-infection burden, full caloric and metabolic restoration, energy floor sustainably elevated
 - **Months 12-18** (in severe long-duration cases): structural neurological recovery completes; cognitive symptoms and lasting peripheral neuropathy among the last to fully resolve
 
-The conservative estimate for total recovery time is approximately 2x faster than the natural unassisted timeline with T3 therapy alone, and potentially faster with the full protocol stack. For a patient ill for five years, this is approximately 18-24 months to substantial recovery.
+Recovery comes faster than the natural unassisted timeline, and faster again with the full protocol stack, but I do not put a number on how much. For someone ill for five years, expect many months, not weeks.
 
 ## Who This Protocol Is and Is Not For
 
@@ -151,7 +153,7 @@ The Scorch Protocol is **not** appropriate for:
 - Patients with serious co-existing kidney disease, recent kidney injury, or severe heart disease (extended fasting is contraindicated)
 - Pregnant or breastfeeding women
 - Patients with active eating disorder history
-- Anyone unable to commit to the full sequence, particularly the T3 + hGH layer; partial implementation typically produces flares without resolution
+- Anyone unable to commit to the full sequence of fast, refeed and rebuild; partial implementation typically produces flares without resolution
 
 ## Frequently Asked Questions
 

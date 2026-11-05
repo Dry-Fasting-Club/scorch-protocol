@@ -90,7 +90,7 @@ This is the intervention that breaks the immune suppression and viral reactivati
 
 ### T3 Therapy (Slow-Release)
 
-Slow-release T3 therapy restores cellular ability to use carbohydrates, raises basal body temperature back toward 98.6°F, and reactivates the enzyme-dependent processes that the disease has slowed. The clinical validation comes from CFS-specific work: 11 CFS patients treated with temperature-guided SR-T3 all showed clinical improvement ([Friedman et al., 2006 — temperature-guided SR-T3 produced clinical improvement in CFS](https://pubmed.ncbi.nlm.nih.gov/16883675/)).
+Slow-release T3 therapy restores cellular ability to use carbohydrates, raises basal body temperature back toward 98.6°F, and reactivates the enzyme-dependent processes that the disease has slowed. The clinical validation comes from CFS-specific work: 11 CFS patients treated with temperature-guided SR-T3 all showed clinical improvement ([Friedman et al., 2006: temperature-guided SR-T3 produced clinical improvement in CFS](https://pubmed.ncbi.nlm.nih.gov/16883675/)).
 
 T3 is the master regulator of mitochondrial output across all tissues. The temperature endpoint (average basal body temperature stabilizing at or above 98.6°F) is the functional readout of restored cellular T3 activity, and it is the most reliable single marker for protocol progress. Read more at [the T3 therapy protocol page](/t3-therapy).
 
@@ -115,7 +115,7 @@ The full sequence:
 5. **Phase 4: Rotation** (finish the T3 course, wait seven days, next fast; manage muscle waste vigilance).
 6. **Adjuncts as needed** (psilocybin neuroplasticity for severe cognitive residuals, targeted antimicrobials for ongoing pathogen load).
 
-The protocol takes months to years depending on illness duration. The conservative estimate is approximately 2x speedup relative to natural unassisted recovery, with additional speedup possible with the full stack.
+The protocol takes months to years depending on illness duration. It shortens the road compared with unassisted recovery, and the full stack shortens it further, but I do not put a number on how much.
 
 ## Frequently Asked Questions
 
@@ -125,7 +125,7 @@ Severe PEM patients often need to start with very short fasts (24-48 hours) to t
 
 ### Why slow-release T3 instead of standard T3 or T4?
 
-In adrenal-fatigued patients (which describes most CFS patients), immediate-release T3 produces a cortisol spike followed by a crash, which destabilizes the recovery. Slow-release T3 maintains a steady tissue T3 level without the spike-crash. T4 alone often makes CFS worse because the patient's T4-to-T3 conversion is impaired, and adding more T4 increases the reverse T3 pool rather than active T3 ([Halsall & Oddy, 2021 — rT3 functions as metabolic diversion rather than receptor blocker](https://pubmed.ncbi.nlm.nih.gov/33040575/), *Annals of Clinical Biochemistry*).
+In adrenal-fatigued patients (which describes most CFS patients), immediate-release T3 produces a cortisol spike followed by a crash, which destabilizes the recovery. Slow-release T3 maintains a steady tissue T3 level without the spike-crash. T4 alone often makes CFS worse because the patient's T4-to-T3 conversion is impaired, and adding more T4 increases the reverse T3 pool rather than active T3 ([Halsall & Oddy, 2021: rT3 functions as metabolic diversion rather than receptor blocker](https://pubmed.ncbi.nlm.nih.gov/33040575/), *Annals of Clinical Biochemistry*).
 
 ### How do I know if I am responding to the protocol?
 
@@ -133,7 +133,7 @@ Track basal body temperature daily. Track resting heart rate. Track cognitive ca
 
 ### How long until I feel different?
 
-Most patients notice initial symptom reduction in weeks 1-4 of T3 therapy reaching therapeutic effect. Substantial improvement typically appears in months 3-6. Complete recovery in long-duration cases takes 18-24+ months.
+The first changes usually come in the weeks after the refeed, once the metabolism is fed and warm again; how fast varies with how long someone has been ill, and long-duration cases take the longest.
 
 ### Where do I start?
 

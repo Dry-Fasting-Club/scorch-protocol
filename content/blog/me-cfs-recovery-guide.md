@@ -38,11 +38,11 @@ You will learn:
 
 ME/CFS is the end-state of a metabolic system that has been pushed past its breaking point by sustained stress, illness, or accumulated metabolic insult. The HPA axis (your stress response) and the HPT axis (your thyroid metabolism control) fail together, and the body drops to a lower energy state that it then defends as the new normal.
 
-The reduction in cerebral metabolic rate is measurable: ME/CFS patients show reduced cognitive processing speed and working memory consistent with reduced cerebral metabolic rate, with no structural brain damage to explain the deficit ([Mäkinen et al., 2017 — reduced cognitive processing speed in ME/CFS consistent with reduced cerebral metabolic rate](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5628799/), *PLOS ONE*). The brain is not damaged. The brain is being rationed.
+The reduction in cerebral metabolic rate is measurable: ME/CFS patients show reduced cognitive processing speed and working memory consistent with reduced cerebral metabolic rate, with no structural brain damage to explain the deficit ([Mäkinen et al., 2017: reduced cognitive processing speed in ME/CFS consistent with reduced cerebral metabolic rate](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5628799/), *PLOS ONE*). The brain is not damaged. The brain is being rationed.
 
-The reduction in immune function is measurable: NK cell cytotoxicity sits at roughly 50% of normal in ME/CFS patients across 28 studies, with CD8 T-cells showing PD-1 and CTLA-4 exhaustion markers ([Baraniuk et al., 2024 — CD8 T-cell exhaustion and persistent NK cell deficits in ME/CFS](https://pubmed.ncbi.nlm.nih.gov/39483457/), *Frontiers in Immunology*). This is a structural immune suppression, not "all in your head."
+The reduction in immune function is measurable: NK cell cytotoxicity sits at roughly 50% of normal in ME/CFS patients across 28 studies, with CD8 T-cells showing PD-1 and CTLA-4 exhaustion markers ([Baraniuk et al., 2024: CD8 T-cell exhaustion and persistent NK cell deficits in ME/CFS](https://pubmed.ncbi.nlm.nih.gov/39483457/), *Frontiers in Immunology*). This is a structural immune suppression, not "all in your head."
 
-The reactivated herpesvirus pattern is measurable: the EBV reactivation rate in ME/CFS patients runs substantially higher than in healthy controls, and the same pattern recapitulates in Long Covid ([Gold et al., 2021 — investigation of Long Haul COVID-19 reveals reactivated EBV in most cases](https://pubmed.ncbi.nlm.nih.gov/34204243/), *Pathogens*). The latent viruses your immune system was holding in check are no longer being held.
+The reactivated herpesvirus pattern is measurable: the EBV reactivation rate in ME/CFS patients runs substantially higher than in healthy controls, and the same pattern recapitulates in Long Covid ([Gold et al., 2021: investigation of Long Haul COVID-19 reveals reactivated EBV in most cases](https://pubmed.ncbi.nlm.nih.gov/34204243/), *Pathogens*). The latent viruses your immune system was holding in check are no longer being held.
 
 You have a real disease with measurable biological signatures. The medical system has been slow to integrate these signatures into clinical practice, partly because the testing infrastructure is fragmented and partly because the available "treatments" do not work, so the diagnosis has rarely changed management. The mechanism is real even when the treatment paradigm has been inadequate.
 
@@ -90,9 +90,11 @@ The Scorch Protocol addresses ME/CFS through the same three-phase sequence used 
 
 ### Phase 1: Dry Fasting (the Reset)
 
-Extended dry fasting (five days under proper preparation and progression; the protocol is capped there because five days dry is still safe at home) activates a depth of autophagy and immune clearance no other intervention reaches. The mechanism is detailed in [the dry fasting complete guide](/blog/dry-fasting-complete-guide). For ME/CFS patients with long illness duration (5+ years), Yannick's experience is that the best results often come from the 7-day to 9-day range, but only once five days is very comfortable.
+Extended dry fasting (five days under proper preparation and progression; the protocol is capped there because five days dry is still safe at home) activates a depth of autophagy and immune clearance no other intervention reaches. The mechanism is detailed in [the dry fasting complete guide](/blog/dry-fasting-complete-guide). For ME/CFS patients with long illness duration (5+ years), my experience is that the best results often come from the 7-day to 9-day range, but only once five days is very comfortable; those deeper fasts demand a stricter refeed and more care, and how far is set with me.
 
 The NK cell surge during the fast is particularly relevant for the ME/CFS cohort because the NK cell deficit is one of the most consistent biological signatures of the disease and one of the most direct mechanisms by which the viral burden is maintained.
+
+Why the order matters is on [the healing cycle page](/healing-cycle).
 
 ### Phase 2: T3 Therapy (the Cellular Restart)
 
@@ -104,7 +106,7 @@ T3 is the master regulator of mitochondrial output. Restoring tissue-level T3 ac
 
 The refeeding phase is where the structural damage from years or decades of low energy is actually rebuilt: mitochondrial density, hypothalamic signaling integrity, lean tissue, immune reconstitution. The execution requires the same MCAS-aware slow caloric reintroduction (70-100 calories per week), high carbohydrate emphasis, and hGH therapy to direct nutritional inputs toward repair rather than fat storage.
 
-For long-duration ME/CFS patients (10+ years), the refeeding phase is longer and more carefully managed than for shorter-duration cases. The conservative timeline of approximately 2x speedup relative to natural unassisted recovery still applies, but the absolute duration scales with illness duration. Read more at [the refeeding protocol](/refeeding) and [the hGH therapy page](/hgh-therapy).
+For long-duration ME/CFS patients (10+ years), the refeeding phase is longer and more carefully managed than for shorter-duration cases. The protocol still shortens the road compared with unassisted recovery, but the absolute duration scales with illness duration. Read more at [the refeeding protocol](/refeeding) and [the hGH therapy page](/hgh-therapy).
 
 ## What Recovery Looks Like
 
@@ -115,13 +117,13 @@ For a patient ill 1-3 years:
 - **Months 0-1** (preparation): dietary preparation, baseline labs, sourcing materials, beginning shorter fasts
 - **Months 1-3** (first significant fast + T3 initiation): 5-7 day fast, T3 begun, initial symptom reduction
 - **Months 3-6** (refeeding and further cycles): metabolic foundation restored, body temperature normalizes, cognitive symptoms begin to clear
-- **Months 6-12** (consolidation): full functional recovery in most cases
+- **Months 6-12** (banking the gains): full functional recovery is the aim
 
 For a patient ill 5-10 years:
 
 - **Months 0-3** (preparation + first fast): longer preparation window, often 7-day fast required
 - **Months 3-9** (T3 + refeeding; hGH from the third cycle only if needed): multiple cycles may be needed; refeeding phase extended
-- **Months 9-18** (consolidation): full functional recovery typical
+- **Months 9-18** (banking the gains): full functional recovery is the aim
 - **Months 18-24** (long-duration cognitive recovery): residual cognitive symptoms continue to clear
 
 For a patient ill 10+ years:
@@ -151,7 +153,7 @@ The Scorch Protocol is **not** appropriate for:
 
 ### Will I have to do this protocol forever?
 
-No. The protocol is structured as a recovery sequence with a defined endpoint: cellular energy supply restored, body temperature normalized, immune function restored, cognitive function recovered. Most patients reach a maintenance state where the protocol's intensive phases are completed and ongoing maintenance is minimal.
+No. The protocol is structured as a recovery sequence with a defined endpoint: cellular energy supply restored, body temperature normalized, immune function restored, cognitive function recovered. The aim is a maintenance state where the protocol's intensive phases are completed and ongoing maintenance is minimal.
 
 ### What about the chronic insomnia, the wired-but-tired pattern, the sleep architecture problems?
 
