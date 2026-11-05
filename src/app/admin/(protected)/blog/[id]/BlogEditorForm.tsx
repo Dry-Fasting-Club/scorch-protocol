@@ -16,9 +16,9 @@ import type { BlogPost } from "@/lib/blog";
 
 const PROTOCOL_SLUGS = [
   "", "preparation", "dry-fasting", "refeeding", "t3-therapy",
-  "hgh-therapy", "symptom-management", "weight-loss",
+  "hgh-therapy", "symptom-management",
   "genetic-polymorphisms", "tips-and-tricks", "success-rate-data",
-  "refeed-for-bmr", "list-of-pharmacies", "random-thoughts",
+  "refeed-for-bmr", "list-of-pharmacies", "healing-cycle",
 ];
 
 interface Props {

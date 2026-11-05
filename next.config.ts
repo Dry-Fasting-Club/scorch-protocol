@@ -29,6 +29,11 @@ const nextConfig: NextConfig = {
         destination: "/membership",
         permanent: true,
       },
+      // Random Thoughts became Why It Works: The Healing Cycle, and the Weight
+      // Loss page was retired to Who Should Not Do This (2026-11-05). The legacy
+      // .html forms of both are in the list below.
+      { source: "/random-thoughts", destination: "/healing-cycle", permanent: true },
+      { source: "/weight-loss", destination: "/contraindications", permanent: true },
       // Redirect Vercel's free project alias to the canonical site so it isn't a
       // duplicate indexable origin. NOTE: www vs apex canonicalization is handled
       // at the Vercel domain level (dashboard), NOT here. Adding a www->apex rule
@@ -48,13 +53,13 @@ const nextConfig: NextConfig = {
       { source: "/t3-therapy.html",           destination: "/t3-therapy",          permanent: true },
       { source: "/hgh-therapy.html",          destination: "/hgh-therapy",         permanent: true },
       { source: "/symptom-management.html",   destination: "/symptom-management",  permanent: true },
-      { source: "/weight-loss.html",          destination: "/weight-loss",         permanent: true },
+      { source: "/weight-loss.html",          destination: "/contraindications",   permanent: true },
       { source: "/genetic-polymorphisms.html",destination: "/genetic-polymorphisms",permanent: true },
       { source: "/tips-and-tricks.html",      destination: "/tips-and-tricks",     permanent: true },
       { source: "/Success-Rate-Data.html",    destination: "/success-rate-data",   permanent: true },
       { source: "/Refeed-for-BMR.html",       destination: "/refeed-for-bmr",      permanent: true },
       { source: "/list-of-pharmacies.html",   destination: "/list-of-pharmacies",  permanent: true },
-      { source: "/random-thoughts.html",      destination: "/random-thoughts",     permanent: true },
+      { source: "/random-thoughts.html",      destination: "/healing-cycle",       permanent: true },
       // FAQ — legacy root-level FAQ.html → /faq
       { source: "/FAQ.html",                  destination: "/faq",                 permanent: true },
       // FAQ sub-pages

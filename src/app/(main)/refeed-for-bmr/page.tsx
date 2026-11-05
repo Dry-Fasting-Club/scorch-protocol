@@ -297,6 +297,12 @@ export default function RefeedForBmrPage() {
           This is the hardest part mentally. Gaining fat is a sign the plan is
           working; your body is prioritizing survival over looks.
         </div>
+        <div className="question-item">
+          <span className="question-label">The 10-Pound Rule:</span>
+          Stop fasting at least 10 lbs before you reach an underweight state,
+          because T3 therapy and the post-refeed period can remove another
+          10 lbs even after you stop.
+        </div>
       </div>
 
       <h3>Phase III: Rebuilding Muscle (Months 6–9+)</h3>

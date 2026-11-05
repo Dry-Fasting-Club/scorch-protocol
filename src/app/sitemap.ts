@@ -11,8 +11,10 @@ import { BLOG_CATEGORIES } from "@/lib/blogCategories";
 const BASE_URL = "https://scorchprotocol.com";
 
 // Indexed protocol pages with differentiated priority. Excludes pages marked
-// noindex (weight-loss, random-thoughts, purchase/success).
+// noindex (purchase/success). The retired Random Thoughts and Weight Loss pages
+// now redirect (to /healing-cycle and /contraindications), so neither is listed.
 const protocolPages: { path: string; priority: number }[] = [
+  { path: "/healing-cycle", priority: 0.9 },
   { path: "/decision-tree", priority: 0.9 },
   { path: "/preparation", priority: 0.9 },
   { path: "/dry-fasting", priority: 0.9 },

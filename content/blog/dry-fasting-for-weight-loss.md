@@ -13,7 +13,7 @@ tags:
 author_name: Yannick Wolfe
 status: published
 featured: false
-related_protocol_slug: weight-loss
+related_protocol_slug: refeed-for-bmr
 seo_title: "Dry Fasting for Weight Loss: What Actually Happens"
 seo_description: "Dry fasting produces dramatic short-term weight loss, but most of it is water. What is actually fat loss, what returns, and when this is the right tool."
 excerpt: "Dry fasting produces the most dramatic short-term weight loss numbers of any fasting protocol. Most of those numbers are water weight that returns within days of refeeding. The honest assessment of dry fasting for weight loss separates the real fat loss from the scale theater and identifies when this is the right tool versus when it is the wrong one."
