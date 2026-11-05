@@ -26,7 +26,7 @@ const mcasFaq = [
   {
     question: "Does fasting help MCAS?",
     answer:
-      "Dry fasting appears to help MCAS indirectly, by targeting the underlying drivers (viral persistence, chronic immune activation, and mitochondrial damage) that keep mast cells in a primed, hypersensitive state. It does not replace antihistamine support in the short term. The calming stack (cyproheptadine, my first choice, or ketotifen, plus H1 and H2 blockers) manages symptoms while the protocol addresses the root cause.",
+      "Dry fasting appears to help MCAS indirectly, by targeting the underlying drivers (viral persistence, chronic immune activation, and mitochondrial damage) that keep mast cells in a primed, hypersensitive state. It does not replace antihistamine support in the short term. The calming stack (cyproheptadine, the first choice in the protocol, or ketotifen, plus H1 and H2 blockers) manages symptoms while the protocol addresses the root cause.",
   },
   {
     question: "Why does MCAS cause insomnia?",
