@@ -73,7 +73,7 @@ The execution requires careful sequencing because aggressive intervention in an 
 
 **Pre-protocol stabilization.** Before starting the protocol, MCAS patients usually need mast cell stabilization. Cromolyn sodium (oral) is one of the most useful agents because it stabilizes mast cells throughout the digestive tract specifically. Quercetin (a natural mast cell stabilizer with antiviral properties) is often added. Carnivore or low-histamine diet may be needed temporarily to reduce trigger exposure. This is not the protocol; this is the floor that makes the protocol survivable.
 
-**Update, October 2026:** this paragraph used to say MCAS patients need a baseline antihistamine before starting. There is no antihistamine rule in the protocol. Cyproheptadine, itself an H1 antihistamine, runs in the T3 cycle, and it is the only antihistamine the protocol adds. An H2 blocker such as famotidine might also help with histamine symptoms in a flare, as symptom relief only: the evidence is weak, the benefit faded once people stopped, and no antihistamine does anything to the virus.
+**Update, October 2026:** this paragraph used to say MCAS patients need a baseline antihistamine before starting. There is no antihistamine rule in the protocol. Cyproheptadine, itself an H1 antihistamine, runs in the T3 cycle, and it is the antihistamine the protocol adds first; cetirizine or another over-the-counter H1 is the fallback when it cannot be obtained. An H2 blocker such as famotidine might also help with histamine symptoms in a flare, as symptom relief only: the evidence is weak, the benefit faded once people stopped, and no antihistamine does anything to the virus.
 
 **Phase 1: Dry fasting.** Done in MCAS patients with extra care. The fast itself is generally well-tolerated and often reduces reactivity (no food = no food triggers; the fast also clears the latent viral load that is partially driving the regulatory failure). The refeeding phase is where the danger sits, and the protocol uses a slower-than-default refeeding schedule for MCAS patients specifically.
 
@@ -98,7 +98,7 @@ The pattern is variable. Some patients clear MCAS completely; some retain a base
 
 ### Can I do the Scorch Protocol if I am severely MCAS?
 
-Yes, but the implementation requires extra care. Pre-protocol stabilization (mast cell stabilizers, low-histamine diet) is usually necessary before the first dry fast. There is no antihistamine rule: cyproheptadine in the T3 cycle is the only antihistamine the protocol adds, and an H2 blocker might also help with histamine symptoms in a flare. The refeeding schedule must be slow (70-100 calories per week). Discuss the timing with someone experienced in both protocols.
+Yes, but the implementation requires extra care. Pre-protocol stabilization (mast cell stabilizers, low-histamine diet) is usually necessary before the first dry fast. There is no antihistamine rule: cyproheptadine in the T3 cycle is the antihistamine the protocol adds first; cetirizine or another over-the-counter H1 is the fallback when it cannot be obtained, and an H2 blocker might also help with histamine symptoms in a flare. The refeeding schedule must be slow (70-100 calories per week). Discuss the timing with someone experienced in both protocols.
 
 ### What about acyclovir or valacyclovir for the herpesvirus burden?
 

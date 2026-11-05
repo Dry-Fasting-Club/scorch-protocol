@@ -81,7 +81,7 @@ Thymalin is not a standard step. It is a per-case add-on I set with people indiv
 
 **During refeed and rebuild.** For the person who needs it, Thymalin supports immune function while hGH (if appropriate for the patient) does the underlying structural rebuild.
 
-**For patients not using hGH.** Some patients have contraindications to hGH or choose not to use it. Thymalin then provides the best available immune-modulatory support, with the explicit understanding that the structural rebuild will be slower and less complete than the hGH-supported version.
+**For patients not using hGH.** Some patients have contraindications to hGH or choose not to use it. Thymalin then provides the best available immune-modulatory support, with the explicit understanding that the structural rebuild will be slower and less complete than the version with hGH, when it is used.
 
 The dose varies by formulation and is set case by case. The compounding pharmacy and prescribing physician relationship matters substantially.
 

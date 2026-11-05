@@ -150,7 +150,7 @@ For that person, *the caloric window cannot open without it*. You can eat all th
 
 Read the full protocol: [T3 Therapy](/t3-therapy).
 
-### Phase 3: Refeeding and hGH, the Rebuild
+### Phase 3: Refeeding and Regeneration, the Rebuild
 
 This is the phase that almost everyone gets wrong unsupported, and where the Scorch Protocol differs most sharply from "natural" recovery attempts.
 
@@ -166,7 +166,7 @@ The Scorch Protocol replaces this multi-year ordeal with a months-scale managed 
 
 - **Gradual caloric reintroduction** at 70-100 calories per week, calibrated to avoid triggering MCAS reactions or glucose spikes.
 - **High carbohydrate emphasis** to provide the substrate the liver needs to produce T3 endogenously and to signal abundance to the hypothalamus.
-- **hGH (human growth hormone) therapy** to direct the caloric surplus toward tissue repair and lean mass, rather than fat storage. This is the specific mechanism that prevents the weight-gain panic spiral.
+- **hGH (human growth hormone) therapy** to direct the caloric surplus toward tissue repair and lean mass, rather than fat storage. It is the last lever, used only when the body cannot rebuild on its own.
 - **Targeted antimicrobials** (antifungals, antiparasitics, antivirals as appropriate) to reduce the pathogen load competing for the incoming calories before they reach the tissues that need them for repair.
 
 Read the relevant protocols: [Refeeding](/refeeding) and [hGH Therapy](/hgh-therapy).

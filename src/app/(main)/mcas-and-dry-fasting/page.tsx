@@ -26,7 +26,7 @@ const mcasFaq = [
   {
     question: "Does fasting help MCAS?",
     answer:
-      "Dry fasting appears to help MCAS indirectly, by targeting the underlying drivers (viral persistence, chronic immune activation, and mitochondrial damage) that keep mast cells in a primed, hypersensitive state. It does not replace antihistamine support in the short term. The calming stack (cyproheptadine or ketotifen, plus H1 and H2 blockers) manages symptoms while the protocol addresses the root cause.",
+      "Dry fasting appears to help MCAS indirectly, by targeting the underlying drivers (viral persistence, chronic immune activation, and mitochondrial damage) that keep mast cells in a primed, hypersensitive state. It does not replace antihistamine support in the short term. The calming stack (cyproheptadine, my first choice, or ketotifen, plus H1 and H2 blockers) manages symptoms while the protocol addresses the root cause.",
   },
   {
     question: "Why does MCAS cause insomnia?",
@@ -166,12 +166,12 @@ export default function MCASAndDryFastingPage() {
         <h3>Daytime H1 and H2 Support</h3>
         <div className="question-item">
           <span className="question-label">H1 Blocker (Daytime, and the Fallback):</span>
-          Cetirizine 10 mg or loratadine 10 mg daily. This is what I reach for
-          when cyproheptadine cannot be obtained: cetirizine (Zyrtec) or another
-          over-the-counter H1 antihistamine helps a lot of people who cannot eat
-          anything without symptoms. These are non-sedating H1
+          Cetirizine 10 mg or loratadine 10 mg daily. These are non-sedating H1
           antihistamines that reduce histamine-driven flushing, itching, food
-          reactions, and racing heart. They do not address serotonin dysregulation
+          reactions, and racing heart. This is what I reach for when
+          cyproheptadine cannot be obtained: cetirizine (Zyrtec) or another
+          over-the-counter H1 antihistamine helps a lot of people who cannot eat
+          anything without symptoms. They do not address serotonin dysregulation
           and are not sufficient on their own for severe insomnia.
         </div>
         <div className="question-item">
@@ -249,12 +249,12 @@ export default function MCASAndDryFastingPage() {
           cyproheptadine and less of the cognitive blunting some describe as a
           &ldquo;zombie effect,&rdquo; making it a reasonable choice when
           cyproheptadine&rsquo;s sedation is too strong or when you need to stay
-          sharp the next morning. Some people prefer ketotifen; I do not.
-          Cyproheptadine&rsquo;s sedation goes away after a few weeks. Start at
-          1 mg before bed to test your response.
+          sharp the next morning. Start at 1 mg before bed to test your response.
           The effective range for sleep is typically 1 to 4 mg. It also helps
           directly with MCAS-driven digestive problems, a useful secondary benefit.
-          Always use the lowest dose that works and titrate up slowly.
+          Always use the lowest dose that works and titrate up slowly. Some
+          people prefer ketotifen; I do not. Cyproheptadine&rsquo;s sedation goes
+          away after a few weeks.
         </div>
         <div className="question-item">
           <span className="question-label">Why Not Benadryl?</span>

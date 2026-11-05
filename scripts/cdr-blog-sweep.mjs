@@ -16,7 +16,8 @@
  *   add --slug=<slug> to limit any mode to one post
  *   add --from-json=<dump> to scan or dry-run a JSON backup of blog_posts (no database)
  *   add --triad to run only the pillar-line pass (TRIAD_RULES, no other rule and
- *     no dash fixer; John's review, 2026-11-05; see TRIAD below)
+ *     no dash fixer; John's review, 2026-11-05; see TRIAD below), or --round2 to
+ *     run only the round 2 pass the same way (ROUND2_TABLE; John's review, round 2)
  *
  * dryfastingclub.com pages cache for 24 hours; after an --apply there, revalidate
  * each changed post through the site's admin route (PATCH /api/admin/blog/<id>
@@ -1653,9 +1654,69 @@ const TRIAD_HELD = {
   ],
 };
 
-// Every triad hit in a body, with its disposition: inside a TRIAD rule's text,
-// held for John, or UNJUDGED (a new hit nobody has read).
-function triadHits(post, body) {
+// ─── The round 2 pass (John's review, round 2, 2026-11-05) ─────
+// The same two doctrines on neighbouring lines the reviewer found: the rebuild
+// belongs to the regeneration phase and hGH is its last lever; cyproheptadine
+// is the antihistamine the protocol adds first, with cetirizine or another
+// over-the-counter H1 the fallback. `--round2` runs this pass alone, exactly
+// as `--triad` runs its own: exact phrases, its rules only, no dash fixer.
+const ROUND2_TERMS = [
+  { id: "r2-heading", label: '"Refeeding and hGH, the Rebuild"', re: /Refeeding and hGH, the Rebuild/g },
+  { id: "r2-mechanism", label: '"This is the specific mechanism that prevents the weight-gain panic spiral."', re: /This is the specific mechanism that prevents the weight-gain panic spiral\./g },
+  { id: "r2-only-antihistamine", label: '"the only antihistamine the protocol adds"', re: /the only antihistamine the protocol adds/g },
+  { id: "r2-hgh-supported", label: '"the hGH-supported version"', re: /the hGH-supported version/g },
+];
+const W_R2_HGH = "round 2 (John, 2026-11-05): the regeneration phase rebuilds; hGH is its last lever, used only when the body cannot rebuild on its own";
+const W_R2_H1 = "round 2 (John, 2026-11-05): cyproheptadine is the antihistamine the protocol adds first; cetirizine or another over-the-counter H1 is the fallback";
+const FALLBACK_H1 = "cetirizine or another over-the-counter H1 is the fallback when it cannot be obtained";
+const ROUND2_TABLE = {
+  scorch: {
+    "1 long-covid-recovery-guide": [
+      {
+        find: "### Phase 3: Refeeding and hGH, the Rebuild",
+        replace: "### Phase 3: Refeeding and Regeneration, the Rebuild",
+        why: W_R2_HGH,
+      },
+      {
+        find: "rather than fat storage. This is the specific mechanism that prevents the weight-gain panic spiral.",
+        replace: "rather than fat storage. It is the last lever, used only when the body cannot rebuild on its own.",
+        why: W_R2_HGH,
+      },
+    ],
+    "8 long-covid-mcas-connection": [
+      {
+        find: "runs in the T3 cycle, and it is the only antihistamine the protocol adds. An H2 blocker",
+        replace: `runs in the T3 cycle, and it is the antihistamine the protocol adds first; ${FALLBACK_H1}. An H2 blocker`,
+        why: W_R2_H1,
+      },
+      {
+        find: "cyproheptadine in the T3 cycle is the only antihistamine the protocol adds, and an H2 blocker",
+        replace: `cyproheptadine in the T3 cycle is the antihistamine the protocol adds first; ${FALLBACK_H1}, and an H2 blocker`,
+        why: W_R2_H1,
+      },
+    ],
+    "29 thymalin-thymus-peptides-explained": [
+      {
+        find: "slower and less complete than the hGH-supported version.",
+        replace: "slower and less complete than the version with hGH, when it is used.",
+        why: W_R2_HGH,
+      },
+    ],
+  },
+  dfc: {},
+};
+
+// The passes that run alone, by flag.
+const PASSES = {
+  triad: { terms: TRIAD_TERMS, rules: TRIAD_RULES, held: TRIAD_HELD },
+  round2: { terms: ROUND2_TERMS, rules: { scorch: expand(ROUND2_TABLE.scorch), dfc: expand(ROUND2_TABLE.dfc) }, held: { scorch: [], dfc: [] } },
+};
+const PASS_NAME = TRIAD ? "triad" : flag("round2") ? "round2" : null;
+const PASS = PASS_NAME ? PASSES[PASS_NAME] : null;
+
+// Every hit of the running pass in a body, with its disposition: inside one of
+// the pass's rule texts, held for John, or UNJUDGED (a new hit nobody has read).
+function passHits(post, body) {
   const out = [];
   const inside = (idx, text) => {
     for (let at = body.indexOf(text); at !== -1; at = body.indexOf(text, at + 1)) {
@@ -1663,13 +1724,13 @@ function triadHits(post, body) {
     }
     return false;
   };
-  for (const term of TRIAD_TERMS) {
+  for (const term of PASS.terms) {
     term.re.lastIndex = 0;
     let m;
     while ((m = term.re.exec(body)) !== null) {
       const idx = m.index;
-      const rule = TRIAD_RULES[SITE].find((r) => r.id === post.id && inside(idx, r.find));
-      const held = rule ? null : TRIAD_HELD[SITE].find((h) => h.ids.includes(post.id) && inside(idx, h.text));
+      const rule = PASS.rules[SITE].find((r) => r.id === post.id && inside(idx, r.find));
+      const held = rule ? null : PASS.held[SITE].find((h) => h.ids.includes(post.id) && inside(idx, h.text));
       const disposition = rule ? "rule" : held ? `held for John: ${held.why}` : "UNJUDGED";
       out.push({ term: term.id, idx, match: m[0], where: locate(body, idx), context: context(body, idx, m[0].length), disposition });
     }
@@ -1684,7 +1745,7 @@ function countOf(body, find) {
 
 // Apply a post's rules in order, then the dash fixer. `loose` (the markdown
 // mirror) applies a rule wherever its text occurs and skips it otherwise;
-// `dashes: false` (the triad pass) leaves the dash fixer out.
+// `dashes: false` (a pass run alone: --triad, --round2) leaves the dash fixer out.
 function transform(body, rules, { loose = false, dashes = true } = {}) {
   const changes = [];
   const problems = [];
@@ -1765,12 +1826,12 @@ try {
     ? await sql`SELECT id, slug, title, content, updated_at FROM blog_posts WHERE status = 'published' AND slug = ${ONLY_SLUG} ORDER BY id`
     : await sql`SELECT id, slug, title, content, updated_at FROM blog_posts WHERE status = 'published' ORDER BY id`;
 
-  if (MODE === "scan" && TRIAD) {
+  if (MODE === "scan" && PASS) {
     const totals = {};
     let postsWithHits = 0;
-    console.log(`\n=== CDR blog sweep: triad scan (${SITE}, ${posts.length} published rows) ===\n`);
+    console.log(`\n=== CDR blog sweep: ${PASS_NAME} scan (${SITE}, ${posts.length} published rows) ===\n`);
     for (const post of posts) {
-      const hits = triadHits(post, post.content ?? "");
+      const hits = passHits(post, post.content ?? "");
       if (hits.length === 0) continue;
       postsWithHits++;
       console.log(`## ${post.id} ${post.slug}`);
@@ -1782,7 +1843,7 @@ try {
       }
       console.log("");
     }
-    console.log(`=== ${postsWithHits} of ${posts.length} posts with triad hits ===`);
+    console.log(`=== ${postsWithHits} of ${posts.length} posts with ${PASS_NAME} hits ===`);
     for (const [k, n] of Object.entries(totals).sort()) console.log(`  ${k}: ${n}`);
   } else if (MODE === "scan") {
     const totals = {};
@@ -1804,12 +1865,12 @@ try {
     console.log(`=== ${postsWithHits} of ${posts.length} posts with hits ===`);
     for (const [k, n] of Object.entries(totals).sort()) console.log(`  ${k}: ${n}`);
   } else {
-    const rules = (TRIAD ? TRIAD_RULES : RULES)[SITE].filter((r) => !ONLY_SLUG || r.slug === ONLY_SLUG);
+    const rules = (PASS ? PASS.rules : RULES)[SITE].filter((r) => !ONLY_SLUG || r.slug === ONLY_SLUG);
     const known = new Map(posts.map((p) => [p.id, p.slug]));
     for (const r of rules) {
       if (known.get(r.id) !== r.slug && !ONLY_SLUG) console.log(`  WARNING: rule for ${r.id} ${r.slug} matches no published row`);
     }
-    console.log(`\n=== CDR blog sweep${TRIAD ? " (triad pass)" : ""}: ${MODE === "apply" ? "APPLY" : "dry run"} (${SITE}, ${rules.length} rules, ${posts.length} published rows) ===\n`);
+    console.log(`\n=== CDR blog sweep${PASS ? ` (${PASS_NAME} pass)` : ""}: ${MODE === "apply" ? "APPLY" : "dry run"} (${SITE}, ${rules.length} rules, ${posts.length} published rows) ===\n`);
     let changed = 0;
     let skipped = 0;
     let dashTotal = 0;
@@ -1819,16 +1880,16 @@ try {
     for (const post of posts) {
       const postRules = rules.filter((r) => r.id === post.id);
       if (postRules.some((r) => r.slug !== post.slug)) throw new Error(`rules for id ${post.id} name another slug`);
-      const res = transform(post.content, postRules, { dashes: !TRIAD });
+      const res = transform(post.content, postRules, { dashes: !PASS });
       if (res.problems.length) {
         skipped++;
         console.log(`  SKIP ${post.id} ${post.slug}: ${res.problems.join("; ")}`);
         continue;
       }
-      // The triad pass lists what is left after its rules: every hit held for
-      // John, and any hit nobody has judged yet.
-      if (TRIAD) {
-        for (const h of triadHits(post, res.body)) {
+      // A pass run alone lists what is left after its rules: every hit held
+      // for John, and any hit nobody has judged yet.
+      if (PASS) {
+        for (const h of passHits(post, res.body)) {
           if (h.disposition === "UNJUDGED") unjudgedTotal++;
           else heldTotal++;
           console.log(`  = ${post.id} ${post.slug} [${h.where}] "${h.match}": ${h.disposition}`);
@@ -1861,7 +1922,7 @@ try {
         console.log(`  ~ dash: ...${ch.before}...`);
         console.log(`       => ...${ch.after}...`);
       }
-      const md = mirrorMarkdown(post.slug, postRules, { dashes: !TRIAD });
+      const md = mirrorMarkdown(post.slug, postRules, { dashes: !PASS });
       if (md) {
         if (md.error) console.log(`  md: ${md.file}: ${md.error}`);
         else if (md.changed) {
@@ -1873,7 +1934,7 @@ try {
       console.log("");
     }
     console.log(`=== ${MODE === "apply" ? "Applied" : "Would change"}: ${changed} post(s), ${dashTotal} dash fix(es), ${mdChanged} markdown source(s); skipped: ${skipped} ===`);
-    if (TRIAD) console.log(`=== Triad hits left after the rules: ${heldTotal} held for John, ${unjudgedTotal} unjudged ===`);
+    if (PASS) console.log(`=== ${PASS_NAME} hits left after the rules: ${heldTotal} held for John, ${unjudgedTotal} unjudged ===`);
   }
 } finally {
   await sql.end();
