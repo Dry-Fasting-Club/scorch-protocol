@@ -301,7 +301,6 @@ export default function PreparationPage() {
           or want the safest and most forgiving on-ramp.
         </div>
         <div className="question-item">
-          <span className="question-label">Neither, yet:</span>
           Fast first, always; T3 first only for the person who has struggled
           with fasting and kept getting worse; the reasoning and the evidence
           are on the{" "}

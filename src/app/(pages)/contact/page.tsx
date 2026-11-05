@@ -38,7 +38,7 @@ export default function ContactPage() {
           when the evidence says to.
         </li>
         <li>
-          <strong>Working together &amp; sourcing.</strong> One-on-one help with
+          <strong>Working together &amp; sourcing.</strong> Direct help with
           verified sourcing and dosing happens inside the{" "}
           <Link href="/membership">members portal</Link>.
         </li>

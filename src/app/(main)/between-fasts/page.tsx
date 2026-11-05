@@ -130,8 +130,8 @@ export default function BetweenFastsPage() {
               <Link href="/viral-reactivation">Viral Reactivation</Link>
             </td>
             <td>
-              The fast-to-refeed vulnerability window: the days when latent
-              virus is most likely to wake up, and how to close that window.
+              The consolidation window after the fast: the days when latent
+              virus is most likely to wake up, and how to guard that window.
             </td>
           </tr>
           <tr>
@@ -680,8 +680,9 @@ export default function BetweenFastsPage() {
           Valacyclovir is the explicit carve-out and it does not come down here.
           It is the standing antiviral backbone, it is not anti-platelet, and it
           keeps running straight through the refeed and the T3 phase. The refeed
-          is the vulnerability window for viral reactivation, which is exactly
-          why the backbone joins on refeed day 3 and stays on through it.
+          is the consolidation window, the stretch when viral reactivation is
+          most likely, which is exactly why the backbone joins on refeed day 3
+          and stays on through it.
         </p>
         <h4>Routine monitoring</h4>
         <p>

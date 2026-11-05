@@ -46,7 +46,7 @@ const reactivationCascade = `graph TD
   style Bad fill:#7f1d1d,stroke:#ef4444,stroke-width:4px,color:#fca5a5`;
 
 const pathogenStack = `graph TB
-  Core["CORE SCORCH PROTOCOL<br/>Dry Fast + T3 + hGH"]
+  Core["CORE SCORCH PROTOCOL<br/>The dry fast; T3 and hGH case by case"]
 
   Core -.->|runs in parallel with| AV["ANTIVIRAL LAYER<br/>Natural stack from water day 1 and the first meal<br/>Valacyclovir from refeed day 3<br/><br/>STANDING: Valacyclovir (backbone)<br/>SUPPORTIVE: Ivermectin (also antiparasitic)<br/>NATURAL: Lysine, Monolaurin,<br/>Olive Leaf, Elderberry"]
 
@@ -71,11 +71,11 @@ export default function ViralReactivationPage() {
         "The dry fast is actually the safest period for your immune system: autophagy, ketones, mTOR suppression, and NK cell activity all work against viral replication.",
         "The danger window is the refeed, not the fast. In the first 24 to 72 hours after breaking the fast, the four defenses come down and five vulnerabilities open at once.",
         "An unprotected refeed can leave you more broadly infected than when you started, because cleared viral reservoirs get re-seeded in new nerve tissue.",
-        "The bridge strategy (dry fast to water fast to protected refeed) puts the natural antiviral stack in place before food: L-lysine from water day 1, monolaurin and olive leaf with the first meal. Valacyclovir joins on refeed day 3 at the earliest and then runs daily for months. T3 is deliberately held until after Day 7 of refeeding, so antivirals, not T3, are what close the vulnerability window.",
+        "The bridge strategy (dry fast to water fast to protected refeed) puts the natural antiviral stack in place before food: L-lysine from water day 1, monolaurin and olive leaf with the first meal. Valacyclovir joins on refeed day 3 at the earliest and then runs daily for months. T3 is deliberately held until after Day 7 of refeeding, so antivirals, not T3, are what guard the consolidation window (what I used to call the vulnerability window).",
         "Stop and escalate antivirals immediately if you feel tingling at a previous outbreak site, new nerve-territory pain, or a sudden return of pre-protocol fatigue.",
         "If that tingling arrives while you are still fasting, dry or water, the response is different: convert to water with electrolytes, take L-lysine at once, break the fast once you are rehydrated, and bring valacyclovir in on the standing rule (refeed day 3 at the earliest), because it is renally cleared and a fasting body, even a water-fasting one, cannot clear it.",
         "Reactivation has five windows, not one: fast days 1 to 3, the refeed dead zone, the T3 ramp, the T3 taper and the trough after it, and the hGH wean. The same prodrome checklist runs at every one, each window has its own rule, and you keep logging your readings whether or not you feel anything.",
-        "From the first T3 taper step to a week after the last T3 dose, everyone runs the full antiviral stack: L-lysine, monolaurin and valacyclovir. I have seen the T3 ramp trigger HSV in many cases, while the published cell work points at the hormone drop, so both ends of the course are covered.",
+        "From the first T3 taper step to a week after the last T3 dose, everyone runs the full antiviral stack: L-lysine, monolaurin and valacyclovir (never during a fast). I have seen the T3 ramp trigger HSV in many cases, while the published cell work points at the hormone drop, so both ends of the course are covered.",
       ]} />
       <p>
         <strong>
@@ -92,7 +92,7 @@ export default function ViralReactivationPage() {
         For someone with Long Covid, ME/CFS, post-mono fatigue, or unexplained
         chronic illness, this single insight separates a successful recovery
         from a setback that can last months. The protocol must be built around
-        the vulnerability window, not just the fast itself.
+        the consolidation window, not just the fast itself.
       </p>
 
       <div className="guiding-questions box-danger">
@@ -303,7 +303,7 @@ export default function ViralReactivationPage() {
           refeed with a higher baseline viral load than a healthy person, a
           weaker baseline antiviral immune system, and (often) spike protein
           persistence in vascular and nerve tissue (Rong et al., 2024). The
-          refeed vulnerability window is exponentially more dangerous in this
+          consolidation window is exponentially more dangerous in this
           population. A botched refeed can produce a 6-month crash that wipes
           out everything the fast achieved.
         </div>
@@ -312,8 +312,8 @@ export default function ViralReactivationPage() {
       <h2 id="bridge">The Bridge Strategy: Dry Fast → Water Fast → Protected Refeed</h2>
       <p>
         The Scorch Protocol does not exit the dry fast directly into eating.
-        It bridges through a water fast specifically to close the
-        vulnerability window before food returns. This is the single most
+        It bridges through a water fast specifically so the consolidation
+        window is guarded before food returns. This is the single most
         important structural decision in the protocol and the reason it
         differs from every recreational fasting program online.
       </p>
@@ -358,7 +358,7 @@ export default function ViralReactivationPage() {
         </div>
       </div>
 
-      <h2>The Pharmacological Stack for the Refeed Vulnerability Window</h2>
+      <h2>The Pharmacological Stack for the Consolidation Window</h2>
       <p>
         Nothing oral runs during the dry fast itself, and the water bridge
         brings back only L-lysine; why a renally cleared drug still has to
@@ -382,7 +382,7 @@ export default function ViralReactivationPage() {
         metabolic layer, methylene blue and in selected cases ethyl
         pyruvate, to support the mitochondria while food scales back in. T3
         is deliberately held until you have scaled food for a full seven
-        days: the antiviral stack, not T3, is what closes the vulnerability
+        days: the antiviral stack, not T3, is what guards the consolidation
         window. The antiviral wall is not optional for anyone with Long
         Covid, ME/CFS, recurring herpesvirus history, or unexplained chronic
         illness. Each component blocks, rebuilds, or supports a different
@@ -451,7 +451,7 @@ export default function ViralReactivationPage() {
               standalone virus-killer. The combination of ivermectin and dry
               fasting clears most parasitic load, with supportive antiviral
               coverage riding along on top. Coverage does not stop at the 24
-              to 72 hour vulnerability window: it runs across the full
+              to 72 hour dead zone: it runs across the full
               refeed, bridging the gap until T3 begins after Day 7.
             </td>
           </tr>
@@ -557,8 +557,9 @@ export default function ViralReactivationPage() {
         </tbody>
       </table>
       <p style={{ fontSize: "0.9rem", opacity: 0.75, fontStyle: "italic", marginTop: "1rem" }}>
-        Doses for this stack, including the valacyclovir standing course and
-        its prodrome escalation, are intentionally not published on this
+        Doses for this stack, including the valacyclovir standing course
+        (never during a fast) and its prodrome escalation, are intentionally
+        not published on this
         page. They are highly patient-specific (dependent on weight, prior
         viral load, baseline immune status, comorbidities, and current
         symptom pattern). Generalised public dosing would contradict the
@@ -672,7 +673,8 @@ export default function ViralReactivationPage() {
           beyond its original ganglion to new nerve tissue, exactly the
           worst-case scenario described above. Stop the refeed advancement,
           maximise antiviral coverage, and reinforce the ivermectin support
-          already running alongside the standing valacyclovir course.
+          already running alongside the standing valacyclovir course (never
+          during a fast).
         </div>
       </div>
 
@@ -791,15 +793,15 @@ export default function ViralReactivationPage() {
         people who cover the refeed report far fewer reactivation symptoms
         than those who do not; that is my experience, not a measured rate.
         By cycle five or six, the herpes pattern that ran their lives for
-        years is often gone entirely. This is the long-term goal and it is
+        years can be gone entirely. This is the long-term goal and it is
         achievable.
       </p>
       <p>
         The non-negotiable rule: do not chase faster cycles in pursuit of
         faster recovery. Each refeed must be fully protected. A reckless
         refeed in cycle 2 can re-seed reservoirs the cycle 1 fast cleared and
-        set you back a year. This is the mistake that ends most chronic
-        illness recoveries before they finish.
+        set you back a year. This mistake is where many recoveries are
+        lost, in my experience.
       </p>
 
       <h2 id="five-windows">Five Windows, One Watch</h2>
@@ -869,7 +871,8 @@ export default function ViralReactivationPage() {
           The dose stepping down, and the stretch after the last dose while
           your own thyroid restarts. This is the window the published work
           points at. The rule, for everyone, whatever your viral history: the
-          full antiviral stack, L-lysine, monolaurin and valacyclovir, runs
+          full antiviral stack, L-lysine, monolaurin and valacyclovir (never
+          during a fast), runs
           from the first taper step to a week after the last T3 dose, with the
           loading dose on top at any prodrome. If you were on thyroid
           medication before the course, your trough runs longer and harder, so
@@ -929,8 +932,8 @@ export default function ViralReactivationPage() {
           Scorch Protocol&rsquo;s
           structure (dry fast → water fast bridge → controlled refeed with the
           antiviral stack already on board and running straight through it)
-          exists specifically to close the vulnerability window before food can
-          open it. T3 comes later, after a full seven days of refeeding. Honour
+          exists specifically so the consolidation window is guarded before
+          food opens it. T3 comes later, after a full seven days of refeeding. Honour
           that structure and viral reactivation becomes manageable. Skip it and
           you can undo every gain the fast produced, ending up more broadly
           infected than when you started.

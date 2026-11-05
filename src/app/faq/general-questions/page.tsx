@@ -24,7 +24,7 @@ const faqItems = [
   },
   {
     question: "What is \"Tissue-Level Resistance\"?",
-    answer: "Tissue-Level Resistance is when blood tests look normal but T3 hormone is not actually getting into your cells. It is like having a key that will not fit the lock. T3 therapy helps force those locks open so your body can finally use the energy it has.",
+    answer: "Tissue-Level Resistance is when blood tests look normal but T3 hormone is not actually getting into your cells. It is like having a key that will not fit the lock. For the person who comes out of the fast and the refeed still cold, with whole-body and brain fatigue that does not lift, a T3 course is a reboot: it brings the metabolism up to speed and then hands the job back to your own thyroid. Who needs it, and how it runs, is on the T3 Therapy page.",
   },
   {
     question: "Can I skip the preparation phase?",
@@ -99,9 +99,12 @@ export default function GeneralQuestionsPage() {
         <p>
           This is when your blood tests look normal, but the T3 hormone
           isn&rsquo;t actually getting into your cells. It&rsquo;s like having
-          a key that won&rsquo;t fit the lock. T3 therapy helps force those
-          &ldquo;locks&rdquo; open so your body can finally use the energy it
-          has.
+          a key that won&rsquo;t fit the lock. For the person who comes out of
+          the fast and the refeed still cold, with whole-body and brain fatigue
+          that does not lift, a T3 course is a reboot: it brings the metabolism
+          up to speed and then hands the job back to your own thyroid. Who
+          needs it, and how it runs, is on the{" "}
+          <Link href="/t3-therapy">T3 Therapy</Link> page.
         </p>
 
         <h3>4. Can I skip the preparation phase?</h3>

@@ -403,9 +403,10 @@ export default function LongCovidBasicsPage() {
             natural baseline.
           </li>
           <li>
-            <a href="/t3-therapy">T3 therapy</a> restores the suppressed
-            thyroid axis and the cellular energy floor, so the immune
-            system can finish its repair work.
+            <a href="/t3-therapy">T3 therapy</a>, for the person still cold
+            and exhausted after the refeed, set case by case, restores the
+            suppressed thyroid axis and the cellular energy floor, so the
+            immune system can finish its repair work.
           </li>
           <li>
             <a href="/hgh-therapy">hGH therapy</a> rebuilds tissue at the

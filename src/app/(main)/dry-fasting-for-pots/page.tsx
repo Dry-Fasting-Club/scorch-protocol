@@ -253,6 +253,8 @@ export default function DryFastingForPotsPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Log your waking temperature, and fast first</span>
+          Log your waking temperature every morning, starting now, so the trend is in hand
+          when the T3 decision comes after the fast.
           Fast first, always; T3 first only for the person who has struggled with fasting and
           kept getting worse; the reasoning and the evidence are on the{" "}
           <Link href="/decision-tree#baselinetemp">decision tree</Link>.
@@ -272,7 +274,8 @@ export default function DryFastingForPotsPage() {
           blurs, you lose more than 5 to 7 percent of your weight in 24 hours, your core
           temperature falls below 35&deg;C, or you have had no urine for 24 hours; a fever
           around 38.0&deg;C (100.4&deg;F), or waking with no urine at all, means stop and
-          assess. With POTS, the heart rate and standing thresholds deserve extra vigilance.
+          assess (37.5&deg;C is the normal acidotic fire). With POTS, the heart rate and
+          standing thresholds deserve extra vigilance.
           The full list is on the <Link href="/symptom-management#stop-rules">Symptom Management</Link>{" "}
           page, under Herxheimer vs Warning Sign.
         </div>

@@ -66,7 +66,7 @@ export default function T3TherapyPage() {
       <div className="guiding-questions box-danger">
         <h3>Where T3 can actually hurt you</h3>
         <p>
-          T3 raises your heart rate and metabolic demand. At the doses described
+          T3 raises your heart rate and metabolic demand. On the course described
           here it is real medicine with real force behind it. These are the cases
           where you slow down and build the prep first, and a couple where you get
           my eyes on your numbers before you touch it.
@@ -585,7 +585,7 @@ export default function T3TherapyPage() {
           raise metabolic rate (Byerley and Heber 1996), and in an earlier
           80-hour fast T3 replacement increased urea loss, which the authors
           read as the low-T3 state of fasting protecting muscle (Gardner 1979).
-          Nobody has tested T3 at these doses after a refeed, so the course is
+          Nobody has tested T3 on a course like this after a refeed, so the course is
           my clinical practice, not a tested protocol. The taper is the part
           that needs the most care: when thyroid hormone is withdrawn, the
           pituitary stays quiet for about two weeks, the T3 response takes
@@ -815,8 +815,8 @@ export default function T3TherapyPage() {
           target temperature instead, avoiding that escalation.
           Dose is 1 to 4 mg in the evening, set individually in your consult.
           See the{" "}
-          <a href="/symptom-management">Symptom Management</a> page for MCAS
-          context and the ketotifen comparison.
+          <a href="/mcas-and-dry-fasting#insomnia">sleep section of the MCAS
+          page</a> for MCAS context; the ketotifen comparison sits just above it.
         </div>
         <div
           style={{
@@ -947,7 +947,8 @@ export default function T3TherapyPage() {
           As T3 doses climb, your body burns more energy. If you are not
           eating enough to cover that demand, the body will turn to muscle
           tissue for fuel, the opposite of what you are trying to achieve.
-          Keep calories at or above your target (see the Refeeding page)
+          Keep calories at or above your target (see the{" "}
+          <a href="/refeed-for-bmr">Metabolism Repair Plan</a> page)
           and prioritize protein to give your body something to build with,
           not just burn.
         </div>
@@ -955,8 +956,9 @@ export default function T3TherapyPage() {
           <span className="question-label">Make the Calories Dense: This Is a Must-Do, Not a Preference</span>
           Here is where people quietly fail this phase. T3 throws the eating
           window wide open, and it is on you to actually fill it. A wrecked
-          appetite cannot hit 3,000-plus calories a day on bulky, watery,
-          low-calorie food: you get full long before you get enough. So make
+          appetite cannot hit the calorie target on the{" "}
+          <a href="/refeed-for-bmr">Metabolism Repair Plan</a> page with bulky,
+          watery, low-calorie food: you get full long before you get enough. So make
           every bite count and go calorie-dense: olive oil and butter on
           everything, full-fat dairy, eggs, fatty fish and meat, nut butters,
           honey, white rice, ripe fruit. When high T3 opens the window and you
@@ -992,7 +994,8 @@ export default function T3TherapyPage() {
             <li>
               <strong>Retatrutide:</strong> a GLP-1/GIP/glucagon triple
               agonist that improves glucose utilization and raises baseline
-              energy availability. The glucagon component is particularly
+              energy availability (a per-case add-on, set with me, never before
+              refeed day 8). The glucagon component is particularly
               useful for people stuck in low-energy states.
             </li>
             <li>

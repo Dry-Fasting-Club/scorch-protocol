@@ -150,7 +150,7 @@ const THYROID: Ref[] = [
     source: "American Journal of Physiology: Endocrinology and Metabolism, 2018;315(5):E771-E779. PMID 29920214",
     href: "https://doi.org/10.1152/ajpendo.00116.2018",
     shows:
-      "In weight-reduced people, T3 repletion reversed the skeletal muscle efficiency changes and myosin shift that follow weight loss, to a degree similar to leptin repletion. Direct evidence that T3 is one lever on the post-weight-loss slowdown, at replacement scale.",
+      "In weight-reduced people, T3 repletion reversed the skeletal muscle efficiency changes and myosin shift that follow weight loss, to a degree similar to leptin repletion. Direct evidence that T3 is one lever on the slowdown that follows weight loss, at replacement scale.",
     phase: { label: "T3 Therapy", href: "/t3-therapy" },
   },
   {

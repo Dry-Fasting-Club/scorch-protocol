@@ -13,7 +13,7 @@ import ReferencesSection from "@/components/ReferencesSection";
 export const metadata: Metadata = {
   title: "Symptom Management",
   description:
-    "A symptom-by-symptom guide to managing side effects during The Scorch Protocol: Herxheimer reactions, electrolytes, and more.",
+    "How to tell a Herxheimer reaction from a warning sign during The Scorch Protocol, the stop rules in full, and pointers to the page that covers each symptom.",
   alternates: { canonical: "https://scorchprotocol.com/symptom-management" },
 };
 
@@ -53,7 +53,7 @@ const herxDecisionTree = `graph TD
 export default function SymptomManagementPage() {
   return (
     <>
-      <JsonLd data={medicalWebPageLd({ name: "Symptom Management", description: "A symptom-by-symptom guide to managing side effects during The Scorch Protocol: Herxheimer reactions, electrolytes, and more.", path: "/symptom-management", breadcrumbName: "Symptom Management" })} />
+      <JsonLd data={medicalWebPageLd({ name: "Symptom Management", description: "How to tell a Herxheimer reaction from a warning sign during The Scorch Protocol, the stop rules in full, and pointers to the page that covers each symptom.", path: "/symptom-management", breadcrumbName: "Symptom Management" })} />
       <h1>Symptom Management Guide</h1>
       <KeyTakeaways points={[
         "Feeling worse during the fast is usually a Herxheimer reaction (die-off and detox), and the response is to go on walks, do massages and move the whole system, not to lie still and grit it out.",

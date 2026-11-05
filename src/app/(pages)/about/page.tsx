@@ -93,7 +93,7 @@ export default function AboutPage() {
       <h2>How I work now</h2>
       <p>
         Recovered, I now spend my time documenting the protocol in the open,
-        working one-on-one with people through the{" "}
+        working with people directly through the{" "}
         <Link href="/membership">members portal</Link>, and running the{" "}
         <a href="https://dryfastingclub.com" rel="noopener" target="_blank">
           Dry Fasting Club

@@ -61,7 +61,7 @@ export default function EbvChronicFatiguePage() {
           "The dry fast is the safest period for viral suppression: autophagy, ketones, mTOR shutdown, and NK cell activity all work against EBV replication simultaneously.",
           "The danger window is not the fast. It is the first 24 to 72 hours of the refeed, when every one of those defences collapses at once while the immune system is still rebuilding.",
           "An unprotected refeed can leave you more broadly infected than before you started, because EBV particles cleared from their original reservoirs can seed new nerve tissue while surveillance is absent.",
-          "The bridge strategy (dry fast to water fast to protected refeed) puts the natural antiviral stack in place before food returns, with valacyclovir joining on refeed day 3 at the earliest, closing the vulnerability window before mTOR switches back on.",
+          "The bridge strategy (dry fast to water fast to protected refeed) puts the natural antiviral stack in place before food returns, with valacyclovir joining on refeed day 3 at the earliest, guarding the consolidation window while mTOR switches back on.",
         ]}
       />
 
@@ -158,9 +158,10 @@ export default function EbvChronicFatiguePage() {
       </p>
 
       <p>
-        The result is that most people with a chronic EBV burden get through a
-        dry fast without any viral flare, even if they have had monthly
-        reactivation episodes for years. The fasted state is the best antiviral
+        In my experience people with a chronic EBV burden usually get through
+        the fast itself without a flare, even if they have had monthly
+        reactivation episodes for years; the refeed is where it shows. The
+        fasted state is the best antiviral
         environment your body is capable of producing without pharmaceutical
         intervention.
       </p>

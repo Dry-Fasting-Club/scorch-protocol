@@ -343,8 +343,8 @@ export default function MCASAndDryFastingPage() {
         hyperactivation gradually reduced across protocol cycles. Because the
         protocol reduces the viral and immune drivers with each cycle (the same
         cycle-over-cycle reduction described on the{" "}
-        <Link href="/viral-reactivation">Viral Reactivation</Link> page), many
-        patients report that mast cell reactivity eases over successive cycles.
+        <Link href="/viral-reactivation">Viral Reactivation</Link> page), people
+        report that mast cell reactivity eases over successive cycles.
       </p>
       <p>
         During the fast itself, the combination of ketosis, mTOR suppression, and
@@ -405,8 +405,9 @@ export default function MCASAndDryFastingPage() {
           than 5 to 7 percent of your weight in 24 hours, your core temperature
           falls below 35&deg;C, or you have had no urine for 24 hours; a fever
           around 38.0&deg;C (100.4&deg;F), or waking with no urine at all,
-          means stop and assess. None of these is a Herxheimer reaction or a
-          histamine flare. The full list is on the{" "}
+          means stop and assess (37.5&deg;C is the normal acidotic fire). The
+          hard stops above are never a Herxheimer reaction or a histamine
+          flare; the fever rule is a stop-and-assess. The full list is on the{" "}
           <Link href="/symptom-management#stop-rules">Symptom Management</Link> page,
           under Herxheimer vs Warning Sign.
         </p>

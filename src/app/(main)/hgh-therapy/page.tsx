@@ -409,10 +409,8 @@ export default function HghTherapyPage() {
       <div className="guiding-questions box-info">
         <h3>Synergistic Peptides During Recovery</h3>
         <p>
-          For certain people, the protocol has missing keys that no amount of
-          fasting or hormones will unlock on their own. These three peptides
-          address immune, gut, and energy axes that are commonly broken in
-          chronic illness:
+          Add-ons are per case, set with me, never a general pick; the axes
+          below are how I think about who gets what.
         </p>
         <div className="question-item">
           <span className="question-label">Thymalin (Thymic Peptide):</span>
@@ -443,8 +441,7 @@ export default function HghTherapyPage() {
         <p>
           <em>
             Not everyone needs all three. Think of them as targeted keys for
-            specific locks (immune, gut, and metabolic energy). Identify your
-            weakest axis and start there.
+            specific locks (immune, gut, and metabolic energy).
           </em>
         </p>
       </div>

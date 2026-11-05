@@ -55,7 +55,7 @@ export default function MembershipPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Your data in one place</span>
-          A private vault for your labs, photos, and notes, plus daily
+          A private vault for your labs and notes, plus daily
           temperature tracking and weekly check-ins. Body temperature is the key
           T3 signal the protocol watches, and every reading sharpens the answers
           you get back.

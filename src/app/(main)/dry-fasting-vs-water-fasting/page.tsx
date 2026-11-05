@@ -369,9 +369,8 @@ export default function DryFastingVsWaterFastingPage() {
         </li>
         <li>
           <strong>Does not clear the way for prescription antivirals.</strong>{" "}
-          Water fasting still purges water through the kidneys, so the body
-          stays dehydrated on the water days. Valacyclovir, which is renally
-          cleared, waits for the refeed.
+          Valacyclovir waits for refeed day 3 at the earliest, for the kidney
+          reason given above under Where Water Fasting Wins.
         </li>
         <li>
           <strong>Gives the immune system time to redistribute</strong>: T-cells

@@ -140,8 +140,9 @@ export default function MindfulnessPage() {
           <span className="question-label">Advanced Tools for This Window</span>
           <p>
             For those deep in the recovery process, specific tools can accelerate
-            this metabolic transition. Micro-dosed retatrutide can be useful
-            at the right stage of recovery to support metabolic flexibility.
+            this metabolic transition. Micro-dosed retatrutide (a per-case
+            add-on, set with me) can be useful at the right stage of recovery
+            to support metabolic flexibility.
             Ketone salts are another legitimate tool for bridging the gap between
             fat and carbohydrate fuel. Use only ketone salts. Ketone esters,
             including products like Ketone-IQ, are hard on the liver and

@@ -242,12 +242,12 @@ export default function RefeedForBmrPage() {
           <text x="740" y="62" textAnchor="end" fill="#86efac" fontSize="11" fontWeight="bold" fontFamily="sans-serif">100% restored</text>
         </svg>
         <p style={{ fontSize: "0.85rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic", maxWidth: "700px", marginLeft: "auto", marginRight: "auto" }}>
-          A typical 9-month BMR reconstruction, drawn from the Minnesota data. The Scorch Protocol can compress the Survival Phase from 3 months to roughly 1 month when applied correctly; the rest of the curve still requires its own biological time. The phase labels are a map, not a timetable for hGH: hGH enters around the third cycle, and only when two cycles of fasting plus T3 were not enough.
+          A typical 9-month BMR reconstruction, drawn from the Minnesota data. The Scorch Protocol can shorten the Survival Phase when applied correctly; the rest of the curve still requires its own biological time. The phase labels are a map, not a timetable for hGH: hGH enters around the third cycle, and only when two cycles of fasting plus T3 were not enough.
         </p>
       </div>
 
       <h3>Phase I: The Survival Phase (Months 1 to 3)</h3>
-      <p>This phase is cut down to 1 month if you use the Scorch Protocol correctly.</p>
+      <p>The Scorch Protocol, used correctly, can shorten the Survival Phase.</p>
       <div className="guiding-questions box-info">
         <h4>Goal: Stabilize the heart and stay safe.</h4>
         <div className="question-item">
@@ -272,7 +272,8 @@ export default function RefeedForBmrPage() {
 
       <h3>Phase II: The &ldquo;Fat Buffer&rdquo; Phase (Months 3 to 6)</h3>
       <p>
-        The Scorch Protocol uses T3, specific foods and, for the cases where two
+        The Scorch Protocol uses T3, for the person who needs it after the
+        refeed, specific foods and, for the cases where two
         cycles of fasting plus T3 were not enough, hGH on top of the T3 cycle
         to help you move through this phase faster and avoid too much fat gain.
       </p>

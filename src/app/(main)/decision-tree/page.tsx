@@ -68,7 +68,7 @@ const chartStop = `graph TD
   Hemo --- H_Note["BP: <80 or >180<br />Resting HR: >120 sustained, or <40<br />Syncope"]
   Fluid --- F_Note["Weight Loss: >5-7% / 24h<br />Urine: 0ml / 24h"]
   Thermo --- T_Note["Fever around 38.0°C (100.4°F):<br />stop and assess<br />37.5°C is the normal acidotic fire"]
-  Neuro --- N_Note["Confusion / Delirium<br />Inability to obey commands"]
+  Neuro --- N_Note["Confusion / Delirium<br />Blurred vision<br />Inability to obey commands"]
 
   style STOP fill:#7f1d1d,stroke:#ef4444,stroke-width:4px,color:#fca5a5
   style AssessFever fill:#7c2d12,stroke:#f97316,stroke-width:2px,color:#fdba74
@@ -294,8 +294,8 @@ export default function DecisionTreePage() {
         Critical Thresholds (&ldquo;Stop Signals&rdquo;)
       </h2>
       <p>
-        Strict criteria for potentially dangerous complications requiring fast
-        termination. Short of these, feeling worse mid-fast is the normal
+        Strict criteria for potentially dangerous complications that end the
+        fast or stop it for assessment. Short of these, feeling worse mid-fast is the normal
         texture of the work: go on walks, do massages, move the whole system.
         If it starts to feel really bad, or the pain is excruciating, break the
         fast. While heart rate, temperature, blood pressure and urination look
@@ -353,7 +353,7 @@ export default function DecisionTreePage() {
               <strong>Weight Loss:</strong> &gt; 5-7% in 24 hours
             </li>
             <li>
-              <strong>Urine:</strong> 0 ml for &gt; 24h
+              <strong>Urine:</strong> no urine for 24 hours
             </li>
             <li>
               <strong>No urine on waking:</strong> a red flag, stop and assess
@@ -377,7 +377,7 @@ export default function DecisionTreePage() {
           <ul style={{ marginBottom: 0, paddingLeft: "20px" }}>
             <li>
               <strong>Fever around 38.0&deg;C (100.4&deg;F):</strong> stop and
-              assess, not an automatic end: read the trend of temperature,
+              assess, not an automatic end; read the trend of temperature,
               blood pressure and heart rate, then decide
             </li>
             <li style={{ fontSize: "0.85em", listStyleType: "none" }}>
@@ -397,6 +397,7 @@ export default function DecisionTreePage() {
           <ul style={{ marginBottom: 0, paddingLeft: "20px" }}>
             <li>Severe confusion</li>
             <li>Delirium</li>
+            <li>Blurred vision</li>
             <li>Inability to obey commands</li>
           </ul>
         </div>

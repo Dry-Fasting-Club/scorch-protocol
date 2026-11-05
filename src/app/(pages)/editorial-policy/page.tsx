@@ -66,7 +66,7 @@ export default function EditorialPolicyPage() {
       <p>
         This is transparent: the site earns revenue from the{" "}
         <Link href="/membership">members portal</Link>, including private
-        one-on-one work at the top tier. The educational protocol
+        work with me at the top tier. The educational protocol
         itself is free to read in full. What the paid tiers add is private,
         hands-on help, verified supplier sourcing for hard-to-get compounds
         (slow-release T3, peptides, hGH, cyproheptadine) and dosing worked out with

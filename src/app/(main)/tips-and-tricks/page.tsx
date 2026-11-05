@@ -248,8 +248,10 @@ export default function TipsAndTricksPage() {
             <strong>How Deep:</strong> Five days dry is the cap because five
             days is still safe to do at home. Once it is very comfortable you
             can extend a little; some people get their best results from seven
-            to nine days, and the deeper fast is the more aggressive immune
-            reset. An extension you earn, not a target you set.
+            to nine days. Deeper fasts go deeper and may bring results faster,
+            but they demand a stricter refeed and more care; how far is set
+            with me; five days dry is the cap at home. An extension you earn,
+            not a target you set.
           </li>
           <li>
             <strong>Timing Matters:</strong> Many people find it easier to start
@@ -283,7 +285,7 @@ export default function TipsAndTricksPage() {
       {/* FaithBlock hidden for now: to restore, remove the `false && (` wrapper and matching `)` */}
       {false && (
       <FaithBlock
-        title="Put On the Full Armor of God: We Do Not Apologize for Naming Evil"
+        title="Put On the Full Armor of God"
       >
         <p>
           <strong>Ephesians 6:10-12: &ldquo;Put on the full armor of God, so that you can take your stand against the devil&rsquo;s schemes. For our struggle is not against flesh and blood, but against the rulers, against the authorities, against the powers of this dark world.&rdquo;</strong>

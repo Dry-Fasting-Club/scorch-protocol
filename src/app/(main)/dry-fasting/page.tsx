@@ -206,7 +206,7 @@ export default function DryFastingPage() {
       <div style={{ margin: "1.5rem 0" }}>
         <MermaidCharts charts={[dryFastStages]} />
         <p style={{ fontSize: "0.9rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic", textAlign: "center" }}>
-          The full arc of a dry fast. Day 3 is the hard wall (acidotic crisis); Days 4 to 5 are where the deep repair lives. Five days is the cap I set because it is still safe at home. Days 7 to 9 are the extension some people reach once five days is very comfortable, and where, in my observation, the deeper immune reset and the allergic and autoimmune clearing show up.
+          The full arc of a dry fast. Day 3 is the hard wall (acidotic crisis); Days 4 to 5 are where the deep repair lives. Five days is the cap I set because it is still safe at home. Days 7 to 9 are the extension some people reach once five days is very comfortable, and where, in my observation, the deeper immune reset and the allergic and autoimmune clearing show up, and the extension demands a stricter refeed and more care; five days dry is the cap at home.
         </p>
       </div>
 
@@ -260,12 +260,13 @@ export default function DryFastingPage() {
           really bad, break the fast. If the pain is excruciating, break the
           fast. As long as you are tracking heart rate, temperature, blood
           pressure and urination and they look fine, you can continue. The red
-          flags below are the hard stops that override all of this.
+          flags below override all of this: when to stop, and when to stop
+          and assess.
         </p>
       </div>
 
       <div className="guiding-questions box-danger">
-        <h3>When to Stop Immediately (Red Flags)</h3>
+        <h3>When to stop, and when to stop and assess</h3>
         <ul>
           <li>Resting heart rate sustained above 120 bpm</li>
           <li>Feeling very dizzy or fainting</li>
@@ -356,9 +357,8 @@ export default function DryFastingPage() {
         monolaurin and olive leaf with the first meal, and valacyclovir from
         refeed day 3 at the earliest, never during the fast, dry or water. The{" "}
         <a href="/viral-reactivation">Viral Reactivation</a> page has the full
-        stack, including what to do if a prodrome hits mid-fast. Methylene blue
-        (and for some, ethyl pyruvate) joins case by case through the first 7
-        days of refeeding. T3 waits until after refeed day 7, and not everyone
+        stack, including what to do if a prodrome hits mid-fast. T3 waits until
+        after refeed day 7, and not everyone
         needs it. It is for the person who comes out of the fast and the refeed
         still cold, with whole-body and brain fatigue that does not lift. When
         and how it starts is on the <a href="/t3-therapy">T3 Therapy</a> page,
@@ -468,7 +468,7 @@ export default function DryFastingPage() {
           <strong>Matthew 6:17-18: &ldquo;But when you fast, put oil on your head and wash your face, so that it will not be obvious to others that you are fasting, but only to your Father, who is unseen; and your Father, who sees what is done in secret, will reward you.&rdquo;</strong>
         </p>
         <p>
-          Jesus did not debate whether fasting was valid. He assumed you would do it, and told you how. The dry fast is one of the most private things a person can do: no food, no water, no performance. Just you and God and the silence. In that silence, old grief surfaces and old fears dissolve. I found that the fast was also a confrontation with truth: the named, specific kind. <em>Evil propagates when good men look away.</em> The fast is a recommitment to looking directly at what is true, in your body, your spirit, and the world.
+          Jesus did not debate whether fasting was valid. He assumed you would do it, and told you how. The dry fast is one of the most private things a person can do: no food, no water, no performance. Just you and God and the silence. In that silence, old grief surfaces and old fears dissolve. I found that the fast was also a confrontation with truth. <em>Evil propagates when good men look away.</em> The fast is a recommitment to looking directly at what is true, in your body, your spirit, and the world.
         </p>
         <p>
           <strong>Your Father sees what is done in secret. He will reward you.</strong>

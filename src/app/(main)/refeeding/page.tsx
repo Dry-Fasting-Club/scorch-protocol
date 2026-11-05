@@ -34,7 +34,7 @@ export default function RefeedingPage() {
         },
         {
           question: "Who actually needs deliberate biome rebuild?",
-          answer: "The standard protocol path (a 5-day dry fast followed by the standing valacyclovir antiviral backbone, never run during a fast, started on refeed day 3 at the earliest and run daily through the months between fasts) carries a mandatory gut-rebuild rider: kefir first, then kombucha, run alongside the standing course for as long as it runs, paying down the microbiome cost on purpose rather than leaving antiviral coverage weaker to avoid it. If you have any trouble with dairy, skip kefir and use a different probiotic. Patients who complete long dry fasts of 7 or more days, especially 9 or more days, need rebuild work for a second, independent reason: at those durations the biome itself starts eating the gut lining and mucosal lining."
+          answer: "The standing valacyclovir course, never run during a fast, starts on refeed day 3 at the earliest and runs through the months between fasts, so it carries a mandatory gut-rebuild rider: kefir first, from about refeed day 4, then kombucha, for as long as the course runs, paying down the biome cost on purpose. If you have any trouble with dairy, skip dairy kefir and use water kefir or a different probiotic. Patients who complete long dry fasts of 7 or more days, especially 9 or more days, need rebuild work for a second, independent reason: at those durations the biome itself starts eating the gut lining and mucosal lining."
         }
       ])} />
       <h1>Phase 3: The Refeed</h1>
@@ -80,7 +80,8 @@ export default function RefeedingPage() {
         <div className="question-item">
           <span className="question-label">No Heavy Proteins on Day 1:</span>
           Your digestive system has been offline. Heavy proteins (meat, eggs) can
-          cause severe digestive distress and block the stem cell activation signal.
+          cause severe digestive distress, and the refeed is there to keep what
+          the fast opened.
         </div>
         <div className="question-item">
           <span className="question-label">No Caffeine in the First Week:</span>
@@ -173,8 +174,9 @@ export default function RefeedingPage() {
             <td><strong>Days 5 to 7</strong></td>
             <td>
               You can now slowly add back light proteins: a soft-boiled egg,
-              some fish, or legumes. Keep fat intake very low. This is when the
-              second wave of stem cell proliferation happens.
+              some fish, or legumes. Keep fat intake very low. This is still
+              the consolidation window, so go slowly to keep what the fast
+              opened.
             </td>
           </tr>
           <tr>
@@ -361,8 +363,8 @@ export default function RefeedingPage() {
           <span className="question-label">L-lysine, monolaurin and olive leaf continue daily:</span>
           L-lysine comes back on water day 1, the moment water does. Monolaurin
           and olive leaf come in with your first meal. Keep all three going
-          through the week while you also hold off on arginine-rich foods (nuts, seeds,
-          chocolate, peanut butter). The full mechanism and the
+          through the week, and hold off on arginine-rich foods (nuts, seeds,
+          chocolate, peanut butter) through the first two weeks. The full mechanism and the
           nine-herpesvirus breakdown live on the{" "}
           <a href="/viral-reactivation">Viral Reactivation</a> page.
         </div>
@@ -462,7 +464,7 @@ export default function RefeedingPage() {
             <li>Week 3: ~2,200 cal/day</li>
             <li>Week 4: ~2,300 cal/day</li>
             <li>
-              Continue until you reach the floor: the floor is set on the{" "}
+              Continue until you reach the floor set on the{" "}
               <a href="/refeed-for-bmr">Metabolism Repair Plan</a> page
             </li>
           </ul>
@@ -550,8 +552,8 @@ export default function RefeedingPage() {
           than average. In this case, keep carbs closer to the 100g minimum
           rather than the higher end, and prioritize improving insulin
           sensitivity first (through resistance training, T3 therapy with
-          adequate caloric energy, MOTS-c, or aspirin) before ramping carbs
-          higher.
+          adequate caloric energy, or aspirin; MOTS-c is a per-case add-on,
+          set with me, never before refeed day 8) before ramping carbs higher.
         </div>
         <div className="question-item">
           <span className="question-label">The Core Goal: Energy Abundance Without Excess Fat Gain</span>
@@ -560,7 +562,7 @@ export default function RefeedingPage() {
           energy, but calibrated so fat accumulation stays manageable.
           This balance is what allows the T3 therapy phase to work at its
           best: a well-fueled body on T3 rebuilds tissue; an underfueled
-          body on T3 just burns faster. Because a long-starved appetite fills up fast, the calories have to be dense: load oils, full-fat dairy, eggs, fatty fish and meat, and starchy carbs so you actually cover the window instead of leaving it half-filled and wasting muscle. Retatrutide can further optimize the
+          body on T3 just burns faster. Because a long-starved appetite fills up fast, the calories have to be dense: load oils, full-fat dairy, eggs, fatty fish and meat, and starchy carbs so you actually cover the window instead of leaving it half-filled and wasting muscle. Retatrutide (a per-case add-on, set with me, never before refeed day 8) can further optimize the
           energy-to-composition ratio for people who need additional help here.
           (L-carnitine is no longer used: it works against the peripheral
           thyroid effect the protocol depends on.)
@@ -742,9 +744,12 @@ export default function RefeedingPage() {
           Keep the Antiviral Coverage Running the Whole Week
         </a>
         : valacyclovir from refeed day 3 at the earliest, never during a fast,
-        and arginine-rich foods kept out through week 2. All five windows, with
-        the prodrome checklist, are on the{" "}
+        and arginine-rich foods kept out through the first two weeks. All five
+        windows, with the prodrome checklist, are on the{" "}
         <a href="/viral-reactivation#five-windows">Viral Reactivation</a> page.
+        If you have a history of cold sores, mono or shingles, read the{" "}
+        <a href="/viral-reactivation">Viral Reactivation</a> page before you
+        refeed.
       </p>
 
       <h2>Rebuilding the Gut Microbiome (and the Virome You Didn&rsquo;t Know You Had)</h2>
@@ -764,8 +769,8 @@ export default function RefeedingPage() {
           recovers on its own once the antiviral pressure stops. So the course
           carries a mandatory gut-rebuild rider: kefir first, from about refeed
           day 4, then kombucha once the kefir sits well, for as long as the
-          course runs. If you have any trouble with dairy, skip kefir and use a
-          different probiotic. The tradeoff is deliberate: stronger antiviral
+          course runs. If you have any trouble with dairy, skip dairy kefir and
+          use water kefir or a different probiotic. The tradeoff is deliberate: stronger antiviral
           coverage, with the biome cost paid down on purpose. Ivermectin runs
           alongside for its gentler gut profile, but it does not stand in for
           valacyclovir.
@@ -774,7 +779,9 @@ export default function RefeedingPage() {
           <span className="question-label">Long dry fasts (7 days and more, especially 9 and more):</span>
           A second, independent reason: at those lengths the biome starts
           eating the gut lining and the mucosal lining. For some that is
-          therapeutic, but the rebuild is not optional here either.
+          therapeutic, because it trims back the bacterial populations that
+          overgrew and clears space for repopulation, but the rebuild is not
+          optional here either.
         </div>
       </div>
 
@@ -789,7 +796,8 @@ export default function RefeedingPage() {
         <ul>
           <li>
             <strong>Kefir:</strong> dairy kefir or water kefir. If you have any
-            trouble with dairy, skip kefir and use a different probiotic.
+            trouble with dairy, skip dairy kefir and use water kefir or a
+            different probiotic.
           </li>
           <li>
             <strong>Kombucha:</strong> most commercial kombuchas carry live

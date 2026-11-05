@@ -7,7 +7,7 @@ const SITE_URL = "https://scorchprotocol.com";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "How The Scorch Protocol collects, uses, and protects your information — email subscriptions, analytics, comments, and payments.",
+    "How The Scorch Protocol collects, uses, and protects your information: email subscriptions, analytics, comments, and payments.",
   alternates: { canonical: `${SITE_URL}/privacy` },
 };
 
@@ -26,24 +26,24 @@ export default function PrivacyPage() {
       <h2>Information we collect</h2>
       <ul>
         <li>
-          <strong>Email address</strong> — only if you subscribe to updates or
+          <strong>Email address</strong>: only if you subscribe to updates or
           contact us. We use it to send you what you asked for.
         </li>
         <li>
-          <strong>Comments</strong> — if you leave a comment, we store the content
+          <strong>Comments</strong>: if you leave a comment, we store the content
           and any name or email you provide with it.
         </li>
         <li>
-          <strong>Usage analytics</strong> — privacy-friendly, aggregate analytics
+          <strong>Usage analytics</strong>: privacy-friendly, aggregate analytics
           (via Vercel Analytics) about page visits and performance. This is not used
           to build advertising profiles.
         </li>
         <li>
-          <strong>Server logs</strong> — standard technical logs (such as IP address
+          <strong>Server logs</strong>: standard technical logs (such as IP address
           and browser type) kept briefly for security and diagnostics.
         </li>
         <li>
-          <strong>Payment information</strong> — if you join the paid membership,
+          <strong>Payment information</strong>: if you join the paid membership,
           payments are processed by Stripe. We never see or store your full card
           details.
         </li>
@@ -73,7 +73,7 @@ export default function PrivacyPage() {
       <h2>Data retention &amp; your rights</h2>
       <p>
         We keep personal data only as long as needed for the purpose it was
-        collected. You can ask us to access or delete your information at any time —
+        collected. You can ask us to access or delete your information at any time:
         email <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> and we will
         take care of it.
       </p>

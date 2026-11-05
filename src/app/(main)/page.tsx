@@ -149,7 +149,7 @@ export default function HomePage() {
         </div>
         <div className="pillar-item">
           <h3>
-            <span style={{ opacity: 0.3 }}>02.</span> T3 Therapy: The Metabolism Bridge
+            <span style={{ opacity: 0.3 }}>02.</span> T3 Therapy: The Reboot
           </h3>
           <p>
             Chronic illness often puts your body into a state of
@@ -162,8 +162,8 @@ export default function HomePage() {
           </p>
           <p className="pillar-outcome">
             <em>
-              Reverses metabolic suppression from years of illness, often
-              within weeks.
+              Reverses metabolic suppression from years of illness; how fast
+              varies with how long you have been ill.
             </em>
           </p>
         </div>
@@ -444,10 +444,11 @@ export default function HomePage() {
           <p className="faq-inline-q">How long before I see results?</p>
           <p className="faq-inline-a">
             Energy usually returns in the weeks after the refeed, once the
-            metabolism is fed; how fast varies with how long someone has been
-            ill. Significant symptom reduction typically follows the T3 therapy
-            phase. Full recovery takes 6 to 12 months, but you will feel the
-            clock moving in the right direction far sooner.
+            metabolism is fed. The people who respond describe the change after the T3
+            course, and how fast varies with how long they have been ill. Full
+            recovery takes months, not weeks; how many depends on how long you
+            have been ill, but you will feel the clock moving in the right
+            direction far sooner.
           </p>
         </div>
       </div>
