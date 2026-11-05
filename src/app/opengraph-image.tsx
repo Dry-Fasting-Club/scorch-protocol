@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 export const alt =
-  "The Scorch Protocol — reverse Long Covid and ME/CFS with dry fasting, T3, and hGH";
+  "The Scorch Protocol: reverse Long Covid and ME/CFS with dry fasting, T3, and hGH";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 

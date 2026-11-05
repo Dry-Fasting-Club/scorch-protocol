@@ -1,8 +1,10 @@
 #!/usr/bin/env node
 // Public-text scan: the retired numbers, doses, dashes and the healing-cycle naming rule.
 //
-// Parses every page.tsx under src/app/(main), src/app/faq and src/app/(pages) with the
-// TypeScript compiler, pulls the text a reader (or a search engine) can see, in render
+// Parses every page.tsx under src/app/(main), src/app/faq and src/app/(pages), plus the
+// shared components and routes in EXTRA_FILES whose text reaches readers (the social-card
+// alt text, the email and comment widgets, the paid-content teaser, the Stripe product
+// names), with the TypeScript compiler, pulls the text a reader (or a search engine) can see, in render
 // order with source line numbers, and reports every hit for the term list below. Text
 // runs inside one block element are joined (so "over <strong>100</strong>" is caught),
 // HTML entities are decoded (so &mdash; counts as a dash), and each text item carries a
@@ -24,6 +26,16 @@ import ts from "typescript";
 
 const APP_ROOT = fileURLToPath(new URL("..", import.meta.url));
 const SCAN_DIRS = ["src/app/(main)", "src/app/faq", "src/app/(pages)"];
+// Files outside the page tree whose strings a reader sees (cdr-weave fix wave): the dashes
+// that once sat here never reached the page scan.
+const EXTRA_FILES = [
+  "src/app/opengraph-image.tsx",
+  "src/components/EmailCapture.tsx",
+  "src/components/CommentForm.tsx",
+  "src/components/PaidContentClient.tsx",
+  "src/app/api/payments/create-bundle-session/route.ts",
+  "src/app/api/payments/create-session/route.ts",
+];
 
 // ---------------------------------------------------------------------------
 // The term list (Task 12 brief) and its exceptions (controller additions).
@@ -51,17 +63,20 @@ const TERMS = [
   { term: "1-on-1", re: /\b1[\s-]on[\s-]1\b/gi },
   { term: "one-on-one", re: /\bone[\s-]on[\s-]one\b/gi },
   { term: "worked directly with", re: /\bworked directly with\b/gi },
-  { term: "most participants", re: /\bmost participants\b/gi },
-  { term: "most patients", re: /\bmost patients\b/gi },
+  // Up to two words may sit between "most" and the noun ("most Long Covid patients").
+  { term: "most participants", re: /\bmost (?:[A-Za-z/-]+ ){0,2}participants\b/gi },
+  { term: "most patients", re: /\bmost (?:[A-Za-z/-]+ ){0,2}patients\b/gi },
   { term: "10 times", re: /(?<![\d.,])10 times\b/gi },
   { term: "100 times", re: /(?<![\d.,])100 times\b/gi },
   { term: "2x", re: /(?<![\w.,])2[x\u00D7](?!\w)/gi },
+  { term: "2 x", re: /(?<![a-z0-9.,])2 x(?![a-z0-9])/gi },
   { term: "flood", re: /flood/gi },
   { term: "2:1", re: /(?<![\d.])2:1(?!\d)/g, exclude: [NOT_IN_CITATIONS] },
   // Units are matched with letter-only lookarounds so "200mcg" and "5000IU" are caught.
   { term: "mcg", re: /(?<![a-z])(?:mcg|\u00B5g|\u03BCg)(?![a-z])/gi, exclude: [NOT_IN_CITATIONS] },
   { term: "IU", re: /(?<![A-Za-z])IUs?(?![A-Za-z])/g, exclude: [NOT_IN_CITATIONS] },
   { term: "mg/day", re: /(?<![a-z])mg\s?\/\s?day\b/gi, exclude: [NOT_IN_CITATIONS] },
+  { term: "mg daily", re: /(?<![a-z])mg daily\b/gi, exclude: [NOT_IN_CITATIONS] },
   { term: "Naviaux", re: /naviaux/gi },
   { term: "cell danger", re: /cell danger/gi },
   { term: "maximize stem cell", re: /maximi[sz]e stem cell/gi },
@@ -121,8 +136,15 @@ const ALLOW = [
   {
     term: "mcg",
     file: /^src\/app\/\(main\)\/genetic-polymorphisms\/page\.tsx$/,
-    when: (h) => /selenium/i.test(h.text.slice(Math.max(0, h.index - 40), h.index + 40)),
+    // Tight window: "add 200mcg selenium daily" and "Selenium Support: Add 200mcg/day".
+    when: (h) => /selenium/i.test(h.text.slice(Math.max(0, h.index - 30), h.index + 15)),
     reason: "a selenium figure: selenium is not on the no-dose list (the vitamin D ruling)",
+  },
+  {
+    term: "mg daily",
+    file: /^src\/app\/\(main\)\/mcas-and-dry-fasting\/page\.tsx$/,
+    when: (h) => /(?:cetirizine|loratadine)/i.test(h.text.slice(Math.max(0, h.index - 40), h.index)),
+    reason: "an OTC antihistamine figure (cetirizine or loratadine): not on the no-dose list (the vitamin D ruling)",
   },
   {
     term: "over 100",
@@ -243,6 +265,7 @@ function listPages() {
     }
   };
   for (const d of SCAN_DIRS) walk(join(APP_ROOT, d));
+  for (const f of EXTRA_FILES) out.push(join(APP_ROOT, f));
   return out.sort();
 }
 
@@ -253,7 +276,8 @@ function propName(nameNode, sf) {
 
 function extract(absPath) {
   const src = readFileSync(absPath, "utf8");
-  const sf = ts.createSourceFile(absPath, src, ts.ScriptTarget.Latest, true, ts.ScriptKind.TSX);
+  const scriptKind = absPath.endsWith(".tsx") ? ts.ScriptKind.TSX : ts.ScriptKind.TS;
+  const sf = ts.createSourceFile(absPath, src, ts.ScriptTarget.Latest, true, scriptKind);
   const items = [];
 
   // Top-level declarations, so `refs={x}` and `data={x}` can be followed to their values.
@@ -569,7 +593,7 @@ function main() {
   if (dumpPart) return 0;
 
   const line = (h) => `  ${h.file}:${h.line}  [${h.term}]  (${h.kind})  ${h.context}`;
-  console.log(`scan-public-text: ${pages.length} pages, ${itemCount} text items, ${TERMS.length} terms`);
+  console.log(`scan-public-text: ${pages.length} files (${EXTRA_FILES.length} outside the page tree), ${itemCount} text items, ${TERMS.length} terms`);
 
   console.log(`\nREAL HITS: ${real.length}`);
   for (const h of real) console.log(line(h));

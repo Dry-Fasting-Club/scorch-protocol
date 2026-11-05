@@ -24,7 +24,7 @@ const dryFastStages = `graph LR
   D1 --> D2["Day 2<br/>Acidosis onset<br/>Ketones ramping<br/>Hunger fades"]
   D2 --> D3["Day 3<br/>ACIDOTIC CRISIS<br/>pH 7.40 → 7.34<br/>Parasympathetic flip<br/>The hard wall"]
   D3 --> D4["Day 4-5<br/>Deep repair phase<br/>Healing fever<br/>Mental clarity<br/>Stem cells active"]
-  D4 --> D7["Day 7-9 (extension)<br/>2nd ACIDOTIC CRISIS<br/>pH drops further<br/>Deeper immune reset<br/>Only once 5 days is very comfortable"]
+  D4 --> D7["Day 7-9 (extension)<br/>2nd ACIDOTIC CRISIS<br/>pH drops further<br/>Only once 5 days is very comfortable"]
 
   style D0 fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
   style D1 fill:#713f12,stroke:#eab308,stroke-width:2px,color:#fde047
@@ -41,13 +41,12 @@ export default function DryFastingPage() {
       <StarterKitCallout />
 
       <KeyTakeaways points={[
-        "The fast is the push out of the stuck state: a short, deliberate stress that clears damaged cells and mitochondria and takes away the growth signal that keeps sick cells defending. Deeper fasts go deeper and may bring results faster, but they demand a stricter refeed and more care; five days dry is the cap at home.",
+        "The fast is the push out of the stuck state: a short, deliberate stress that clears damaged cells and mitochondria and takes away the growth signal that keeps sick cells defending. Deeper fasts go deeper and may bring results faster, but they demand a stricter refeed and more care; how far is set with me, and five days dry is the cap at home because five days is still safe there. Once you are very comfortable with five you can extend a little; some people get their best results from seven to nine days.",
         "Build up gradually: start with 36 hours, then 72 hours, then 5 days dry. Do not jump straight to a long fast.",
         "The full protocol is 5 days dry followed by 5 days water (not food). Never reverse that order.",
-        "Five days dry is the cap because five days is still safe to do at home. Once you are very comfortable with it you can extend a little; some people get their best results from seven to nine days.",
         "Day 3 is the hard wall (acidotic crisis). Days 4 to 5 are where deep repair and stem cell activity happen.",
         "Feeling worse mid-fast: go on walks, do massages, move the whole system. If it starts to feel really bad, or the pain is excruciating, break the fast. While heart rate, temperature, blood pressure and urination look fine, you can continue.",
-        "Stop immediately if your resting heart rate stays above 120 bpm, you have had no urine for 24 hours, you faint or nearly faint, you feel confused or get blurry vision, or you develop kidney pain or leg swelling; a fever around 38.0°C (100.4°F) means stop and assess, not an automatic end.",
+        "Stop immediately if your resting heart rate stays above 120 bpm, you have had no urine for 24 hours, you faint or nearly faint, you feel confused or get blurry vision, or you have severe chest pain (and get help); strong kidney pain that does not ease with walking and belly massage, new swelling of your legs or face, or a fever around 38.0°C (100.4°F) means stop and assess, not an automatic end.",
         "A cycle is a fast, a refeed and, if the refeed shows a metabolic slowdown, a 30-day T3 course. The next fast opens seven days after the T3 course ends. Fast first, always; T3 before the fast is only for the person fasting has already failed.",
         "Refeeding starts with plain water, about a cup an hour for the first four hours, then kompot. Coconut water waits for day 2. Eating too much too fast is dangerous.",
         "No T3 during the fast. You finish the dry and water fast clean, keep antiviral coverage running through the refeed, and T3 therapy only begins after the first 7 days of refeeding.",
@@ -206,7 +205,7 @@ export default function DryFastingPage() {
       <div style={{ margin: "1.5rem 0" }}>
         <MermaidCharts charts={[dryFastStages]} />
         <p style={{ fontSize: "0.9rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic", textAlign: "center" }}>
-          The full arc of a dry fast. Day 3 is the hard wall (acidotic crisis); Days 4 to 5 are where the deep repair lives. Five days is the cap I set because it is still safe at home. Days 7 to 9 are the extension some people reach once five days is very comfortable, and where, in my observation, the deeper immune reset and the allergic and autoimmune clearing show up, and the extension demands a stricter refeed and more care; five days dry is the cap at home.
+          The full arc of a dry fast. Day 3 is the hard wall (acidotic crisis); Days 4 to 5 are where the deep repair lives. Five days is the cap I set because it is still safe at home; days 7 to 9 are the extension some people reach once five days is very comfortable (see How Deep above).
         </p>
       </div>
 
@@ -266,14 +265,18 @@ export default function DryFastingPage() {
       </div>
 
       <div className="guiding-questions box-danger">
-        <h3>When to stop, and when to stop and assess</h3>
+        <h3>When to Stop, and When to Stop and Assess</h3>
         <ul>
           <li>Resting heart rate sustained above 120 bpm</li>
           <li>Feeling very dizzy or fainting</li>
-          <li>Strong pain in your kidneys</li>
           <li>Feeling confused or having blurry vision</li>
-          <li>Swelling in your legs or hands</li>
           <li>No urine for 24 hours</li>
+          <li>Severe chest pain: stop and get help</li>
+          <li>
+            Strong kidney pain that does not ease with walking and belly
+            massage: stop and assess
+          </li>
+          <li>New swelling of your legs or face: stop and assess</li>
         </ul>
         <p>
           A fever around 38.0&deg;C (100.4&deg;F) means stop and assess, not
@@ -452,10 +455,8 @@ export default function DryFastingPage() {
         </li>
         <li>
           <strong>7 to 9 Days Dry (the extension):</strong> For people who are
-          already very comfortable with five days. The second acidotic crisis,
-          a more aggressive immune reset, and in my observation more clearing
-          of the allergic and autoimmune load. The refeed discipline rises with
-          every extra day.
+          already very comfortable with five days, set with me. The second
+          acidotic crisis; the refeed discipline rises with every extra day.
         </li>
       </ul>
 

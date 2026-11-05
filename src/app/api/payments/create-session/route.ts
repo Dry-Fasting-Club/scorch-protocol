@@ -42,7 +42,7 @@ export async function POST(req: NextRequest) {
           currency: "usd",
           unit_amount: section.price_cents ?? 2900,
           product_data: {
-            name: `${section.title} — Deep Dive`,
+            name: `${section.title}: Deep Dive`,
             description: "Access to the full protocol deep dive video and information for this section.",
           },
         },

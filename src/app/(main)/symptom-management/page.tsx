@@ -58,7 +58,7 @@ export default function SymptomManagementPage() {
       <KeyTakeaways points={[
         "Feeling worse during the fast is usually a Herxheimer reaction (die-off and detox), and the response is to go on walks, do massages and move the whole system, not to lie still and grit it out.",
         "If it starts to feel really bad, or the pain is excruciating, break the fast, even with clean vitals. As long as heart rate, temperature, blood pressure and urination look fine and the discomfort is bearable, you can continue.",
-        "Break the fast, no judgement call, if your resting heart rate stays above 120 bpm or falls under 40, your systolic blood pressure stays under 80 or goes over 180 or drops more than 30 mmHg when you stand, you faint or nearly faint, you become confused or your vision blurs, you lose more than 5 to 7 percent of your weight in 24 hours, your core temperature falls below 35°C, or you have had no urine for 24 hours. A fever around 38.0°C (100.4°F), or waking with no urine at all, means stop and assess; 37.5°C is the normal acidotic fire.",
+        "Break the fast, no judgement call, if your resting heart rate stays above 120 bpm or falls under 40, your systolic blood pressure stays under 80 or goes over 180 or drops more than 30 mmHg when you stand, you faint or nearly faint, you become confused or your vision blurs, you lose more than 5 to 7 percent of your weight in 24 hours, your core temperature falls below 35°C, or you have had no urine for 24 hours; severe chest pain means stop and get help. A fever around 38.0°C (100.4°F), waking with no urine at all, new swelling of the legs or face, or strong kidney pain that does not ease with walking and belly massage means stop and assess; 37.5°C is the normal acidotic fire.",
         "Insomnia that does not respond to magnesium, GABA, or melatonin is usually MCAS-driven histamine overload; the sleep section of the MCAS page covers what to do.",
         "Each of the Big 6 (fatigue, fungal issues, kidney, liver, blood sugar, muscle wasting) has a page that covers it; the list below points you there.",
       ]} />
@@ -212,6 +212,12 @@ export default function SymptomManagementPage() {
             stop.
           </li>
           <li>Weight loss over 5 to 7 percent in 24 hours: stop.</li>
+          <li>Severe chest pain: stop and get help.</li>
+          <li>New swelling of the legs or face: stop and assess.</li>
+          <li>
+            Strong kidney pain that does not ease with walking and belly
+            massage: stop and assess.
+          </li>
         </ul>
         <p>
           On a T3 course the heart-rate line is lower: a resting heart rate

@@ -13,7 +13,7 @@ export async function POST(req: NextRequest) {
           currency: "usd",
           unit_amount: 9900, // $99
           product_data: {
-            name: "Full Protocol Bundle — All Deep Dives",
+            name: "Full Protocol Bundle: All Deep Dives",
             description:
               "Lifetime access to every deep-dive video and document across the entire Scorch Protocol. One payment, all 21 sections unlocked.",
           },

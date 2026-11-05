@@ -179,9 +179,9 @@ export default function ViralReactivationPage() {
         antimicrobial peptides in tissue and blood. Less water means higher
         local concentrations of the molecules that kill pathogens. The
         protective barrier is multi-layered, redundant, and active in every
-        compartment of the body simultaneously. This is why most people get
-        through a dry fast with no viral flare even when they&rsquo;ve had
-        monthly outbreaks for years.
+        compartment of the body simultaneously. This is why, in my
+        experience, most people get through a dry fast with no viral flare
+        even when they&rsquo;ve had monthly outbreaks for years.
       </p>
 
       <h2>The Refeed: When the Walls Come Down All at Once</h2>
@@ -575,7 +575,7 @@ export default function ViralReactivationPage() {
       <div style={{ margin: "2rem 0" }}>
         <MermaidCharts charts={[pathogenStack]} />
         <p style={{ fontSize: "0.9rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic", textAlign: "center" }}>
-          The Scorch Protocol runs four parallel layers, not a single linear protocol. Pathogen targeting (antiviral, antifungal, antiparasitic) and immune rebuild (thymic peptides, per case) all run alongside the core fasting + T3 + hGH work.
+          The Scorch Protocol runs four parallel layers, not a single linear protocol. Pathogen targeting (antiviral, antifungal, antiparasitic) and immune rebuild (the thymus peptide, per case, never before refeed day 8) all run alongside the dry fast, with T3 and hGH case by case.
         </p>
       </div>
 

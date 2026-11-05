@@ -66,7 +66,7 @@ const chartStop = `graph TD
   Neuro -->|Normal| Cont["Continue Fast &<br />Monitor Regularly"]
 
   Hemo --- H_Note["BP: <80 or >180<br />Resting HR: >120 sustained, or <40<br />Syncope"]
-  Fluid --- F_Note["Weight Loss: >5-7% / 24h<br />Urine: 0ml / 24h"]
+  Fluid --- F_Note["Weight Loss: >5-7% / 24h<br />No urine for 24 hours"]
   Thermo --- T_Note["Fever around 38.0°C (100.4°F):<br />stop and assess<br />37.5°C is the normal acidotic fire"]
   Neuro --- N_Note["Confusion / Delirium<br />Blurred vision<br />Inability to obey commands"]
 
@@ -194,8 +194,9 @@ export default function DecisionTreePage() {
       </p>
       <p>
         Your waking temperature still matters, for a different reason. Long
-        Covid and ME/CFS patients commonly run cold (96 to 97&deg;F) because
-        viral persistence has suppressed the thyroid axis, and that reading is
+        Covid and ME/CFS patients commonly run cold (96 to 97&deg;F), in my
+        working theory because viral persistence has suppressed the thyroid
+        axis, and that reading is
         the dial the T3 course is dosed to after the fast. A low reading is also
         the main sign you will come out of the fast needing that course. Measure
         it every morning (on waking, before getting out of bed) <em>and</em> 30

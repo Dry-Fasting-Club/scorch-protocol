@@ -32,7 +32,7 @@ export default function HghTherapyPage() {
         "Once you are on hGH, stay on it for at least three to six months. Two ways to run it: regeneration with continuous calories and no fasting, or keep cycling the fasts, in which case the hGH dosing pattern has to change because exogenous hGH suppresses your own output, and that pattern is set with me case by case, not from this page. At the end you wean off and allow about 30 days for your own production to come back before any fast.",
         "Cyproheptadine and hGH work together. Injected hGH bypasses the pituitary signal cyproheptadine blunts, so you do not need to stop cyproheptadine before starting hGH.",
         "Some people need to eat significantly more calories than they ever have during this phase. Without enough fuel, the rebuild cannot happen. In the growth-hormone-deficiency research, around nine months of treatment is often needed before people feel substantial results.",
-        "hGH is the preferred base: it is the actual hormone, so it needs nothing from your body to work, puts the least strain on the system, and gives the most benefit. If you truly cannot access hGH, CJC-1295 + Ipamorelin can be tried to help wake up your own pituitary, but it is an awakening aid, not a full replacement.",
+        "hGH is the preferred base: it is the actual hormone, so it needs nothing from your body to work, puts the least strain on the system, and gives the most benefit. If you truly cannot access hGH, CJC-1295 + Ipamorelin can be tried, per case with me and never before refeed day 8, to help wake up your own pituitary, but it is an awakening aid, not a full replacement.",
       ]} />
 
       <p>
@@ -409,8 +409,9 @@ export default function HghTherapyPage() {
       <div className="guiding-questions box-info">
         <h3>Synergistic Peptides During Recovery</h3>
         <p>
-          Add-ons are per case, set with me, never a general pick; the axes
-          below are how I think about who gets what.
+          Add-ons are per case, set with me, never a general pick, and never
+          before refeed day 8 (Thymalin from about day 22); the axes below are
+          how I think about who gets what.
         </p>
         <div className="question-item">
           <span className="question-label">Thymalin (Thymic Peptide):</span>

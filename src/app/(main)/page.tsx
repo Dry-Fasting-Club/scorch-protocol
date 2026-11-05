@@ -443,12 +443,11 @@ export default function HomePage() {
         <div className="faq-inline-item">
           <p className="faq-inline-q">How long before I see results?</p>
           <p className="faq-inline-a">
-            Energy usually returns in the weeks after the refeed, once the
-            metabolism is fed. The people who respond describe the change after the T3
-            course, and how fast varies with how long they have been ill. Full
-            recovery takes months, not weeks; how many depends on how long you
-            have been ill, but you will feel the clock moving in the right
-            direction far sooner.
+            Energy usually returns in the weeks after the refeed, once your
+            metabolism is fed, and if you need the T3 course the change usually
+            shows after it. Full recovery takes months, not weeks; how many
+            depends on how long you have been ill, but you will feel the clock
+            moving in the right direction far sooner.
           </p>
         </div>
       </div>

@@ -746,10 +746,9 @@ export default function RefeedingPage() {
         : valacyclovir from refeed day 3 at the earliest, never during a fast,
         and arginine-rich foods kept out through the first two weeks. All five
         windows, with the prodrome checklist, are on the{" "}
-        <a href="/viral-reactivation#five-windows">Viral Reactivation</a> page.
-        If you have a history of cold sores, mono or shingles, read the{" "}
-        <a href="/viral-reactivation">Viral Reactivation</a> page before you
-        refeed.
+        <a href="/viral-reactivation#five-windows">Viral Reactivation</a> page;
+        if you have a history of cold sores, mono or shingles, read it before
+        you refeed.
       </p>
 
       <h2>Rebuilding the Gut Microbiome (and the Virome You Didn&rsquo;t Know You Had)</h2>

@@ -83,7 +83,7 @@ export default function PaidContentClient({ sectionSlug, sectionTitle, items, pa
     return (
       <div className="paid-content-block">
         <div className="paid-content-block-header">
-          <h3>Deep Dive — Unlocked</h3>
+          <h3>Deep Dive: Unlocked</h3>
           <h4>{sectionTitle}: Full Content</h4>
           <p>You have access. Watch videos and read the deep-dive material below.</p>
         </div>
@@ -117,7 +117,7 @@ export default function PaidContentClient({ sectionSlug, sectionTitle, items, pa
   // ── LOCKED STATE ────────────────────────────────────────────────────────────
   const displayItems: ContentItem[] = items.length > 0
     ? items.slice(0, 3)
-    : [{ type: paidContentType ?? "video", title: `${sectionTitle} Deep Dive`, description: "In-depth walkthrough covering everything you need to know — patient data, dosing, common pitfalls, and clinical outcomes.", key: "" }];
+    : [{ type: paidContentType ?? "video", title: `${sectionTitle} Deep Dive`, description: "In-depth walkthrough covering everything you need to know: patient data, dosing, common pitfalls, and clinical outcomes.", key: "" }];
 
   return (
     <div className="paid-content-block">
@@ -125,7 +125,7 @@ export default function PaidContentClient({ sectionSlug, sectionTitle, items, pa
         <h3>Deep Dive Content</h3>
         <h4>{sectionTitle}: Unlock Full Access</h4>
         <p>
-          Evidence-based video walkthroughs and research summaries — not available
+          Evidence-based video walkthroughs and research summaries, not available
           anywhere else.
         </p>
       </div>

@@ -61,7 +61,7 @@ export default function CommentForm({ sectionSlug, parentId, onSuccess, compact 
       }
 
       setStatus("success");
-      setMessage("Submitted for review — thanks!");
+      setMessage("Submitted for review. Thanks!");
       setName("");
       setBody("");
       setHcaptchaToken(null);
@@ -129,7 +129,7 @@ export default function CommentForm({ sectionSlug, parentId, onSuccess, compact 
           />
         ) : (
           <p style={{ color: "var(--text-muted)", fontSize: "0.82rem", fontStyle: "italic" }}>
-            Captcha not configured — set NEXT_PUBLIC_HCAPTCHA_SITE_KEY in .env.local
+            Captcha not configured: set NEXT_PUBLIC_HCAPTCHA_SITE_KEY in .env.local
           </p>
         )}
       </div>

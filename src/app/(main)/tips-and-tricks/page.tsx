@@ -224,8 +224,9 @@ export default function TipsAndTricksPage() {
           </li>
           <li>
             <strong>Follow the Rice/Fruit Protocol:</strong> Stick to the
-            structured refeed plan for optimal stem cell activation and healing.
-            See the <a href="/refeeding">Refeeding Page</a> for details.
+            structured refeed plan: refeed days 1 to 14 are the consolidation
+            window, where the repair settles in. See the{" "}
+            <a href="/refeeding">Refeeding Page</a> for details.
           </li>
         </ul>
       </div>
@@ -245,13 +246,12 @@ export default function TipsAndTricksPage() {
             Build tolerance with 36h, then 72h, then longer durations.
           </li>
           <li>
-            <strong>How Deep:</strong> Five days dry is the cap because five
-            days is still safe to do at home. Once it is very comfortable you
-            can extend a little; some people get their best results from seven
-            to nine days. Deeper fasts go deeper and may bring results faster,
-            but they demand a stricter refeed and more care; how far is set
-            with me; five days dry is the cap at home. An extension you earn,
-            not a target you set.
+            <strong>How Deep:</strong> Deeper fasts go deeper and may bring
+            results faster, but they demand a stricter refeed and more care;
+            how far is set with me; five days dry is the cap at home, because
+            five days is still safe there. Once it is very comfortable you can
+            extend a little; some people get their best results from seven to
+            nine days. An extension you earn, not a target you set.
           </li>
           <li>
             <strong>Timing Matters:</strong> Many people find it easier to start
@@ -269,8 +269,8 @@ export default function TipsAndTricksPage() {
           </li>
           <li>
             <strong>Post-Fast Energy:</strong> Many people experience a surge of
-            energy and mental clarity after breaking the fast. This is the stem
-            cell activation kicking in.
+            energy and mental clarity after breaking the fast. This is the
+            rebuild starting.
           </li>
           <li>
             <strong>Frequency:</strong> My cycle is a fast, a refeed and, when

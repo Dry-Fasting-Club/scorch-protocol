@@ -272,8 +272,8 @@ export default function RefeedForBmrPage() {
 
       <h3>Phase II: The &ldquo;Fat Buffer&rdquo; Phase (Months 3 to 6)</h3>
       <p>
-        The Scorch Protocol uses T3, for the person who needs it after the
-        refeed, specific foods and, for the cases where two
+        The Scorch Protocol uses T3 (for the person who needs it after the
+        refeed), specific foods and, for the cases where two
         cycles of fasting plus T3 were not enough, hGH on top of the T3 cycle
         to help you move through this phase faster and avoid too much fat gain.
       </p>

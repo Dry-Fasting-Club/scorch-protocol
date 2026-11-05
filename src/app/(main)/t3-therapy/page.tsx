@@ -57,7 +57,7 @@ export default function T3TherapyPage() {
         "The signs I look for: a low waking temperature (below 36.5C / 97.7F) and a low resting heart rate (below 72 bpm). Normal blood tests do not rule it out, because the problem is cells not responding to T3, not T3 being absent.",
         "The 30-day course follows Wilson's Temperature Syndrome cycling: ramp to your temperature target, hold, taper off, and let your own thyroid come back. The steps and the amounts are set case by case. Use slow-release T3, not instant-release.",
         "If you are already on thyroid medication, the taper is much harder: your own thyroid has been asleep, and asking it to reboot as the T3 comes off puts you in a trough that is really rough. Plan that stretch with me.",
-        "From the first taper step to a week after the last dose, everyone runs the full antiviral stack: L-lysine, monolaurin and valacyclovir. The taper and the trough are where the published cell work points; the ramp is watched too, because I have seen it trigger HSV in many cases.",
+        "From the first taper step to a week after the last dose, everyone runs the full antiviral stack: L-lysine, monolaurin and valacyclovir (never during a fast). The taper and the trough are where the published cell work points; the ramp is watched too, because I have seen it trigger HSV in many cases.",
         "Stop increasing your dose if your resting heart rate goes above 100 bpm. If it goes above 90 bpm before you even start, resolve that first.",
         "T3 must be paired with enough calories and some physical movement. Without sufficient fuel, T3 burns muscle instead of fat.",
         "In the Scorch Protocol, T3 does not run during the fast. You finish the entire fast (dry fast then water fast) with no T3, continue your antiviral coverage through the refeed, and start T3 only after the first 7 days of refeeding. A cycle is a fast, a refeed and this 30-day course, and the next fast opens seven days after the course ends.",
@@ -530,8 +530,9 @@ export default function T3TherapyPage() {
         <div className="question-item">
           <span className="question-label">Both Ends of the Course Are Reactivation Windows:</span>
           The coverage rule, for everyone, whatever your viral history: the
-          full antiviral stack, L-lysine, monolaurin and valacyclovir, runs
-          from the first taper step to a week after the last T3 dose. If you
+          full antiviral stack, L-lysine, monolaurin and valacyclovir (never
+          during a fast), runs from the first taper step to a week after the
+          last T3 dose. If you
           keep the standing stack going between fasts it is already on; this
           is the stretch where it must not lapse, with a valacyclovir loading
           dose on top at the first prodrome. Two windows sit inside the course,
@@ -633,8 +634,8 @@ export default function T3TherapyPage() {
             </td>
             <td>Until the temperature holds</td>
             <td>
-              Stay at the dose that holds the target to &ldquo;break&rdquo;
-              your metabolism&rsquo;s resistance. If your heart races or you
+              Stay at the dose that holds the target; the hold is what lets
+              the cells use the energy. If your heart races or you
               feel anxious, you have gone past your dose; come back down a
               step.
             </td>
@@ -652,8 +653,9 @@ export default function T3TherapyPage() {
               were already on thyroid medication struggle most (see Safety
               First below).
               <br />
-              The full antiviral stack (L-lysine, monolaurin, valacyclovir)
-              runs from the first step down to a week after the last dose.
+              The full antiviral stack (L-lysine, monolaurin, and
+              valacyclovir, which never runs during a fast) runs from the
+              first step down to a week after the last dose.
             </td>
           </tr>
         </tbody>
@@ -876,7 +878,7 @@ export default function T3TherapyPage() {
         <div className="question-item">
           <span className="question-label">Vitamin D3 + K2 (immune, bone, mood):</span>
           The co-factor that pairs best with T3. In my experience
-          most chronically ill patients run deficient, and correcting it steadies
+          chronically ill people often run deficient, and correcting it steadies
           immune function, protects bone while T3 is driving hard, and lifts mood.
           Run D3 together with K2 (the same K2 that partners your aspirin above).
           If your vitamin D is below 40 ng/mL, dose 5,000 to 10,000 IU/day of D3
@@ -1022,10 +1024,10 @@ export default function T3TherapyPage() {
           }}
         >
           <strong>Important:</strong> If you do not understand how hGH or
-          Retatrutide work and why they are recommended in this context, do
-          not use them. These are not general supplements. They are
-          targeted tools with specific mechanisms. Read the hGH Therapy page
-          and understand the protocol before considering them.
+          Retatrutide work, and why I would add them in your case, do not use
+          them. These are not general supplements. They are targeted,
+          per-case tools with specific mechanisms, set with me. Read the hGH
+          Therapy page and understand the protocol before considering them.
         </div>
       </div>
 

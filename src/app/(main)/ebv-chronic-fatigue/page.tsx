@@ -158,7 +158,7 @@ export default function EbvChronicFatiguePage() {
       </p>
 
       <p>
-        In my experience people with a chronic EBV burden usually get through
+        In my experience, people with a chronic EBV burden usually get through
         the fast itself without a flare, even if they have had monthly
         reactivation episodes for years; the refeed is where it shows. The
         fasted state is the best antiviral

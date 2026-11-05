@@ -23,7 +23,7 @@ interface Props {
 
 const DEFAULT_HEADING = "Get Protocol Updates";
 const DEFAULT_BODY =
-  "New articles on dry fasting, T3 therapy, and recovery — delivered straight to your inbox. No spam, ever.";
+  "New articles on dry fasting, T3 therapy, and recovery, delivered straight to your inbox. No spam, ever.";
 
 function isValidEmail(email: string): boolean {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);

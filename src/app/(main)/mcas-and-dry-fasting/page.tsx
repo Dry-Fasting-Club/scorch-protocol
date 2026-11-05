@@ -137,8 +137,8 @@ export default function MCASAndDryFastingPage() {
       </p>
       <p>
         Latent virus reactivation adds a second layer. Viruses like EBV and
-        HHV-6, which are already present in most chronic illness patients, become
-        more active in the context of Long Covid immune dysregulation. Their
+        HHV-6, which nearly every adult already carries, become more active in
+        the context of Long Covid immune dysregulation. Their
         activity further stimulates mast cells and amplifies the histamine surges.
         The result is MCAS sitting at the bottom of a cascade that started at
         the top with viral persistence, with every intermediate step feeding it.
@@ -417,8 +417,9 @@ export default function MCASAndDryFastingPage() {
         For a deeper look at the Long Covid cascade and the foundational
         supportive-care stack that runs alongside the protocol, see the{" "}
         <Link href="/long-covid-basics">Long Covid Basics</Link> page. For the
-        symptom-by-symptom management guide including the full Herxheimer triage
-        chart, see <Link href="/symptom-management">Symptom Management</Link>.
+        Herxheimer triage chart, the stop rules in full and a pointer to the
+        page that covers each symptom, see{" "}
+        <Link href="/symptom-management">Symptom Management</Link>.
       </p>
 
       <h2>Frequently Asked Questions</h2>
