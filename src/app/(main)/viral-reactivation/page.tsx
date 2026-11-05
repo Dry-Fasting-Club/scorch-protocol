@@ -74,7 +74,7 @@ export default function ViralReactivationPage() {
         "The bridge strategy (dry fast to water fast to protected refeed) puts the natural antiviral stack in place before food: L-lysine from water day 1, monolaurin and olive leaf with the first meal. Valacyclovir joins on refeed day 3 at the earliest and then runs daily for months. T3 is deliberately held until after Day 7 of refeeding, so antivirals, not T3, are what guard the consolidation window (what I used to call the vulnerability window).",
         "Stop and escalate antivirals immediately if you feel tingling at a previous outbreak site, new nerve-territory pain, or a sudden return of pre-protocol fatigue.",
         "If that tingling arrives while you are still fasting, dry or water, the response is different: convert to water with electrolytes, take L-lysine at once, break the fast once you are rehydrated, and bring valacyclovir in on the standing rule (refeed day 3 at the earliest), because it is renally cleared and a fasting body, even a water-fasting one, cannot clear it.",
-        "Reactivation has five windows, not one: fast days 1 to 3, the refeed dead zone, the T3 ramp, the T3 taper and the trough after it, and the hGH wean. The same prodrome checklist runs at every one, each window has its own rule, and you keep logging your readings whether or not you feel anything.",
+        "Reactivation has five windows, not one: fast days 1 to 3, the first refeed week (the consolidation window's first seven days), the T3 ramp, the T3 taper and the trough after it, and the hGH wean. The same prodrome checklist runs at every one, each window has its own rule, and you keep logging your readings whether or not you feel anything.",
         "From the first T3 taper step to a week after the last T3 dose, everyone runs the full antiviral stack: L-lysine, monolaurin and valacyclovir (never during a fast). I have seen the T3 ramp trigger HSV in many cases, while the published cell work points at the hormone drop, so both ends of the course are covered.",
       ]} />
       <p>
@@ -575,7 +575,7 @@ export default function ViralReactivationPage() {
       <div style={{ margin: "2rem 0" }}>
         <MermaidCharts charts={[pathogenStack]} />
         <p style={{ fontSize: "0.9rem", color: "#888", marginTop: "0.5rem", fontStyle: "italic", textAlign: "center" }}>
-          The Scorch Protocol runs four parallel layers, not a single linear protocol. Pathogen targeting (antiviral, antifungal, antiparasitic) and immune rebuild (the thymus peptide, per case, never before refeed day 8) all run alongside the dry fast, with T3 and hGH case by case.
+          The Scorch Protocol runs four parallel layers, not a single linear protocol. Pathogen targeting (antiviral, antifungal, antiparasitic) and immune rebuild (the thymus peptide, per case, never before refeed day 8) all run alongside the fasting cycles, with T3 and hGH case by case.
         </p>
       </div>
 
@@ -849,7 +849,7 @@ export default function ViralReactivationPage() {
           never goes into a fasting body.
         </div>
         <div className="question-item">
-          <span className="question-label">2. The refeed dead zone</span>
+          <span className="question-label">2. The first refeed week (the consolidation window&rsquo;s first seven days)</span>
           The first days of eating, when the four defences come down and five
           vulnerabilities open at once.
           The rule: the natural stack from water day 1 and the first meal, the
