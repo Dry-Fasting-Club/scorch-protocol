@@ -46,15 +46,15 @@ const reactivationCascade = `graph TD
   style Bad fill:#7f1d1d,stroke:#ef4444,stroke-width:4px,color:#fca5a5`;
 
 const pathogenStack = `graph TB
-  Core["CORE SCORCH PROTOCOL<br/>The dry fast; T3 and hGH case by case"]
+  Core["CORE SCORCH PROTOCOL<br/>The fasting cycles; T3 and hGH case by case"]
 
-  Core -.->|runs in parallel with| AV["ANTIVIRAL LAYER<br/>Natural stack from water day 1 and the first meal<br/>Valacyclovir from refeed day 3<br/><br/>STANDING: Valacyclovir (backbone)<br/>SUPPORTIVE: Ivermectin (also antiparasitic)<br/>NATURAL: Lysine, Monolaurin,<br/>Olive Leaf, Elderberry"]
+  Core -.->|runs alongside the cycles| AV["ANTIVIRAL LAYER<br/>Natural stack from water day 1 and the first meal<br/>Valacyclovir from refeed day 3<br/><br/>STANDING: Valacyclovir (backbone)<br/>SUPPORTIVE: Ivermectin (also antiparasitic)<br/>NATURAL: Lysine, Monolaurin,<br/>Olive Leaf, Elderberry"]
 
-  Core -.->|runs in parallel with| AF["ANTIFUNGAL LAYER<br/>If fungal-focused patient<br/><br/>PRIMARY: Fluconazole<br/>REJECTED: Itraconazole (too strong)<br/>REJECTED: Natural antifungals (too weak)"]
+  Core -.->|runs alongside the cycles| AF["ANTIFUNGAL LAYER<br/>If fungal-focused patient<br/><br/>PRIMARY: Fluconazole<br/>REJECTED: Itraconazole (too strong)<br/>REJECTED: Natural antifungals (too weak)"]
 
-  Core -.->|runs in parallel with| AP["ANTIPARASITIC LAYER<br/>Default in most cases<br/><br/>PRIMARY: Ivermectin (double duty)<br/>SYNERGY: Ivermectin + Dry Fasting<br/>REJECTED: Natural antiparasitics (too weak)"]
+  Core -.->|runs alongside the cycles| AP["ANTIPARASITIC LAYER<br/>Default in most cases<br/><br/>PRIMARY: Ivermectin (double duty)<br/>SYNERGY: Ivermectin + Dry Fasting<br/>REJECTED: Natural antiparasitics (too weak)"]
 
-  Core -.->|runs in parallel with| IR["IMMUNE REBUILD LAYER<br/>Distinct from pathogen kill<br/><br/>PER CASE, NEVER BEFORE<br/>REFEED DAY 8: Thymalin<br/>(Tα1 retired: in my experience<br/>it can hypersensitize immune cells)"]
+  Core -.->|runs alongside the cycles| IR["IMMUNE REBUILD LAYER<br/>Distinct from pathogen kill<br/><br/>PER CASE, NEVER BEFORE<br/>REFEED DAY 8: Thymalin<br/>(Tα1 retired: in my experience<br/>it can hypersensitize immune cells)"]
 
   style Core fill:#7c2d12,stroke:#e85d04,stroke-width:3px,color:#fdba74
   style AV fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
