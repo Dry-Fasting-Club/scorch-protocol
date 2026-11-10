@@ -273,11 +273,13 @@ export default function ViralReactivationPage() {
       <div className="guiding-questions box-info">
         <h3>What Actually Happens When a Virus Reactivates in the Refeed Window</h3>
         <div className="question-item">
-          <span className="question-label">The dry fast eradicated the virus from many of its hiding places</span>
-          Autophagy reaches latent reservoirs that drug therapy cannot. Many
-          ganglion cells, immune cells, and tissue niches that previously
-          carried latent virus have been cleared. This is the upside of the
-          fast.
+          <span className="question-label">The dry fast cleared infected cells in many of the virus&rsquo;s hiding places</span>
+          Autophagy reaches cells that drug therapy cannot. Many ganglion
+          cells, immune cells, and tissue niches that carried latent virus
+          have been cleared, in my model, by clearing those cells themselves.
+          A virus written into the chromosome is not removed, which is why I
+          aim at reactivation rather than eradication. This is the upside of
+          the fast.
         </div>
         <div className="question-item">
           <span className="question-label">The remaining virus, now liberated, has a multi-day open road</span>
@@ -1009,6 +1011,12 @@ export default function ViralReactivationPage() {
               "Figliozzi RW, Chen F, Hsia SV. New insights on thyroid hormone mediated regulation of herpesvirus infections. Cell Biosci, 2017;7:13. PMID 28344765. DOI 10.1186/s13578-017-0140-z.",
             href: "https://doi.org/10.1186/s13578-017-0140-z",
             note: "the same repression reproduced in a second, differentiated cell line: thyroid hormone present represses HSV-1, thyroid hormone withdrawn permits it",
+          },
+          {
+            citation:
+              "Lerner AM, Beqaj SH, Deeter RG, Dworkin HJ, Zervos M, Chang CH, Fitzgerald JT, Goldstein J, O'Neill W. A six-month trial of valacyclovir in the Epstein-Barr virus subset of chronic fatigue syndrome: improvement in left ventricular function. Drugs Today (Barc), 2002;38(8):549-561. PMID 12582420. DOI 10.1358/dot.2002.38.8.820095.",
+            href: "https://doi.org/10.1358/dot.2002.38.8.820095",
+            note: "the EBV-only subset improved on six months of valacyclovir; patients carrying EBV and CMV together did not, and the authors state that valacyclovir is not an effective drug against CMV; small, one practice",
           },
           {
             citation:

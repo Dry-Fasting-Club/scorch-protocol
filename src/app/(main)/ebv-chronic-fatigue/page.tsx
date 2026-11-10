@@ -30,7 +30,7 @@ const ebvFaq = [
   {
     question: "What are signs of EBV reactivation?",
     answer:
-      "Classic signs of EBV reactivation include a sudden return of heavy fatigue that feels different from tiredness (more flu-like, with a wired-but-exhausted quality), swollen lymph nodes, low-grade fever, and a sore throat that has no obvious infectious cause. In the refeed window specifically, any of these appearing alongside new nerve-territory pain or a sudden return of pre-protocol brain fog and post-exertional malaise should be treated as potential reactivation. Bloodwork (EBV early antigen IgG, viral capsid IgM) can confirm it. The protocol calls for escalating antiviral coverage immediately at the first signs rather than waiting for confirmation.",
+      "Classic signs of EBV reactivation include a sudden return of heavy fatigue that feels different from tiredness (more flu-like, with a wired-but-exhausted quality), swollen lymph nodes, low-grade fever, and a sore throat that has no obvious infectious cause. In the refeed window specifically, any of these appearing alongside new nerve-territory pain or a sudden return of pre-protocol brain fog and post-exertional malaise should be treated as potential reactivation. If you can get bloodwork, the panel I ask for is EBV viral capsid IgG and IgM, early antigen IgG, EBNA IgG, HHV-6 IgG, CMV IgG and an NK cell count; a negative PCR does not rule the virus out, because a herpesvirus hiding in nerve cells leaves little in the blood. The protocol calls for escalating antiviral coverage immediately at the first signs rather than waiting for confirmation.",
   },
 ];
 
