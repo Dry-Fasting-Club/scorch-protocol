@@ -136,8 +136,12 @@ export default function ViralReactivationPage() {
           Dry fasting drives autophagy harder than any other intervention
           because it removes both the food signal and the water signal at the
           same time, sending a maximal &ldquo;clean house&rdquo; instruction
-          to every cell. Latent HSV, EBV, and HHV-6 sitting inside ganglion
-          and immune cells are physically removed in this state.
+          to every cell. In this state the fast clears infected and damaged
+          cells and, in my model, quiets the signal that wakes latent HSV,
+          EBV and HHV-6 in ganglion and immune cells. It does not wipe the
+          virus out: a herpesvirus that has written itself into the
+          chromosome stays there, so the target I aim at is the
+          reactivation, never the whole reservoir.
         </div>
         <div className="question-item">
           <span className="question-label">2. Ketones starve viruses of the metabolism they need</span>
@@ -377,7 +381,9 @@ export default function ViralReactivationPage() {
         thymic peptide (Thymalin), is a special case I set with people
         individually, never a general recommendation and never before refeed
         day 8 (Thymus Alpha-1 has been retired from the protocol, see the
-        note below). Through
+        note below). Where I use it, Thymalin runs beside the antiviral
+        stack: the stack presses on the virus, while Thymalin gets your own
+        T cells and NK cells going strong. Through
         the first seven days of refeeding you also add a case-by-case
         metabolic layer, methylene blue and in selected cases ethyl
         pyruvate, to support the mitochondria while food scales back in. T3
@@ -468,8 +474,16 @@ export default function ViralReactivationPage() {
               <em>before</em> the fast ends.
             </td>
             <td>
-              Inhibits viral DNA polymerase. Covers HSV-1, HSV-2, VZV
-              completely; partial coverage of EBV and CMV. This is now the
+              Inhibits viral DNA polymerase. Treats HSV-1, HSV-2 and VZV
+              (shingles) directly and fully, and EBV directly if less
+              completely. It does not treat HHV-6 or CMV: a small valacyclovir
+              trial says in plain words that it is not an effective drug
+              against CMV (Lerner 2002). In my model, the EBV, HSV and
+              shingles cover alone still relieves the body from several
+              angles even when HHV-6 or CMV is the main driver, and those two
+              are met by monolaurin, olive leaf and L-lysine, and, case by
+              case, by Thymalin, which gets your own T and NK cells going
+              strong. This is now the
               standing backbone of the antiviral layer: from refeed day 3 at
               the earliest, run daily to lower the burden of reactivated EBV,
               HSV and shingles through the months of refeeding and
@@ -663,7 +677,8 @@ export default function ViralReactivationPage() {
           Classic EBV/CMV reactivation pattern. Pull bloodwork (EBV early
           antigen IgG, viral capsid IgM) to confirm. Reinforce the standing
           valacyclovir course (running by this point, or due to start on
-          refeed day 3), even though coverage of EBV is partial. Combined with
+          refeed day 3), even though coverage of EBV is partial and it does
+          not treat CMV. Combined with
           L-lysine and monolaurin, it provides meaningful pressure. T3 is not
           part of this window: it starts only after refeed day 7.
         </div>
@@ -939,6 +954,19 @@ export default function ViralReactivationPage() {
           infected than when you started.
         </p>
         <p>
+          The one paper I know of that ties a named virus to that danger
+          response is small: cell work from one laboratory, with ten
+          patients&rsquo; blood. In it, HHV-6 waking up broke the
+          cells&rsquo; mitochondria into fragments, cut their energy and
+          switched them into the{" "}
+          <Link href="/healing-cycle">cell danger response</Link> (Schreiner
+          2020). It tested no treatment. In my reading, it is why the fast,
+          the refeed and restoring the metabolism are one job, not three: the
+          fast frees the stuck cells, the protected refeed keeps the virus
+          from dragging them back, and restoring the metabolism keeps them
+          out.
+        </p>
+        <p>
           The same watch then runs at the four other windows (fast days 1 to
           3, the T3 ramp, the T3 taper and trough, and the hGH wean), each with
           its own rule, as set out in{" "}
@@ -987,6 +1015,12 @@ export default function ViralReactivationPage() {
               "Hsia SH, Hsia SV. A cohort historical analysis of the relationship between thyroid hormone malady and alpha-human herpesvirus activation. J Steroids Horm Sci, 2014;5(2):133. PMID 25838972. DOI 10.4172/2157-7536.1000133.",
             href: "https://pmc.ncbi.nlm.nih.gov/articles/PMC4380329/",
             note: "a retrospective claims-database association between alpha-herpesvirus and thyroid disorder diagnoses; it cannot separate low thyroid from high or show direction, and the authors call for controlled studies",
+          },
+          {
+            citation:
+              "Schreiner P, Harrer T, Scheibenbogen C, Lamer S, Schlosser A, Naviaux RK, Prusty BK. Human Herpesvirus-6 Reactivation, Mitochondrial Fragmentation, and the Coordination of Antiviral and Metabolic Phenotypes in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. ImmunoHorizons, 2020;4(4):201-215. PMID 32327453. DOI 10.4049/immunohorizons.2000006.",
+            href: "https://doi.org/10.4049/immunohorizons.2000006",
+            note: "HHV-6 reactivation in cell lines fragmented the mitochondria, shut down the enzymes that burn fat, protein and sugar, and switched the cells into an antiviral alarm state, the cell danger response, at a cost to their energy; serum from ten ME/CFS patients fragmented the mitochondria of healthy cells the same way; cell work from one laboratory, no treatment tested",
           },
         ]}
       />

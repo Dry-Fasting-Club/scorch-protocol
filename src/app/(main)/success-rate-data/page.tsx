@@ -116,7 +116,10 @@ export default function SuccessRateDataPage() {
           needing far more sleep than you ever used to, feeling wrecked for days
           after ordinary exertion, hair and skin that changed, a body running on
           fumes. This is the picture of a metabolism that stalled and never
-          restarted after an infection or a long stretch of stress.
+          restarted after an infection or a long stretch of stress. I explain
+          what a reactivated virus can do to the cell&rsquo;s engine on the{" "}
+          <Link href="/ebv-chronic-fatigue#virus-engine">EBV and chronic
+          fatigue page</Link>.
         </div>
         <div className="question-item">
           <span className="question-label">Willingness to run the whole sequence</span>

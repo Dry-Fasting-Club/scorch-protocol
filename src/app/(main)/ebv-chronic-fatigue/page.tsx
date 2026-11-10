@@ -112,6 +112,20 @@ export default function EbvChronicFatiguePage() {
         simplicity this page focuses on EBV, but the mechanisms and the
         protective strategy apply to the broader herpesvirus family.
       </p>
+      <p id="virus-engine">
+        What does the virus do to the cell&rsquo;s engine? The clearest
+        answer I have found comes from HHV-6. In cell work from one
+        laboratory, HHV-6 waking up inside cells broke their mitochondria
+        into fragments, shut down the enzymes that burn fat and sugar, and
+        left the cells badly short of energy. Blood serum from ten patients
+        with ME/CFS broke up the mitochondria of healthy cells in the same
+        way. The cells switched into a defensive alarm state, the{" "}
+        <Link href="/healing-cycle">cell danger response</Link>, which
+        protects against some other viruses but costs the cell its energy
+        (Schreiner 2020). That is a picture of the broken engine, not a
+        treatment. The fast, the refeed and, case by case, T3 are my way of
+        restoring that engine; that work did not test any of them.
+      </p>
 
       <div className="guiding-questions box-info">
         <h3>What Keeps EBV Active</h3>
@@ -129,7 +143,13 @@ export default function EbvChronicFatiguePage() {
           signalling and NK cell killing capacity. Low T3 (which is extremely
           common in chronic illness
           and gets worse during a fast) means blunted antiviral immune signalling
-          exactly when you need it most.
+          exactly when you need it most. One caveat on my own picture: cell
+          work from one laboratory, with ten patients&rsquo; blood, shows the
+          cells&rsquo; antiviral alarm stuck on and costing them energy
+          (Schreiner 2020), while the killing power of NK cells runs low in
+          this illness, so &ldquo;the alarm is stuck on and the soldiers are
+          tired&rdquo; is closer to the truth than &ldquo;the immune system is
+          asleep&rdquo;.
         </div>
         <div className="question-item">
           <span className="question-label">mTOR activation</span>
@@ -147,6 +167,30 @@ export default function EbvChronicFatiguePage() {
           opens a wider window.
         </div>
       </div>
+
+      <h2>Why Your Blood Test Can Be Negative</h2>
+      <p>
+        Many people with this illness are told their viral tests came back
+        clean. A clean blood test does not clear the virus, and here is why.
+        Some herpesviruses, HSV and HHV-6 among them, can hide inside nerve
+        cells, and a virus hiding there leaves little or nothing in the
+        blood. In my reading of the HHV-6 research, reactivation can also be
+        partial: the virus makes a few of its proteins without ever building
+        a complete virus, and a test that counts whole virus can miss that.
+        Active HHV-6 has even been found inside brain cells after death in
+        people with depression and bipolar disorder (Prusty 2018). Those were
+        not ME/CFS brains, but they show the virus can be busy where no blood
+        test looks.
+      </p>
+      <p>
+        So a negative PCR or viral load does not rule the virus out, and it
+        is not a reason to drop the antiviral stack. Most people cannot get
+        these tests anyway: they are uncommon, and few doctors order them.
+        That is why I assume reactivated viruses in anyone who has been
+        moderately to severely ill for more than a year, and the protocol
+        covers that load whether or not a test has found it. If you can get
+        tested, the panel I would ask for is in the warning signs below.
+      </p>
 
       <h2>Why the Dry Fast Suppresses EBV Replication</h2>
       <p>
@@ -238,7 +282,10 @@ export default function EbvChronicFatiguePage() {
         after two days of eating with heavy rehydration, and then runs daily
         through the months between fasts. An immune-rebuilding thymic
         peptide, to speed the return of T-cell function, is a special case I
-        set with people individually, never before refeed day 8. T3 itself is
+        set with people individually, never before refeed day 8. That
+        peptide is Thymalin, and where I use it, it runs beside the
+        antiviral stack: the stack presses on the virus, while Thymalin gets
+        your own T cells and NK cells going strong. T3 itself is
         deliberately held until you have scaled
         food for a full seven days of refeed, so through this window it is the
         antiviral stack, not T3, that holds the line. In my model, once T3
@@ -291,8 +338,16 @@ export default function EbvChronicFatiguePage() {
         <div className="question-item">
           <span className="question-label">Lymph node swelling, low-grade fever, or sore throat without infection</span>
           This is the classic EBV reactivation pattern. Escalate antiviral
-          coverage. Bloodwork (EBV early antigen IgG, viral capsid IgM) can
-          confirm reactivation if symptoms persist.
+          coverage. If symptoms persist, bloodwork can confirm reactivation:
+          the panel I would ask for is EBV viral capsid IgG and IgM, EBV
+          early antigen IgG, EBNA IgG, HHV-6 IgG, CMV IgG and an NK cell
+          count. In small studies, people picked because their titres were
+          high responded to antivirals, and their titres fell as they
+          improved (Lerner 2007; Kogelnik 2006). No titre is required to run
+          the course. If HHV-6 or CMV is the high one, valacyclovir still
+          earns its place by covering EBV, HSV and shingles, but it does not
+          treat those two; monolaurin, olive leaf, L-lysine and, case by
+          case, Thymalin are what meet them.
         </div>
         <div className="question-item">
           <span className="question-label">New pain in nerve territories that were not previously affected</span>
@@ -323,6 +378,31 @@ export default function EbvChronicFatiguePage() {
             citation: "Gold JE, Okyay RA, Licht WE, Hurley DJ. Investigation of Long COVID Prevalence and Its Relationship to Epstein-Barr Virus Reactivation. Pathogens, 2021;10(6):763.",
             href: "https://doi.org/10.3390/pathogens10060763",
             note: "66% of Long Covid patients showed active EBV reactivation",
+          },
+          {
+            citation: "Schreiner P, Harrer T, Scheibenbogen C, Lamer S, Schlosser A, Naviaux RK, Prusty BK. Human Herpesvirus-6 Reactivation, Mitochondrial Fragmentation, and the Coordination of Antiviral and Metabolic Phenotypes in Myalgic Encephalomyelitis/Chronic Fatigue Syndrome. ImmunoHorizons, 2020;4(4):201-215. PMID 32327453. DOI 10.4049/immunohorizons.2000006.",
+            href: "https://doi.org/10.4049/immunohorizons.2000006",
+            note: "HHV-6 reactivation in cell lines fragmented the mitochondria, shut down the enzymes that burn fat, protein and sugar, and switched the cells into an antiviral alarm state at a cost to their energy; serum from ten ME/CFS patients fragmented the mitochondria of healthy cells the same way; cell work from one laboratory, no treatment tested",
+          },
+          {
+            citation: "Prusty BK, Gulve N, Govind S, Krueger GRF, Feichtinger J, Larcombe L, Aspinall R, Ablashi DV, Toro CT. Active HHV-6 Infection of Cerebellar Purkinje Cells in Mood Disorders. Front Microbiol, 2018;9:1955. PMID 30186267. DOI 10.3389/fmicb.2018.01955.",
+            href: "https://doi.org/10.3389/fmicb.2018.01955",
+            note: "active HHV-6 infection found in brain cells (cerebellar Purkinje cells) after death, more often in depression and bipolar disorder than in controls; mood-disorder brains, not ME/CFS, and an association only",
+          },
+          {
+            citation: "Lerner AM, Beqaj SH, Deeter RG, Fitzgerald JT. Valacyclovir treatment in Epstein-Barr virus subset chronic fatigue syndrome: thirty-six months follow-up. In Vivo, 2007;21(5):707-713. PMID 18019402.",
+            href: "https://pubmed.ncbi.nlm.nih.gov/18019402/",
+            note: "a small EBV subset, picked on raised EBV antibodies, improved step by step over three years of continuous valacyclovir, and their EBV IgM titres fell; one practice, small numbers",
+          },
+          {
+            citation: "Lerner AM, Beqaj SH, Deeter RG, Dworkin HJ, Zervos M, Chang CH, Fitzgerald JT, Goldstein J, O'Neill W. A six-month trial of valacyclovir in the Epstein-Barr virus subset of chronic fatigue syndrome: improvement in left ventricular function. Drugs Today (Barc), 2002;38(8):549-561. PMID 12582420. DOI 10.1358/dot.2002.38.8.820095.",
+            href: "https://doi.org/10.1358/dot.2002.38.8.820095",
+            note: "the EBV-only subset improved on six months of valacyclovir; patients carrying EBV and CMV together did not, and the authors state that valacyclovir is not an effective drug against CMV; small, one practice",
+          },
+          {
+            citation: "Kogelnik AM, Loomis K, Hoegh-Petersen M, Rosso F, Hischier C, Montoya JG. J Clin Virol, 2006;37 Suppl 1:S33-S38. PMID 17276366. DOI 10.1016/S1386-6532(06)70009-9.",
+            href: "https://doi.org/10.1016/S1386-6532(06)70009-9",
+            note: "a small open-label study that picked twelve patients with long-standing fatigue on high HHV-6 and EBV IgG titres; titres fell in those who improved (the EBV fall was significant, the HHV-6 fall was not), and the authors leave placebo open; the antiviral studied is not part of this protocol",
           },
         ]}
       />

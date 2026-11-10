@@ -108,7 +108,12 @@ export default function LongCovidBasicsPage() {
         Covid face of a broader pattern, cells stuck in their own danger
         response, and the{" "}
         <Link href="/healing-cycle">healing cycle page</Link> explains why that
-        sets the order of the protocol.
+        sets the order of the protocol. The chart below draws the reactivated
+        viruses and the mitochondrial damage as separate branches, but in cell
+        work from one laboratory, HHV-6 waking up broke cells&rsquo;
+        mitochondria apart and switched them into that same danger response
+        (Schreiner 2020), as I explain on the{" "}
+        <Link href="/ebv-chronic-fatigue#virus-engine">EBV page</Link>.
       </p>
 
       <div style={{ margin: "1.5rem 0" }}>
@@ -400,7 +405,11 @@ export default function LongCovidBasicsPage() {
             fast itself, dry or water,
             ivermectin alongside it as a supportive antiviral and the
             primary antiparasitic, and lysine and monolaurin as the
-            natural baseline.
+            natural baseline. Beside that stack, case by case and never
+            before refeed day 8, I run Thymalin as the immune layer that gets
+            your own T and NK cells going; valacyclovir treats EBV and HSV
+            directly, while HHV-6 and CMV are met by lysine, monolaurin,
+            olive leaf and that immune layer.
           </li>
           <li>
             <a href="/t3-therapy">T3 therapy</a>, for the person still cold
