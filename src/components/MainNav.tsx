@@ -13,6 +13,7 @@ const navItems: NavItem[] = [
   { type: "link",  href: "/",                    label: "Overview & Principles" },
   { type: "link",  href: "/healing-cycle",        label: "Why It Works: The Healing Cycle" },
   { type: "link",  href: "/decision-tree",        label: "Decision Logic Tree" },
+  { type: "link",  href: "/protocol-map",         label: "The Protocol, A to Z" },
   { type: "link",  href: "/long-covid-basics",    label: "Long Covid Basics (start here)" },
   { type: "link",  href: "/dry-fasting-vs-water-fasting", label: "Dry Fasting vs Water Fasting" },
   { type: "group", label: "Protocol Phases" },

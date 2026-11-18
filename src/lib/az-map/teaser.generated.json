@@ -1,0 +1,737 @@
+{
+ "title": "The Scorch Protocol, A to Z",
+ "subtitle": "One path from “am I ready?” down to regeneration.",
+ "sections": [
+  {
+   "n": 1,
+   "title": "Am I a fit?",
+   "rows": [
+    {
+     "main": {
+      "id": "e19",
+      "kind": "decision",
+      "title": "Any hard stop?"
+     },
+     "side": [
+      {
+       "id": "e20",
+       "kind": "stop",
+       "title": "STOP, not now",
+       "branch": "yes",
+       "body": "Pregnant or breastfeeding · type 1 diabetes · active or advanced heart disease · active kidney disease · underweight or an eating disorder, current or past · an active infection · active cancer · under 18."
+      }
+     ],
+     "asks": [
+      {
+       "id": "e21",
+       "kind": "question",
+       "title": "What if I have POTS, type 2 diabetes on medication, or take many medications?",
+       "body": "Not a no. These are prep-first flags: plan them with Yannick before anything starts."
+      }
+     ]
+    },
+    {
+     "main": {
+      "id": "e22",
+      "kind": "step",
+      "title": "Take your baseline temperature",
+      "body": "Take a baseline: waking temperature for 7 mornings, before getting out of bed."
+     },
+     "side": [],
+     "asks": [
+      {
+       "id": "e23",
+       "kind": "question",
+       "title": "Do I need lab tests first?",
+       "body": "Optional. Temperature is the main instrument. Labs help if you can get them; none is required to start."
+      }
+     ]
+    },
+    {
+     "main": {
+      "id": "e24",
+      "kind": "decision",
+      "title": "Cold AND ill for over a year?"
+     },
+     "side": [
+      {
+       "id": "e25",
+       "kind": "stop",
+       "title": "Poorer fit",
+       "branch": "no",
+       "body": "Ill with a normal temperature may be a different illness. Cold but otherwise healthy does not need this."
+      }
+     ],
+     "asks": [
+      {
+       "id": "e26",
+       "kind": "question",
+       "title": "Who responds best?",
+       "body": "A low waking temperature plus clear metabolic damage: cold hands and feet, weight that will not move, wrecked for days after effort."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "How do I enter?",
+   "rows": [
+    {
+     "main": {
+      "id": "e27",
+      "kind": "decision",
+      "title": "Waking temperature?"
+     },
+     "side": [
+      {
+       "id": "e28",
+       "kind": "stop",
+       "title": "No fasting yet",
+       "branch": "below 96 °F",
+       "body": "Below 96.0 °F (35.6 °C): raise the metabolism first (T3 first, set with Yannick)."
+      }
+     ],
+     "asks": [
+      {
+       "id": "e29",
+       "kind": "question",
+       "title": "What do the bands mean?",
+       "body": "96.0 to 96.9 °F: usually can fast, case by case. 97.0 to 97.7: usually clear. 97.8 and up: ideal."
+      }
+     ]
+    },
+    {
+     "main": {
+      "id": "e30",
+      "kind": "decision",
+      "title": "Years of low carb, stalled and cold?"
+     },
+     "side": [
+      {
+       "id": "e31",
+       "kind": "stop",
+       "title": "Over-adapted",
+       "branch": "yes",
+       "locked": true,
+       "len": 105
+      }
+     ],
+     "asks": [
+      {
+       "id": "e32",
+       "kind": "question",
+       "title": "Should I take T3 before my first fast?",
+       "locked": true,
+       "len": 116
+      }
+     ]
+    },
+    {
+     "main": {
+      "id": "e33",
+      "kind": "step",
+      "title": "Entry: fast first",
+      "locked": true,
+      "len": 36
+     },
+     "side": [],
+     "asks": [
+      {
+       "id": "e34",
+       "kind": "question",
+       "title": "I am a woman and my period has stopped. Does that change it?",
+       "locked": true,
+       "len": 80
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Preparation, day −28 to day 0",
+   "rows": [
+    {
+     "main": {
+      "id": "e35",
+      "kind": "step",
+      "title": "The common start",
+      "locked": true,
+      "len": 108
+     },
+     "side": [],
+     "asks": [
+      {
+       "id": "e36",
+       "kind": "question",
+       "title": "Can I skip preparation?",
+       "body": "No. The hard stops and the preparation exist for the same reason: the fast punishes shortcuts."
+      }
+     ]
+    },
+    {
+     "main": {
+      "id": "e37",
+      "kind": "step",
+      "title": "Choose the preparation path",
+      "locked": true,
+      "len": 87
+     },
+     "side": [],
+     "asks": [
+      {
+       "id": "e38",
+       "kind": "question",
+       "title": "Plant-based or keto?",
+       "locked": true,
+       "len": 145
+      }
+     ]
+    },
+    {
+     "main": {
+      "id": "e39",
+      "kind": "step",
+      "title": "The cleanse",
+      "locked": true,
+      "len": 104
+     },
+     "side": [
+      {
+       "id": "e40",
+       "kind": "optional",
+       "title": "Liver flush, case by case",
+       "locked": true,
+       "len": 42
+      }
+     ],
+     "asks": [
+      {
+       "id": "e41",
+       "kind": "question",
+       "title": "Do I need a liver flush?",
+       "locked": true,
+       "len": 63
+      }
+     ]
+    },
+    {
+     "main": {
+      "id": "e42",
+      "kind": "step",
+      "title": "The final week and day 0",
+      "locked": true,
+      "len": 100
+     },
+     "side": [],
+     "asks": [
+      {
+       "id": "e43",
+       "kind": "question",
+       "title": "What do I write down on day 0?",
+       "locked": true,
+       "len": 104
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "The ladder",
+   "rows": [
+    {
+     "main": {
+      "id": "e44",
+      "kind": "step",
+      "title": "Rung 1: a 36-hour dry fast"
+     },
+     "side": [],
+     "asks": [
+      {
+       "id": "e46",
+       "kind": "question",
+       "title": "Can I go straight to five days?",
+       "body": "Never. The ladder builds tolerance: 36 hours, then 72, then the full fast, with recovery between rungs."
+      }
+     ]
+    },
+    {
+     "main": {
+      "id": "e45",
+      "kind": "step",
+      "title": "Rung 2: a 72-hour dry fast"
+     },
+     "side": [],
+     "asks": []
+    },
+    {
+     "main": {
+      "id": "e48",
+      "kind": "decision",
+      "title": "Cleared both rungs?"
+     },
+     "side": [
+      {
+       "id": "e49",
+       "kind": "stop",
+       "title": "Cannot fast yet",
+       "branch": "no",
+       "locked": true,
+       "len": 84
+      }
+     ],
+     "asks": []
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "The dry fast",
+   "rows": [
+    {
+     "main": {
+      "id": "e50",
+      "kind": "step",
+      "title": "The dry fast",
+      "locked": true,
+      "len": 75
+     },
+     "side": [],
+     "asks": [
+      {
+       "id": "e51",
+       "kind": "question",
+       "title": "How long should I go?",
+       "body": "Five days dry is the cap at home. Deeper fasts may go further but demand a stricter refeed and more care."
+      }
+     ]
+    },
+    {
+     "main": {
+      "id": "e52",
+      "kind": "step",
+      "title": "The daily readings",
+      "locked": true,
+      "len": 105
+     },
+     "side": [],
+     "asks": [
+      {
+       "id": "e53",
+       "kind": "question",
+       "title": "Day 3 feels awful. Do I quit?",
+       "locked": true,
+       "len": 109
+      }
+     ]
+    },
+    {
+     "main": {
+      "id": "e54",
+      "kind": "decision",
+      "title": "Stop rule or prodrome?"
+     },
+     "side": [
+      {
+       "id": "e55",
+       "kind": "stop",
+       "title": "A stop rule, or a prodrome",
+       "branch": "yes",
+       "body": "Stop rule hit: break the fast. Prodrome (tingling, sore throat, low fever): end the dry phase, go to water with electrolytes, L-lysine at once."
+      }
+     ],
+     "asks": [
+      {
+       "id": "e56",
+       "kind": "question",
+       "title": "Kidney pain?",
+       "locked": true,
+       "len": 90
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "The water bridge",
+   "rows": [
+    {
+     "main": {
+      "id": "e57",
+      "kind": "step",
+      "title": "Water only, with electrolytes",
+      "locked": true,
+      "len": 112
+     },
+     "side": [],
+     "asks": [
+      {
+       "id": "e58",
+       "kind": "question",
+       "title": "Why water after dry, not before?",
+       "body": "The order is locked. Water rehydrates the kidneys before food returns and before any antiviral drug can go in."
+      }
+     ]
+    },
+    {
+     "main": {
+      "id": "e59",
+      "kind": "step",
+      "title": "The supportive layer",
+      "locked": true,
+      "len": 87
+     },
+     "side": [],
+     "asks": [
+      {
+       "id": "e60",
+       "kind": "question",
+       "title": "Can I start valacyclovir now?",
+       "locked": true,
+       "len": 66
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "The refeed, days 1 to 14 (the most important part)",
+   "rows": [
+    {
+     "main": {
+      "id": "e61",
+      "kind": "step",
+      "title": "Refeed days 1 to 4",
+      "locked": true,
+      "len": 109
+     },
+     "side": [],
+     "asks": [
+      {
+       "id": "e62",
+       "kind": "question",
+       "title": "Why so slow?",
+       "body": "Refeeding syndrome is real, and days 1 to 14 are the consolidation window: new cells are settling, and any fresh stress can lock them back."
+      }
+     ]
+    },
+    {
+     "main": {
+      "id": "e63",
+      "kind": "step",
+      "title": "Antiviral cover all week",
+      "locked": true,
+      "len": 122
+     },
+     "side": [],
+     "asks": [
+      {
+       "id": "e64",
+       "kind": "question",
+       "title": "What must I avoid?",
+       "locked": true,
+       "len": 133
+      }
+     ]
+    },
+    {
+     "main": {
+      "id": "e65",
+      "kind": "decision",
+      "title": "A crash or a reactivation sign?"
+     },
+     "side": [
+      {
+       "id": "e66",
+       "kind": "stop",
+       "title": "Hold the ladder",
+       "branch": "yes",
+       "locked": true,
+       "len": 87
+      }
+     ],
+     "asks": [
+      {
+       "id": "e67",
+       "kind": "question",
+       "title": "When can I exercise?",
+       "locked": true,
+       "len": 46
+      }
+     ]
+    },
+    {
+     "main": {
+      "id": "e68",
+      "kind": "step",
+      "title": "Days 5 to 7, then the ramp",
+      "locked": true,
+      "len": 91
+     },
+     "side": [
+      {
+       "id": "e69",
+       "kind": "optional",
+       "title": "From day 8, per case",
+       "locked": true,
+       "len": 59
+      }
+     ],
+     "asks": [
+      {
+       "id": "e70",
+       "kind": "question",
+       "title": "No T3 yet?",
+       "locked": true,
+       "len": 61
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "title": "Restore the metabolism: T3 or not?",
+   "rows": [
+    {
+     "main": {
+      "id": "e71",
+      "kind": "decision",
+      "title": "After day 7: how did you come out of the fast?"
+     },
+     "side": [
+      {
+       "id": "e72",
+       "kind": "stop",
+       "title": "SKIP T3",
+       "branch": "well",
+       "jump": {
+        "label": "skip T3",
+        "toSection": 9,
+        "toTitle": "Between fasts and the next cycle"
+       },
+       "locked": true,
+       "len": 120
+      }
+     ],
+     "asks": [
+      {
+       "id": "e73",
+       "kind": "question",
+       "title": "When should someone NOT do T3?",
+       "locked": true,
+       "len": 164
+      }
+     ]
+    },
+    {
+     "main": {
+      "id": "e74",
+      "kind": "step",
+      "title": "The T3 course, case by case",
+      "locked": true,
+      "len": 99
+     },
+     "side": [],
+     "asks": [
+      {
+       "id": "e75",
+       "kind": "question",
+       "title": "Nothing has worked for years. Should I try it?",
+       "locked": true,
+       "len": 91
+      }
+     ]
+    },
+    {
+     "main": {
+      "id": "e76",
+      "kind": "step",
+      "title": "Titrate to temperature",
+      "locked": true,
+      "len": 109
+     },
+     "side": [],
+     "asks": []
+    },
+    {
+     "main": {
+      "id": "e78",
+      "kind": "step",
+      "title": "The taper bridge",
+      "locked": true,
+      "len": 117
+     },
+     "side": [],
+     "asks": [
+      {
+       "id": "e79",
+       "kind": "question",
+       "title": "Can I just stop T3?",
+       "body": "Never cold. The taper and the trough after it are a reactivation window, so the full stack runs through them."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "title": "Between fasts and the next cycle",
+   "rows": [
+    {
+     "main": {
+      "id": "e80",
+      "kind": "step",
+      "title": "Life between fasts",
+      "locked": true,
+      "len": 94
+     },
+     "side": [],
+     "asks": []
+    },
+    {
+     "main": {
+      "id": "e82",
+      "kind": "decision",
+      "title": "After two cycles: still problems?"
+     },
+     "side": [
+      {
+       "id": "e83",
+       "kind": "outcome",
+       "title": "Keep the rhythm",
+       "branch": "no",
+       "locked": true,
+       "len": 69
+      }
+     ],
+     "asks": [
+      {
+       "id": "e84",
+       "kind": "question",
+       "title": "If I stall, should I fast more or deeper?",
+       "body": "No. A stalled rebuild is not answered with more fasting."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "title": "Regeneration (hGH optional, the last step)",
+   "rows": [
+    {
+     "main": {
+      "id": "e85",
+      "kind": "step",
+      "title": "Regeneration bioenergetics",
+      "locked": true,
+      "len": 105
+     },
+     "side": [],
+     "asks": [
+      {
+       "id": "e86",
+       "kind": "question",
+       "title": "Is hGH required?",
+       "body": "No. It is the last step, only when the body cannot enter regeneration on its own. Otherwise it is avoided."
+      }
+     ]
+    },
+    {
+     "main": {
+      "id": "e87",
+      "kind": "decision",
+      "title": "Regeneration not starting on its own?"
+     },
+     "side": [
+      {
+       "id": "e88",
+       "kind": "outcome",
+       "title": "It is starting",
+       "branch": "no",
+       "locked": true,
+       "len": 27
+      }
+     ],
+     "asks": []
+    },
+    {
+     "main": {
+      "id": "e89",
+      "kind": "optional",
+      "title": "Optional hGH, set with Yannick",
+      "locked": true,
+      "len": 127
+     },
+     "side": [],
+     "asks": [
+      {
+       "id": "e90",
+       "kind": "question",
+       "title": "Who must not use hGH?",
+       "body": "Anyone with active cancer; every cancer history goes to Yannick first. Screening comes before it."
+      }
+     ]
+    },
+    {
+     "main": {
+      "id": "e91",
+      "kind": "optional",
+      "title": "The last lever of all",
+      "locked": true,
+      "len": 65
+     },
+     "side": [],
+     "asks": []
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "title": "Graduation",
+   "rows": [
+    {
+     "main": {
+      "id": "e93",
+      "kind": "decision",
+      "title": "Ready for real exercise?"
+     },
+     "side": [
+      {
+       "id": "e94",
+       "kind": "stop",
+       "title": "Not yet: keep pacing",
+       "branch": "not yet",
+       "locked": true,
+       "len": 32
+      }
+     ],
+     "asks": [
+      {
+       "id": "e95",
+       "kind": "question",
+       "title": "How do I know I am ready?",
+       "body": "Temperature near normal, a wider energy envelope, quick recovery after effort."
+      }
+     ]
+    },
+    {
+     "main": {
+      "id": "e96",
+      "kind": "step",
+      "title": "Graduation",
+      "locked": true,
+      "len": 72
+     },
+     "side": [],
+     "asks": []
+    }
+   ]
+  }
+ ]
+}

@@ -16,6 +16,7 @@ const BASE_URL = "https://scorchprotocol.com";
 const protocolPages: { path: string; priority: number }[] = [
   { path: "/healing-cycle", priority: 0.9 },
   { path: "/decision-tree", priority: 0.9 },
+  { path: "/protocol-map", priority: 0.9 },
   { path: "/preparation", priority: 0.9 },
   { path: "/dry-fasting", priority: 0.9 },
   { path: "/dry-fasting-vs-water-fasting", priority: 0.9 },

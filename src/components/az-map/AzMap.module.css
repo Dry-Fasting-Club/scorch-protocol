@@ -1,0 +1,358 @@
+/* The A to Z map: one spine down the middle, stops and optional add-ons on the
+   left, the questions people ask on the right. Stacks to one column on phones.
+   Tokens are local so the same file works in the public site and the portal. */
+
+.map {
+  --az-surface: var(--surface, #111827);
+  --az-surface-2: var(--surface-2, #1a2234);
+  --az-border: var(--border, rgba(255, 255, 255, 0.08));
+  --az-heading: var(--heading-color, #f1f5f9);
+  --az-text: var(--text-color, #cbd5e1);
+  --az-muted: var(--text-secondary, #94a3b8);
+  --az-accent: var(--scorch, #e85d04);
+  --az-step: #5b9bd5;
+  --az-decision: #e2e8f0;
+  --az-question: #eab308;
+  --az-stop: #f0825a;
+  --az-optional: #a78bfa;
+
+  container-type: inline-size;
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  color: var(--az-text);
+}
+
+/* Key */
+.key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 10px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.keyItem {
+  margin: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 12px;
+  border: 1px solid var(--az-border);
+  border-radius: 999px;
+  font-size: 0.8125rem;
+  color: var(--az-muted);
+}
+.keyDot {
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  background: var(--tone);
+}
+.keyDotDecision {
+  transform: rotate(45deg);
+  border-radius: 1px;
+}
+
+/* Section */
+.section {
+  border: 1px solid var(--az-border);
+  border-radius: 16px;
+  background: var(--az-surface);
+  padding: 20px 18px 22px;
+  scroll-margin-top: 80px;
+}
+.sectionHead {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  margin: 0 0 20px;
+}
+.sectionNum {
+  flex: none;
+  font-family: var(--font-fraunces, Fraunces, Georgia, serif);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--az-accent);
+  font-variant-numeric: tabular-nums;
+}
+.sectionTitle {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: var(--font-fraunces, Fraunces, Georgia, serif);
+  font-size: 1.375rem;
+  font-weight: 600;
+  line-height: 1.25;
+  color: var(--az-heading);
+  text-wrap: balance;
+}
+
+/* Rows. Narrow: one column, the step first, then what hangs off it.
+   Medium: step and its branch on the left, the questions on the right.
+   Wide: side | main | asks, as on the whiteboard. */
+.rows {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.row {
+  margin: 0;
+  list-style: none;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-areas: 'main' 'side' 'asks';
+  gap: 10px 26px;
+  align-items: start;
+  padding-bottom: 26px;
+  position: relative;
+}
+.row:last-child {
+  padding-bottom: 0;
+}
+/* The spine: a line from each step down to the next one. */
+.row:not(:last-child)::before {
+  content: '';
+  position: absolute;
+  left: 13px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: color-mix(in srgb, var(--az-muted) 40%, transparent);
+}
+.main {
+  grid-area: main;
+  position: relative;
+}
+.main > .node {
+  z-index: 1;
+}
+.side {
+  grid-area: side;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-left: 30px;
+}
+.asks {
+  grid-area: asks;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-left: 30px;
+}
+
+@container (min-width: 620px) {
+  .row {
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 'main asks' 'side asks';
+  }
+  .asks {
+    margin-left: 0;
+  }
+}
+
+@container (min-width: 900px) {
+  .row {
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1fr) minmax(0, 1.25fr);
+    grid-template-rows: auto;
+    grid-template-areas: 'side main asks';
+    padding-bottom: 30px;
+  }
+  .row:not(:last-child)::before {
+    display: none;
+  }
+  .main {
+    align-self: stretch;
+  }
+  .row:not(:last-child) .main::before {
+    content: '';
+    position: absolute;
+    left: calc(50% - 1px);
+    top: 0;
+    bottom: -30px;
+    width: 2px;
+    background: color-mix(in srgb, var(--az-muted) 40%, transparent);
+  }
+  .side {
+    margin-left: 0;
+  }
+}
+
+/* Node */
+.node {
+  position: relative;
+  border: 1px solid var(--az-border);
+  border-left: 3px solid var(--tone);
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--tone) 7%, var(--az-surface-2));
+  padding: 14px 16px;
+  min-width: 0;
+}
+.step {
+  --tone: var(--az-step);
+}
+.decision {
+  --tone: var(--az-decision);
+  border: 1px dashed color-mix(in srgb, var(--az-decision) 55%, transparent);
+  background: var(--az-surface-2);
+  text-align: center;
+  padding: 18px 16px;
+}
+.question {
+  --tone: var(--az-question);
+}
+.stop {
+  --tone: var(--az-stop);
+}
+.optional {
+  --tone: var(--az-optional);
+}
+.outcome {
+  --tone: var(--az-step);
+}
+
+.eyebrow {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--tone);
+}
+.nodeTitle {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.35;
+  color: var(--az-heading);
+}
+.decision .nodeTitle {
+  font-family: var(--font-fraunces, Fraunces, Georgia, serif);
+  font-size: 1.0625rem;
+}
+.body {
+  margin: 8px 0 0;
+  padding: 0;
+  max-width: none;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: var(--az-text);
+}
+.jump {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--tone);
+  text-decoration: none;
+  border-bottom: 1px dashed currentColor;
+}
+.jump:hover {
+  color: var(--az-heading);
+}
+
+/* Locked description: blurred filler under a join call-out. The filler is not
+   the real text; the real text is not on this page. */
+.locked {
+  position: relative;
+  display: block;
+  margin-top: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  outline-offset: 3px;
+}
+.filler {
+  display: block;
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: var(--az-text);
+  filter: blur(5px);
+  opacity: 0.75;
+  user-select: none;
+  pointer-events: none;
+  overflow-wrap: anywhere;
+}
+.callout {
+  position: absolute;
+  inset: -4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 6px 10px;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--az-surface) 88%, transparent);
+  border: 1px solid color-mix(in srgb, var(--az-accent) 60%, transparent);
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+.locked:hover .callout,
+.locked:focus-visible .callout {
+  opacity: 1;
+}
+.calloutLead {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--az-heading);
+}
+.calloutAction {
+  font-size: 0.8125rem;
+  font-weight: 600;
+  line-height: 1.3;
+  color: var(--az-accent);
+}
+.lockTag {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 3px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--az-border);
+  background: color-mix(in srgb, var(--az-surface) 80%, transparent);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--az-muted);
+  white-space: nowrap;
+  transition: opacity 0.15s ease;
+}
+.locked:hover .lockTag,
+.locked:focus-visible .lockTag {
+  opacity: 0;
+}
+/* No hover on a touch screen: the call-out is always there, and a tap joins. */
+@media (hover: none) {
+  .callout {
+    opacity: 1;
+  }
+  .lockTag {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .callout,
+  .lockTag {
+    transition: none;
+  }
+}
+
+/* The key reuses the kind classes for their tone only. */
+.keyItem.decision {
+  border: 1px solid var(--az-border);
+  background: none;
+  padding: 6px 12px;
+  text-align: left;
+}
