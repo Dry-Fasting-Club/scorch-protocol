@@ -26,7 +26,7 @@ export const metadata: Metadata = {
 const LOCK = {
   href: MEMBERS_MEMBER_SIGNUP_URL,
   lead: "Members see the full map",
-  action: "Join for $29/month →",
+  action: "Join to view →",
 };
 
 export default function ProtocolMapPage() {
@@ -85,7 +85,7 @@ export default function ProtocolMapPage() {
           refeed plan, and their own questions answered by Yannick.
         </p>
         <a href={MEMBERS_MEMBER_SIGNUP_URL} className="guidance-btn">
-          Join for $29/month →
+          Join to view the full map →
         </a>
       </div>
     </>
