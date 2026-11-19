@@ -133,6 +133,7 @@ export default function StarterKitPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Whole-food taper, plant-based or keto<Tag>Food</Tag></span>
+          Plant-based is the default; keto is the exception, for gut cases.
           Build the high-metabolism baseline the fast works against, and eat
           light into it: no oils, no meat, nothing hard to digest for the last
           one to two days.
@@ -231,7 +232,7 @@ export default function StarterKitPage() {
             ["hGH", "the rebuild signal and the preferred base, added on top of T3 around the third cycle, for at least three to six months"],
             ["Thymalin", "rebuilds the immune system after the fast"],
             ["Fluconazole", "antifungal for specific cases"],
-            ["Testosterone", "the final lever, only after the earlier cycles are done"],
+            ["Testosterone", "experimental, only near the end, for someone most of the way back; not advised for women"],
             [
               "Microdosing psilocybin",
               "optional, adjacent to the rebuild for neuroplasticity, with a secondary lift to mood and drive. A controlled substance in most places, so legal status varies by location and it is a per-case conversation.",

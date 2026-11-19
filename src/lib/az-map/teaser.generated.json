@@ -26,7 +26,7 @@
        "id": "e21",
        "kind": "question",
        "title": "What if I have POTS, type 2 diabetes on medication, or take many medications?",
-       "body": "Not a no. These are prep-first flags: plan them with Yannick before anything starts."
+       "body": "Not a no. In Yannick’s experience fasting is still very advisable with POTS. Medications are tapered down as far as possible first, planned with Yannick."
       }
      ]
     },
@@ -43,7 +43,7 @@
        "id": "e23",
        "kind": "question",
        "title": "Do I need lab tests first?",
-       "body": "Optional. Temperature is the main instrument. Labs help if you can get them; none is required to start."
+       "body": "No. Labs are good for a baseline if you can get them, but temperature and symptoms are enough to start."
       }
      ]
     },
@@ -67,7 +67,25 @@
        "id": "e26",
        "kind": "question",
        "title": "Who responds best?",
-       "body": "A low waking temperature plus clear metabolic damage: cold hands and feet, weight that will not move, wrecked for days after effort."
+       "body": "People already worn down by years of intermittent fasting, calorie deficits or very long fasts. It helped at first, then the fasts stopped helping and they began to slide. Usually cold, with very low energy."
+      },
+      {
+       "id": "e144",
+       "kind": "question",
+       "title": "Is simple fasting enough, or do I need all of this?",
+       "body": "In Yannick’s experience plain fasting resolves a great deal, and most people never need more. Scorch is the advanced version, for the few whose fasting has stopped working."
+      },
+      {
+       "id": "e145",
+       "kind": "question",
+       "title": "I have been ill for years. Is it too late?",
+       "body": "The longer it has run, the harder it is to heal. Still possible."
+      },
+      {
+       "id": "e146",
+       "kind": "question",
+       "title": "Am I too old for this?",
+       "body": "Almost no age is too old. An older body is weaker and needs a slower build-up, and the early, short fasts will show whether it can handle more."
       }
      ]
     }
@@ -97,7 +115,7 @@
        "id": "e29",
        "kind": "question",
        "title": "What do the bands mean?",
-       "body": "96.0 to 96.9 °F: usually can fast, case by case. 97.0 to 97.7: usually clear. 97.8 and up: ideal."
+       "body": "96.0 to 96.9 °F: usually can fast, case by case. 97.0 to 97.7: usually clear. 97.8 and up: ideal. The bands follow Wilson’s protocol and Broda Barnes’s work on low thyroid."
       }
      ]
     },
@@ -123,7 +141,7 @@
        "kind": "question",
        "title": "Should I take T3 before my first fast?",
        "locked": true,
-       "len": 116
+       "len": 196
       }
      ]
     },
@@ -166,7 +184,7 @@
        "id": "e36",
        "kind": "question",
        "title": "Can I skip preparation?",
-       "body": "No. The hard stops and the preparation exist for the same reason: the fast punishes shortcuts."
+       "body": "No. The only near-exception is someone already on a near-carnivore diet, and even then it is not ideal. On many medications, never."
       }
      ]
     },
@@ -176,7 +194,7 @@
       "kind": "step",
       "title": "Choose the preparation path",
       "locked": true,
-      "len": 87
+      "len": 102
      },
      "side": [],
      "asks": [
@@ -185,7 +203,7 @@
        "kind": "question",
        "title": "Plant-based or keto?",
        "locked": true,
-       "len": 145
+       "len": 170
       }
      ]
     },
@@ -264,7 +282,15 @@
       "title": "Rung 2: a 72-hour dry fast"
      },
      "side": [],
-     "asks": []
+     "asks": [
+      {
+       "id": "e47",
+       "kind": "question",
+       "title": "How do I know I am ready for the next rung?",
+       "locked": true,
+       "len": 189
+      }
+     ]
     },
     {
      "main": {
@@ -470,7 +496,7 @@
       "kind": "step",
       "title": "Days 5 to 7, then the ramp",
       "locked": true,
-      "len": 91
+      "len": 123
      },
      "side": [
       {
@@ -487,7 +513,7 @@
        "kind": "question",
        "title": "No T3 yet?",
        "locked": true,
-       "len": 61
+       "len": 161
       }
      ]
     }
@@ -501,7 +527,7 @@
      "main": {
       "id": "e71",
       "kind": "decision",
-      "title": "After day 7: how did you come out of the fast?"
+      "title": "One month on: how did you come out of the fast?"
      },
      "side": [
       {
@@ -573,6 +599,13 @@
        "kind": "question",
        "title": "Can I just stop T3?",
        "body": "Never cold. The taper and the trough after it are a reactivation window, so the full stack runs through them."
+      },
+      {
+       "id": "e147",
+       "kind": "question",
+       "title": "Who is T3 best for?",
+       "locked": true,
+       "len": 212
       }
      ]
     }
@@ -588,10 +621,18 @@
       "kind": "step",
       "title": "Life between fasts",
       "locked": true,
-      "len": 94
+      "len": 91
      },
      "side": [],
-     "asks": []
+     "asks": [
+      {
+       "id": "e81",
+       "kind": "question",
+       "title": "How many cycles will I need?",
+       "locked": true,
+       "len": 272
+      }
+     ]
     },
     {
      "main": {
@@ -630,7 +671,7 @@
       "kind": "step",
       "title": "Regeneration bioenergetics",
       "locked": true,
-      "len": 105
+      "len": 152
      },
      "side": [],
      "asks": [
@@ -684,10 +725,18 @@
       "kind": "optional",
       "title": "The last lever of all",
       "locked": true,
-      "len": 65
+      "len": 161
      },
      "side": [],
-     "asks": []
+     "asks": [
+      {
+       "id": "e92",
+       "kind": "question",
+       "title": "Is the rebuild different for women?",
+       "locked": true,
+       "len": 154
+      }
+     ]
     }
    ]
   },

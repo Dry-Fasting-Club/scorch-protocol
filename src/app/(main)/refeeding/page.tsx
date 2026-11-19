@@ -45,7 +45,7 @@ export default function RefeedingPage() {
         "Refeeding syndrome is a real danger. Do not eat solid proteins on day 1, avoid caffeine for at least 7 days, and do not combine high-fat and high-carb foods in the first few days.",
         "Refeed days 1 to 14 are the consolidation window, and its mutagen rules are: no alcohol, nicotine, smoked, charred or processed meat, mouldy food, sunburn, elective scans or new drugs you do not need. It rests on one mouse study and nobody has measured it in people, but it costs nothing, so I keep it.",
         "After the first week, ramp calories gradually, building toward the calorie target on the Metabolism Repair Plan page to complete the metabolic reset.",
-        "Antivirals keep running across the whole first week, mitochondrial support (methylene blue, and in some cases ethyl pyruvate) is added case by case with no fixed dose, and T3 therapy does not begin until after 7 full days of refeeding.",
+        "Antivirals keep running across the whole first week, mitochondrial support (methylene blue, and in some cases ethyl pyruvate) is added case by case with no fixed dose, and T3 therapy does not begin until at least a month after the fast ends.",
         "Watch for a stuck-cortisol pattern after the fast (puffiness, elevated blood pressure, belly fat rebound) and see the dedicated cortisol section if it appears.",
       ]} />
       <p>
@@ -418,22 +418,25 @@ export default function RefeedingPage() {
           This is worth stating plainly, because it is a change from how the
           protocol used to be sequenced. You finish the fast, the dry fast and
           then the water fast, with no T3 on board. You do not start T3 during
-          the fast, and you do not start it in the first week of refeeding. T3
-          therapy begins only after you have completed seven full days of
-          refeeding, and not into an unsettled refeed: a new symptom, a stalled
-          ladder or an infection means T3 waits. It begins once the food is
+          the fast, and you do not start it during the refeed. T3 therapy
+          begins at least a month after the fast ends, and not into an
+          unsettled refeed: a new symptom, a stalled ladder or an infection
+          means T3 waits. One month is the minimum buffer. In my experience
+          starting T3 early looked worse than waiting: the body needs that time
+          to recalibrate, and the thyroid system alone can take one to four
+          months. It begins once the food is
           back in, once the antiviral coverage has carried you through the
           reactivation window, and once the mitochondrial support has had a
           week to work.
         </p>
         <p>
-          After those seven days you decide whether this cycle needs T3 at all.
+          By the end of that month you decide whether this cycle needs T3 at all.
           If the fast left you running hot, holding your weight and feeling
           great, you skip it. If you came out cold, with your weight stuck and
           the old symptoms still there, that is the metabolic slowdown T3 is
           for, and the 30-day course runs on the Wilson&rsquo;s pattern (ramp,
           hold, taper) as laid out on the{" "}
-          <a href="/t3-therapy">T3 Therapy</a> page. Seven days after the
+          <a href="/t3-therapy">T3 Therapy</a> page. Two weeks after the
           course ends, the next fast opens. Starting T3 earlier, on top of a
           gut and a metabolism that are still coming back online, is the
           mistake this sequence is built to prevent.
@@ -484,7 +487,10 @@ export default function RefeedingPage() {
           sleep, and T3 or hGH where your case calls for them), you will
           minimize fat gain and direct more of those calories into muscle and
           tissue repair. But do not fear the scale. Resisting this phase slows
-          healing significantly.
+          healing significantly. Weight and appetite coming back is a good
+          sign, but full weight regain is not the target: in my experience a
+          well-run slow refeed keeps some fat off, and bouncing all of it back
+          means the refeed was overdone.
         </div>
         <div className="question-item">
           <span className="question-label">The Goal Is Abundance</span>
@@ -599,9 +605,10 @@ export default function RefeedingPage() {
           <span className="question-label">Why This Refeed Stack Targets It:</span>
           Carbohydrates signal abundance to the hypothalamus (reducing
           cortisol output). Low-dose aspirin blocks the inflammatory cytokines
-          (TNF-α especially) that jam the off-switch closed. In the first seven
-          days of refeeding these two do the work, because T3 is not on board
-          yet. Once T3 therapy begins after day 7 of refeeding, slow-release T3
+          (TNF-α especially) that jam the off-switch closed. Through the refeed
+          and the month after the fast these two do the work, because T3 is
+          not on board yet. Once T3 therapy begins, at least a month after the
+          fast, slow-release T3
           restores the metabolic clearance pathway that pulls active cortisol
           out of the bloodstream and completes the correction. Together they
           flip the switch back to its normal balance.

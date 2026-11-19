@@ -23,7 +23,7 @@ const chart0 = `graph TD
   Q1 -->|No| Q2{"I have been sick for over 6 months<br />and it is affecting my daily life
   significantly<br />but I can still manage it with tons of supplements or medication.<br />I get PEM after exercise."}
 
-  Q2 -->|Yes| Intermediate["Intermediate Scorch Protocol<br />Phases 1, 2, 3, then 4<br />Fast first; the 30-day T3 course follows the refeed<br />if the slowdown shows"]
+  Q2 -->|Yes| Intermediate["Intermediate Scorch Protocol<br />Phases 1, 2, 3, then 4<br />Fast first; the 30-day T3 course follows<br />at least a month after the fast, if the slowdown shows"]
   Q2 -->|No| Q3{"I have been sick for well over a year,<br />I have tried tons of therapies and only kept
   getting worse.<br />I am not functional."}
 
@@ -42,7 +42,7 @@ const chartTemp = `graph TD
 
   FastFirst --> Refeed{"How did the fast leave you?"}
   Refeed -->|"Running hot, holding weight, feeling great"| NoT3["No T3 this cycle"]
-  Refeed -->|"Cold, weight stuck, old symptoms back"| T3["30-day T3 course after refeed day 7<br />Next fast opens 7 days after it ends"]
+  Refeed -->|"Cold, weight stuck, old symptoms back"| T3["30-day T3 course, at least a month after the fast<br />Next fast opens 2 weeks after it ends"]
 
   style FastFirst fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
   style NoT3 fill:#14532d,stroke:#22c55e,stroke-width:2px,color:#86efac
@@ -104,7 +104,7 @@ const chart1 = `graph TD
 
   T3 --> Scorch
 
-  Scorch --> Maintain["Ongoing: Cycle & Maintain<br />A cycle = fast, refeed, 30-day T3 course if needed<br />Next fast opens 7 days after the T3 course ends"]
+  Scorch --> Maintain["Ongoing: Cycle & Maintain<br />A cycle = fast, refeed and at least a month to recalibrate,<br />30-day T3 course if needed<br />Next fast opens 2 weeks after the T3 course ends"]
 
   style PathA fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
   style PathB fill:#1e293b,stroke:#64748b,stroke-width:2px,color:#cbd5e1
@@ -180,7 +180,10 @@ export default function DecisionTreePage() {
         <a href="/healing-cycle">healing-cycle</a> terms, that is the person
         whose body is too far down to get through the fast: the T3 course comes
         first as a jump start, set with me case by case, and a milder mix of T4
-        and T3 is sometimes the gentler start. Everyone else fasts first.
+        and T3 is sometimes the gentler start. It is a test of whether there
+        is any benefit: if your symptoms worsen during the slow ramp-up, taper
+        off promptly and start the regeneration protocol instead, and come
+        back to fasting plus T3 later. Everyone else fasts first.
       </p>
       <p>
         <em>
@@ -245,7 +248,7 @@ export default function DecisionTreePage() {
             <strong>Mildly low.</strong> Fast first, and track temperature
             daily through the fast and refeed. If the slowdown shows up after
             the fast (cold, weight stuck, old symptoms back), the 30-day T3
-            course follows refeed day 7.
+            course starts at least a month after the fast.
           </p>
         </div>
         <div

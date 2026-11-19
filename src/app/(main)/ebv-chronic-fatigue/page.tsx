@@ -239,10 +239,10 @@ export default function EbvChronicFatiguePage() {
         through the months between fasts. An immune-rebuilding thymic
         peptide, to speed the return of T-cell function, is a special case I
         set with people individually, never before refeed day 8. T3 itself is
-        deliberately held until you have scaled
-        food for a full seven days of refeed, so through this window it is the
+        deliberately held until at least a month after the fast, so through
+        this window it is the
         antiviral stack, not T3, that holds the line. In my model, once T3
-        begins after refeed day 7, it restores the Type I interferon signalling
+        begins, it restores the Type I interferon signalling
         that keeps latent viruses suppressed for the long term, though the T3
         ramp is itself one of the{" "}
         <Link href="/viral-reactivation#five-windows">reactivation watch windows</Link>.

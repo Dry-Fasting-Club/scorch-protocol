@@ -304,7 +304,7 @@ export default function DryFastingVsWaterFastingPage() {
           water through the kidneys, so the body stays systemically dehydrated
           on the water days, and valacyclovir waits for refeed day 3 at the
           earliest. T3 is different again: it is not started during the fast
-          at all, but only after the first 7 days of refeeding.
+          at all, but only at least a month after the fast ends.
         </li>
         <li>
           <strong>It is the right follow-on to a dry fast.</strong> After 5
@@ -365,7 +365,7 @@ export default function DryFastingVsWaterFastingPage() {
           <strong>Puts the natural antiviral cover in place</strong> (L-lysine
           from water day 1, monolaurin and olive leaf with the first meal) so
           it carries into the refeed, where valacyclovir joins on day 3 at the
-          earliest and T3 begins only after day 7.
+          earliest and T3 begins only at least a month after the fast.
         </li>
         <li>
           <strong>Does not clear the way for prescription antivirals.</strong>{" "}

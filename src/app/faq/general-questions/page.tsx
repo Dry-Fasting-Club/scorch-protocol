@@ -28,7 +28,7 @@ const faqItems = [
   },
   {
     question: "Can I skip the preparation phase?",
-    answer: "No. Preparation is where you choose your road into the fast: a plant-based taper that heals deeper, or a ketogenic path that is safer and more forgiving. Skipping it can make the fast much harder and even dangerous. Either path gets your body ready to burn fat and clears out your system gently through food so you do not feel as sick during the fast.",
+    answer: "No. Preparation is where your road into the fast is set, person to person: a plant-based taper that heals deeper is the default, and a ketogenic path is the exception for gut cases (SIBO, heavy bloating, carbs not yet tolerated). Skipping it can make the fast much harder and even dangerous. Either path gets your body ready to burn fat and clears out your system gently through food so you do not feel as sick during the fast. The one exception is someone already on a near-carnivore diet, so adapted to ketosis that the fast forgives a weak cleanse, and even then it is not ideal. Anyone on many medications never skips it.",
   },
   {
     question: "Why is the refeeding phase so dangerous?",
@@ -52,7 +52,7 @@ const faqItems = [
   },
   {
     question: "How long does the whole protocol take?",
-    answer: "The fast may only last a few days, but full recovery including refeeding, metabolic reconstruction, and hormone therapy can take 6 to 12 months. Healing deep, chronic issues is a marathon, not a sprint. The unit is the cycle: a fast, a refeed and a 30-day T3 course, with the next fast opening seven days after the T3 course ends. Sometimes symptoms may indicate that additional cycles are necessary.",
+    answer: "The fast may only last a few days, but full recovery including refeeding, metabolic reconstruction, and hormone therapy can take 6 to 12 months. Healing deep, chronic issues is a marathon, not a sprint. The unit is the cycle: a fast, the refeed and at least a month to recalibrate, a 30-day T3 course, and two weeks before the next fast. Sometimes symptoms may indicate that additional cycles are necessary.",
   },
   {
     question: "Where do I get slow-release T3, peptides, or hGH?",
@@ -109,12 +109,16 @@ export default function GeneralQuestionsPage() {
 
         <h3>4. Can I skip the preparation phase?</h3>
         <p>
-          <strong>No.</strong> Preparation is where you choose your road into the
-          fast: a plant-based taper that heals deeper, or a ketogenic path that
-          is safer and more forgiving. Skipping it can make the fast much harder
-          and even dangerous. Either path gets your body ready to burn fat and
-          clears out your system gently through food, so you don&rsquo;t feel as
-          sick during the fast.
+          <strong>No.</strong> Preparation is where your road into the fast is
+          set, person to person: a plant-based taper that heals deeper is the
+          default, and a ketogenic path is the exception for gut cases (SIBO,
+          heavy bloating, carbs not yet tolerated). Skipping it can make the
+          fast much harder and even dangerous. Either path gets your body ready
+          to burn fat and clears out your system gently through food, so you
+          don&rsquo;t feel as sick during the fast. The one exception is
+          someone already on a near-carnivore diet, so adapted to ketosis that
+          the fast forgives a weak cleanse, and even then it is not ideal.
+          Anyone on many medications never skips it.
         </p>
 
         <h3>5. Why is the refeeding phase so dangerous?</h3>
@@ -189,8 +193,8 @@ export default function GeneralQuestionsPage() {
           recovery (including refeeding, metabolic reconstruction, and
           hormone therapy) can take <strong>6 to 12 months</strong>. Healing
           deep, chronic issues is a marathon, not a sprint. The unit is the
-          cycle: a fast, a refeed and a 30-day T3 course, with the next fast
-          opening seven days after the T3 course ends. Sometimes your symptoms
+          cycle: a fast, the refeed and at least a month to recalibrate, a
+          30-day T3 course, and two weeks before the next fast. Sometimes your symptoms
           may indicate extra cycles being necessary.
         </p>
 

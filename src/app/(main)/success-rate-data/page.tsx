@@ -12,7 +12,7 @@ import { medicalWebPageLd } from "@/lib/structured-data";
 export const metadata: Metadata = {
   title: "Results: What Improves, and For Whom",
   description:
-    "What people report after running the Scorch Protocol, which profile responds best (a low waking temperature and clear signs of metabolic damage), and an honest account of where these reports come from and what they cannot tell you.",
+    "What people report after running the Scorch Protocol, which profile responds best (heavy metabolic stress behind them, fasts that stopped helping, a low waking temperature), and an honest account of where these reports come from and what they cannot tell you.",
   alternates: { canonical: "https://scorchprotocol.com/success-rate-data" },
 };
 
@@ -36,7 +36,7 @@ export default function SuccessRateDataPage() {
       <KeyTakeaways
         points={[
           "Most people who run the full protocol report large improvements in fatigue, brain fog, and insomnia, and a good share report full or near-full resolution.",
-          "The strongest responses cluster in one profile: a low waking temperature plus clear signs of metabolic damage. If that is your picture, this is built for you.",
+          "The strongest responses cluster in one profile: someone who has already been through heavy metabolic stress (lots of intermittent fasting, starvation, calorie deficits, very long fasts), fixed a lot at first, then found the fasts stopped helping and began to deteriorate, now with a low waking temperature and clear signs of metabolic damage. If that is your picture, this is built for you.",
           "I have also taken on cases that were extremely difficult from the first conversation, accepted openly as long shots with no promises attached. Those belong in an honest account too.",
           "These are self-reported symptom scores from people who chose to fill in a questionnaire. This is not a clinical trial, there is no control group, and nothing here was checked against medical records.",
           "Many people who came to me were assessed and told not to attempt this at all. That screening shapes everything else on this page.",
@@ -102,6 +102,13 @@ export default function SuccessRateDataPage() {
 
       <div className="guiding-questions box-info">
         <h3>The Profile That Responds</h3>
+        <div className="question-item">
+          <span className="question-label">A history of heavy metabolic stress</span>
+          In my experience the people who respond best have already been
+          through a lot of it: lots of intermittent fasting, starvation,
+          calorie deficits, very long fasts. Fasting fixed a lot for them at
+          first, then the fasts stopped helping and they began to deteriorate.
+        </div>
         <div className="question-item">
           <span className="question-label">A low waking temperature</span>
           The single most useful predictor. A basal temperature that sits
@@ -317,8 +324,8 @@ export default function SuccessRateDataPage() {
       </p>
       <ul>
         <li>
-          <strong>Strategic Preparation</strong> (ketosis, anti-parasitics,
-          anti-fungals)
+          <strong>Strategic Preparation</strong> (a plant-based taper by
+          default, anti-parasitics, anti-fungals)
         </li>
         <li>
           <strong>10-Day Fasting Block (5 Dry + 5 Water):</strong> intense
@@ -332,8 +339,8 @@ export default function SuccessRateDataPage() {
         <li>
           <strong>T3 Therapy</strong> (metabolic reset and energy restoration,
           for those whose refeed shows the slowdown; a cycle is the fast, the
-          refeed and the 30-day T3 course, with the next fast seven days after
-          the course ends)
+          refeed and at least a month to recalibrate, the 30-day T3 course,
+          and two weeks before the next fast)
         </li>
         <li>
           <strong>hGH Therapy</strong> (around the third cycle, on top of T3,

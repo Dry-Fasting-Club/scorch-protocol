@@ -86,9 +86,9 @@ export default function TipsAndTricksPage() {
           </li>
           <li>
             <strong>Follow Your Prep Path:</strong> What you eat in the days
-            before matters more than most realize. The plant-based path finishes
-            on raw and steamed vegetables; the ketogenic path keeps you fat-based
-            and low-carb. Either way, avoid heavy, processed foods. See the{" "}
+            before matters more than most realize. The plant-based path, the
+            default, finishes on raw and steamed vegetables; the ketogenic path,
+            the exception for gut cases, keeps you fat-based and low-carb. Either way, avoid heavy, processed foods. See the{" "}
             <a href="/preparation">Preparation page</a> for the full taper of
             both paths.
           </li>
@@ -273,9 +273,12 @@ export default function TipsAndTricksPage() {
             rebuild starting.
           </li>
           <li>
-            <strong>Frequency:</strong> My cycle is a fast, a refeed and, when
-            the refeed shows a metabolic slowdown, a 30-day T3 course. The next
-            fast opens seven days after the T3 course ends. Full recovery
+            <strong>Frequency:</strong> My cycle is a fast, the refeed and at
+            least a month to recalibrate, and, when the refeed shows a
+            metabolic slowdown, a 30-day T3 course. The next fast opens two
+            weeks after the T3 course ends. Without T3, the fastest pace is two
+            refeed days for every fasted day, and between fasts of five days or
+            more I usually recommend a month. Full recovery
             between fasts is not optional, and the rare fast is the powerful
             fast.
           </li>

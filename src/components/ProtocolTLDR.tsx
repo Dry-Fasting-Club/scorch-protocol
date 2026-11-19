@@ -28,7 +28,8 @@ export default function ProtocolTLDR() {
         </li>
         <li>
           <strong>Restart your metabolism with T3, if the fast shows you need it.</strong>{" "}
-          Once you are eating again, after that first week of refeeding, slow-release
+          Once the refeed is done and your body has had at least a month after the
+          fast to recalibrate, slow-release
           T3 switches your cellular energy back on so your body finally has the power
           to heal. Run hot, hold your weight and feel great after the fast, and you
           skip it this cycle; come out cold with your weight stuck, and the 30-day
@@ -44,8 +45,9 @@ export default function ProtocolTLDR() {
         </li>
       </ol>
       <p className="protocol-tldr-close">
-        Clear, support, restart, rebuild. A cycle is a fast, a refeed and a 30-day
-        T3 course, and the next fast opens seven days after the T3 course ends.
+        Clear, support, restart, rebuild. A cycle is a fast, the refeed and at
+        least a month to recalibrate, a 30-day T3 course, and two weeks before
+        the next fast.
         Everything else on this site is just the detail behind these four steps.
         You do not need to master the science to begin. You just need to start.
         Behind the four moves is one idea,{" "}

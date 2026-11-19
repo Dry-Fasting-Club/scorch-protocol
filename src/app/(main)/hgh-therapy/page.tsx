@@ -265,8 +265,8 @@ export default function HghTherapyPage() {
         <h3>Around the Third Cycle, and Only If the First Two Were Not Enough</h3>
         <div className="question-item">
           <span className="question-label">The trigger:</span>
-          A cycle is a fast, a refeed and a 30-day T3 course, with the next
-          fast opening seven days after the T3 course ends. hGH starts around
+          A cycle is a fast, the refeed and at least a month to recalibrate, a
+          30-day T3 course, and two weeks before the next fast. hGH starts around
           the third cycle, once the first two cycles have shown they are not
           doing enough on their own. The signs that make it warranted are
           specific: insulin resistance so marked that food is not tolerated,
@@ -453,10 +453,15 @@ export default function HghTherapyPage() {
       </div>
 
       <div className="guiding-questions box-success">
-        <h3>The Final Step: Testosterone, After the Rebuild Is Underway</h3>
+        <h3>The Final Step: Testosterone, Experimental and Only Near the End</h3>
         <p>
           In my own recovery, testosterone was the last lever, not
-          an early one. It goes in only after the earlier work is done: the fast
+          an early one. In the protocol it is experimental. It is a powerful
+          metabolic lever, but in my experience a chronically ill body has
+          problems with it: hair loss, high conversion to estrogen, added
+          stress on the body, worse sleep. So it comes in only near the final
+          steps, for someone who has improved dramatically, most of the way
+          back, and wants to push the last stretch to full health. It goes in only after the earlier work is done: the fast
           has cleared the ground, T3 has restored metabolic power, and the hGH
           rebuild is already established. On that base, testosterone adds
           mitochondrial density and muscle and acts as the anabolic counterweight
@@ -472,6 +477,12 @@ export default function HghTherapyPage() {
           estradiol rise rather than reflexively crushing it, since some of
           testosterone&rsquo;s benefits run through the estradiol it converts
           into.
+        </div>
+        <div className="question-item">
+          <span className="question-label">Not advised for women:</span>
+          At male levels it would cause masculinization. Women focus instead
+          on thyroid health, estrogen levels, plenty of myo-inositol, and
+          calories centred on carbs.
         </div>
         <p>
           <em>

@@ -47,9 +47,9 @@ export default function DryFastingPage() {
         "Day 3 is the hard wall (acidotic crisis). Days 4 to 5 are where deep repair and stem cell activity happen.",
         "Feeling worse mid-fast: go on walks, do massages, move the whole system. If it starts to feel really bad, or the pain is excruciating, break the fast. While heart rate, temperature, blood pressure and urination look fine, you can continue.",
         "Stop immediately if your resting heart rate stays above 120 bpm, you have had no urine for 24 hours, you faint or nearly faint, you feel confused or get blurry vision, or you have severe chest pain (and get help); strong kidney pain that does not ease with walking and belly massage, new swelling of your legs or face, or a fever around 38.0°C (100.4°F) means stop and assess, not an automatic end.",
-        "A cycle is a fast, a refeed and, if the refeed shows a metabolic slowdown, a 30-day T3 course. The next fast opens seven days after the T3 course ends. Fast first, always; T3 before the fast is only for the person fasting has already failed.",
+        "A cycle is a fast, the refeed and at least a month to recalibrate, and, if the refeed shows a metabolic slowdown, a 30-day T3 course. The next fast opens two weeks after the T3 course ends. Fast first, always; T3 before the fast is only for the person fasting has already failed.",
         "Refeeding starts with plain water, about a cup an hour for the first four hours, then kompot. Coconut water waits for day 2. Eating too much too fast is dangerous.",
-        "No T3 during the fast. You finish the dry and water fast clean, keep antiviral coverage running through the refeed, and T3 therapy only begins after the first 7 days of refeeding.",
+        "No T3 during the fast. You finish the dry and water fast clean, keep antiviral coverage running through the refeed, and T3 therapy only begins at least a month after the fast ends.",
       ]} />
 
       <h2>Step 1: Getting Ready</h2>
@@ -81,16 +81,16 @@ export default function DryFastingPage() {
           <strong>Choosing Your Path:</strong> Preparation comes in two roads.
           <ul>
             <li>
-              <em>Plant-based path (gold standard):</em> A whole-food,
+              <em>Plant-based path (gold standard, the default):</em> A whole-food,
               salt/oil/sugar-free taper over your final weeks, finishing on raw
               and steamed vegetables. It heals deeper and gets you closest to
               fully healed, but it asks for precision.
             </li>
             <li>
-              <em>Ketogenic path (safer fallback):</em> 50g of carbs a day or
+              <em>Ketogenic path (the exception):</em> 50g of carbs a day or
               less for <strong>1 to 2 months</strong> before you start. Far more
-              forgiving and the right call if you are sicker, on many
-              medications, or have struggled with fasting before.
+              forgiving, and the right call for gut cases: SIBO, heavy
+              bloating, or carbs you do not yet tolerate.
             </li>
           </ul>
           The full breakdown of both paths is on the{" "}
@@ -150,9 +150,10 @@ export default function DryFastingPage() {
         <em>
           Between the build-up fasts: wait a week or so while eating normally
           before the next step up. Once you are running the full protocol, the
-          rhythm is a cycle: a fast, a refeed and, if the refeed shows a
-          metabolic slowdown, a 30-day T3 course, with the next fast opening
-          seven days after the T3 course ends.
+          rhythm is a cycle: a fast, the refeed and at least a month to
+          recalibrate, and, if the refeed shows a metabolic slowdown, a 30-day
+          T3 course, with the next fast opening two weeks after the T3 course
+          ends.
         </em>
       </p>
 
@@ -335,8 +336,8 @@ export default function DryFastingPage() {
         </li>
         <li>
           <strong>No T3 during the fast:</strong> T3 is no longer taken during
-          the water fast. It now begins only after the first 7 days of refeeding
-          (see below).
+          the water fast. It now begins only at least a month after the fast
+          ends (see below).
         </li>
         <li>
           <strong>No L-carnitine:</strong> we no longer use L-carnitine. In my
@@ -361,7 +362,7 @@ export default function DryFastingPage() {
         refeed day 3 at the earliest, never during the fast, dry or water. The{" "}
         <a href="/viral-reactivation">Viral Reactivation</a> page has the full
         stack, including what to do if a prodrome hits mid-fast. T3 waits until
-        after refeed day 7, and not everyone
+        at least a month after the fast, and not everyone
         needs it. It is for the person who comes out of the fast and the refeed
         still cold, with whole-body and brain fatigue that does not lift. When
         and how it starts is on the <a href="/t3-therapy">T3 Therapy</a> page,
@@ -383,7 +384,7 @@ export default function DryFastingPage() {
         refeeding we also add case-by-case mitochondrial support (methylene
         blue, and in some cases ethyl pyruvate), worked out individually rather
         than by any published dose. T3 therapy is deliberately not part of this
-        window: it begins only after day 7 of refeeding.
+        window: it begins only at least a month after the fast ends.
       </p>
       <ul>
         <li>
@@ -413,7 +414,7 @@ export default function DryFastingPage() {
           day 1; monolaurin and olive leaf join with the first cooked food on
           day 3), and this is where case-by-case mitochondrial support
           (methylene blue, and in some cases ethyl pyruvate) is layered in. No
-          T3 yet: it does not begin until after day 7 of refeeding.
+          T3 yet: it does not begin until at least a month after the fast.
         </li>
         <li>
           <strong>Day 2 to 7:</strong> Day 2 is kompot, unsweetened coconut
@@ -426,10 +427,11 @@ export default function DryFastingPage() {
           still not started.
         </li>
         <li>
-          <strong>After Day 7:</strong> Decide on T3. If the fast left you
+          <strong>A Month After the Fast:</strong> Decide on T3. If the fast left you
           running hot, holding your weight and feeling great, you skip it this
           cycle. If the metabolic slowdown is there, begin the 30-day T3
-          course. See the <a href="/t3-therapy">T3 Therapy</a> page for the
+          course; one month after the fast is the minimum, because the body
+          needs that time to recalibrate. See the <a href="/t3-therapy">T3 Therapy</a> page for the
           ramp, hold, and taper.
         </li>
       </ul>

@@ -46,11 +46,11 @@ const faqItems = [
   },
   {
     question: "Should I take probiotics or vitamins immediately?",
-    answer: "No. Your gut mucosa is open and sensitive during early refeeding; strong supplements can irritate it. The exception is antivirals: if you carry any of the nine herpesviruses (HSV-1, HSV-2, VZV, EBV, CMV, HHV-6A, HHV-6B, HHV-7, or HHV-8), start L-lysine in your water from day 1 and monolaurin with your first cooked food on day 3, and keep them going across the refeed. You do not wait because the reactivation window is open right now, in the energetic trough between the fasted and fully refed states, and L-lysine and monolaurin are gentle enough for an open gut. Note that T3 is not running at this point. In the current protocol you finish the entire fast with no T3, keep the antiviral coverage going across the refeed, and T3 therapy does not begin until after seven full days of refeeding, so it plays no part in this early-refeed decision. Monolaurin and L-lysine together disrupt viral envelopes and block arginine-dependent replication.",
+    answer: "No. Your gut mucosa is open and sensitive during early refeeding; strong supplements can irritate it. The exception is antivirals: if you carry any of the nine herpesviruses (HSV-1, HSV-2, VZV, EBV, CMV, HHV-6A, HHV-6B, HHV-7, or HHV-8), start L-lysine in your water from day 1 and monolaurin with your first cooked food on day 3, and keep them going across the refeed. You do not wait because the reactivation window is open right now, in the energetic trough between the fasted and fully refed states, and L-lysine and monolaurin are gentle enough for an open gut. Note that T3 is not running at this point. In the current protocol you finish the entire fast with no T3, keep the antiviral coverage going across the refeed, and T3 therapy does not begin until at least a month after the fast ends, so it plays no part in this early-refeed decision. Monolaurin and L-lysine together disrupt viral envelopes and block arginine-dependent replication.",
   },
   {
     question: "When does T3 therapy actually start? I thought it ran during the fast.",
-    answer: "It does not run during the fast anymore. You finish the whole fasting block, dry fast then water fast, with no T3 on board. Across the refeed you keep the antiviral coverage going, and during the first seven days we add mitochondrial support, methylene blue and in some cases ethyl pyruvate, decided case by case with no fixed dose published here. T3 therapy begins only after you have completed seven full days of refeeding, and only if the refeed shows you need it: running hot, holding your weight and feeling great means you skip T3 this cycle, while cold, weight stuck and the old symptoms back means the 30-day course runs on the Wilson's pattern (ramp, hold, taper) described on the T3 Therapy page. Starting T3 on top of a gut and metabolism that are still coming back online is the mistake this sequence is built to prevent.",
+    answer: "It does not run during the fast anymore. You finish the whole fasting block, dry fast then water fast, with no T3 on board. Across the refeed you keep the antiviral coverage going, and during the first seven days we add mitochondrial support, methylene blue and in some cases ethyl pyruvate, decided case by case with no fixed dose published here. T3 therapy begins only at least a month after the fast ends, and only if the refeed shows you need it. One month is the minimum buffer: in my experience starting T3 early looked worse than waiting, because the body needs that time to recalibrate, and the thyroid system alone can take one to four months. Running hot, holding your weight and feeling great means you skip T3 this cycle, while cold, weight stuck and the old symptoms back means the 30-day course runs on the Wilson's pattern (ramp, hold, taper) described on the T3 Therapy page. Starting T3 on top of a gut and metabolism that are still coming back online is the mistake this sequence is built to prevent.",
   },
   {
     question: "When can I go back to \"normal\" eating?",
@@ -265,8 +265,8 @@ export default function RefeedingFaqPage() {
               monolaurin are gentle enough for an open gut. Note that T3 is not
               running at this point. In the current protocol you finish the
               entire fast with no T3, keep the antiviral coverage going across
-              the refeed, and T3 therapy does not begin until after seven full
-              days of refeeding, so it plays no part in this early-refeed
+              the refeed, and T3 therapy does not begin until at least a month
+              after the fast ends, so it plays no part in this early-refeed
               decision. Monolaurin and L-lysine together disrupt viral envelopes
               and block arginine-dependent replication. This also applies to
               Lyme herbal protocols, but those must be reintroduced very gently.
@@ -287,8 +287,11 @@ export default function RefeedingFaqPage() {
               during the first seven days we add mitochondrial support,
               methylene blue and in some cases ethyl pyruvate, decided case by
               case with no fixed dose published here. T3 therapy begins only
-              after you have completed seven full days of refeeding, and only
-              if the refeed shows you need it. Running hot, holding your weight
+              at least a month after the fast ends, and only if the refeed
+              shows you need it. One month is the minimum buffer: in my
+              experience starting T3 early looked worse than waiting, because
+              the body needs that time to recalibrate, and the thyroid system
+              alone can take one to four months. Running hot, holding your weight
               and feeling great means you skip T3 this cycle. Cold, weight
               stuck and the old symptoms back means the 30-day course runs on
               the Wilson&rsquo;s pattern (ramp, hold, taper) described on the{" "}

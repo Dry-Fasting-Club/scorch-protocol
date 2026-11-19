@@ -17,7 +17,7 @@ const faqItems = [
   {
     question: "Can you dry fast with POTS?",
     answer:
-      "Yes, but POTS is a get-the-prep-right-first condition, not a disqualifier. Fluid shifts and T3 can provoke unpredictable responses in an autonomic system that is already misfiring, so the supportive stack (salt loading, electrolytes, compression, vagal work) has to be solid and stable before you fast, and you build from the shorter end. This is exactly the kind of counterintuitive case worth running past me with your own numbers in front of you before you start.",
+      "Yes. In my experience fasting is still very advisable with POTS, but it is a get-the-prep-right-first condition, not a disqualifier. Fluid shifts and T3 can provoke unpredictable responses in an autonomic system that is already misfiring, so the supportive stack (salt loading, electrolytes, compression, vagal work) has to be solid and stable before you fast, and you build from the shorter end. This is exactly the kind of counterintuitive case worth running past me with your own numbers in front of you before you start.",
   },
   {
     question: "Does fasting help POTS?",
@@ -52,7 +52,7 @@ export default function DryFastingForPotsPage() {
 
       <KeyTakeaways
         points={[
-          "POTS is not a disqualifier for the Scorch Protocol, but it is a get-the-prep-right-first condition. Done carelessly it is genuinely risky; done with the supportive stack in place and built gradually, it is doable.",
+          "POTS is not a reason to avoid fasting; in my experience fasting is still very advisable with it. It is a get-the-prep-right-first condition. Done carelessly it is genuinely risky; done with the supportive stack in place and built gradually, it is doable.",
           "In the Long Covid cascade, POTS is understood as baroreceptor failure driven by autonomic dysregulation, which is itself downstream of endothelial dysfunction caused by viral persistence.",
           "Dry fasting removes fluid volume rapidly. That alone is a significant hemodynamic stress for a POTS patient whose blood volume is already poorly regulated.",
           "T3 therapy affects heart rate, blood pressure, and autonomic tone. With dysautonomia already present, those effects are harder to predict, so it goes in slowly and watched.",
@@ -246,8 +246,9 @@ export default function DryFastingForPotsPage() {
       <div className="guiding-questions box-info">
         <h3>Baseline, monitoring, and a gradual approach</h3>
         <div className="question-item">
-          <span className="question-label">Get bloodwork and baseline orthostatic vitals first</span>
-          The standard preparation panel applies. For POTS specifically, get your baseline
+          <span className="question-label">Get baseline orthostatic vitals first</span>
+          The standard preparation panel is a good baseline, though labs are
+          not required to start. For POTS specifically, get your baseline
           orthostatic vitals (lying, sitting, and standing blood pressure and heart rate) before
           you begin anything. That gives you a real baseline to compare against during and after.
         </div>
@@ -343,7 +344,8 @@ export default function DryFastingForPotsPage() {
         <div className="question-item">
           <h3>Can you dry fast with POTS?</h3>
           <p>
-            Yes, but POTS is a get-the-prep-right-first condition, not a disqualifier. Fluid
+            Yes. In my experience fasting is still very advisable with POTS, but it is a
+            get-the-prep-right-first condition, not a disqualifier. Fluid
             shifts and T3 can provoke unpredictable responses in an autonomic system that is
             already misfiring, so the supportive stack (salt loading, electrolytes, compression,
             vagal work) has to be solid and stable before you fast, and you build from the shorter

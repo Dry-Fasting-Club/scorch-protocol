@@ -428,8 +428,9 @@ export default function LongCovidBasicsPage() {
           should be.
         </p>
         <p>
-          Once you have completed a cycle (a fast, a refeed and a 30-day T3
-          course, with the next fast seven days after the T3 course ends), the
+          Once you have completed a cycle (a fast, the refeed and at least a
+          month to recalibrate, a 30-day T3 course, and two weeks before the
+          next fast), the
           standing daily stack for the eating weeks between fasts is on the{" "}
           <Link href="/between-fasts">Between Fasts</Link> page.
         </p>

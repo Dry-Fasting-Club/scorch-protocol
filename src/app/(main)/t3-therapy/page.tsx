@@ -60,7 +60,7 @@ export default function T3TherapyPage() {
         "From the first taper step to a week after the last dose, everyone runs the full antiviral stack: L-lysine, monolaurin and valacyclovir (never during a fast). The taper and the trough are where the published cell work points; the ramp is watched too, because I have seen it trigger HSV in many cases.",
         "Stop increasing your dose if your resting heart rate goes above 100 bpm. If it goes above 90 bpm before you even start, resolve that first.",
         "T3 must be paired with enough calories and some physical movement. Without sufficient fuel, T3 burns muscle instead of fat.",
-        "In the Scorch Protocol, T3 does not run during the fast. You finish the entire fast (dry fast then water fast) with no T3, continue your antiviral coverage through the refeed, and start T3 only after the first 7 days of refeeding. A cycle is a fast, a refeed and this 30-day course, and the next fast opens seven days after the course ends.",
+        "In the Scorch Protocol, T3 does not run during the fast. You finish the entire fast (dry fast then water fast) with no T3, continue your antiviral coverage through the refeed, and start T3 only at least a month after the fast ends. A cycle is a fast, the refeed and at least a month to recalibrate, this 30-day course, and two weeks before the next fast.",
       ]} />
 
       <div className="guiding-questions box-danger">
@@ -436,7 +436,11 @@ export default function T3TherapyPage() {
           the job back to your own thyroid. Some people do better on a milder
           mix of T4 and T3; which, and how much, is set case by case. If the
           course does little, that is an answer too: wean off rather than
-          climb. And one exception runs the other way: if you have lived for
+          climb. In my experience feeling nothing on T3 has two causes: the
+          medication was not potent enough (expired, for example) or was the
+          wrong product, or your body was deactivating it, which sometimes
+          happens after several cycles or once you have recovered further.
+          And one exception runs the other way: if you have lived for
           years on very low carbohydrate with a low waking temperature, fasting
           can push you deeper into{" "}
           <a href="/healing-cycle">the stuck state</a>; for you the metabolism
@@ -451,9 +455,9 @@ export default function T3TherapyPage() {
         </p>
       </div>
 
-      <h2>When to Start T3: After the First 7 Days of Refeeding</h2>
+      <h2>When to Start T3: At Least a Month After the Fast</h2>
       <div className="guiding-questions box-info">
-        <h3>Finish the Fast First. T3 Starts After 7 Days of Refeeding.</h3>
+        <h3>Finish the Fast First. T3 Starts at Least a Month After It Ends.</h3>
         <p>
           In the Scorch Protocol, T3 does not run during the fast. You finish
           the whole fast, the dry fast first and then the water fast, with no T3
@@ -497,8 +501,8 @@ export default function T3TherapyPage() {
           never a generic number pulled off a webpage.
         </div>
         <div className="question-item">
-          <span className="question-label">Day 7 Is Also the Decision Point: Do You Need This Cycle At All?</span>
-          A week into the refeed you know how the fast left you. Running hot,
+          <span className="question-label">The Decision Point: Do You Need This Cycle At All?</span>
+          By the end of the month after the fast you know how the fast left you. Running hot,
           holding your weight, feeling great: you do not need the T3 cycle, and
           you skip it. Cold, weight that will not move, the old symptoms still
           there: that is the metabolic slowdown T3 is for, and the course
@@ -507,22 +511,25 @@ export default function T3TherapyPage() {
           and you bounce back.
         </div>
         <div className="question-item">
-          <span className="question-label">Then T3 Starts: After Day 7 of the Refeed</span>
-          Once you have 7 days of refeeding behind you, with fuel flowing and
-          the mitochondria supported, T3 begins. From there the 30-day course
+          <span className="question-label">Then T3 Starts: At Least a Month After the Fast</span>
+          Once you have at least a month after the fast behind you, with fuel
+          flowing and the mitochondria supported, T3 begins. One month is the
+          minimum buffer. In my experience starting T3 early looked worse than
+          waiting: the body needs that time to recalibrate, and the thyroid
+          system alone can take one to four months. From there the 30-day course
           below runs on the Wilson&rsquo;s pattern: ramp to your temperature
           target, hold, taper off, and let your own thyroid come back. Starting
           T3 after the refeed is established, instead of mid-fast, means you
           never ask a metabolic accelerant to run on an empty tank. The calories
           are already there, the antivirals have held the line, and the
-          mitochondrial support has done its prep work. Seven days after the
+          mitochondrial support has done its prep work. Two weeks after the
           course ends, the next fast opens: that is one full cycle.
         </div>
         <div className="question-item">
           <span className="question-label">Adjust for Body Composition:</span>
-          The 7-day mark is the floor, not a fixed date. It assumes you are
+          The one-month mark is the floor, not a fixed date. It assumes you are
           carrying enough body fat to fuel what T3 demands. If you are very lean
-          or close to skin-and-bones, starting T3 even after 7 days can trigger
+          or close to skin-and-bones, starting T3 right at the floor can trigger
           an adrenaline surge, so keep refeeding and rebuilding further before
           you begin. When you are unsure how much refeed runway you need, this
           is a timing call worth confirming with me directly.
@@ -772,9 +779,9 @@ export default function T3TherapyPage() {
           without any medicine.
         </li>
         <li>
-          <strong>What comes next:</strong> A cycle is a fast, a refeed and
-          this 30-day course. Seven days after the course ends, the next fast
-          opens. If the course did little for you, wean off and you bounce
+          <strong>What comes next:</strong> A cycle is a fast, the refeed and
+          at least a month to recalibrate, then this 30-day course. Two weeks
+          after the course ends, the next fast opens. If the course did little for you, wean off and you bounce
           back; that result tells me something too. hGH is not the next step
           by default: it enters around the third cycle, on top of T3, only when
           two cycles of fasting plus T3 have not done enough. See the{" "}

@@ -464,11 +464,12 @@ export default function HomePage() {
         symptoms and history. Then move to{" "}
         <Link href="/preparation">Phase 1: Preparation</Link> and work through
         each phase in order. Fast first, always; T3 before the fast is only for
-        the person fasting has already failed. A cycle is a fast, a refeed and
-        a 30-day T3 course, and the next fast opens seven days after the T3
-        course ends. Do not skip the preparation phase: the baseline blood
-        tests and supplement loading it requires directly affect how safe and
-        effective the fasting phases will be.
+        the person fasting has already failed. A cycle is a fast, the refeed
+        and at least a month to recalibrate, a 30-day T3 course, and two weeks
+        before the next fast. Do not skip the preparation phase: the
+        supplement loading it asks for directly affects how safe and
+        effective the fasting phases will be. Baseline blood tests are a good
+        baseline but not required to start.
       </p>
 
       <RefeedPlanPromo source="home" />

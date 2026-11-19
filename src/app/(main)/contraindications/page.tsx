@@ -117,7 +117,8 @@ export default function ContraindicationsPage() {
         </div>
         <div className="question-item">
           <span className="question-label">POTS or dysautonomia</span>
-          Fluid shifts and T3 can provoke unpredictable responses. Done
+          Not a reason to avoid fasting; in my experience it is still very
+          advisable. Fluid shifts and T3 can provoke unpredictable responses. Done
           carelessly it is genuinely risky. Done with the supportive stack in
           place and built gradually, it is doable. Get your baseline orthostatic
           vitals before you begin.

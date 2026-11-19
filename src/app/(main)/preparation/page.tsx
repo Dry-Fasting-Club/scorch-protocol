@@ -25,8 +25,8 @@ export default function PreparationPage() {
 
       <KeyTakeaways points={[
         "Preparation lowers the danger load before the push. The fewer alarms your body is already answering (a loaded gut, drugs to clear, a known deficiency), the further the fast can carry you. Why the order matters is on the healing cycle page.",
-        "Get baseline blood tests (thyroid, CBC, metabolic panel, Vitamin D, B12, iron, cortisol) and fix critical deficiencies before fasting.",
-        "Choose between two preparation paths: plant-based (gold standard, highest healing ceiling) or ketogenic (safer fallback, more forgiving for sicker or more medicated patients).",
+        "Baseline blood tests (thyroid, CBC, metabolic panel, Vitamin D, B12, iron, cortisol) are a good baseline but not required to start; symptoms and temperature are enough. Fix any known critical deficiency before fasting.",
+        "The preparation diet is decided person to person: plant-based is the default (gold standard, highest healing ceiling); ketogenic is the exception, for gut cases (SIBO, heavy bloating, carbs not yet tolerated).",
         "Eat light into the fast: oils, meat and anything hard to digest come out for the last one to two days, and the last day is juice only. Everyone also does a colon cleanse, set with me, from a few days of pulp-free juice at the gentle end to a week of higher-dose magnesium citrate (which also lowers the kidney-stone risk) at the strong end. No enemas, no colonics. A liver flush is case by case: for a long history on liver-intensive, fat-soluble medications, or gut motility that has truly failed; on few or no medications, skip it.",
         "Fast first, always. T3 before the fast is only for the person who has struggled with fasting, pushed through, kept getting worse with signs of metabolic trouble, and needs a jump start.",
         "Do not change or stop prescription medications on your own; medication tapering is selective and worked out individually, so bring your list to me before you touch anything.",
@@ -36,9 +36,10 @@ export default function PreparationPage() {
         Before starting the Scorch Protocol, you must get your body ready. Think
         of this as &ldquo;turning on the lights&rdquo; before the deep work
         begins. Preparation means testing your baseline health, fixing major
-        deficiencies, and then choosing one of two roads into the fast: a
-        plant-based path that heals deeper, or a ketogenic path that is safer
-        and far more forgiving. This page walks you through both.
+        deficiencies, and then taking one of two roads into the fast: the
+        plant-based path, which is the default and heals deeper, or the
+        ketogenic path, which is the exception for gut cases. This page walks
+        you through both.
       </p>
 
       <div className="guiding-questions">
@@ -80,8 +81,9 @@ export default function PreparationPage() {
 
       <h2>Step 1: Baseline Testing</h2>
       <p>
-        You cannot fix what you cannot measure. Get these tests done before
-        starting:
+        Labs are not required to start: symptoms and temperature are enough.
+        They do make a good baseline, so if you can, get these tests done
+        before starting:
       </p>
       <table>
         <thead>
@@ -179,11 +181,11 @@ export default function PreparationPage() {
 
       <h2>Step 3: Choose Your Preparation Path</h2>
       <p>
-        There are two ways to prepare for the fast, and they are not equal. One
-        gets you closer to fully healed. The other is safer and far more
-        forgiving. The right choice depends on how sick you are, how many
-        medications you are on, and how precisely you can follow a plan. Pick
-        honestly.
+        There are two ways to prepare for the fast, and they are not equal. The
+        plant-based path is the default, and it gets you closer to fully
+        healed. The ketogenic path is the exception, for gut cases: SIBO, heavy
+        bloating, or carbs you do not yet tolerate. Which one is yours is
+        decided person to person, with me.
       </p>
       <p>
         Both paths begin the same way. Starting at least <strong>3 weeks
@@ -204,8 +206,8 @@ export default function PreparationPage() {
             best from: a higher metabolic rate, higher T3, and a body primed so
             that the Day 3 acidotic shift hits with full force. That shift is the
             therapeutic event, and the larger your metabolic gap entering
-            ketosis, the deeper it goes. It demands precision, so choose it only
-            if you can follow the steps closely.
+            ketosis, the deeper it goes. It demands precision, so follow the
+            steps closely.
           </p>
           <p>
             <strong>After cutting those inputs, the taper counts down to the
@@ -267,7 +269,7 @@ export default function PreparationPage() {
           className="pillar-item"
           style={{ borderLeftColor: "#3498db" }}
         >
-          <h3>Path 2: Ketogenic Preparation (The Safer Fallback)</h3>
+          <h3>Path 2: Ketogenic Preparation (The Exception for Gut Cases)</h3>
           <p>
             This is the forgiving path. Eat <strong>50 grams of carbohydrate a
             day or less for at least 1 to 2 months</strong> before the fast, with
@@ -281,24 +283,22 @@ export default function PreparationPage() {
             The trade-off is ceiling. A body that eased into ketosis meets a
             smaller Day 3 shock, so the healing is gentler than the plant-based
             path. This is a tolerance accommodation, not a depth multiplier.
-            Choose it if you are seriously ill, on many medications, have failed
-            fasts before, cannot follow the plant-based steps precisely, or simply
-            want the largest safety margin for your first attempts.
+            It is for gut cases: SIBO, heavy bloating, or a gut that does not
+            yet tolerate carbs.
           </p>
         </div>
       </div>
       <div className="guiding-questions box-info">
         <h3>Which Path Is Right for You?</h3>
         <div className="question-item">
-          <span className="question-label">Choose Plant-Based if:</span>
-          You can follow a plan precisely, you are stable enough to taper
-          medications on a worked-out schedule, and you want the highest healing
+          <span className="question-label">Plant-Based, by default:</span>
+          This is the road for most people, and it has the highest healing
           ceiling.
         </div>
         <div className="question-item">
-          <span className="question-label">Choose Keto if:</span>
-          You are sicker, on many medications, have struggled with fasts before,
-          or want the safest and most forgiving on-ramp.
+          <span className="question-label">Keto, the exception:</span>
+          Your gut is the problem: SIBO, heavy bloating, or carbs you do not
+          yet tolerate. Then keto is the road in, set with me.
         </div>
         <div className="question-item">
           Fast first, always; T3 first only for the person who has struggled
