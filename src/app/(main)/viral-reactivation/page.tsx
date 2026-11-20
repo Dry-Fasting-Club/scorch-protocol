@@ -73,7 +73,7 @@ export default function ViralReactivationPage() {
         "An unprotected refeed can leave you more broadly infected than when you started, because cleared viral reservoirs get re-seeded in new nerve tissue.",
         "The bridge strategy (dry fast to water fast to protected refeed) puts the natural antiviral stack in place before food: L-lysine from water day 1, monolaurin and olive leaf with the first meal. Valacyclovir joins on refeed day 3 at the earliest and then runs daily for months. T3 is deliberately held until at least a month after the fast, so antivirals, not T3, are what guard the consolidation window (what I used to call the vulnerability window).",
         "Stop and escalate antivirals immediately if you feel tingling at a previous outbreak site, new nerve-territory pain, or a sudden return of pre-protocol fatigue.",
-        "If that tingling arrives while you are still fasting, dry or water, the response is different: convert to water with electrolytes, take L-lysine at once, break the fast once you are rehydrated, and bring valacyclovir in on the standing rule (refeed day 3 at the earliest), because it is renally cleared and a fasting body, even a water-fasting one, cannot clear it.",
+        "If that tingling arrives while you are still fasting, dry or water, the response is different: convert to water with sodium kept low, take L-lysine at once, break the fast once you are rehydrated, and bring valacyclovir in on the standing rule (refeed day 3 at the earliest), because it is renally cleared and a fasting body, even a water-fasting one, cannot clear it.",
         "Reactivation has five windows, not one: fast days 1 to 3, the first refeed week (the consolidation window's first seven days), the T3 ramp, the T3 taper and the trough after it, and the hGH wean. The same prodrome checklist runs at every one, each window has its own rule, and you keep logging your readings whether or not you feel anything.",
         "From the first T3 taper step to a week after the last T3 dose, everyone runs the full antiviral stack: L-lysine, monolaurin and valacyclovir (never during a fast). I have seen the T3 ramp trigger HSV in many cases, while the published cell work points at the hormone drop, so both ends of the course are covered.",
       ]} />
@@ -701,11 +701,13 @@ export default function ViralReactivationPage() {
       <div className="guiding-questions box-danger">
         <h3>Prodrome During the Fast: The Sequence</h3>
         <div className="question-item">
-          <span className="question-label">1. Convert to water, with electrolytes</span>
+          <span className="question-label">1. Convert to water, sodium kept low</span>
           If you are in the dry phase, this is the first move. It is not a
           refeed: water comes back, food does not, so ketosis holds, mTOR
           stays suppressed, and autophagy keeps working while the organs start
-          to rehydrate. Put electrolytes in the water from the first glass. If
+          to rehydrate. Electrolytes are not recommended in general; if you
+          take them, keep the sodium low (magnesium and potassium first),
+          unless you have POTS. If
           the prodrome arrives on the water days, you are already at this step.
         </div>
         <div className="question-item">
@@ -721,8 +723,8 @@ export default function ViralReactivationPage() {
           quickly, and the fast can be broken soon after. A prodrome deep
           into a long dry fast is a different body: the deficit is larger, it
           is not water alone, and it calls for a substantially longer stretch
-          of aggressive rehydration with electrolytes before the first
-          calories. The specific length, and where the line between a
+          of aggressive rehydration, with any electrolytes kept low in
+          sodium, before the first calories. The specific length, and where the line between a
           shallow and a deep dry fast sits for you, are per-case calls and are
           deliberately not published here. Do not estimate them. Ask me for
           the modified protocol, and keep rehydrating while you wait for
@@ -750,8 +752,8 @@ export default function ViralReactivationPage() {
           opens with a water-first lead-in, and the dry phase only begins
           once the fast&rsquo;s own protective mechanisms are established and
           the natural stack has had time to do its work. That lead-in has one
-          condition: at least 3 L of water a day with electrolytes, a pinch of
-          normal salt plus potassium salt, while the drug is held, because
+          condition: at least 3 L of water a day with sodium kept low (a pinch
+          of normal salt plus potassium salt, no more), while the drug is held, because
           valacyclovir does not run on the water days either. The restructure
           is built per patient and is not a public template.
         </div>
@@ -846,7 +848,7 @@ export default function ViralReactivationPage() {
           the top of this page are fully up. The rule: a prodrome here, or
           anywhere in the fast, ends the fast in the order set out{" "}
           <a href="#prodrome-in-fast">above</a>: convert to water with
-          electrolytes, L-lysine at once, break the fast once you are
+          sodium kept low, L-lysine at once, break the fast once you are
           rehydrated, and valacyclovir on the standing rule. Valacyclovir
           never goes into a fasting body.
         </div>

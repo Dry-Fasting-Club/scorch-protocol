@@ -85,7 +85,8 @@ export default function StarterKitPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Electrolytes: sodium, potassium, magnesium<Tag>OTC</Tag></span>
-          Enter the fast reloaded, not depleted.
+          Enter the fast reloaded, not depleted: a good electrolyte balance
+          going in, not pounding sodium.
         </div>
       </div>
 
@@ -179,8 +180,9 @@ export default function StarterKitPage() {
         </div>
         <div className="question-item">
           <span className="question-label">Electrolytes and live ferments<Tag>OTC / Food</Tag></span>
-          Potassium salt to replace what the fast burned, and kefir to start
-          rebuilding the microbiome.
+          Potassium salt, used lightly in place of table salt, to replace what
+          the fast burned (sodium stays low, unless you have POTS), and kefir
+          to start rebuilding the microbiome.
         </div>
       </div>
 

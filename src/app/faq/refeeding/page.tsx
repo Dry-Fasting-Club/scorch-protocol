@@ -26,7 +26,7 @@ const faqItems = [
   },
   {
     question: "I am craving salt like crazy. Can I have just a pinch?",
-    answer: "Caution is warranted. Your kidneys have been hoarding sodium (aldosterone is high). Adding dietary salt while aldosterone remains elevated causes your body to super-saturate with water, producing puffiness or edema. However, if you feel dizzy or have low blood pressure (hyponatremia symptoms), a tiny pinch under the tongue is a medical necessity. Use your symptoms, not your cravings, as the guide.",
+    answer: "Caution is warranted. Your kidneys have been hoarding sodium (aldosterone is high). Adding dietary salt while aldosterone remains elevated causes your body to super-saturate with water, producing puffiness or edema. However, if you feel dizzy or have low blood pressure (hyponatremia symptoms), a tiny pinch under the tongue is a medical necessity. Use your symptoms, not your cravings, as the guide. POTS is the exception: extra salt is a very common tool for keeping it manageable, it is trial and error, and you will know if you need it.",
   },
   {
     question: "My ankles are swollen (Edema) on Day 3. Did I ruin it?",
@@ -168,6 +168,11 @@ export default function RefeedingFaqPage() {
               (Hyponatremia symptoms), a tiny pinch under the tongue is a
               medical necessity. Use your symptoms, not your cravings, as the
               guide.
+            </p>
+            <p>
+              POTS is the exception: extra salt is a very common tool for
+              keeping it manageable, it is trial and error, and you will know
+              if you need it.
             </p>
           </div>
         </div>

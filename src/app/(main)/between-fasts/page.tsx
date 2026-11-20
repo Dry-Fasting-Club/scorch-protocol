@@ -315,14 +315,14 @@ export default function BetweenFastsPage() {
           </span>
           If a prodrome arrives while you are still fasting, dry or water,
           there is no course to escalate and no rehydrated body to clear the
-          drug with. That case ends the fast, in order: convert to water with
-          electrolytes if you are dry, L-lysine at once, break the fast once
+          drug with. That case ends the fast, in order: convert to water if
+          you are dry, sodium kept low, L-lysine at once, break the fast once
           you are rehydrated, monolaurin and olive leaf with the first
           calories, and valacyclovir on the standing rule above. A prodrome
           that repeats every cycle means the fast needs restructuring rather
           than a bigger rescue: a water-first lead-in, with one condition, at
-          least 3 L of water a day with electrolytes (a pinch of normal salt
-          plus potassium salt) while the drug is held. See{" "}
+          least 3 L of water a day with sodium kept low (a pinch of normal
+          salt plus potassium salt, no more) while the drug is held. See{" "}
           <Link href="/viral-reactivation">Viral Reactivation</Link> for the
           reasoning, and ask me for the modified protocol before improvising
           your own.

@@ -347,8 +347,14 @@ export default function DryFastingPage() {
           carnivore-style diets.
         </li>
         <li>
-          <strong>Nothing else:</strong> no food, no juice, no broth, no
-          electrolyte supplements.
+          <strong>Nothing else:</strong> no food, no juice, no broth.
+        </li>
+        <li>
+          <strong>Electrolytes:</strong> not recommended in general. Some
+          people take them anyway, and that is fine; if you do, keep the
+          sodium low (magnesium and potassium first), unless you have POTS.
+          The fasted body holds on to sodium hard, so too much of it brings
+          swelling.
         </li>
       </ul>
 

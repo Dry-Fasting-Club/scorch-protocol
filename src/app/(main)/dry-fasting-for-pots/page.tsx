@@ -301,9 +301,13 @@ export default function DryFastingForPotsPage() {
         <h3>POTS support: the foundation before fasting</h3>
         <div className="question-item">
           <span className="question-label">Salt loading and electrolytes</span>
-          3 to 5 g extra sodium daily, with oral electrolyte support. The kidneys conserve sodium
-          aggressively during dry fasting, but on eating days you need to maintain adequate
-          circulating volume. This is especially true for POTS.
+          Extra sodium is a very common tool for keeping POTS manageable. It is trial and
+          error: 3 to 5 g extra a day, with oral electrolyte support, is the range people
+          commonly use, and you will know whether you need it and how much. This is the
+          exception to my usual rule; without POTS, most people should keep salt low. The
+          kidneys conserve sodium aggressively during dry fasting, but on eating days you need
+          to maintain adequate circulating volume, and with POTS that is where the extra
+          sodium earns its place.
         </div>
         <div className="question-item">
           <span className="question-label">Compression garments</span>

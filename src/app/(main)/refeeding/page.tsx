@@ -694,7 +694,11 @@ export default function RefeedingPage() {
         <div className="question-item">
           <span className="question-label">Salt, all week:</span>
           Do not salt your food. Tiny amounts are fine, and food carries its
-          own sodium. Potassium matters more than sodium here, and the kompot,
+          own sodium. Your body is still holding on to sodium, and once
+          calories come back, carbohydrate above all, normal salting brings
+          swelling (edema). The exception is POTS: extra salt is a common tool
+          there, it is trial and error, and you will know if you need it.
+          Potassium matters more than sodium here, and the kompot,
           coconut water and broth supply it. Potassium salt (KCl) as a
           seasoning waits for day 3 and stays light. Someone eating low-carb
           would need more salt, but low-carb is not what this protocol

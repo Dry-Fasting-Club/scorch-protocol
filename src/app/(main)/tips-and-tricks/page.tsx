@@ -67,7 +67,9 @@ export default function TipsAndTricksPage() {
         <ul>
           <li>
             <strong>Hydrate Properly:</strong> In the 24-48 hours before your
-            fast, drink plenty of water with electrolytes, and make the last day
+            fast, drink plenty of water and go in with a good electrolyte
+            balance (balanced, not loaded with sodium, unless you have POTS),
+            and make the last day
             juice only (fresh, no pulp) so you go in hydrated with as little as
             possible left in the colon. Avoid overhydration immediately before
             starting, as this can cause discomfort.

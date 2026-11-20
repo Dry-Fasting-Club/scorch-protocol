@@ -178,8 +178,9 @@ export default function HomePage() {
             with food, sleep, sunlight and time. hGH is the last step, not a
             standard one: I reach for it only when someone is really struggling
             and the body cannot enter regeneration at all, around the third
-            cycle at the earliest. It is hard to get and controversial, so
-            otherwise we avoid it.
+            cycle at the earliest. It is difficult to obtain, so it is not a
+            required step, but in my experience it almost always improves the
+            situation when used correctly.
           </p>
           <p className="pillar-outcome">
             <em>

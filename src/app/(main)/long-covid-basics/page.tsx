@@ -236,8 +236,9 @@ export default function LongCovidBasicsPage() {
         </div>
         <div className="question-item">
           <span className="question-label">POTS / Dysautonomia</span>
-          Salt loading, oral electrolytes,
-          compression garments to mid-thigh, slow position changes (sit on
+          Extra salt and oral electrolytes (a very common tool for keeping
+          POTS manageable; it is trial and error, and you will know if you
+          need it), compression garments to mid-thigh, slow position changes (sit on
           edge of bed for 60 seconds before standing). Gentle vagal
           exercises (humming, gargling, cold face splash). If tachycardia
           is severe, ivabradine or a low-dose beta-blocker helps and is

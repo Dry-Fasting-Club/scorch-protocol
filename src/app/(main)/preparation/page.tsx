@@ -220,7 +220,8 @@ export default function PreparationPage() {
               sheds excess stored sodium so the fluid and blood-pressure swings of
               the first fasting days are gentler. This is about removing the
               excess, not depleting you. You bring electrolytes back up to a safe
-              baseline on the rehydrate day below.
+              baseline on the rehydrate day below. If you have POTS, salt is
+              trial and error, and you will know if you need it.
             </li>
             <li>
               <strong>The final week:</strong> Your colon cleanse (see Step 5),
@@ -240,7 +241,7 @@ export default function PreparationPage() {
               <strong>2 to 1 days out:</strong> No oils, no meat, nothing hard
               to digest. Light plant food only, cooked soft where that helps.
               This is also where you bring electrolytes back up to a safe
-              baseline before going in.
+              baseline before going in: a good balance, not pounding sodium.
             </li>
             <li>
               <strong>The last day:</strong> Juice only, fresh fruit and
@@ -456,7 +457,8 @@ export default function PreparationPage() {
           through the plant-based path salt, oil, and sugar free, these two days
           are also where you bring electrolytes back up to a safe baseline. You
           shed the excess earlier so the fast starts gently; you do not want to
-          walk in actually depleted.
+          walk in actually depleted. That means a good balance going in, not
+          pounding sodium.
         </div>
         <div className="question-item">
           <span className="question-label">Best Pre-Fast Hydration: Carb Juicing</span>
