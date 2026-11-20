@@ -365,7 +365,7 @@
        "kind": "stop",
        "title": "A stop rule, or a prodrome",
        "branch": "yes",
-       "body": "Stop rule hit: break the fast. Prodrome (tingling, sore throat, low fever): end the dry phase, go to water with electrolytes, L-lysine at once."
+       "body": "Stop rule hit: break the fast. Prodrome (tingling, sore throat, low fever): end the dry phase, go to water, sodium kept low, L-lysine at once."
       }
      ],
      "asks": [
@@ -388,9 +388,9 @@
      "main": {
       "id": "e57",
       "kind": "step",
-      "title": "Water only, with electrolytes",
+      "title": "Water only, sodium kept low",
       "locked": true,
-      "len": 112
+      "len": 108
      },
      "side": [],
      "asks": [
@@ -451,7 +451,7 @@
       "kind": "step",
       "title": "Antiviral cover all week",
       "locked": true,
-      "len": 122
+      "len": 123
      },
      "side": [],
      "asks": [
