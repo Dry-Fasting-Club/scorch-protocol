@@ -73,8 +73,11 @@ export default function ProtocolMapPage() {
         <p>
           Marked caveat: this map is my experience across my own cases, not a
           clinical trial. It shows the order of the protocol and the decisions
-          inside it. The amounts for T3, hGH and the peptides are set case by
-          case with me, and none of them is on this page.
+          inside it. It draws on my work with many people living with chronic
+          illness, simplified down to the key methods. Everyone is different
+          and may need to deviate slightly. The amounts for T3, hGH and the
+          peptides are unique to each person and may take some trial and
+          error.
         </p>
       </div>
 
